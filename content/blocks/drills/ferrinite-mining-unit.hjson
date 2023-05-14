@@ -1,0 +1,15 @@
+type: WallCrafter
+name: Ferrinite Mining Unit
+description: Mines Ferrinite slowly from Ferrinite and Aged Ferrinite Walls. 
+size: 2
+category: production
+research: ferrinite
+requirements: [
+  "item-ferrinite/20"
+]
+drillTime: 312
+output: item-ferrinite
+attribute: ferrinite
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
