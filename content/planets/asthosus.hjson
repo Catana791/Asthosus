@@ -1,7 +1,7 @@
 localizedName: Asthosus
 description: WIP
 alwaysUnlocked: true
-techTree: core-essence
+techTree: Asthosus
 unlockedOnLand: ["ferrinite-duct", "item-ferrinite"]
 mesh: {
   type: NoiseMesh
