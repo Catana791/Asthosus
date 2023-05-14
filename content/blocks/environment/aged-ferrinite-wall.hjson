@@ -1,4 +1,5 @@
 type: StaticWall
+name: Aged Ferrinite Wall
 attributes: {
   ferrinite: 1
 }
