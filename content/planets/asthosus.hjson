@@ -1,6 +1,8 @@
 localizedName: Asthosus
 description: WIP
 alwaysUnlocked: true
+techTree: core-essence
+unlockedOnLand: ["ferrinite-duct", "item-ferrinite"]
 mesh: {
   type: NoiseMesh
   planet: asthosus
@@ -72,4 +74,4 @@ defaultCore: core-shard
 parent: sun
 solarSystem: sun
 launchCandidates: []
-itemWhitelist: ["copper"]
+itemWhitelist: ["item-ferrinite", "item-demetite"]
