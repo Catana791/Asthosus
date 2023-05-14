@@ -1,8 +1,8 @@
 type: CoreBlock
 name: Core: Essence
 requirements: [
-  ferrinite/1600
-  demetite/1200
+  item-ferrinite/1600
+  item-demetite/1200
 ]
 isFirstTier: true
 alwaysUnlocked: true
