@@ -5,7 +5,7 @@ research: core-essence
 researchCost: [
   item-ferrinite/10
 ]
-speed: 2
+speed: 10
 health: 45
 requirements: [
   item-ferrinite/1
