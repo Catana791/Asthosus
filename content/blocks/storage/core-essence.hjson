@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Core: Essence
+requirements: [
+  ferrinite/1600
+  demetite/1200
+]
+isFirstTier: true
+alwaysUnlocked: true
+unitType: alpha
+health: 1450
+itemCapacity": 4500
+unitCapModifier: 8
+category: effect
+research: {
+  root: true
+  name: Asthosus
+  requiresUnlock: false
+}
