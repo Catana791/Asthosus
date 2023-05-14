@@ -1,0 +1,6 @@
+type: StaticWall
+name: Aged Ferrinite Wall
+description: "A wall that contains traces of Ferrinite which can be mined using specialized means. Has been exposed to the weather for a long time, reducing the amount of Ferrinite inside."
+attributes: {
+  ferrinite: 0.6
+}
