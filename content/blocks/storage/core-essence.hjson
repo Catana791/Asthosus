@@ -10,7 +10,7 @@ squareSprite: false
 alwaysUnlocked: true
 unitType: alpha
 health: 1450
-itemCapacity": 4500
+itemCapacity: 4500
 unitCapModifier: 8
 category: effect
 research: {
