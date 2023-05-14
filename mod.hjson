@@ -1,0 +1,9 @@
+name: "tn"
+description: 
+''' 
+  A mod aiming to add a new planet with new content and mechanics and a new campaign.
+'''
+author: "Fresh791"
+minGameVersion: 144.1
+version: "E"
+displayName: "Temporary Name"
