@@ -1,6 +1,3 @@
 type: StaticWall
 name: Aged Demetite Wall
-description: "A wall that contains traces of Demetite which can be mined using specialized means. Has been exposed to the weather for a long time, reducing the amount of Demetite inside."
-attributes: {
-  demetite: 0.6
-}
+description: "Contains traces of unsuable Demetite which can be mined using specialized means. Has been exposed to the weather for a long time, making the Demetite inside unusable."
