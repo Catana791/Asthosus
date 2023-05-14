@@ -13,3 +13,4 @@ attribute: ferrinite
 ambientSound: drill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
+squareSprite: false
