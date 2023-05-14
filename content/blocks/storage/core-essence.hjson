@@ -5,6 +5,8 @@ requirements: [
   item-demetite/1200
 ]
 isFirstTier: true
+size: 3
+squareSprite: false
 alwaysUnlocked: true
 unitType: alpha
 health: 1450
