@@ -1,0 +1,12 @@
+type: Duct
+name: Ferrinite Pipeline
+category: distribution
+research: core-essence
+researchCost: [
+  item-ferrinite/10
+]
+speed: 2
+health: 45
+requirements: [
+  item-ferrinite/1
+]
