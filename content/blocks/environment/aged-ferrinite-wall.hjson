@@ -1,5 +1,6 @@
 type: StaticWall
-name: Aged Ferrinite Wall
+name: Ferrinite Wall
+description: "A wall that contains traces of Ferrinite which can be mined using specialized means."
 attributes: {
   ferrinite: 1
 }
