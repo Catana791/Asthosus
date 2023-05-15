@@ -1,0 +1,16 @@
+type: BufferedItemBridge
+name: Ferrinite Pipeline Bridge
+description: Acts as a bridge for crossing pipelines or terrain.
+health: 135
+size: 1
+requirements: [
+  item-ferrinite/10,
+  item-demetite/6
+] 
+category: distribution
+research: ferrinite-duct-junction
+squareSprite: false
+range: 4
+speed: 107
+arrowSpacing: 7
+bufferCapacity: 11
