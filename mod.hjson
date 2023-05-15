@@ -1,4 +1,4 @@
-name: "tn"
+name: "asthosus"
 description: 
 ''' 
   A mod aiming to add a new planet with new content and mechanics and a new campaign.
@@ -6,4 +6,4 @@ description:
 author: "Fresh791"
 minGameVersion: 144.1
 version: "E"
-displayName: "Temporary Name"
+displayName: "Asthosus"
