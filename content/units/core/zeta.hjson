@@ -26,29 +26,32 @@ parts: [
     type: RegionPart
     suffix: -glow
     blending: additive
-    color: ffffff40
+    color: ffffff33
     outline: false
     mirror: false
   }
 ]
 weapons: [
   {
-    name: zeta-weapon
+    name: zeta-weapon-r
     parts: [
       {
         type: RegionPart
         suffix: -glow
         blending: additive
-        color: ffffff40
+        color: ffffff33
         outline: false
         mirror: false
       }
     ]
     x: 6.2
     y: -1
-    mirror: true
-    alternate: true
+    mirror: false
     reload: 21
+    shoot: {
+      shots: 2
+      shotDelay: 0.8
+    }
     ejectEffect: casing1
     bullet: {
       weaveScale: 3
@@ -58,7 +61,45 @@ weapons: [
       trailChance: -1
       trailEffect: dynamicSpikes
       speed: 2.2
-      damage: 9
+      damage: 4
+      lifetime: 60
+      width: 7
+      height: 12
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+    }
+  }
+  {
+    name: zeta-weapon-l
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    x: 6.2
+    y: -1
+    mirror: false
+    reload: 21
+    shoot: {
+      shots: 3
+      shotDelay: 0.6
+    }
+    ejectEffect: casing1
+    bullet: {
+      weaveScale: 3
+      weaveMag: 3
+      homingPower: 0.0923
+      type: BasicBulletType
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      speed: 2.2
+      damage: 3
       lifetime: 60
       width: 7
       height: 12
