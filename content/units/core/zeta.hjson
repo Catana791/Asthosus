@@ -26,6 +26,7 @@ parts: [
     type: RegionPart
     suffix: -glow
     blending: additive
+    color: de6c6c4D
     outline: false
     mirror: false
   }
@@ -33,15 +34,6 @@ parts: [
 weapons: [
   {
     name: zeta-weapon
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        outline: false
-        mirror: true
-      }
-    ]
     x: 6.2
     y: -1
     mirror: true
