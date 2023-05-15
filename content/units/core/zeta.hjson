@@ -32,6 +32,8 @@ weapons: [
       trailLength: 1
       trailEffect: dynamicSpikes
       speed: 2.2
+      frontColor: 8f8a77
+      backColor: 5b574e
       damage: 16
       lifetime: 60
       width: 7
