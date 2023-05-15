@@ -1,4 +1,4 @@
-type: BufferedItemBridge
+type: DuctBridge
 name: Ferrinite Pipeline Bridge
 description: Acts as a bridge for crossing pipelines or terrain.
 health: 135
