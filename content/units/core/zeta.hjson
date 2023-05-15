@@ -34,6 +34,16 @@ parts: [
 weapons: [
   {
     name: zeta-weapon
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff40
+        outline: false
+        mirror: false
+      }
+    ]
     x: 6.2
     y: -1
     mirror: true
