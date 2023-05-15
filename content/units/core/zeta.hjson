@@ -4,7 +4,7 @@ name: Zeta
 description: Defends the Essence core. Builds structures and mines ores.
 health: 125
 armor: 1
-speed: 2.65
+speed: 2.2
 hitSize: 6
 isEnemy: false
 lowAltitude: true
