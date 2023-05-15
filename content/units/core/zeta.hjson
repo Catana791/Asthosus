@@ -82,10 +82,10 @@ weapons: [
         mirror: false
       }
     ]
-    x: 6.2
+    x: -6.2
     y: -1
     mirror: false
-    reload: 21
+    reload: 32
     shoot: {
       shots: 3
       shotDelay: 0.6
@@ -99,7 +99,7 @@ weapons: [
       trailChance: -1
       trailEffect: dynamicSpikes
       speed: 2.2
-      damage: 3
+      damage: 4
       lifetime: 60
       width: 7
       height: 12
