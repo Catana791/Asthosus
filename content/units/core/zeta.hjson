@@ -26,7 +26,7 @@ parts: [
     type: RegionPart
     suffix: -glow
     blending: additive
-    color: de6c6c4D
+    color: ffffff66
     outline: false
     mirror: false
   }
