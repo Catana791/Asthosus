@@ -1,5 +1,9 @@
-type: flying
-flying: true
+type: legs
+legCount: 6
+legLength: 7
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
 name: Zeta
 description: Defends the Essence core. Builds structures and mines ores.
 health: 125
@@ -7,7 +11,6 @@ armor: 1
 speed: 2.2
 hitSize: 6
 isEnemy: false
-lowAltitude: true
 mineTier: 1
 buildSpeed: 0.4
 drag: 0.06
