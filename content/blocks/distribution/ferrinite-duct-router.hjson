@@ -1,0 +1,12 @@
+type: Router
+name: Ferrinite Pipeline Router
+description: Made from Ferrinite. Distributes input items from ducts to three directions equally. 
+size: 1
+speed: 16
+health: 110
+itemCapacity: 3
+requirements: [
+  item-ferrinite/5
+]
+category: distribution
+research: ferrinite-duct-junction
