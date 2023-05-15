@@ -7,7 +7,7 @@ researchCost: [
 ]
 speed: 10
 health: 45
-bridgeReplacement: ferrinite-duct-junction
+bridgeReplacement: ferrinite-duct-bridge
 requirements: [
   item-ferrinite/1
 ]
