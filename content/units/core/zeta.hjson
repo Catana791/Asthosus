@@ -7,7 +7,6 @@ armor: 1
 speed: 2.65
 hitSize: 6
 isEnemy: false
-aiController: BuilderAI
 lowAltitude: true
 mineTier: 1
 buildSpeed: 0.4
