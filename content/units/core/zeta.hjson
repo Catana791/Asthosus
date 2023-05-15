@@ -1,0 +1,41 @@
+type: flying
+flying: true
+name: Zeta
+description: Defends the Essence core. Builds structures and mines ores.
+health: 125
+armor: 1
+speed: 2.65
+hitSize: 6
+isEnemy: false
+aiController: BuilderAI
+lowAltitude: true
+mineTier: 1
+buildSpeed: 0.4
+drag: 0.06
+accel: 0.092
+itemCapacity: 20
+engineOffset: 6
+alwaysUnlocked: true
+outlineColor: 42413e
+weapons: [
+  {
+    name: zeta-weapon
+    x: 1
+    y: 1
+    mirror: true
+    alternate: true
+    reload: 21
+    ejectEffect: casing1
+    bullet: {
+      type: BasicBulletType
+      speed: 2.2
+      damage: 16
+      lifetime: 60
+      width: 7
+      height: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+    }
+  }
+]
