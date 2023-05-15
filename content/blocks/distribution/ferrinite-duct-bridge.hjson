@@ -11,6 +11,6 @@ category: distribution
 research: ferrinite-duct-junction
 squareSprite: false
 range: 4
-speed: 47
+speed: 18
 arrowSpacing: 7
 bufferCapacity: 11
