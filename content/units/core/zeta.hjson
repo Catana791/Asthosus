@@ -27,6 +27,10 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: BasicBulletType
+      trailChance: -1
+      trailWidth: 1
+      trailLength: 1
+      trailEffect: dynamicSpikes
       speed: 2.2
       damage: 16
       lifetime: 60
