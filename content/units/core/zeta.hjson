@@ -21,9 +21,27 @@ engineOffset: 6
 alwaysUnlocked: true
 research: core-essence
 outlineColor: 42413e
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    outline: false
+    mirror: false
+  }
+]
 weapons: [
   {
     name: zeta-weapon
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        outline: false
+        mirror: false
+      }
+    ]
     x: 6.2
     y: -1
     mirror: true
