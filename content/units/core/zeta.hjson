@@ -20,7 +20,7 @@ weapons: [
   {
     name: zeta-weapon
     x: 6.2
-    y: -1.2
+    y: -1
     mirror: true
     alternate: true
     reload: 21
