@@ -19,6 +19,7 @@ drag: 0.4
 itemCapacity: 20
 engineOffset: 6
 alwaysUnlocked: true
+research: core-essence
 outlineColor: 42413e
 weapons: [
   {
