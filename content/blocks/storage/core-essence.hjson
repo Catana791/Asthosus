@@ -8,7 +8,7 @@ isFirstTier: true
 size: 3
 squareSprite: false
 alwaysUnlocked: true
-unitType: alpha
+unitType: zeta
 health: 1450
 itemCapacity: 4500
 unitCapModifier: 8
