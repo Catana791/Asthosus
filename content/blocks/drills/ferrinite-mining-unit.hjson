@@ -3,7 +3,7 @@ name: Ferrinite Mining Unit
 description: Mines Ferrinite slowly from Ferrinite and Aged Ferrinite Walls. 
 size: 2
 category: production
-research: ferrinite
+research: core-essence
 requirements: [
   "item-ferrinite/20"
 ]
