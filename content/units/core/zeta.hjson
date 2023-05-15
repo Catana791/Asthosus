@@ -7,7 +7,7 @@ legMoveSpace: 0.9
 hovering: true
 name: Zeta
 description: Defends the Essence core. Builds structures and mines ores.
-health: 125
+health: 135
 armor: 1
 speed: 1.2
 hitSize: 6
@@ -54,14 +54,12 @@ weapons: [
     }
     ejectEffect: casing1
     bullet: {
-      weaveScale: 3
-      weaveMag: 3
       homingPower: 0.0923
       type: BasicBulletType
       trailChance: -1
       trailEffect: dynamicSpikes
       speed: 2.2
-      damage: 4
+      damage: 8
       lifetime: 60
       width: 7
       height: 12
@@ -99,7 +97,7 @@ weapons: [
       trailChance: -1
       trailEffect: dynamicSpikes
       speed: 2.2
-      damage: 4
+      damage: 5
       lifetime: 60
       width: 7
       height: 12
@@ -121,7 +119,7 @@ weapons: [
       type: ArtilleryBulletType
       speed: 1.65
       lifetime: 90
-      damage: 14
+      damage: 16
       splashDamage: 5
       splashDamageRadius: 8
       width: 9
