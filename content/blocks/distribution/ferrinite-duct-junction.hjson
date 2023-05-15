@@ -7,5 +7,6 @@ speed: 52
 requirements: [
   item-ferrinite/4
 ]
+squareSprite: false
 category: distribution
 research: ferrinite-duct
