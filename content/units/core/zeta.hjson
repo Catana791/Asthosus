@@ -19,8 +19,8 @@ outlineColor: 42413e
 weapons: [
   {
     name: zeta-weapon
-    x: 3.2
-    y: 1
+    x: 3.3
+    y: 1.4
     mirror: true
     alternate: true
     reload: 21
