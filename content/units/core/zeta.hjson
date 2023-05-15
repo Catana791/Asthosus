@@ -1,5 +1,5 @@
 type: legs
-legCount: 6
+legCount: 4
 legLength: 7
 legForwardScl: 0.56
 legMoveSpace: 0.9
@@ -8,13 +8,12 @@ name: Zeta
 description: Defends the Essence core. Builds structures and mines ores.
 health: 125
 armor: 1
-speed: 2.2
+speed: 1.2
 hitSize: 6
 isEnemy: false
 mineTier: 1
 buildSpeed: 0.4
-drag: 0.06
-accel: 0.092
+drag: 0.4
 itemCapacity: 20
 engineOffset: 6
 alwaysUnlocked: true
