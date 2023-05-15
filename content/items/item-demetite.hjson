@@ -2,4 +2,4 @@ name: Demetite
 description: A metallic resource used in basic building. 
 cost: 0.7
 color: beb48f
-research: ferrinite
+research: item-ferrinite
