@@ -37,8 +37,6 @@ weapons: [
       trailChance: -1
       trailEffect: dynamicSpikes
       speed: 2.2
-      frontColor: 8f8a77
-      backColor: 5b574e
       damage: 9
       lifetime: 60
       width: 7
@@ -64,8 +62,6 @@ weapons: [
       damage: 11
       splashDamage: 3
       splashDamageRadius: 4
-      frontColor: 8f8a77
-      backColor: 5b574e
       width: 9
       height: 11
       trailChance: -1
