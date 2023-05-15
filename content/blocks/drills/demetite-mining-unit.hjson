@@ -1,6 +1,6 @@
 type: WallCrafter
 name: Demetite Mining Unit
-description: Mines Demetite slowly from Ferrinite Walls. 
+description: Mines Demetite slowly from Demetite Walls. 
 size: 2
 category: production
 research: ferrinite
