@@ -8,5 +8,6 @@ itemCapacity: 3
 requirements: [
   item-ferrinite/5
 ]
+squareSprite: false
 category: distribution
 research: ferrinite-duct-junction
