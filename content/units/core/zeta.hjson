@@ -40,7 +40,7 @@ weapons: [
       damage: 9
       lifetime: 60
       width: 7
-      height: 9
+      height: 12
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       buildingDamageMultiplier: 0.01
@@ -59,9 +59,9 @@ weapons: [
       type: ArtilleryBulletType
       speed: 1.65
       lifetime: 90
-      damage: 11
-      splashDamage: 3
-      splashDamageRadius: 4
+      damage: 14
+      splashDamage: 5
+      splashDamageRadius: 8
       width: 9
       height: 11
       trailChance: -1
