@@ -29,10 +29,11 @@ weapons: [
     reload: 21
     ejectEffect: casing1
     bullet: {
+      weaveScale: 3
+      weaveMag: 3
+      homingPower: 0.0923
       type: BasicBulletType
       trailChance: -1
-      trailWidth: 1
-      trailLength: 1
       trailEffect: dynamicSpikes
       speed: 2.2
       frontColor: 8f8a77
