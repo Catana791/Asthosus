@@ -39,7 +39,7 @@ weapons: [
         suffix: -glow
         blending: additive
         outline: false
-        mirror: false
+        mirror: true
       }
     ]
     x: 6.2
