@@ -1,0 +1,12 @@
+type: Conduit
+name: Ferrinite Wire
+description: Transfers power when placed next to more wires. 
+conductivePower: true
+hasLiquids: false
+health: 70
+liquidPressure: 0
+requirements: [
+  item-ferrinite/1
+]
+category: power
+research: core-essence
