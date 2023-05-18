@@ -1,0 +1,15 @@
+type: LiquidJunction
+name: Ferrinite Wire Junction
+description: Used to cross two Ferrinite Wires. 
+conductivePower: true
+hasPower: true
+outputsPower: true
+liquidCapacity: 0
+consumes: {
+  powerBuffered: 500
+}
+requirements: [
+  item-ferrinite/3
+]
+category: power
+research: ferrinite-wire
