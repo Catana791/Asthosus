@@ -5,6 +5,8 @@ conductivePower: true
 health: 70
 hasPower: true
 outputsPower: true
+junctionReplacement: ferrinite-wire-junction
+bridgeReplacement: none
 liquidPressure: 0
 liquidCapacity: 0
 consumes: {
