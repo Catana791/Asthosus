@@ -7,7 +7,7 @@ hasPower: true
 outputsPower: true
 liquidPressure: 0
 consumes: {
-  powerBuffered: 1000
+  powerBuffered: 100
 } 
 requirements: [
   item-ferrinite/1
