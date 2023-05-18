@@ -6,6 +6,7 @@ health: 70
 hasPower: true
 outputsPower: true
 liquidPressure: 0
+liquidCapacity: 0
 consumes: {
   powerBuffered: 100
 } 
