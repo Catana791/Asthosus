@@ -3,6 +3,7 @@ name: Ferrinite Wire Junction
 description: Used to cross two Ferrinite Wires. 
 conductivePower: true
 hasPower: true
+health: 90
 outputsPower: true
 liquidCapacity: 0
 consumes: {
