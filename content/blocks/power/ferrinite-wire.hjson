@@ -6,6 +6,9 @@ health: 70
 hasPower: true
 outputsPower: true
 liquidPressure: 0
+consumes: {
+  powerBuffered: 1000
+} 
 requirements: [
   item-ferrinite/1
 ]
