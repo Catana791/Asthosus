@@ -3,6 +3,8 @@ name: Ferrinite Wire
 description: Transfers power when placed next to more wires. 
 conductivePower: true
 health: 70
+hasPower: true
+outputsPower: true
 liquidPressure: 0
 requirements: [
   item-ferrinite/1
