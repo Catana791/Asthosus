@@ -7,5 +7,9 @@ squareSprite: false
 consumes: {
   powerBuffered: 2000
 }
+requirements: [
+  item-ferrinite/15,
+  item-demetite/5
+]
 category: power
 research: ferrinite-wire
