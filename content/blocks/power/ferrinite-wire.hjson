@@ -1,6 +1,6 @@
 type: Conduit
 name: Ferrinite Wire
-description: Transfers power when placed next to more wires. 
+description: Transfers power when placed next to more wires. Can store very small amounts of power.
 conductivePower: true
 health: 70
 hasPower: true
