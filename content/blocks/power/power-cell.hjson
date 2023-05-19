@@ -11,7 +11,7 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: RegionPart
+      type: DrawRegion
       suffix: -glow
       blending: additive
       color: ffffff33
