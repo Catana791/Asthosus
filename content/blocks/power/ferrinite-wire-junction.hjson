@@ -7,7 +7,7 @@ health: 90
 outputsPower: true
 liquidCapacity: 0
 consumes: {
-  powerBuffered: 500
+  powerBuffered: 10
 }
 requirements: [
   item-ferrinite/3
