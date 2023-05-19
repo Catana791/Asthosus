@@ -7,21 +7,5 @@ squareSprite: false
 consumes: {
   powerBuffered: 2000
 }
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    }
-    {
-      type: DrawRegion
-      suffix: -glow
-      blending: additive
-      color: ffffff33
-      outline: false
-      mirror: false
-    }
-  ]
-}
 category: power
 research: ferrinite-wire
