@@ -1,0 +1,22 @@
+type: Battery
+name: Power Cell
+description: A simple power cell made for holding and storing power.
+health: 65
+size: 1
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: RegionPart
+      suffix: -glow
+      blending: additive
+      color: ffffff33
+      outline: false
+      mirror: false
+    }
+  ]
+}
