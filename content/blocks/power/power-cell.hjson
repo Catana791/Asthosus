@@ -4,6 +4,9 @@ description: A simple power cell made for holding and storing power.
 health: 65
 size: 1
 squareSprite: false
+consumes: {
+  powerBuffered: 2000
+}
 drawer: {
   type: DrawMulti
   drawers: [
@@ -20,3 +23,5 @@ drawer: {
     }
   ]
 }
+category: power
+research: ferrinite-wire
