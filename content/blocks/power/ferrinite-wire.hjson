@@ -10,7 +10,7 @@ bridgeReplacement: imaginary-bridge
 liquidPressure: 0
 liquidCapacity: 0
 consumes: {
-  powerBuffered: 100
+  powerBuffered: 5
 } 
 requirements: [
   item-ferrinite/1
