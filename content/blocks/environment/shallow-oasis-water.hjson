@@ -1,10 +1,11 @@
 type: Floor
+name: Shallow Oasis Water
 speedMultiplier: 0.7
 variants: 0
 status: asthosus-status-rejuvenated
 statusDuration: 10
 liquidDrop: water
 isLiquid: true
-cacheLayer: cryofluid
+cacheLayer: water
 albedo: 0.9
 supportsOverlay: true
