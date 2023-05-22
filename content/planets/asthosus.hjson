@@ -72,4 +72,4 @@ defaultCore: core-shard
 parent: sun
 solarSystem: sun
 launchCandidates: []
-itemWhitelist: ["item-ferrinite", "item-demetite", "liquid-oasis-water"]
+itemWhitelist: ["item-ferrinite", "item-demetite"]
