@@ -6,6 +6,6 @@ status: asthosus-status-rejuvenated
 statusDuration: 10
 liquidDrop: water
 isLiquid: true
-cacheLayer: water
+cacheLayer: space
 albedo: 0.9
 supportsOverlay: true
