@@ -4,7 +4,7 @@ speedMultiplier: 0.7
 variants: 3
 status: asthosus-status-rejuvenated
 statusDuration: 10
-liquidDrop: water
+liquidDrop: liquid-oasis-water
 isLiquid: true
 cacheLayer: water
 albedo: 0.9
