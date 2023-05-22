@@ -1,0 +1,27 @@
+type: BurstDrill
+name: Explosion Quarry
+description: Uses small scale friction explosions to mine basic materials from the ground.
+size: 1
+category: production
+research: demetite-mining-unit
+drillTime: 660
+hasPower: false
+tier: 2
+drillEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      mineImpact
+    }
+    {
+      drillSteam
+    } 
+  ]
+}
+shake: 0.5
+itemCapacity: 20
+researchCostMultiplier: 0.6
+requirements: [
+  item-ferrinite/20
+  item-demetite/20
+]
