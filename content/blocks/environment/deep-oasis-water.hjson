@@ -1,0 +1,12 @@
+type: Floor
+speedMultiplier: 0.5
+variants: 0
+status: asthosus-rejuvenated
+statusDuration: 30
+drownTime: 660
+liquidDrop: water
+liquidMultiplier: 1.4
+isLiquid: true
+cacheLayer: cryofluid
+albedo: 0.9
+supportsOverlay: true
