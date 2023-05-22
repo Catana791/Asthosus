@@ -1,7 +1,7 @@
 type: Floor
 speedMultiplier: 0.5
 variants: 0
-status: asthosus-rejuvenated
+status: asthosus-status-rejuvenated
 statusDuration: 30
 drownTime: 660
 liquidDrop: water
