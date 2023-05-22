@@ -5,7 +5,7 @@ variants: 3
 status: asthosus-status-rejuvenated
 statusDuration: 30
 drownTime: 660
-liquidDrop: water
+liquidDrop: liquid-oasis-water
 liquidMultiplier: 1.4
 isLiquid: true
 cacheLayer: water
