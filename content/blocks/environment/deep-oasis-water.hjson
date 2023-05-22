@@ -1,7 +1,7 @@
 type: Floor
 name: Deep Oasis Water
 speedMultiplier: 0.5
-variants: 0
+variants: 3
 status: asthosus-status-rejuvenated
 statusDuration: 30
 drownTime: 660
