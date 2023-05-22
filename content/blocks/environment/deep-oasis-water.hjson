@@ -7,6 +7,6 @@ drownTime: 660
 liquidDrop: water
 liquidMultiplier: 1.4
 isLiquid: true
-cacheLayer: cryofluid
+cacheLayer: water
 albedo: 0.9
 supportsOverlay: true
