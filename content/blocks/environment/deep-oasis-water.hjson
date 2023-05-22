@@ -1,4 +1,5 @@
 type: Floor
+name: Deep Oasis Water
 speedMultiplier: 0.5
 variants: 0
 status: asthosus-status-rejuvenated
