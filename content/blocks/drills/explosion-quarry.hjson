@@ -7,17 +7,6 @@ research: demetite-mining-unit
 drillTime: 660
 hasPower: false
 tier: 2
-drillEffect: {
-  type: MultiEffect
-  effects: [
-    {
-      mineImpact
-    }
-    {
-      drillSteam
-    } 
-  ]
-}
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: 0.6
