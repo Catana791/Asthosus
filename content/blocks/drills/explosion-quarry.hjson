@@ -1,5 +1,5 @@
 type: BurstDrill
-name: Explosion Quarry
+name: Friction Quarry
 description: Uses small scale friction explosions to mine basic materials from the ground.
 size: 1
 category: production
@@ -10,6 +10,15 @@ tier: 2
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: 0.6
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 1.1
+  strokeFrom: 0.8
+  strokeTo: 0.1
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+}
 consumes: {
   liquid: {
     liquid: liquid-oasis-water
