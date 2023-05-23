@@ -13,11 +13,12 @@ researchCostMultiplier: 0.6
 drillEffect: {
   type: WaveEffect
   sizeFrom: 0.1
-  sizeTo: 1.1
+  sizeTo: 3.6
   strokeFrom: 0.8
   strokeTo: 0.1
   colorFrom: 8f8d87
   colorTo: 6b6a66
+  lifetime: 20
 }
 consumes: {
   liquid: {
