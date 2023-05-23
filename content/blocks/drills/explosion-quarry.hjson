@@ -13,7 +13,7 @@ researchCostMultiplier: 0.6
 drillEffect: {
   type: WaveEffect
   sizeFrom: 0.1
-  sizeTo: 3.6
+  sizeTo: 5.6
   strokeFrom: 0.8
   strokeTo: 0.1
   colorFrom: 8f8d87
