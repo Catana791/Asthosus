@@ -49,9 +49,7 @@ drawer: {
       progress: recoil
       mirror: false
       under: true
-      moveY: -1
-      growX: 0.4
-      growY: 0.4
+      moveY: -0.8
     }
   ]
 }
