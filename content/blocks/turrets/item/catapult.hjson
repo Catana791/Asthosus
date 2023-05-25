@@ -26,7 +26,7 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 4
+    splashDamage: 7
     splashDamageRadius: 7
   }
   item-demetite: {
@@ -35,7 +35,7 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 5
+    splashDamage: 8
     splashDamageRadius: 9
   }
 }
