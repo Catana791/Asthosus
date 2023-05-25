@@ -23,3 +23,9 @@ drawer: {
     }
   ]
 }
+category: crafting
+research: core-essence
+requirements: [
+  item-ferrinite/30
+  item-demetite/30
+]
