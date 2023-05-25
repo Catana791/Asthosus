@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Catapult
+description: Fires bursts of small artillery shells at enemies over medium distances.
+size: 1
+category: turret
+research: core-essence
+requirements: [
+  item-ferrinite/40
+]
+targetAir: false
+targetGround: true
+reload: 72
+shootSound: artillery
+range: 160
+velocityRnd: 0.12
+inaccuracy: 5
+shoot: {
+  shots: 3
+  shotDelay: 0.78
+}
+ammoTypes: {
+  item-ferrinite: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 4
+    splashDamageRadius: 7
+  }
+  item-demetite: {
+    type: ArtilleryBulletType
+    widht: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 5
+    splashDamageRadius: 9
+  }
+}
