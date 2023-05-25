@@ -7,6 +7,7 @@ research: core-essence
 requirements: [
   item-ferrinite/40
 ]
+outlineColor: 42413e
 targetAir: false
 targetGround: true
 reload: 72
@@ -49,23 +50,8 @@ drawer: {
       mirror: false
       under: true
       moveY: -1
-      growX: 0.1
-      growY: 0.1
+      growX: 0.4
+      growY: 0.4
     }
-    {
-      type: RegionPart
-      suffix: -indicator
-      mirror: true
-      under: true
-      moveX: 1
-      progress: reload
-      moves: [
-        {
-          type: PartMove
-          progress: recoil
-          x: -1
-        }
-      ]
-    } 
   ]
 }
