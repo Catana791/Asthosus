@@ -8,6 +8,7 @@ ambientSound: smelter
 ambientSoundVolume: 0.06
 attribute: light
 warmupRate: 10
+rotate: false
 drawer: {
   type: DrawMulti
   drawers: [
