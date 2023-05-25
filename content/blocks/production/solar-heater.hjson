@@ -1,0 +1,24 @@
+type: HeatProducer
+name: Solar Heater
+description: Uses the sun to produce heat that can then be used to power pressure machines.
+size: 1
+health: 70
+heatOutput: 1
+ambientSound: smelter
+ambientSoundVolume: 0.06
+attribute: light
+warmupRate: 10
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
