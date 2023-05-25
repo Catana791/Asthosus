@@ -39,7 +39,7 @@ ammoTypes: {
   }
 }
 drawer: {
-  type: DrawMulti
+  type: DrawTurret
   basePrefix: spiky-
   parts: [
     {
