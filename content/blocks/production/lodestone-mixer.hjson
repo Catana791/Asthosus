@@ -21,14 +21,15 @@ craftEffect: {
   rotationSpacing: 90
   rotationOffset: 45
   amount: 4
-  lengthOffset: 8
+  lengthOffset: 6
   effect: {
     type: ParticleEffect
+    spin: 0.1
     particles: 3
     length: 9
     line: true
-    sizeFrom: 0.4
-    sizeTo: 0.1
+    strokeFrom: 1
+    strokeTo: 0.1
     colorFrom: 8f8d87
     colorTo: 6b6a66
     lifetime: 75
