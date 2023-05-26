@@ -1,0 +1,44 @@
+type: GenericCrafter
+name: Lodestone Mixer
+description: Mixes and magnetizes Ferrinite and Hardened Sand into Lodestone while also outputting sand.
+size: 2
+scaledHealth: 60
+outputItems: [
+  item-lodestone/1
+  sand/1
+]
+consumes: {
+  items: [
+    item-ferrinite/1
+    item-hardened-sand/1
+  ]
+}
+craftTime: 30
+category: crafting
+research: core-essence
+requirements: [
+  item-ferrinite/40
+  item-demetite/30
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2.1
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}
