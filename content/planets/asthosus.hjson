@@ -68,7 +68,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: core-shard
+defaultCore: core-essence
 parent: sun
 solarSystem: sun
 launchCandidates: []
