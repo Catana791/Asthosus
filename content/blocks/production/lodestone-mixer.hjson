@@ -3,6 +3,7 @@ name: Lodestone Mixer
 description: Mixes and magnetizes Ferrinite and Hardened Sand into Lodestone while also outputting sand.
 size: 2
 scaledHealth: 60
+squareSprite: false
 outputItems: [
   item-lodestone/1
   sand/1
