@@ -21,19 +21,21 @@ craftEffect: {
   rotationSpacing: 90
   rotationOffset: 45
   amount: 4
-  lengthOffset: 4
+  lengthOffset: 8
   effect: {
     type: ParticleEffect
+    particles: 3
     length: 9
     line: true
-    sizeFrom: 1
-    sizeTo: 0.2
+    sizeFrom: 0.4
+    sizeTo: 0.1
     colorFrom: 8f8d87
     colorTo: 6b6a66
+    lifetime: 75
     interp: pow2
     sizeInterp: pow3In
     layer: 80
-    cone: 4
+    cone: 12
     useRotation: false
     baseRotation: 90
   }
