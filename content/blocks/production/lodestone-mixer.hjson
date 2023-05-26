@@ -13,7 +13,7 @@ consumes: {
     item-hardened-sand/1
   ]
 }
-craftTime: 30
+craftTime: 90
 category: crafting
 research: core-essence
 requirements: [
@@ -42,3 +42,5 @@ drawer: {
     } 
   ]
 }
+ambientSound: grinding
+ambientSoundVolume: 0.08
