@@ -14,6 +14,7 @@ itemCapacity: 4500
 unitCapModifier: 8
 category: effect
 research: {
+  planet: asthosus
   root: true
   name: Asthosus
   requiresUnlock: false
