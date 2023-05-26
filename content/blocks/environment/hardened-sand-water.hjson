@@ -1,0 +1,6 @@
+type: ShallowLiquid
+name: Hardened Sand Oasis Water
+liquidDrop: liquid-oasis-water
+liquidMultiplier: 0.7
+isLiquid: true
+cacheLayer: water
