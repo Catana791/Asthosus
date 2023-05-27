@@ -1,6 +1,6 @@
 type: Sorter
 invert: true
-name: Inverted Duct Sorters
+name: Inverted Pipeline Sorter
 description: Works like a Duct Sorter but outputs selected items to the sides instead of straight on.
 category: distribution
 research: duct-sorter
