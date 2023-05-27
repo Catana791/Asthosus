@@ -3,7 +3,7 @@ name: Ignite Burner
 description: Burns flammable Lignite to produce heat.
 size: 2
 heatOutput: 3
-craftTime 180
+craftTime: 180
 drawer: {
   type: DrawMulti
   drawers: [
