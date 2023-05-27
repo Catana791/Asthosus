@@ -1,0 +1,3 @@
+type: OreBlock
+name: Lignite Ore
+itemDrop: item-lignite
