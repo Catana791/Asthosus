@@ -37,5 +37,5 @@ category: crafting
 research: solar-heater
 requirements: [
   item-ferrinite/30
-  itemDemetite/30
+  item-demetite/30
 ]
