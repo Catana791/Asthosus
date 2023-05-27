@@ -4,6 +4,7 @@ description: Uses heat to create pressure.
 size: 2
 heatRequirement: 3
 outputLiquid: pressure/0.1
+squareSprite: false
 category: crafting
 research: solar-heater
 requirements: [
