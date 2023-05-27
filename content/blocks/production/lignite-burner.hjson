@@ -1,0 +1,35 @@
+type: HeatProducer
+name: Ignite Burner
+description: Burns flammable Lignite to produce heat.
+size: 2
+heatOutput: 3
+craftTime 180
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+consumes: {
+  items: [
+    item-lignite/1
+  ]
+}
+rotate: false
+ambientSound: smelter
+ambientSoundVolume: 0.08
+category: crafting
+research: solar-heater
+requirements: [
+  item-ferrinite/30
+  itemDemetite/30
+]
