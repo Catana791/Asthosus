@@ -4,6 +4,7 @@ description: Burns flammable Lignite to produce heat.
 size: 2
 heatOutput: 3
 craftTime: 180
+squareSprite: false
 drawer: {
   type: DrawMulti
   drawers: [
