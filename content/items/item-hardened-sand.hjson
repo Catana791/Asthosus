@@ -2,3 +2,4 @@ name: Hardened Sand
 hardness: 2
 cost: 0.2
 lowPriority: true
+research: item-ferrinite
