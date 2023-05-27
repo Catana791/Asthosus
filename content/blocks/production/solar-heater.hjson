@@ -1,5 +1,5 @@
 type: HeatProducer
-name: Athmospheric Heater
+name: Atmospheric Heater
 description: Stores and concentrates the heat from Asthosus' environment to be used by machines.
 size: 1
 health: 70
@@ -25,6 +25,6 @@ drawer: {
 category: crafting
 research: core-essence
 requirements: [
-  item-ferrinite/30
-  item-demetite/30
+  item-ferrinite/15
+  item-demetite/12
 ]
