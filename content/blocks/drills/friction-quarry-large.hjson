@@ -4,7 +4,7 @@ description: Uses friction explosions to mine basic materials from the ground. R
 size: 2
 category: production
 research: explosion-quarry
-drillTime: 520
+drillTime: 580
 hasPower: false
 tier: 3
 shake: 1
