@@ -27,32 +27,32 @@ drawer: {
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: 4
-      y: 4
+      x: 2.2
+      y: 2.2
       spinSprite: true
       rotateSpeed: 1.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: -4
-      y: 4
+      x: -2.2
+      y: 2.2
       spinSprite: true
       rotateSpeed: 1.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: 4
-      y: -4
+      x: 2.2
+      y: -2.2
       spinSprite: true
       rotateSpeed: 1.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: -4
-      y: -4
+      x: -2.2
+      y: -2.2
       spinSprite: true
       rotateSpeed: 1.2
     }
