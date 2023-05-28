@@ -7,6 +7,7 @@ underBullets: true
 health: 45
 liquidCapacity: 20
 category: liquid
+squareSprite: false
 research: aqueduct-junction
 requirements: [
   item-lodestone/14
