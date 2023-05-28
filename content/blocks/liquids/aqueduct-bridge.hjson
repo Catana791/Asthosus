@@ -1,0 +1,13 @@
+type: LiquidBridge
+name: Aqueduct Bridge
+description: Used for crossing multiple distribution lines or terrain to connect Aqueducts.
+fadeIn: false
+moveArrows: false
+arrowSpacing: 6
+range: 4
+hasPower: false
+category: liquid
+research: aqueduct-junction
+requirements: [
+  item-lodestone/12
+]
