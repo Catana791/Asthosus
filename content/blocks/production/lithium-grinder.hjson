@@ -12,8 +12,10 @@ requirements: [
 outputItem: lithium/1
 craftTime: 60
 consumes: {
-  item-demetite/2
-  item-lignite/1
+  items: [
+    item-demetite/2
+    item-lignite/1
+  ]
 }
 drawer: {
   type: DrawMulti
