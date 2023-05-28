@@ -27,45 +27,41 @@ drawer: {
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: 2.2
-      y: 2.2
+      x: 2.3
+      y: 2.3
       spinSprite: true
       rotateSpeed: 1.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: -2.2
-      y: 2.2
+      x: -2.3
+      y: 2.3
+      spinSprite: true
+      rotateSpeed: -1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: 2.3
+      y: -2.3
       spinSprite: true
       rotateSpeed: 1.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: 2.2
-      y: -2.2
+      x: -2.3
+      y: -2.3
       spinSprite: true
-      rotateSpeed: 1.2
-    }
-    {
-      type: DrawRegion
-      suffix: -cogwheel
-      x: -2.2
-      y: -2.2
-      spinSprite: true
-      rotateSpeed: 1.2
-    }
-    {
-      type: DrawRegion
-      suffix: -cogwheel
-      x: 0
-      y: 0
-      spinSprite: true
-      rotateSpeed: 1.2
+      rotateSpeed: -1.2
     }
     {
       type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
     }
   ]
 }
