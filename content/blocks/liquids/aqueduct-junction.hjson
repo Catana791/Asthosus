@@ -5,5 +5,5 @@ solid: false
 category: liquid
 research: aqueduct
 requirements: [
-  item-lodestone/3
+  item-lodestone/12
 ]
