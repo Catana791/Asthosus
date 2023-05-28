@@ -1,5 +1,5 @@
 type: HeatProducer
-name: Ignite Burner
+name: Lignite Burner
 description: Burns flammable Lignite to produce heat.
 size: 2
 heatOutput: 3
