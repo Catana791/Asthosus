@@ -32,3 +32,4 @@ requirements: [
   item-ferrinite/20
   item-demetite/20
 ]
+squareSprite: false
