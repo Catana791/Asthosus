@@ -32,3 +32,4 @@ requirements: [
   item-ferrinite/28
   item-lodestone/12
 ]
+squareSprite: false
