@@ -1,0 +1,69 @@
+type: GenericCrafter
+name: Lithium Grinder
+description: Grinds Demetite and Lignite into powder and uses it to create Lithium.
+size: 2
+category: crafting
+research: lodestone-mixer
+squareSprite: false
+requirements: [
+  item-ferrinite/30
+  item-demetite/45
+]
+outputItem: lithium/1
+craftTime: 60
+consumes: {
+  item-demetite/2
+  item-lignite/1
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: 4
+      y: 4
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: -4
+      y: 4
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: 4
+      y: -4
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: -4
+      y: -4
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: 0
+      y: 0
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
