@@ -50,6 +50,7 @@ drawer: {
       mirror: false
       under: true
       moveY: -0.8
+      heatProgress: recoil
     }
   ]
 }
