@@ -3,6 +3,7 @@ name: Lodestone Pump
 description: Slowly pumps liquid from liquid tiles.
 size: 1
 category: liquid
+squareSprite: false
 research: core-essence
 requirements: [
   item-demetite/18
