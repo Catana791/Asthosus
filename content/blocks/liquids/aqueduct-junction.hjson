@@ -1,0 +1,9 @@
+type: LiquidJunction
+name: Aqueduct Junction
+description: Used for crossing two aqueducts.
+solid: false
+category: liquid
+research: aqueduct
+requirements: [
+  item-lodestone/3
+]
