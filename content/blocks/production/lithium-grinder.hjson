@@ -9,7 +9,7 @@ requirements: [
   item-ferrinite/30
   item-demetite/45
 ]
-outputItem: lithium/1
+outputItem: item-lithium/1
 craftTime: 60
 consumes: {
   items: [
