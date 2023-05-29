@@ -9,6 +9,21 @@ requirements: [
   item-ferrinite/30
   item-demetite/45
 ]
+updateEffectChance: 0.05
+updateEffect: {
+  type: ParticleEffect
+  particles: 12
+  cone: 360
+  sizeFrom: 1.2
+  sizeTo: 0.1
+  colorFrom: cf9991
+  colorTo: b98279
+  lifetime: 30
+  length: 10
+  baseLength: 12
+  interp: pow2
+  sizeInterp: pow3In
+}
 outputItem: item-lithium/1
 craftTime: 60
 consumes: {
