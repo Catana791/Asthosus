@@ -13,7 +13,7 @@ consumes: {
 }
 powerProduction: 1.5
 itemDuration: 120
-generateEffect: generateSpark
+generateEffect: generatespark
 ambientSound: smelter
 ambientSoundVolume: 0.03
 drawer: {
