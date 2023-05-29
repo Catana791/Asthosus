@@ -4,6 +4,7 @@ description: Mixes and magnetizes Ferrinite and Hardened Sand into Lodestone whi
 size: 2
 scaledHealth: 60
 squareSprite: false
+craftEffect: smeltsmoke
 outputItems: [
   item-lodestone/1
   sand/1
