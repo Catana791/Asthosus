@@ -9,18 +9,18 @@ requirements: [
   item-ferrinite/30
   item-demetite/45
 ]
-updateEffectChance: 0.05
+updateEffectChance: 0.025
 updateEffect: {
   type: ParticleEffect
-  particles: 12
+  particles: 6
   cone: 360
   sizeFrom: 1.2
   sizeTo: 0.1
   colorFrom: cf9991
   colorTo: b98279
-  lifetime: 30
-  length: 10
-  baseLength: 12
+  lifetime: 60
+  length: 4
+  baseLength: 6
   interp: pow2
   sizeInterp: pow3In
 }
