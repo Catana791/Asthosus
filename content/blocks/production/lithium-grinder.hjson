@@ -14,6 +14,8 @@ updateEffect: {
   type: ParticleEffect
   particles: 6
   cone: 360
+  followParent: true
+  rotWithParent: false
   sizeFrom: 1.2
   sizeTo: 0.1
   colorFrom: cf9991
