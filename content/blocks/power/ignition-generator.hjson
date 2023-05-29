@@ -1,0 +1,33 @@
+type: ConsumeGenerator
+name: Ignition Generator
+description: Burns flammable material to create small amounts of power.
+size: 1
+category: power
+research: ferrinite-wire
+requirements: [
+  item-ferrinite/30
+  item-demetite/30
+]
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 1.5
+itemDuration: 120
+generateEffect: generateSpark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
