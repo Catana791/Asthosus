@@ -4,6 +4,7 @@ description: Burns flammable material to create small amounts of power.
 size: 1
 category: power
 research: ferrinite-wire
+squareSprite: false
 requirements: [
   item-ferrinite/30
   item-demetite/30
