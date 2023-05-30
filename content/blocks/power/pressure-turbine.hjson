@@ -1,0 +1,84 @@
+type: ConsumeGenerator
+name: Pressure Turbine
+description: Uses pressure to create larger amounts of power.
+size: 2
+category: power
+research: ignition-generator
+requirements: [
+  item-ferrinite/50
+  item-lodestone/45
+  item-lithium/30
+]
+consumes: {
+  liquid: pressure/0.1
+}
+itemDuration: 60
+powerProduction: 3
+generateEffect: generateSpark
+ambientSound: extractLoop
+ambientSoundVolume: 0.01
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: 0
+      y: 4
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: 0
+      y: -4
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: 4
+      y: -4
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: 4
+      y: 4
+    }
+    {
+      type: DrawPistons
+      suffix: -main-piston
+      angleOffset: 45
+    }
+    {
+      type: DrawPistons
+      suffix: -also-main-piston
+      angleOffset: -45
+    }
+    {
+      type: DrawRegion
+      suffix: -tank-bottom
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -tank-liquid
+      drawLiquid: pressure
+    }
+    {
+      type: DrawRegion
+      suffix: -tank
+    }
+  ]
+}
