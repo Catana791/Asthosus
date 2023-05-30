@@ -12,6 +12,8 @@ requirements: [
 consumes: {
   liquid: pressure/0.1
 }
+hasLiquids: true
+liquidCapacity: 30
 itemDuration: 60
 powerProduction: 3
 generateEffect: generatespark
