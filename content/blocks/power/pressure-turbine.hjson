@@ -87,11 +87,15 @@ drawer: {
       type: DrawPistons
       suffix: -main-piston
       angleOffset: 45
+      sinMag: 2
+      sinScl: 3
     }
     {
       type: DrawPistons
       suffix: -also-main-piston
       angleOffset: -45
+      sinMag: 2
+      sinScl: 3
     }
     {
       type: DrawDefault
