@@ -14,7 +14,7 @@ consumes: {
 }
 itemDuration: 60
 powerProduction: 3
-generateEffect: generateSpark
+generateEffect: generatespark
 ambientSound: extractLoop
 ambientSoundVolume: 0.01
 squareSprite: false
