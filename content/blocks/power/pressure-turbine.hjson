@@ -68,6 +68,9 @@ drawer: {
       angleOffset: -45
     }
     {
+      type: DrawDefault
+    }
+    {
       type: DrawRegion
       suffix: -tank-bottom
     }
