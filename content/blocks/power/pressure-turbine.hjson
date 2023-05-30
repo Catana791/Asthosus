@@ -16,7 +16,30 @@ hasLiquids: true
 liquidCapacity: 30
 itemDuration: 60
 powerProduction: 3
-generateEffect: generatespark
+layer: 118
+generateEffect: {
+  type: RadialEffect
+  rotationSpacing: 22.5
+  amount: 16
+  lengthOffset: 6
+  effect: {
+    type: ParticleEffect
+    baseRotation: 0
+    length: 10
+    baseLength: 11
+    particles: 6
+    useRotation: false
+    sizeFrom: 1
+    sizeTo: 0.1
+    lifetime: 60
+    cone: 1
+    layer: 80
+    colorFrom: ffffff00
+    colorTo: ffffff88
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
 ambientSound: extractLoop
 ambientSoundVolume: 0.01
 squareSprite: false
