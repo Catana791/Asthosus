@@ -17,6 +17,7 @@ liquidCapacity: 30
 itemDuration: 60
 powerProduction: 3
 layer: 118
+generateEffectRange: 0
 generateEffect: {
   type: RadialEffect
   rotationSpacing: 22.5
@@ -24,14 +25,14 @@ generateEffect: {
   lengthOffset: 6
   effect: {
     type: ParticleEffect
-    baseRotation: 0
-    length: 10
-    baseLength: 11
-    particles: 6
+    baseRotation: 90
+    length: 5
+    baseLength: 6
+    particles: 4
     useRotation: false
     sizeFrom: 1
     sizeTo: 0.1
-    lifetime: 60
+    lifetime: 120
     cone: 1
     layer: 80
     colorFrom: ffffff00
