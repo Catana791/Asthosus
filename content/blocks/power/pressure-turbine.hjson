@@ -33,7 +33,7 @@ drawer: {
       spinSprite: true
       rotateSpeed: 2.8
       x: 0
-      y: 4
+      y: 5
     }
     {
       type: DrawRegion
@@ -41,23 +41,23 @@ drawer: {
       spinSprite: true
       rotateSpeed: 2.8
       x: 0
-      y: -4
+      y: -5
     }
     {
       type: DrawRegion
       suffix: -cogwheel
       spinSprite: true
       rotateSpeed: 2.8
-      x: 4
-      y: -4
+      x: 5
+      y: 0
     }
     {
       type: DrawRegion
       suffix: -cogwheel
       spinSprite: true
       rotateSpeed: 2.8
-      x: 4
-      y: 4
+      x: -5
+      y: 0
     }
     {
       type: DrawPistons
