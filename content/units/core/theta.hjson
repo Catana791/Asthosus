@@ -52,9 +52,9 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 8
-      sapStrength: 0.1
-      length: 40
+      damage: 16
+      sapStrength: 0.2
+      length: 60
       status: none
       statusDuration: 0
     }
@@ -80,9 +80,9 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 10
-      sapStrength: 0.1
-      length: 40
+      damage: 20
+      sapStrength: 0.2
+      length: 60
       status: none
       statusDuration: 0
     }
@@ -110,8 +110,8 @@ weapons: [
       type: ArtilleryBulletType
       speed: 1.65
       lifetime: 90
-      damage: 12
-      splashDamage: 6
+      damage: 18
+      splashDamage: 8
       splashDamageRadius: 12
       width: 11
       height: 13
@@ -125,12 +125,14 @@ weapons: [
       fragRandomSpread: 0
       fragLifeMin: 1
       fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
       fragBullet: {
         type: ArtilleryBulletType
         speed: 1
         lifetime: 32
-        damage: 3
-        splashDamage: 2
+        damage: 6
+        splashDamage: 3
         splashDamageRadius: 6
         width: 7
         height: 9
