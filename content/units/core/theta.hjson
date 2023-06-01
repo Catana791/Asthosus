@@ -8,7 +8,7 @@ hovering: true
 name: Thetha
 description: Defends the Substratum core. Builds structures and mines ores.
 health: 200
-armor: 1
+armor: 2
 speed: 1.3
 hitSize: 12
 isEnemy: false
@@ -66,7 +66,7 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 8
+      damage: 12
       sapStrength: 0.2
       length: 60
       status: none
@@ -94,7 +94,7 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 10
+      damage: 16
       sapStrength: 0.2
       length: 60
       status: none
@@ -124,8 +124,8 @@ weapons: [
       type: ArtilleryBulletType
       speed: 1.65
       lifetime: 90
-      damage: 9
-      splashDamage: 4
+      damage: 12
+      splashDamage: 6
       splashDamageRadius: 12
       width: 11
       height: 13
@@ -145,8 +145,8 @@ weapons: [
         type: ArtilleryBulletType
         speed: 1
         lifetime: 32
-        damage: 3
-        splashDamage: 2
+        damage: 6
+        splashDamage: 3
         splashDamageRadius: 6
         width: 7
         height: 9
