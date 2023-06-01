@@ -30,7 +30,7 @@ abilities: [
     whenShooting: true
     width: 2
     x: 0
-    y: -8
+    y: -12
     radius: 30
   }
 ]
