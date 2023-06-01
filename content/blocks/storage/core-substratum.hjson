@@ -9,7 +9,7 @@ requirements: [
 size: 4
 squareSprite: false
 alwaysUnlocked: true
-unitType: thetha
+unitType: theta
 health: 3900
 itemCapacity: 11000
 unitCapModifier: 16
