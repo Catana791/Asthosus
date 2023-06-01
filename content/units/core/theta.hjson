@@ -23,7 +23,7 @@ outlineColor: 42413e
 abilities: [
   {
     type: ShieldArcAbility
-    max: 120
+    max: 220
     regen: 0.05
     angle: 50
     cooldown: 300
@@ -121,7 +121,8 @@ weapons: [
     ejectEffect: none
     shootSound: artillery
     bullet: {
-      type: ArtilleryBulletType
+      type: BasicBulletType
+      sprite: shell
       speed: 1.65
       lifetime: 90
       damage: 10
@@ -141,8 +142,11 @@ weapons: [
       fragLifeMax: 1
       fragVelocityMin: 1
       fragVelocityMax: 1
+      homingPower: 0.02
       fragBullet: {
-        type: ArtilleryBulletType
+        type: BasicBulletType
+        sprite: shell
+        homingPower: 0.04
         speed: 1
         lifetime: 32
         damage: 4
