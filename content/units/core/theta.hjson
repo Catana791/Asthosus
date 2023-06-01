@@ -1,5 +1,5 @@
 type: legs
-legCount: 4
+legCount: 6
 legLength: 12
 legSpeed: 0.2
 legForwardScl: 0.56
@@ -43,28 +43,19 @@ weapons: [
         mirror: false
       }
     ]
-    x: 6.2
-    y: 0
+    x: 7.2
+    y: 3
     mirror: false
     reload: 21
-    shoot: {
-      shots: 2
-      shotDelay: 0.8
-    }
+    shootSound: sap
     ejectEffect: casing1
     bullet: {
-      homingPower: 0.0923
-      type: BasicBulletType
-      trailChance: -1
-      trailEffect: dynamicSpikes
-      speed: 2.2
+      type: SapBulletType
       damage: 8
-      lifetime: 60
-      width: 7
-      height: 12
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      buildingDamageMultiplier: 0.01
+      sapStrength: 0.1
+      length: 40
+      status: none
+      statusDuration: 0
     }
   }
   {
@@ -79,30 +70,19 @@ weapons: [
         mirror: false
       }
     ]
-    x: -6.2
-    y: 0
+    x: -7.2
+    y: 3
     mirror: false
     reload: 32
-    shoot: {
-      shots: 3
-      shotDelay: 0.6
-    }
+    shootSound: sap
     ejectEffect: casing1
     bullet: {
-      weaveScale: 3
-      weaveMag: 3
-      homingPower: 0.0923
-      type: BasicBulletType
-      trailChance: -1
-      trailEffect: dynamicSpikes
-      speed: 2.2
-      damage: 5
-      lifetime: 60
-      width: 7
-      height: 12
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      buildingDamageMultiplier: 0.01
+      type: SapBulletType
+      damage: 10
+      sapStrength: 0.1
+      length: 40
+      status: none
+      statusDuration: 0
     }
   }
   {
@@ -120,21 +100,16 @@ weapons: [
     x: 0
     y: -10
     reload: 73
-    shoot: {
-      shots: 2
-      shotDelay: 1
-    }
     mirror: false
     rotate: false
     ejectEffect: none
     shootSound: artillery
-    velocityRnd: 0.12
     bullet: {
       type: ArtilleryBulletType
       speed: 1.65
       lifetime: 90
-      damage: 24
-      splashDamage: 12
+      damage: 12
+      splashDamage: 6
       splashDamageRadius: 12
       width: 11
       height: 13
@@ -151,14 +126,12 @@ weapons: [
       fragBullet: {
         type: ArtilleryBulletType
         speed: 1
-        lifetime: 64
-        damage: 6
-        splashDamage: 3
+        lifetime: 32
+        damage: 3
+        splashDamage: 2
         splashDamageRadius: 6
         width: 7
         height: 9
-        trailChance: -1
-        trailEffect: dynamicSpikes
         buildingDamageMultiplier: 0.01
       }
     }
