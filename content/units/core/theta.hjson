@@ -128,8 +128,8 @@ weapons: [
       damage: 20
       splashDamage: 8
       splashDamageRadius: 12
-      width: 13
-      height: 15
+      width: 18
+      height: 20
       pierceBuilding: false
       pierce: true
       pierceCap: 2
@@ -152,14 +152,14 @@ weapons: [
         pierceCap: 1
         pierceBuilding: false
         sprite: shell
-        homingPower: 0.04
+        homingPower: 0.12
         speed: 1
         lifetime: 32
         damage: 8
         splashDamage: 4
         splashDamageRadius: 6
-        width: 7
-        height: 9
+        width: 12
+        height: 14
         buildingDamageMultiplier: 0.01
       }
     }
