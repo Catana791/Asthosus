@@ -23,7 +23,7 @@ outlineColor: 42413e
 abilities: [
   {
     type: ShieldArcAbility
-    max: 150
+    max: 120
     regen: 0.05
     angle: 50
     cooldown: 300
@@ -66,7 +66,7 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 12
+      damage: 10
       sapStrength: 0.2
       length: 60
       status: none
@@ -94,7 +94,7 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 16
+      damage: 12
       sapStrength: 0.2
       length: 60
       status: none
@@ -124,8 +124,8 @@ weapons: [
       type: ArtilleryBulletType
       speed: 1.65
       lifetime: 90
-      damage: 12
-      splashDamage: 6
+      damage: 10
+      splashDamage: 4
       splashDamageRadius: 12
       width: 11
       height: 13
@@ -145,8 +145,8 @@ weapons: [
         type: ArtilleryBulletType
         speed: 1
         lifetime: 32
-        damage: 6
-        splashDamage: 3
+        damage: 4
+        splashDamage: 2
         splashDamageRadius: 6
         width: 7
         height: 9
