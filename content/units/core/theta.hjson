@@ -23,7 +23,7 @@ outlineColor: 42413e
 abilities: [
   {
     type: ShieldArcAbility
-    max: 220
+    max: 200
     regen: 0.05
     angle: 50
     cooldown: 300
@@ -66,8 +66,8 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 20
-      sapStrength: 0.3
+      damage: 18
+      sapStrength: 0.2
       length: 60
       status: none
       statusDuration: 0
@@ -94,8 +94,8 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 24
-      sapStrength: 0.3
+      damage: 22
+      sapStrength: 0.2
       length: 60
       status: none
       statusDuration: 0
@@ -125,7 +125,7 @@ weapons: [
       sprite: shell
       speed: 1.65
       lifetime: 90
-      damage: 20
+      damage: 18
       splashDamage: 8
       splashDamageRadius: 12
       width: 18
