@@ -8,7 +8,7 @@ hovering: true
 name: Thetha
 description: Defends the Substratum core. Builds structures and mines ores.
 health: 200
-armor: 2
+armor: 1
 speed: 1.3
 hitSize: 12
 isEnemy: false
