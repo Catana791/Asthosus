@@ -1,9 +1,9 @@
 type: Junction
-name: Ferrinite Pipeline Junction
+name: Pipeline Junction
 description: Allows for crossing two pipelines. 
 health: 65
 size: 1
-speed: 52
+speed: 32
 requirements: [
   item-ferrinite/4
 ]
