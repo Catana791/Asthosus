@@ -66,8 +66,8 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 10
-      sapStrength: 0.2
+      damage: 20
+      sapStrength: 0.3
       length: 60
       status: none
       statusDuration: 0
@@ -94,8 +94,8 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 12
-      sapStrength: 0.2
+      damage: 24
+      sapStrength: 0.3
       length: 60
       status: none
       statusDuration: 0
@@ -125,11 +125,14 @@ weapons: [
       sprite: shell
       speed: 1.65
       lifetime: 90
-      damage: 10
-      splashDamage: 4
+      damage: 20
+      splashDamage: 8
       splashDamageRadius: 12
-      width: 11
-      height: 13
+      width: 13
+      height: 15
+      pierceBuilding: false
+      pierce: true
+      pierceCap: 2
       trailChance: -1
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
@@ -145,12 +148,15 @@ weapons: [
       homingPower: 0.02
       fragBullet: {
         type: BasicBulletType
+        pierce: true
+        pierceCap: 1
+        pierceBuilding: false
         sprite: shell
         homingPower: 0.04
         speed: 1
         lifetime: 32
-        damage: 4
-        splashDamage: 2
+        damage: 8
+        splashDamage: 4
         splashDamageRadius: 6
         width: 7
         height: 9
