@@ -1,0 +1,166 @@
+type: legs
+legCount: 4
+legLength: 12
+legSpeed: 0.2
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+name: Thetha
+description: Defends the Substratum core. Builds structures and mines ores.
+health: 210
+armor: 2
+speed: 1.3
+hitSize: 12
+isEnemy: false
+mineSpeed: 7.5
+mineTier: 1
+buildSpeed: 0.65
+drag: 0.4
+itemCapacity: 30
+alwaysUnlocked: true
+research: core-substratum
+outlineColor: 42413e
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff33
+    outline: false
+    mirror: false
+  }
+]
+weapons: [
+  {
+    name: zeta-weapon-r
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    x: 6.2
+    y: 0
+    mirror: false
+    reload: 21
+    shoot: {
+      shots: 2
+      shotDelay: 0.8
+    }
+    ejectEffect: casing1
+    bullet: {
+      homingPower: 0.0923
+      type: BasicBulletType
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      speed: 2.2
+      damage: 8
+      lifetime: 60
+      width: 7
+      height: 12
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+    }
+  }
+  {
+    name: zeta-weapon-l
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    x: -6.2
+    y: 0
+    mirror: false
+    reload: 32
+    shoot: {
+      shots: 3
+      shotDelay: 0.6
+    }
+    ejectEffect: casing1
+    bullet: {
+      weaveScale: 3
+      weaveMag: 3
+      homingPower: 0.0923
+      type: BasicBulletType
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      speed: 2.2
+      damage: 5
+      lifetime: 60
+      width: 7
+      height: 12
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+    }
+  }
+  {
+    name: theta-weapon
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    x: 0
+    y: -10
+    reload: 73
+    shoot: {
+      shots: 2
+      shotDelay: 1
+    }
+    mirror: false
+    rotate: false
+    ejectEffect: none
+    shootSound: artillery
+    velocityRnd: 0.12
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 1.65
+      lifetime: 90
+      damage: 24
+      splashDamage: 12
+      splashDamageRadius: 12
+      width: 11
+      height: 13
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      fragBullets: 4
+      fragSpread: 90
+      fragRandomSpread: 0
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragBullet: {
+        type: ArtilleryBulletType
+        speed: 1
+        lifetime: 64
+        damage: 6
+        splashDamage: 3
+        splashDamageRadius: 6
+        width: 7
+        height: 9
+        trailChance: -1
+        trailEffect: dynamicSpikes
+        buildingDamageMultiplier: 0.01
+      }
+    }
+  }
+]
