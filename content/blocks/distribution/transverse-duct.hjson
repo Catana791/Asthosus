@@ -3,7 +3,7 @@ name: Transverse Pipeline
 description: Transports items forth using magnetical force. 
 category: distribution
 research: ferrinite-duct
-speed: 3.333333333333
+speed: 4.285714
 health: 80
 bridgeReplacement: ferrinite-duct-bridge
 requirements: [
