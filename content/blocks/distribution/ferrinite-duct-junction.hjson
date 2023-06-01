@@ -3,7 +3,7 @@ name: Pipeline Junction
 description: Allows for crossing two pipelines. 
 health: 65
 size: 1
-speed: 30
+speed: 22
 requirements: [
   item-ferrinite/4
 ]
