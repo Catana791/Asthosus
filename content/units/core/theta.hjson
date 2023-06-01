@@ -48,6 +48,7 @@ weapons: [
     mirror: false
     reload: 21
     shootSound: sap
+    rotate: true
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
@@ -75,6 +76,7 @@ weapons: [
     mirror: false
     reload: 32
     shootSound: sap
+    rotate: true
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
@@ -98,10 +100,10 @@ weapons: [
       }
     ]
     x: 0
-    y: -10
+    y: -6
     reload: 73
     mirror: false
-    rotate: false
+    rotate: true
     ejectEffect: none
     shootSound: artillery
     bullet: {
