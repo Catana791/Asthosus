@@ -1,8 +1,8 @@
 type: Router
-name: Ferrinite Pipeline Router
+name: Pipeline Router
 description: Made from Ferrinite. Distributes input items from ducts to three directions equally. 
 size: 1
-speed: 16
+speed: 6
 health: 110
 itemCapacity: 3
 requirements: [
