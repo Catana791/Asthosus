@@ -1,0 +1,17 @@
+type: Constructor
+name: Component Assembler
+description: Crafts components used for unit assembly. Requires power and pressure.
+size: 3
+category: units
+requirements: [
+  item-demetite/50
+  item-lodestone/50
+  item-lithium/50
+] 
+hasPower: true
+consumes: {
+  power: 2
+  liquid: pressure/0.1
+}
+buildSpeed: 0.6
+filter: [ferrinite-wall-small]
