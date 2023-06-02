@@ -9,3 +9,5 @@ ammoTypes: {
     damage: 400
   }
 }
+category: turret
+requirements: []
