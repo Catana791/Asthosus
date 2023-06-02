@@ -9,3 +9,4 @@ requirements: [
 ]
 research: core-essence
 category: defense
+customShadow: true
