@@ -4,6 +4,7 @@ description: A large wall made from Ferrinite. Protects allied structures from d
 size: 2
 health: 1510
 category: defense
+squareSprite: false
 research: ferrinite-wall-small
 requirements: [
   item-ferrinite/30
