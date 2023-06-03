@@ -7,3 +7,4 @@ requirements: [
   item-ferrinite/18
   item-lodestone/18
 ]
+canOverdrive: false
