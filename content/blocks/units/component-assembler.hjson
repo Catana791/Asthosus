@@ -16,3 +16,4 @@ consumes: {
 buildSpeed: 0.6
 filter: [ferrinite-wall-small]
 research: core-essence
+squareSprite: false
