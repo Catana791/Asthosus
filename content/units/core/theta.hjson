@@ -18,7 +18,6 @@ buildSpeed: 0.65
 drag: 0.4
 itemCapacity: 30
 alwaysUnlocked: true
-research: core-substratum
 outlineColor: 42413e
 abilities: [
   {
