@@ -1,0 +1,9 @@
+type: PayloadRouter
+name: Freight Router
+description: Distributes inputted payload to up to three output directions.
+category: units
+research: freight-conveyor
+requirements: [
+  item-ferrinite/18
+  item-lodestone/18
+]
