@@ -1,0 +1,51 @@
+type: ContinuousLiquidTurret
+name: Depulse
+description: Creates a constant, low-damaging beam that knocks back ground units.
+size: 2
+category: turret
+outlineColor: 42413e
+liquidConsumed: 0.05
+targetInterval: 5
+targetUnderBlocks: false
+range: 130
+loopSound: torch
+shootSound: none
+loopSoundVolume: 0.8
+research: catapult
+requirements: [
+  item-demetite/80
+  item-lodestone/50
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      mirror: false
+      suffix: -hose
+      heatProgress: recoil
+      heatColor: fa285933
+    }
+    {
+      type: RegionPart
+      mirror: true
+      suffix: -wing
+      under: true
+      progress: warmup
+      moveRot: 12
+    }
+  ]
+}
+ammoTypes: {
+  pressure: {
+    type: ContinuousFlameBulletType
+    damage: 1
+    length: 130
+    knockback: 2
+    pierceCap: 3
+    colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
+    flareColor: ffffffCC
+    lightColor: ffffffCC
+  }
+}
