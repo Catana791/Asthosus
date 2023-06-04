@@ -33,7 +33,7 @@ drawer: {
       suffix: -wing
       under: true
       progress: warmup
-      moveRot: 12
+      moveRot: -24
     }
   ]
 }
