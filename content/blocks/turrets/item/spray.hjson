@@ -5,7 +5,7 @@ size: 1
 reload: 60
 shoot: {
   shots: 5
-  shotDelay: 0.6
+  shotDelay: 1
 }
 inaccuracy: 15
 range: 200
