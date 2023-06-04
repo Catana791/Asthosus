@@ -9,9 +9,9 @@ targetInterval: 5
 targetUnderBlocks: false
 range: 130
 targetAir: false
-loopSound: torch
+loopSound: pressure-release
 shootSound: none
-loopSoundVolume: 0.8
+loopSoundVolume: 0.6
 research: catapult
 requirements: [
   item-demetite/80
