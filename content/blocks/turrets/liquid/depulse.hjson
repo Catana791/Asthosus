@@ -8,6 +8,7 @@ liquidConsumed: 0.05
 targetInterval: 5
 targetUnderBlocks: false
 range: 130
+targetAir: false
 loopSound: torch
 shootSound: none
 loopSoundVolume: 0.8
@@ -48,7 +49,7 @@ ammoTypes: {
     type: ContinuousFlameBulletType
     damage: 1
     length: 130
-    knockback: 2
+    knockback: 1
     pierceCap: 3
     colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
     flareColor: ffffffCC
