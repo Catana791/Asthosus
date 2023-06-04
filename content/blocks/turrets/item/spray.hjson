@@ -2,10 +2,10 @@ type: ItemTurret
 name: Spray
 description: A small turret made from Ferrinite, used to defend allied structures from flying foes. Shoots sprays of bullets at enemies.
 size: 1
-reload: 60
+reload: 30
 shoot: {
   shots: 5
-  shotDelay: 8
+  shotDelay: 4
 }
 inaccuracy: 15
 range: 200
@@ -25,8 +25,8 @@ ammoTypes: {
     speed: 4
     lifetime: 50
     ammoMultiplier: 5
-    damage: 2
-    splashDamage: 21
+    damage: 1
+    splashDamage: 10
     splashDamageRadius: 8
   }
   item-lodestone: {
@@ -36,8 +36,8 @@ ammoTypes: {
     speed: 4
     lifetime: 50
     ammoMultiplier: 6
-    damage: 3
-    splashDamage: 26
+    damage: 2
+    splashDamage: 21
     splashDamageRadius: 12
   }
 }
