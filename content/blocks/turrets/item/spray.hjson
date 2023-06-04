@@ -37,7 +37,7 @@ ammoTypes: {
     lifetime: 50
     ammoMultiplier: 6
     damage: 2
-    splashDamage: 21
+    splashDamage: 15
     splashDamageRadius: 12
   }
 }
