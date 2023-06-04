@@ -26,17 +26,27 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 7
-    splashDamageRadius: 7
+    splashDamage: 14
+    splashDamageRadius: 8
   }
   item-demetite: {
     type: ArtilleryBulletType
-    widht: 7
+    width: 7
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 8
-    splashDamageRadius: 9
+    splashDamage: 16
+    splashDamageRadius: 12
+  }
+  item-lithium: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 28
+    splashDamageRadius: 16
+    status: shocked
   }
 }
 drawer: {
