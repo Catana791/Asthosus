@@ -1,0 +1,6 @@
+name: Obsidian
+description: Used in advanced building. Has to be mined using higher tier drills or mine beams due to it's unique structure.
+hardness: 3
+cost: 1
+color: 3d354b
+research: item-demetite
