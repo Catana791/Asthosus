@@ -35,16 +35,15 @@ drawer: {
       under: true
       progress: warmup
       moveRot: -24
-      moveX: 2.5
+      moveX: 2.2
       moveY: 1
     }
   ]
 }
 ammoTypes: {
   pressure: {
-    width: 2.3
-    flareLength: 15
-    flareWidth: 1.5
+    width: 1.7
+    drawFlare: false
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
     damage: 1
@@ -52,7 +51,6 @@ ammoTypes: {
     knockback: 1
     pierceCap: 3
     colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
-    flareColor: ffffffCC
     lightColor: ffffffCC
   }
 }
