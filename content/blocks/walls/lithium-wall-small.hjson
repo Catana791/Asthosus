@@ -1,5 +1,6 @@
 type: Wall
 size: 1
+name: Lithium Wall
 description: A wall made from charged lithium. Sometimes releases electrical arcs that damage nearby enemies.
 lightningChance: 0.05
 lightningDamage: 10
