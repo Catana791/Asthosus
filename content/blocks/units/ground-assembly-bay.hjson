@@ -10,6 +10,7 @@ requirements: [
 ]
 plans: [
   {
+    type: AssemblerUnitPlan
     unit: shennong
     requirements: [
       ferrinite-wall-small/12
