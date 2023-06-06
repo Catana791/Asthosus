@@ -1,0 +1,40 @@
+type: treads
+name: Shennong
+description: A fast assault tank equipped with a basic weaving machine gun.
+hitSize: 8
+treadPullOffset: 3
+speed: 1.5
+rotateSpeed: 6
+health: 450
+armor: 2
+itemCapacity: 0
+treadRects: [
+  x: -20
+  y: -25
+  width: 14
+  height: 51
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    reload: 3
+    rotate: true
+    mirror: false
+    shoot: {
+      type: ShootSpread
+      shots: 2
+      spread: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      weaveMag: 3
+      weaveScale: 3
+      speed: 2
+      lifetime: 40
+      pierce: true
+      pierceCap: 1
+      damage: 3
+    }
+  }
+]
