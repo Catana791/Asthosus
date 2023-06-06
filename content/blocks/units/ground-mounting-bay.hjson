@@ -13,7 +13,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: shennong
     requirements: [
-      ferrinite-wall-small/12
+      asthosus-ferrinite-wall-small/12
     ]
     time: 300
   }
