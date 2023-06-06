@@ -5,3 +5,4 @@ requirements: [
   item-demetite/3
   item-lithium/3
 ]
+buildVisibility: hidden
