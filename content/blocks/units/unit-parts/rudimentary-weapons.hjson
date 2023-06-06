@@ -7,4 +7,4 @@ requirements: [
   item-lithium/3
 ]
 buildVisibility: hidden
-group: payloads
+group: none
