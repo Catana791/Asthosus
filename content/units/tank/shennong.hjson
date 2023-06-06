@@ -6,7 +6,7 @@ treadPullOffset: 3
 outlineColor: 44413c
 speed: 1.5
 rotateSpeed: 6
-health: 450
+health: 280
 armor: 2
 itemCapacity: 0
 treadRects: [
