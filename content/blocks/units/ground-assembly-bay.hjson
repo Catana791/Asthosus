@@ -1,0 +1,25 @@
+type: UnitAssembler
+name: Ground Assembly Bay
+description: Uses pre-fabricated unit parts to assemble ground units.
+size: 3
+category: units
+research: core-essence
+requirements: [
+  item-ferrinite/50
+  item-lithium/100
+]
+plans: [
+  {
+    unit: shennong
+    requirements: [
+      ferrinite-wall-small/12
+    ]
+    time: 300
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+  liquid: pressure/0.2
+}
+areaSize: 5
