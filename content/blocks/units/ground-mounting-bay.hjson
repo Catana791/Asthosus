@@ -23,6 +23,5 @@ plans: [
 squareSprite: false
 consumes: {
   power: 2
-  liquid: pressure/0.2
 }
 areaSize: 5
