@@ -3,6 +3,7 @@ name: Shennong
 description: A fast assault tank equipped with a basic weaving machine gun.
 hitSize: 8
 treadPullOffset: 3
+outlineColor: 44413c
 speed: 1.5
 rotateSpeed: 6
 health: 450
@@ -20,7 +21,8 @@ weapons: [
   {
     x: 0
     y: 1
-    reload: 3
+    name: shennog-weapon
+    reload: 12
     rotate: true
     mirror: false
     shoot: {
