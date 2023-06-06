@@ -1,3 +1,7 @@
 size: 1
 name: Rudimentary Weapons
 description: Used for the creation of tier one units alongside a Rudimentary Hull and Engine. Fabricated in the Component Assembler.
+requirements: [
+  item-demetite/3
+  item-lithium/3
+]
