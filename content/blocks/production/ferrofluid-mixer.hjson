@@ -34,16 +34,6 @@ drawer: {
     }
     {
       type: DrawRegion
-      suffix: -tank-bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: liquid-ferrofluid
-      padding: 6
-      alpha: 0.8
-    }
-    {
-      type: DrawRegion
       suffix: -pistons-bottom
     }
     {
@@ -51,6 +41,16 @@ drawer: {
       suffix: -rotator
       spinSprite: true
       rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -tank-bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-ferrofluid
+      padding: 6
+      alpha: 0.8
     }
     {
       type: DrawDefault
