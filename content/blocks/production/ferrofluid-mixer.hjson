@@ -22,7 +22,6 @@ requirements: [
 craftEffect: {
   type: RadialEffect
   rotationSpacing: 11.25
-  rotationOffset: 270
   amount: 8
   layer: 118
   length: 6
