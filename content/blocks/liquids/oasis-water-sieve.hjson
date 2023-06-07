@@ -23,15 +23,16 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawRegion
+      suffix: -sieve
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: liquid-oasis-water
+      padding: 1
     }
     {
       type: DrawDefault
-    }
-    {
-      type: DrawRegion
-      suffix: -sieve
     }
     {
       type: DrawRegion
