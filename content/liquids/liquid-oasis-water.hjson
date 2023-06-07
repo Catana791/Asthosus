@@ -1,7 +1,8 @@
 heatCapacity: 0.45
 name: Oasis Water
 effect: asthosus-status-rejuvenated
-boilPoint: 0.4
+boilPoint: 0.5
+heatCapacity: 0.3
 gasColor: d9e1e6E6
 color: 6da0ba
 research: item-lodestone
