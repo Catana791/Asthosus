@@ -1,5 +1,5 @@
 type: PowerNode
-name: Connector node
+name: Connector Node
 description: Connects wires over small distances without needing to direclty connect. A wire bridge.
 size: 1
 health: 20
