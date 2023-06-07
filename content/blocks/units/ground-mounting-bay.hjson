@@ -13,6 +13,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: shennong
     requirements: [
+      asthosus-ferrinite-wire/1
       asthosus-ferrinite-wall-small/1
       asthosus-lithium-wall-small/2
     ]
