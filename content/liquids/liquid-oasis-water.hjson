@@ -6,12 +6,12 @@ spreadDamage: 0
 capPuddles: true
 maxSpread: 0
 blockReactive: false
-colorFrom: 8ccced
-colorTo: 6da0ba
+colorFrom: 435f6d
+colorTo: 334751
 name: Oasis Water
 effect: asthosus-status-rejuvenated
 boilPoint: 0.5
-color: 6ecdec
+color: 54798b
 heatCapacity: 0.3
 gasColor: d9e1e6E6
 research: item-lodestone
