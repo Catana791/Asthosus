@@ -7,7 +7,7 @@ squareSprite: false
 liquidCapacity: 80
 outputLiquid: liquid-purified-oasis-water/0.1
 consumes: {
-  liquid: liquid-oasis-water/0.1
+  liquid: liquid-oasis-water/0.2
 }
 category: crafting
 research: aqueduct
