@@ -25,7 +25,8 @@ craftEffect: {
   amount: 8
   layer: 118
   length: 6
-  lengthOffset: 8
+  rotationOffset: -90
+  lengthOffset: 6
   effect: {
     type: ParticleEffect
     particles: 18
