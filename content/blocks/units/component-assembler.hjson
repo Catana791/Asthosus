@@ -14,6 +14,6 @@ consumes: {
   liquid: pressure/0.1
 }
 buildSpeed: 0.6
-filter: [rudimentary-engine, rudimentary-hull, rudimentary-weapons]
+filter: [ferrinite-wall-small, lithium-wall-small]
 research: core-essence
 squareSprite: false
