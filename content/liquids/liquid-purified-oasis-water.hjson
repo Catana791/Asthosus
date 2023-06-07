@@ -6,7 +6,7 @@ spreadDamage: 0
 capPuddles: true
 maxSpread: 0
 blockReactive: false
-colorFrom: 8ccced
+colorFrom: 6da0ba
 colorTo: 54798b
 name: Purified Oasis Water
 desription: Oasis Water that has been filtered using a sieve to get contaminations out of it and to be used in technical appliences. 
