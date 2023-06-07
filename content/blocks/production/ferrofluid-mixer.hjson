@@ -29,7 +29,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: liquid-purified-oasis-water
-      padding: 1
+      padding: 1.5
       alpha: 0.7
     }
     {
@@ -39,7 +39,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: liquid-ferrofluid
-      padding: 4
+      padding: 6
       alpha: 0.8
     }
     {
@@ -47,25 +47,10 @@ drawer: {
       suffix: -pistons-bottom
     }
     {
-      type: DrawPistons
-      suffix: -outer-piston
-      angleOffset: 90
-      sinMag: 1
-      sinScl: 3
-    }
-    {
-      type: DrawPistons
-      suffix: -inner-piston
-      angleOffset: 90
-      sinMag: 1
-      sinScl: 3
-    }
-    {
-      type: DrawPistons
-      suffix: -middle-piston
-      angleOffset: 90
-      sinMag: 1
-      sinScl: 3
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2
     }
     {
       type: DrawDefault
