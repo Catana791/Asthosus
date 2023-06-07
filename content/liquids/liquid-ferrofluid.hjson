@@ -1,5 +1,5 @@
 name: Ferrofluid
 description: A magnetic liquid used in many technical buildings and machines.
-viscosity: 1
+viscosity: 0.6
 heatCapacity: 0.6
 research: purified-oasis-water
