@@ -13,11 +13,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: shennong
     requirements: [
-      asthosus-rudimentary-engine/1
-      asthosus-rudimentary-hull/1
-      asthosus-rudimentary-weapons/1
+      asthosus-ferrinite-wall-small/1
+      asthosus-lithium-wall-small/2
     ]
-    time: 300
+    time: 900
   }
 ]
 squareSprite: false
