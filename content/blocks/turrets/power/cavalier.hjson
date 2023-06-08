@@ -11,6 +11,7 @@ shoot: {
 }
 range: 176
 shootSound: shoot-laser
+chargeSound: short-laser-charge
 shootType: {
   type: LaserBulletType
   colors: [b98279, e6aca3, ffffff]
