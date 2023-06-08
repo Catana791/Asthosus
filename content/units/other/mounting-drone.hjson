@@ -1,4 +1,4 @@
-type: flying
+type: tether
 name: Mounting Drone
 description: Mounts units from Assembly Bays.
 flying: true
