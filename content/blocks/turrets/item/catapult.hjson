@@ -12,7 +12,6 @@ outlineColor: 42413e
 targetAir: false
 targetGround: true
 reload: 72
-shootSound: artillery
 range: 160
 velocityRnd: 0.12
 inaccuracy: 5
