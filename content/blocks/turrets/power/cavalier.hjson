@@ -58,7 +58,6 @@ drawer: {
       under: true
       progress: recoil
       moveY: -0.5
-      moveRot: -12
       heatProgress: recoil
     }
   ]
