@@ -6,12 +6,12 @@ hasLiquids: true
 liquidCapacity: 80
 consumes: {
   items: [
-    item-lodestone/2
+    item-lodestone/1
   ]
   liquid: liquid-purified-oasis-water/0.2
 }
 outputLiquid: liquid-ferrofluid/0.2
-craftTime: 120
+craftTime: 90
 category: crafting
 research: oasis-water-sieve
 requirements: [
@@ -60,6 +60,12 @@ drawer: {
     {
       type: DrawRegion
       suffix: -pistons-bottom
+    }
+    {
+      type: DrawFrames
+      frames: 6
+      interval: 10
+      regions: [-belt0, -belt1, -belt2, -belt3, -belt4, -belt5]
     }
     {
       type: DrawRegion
