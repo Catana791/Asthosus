@@ -14,8 +14,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: cardus
     requirements: [
-      asthosus-ferrinite-wire/3
-      asthosus-ferrinite-wall-small/1
+      asthosus-ferrinite-wire/12
       asthosus-lithium-wall-small/5
     ]
     time: 3000
