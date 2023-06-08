@@ -5,7 +5,7 @@ name: Cardus
 description: A small support helicopter equipped with a healing beam.
 engineSize: 0
 health: 120
-speed: 1.5
+speed: 1
 drag: 0.06
 range: 64
 strafePenalty: 1
@@ -34,9 +34,9 @@ weapons: [
         lifetime: 20
         length: 0
         region: asthosus-cardus-rotor
-        sizeFrom: 10
-        sizeTo: 10
-        spin: 10
+        sizeFrom: 14
+        sizeTo: 14
+        spin: 16
         layer: 95.1
       }
       pierceBuilding: true
