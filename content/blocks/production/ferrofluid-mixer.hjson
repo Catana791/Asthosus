@@ -65,7 +65,7 @@ drawer: {
       type: DrawFrames
       frames: 6
       interval: 10
-      regions: ["-belt0", "-belt1", "-belt2", "-belt3", "-belt"4, "-belt5"]
+      regions: [-belt]
     }
     {
       type: DrawRegion
