@@ -4,7 +4,7 @@ description: Fires bursts of small artillery shells at enemies over medium dista
 size: 1
 category: turret
 research: core-essence
-shootSound: shoot-small-artillery
+shootSound: artillery
 requirements: [
   item-ferrinite/40
 ]
@@ -26,7 +26,7 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 14
+    splashDamage: 28
     splashDamageRadius: 8
   }
   item-demetite: {
@@ -35,7 +35,7 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 16
+    splashDamage: 38
     splashDamageRadius: 12
   }
   item-lithium: {
@@ -44,7 +44,7 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 28
+    splashDamage: 44
     splashDamageRadius: 16
     status: shocked
   }
