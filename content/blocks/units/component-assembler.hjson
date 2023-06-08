@@ -1,6 +1,6 @@
 type: Constructor
 name: Component Assembler
-description: Crafts components used for unit assembly. Requires power and pressure.
+description: Crafts components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
 size: 3
 category: units
 requirements: [
@@ -17,3 +17,4 @@ buildSpeed: 0.6
 filter: [ferrinite-wall-small, lithium-wall-small, ferrinite-wire]
 research: core-essence
 squareSprite: false
+conductivePower: true
