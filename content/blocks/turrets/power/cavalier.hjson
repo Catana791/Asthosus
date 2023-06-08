@@ -10,6 +10,7 @@ shoot: {
   shotDelay: 10
 }
 range: 176
+shootSound: shoot-laser
 shootType: {
   type: LaserBulletType
   length: 176
