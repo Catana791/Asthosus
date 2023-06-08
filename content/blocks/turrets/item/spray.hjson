@@ -17,7 +17,6 @@ requirements: [
 ]
 targetGround: false
 targetAir: true
-shootSound: shoot
 ammoTypes: {
   item-demetite: {
     type: FlakBulletType
