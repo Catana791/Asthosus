@@ -3,7 +3,7 @@ name: Air Assembly Bay
 description: Creates air units using payloads. Requires power.
 size: 3
 category: units
-unitType: mounting-drone
+droneType: mounting-drone
 research: ground-mounting-bay
 requirements: [
   item-ferrinite/30
