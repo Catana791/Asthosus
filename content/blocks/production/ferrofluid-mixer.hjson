@@ -64,7 +64,8 @@ drawer: {
     {
       type: DrawFrames
       frames: 6
-      interval: 10
+      interval: 3
+      sine: false
     }
     {
       type: DrawRegion
