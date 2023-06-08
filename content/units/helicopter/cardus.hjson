@@ -9,6 +9,7 @@ speed: 1
 drag: 0.06
 range: 64
 strafePenalty: 1
+outlineColor: 44413c
 hitSize: 10
 weapons: [
   {
@@ -34,9 +35,9 @@ weapons: [
         lifetime: 20
         length: 0
         region: asthosus-cardus-rotor
-        sizeFrom: 14
-        sizeTo: 14
-        spin: 16
+        sizeFrom: 12
+        sizeTo: 12
+        spin: 14
         layer: 95.1
       }
       pierceBuilding: true
