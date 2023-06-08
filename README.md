@@ -1,5 +1,4 @@
-# Asthosus
-Big WIP!
+
 <div align = center>
 
   A mod that adds a new planet with a playable campaign. <br>
