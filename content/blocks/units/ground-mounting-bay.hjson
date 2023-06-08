@@ -3,6 +3,7 @@ name: Ground Assembly Bay
 description: Creates ground units using payloads. Requires power.
 size: 3
 category: units
+unitType: mounting-drone
 research: core-essence
 requirements: [
   item-ferrinite/50
