@@ -4,7 +4,7 @@ description: Fires bursts of small artillery shells at enemies over medium dista
 size: 1
 category: turret
 research: core-essence
-shootSound: artillery
+shootSound: shoot-small-artillery
 requirements: [
   item-ferrinite/40
 ]
