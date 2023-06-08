@@ -1,6 +1,6 @@
 type: UnitAssembler
 name: Air Assembly Bay
-description: Uses pre-fabricated unit parts to assemble ground units.
+description: Creates air units using payloads. Requires power.
 size: 3
 category: units
 research: ground-mounting-bay
