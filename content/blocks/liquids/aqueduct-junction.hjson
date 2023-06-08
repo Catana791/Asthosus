@@ -7,3 +7,4 @@ research: aqueduct
 requirements: [
   item-lodestone/12
 ]
+conductivePower: true
