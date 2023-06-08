@@ -1,0 +1,27 @@
+type: UnitAssembler
+name: Air Assembly Bay
+description: Uses pre-fabricated unit parts to assemble ground units.
+size: 3
+category: units
+research: ground-mounting-bay
+requirements: [
+  item-ferrinite/30
+  item-lithium/60
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: cardus
+    requirements: [
+      asthosus-ferrinite-wire/3
+      asthosus-ferrinite-wall-small/1
+      asthosus-lithium-wall-small/5
+    ]
+    time: 3000
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
+areaSize: 5
