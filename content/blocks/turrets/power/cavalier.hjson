@@ -3,6 +3,7 @@ name: Cavalier
 description: Charges up to deliver three consecutive laser beams that deal high damage and pierce enemies.
 size: 2
 reload: 148
+accurateDelay: false
 inaccuracy: 3
 shoot: {
   firstShotDelay: 60
