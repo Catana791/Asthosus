@@ -1,6 +1,6 @@
 type: UnitAssembler
 name: Ground Assembly Bay
-description: Uses pre-fabricated unit parts to assemble ground units.
+description: Creates ground units using payloads. Requires power.
 size: 3
 category: units
 research: core-essence
