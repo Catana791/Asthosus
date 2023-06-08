@@ -1,0 +1,74 @@
+type: flying
+flying: true
+lowAltitude: true
+name: Cardus
+description: A small support helicopter equipped with a healing beam.
+engineSize: 0
+health: 120
+speed: 1.5
+drag: 0.06
+range: 64
+strafePenalty: 1
+hitSize: 10
+defaultCommand: repairCommand
+weapons: [
+  {
+    x: 0
+    y: 0
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: asthosus-cardus-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 10
+        layer: 95.1
+      }
+      pierceBuilding: true
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+      splashDamage: 10
+      splashDamageRadius: 16
+      speed: 0
+    }
+  }
+  {
+    x: 0
+    y: 8
+    type: RepairBeamWeapon
+    widthSinMag: 0.11
+    reload: 20
+    rotate: false
+    shootY: 0
+    beamWidth: 0.7
+    repairSpeed: 1
+    fractionRepairSpeed: 0.06
+    aimDst: 0
+    shootCone: 15
+    mirror: false
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    bullet: {
+      maxRange: 64
+    }
+  }
+]
