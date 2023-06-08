@@ -10,7 +10,6 @@ drag: 0.06
 range: 64
 strafePenalty: 1
 hitSize: 10
-defaultCommand: repairCommand
 weapons: [
   {
     x: 0
