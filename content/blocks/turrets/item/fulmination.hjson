@@ -6,6 +6,7 @@ reload: 212
 range: 160
 targetAir: false
 targetGround: true
+moveWhileCharging: false
 accurateDelay: false
 chargeSound: lasercharge2
 shoot: {
