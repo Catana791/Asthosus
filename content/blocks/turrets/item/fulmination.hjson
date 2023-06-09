@@ -25,81 +25,16 @@ requirements: [
 ]
 ammoTypes: {
   item-lithium: {
-    type: BasicBulletType
-    width: 28
-    height: 36
-    speed: 3
-    lifetime: 54
+    instantDisappear: true
     damage: 0
-    splashDamage: 110
-    splashDamageRadius: 15
-    frontColor: e6aca3
-    backColor: b98279
-    pierce: true
-    pierceBuilding: true
-    buildingDamageMultiplier: 0.45
-    fragOnPierce: false
-    fragBullets: 3
-    shrinkX: 0
-    shrinkY: 0
-    sprite: shell
-    fragSpread: 360
-    fragVelocityMin: 0.4
-    fragLifeMin: 0.4
-    fragBullet: {
-      type: BasicBulletType
-      width: 14
-      height: 18
-      frontColor: e6aca3
-      backColor: b98279
-      speed: 2
-      damage: 4
-      shrinkX: 0
-      shrinkY: 0
-      pierce: false
-      lifetime: 20
-      lightning: 1
-      lightningDamage: 2
-      lightningLength: 3
-      lightningColor: cf9991
-    }
+    spawnUnit: asthosus-encased-shell
   }
   item-obsidian: {
-    type: BasicBulletType
-    width: 28
-    shrinkX: 0
-    shrinkY: 0
-    sprite: shell
-    height: 36
-    frontColor: 594e6b
-    backColor: 2e293a
-    speed: 3
-    lifetime: 54
+    instantDisappear: true
     damage: 0
-    splashDamage: 140
-    splashDamageRadius: 19
-    pierce: true
-    pierceBuilding: true
-    buildingDamageMultiplier: 0.45
-    fragOnPierce: false
-    fragBullets: 5
-    fragSpread: 360
-    fragVelocityMin: 0.4
-    fragLifeMin: 0.4
-    fragBullet: {
-      shrinkX: 0
-      shrinkY: 0
-      type: BasicBulletType
-      frontColor: 594e6b
-      backColor: 2e293a
-      width: 14
-      height: 18
-      speed: 2
-      damage: 10
-      pierce: false
-      lifetime: 20
-    }
-  }
+    spawnUnit: asthosus-encased-shell
+    rangeChange: 40
+    reloadMultiplier: 1.2
 }
 drawer: {
   type: DrawTurret
