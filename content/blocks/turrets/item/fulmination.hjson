@@ -1,0 +1,138 @@
+type: ItemTurret
+name: Fulmination
+description: Fires clumps of rock at enemies that burst into pieces on impact. 
+size: 3
+reload: 212
+range: 160
+targetAir: false
+targetGround: true
+shootSound: shoot-heavy-cannon
+shootEffect: shootTitan
+smokeEffect: shootSmokeTitan
+category: turret
+research: spray
+requirements: [
+  item-ferrinite/160
+  item-lodestone/120
+  item-obsidian/60
+]
+ammoTypes: {
+  item-lithium: {
+    type: BasicBulletType
+    width: 14
+    height: 18
+    speed: 3
+    lifetime: 54
+    damage: 0
+    splashDamage: 55
+    splashDamageRadius: 15
+    frontColor: e6aca3
+    backColor: b98279
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.45
+    fragOnPierce: false
+    fragBullets: 3
+    fragSpread: 360
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.4
+    fragBullet: {
+      type: BasicBulletType
+      width: 7
+      height: 9
+      frontColor: e6aca3
+      backColor: b98279
+      speed: 2
+      damage: 2
+      pierce: false
+      lifetime: 20
+      lightning: 1
+      lightningDamage: 1
+      lightningLength: 3
+      lightningColor: cf9991
+    }
+  }
+  item-obsidian: {
+    type: BasicBulletType
+    width: 14
+    height: 18
+    frontColor: 594e6b
+    backColor: 2e293a
+    speed: 3
+    lifetime: 54
+    damage: 0
+    splashDamage: 70
+    splashDamageRadius: 19
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.45
+    fragOnPierce: false
+    fragBullets: 5
+    fragSpread: 360
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.4
+    fragBullet: {
+      type: BasicBulletType
+      frontColor: 594e6b
+      backColor: 2e293a
+      width: 7
+      height: 9
+      speed: 2
+      damage: 5
+      pierce: false
+      lifetime: 20
+    }
+  }
+}
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -top
+      progress: warmup
+      heatProgress: recoil
+      mirror: false
+      under: false
+    }
+    {
+      type: RegionPart
+      suffix: -wing
+      mirror: true
+      under: false
+      progress: warmup
+      heatProgress: recoil
+      moveX: 5
+      moveRot: 6
+    }
+    {
+      type: RegionPart
+      suffix: -dot
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 3
+      heatProgress: recoil
+      moveY: -3
+    }
+    {
+      type: RegionPart
+      suffix: -side-wires
+      mirror: true
+      under: true
+      progress: warmup 
+      moveX: 5
+      heatProgress: warmup
+    }
+    {
+      type: RegionPart
+      suffix: -bottom-wires
+      mirror: true
+      under: true
+      progress: warmup
+      moveX: 3
+      moveY: -3
+      heatProgress: warmup
+    }
+  ]
+}
