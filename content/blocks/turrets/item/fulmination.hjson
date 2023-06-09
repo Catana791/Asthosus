@@ -35,6 +35,7 @@ ammoTypes: {
     spawnUnit: asthosus-encased-shell
     rangeChange: 40
     reloadMultiplier: 1.2
+  }
 }
 drawer: {
   type: DrawTurret
