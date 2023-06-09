@@ -3,7 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 3
 lifetime: 54
-rotateSpeed: 0.6
+rotateSpeed: 0.2
 trailLength: 5
 autoFindTarget: false
 homingDelay: 0
@@ -28,7 +28,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 110
-      splashDamageRadius: 2
+      splashDamageRadius: 24
       ammoMultiplier: 3
       fragBullets: 3
       fragBullet: {
