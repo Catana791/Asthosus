@@ -5,6 +5,7 @@ speed: 3
 lifetime: 54
 trailLength: 5
 autoFindTarget: false
+homingDelay: 0
 circleTarget: false
 faceTarget: true
 loopSound: none
