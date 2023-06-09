@@ -6,6 +6,10 @@ reload: 212
 range: 160
 targetAir: false
 targetGround: true
+shoot: {
+  shots: 2
+  shotDelay: 9
+}
 shootSound: shoot-heavy-cannon
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
@@ -99,40 +103,37 @@ drawer: {
       type: RegionPart
       suffix: -wing
       mirror: true
-      under: false
+      under: true
       progress: warmup
       heatProgress: recoil
-      moveX: 5
-      moveRot: 6
+      moveX: 0.5
+      moveRot: -12
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          rot: -16
+        } 
+      ]
     }
     {
       type: RegionPart
+      outline: false
       suffix: -dot
       mirror: true
-      under: false
-      progress: warmup
-      moveX: 3
+      under: true
+      progress: recoil
+      moveX: -3
       heatProgress: recoil
-      moveY: -3
-    }
-    {
-      type: RegionPart
-      suffix: -side-wires
-      mirror: true
-      under: true
-      progress: warmup 
-      moveX: 5
-      heatProgress: warmup
-    }
-    {
-      type: RegionPart
-      suffix: -bottom-wires
-      mirror: true
-      under: true
-      progress: warmup
-      moveX: 3
-      moveY: -3
-      heatProgress: warmup
+      moveY: 3
+      moves: [
+        {
+          type: PartMove
+          progress: reload
+          X: 3
+          Y: -3
+        }
+      ]
     }
   ]
 }
