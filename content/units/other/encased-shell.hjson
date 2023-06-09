@@ -5,6 +5,7 @@ speed: 3
 lifetime: 54
 trailLength: 5
 trailColor: 7a7564
+aimDst: 4
 drawCell: false
 engineSize: 0
 outlineColor: 44413c
