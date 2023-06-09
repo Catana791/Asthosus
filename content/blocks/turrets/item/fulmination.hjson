@@ -6,9 +6,11 @@ reload: 212
 range: 160
 targetAir: false
 targetGround: true
+chargeSound: lasercharge2
 shoot: {
+  firstShotDelay: 20
   shots: 2
-  shotDelay: 9
+  shotDelay: 11
 }
 shootSound: shoot-heavy-cannon
 shootEffect: shootTitan
