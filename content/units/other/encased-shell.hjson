@@ -3,6 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 3
 lifetime: 54
+rotateSpeed: 0.6
 trailLength: 5
 autoFindTarget: false
 homingDelay: 0
