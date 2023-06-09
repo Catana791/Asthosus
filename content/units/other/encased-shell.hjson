@@ -4,11 +4,20 @@ flying: true
 speed: 3
 lifetime: 54
 trailLength: 5
+autoFindTarget: false
+circleTarget: false
+faceTarget: true
+hittable: false
+internal: true
+killable: false
+loopSound: none
+deathSound: none
 trailColor: 7a7564
 aimDst: 4
 drawCell: false
 engineSize: 0
-outlineColor: 44413c
+outlines: false
+range: 4
 hidden: true
 weapons: [
   {
