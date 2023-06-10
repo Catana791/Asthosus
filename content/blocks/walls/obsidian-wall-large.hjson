@@ -22,7 +22,7 @@ destroyBullet: {
     height: 7
     pierceCap: 1
     homingPower: 0.1
-    damage: 12
+    damage: 36
     mixColorFrom: 594e6b
     mixColorTo: 2e293a
   }
