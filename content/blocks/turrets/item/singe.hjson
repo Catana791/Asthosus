@@ -15,7 +15,7 @@ ammoTypes: {
     lifetime: 20
     drawFlare: false
     hitColor: ffc9a2
-    damage: 1
+    damage: 12
     knockback: 0
     pierce: true
     pierceArmor: false
