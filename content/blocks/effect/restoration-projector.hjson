@@ -1,0 +1,15 @@
+research: core-essence
+name: Restoration Projector
+description: Slowly restores the health of nearby allied blocks. Requires power.
+size: 1
+range: 14
+baseColor: 85c278
+consumes: {
+  power: 0.5
+}
+healPercent: 4
+requirements: [
+  item-ferrinite/30
+  item-demetite/30
+]
+category: effect
