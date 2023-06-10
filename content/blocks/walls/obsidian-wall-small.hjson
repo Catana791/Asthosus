@@ -20,8 +20,8 @@ destroyBullet: {
     pierce: true
     pierceCap: 1
     damage: 12
-    width: 6
-    height: 7
+    width: 4
+    height: 5
     homingPower: 0.1
     mixColorFrom: 594e6b
     mixColorTo: 2e293a
