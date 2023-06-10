@@ -19,31 +19,6 @@ requirements: [
   item-obsidian/20
   item-lithium/20
 ]
-craftEffect: {
-  type: RadialEffect
-  rotationSpacing: 15
-  amount: 6
-  layer: 118
-  length: 6
-  rotationOffset: 45
-  lengthOffset: 5
-  effect: {
-    type: ParticleEffect
-    particles: 18
-    sizeFrom: 1.2
-    sizeTo: 0.2
-    colorFrom: ffffff00
-    colorTo: ffffff88
-    length: 18
-    lifetime: 240
-    cone: 20
-    useRotation: false
-    baseRotation: 90
-    interp: pow2
-    sizeInterp: pow3In
-    layer: 80
-  }
-}
 drawer: {
   type: DrawMulti
   drawers: [
