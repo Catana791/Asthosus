@@ -11,6 +11,7 @@ range: 80
 shootY: 1
 ammoTypes: {
   item-lignite: {
+    ammoMultiplier: 4
     type: ContinuousFlameBulletType
     lifetime: 20
     drawFlare: false
