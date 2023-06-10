@@ -28,5 +28,6 @@ ammoTypes: {
 category: turret
 research: catapult
 requirements: [
-
+  item-ferrinite/40
+  item-lodestone/24
 ]
