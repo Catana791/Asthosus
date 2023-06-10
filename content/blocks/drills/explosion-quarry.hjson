@@ -4,6 +4,7 @@ description: Uses small scale friction explosions to mine basic materials from t
 size: 1
 category: production
 research: demetite-mining-unit
+hardnessDrillMultiplier: 50
 drillTime: 300
 hasPower: false
 tier: 2
