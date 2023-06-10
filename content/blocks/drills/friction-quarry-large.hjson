@@ -3,6 +3,7 @@ name: Large Friction Quarry
 description: Uses friction explosions to mine basic materials from the ground. Reinforced using Lodestone.
 size: 2
 category: production
+hardnessDrillMultiplier: 50
 research: explosion-quarry
 drillTime: 270
 hasPower: false
