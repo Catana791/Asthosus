@@ -19,7 +19,7 @@ drillEffect: {
   colorTo: 2e293a
   lifetime: 20
 }
-consumes: 
+consumes: {
   power: 2
   liquid: {
     liquid: liquid-oasis-water
