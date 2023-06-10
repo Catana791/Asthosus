@@ -19,7 +19,7 @@ destroyBullet: {
     lifetime: 20
     pierce: true
     pierceCap: 1
-    damage: 12
+    damage: 24
     width: 4
     height: 5
     homingPower: 0.1
