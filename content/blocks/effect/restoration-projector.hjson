@@ -1,4 +1,5 @@
 research: core-essence
+type: RegenProjector
 name: Restoration Projector
 description: Slowly restores the health of nearby allied blocks. Requires power.
 size: 1
