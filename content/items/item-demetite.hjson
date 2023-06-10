@@ -4,3 +4,4 @@ cost: 0.7
 hardness: 1
 color: beb48f
 research: item-ferrinite
+hiddenOnPlanets: [serpulo, erekir]
