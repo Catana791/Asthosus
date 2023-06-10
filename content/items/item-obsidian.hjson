@@ -4,3 +4,4 @@ hardness: 3
 cost: 1
 color: 3d354b
 research: item-demetite
+hiddenOnPlanets: [serpulo, erekir]
