@@ -7,6 +7,7 @@ research: friction-quarry-large
 drillTime: 200
 tier: 4
 shake: 2
+arrows: 4
 itemCapacity: 40
 researchCostMultiplier: 0.8
 drillEffect: {
