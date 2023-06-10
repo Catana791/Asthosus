@@ -12,8 +12,8 @@ effect: {
   colorTo: 69a25e
   particles: 3
   line: true
-  length: 6
-  baseLength: 8
+  length: 2
+  baseLength: 3
   strokeFrom: 0.6
   strokeTo: 1.6
   lifetime: 90
