@@ -4,3 +4,4 @@ cost: 0.2
 lowPriority: true
 research: item-ferrinite
 color: d7cfb4
+hiddenOnPlanets: [serpulo, erekir]
