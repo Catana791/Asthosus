@@ -7,3 +7,4 @@ research: item-lignite
 cost: 0.7
 charge: 0.2
 color: cf9991
+hiddenOnPlanets: [serpulo, erekir]
