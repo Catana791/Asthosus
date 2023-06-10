@@ -4,6 +4,7 @@ description: Uses flammable materials as ammo to create a large flame.
 size: 1
 squareSprite: false
 reload: 8
+inaccuracy: 5
 shootSound: flame
 targetAir: false
 range: 80
