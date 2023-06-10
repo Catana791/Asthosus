@@ -3,14 +3,16 @@ name: Singe
 description: Uses flammable materials as ammo to create a large flame.
 size: 1
 squareSprite: false
-reload: 90
+reload: 180
 shootSound: flame
 targetAir: false
 range: 80
 ammoTypes: {
   item-lignite: {
     type: ContinuousFlameBulletType
-    lifetime: 60
+    lifetime: 110
+    drawFlare: false
+    hitColor: ffc9a2
     fadeTime: 10
     damage: 1
     knockback: 0
