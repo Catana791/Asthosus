@@ -1,0 +1,37 @@
+type: BurstDrill
+name: Abrasion Quarry
+description: Uses large-scale friction explosions to mine materials from the ground in high amounts. Enhanced through Obsidian. Can mine advanced materials. Requires power.
+size: 3
+category: production
+research: friction-quarry-large
+drillTime: 80
+tier: 4
+shake: 2
+itemCapacity: 40
+researchCostMultiplier: 0.8
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 28
+  strokeFrom: 2.2
+  strokeTo: 0.6
+  colorFrom: 594e6b
+  colorTo: 2e293a
+  lifetime: 20
+}
+consumes: 
+  power: 2
+  liquid: {
+    liquid: liquid-oasis-water
+    amount: 0.04
+    optional: true
+    booster: true
+  }
+}
+requirements: [
+  item-ferrinite/46 
+  item-lodestone/30
+  item-lithium/20
+  item-obsidian/40
+]
+squareSprite: false
