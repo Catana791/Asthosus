@@ -49,7 +49,7 @@ ammoTypes: {
     type: ContinuousFlameBulletType
     damage: 1
     length: 130
-    knockback: 1
+    knockback: 2
     pierceCap: 3
     colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
     lightColor: ffffffCC
