@@ -8,7 +8,9 @@ baseColor: 85c278
 squareSprite: false
 effect: {
   type: ParticleEffect
-  particles: 1
+  colorFrom: 85c278
+  colorTo: 69a25e
+  particles: 3
   line: true
   length: 6
   baseLength: 8
