@@ -3,9 +3,22 @@ type: RegenProjector
 name: Restoration Projector
 description: Slowly restores the health of nearby allied blocks. Requires power.
 size: 1
-range: 4
+range: 6
 baseColor: 85c278
 squareSprite: false
+effect: {
+  type: ParticleEffect
+  particles: 1
+  line: true
+  length: 6
+  baseLength: 8
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
 consumes: {
   power: 0.5
 }
