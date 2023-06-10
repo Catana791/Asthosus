@@ -8,6 +8,7 @@ drillTime: 200
 tier: 4
 shake: 2
 arrows: 1
+squareSprite: false
 itemCapacity: 40
 researchCostMultiplier: 0.8
 drillEffect: {
