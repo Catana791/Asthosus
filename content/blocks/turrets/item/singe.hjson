@@ -5,7 +5,7 @@ size: 1
 squareSprite: false
 reload: 8
 inaccuracy: 5
-shootSound: flame
+shootSound: shoot-small-flame
 targetAir: false
 range: 80
 shootY: 1
