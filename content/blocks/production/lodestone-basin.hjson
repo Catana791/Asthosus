@@ -45,6 +45,9 @@ drawer: {
       suffix: -top-bottom
     }
     {
+      type: DrawDefault
+    }
+    {
       type: DrawCrucibleFlame
     }
     {
