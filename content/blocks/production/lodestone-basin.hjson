@@ -12,14 +12,38 @@ requirements: [
   item-lithium/40
 ]
 craftTime: 60
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 22.5
+  lengthOffset: 14
+  amount: 16
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 6
+    line: true
+    strokeFrom: 0.6
+    strokeTo: 0.1
+    length: 12
+    lifetime: 75
+    cone: 3
+    useRotation: false
+    baseRotation: 90
+    colorFrom: ffffff00
+    colorTo: ffffff88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+}
 outputItems: [
-  item-lodestone/6
-  sand/4
+  item-lodestone/4
+  sand/2
 ]
 consumes: {
   items: [
-    item-ferrinite/1
-    item-hardened-sand/2
+    item-ferrinite/2
+    item-hardened-sand/3
   ]
   liquid: liquid-oasis-water/0.1
 }
