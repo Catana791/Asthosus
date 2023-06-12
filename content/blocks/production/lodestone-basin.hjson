@@ -33,6 +33,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: liquid-oasis-water
       alpha: 0.65
+      padding: 2.5
     }
     {
       type: DrawRegion
