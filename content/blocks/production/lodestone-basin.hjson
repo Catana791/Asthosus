@@ -14,7 +14,7 @@ requirements: [
 craftTime: 60
 outputItems: [
   item-lodestone/6
-  item-hardened-sand/4
+  sand/4
 ]
 consumes: {
   items: [
