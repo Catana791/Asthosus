@@ -12,31 +12,7 @@ requirements: [
   item-lithium/40
 ]
 craftTime: 60
-craftEffect: {
-  type: RadialEffect
-  rotationSpacing: 22.5
-  lengthOffset: 1
-  amount: 16
-  layer: 118
-  effect: {
-    type: ParticleEffect
-    particles: 6
-    line: true
-    strokeFrom: 0.6
-    strokeTo: 0.1
-    length: 12
-    baseLength: 16
-    lifetime: 40
-    cone: 4
-    useRotation: false
-    baseRotation: 90
-    colorFrom: ffffff00
-    colorTo: ffffff88
-    interp: pow2
-    sizeInterp: pow3In
-    layer: 80
-  }
-}
+craftEffect: none
 outputItems: [
   item-lodestone/4
   sand/2
