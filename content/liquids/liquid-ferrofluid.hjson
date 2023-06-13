@@ -3,14 +3,6 @@ description: A magnetic liquid used in many technical buildings and machines.
 viscosity: 0.7
 heatCapacity: 0.6
 research: liquid-purified-oasis-water
-type: CellLiquid 
-moveThroughBlocks: false 
-canStayOn: [] 
-incinerable: true 
-spreadDamage: 0 
-capPuddles: true 
-maxSpread: 0 
-blockReactive: false 
-colorFrom: 1c1c1c
-colorTo: 0f0f0f
 color: 131313
+explosiveness: 0.5
+boilPoint: 0.7
