@@ -49,19 +49,6 @@ drawer: {
     {
       type: DrawBubbles
       fill: false
-      color: 6b9388
-      spread: 6
-    }
-    {
-      type: DrawBubbles
-      fill: false
-      color: 425b54
-      spread: 1
-      reccurence: 6
-    }
-    {
-      type: DrawBubbles
-      fill: false
       color: 1d1d1d
       spread: 7
       reccurence: 3
