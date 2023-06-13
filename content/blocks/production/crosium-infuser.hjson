@@ -6,7 +6,7 @@ craftTime: 90
 consumes: {
   power: 1
   liquids: [
-    ferrofluid/0.1
+    liquid-ferrofluid/0.1
     pressure/0.1
   ]
   items: [
