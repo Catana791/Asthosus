@@ -1,7 +1,7 @@
 type: StackConveyor
 name: Crosium Belt
 description: Packages stacks of items before sending them off. Outputs items in three directions at the end.
-speed: 0.15
+speed: 0.1
 itemCapacity: 50
 health: 40
 category: distribution
