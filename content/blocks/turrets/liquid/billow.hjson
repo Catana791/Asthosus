@@ -18,8 +18,11 @@ requirements: [
 ]
 ammoTypes: {
   liquid-oasis-water: {
-    liquid: liquid-oasis-water
-    type: LiquidBulletType
+    type: BasicBulletType
+    mixColorTo: 54798b 
+    mixColorFrom: 334751
+    width: 9
+    height: 12
     speed: 1.5
     lifetime: 80
     knockback: 0.7
@@ -30,8 +33,11 @@ ammoTypes: {
     sprite: asthosus-drop-bullet
   }
   liquid-purified-oasis-water: {
-    liquid: liquid-purified-oasis-water
-    type: LiquidBulletType
+    type: BasicBulletType
+    mixColorTo: 54798b 
+    mixColorFrom: 8ccced
+    width: 9
+    height: 12
     speed: 1.5
     lifetime: 80
     knockback: 0.7
@@ -42,8 +48,11 @@ ammoTypes: {
     sprite: asthosus-drop-bullet
   }
   liquid-ferrofluid: {
-    liquid: liquid-ferrofluid
-    type: LiquidBulletType
+    mixColorTo: 000000 
+    mixColorFrom: 242424
+    type: BasicBulletType
+    width: 9
+    height: 12
     speed: 1.5
     lifetime: 80
     knockback: 0.6
