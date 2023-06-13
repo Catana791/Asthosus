@@ -21,6 +21,7 @@ requirements: [
 ]
 ammoTypes: {
   liquid-oasis-water: {
+    liquid: liquid-oasis-water
     type: LiquidBulletType
     speed: 1.5
     lifetime: 80
@@ -30,6 +31,7 @@ ammoTypes: {
     damage: 0
   }
   liquid-purified-oasis-water: {
+    liquid: liquid-purified-oasis-water
     type: LiquidBulletType
     speed: 1.5
     lifetime: 80
@@ -39,6 +41,7 @@ ammoTypes: {
     damage: 2
   }
   liquid-ferrofluid: {
+    liquid: liquid-ferrofluid
     type: LiquidBulletType
     speed: 1.5
     lifetime: 80
