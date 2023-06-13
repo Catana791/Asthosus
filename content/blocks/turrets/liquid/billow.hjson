@@ -4,7 +4,7 @@ description: Rapidly fires drops of liquid at enemies. Capable of extinguishing 
 blockFlags: [extinguisher]
 size: 2
 reload: 72
-inaccuracy: 
+inaccuracy: 6
 hasLiquids: true
 liquidCapacity: 20
 category: turret
