@@ -79,7 +79,7 @@ drawer: {
     {
       type: DrawPulseShape
       color: 54776d
-      square: true
+      square: false
       stroke: 0.8
       minStroke: 0.2
     }
