@@ -1,13 +1,3 @@
-type: CellLiquid
-moveThroughBlocks: false
-canStayOn: []
-incinerable: true
-spreadDamage: 0
-capPuddles: true
-maxSpread: 0
-blockReactive: false
-colorFrom: 435f6d
-colorTo: 334751
 name: Oasis Water
 effect: asthosus-status-rejuvenated
 boilPoint: 0.5
