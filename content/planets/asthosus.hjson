@@ -72,4 +72,4 @@ defaultCore: core-essence
 parent: sun
 solarSystem: sun
 launchCandidates: []
-itemWhitelist: ["item-ferrinite", "item-demetite", "item-lodestone", "item-lignite", "item-lithium", "item-hardened-sand", "item-obsidian"]
+itemWhitelist: ["item-ferrinite", "item-demetite", "item-lodestone", "item-lignite", "item-lithium", "item-hardened-sand", "item-obsidian", "item-crosium"]
