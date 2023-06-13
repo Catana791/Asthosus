@@ -8,7 +8,7 @@ inaccuracy:
 hasLiquids: true
 liquidCapacity: 20
 category: turret
-research: catapult
+research: depulse
 shoot: {
   shots: 20
   shotDelay: 0.8
