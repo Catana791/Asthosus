@@ -18,6 +18,8 @@ requirements: [
 ]
 ammoTypes: {
   liquid-oasis-water: {
+    despawnEffect: none
+    hitEffect: none
     type: BasicBulletType
     mixColorTo: 54798b 
     mixColorFrom: 334751
@@ -33,6 +35,8 @@ ammoTypes: {
     sprite: asthosus-drop-bullet
   }
   liquid-purified-oasis-water: {
+    despawnEffect: none
+    hitEffect: none
     type: BasicBulletType
     mixColorTo: 54798b 
     mixColorFrom: 8ccced
@@ -48,6 +52,8 @@ ammoTypes: {
     sprite: asthosus-drop-bullet
   }
   liquid-ferrofluid: {
+    despawnEffect: none
+    hitEffect: none
     mixColorTo: 000000 
     mixColorFrom: 242424
     type: BasicBulletType
