@@ -5,10 +5,10 @@ size: 3
 craftTime: 90
 consumes: {
   power: 1
-  liquid: {
+  liquids: [
     ferrofluid/0.1
     pressure/0.1
-  }
+  ]
   items: [
     item-obsidian/2
   ]
