@@ -50,28 +50,27 @@ drawer: {
       type: DrawBubbles
       fill: false
       color: 6b9388
-      spread: 4
-      reccurence: 5
+      spread: 6
     }
     {
       type: DrawBubbles
       fill: false
       color: 425b54
-      spread: 2
+      spread: 1
       reccurence: 6
     }
     {
       type: DrawBubbles
       fill: false
       color: 1d1d1d
-      spread: 3.5
+      spread: 7
       reccurence: 3
     }
     {
       type: DrawBubbles
       fill: false
       color: 464646
-      spread: 2.5
+      spread: 2
       reccurence: 2
     }
     {
