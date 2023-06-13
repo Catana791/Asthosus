@@ -27,6 +27,7 @@ ammoTypes: {
     statusDuration: 120
     damage: 0
     layer: 98
+    sprite: asthosus-drop-bullet
   }
   liquid-purified-oasis-water: {
     liquid: liquid-purified-oasis-water
@@ -37,6 +38,8 @@ ammoTypes: {
     status: wet
     status-duration: 180
     damage: 2
+    layer: 98
+    sprite: asthosus-drop-bullet
   }
   liquid-ferrofluid: {
     liquid: liquid-ferrofluid
@@ -48,6 +51,7 @@ ammoTypes: {
     statusDuration: 120
     damage: 3
     layer: 98
+    sprite: asthosus-drop-bullet
   } 
 }
 drawer: {
