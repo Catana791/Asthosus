@@ -1,0 +1,67 @@
+type: GenericCrafter
+name: Crosium Infuser
+description: Infuses Obsidian with Ferrofluid before compressing it to create Crosium. Requires power and pressure.
+size: 3
+craftTime: 90
+consumes: {
+  power: 1
+  liquid: {
+    ferrofluid/0.1
+    pressure/0.1
+  }
+  items: [
+    item-obsidian/2
+  ]
+}
+outputItem: item-crosium/1
+hasLiquids: true
+hasItems: true
+liquidCapacity: 30
+category: crafting
+research: lodestone-basin
+requirements: [
+  item-demetite/130
+  item-lodestone/110
+  item-obsidian/70
+]
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: ferrofluid
+      padding: 3
+      alpha: 0.55
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 54776d
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 6b9388
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 425b54
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      color: 54776d
+      square: true
+      stroke: 0.8
+      minStroke: 0.2
+    }
+  ]
+}
