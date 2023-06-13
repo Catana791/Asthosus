@@ -3,17 +3,13 @@ name: Billow
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 blockFlags: [extinguisher]
 size: 2
-reload: 72
+reload: 4
 inaccuracy: 6
 hasLiquids: true
 liquidCapacity: 20
 category: turret
 research: depulse
 range: 120
-shoot: {
-  shots: 20
-  shotDelay: 0.8
-}
 requirements: [
   item-ferrinite/40
   item-demetite/60
