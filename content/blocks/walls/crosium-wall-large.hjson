@@ -12,3 +12,4 @@ conductivePower: true
 squareSprite: false
 category: defense
 research: crosium-wall-small
+size: 2
