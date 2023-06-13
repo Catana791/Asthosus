@@ -1,0 +1,45 @@
+type: LiquidTurret
+name: Billow
+description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
+blockFlags: [extinguisher]
+size: 2
+reload: 72
+inaccuracy: 
+hasLiquids: true
+liquidCapacity: 20
+category: turret
+research: catapult
+shoot: {
+  shots: 20
+  shotDelay: 0.8
+}
+requirements: [
+  item-ferrinite/40
+  item-demetite/60
+  item-lodestone/35
+]
+ammoTypes: {
+  liquid-oasis-water: {
+    knockback: 0.7
+    status: wet
+    statusDuration: 120
+    damage: 0
+  }
+  liquid-purified-oasis-water: {
+    knockback: 0.7
+    status: wet
+    status-duration: 180
+    damage: 2
+  }
+  liquid-ferrofluid: {
+    knockback: 0.6
+    status: tarred
+    statusDuration: 120
+    damage: 3
+  } 
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
+squareSprite: false
