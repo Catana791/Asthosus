@@ -14,8 +14,8 @@ drawer: {
       suffix: -wing
       mirror: true
       under: true
-      progress: recoil
-      moveX: 0.5
+      progress: warmup
+      moveX: 1.5
       moveY: -0.5
       moveRot: -8
     }
