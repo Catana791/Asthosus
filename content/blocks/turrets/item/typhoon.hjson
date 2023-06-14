@@ -35,8 +35,8 @@ research: fulmination
 shootSound: shoot-dull
 requirements: [
   item-ferrinite/180
-  item-lodestone/90
-  item-crosium/60
+  item-obisidan/90
+  item-crosium/90
 ]
 ammoTypes: {
   item-ferrinite: {
