@@ -86,6 +86,22 @@ ammoTypes: {
     splashDamageRadius: 12
     ammoMultiplier: 9
   }
+  item-lithium: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 7
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 2
+    damage: 4
+    status: shocked
+    splashDamage: 19
+    splashDamageRadius: 12
+    ammoMultiplier: 9
+  }
   item-obsidian: {
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -96,8 +112,8 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 3
-    damage: 4
-    splashDamage: 19
+    damage: 6
+    splashDamage: 22
     splashDamageRadius: 12
     ammoMultiplier: 10
     fragBullets: 4
