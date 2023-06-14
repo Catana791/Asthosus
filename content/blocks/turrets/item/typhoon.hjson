@@ -53,7 +53,7 @@ ammoTypes: {
     pierceCap: 1
     damage: 1
     splashDamage: 11
-    splashDamageRadius: 8
+    splashDamageRadius: 12
     ammoMultiplier: 8
   }
   item-demetite: {
@@ -69,7 +69,7 @@ ammoTypes: {
     pierceCap: 1
     damage: 2
     splashDamage: 13
-    splashDamageRadius: 8
+    splashDamageRadius: 12
     ammoMultiplier: 8
   }
   item-lodestone: {
@@ -84,7 +84,7 @@ ammoTypes: {
     pierceCap: 1
     damage: 4
     splashDamage: 18
-    splashDamageRadius: 12
+    splashDamageRadius: 16
     ammoMultiplier: 9
   }
   item-lithium: {
@@ -100,7 +100,7 @@ ammoTypes: {
     damage: 4
     status: shocked
     splashDamage: 19
-    splashDamageRadius: 12
+    splashDamageRadius: 16
     ammoMultiplier: 9
   }
   item-obsidian: {
@@ -115,7 +115,7 @@ ammoTypes: {
     pierceCap: 2
     damage: 5
     splashDamage: 24
-    splashDamageRadius: 12
+    splashDamageRadius: 16
     ammoMultiplier: 10
     fragBullets: 4
     fragVelocityMin: 0.4
@@ -146,7 +146,7 @@ ammoTypes: {
     pierceCap: 3
     damage: 7
     splashDamage: 31
-    splashDamageRadius: 19
+    splashDamageRadius: 22
     ammoMultiplier: 12
     fragBullets: 6
     fragVelocityMin: 0.4
