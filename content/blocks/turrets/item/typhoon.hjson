@@ -36,7 +36,7 @@ shootSound: shoot-dull
 requirements: [
   item-ferrinite/180
   item-lodestone/90
-  item-obisidan/70
+  item-obsididan/70
   item-crosium/60
 ]
 ammoTypes: {
