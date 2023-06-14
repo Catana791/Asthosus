@@ -13,7 +13,7 @@ consumes: {
     item-obsidian/2
   ]
 }
-outputItem: item-crosium/1
+outputItem: item-crosium/2
 hasLiquids: true
 hasItems: true
 liquidCapacity: 30
