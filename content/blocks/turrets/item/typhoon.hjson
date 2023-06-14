@@ -14,16 +14,15 @@ drawer: {
       suffix: -barrel
       progress: recoil
       heatProgress: recoil
+      under: true
       moveY: -1
-      growX: 0.2
-      growY: 0.2
-      outline: false
+      growX: 0.1
+      growY: 0.1
     }
     {
       type: RegionPart
       suffix: -wing
       mirror: true
-      under: true
       progress: warmup
       moveX: 1.5
       moveY: -0.5
