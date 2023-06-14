@@ -1,0 +1,140 @@
+type: ItemTurret
+name: Typhoon
+description: Rapidly blasts bullets at enemies. 
+size: 3
+squareSprite: false
+reload: 2
+range: 200
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -wing
+      mirror: true
+      under: true
+      progress: recoil
+      moveX: 0.5
+      moveY: -0.5
+      moveRot: -4
+    }
+  ]
+}
+category: turret
+research: fulmination
+shootSound: shoot-dull
+requirements: [
+  item-ferrinite/180
+  item-lodestone/90
+  item-crosium/60
+]
+ammoTypes: {
+  item-ferrinite: {
+    reloadMultiplier: 0.8
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 11
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 1
+    splashDamage: 9
+    splashDamageRadius: 8
+    ammoMultiplier: 8
+  }
+  item-demetite: {
+    reloadMultiplier: 0.85
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 10
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 2
+    splashDamage: 10
+    splashDamageRadius: 8
+    ammoMultiplier: 8
+  }
+  item-lodestone: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 8
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 2
+    damage: 4
+    splashDamage: 19
+    splashDamageRadius: 12
+    ammoMultiplier: 9
+  }
+  item-obsidian: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 6
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 3
+    damage: 4
+    splashDamage: 19
+    splashDamageRadius: 12
+    ammoMultiplier: 10
+    fragBullets: 4
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 4
+      splashDamage: 2
+      splashDamageRadius: 4
+    }
+  }
+  item-crosium: {
+    reloadMultiplier: 1.1
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 6
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 5
+    damage: 8
+    splashDamage: 31
+    splashDamageRadius: 19
+    ammoMultiplier: 12
+    fragBullets: 6
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 6
+      splashDamage: 2
+      splashDamageRadius: 4
+  }
+}
