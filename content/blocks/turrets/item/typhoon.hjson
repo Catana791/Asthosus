@@ -11,6 +11,14 @@ drawer: {
   parts: [
     {
       type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -1
+      growX: 0.2
+      growY: 0.2
+    }
+    {
+      type: RegionPart
       suffix: -wing
       mirror: true
       under: true
