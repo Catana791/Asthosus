@@ -3,7 +3,7 @@ name: Typhoon
 description: Rapidly blasts bullets at enemies. 
 size: 3
 squareSprite: false
-reload: 2
+reload: 4
 range: 200
 drawer: {
   type: DrawTurret
@@ -17,7 +17,7 @@ drawer: {
       progress: recoil
       moveX: 0.5
       moveY: -0.5
-      moveRot: -4
+      moveRot: -8
     }
   ]
 }
