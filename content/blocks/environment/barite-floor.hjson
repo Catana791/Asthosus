@@ -1,5 +1,7 @@
 type: Floor
 name: Barite
+description: A floor that contains radioactive barite. Needs high-tier drills to be mined.
+itemDrop: item-barite
 variants: 3
 attributes: {
   barite: 0.5
