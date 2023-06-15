@@ -8,6 +8,7 @@ research: friction-quarry-large
 drillTime: 200
 tier: 4
 shake: 2
+blockedItem: item-hardened-sand
 arrows: 1
 squareSprite: false
 itemCapacity: 40
