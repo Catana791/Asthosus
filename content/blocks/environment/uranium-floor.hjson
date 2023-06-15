@@ -1,5 +1,5 @@
 type: Floor
-name: Demetite Stone
+name: Uranium
 variants: 0
 attributes: {
   uranium: 0.5
