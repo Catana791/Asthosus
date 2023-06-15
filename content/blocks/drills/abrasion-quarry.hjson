@@ -7,6 +7,12 @@ category: production
 research: friction-quarry-large
 drillTime: 200
 tier: 4
+drillMultipliers: [
+  {
+    item: item-barite
+    multiplier: 0.5
+  }
+] 
 shake: 2
 blockedItem: item-hardened-sand
 arrows: 1
