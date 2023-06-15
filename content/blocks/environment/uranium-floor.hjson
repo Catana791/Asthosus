@@ -1,6 +1,6 @@
 type: Floor
 name: Uranium
-variants: 0
+variants: 3
 attributes: {
   uranium: 0.5
 }
