@@ -1,0 +1,39 @@
+type: ConsumeGenerator
+name: Discharge Generator
+description: Produces power by discharging charged materials. Uses Ferrofluid as an insulator to protect the reactor.
+size: 3
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-ferrofluid
+      alpha: 0.7
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.24
+powerProduction: 3
+category: power
+research: pressure-turbine
+requirements: [
+  item-demetite/190
+  item-lodestone/90
+  item-lithium/55
+]
+consumes: {
+  liquid: liquid-ferrofluid/0.05
+  items: [
+    itemCharged: {
+      minCharge: 0.1
+    }
+  ]
+}
