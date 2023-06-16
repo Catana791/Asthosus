@@ -17,6 +17,10 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
+      type: DrawWarmupRegion
+      color: ebec6233
+    }
   ]
 }
 ambientSound: hum
