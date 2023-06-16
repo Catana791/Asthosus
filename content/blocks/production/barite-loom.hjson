@@ -4,6 +4,11 @@ description: Weaves Barite Webbing using Barite and Lignite. Requires power and 
 size: 3
 category: crafting
 research: crosium-infuser
+attribute: barite
+maxBoost: 1
+minEfficiency: 1
+baseEfficiency: 1
+boostScale: 0.5556
 requirements: [
   item-demetite/120
   item-lithium/150
