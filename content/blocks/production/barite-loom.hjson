@@ -51,3 +51,13 @@ drawer: {
     }
   ]
 }
+craftTime: 200
+consumes: {
+  items: [
+    item-barite/9
+    item-lignite/18
+  ]
+  liquid: pressure/0.3
+  power: 4
+}
+outputItem: item-barite-webbing/2
