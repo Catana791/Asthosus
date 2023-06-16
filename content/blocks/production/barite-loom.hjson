@@ -5,10 +5,7 @@ size: 3
 category: crafting
 research: crosium-infuser
 attribute: barite
-maxBoost: 1
-minEfficiency: 1
-baseEfficiency: 1
-boostScale: 0.5556
+maxBoost: 1.25
 requirements: [
   item-demetite/120
   item-lithium/150
