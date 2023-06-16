@@ -46,7 +46,7 @@ drawer: {
     {
       type: DrawMultiWeave
     }
-    }
+    {
       type: DrawDefault 
     }
   ]
