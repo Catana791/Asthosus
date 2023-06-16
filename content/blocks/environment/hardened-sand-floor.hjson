@@ -1,5 +1,5 @@
 type: Floor
-name: Hardened Sand Floor
+name: Hardened Sand
 itemDrop: item-hardened-sand
 playerUnmineable: true
 attributes: {
