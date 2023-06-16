@@ -18,8 +18,10 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawWarmupRegion
-      color: ebec6233
+      type: DrawGlowRegion
+      suffix: -top
+      blending: additive
+      color: d76a6a80
     }
   ]
 }
