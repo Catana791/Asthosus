@@ -6,3 +6,5 @@ explosiveness: 0.2
 radioactivity: 0.7
 cost: 1.3
 healthScaling: 0.25
+research: item-barite
+hiddenOnPlanets: [serpulo, erekir]
