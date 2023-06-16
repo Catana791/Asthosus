@@ -21,7 +21,7 @@ drawer: {
 }
 ambientSound: hum
 ambientSoundVolume: 0.24
-powerProduction: 30
+powerProduction: 15
 category: power
 research: pressure-turbine
 requirements: [
