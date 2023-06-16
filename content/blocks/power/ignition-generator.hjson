@@ -12,7 +12,7 @@ requirements: [
 consumes: {
   itemFlammable: {}
 }
-powerProduction: 1.5
+powerProduction: 0.5
 itemDuration: 120
 generateEffect: generatespark
 ambientSound: smelter
