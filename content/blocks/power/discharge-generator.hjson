@@ -31,9 +31,7 @@ requirements: [
 ]
 consumes: {
   liquid: liquid-ferrofluid/0.05
-  items: [
-    itemCharged: {
-      minCharge: 0.1
-    }
-  ]
+  itemCharged: {
+    minCharge: 0.1
+  } 
 }
