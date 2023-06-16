@@ -42,7 +42,7 @@ drawer: {
     }
     {
       type: DrawWeave
-      weave: -frame0
+      suffix: -frame0
     }
     {
       type: DrawDefault 
