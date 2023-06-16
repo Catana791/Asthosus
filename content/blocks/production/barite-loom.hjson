@@ -41,6 +41,10 @@ drawer: {
       type: DrawMultiWeave
     }
     {
+      type: DrawWeave
+      weave: -frame0
+    }
+    {
       type: DrawDefault 
     }
   ]
