@@ -32,15 +32,6 @@ drawer: {
       padding: 2.5
     }
     {
-      type: DrawSpikes
-      amount: 12
-      color: c5a381
-      layers: 12
-      layerSpeed: 0.67
-      rotateSpeed: -1.85
-      stroke: 2
-    }
-    {
       type: DrawFrames
       frames: 11
       sine: false
