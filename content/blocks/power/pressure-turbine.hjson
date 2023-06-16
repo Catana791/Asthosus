@@ -15,7 +15,7 @@ consumes: {
 hasLiquids: true
 liquidCapacity: 30
 itemDuration: 60
-powerProduction: 3
+powerProduction: 1
 layer: 118
 generateEffectRange: 0
 generateEffect: {
