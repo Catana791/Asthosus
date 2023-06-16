@@ -38,11 +38,11 @@ drawer: {
       interval: 6
     }
     {
-      type: DrawMultiWeave
-    }
-    {
       type: DrawWeave
       suffix: -frame0
+    }
+    {
+      type: DrawMultiWeave
     }
     {
       type: DrawDefault 
