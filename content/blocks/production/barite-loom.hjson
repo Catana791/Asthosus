@@ -9,7 +9,7 @@ requirements: [
   item-lithium/150
   item-barite/75
 ]
-itemCapacity: 30
+itemCapacity: 50
 liquidCapacity: 50
 squareSprite: false
 drawer: {
