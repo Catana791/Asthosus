@@ -1,0 +1,84 @@
+type: ItemTurret
+name: Myriad
+description: Fires homing and fragging missiles at enemies.
+size: 3
+reload: 71
+shoot: {
+  type: ShootAlternate
+  shots: 4
+  spread: 6
+  shotDelay: 12 
+  barrels: 4
+}
+range: 160
+category: turret
+research: fulmination
+requirements: [
+  item-ferrinite/130
+  item-lodestone/100
+  item-lithium/80
+  item-crosium/60
+]
+ammoTypes: {
+  item-lithium: {
+    type: MissileBulletType
+    width: 11
+    height: 14
+    homingPower: 0.08
+    homingDelay: 30
+    homingRange: 40
+    speed: 3
+    lifetime: 53
+    hitEffect: blastHit
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnHit: true
+    damage: 6
+    splashDamage: 32
+    splashDamageRadius: 24
+    status: shocked
+    ammoMultiplier: 3
+  }
+  item-crosium: {
+    type: MissileBulletType
+    width: 11
+    height: 14
+    homingPower: 0.08
+    homingDelay: 30
+    homingRange: 40
+    speed: 3
+    lifetime: 53
+    hitEffect: blastHit
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnHit: true
+    damage: 9
+    splashDamage: 40
+    splashDamageRadius: 30
+    status: shocked
+    ammoMultiplier: 4
+  }
+  item-barite-webbing: {
+    type: MissileBulletType
+    width: 11
+    height: 14
+    homingPower: 0.08
+    homingDelay: 30
+    homingRange: 40
+    speed: 3
+    lifetime: 53
+    hitEffect: blastHit
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnHit: true
+    damage: 14
+    splashDamage: 52
+    splashDamageRadius: 36
+    status: shocked
+    ammoMultiplier: 5
+  }
+} 
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
