@@ -3,11 +3,12 @@ name: Myriad
 description: Fires homing and fragging missiles at enemies.
 size: 3
 reload: 71
+shootSound: shoot-small-flame
 shoot: {
   type: ShootAlternate
   shots: 4
-  spread: 6
-  shotDelay: 12 
+  spread: 4
+  shotDelay: 6
   barrels: 4
 }
 range: 160
@@ -22,8 +23,8 @@ requirements: [
 ammoTypes: {
   item-lithium: {
     type: MissileBulletType
-    width: 11
-    height: 14
+    width: 7
+    height: 9
     homingPower: 0.08
     homingDelay: 30
     homingRange: 40
@@ -41,13 +42,13 @@ ammoTypes: {
     fragBullets: 3
     fragBullet: {
       type: MissileBulletType
-      width: 11
-      height: 14
+      width: 4
+      height: 6
       homingPower: 0.08
       homingDelay: 30
       homingRange: 40
       speed: 2
-      lifetime: 40
+      lifetime: 20
       hitEffect: blastExplosion
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
@@ -62,8 +63,8 @@ ammoTypes: {
   }
   item-crosium: {
     type: MissileBulletType
-    width: 11
-    height: 14
+    width: 7
+    height: 9
     homingPower: 0.08
     homingDelay: 30
     homingRange: 40
@@ -81,13 +82,13 @@ ammoTypes: {
     fragBullets: 4
     fragBullet: {
       type: MissileBulletType
-      width: 11
-      height: 14
+      width: 4
+      height: 6
       homingPower: 0.08
       homingDelay: 30
       homingRange: 40
       speed: 2
-      lifetime: 40
+      lifetime: 20
       hitEffect: blastExplosion
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
@@ -102,8 +103,8 @@ ammoTypes: {
   }
   item-barite-webbing: {
     type: MissileBulletType
-    width: 11
-    height: 14
+    width: 7
+    height: 9
     homingPower: 0.08
     homingDelay: 30
     homingRange: 40
@@ -121,13 +122,13 @@ ammoTypes: {
     fragBullets: 5
     fragBullet: {
       type: MissileBulletType
-      width: 11
-      height: 14
+      width: 4
+      height: 6
       homingPower: 0.08
       homingDelay: 30
       homingRange: 40
       speed: 2
-      lifetime: 40
+      lifetime: 20
       hitEffect: blastExplosion
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
