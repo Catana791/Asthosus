@@ -29,7 +29,7 @@ ammoTypes: {
     homingRange: 40
     speed: 3
     lifetime: 53
-    hitEffect: blastHit
+    hitEffect: blastExplosion
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
@@ -38,6 +38,27 @@ ammoTypes: {
     splashDamageRadius: 24
     status: shocked
     ammoMultiplier: 3
+    fragBullets: 3
+    fragBullet: {
+      type: MissileBulletType
+      width: 11
+      height: 14
+      homingPower: 0.08
+      homingDelay: 30
+      homingRange: 40
+      speed: 2
+      lifetime: 40
+      hitEffect: blastExplosion
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      despawnHit: true
+      damage: 2
+      splashDamage: 10
+      splashDamageRadius: 9
+      status: shocked
+      lightning: 3
+      lightningDamage: 7
+    }
   }
   item-crosium: {
     type: MissileBulletType
@@ -48,7 +69,7 @@ ammoTypes: {
     homingRange: 40
     speed: 3
     lifetime: 53
-    hitEffect: blastHit
+    hitEffect: blastExplosion
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
@@ -57,6 +78,27 @@ ammoTypes: {
     splashDamageRadius: 30
     status: shocked
     ammoMultiplier: 4
+    fragBullets: 4
+    fragBullet: {
+      type: MissileBulletType
+      width: 11
+      height: 14
+      homingPower: 0.08
+      homingDelay: 30
+      homingRange: 40
+      speed: 2
+      lifetime: 40
+      hitEffect: blastExplosion
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      despawnHit: true
+      damage: 2
+      splashDamage: 10
+      splashDamageRadius: 9
+      status: shocked
+      lightning: 2
+      lightningDamage: 11
+    }
   }
   item-barite-webbing: {
     type: MissileBulletType
@@ -67,7 +109,7 @@ ammoTypes: {
     homingRange: 40
     speed: 3
     lifetime: 53
-    hitEffect: blastHit
+    hitEffect: blastExplosion
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
@@ -76,6 +118,27 @@ ammoTypes: {
     splashDamageRadius: 36
     status: shocked
     ammoMultiplier: 5
+    fragBullets: 5
+    fragBullet: {
+      type: MissileBulletType
+      width: 11
+      height: 14
+      homingPower: 0.08
+      homingDelay: 30
+      homingRange: 40
+      speed: 2
+      lifetime: 40
+      hitEffect: blastExplosion
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      despawnHit: true
+      damage: 2
+      splashDamage: 10
+      splashDamageRadius: 9
+      status: shocked
+      lightning: 3
+      lightningDamage: 11
+    }
   }
 } 
 drawer: {
