@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Myriad
-description: Fires homing and fragging missiles at enemies.
+description: Fires homing and fragging missiles at enemies. Applies the shock status to hit enemies.
 size: 3
 reload: 71
 shootSound: shoot-small-flame
