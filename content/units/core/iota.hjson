@@ -31,6 +31,7 @@ alwaysUnlocked: true
 outlineColor: 42413e
 abilities: [
   {
+    layer: 1
     type: EnergyFieldAbility
     color: d46f6b
     hitBuildings: false
@@ -68,8 +69,8 @@ weapons: [
         mirror: false
       }
     ]
-    x: 7.2
-    y: 3
+    x: 12
+    y: 6
     mirror: false
     reload: 21
     shootSound: sap
@@ -96,8 +97,8 @@ weapons: [
         mirror: false
       }
     ]
-    x: -7.2
-    y: 3
+    x: -12
+    y: 6
     mirror: false
     reload: 32
     shootSound: sap
@@ -202,7 +203,7 @@ weapons: [
   {
     name: iota-weapon
     x: 0
-    y: -12
+    y: -9
     reload: 167
     shootSound: shoot-heavy-cannon
     rotate: false
@@ -228,11 +229,11 @@ weapons: [
         type: ParticleEffect
         region: asthosus-arrow
         length: 0
-        sizeFrom: 6
-        sizeTo: 1
+        sizeFrom: 12
+        sizeTo: 10
         colorFrom: ffbe7f
         colorTo: d46f6b
-        lifetime: 30
+        lifetime: 90
       }
     }
   }
