@@ -13,5 +13,5 @@ category: defense
 research: barite-wall-small
 requirements: [
   item-barite-webbing/3
-  item-barite/3
+  item-lithium/3
 ]
