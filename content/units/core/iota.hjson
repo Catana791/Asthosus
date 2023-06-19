@@ -225,12 +225,13 @@ weapons: [
       damage: 0
       splashDamage: 60
       splashDamageRadius: 24
+      trailSpacing: 8
       trailEffect: {
         type: ParticleEffect
         region: asthosus-arrow
         length: 0
-        sizeFrom: 12
-        sizeTo: 10
+        sizeFrom: 9
+        sizeTo: 8
         colorFrom: ffbe7f
         colorTo: d46f6b
         lifetime: 90
