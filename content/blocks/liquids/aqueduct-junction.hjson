@@ -3,6 +3,7 @@ name: Aqueduct Junction
 description: Used for crossing two aqueducts.
 solid: false
 category: liquid
+squareSprite: false
 research: aqueduct
 requirements: [
   item-lodestone/12
