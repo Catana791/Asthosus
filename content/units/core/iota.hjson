@@ -77,9 +77,9 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 18
-      sapStrength: 0.2
-      length: 60
+      damage: 24
+      sapStrength: 0.3
+      length: 80
       status: none
       statusDuration: 0
     }
@@ -105,9 +105,9 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
-      damage: 22
-      sapStrength: 0.2
-      length: 60
+      damage: 26
+      sapStrength: 0.3
+      length: 80
       status: none
       statusDuration: 0
     }
@@ -125,7 +125,7 @@ weapons: [
       }
     ]
     x: 0
-    y: -6
+    y: 6
     reload: 73
     mirror: false
     rotate: true
@@ -172,6 +172,67 @@ weapons: [
         width: 12
         height: 14
         buildingDamageMultiplier: 0.01
+        fragBullets: 4
+        fragSpread: 90
+        fragRandomSpread: 0
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        homingPower: 0.02
+        fragBullet: {
+          type: BasicBulletType
+          pierce: true
+          pierceCap: 1
+          pierceBuilding: false
+          sprite: shell
+          homingPower: 0.12
+          speed: 1
+          lifetime: 32
+          damage: 8
+          splashDamage: 4
+          splashDamageRadius: 6
+          width: 12
+          height: 14
+          buildingDamageMultiplier: 0.01
+        }
+      }
+    }
+  }
+  {
+    name: iota-weapon
+    x: 0
+    y: -12
+    reload: 167
+    shootSound: shoot-heavy-cannon
+    rotate: false
+    mirror: false
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    bullet: {
+      type: PointBulletType
+      speed: 8
+      lifetime: 20
+      damage: 0
+      splashDamage: 60
+      splashDamageRadius: 24
+      trailEffect: {
+        type: ParticleEffect
+        region: asthosus-arrow
+        length: 0
+        sizeFrom: 6
+        sizeTo: 1
+        colorFrom: ffbe7f
+        colorTo: d46f6b
+        lifetime: 30
       }
     }
   }
