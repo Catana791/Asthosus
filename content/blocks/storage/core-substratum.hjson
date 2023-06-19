@@ -8,7 +8,6 @@ requirements: [
 ]
 size: 4
 squareSprite: false
-alwaysUnlocked: true
 unitType: theta
 health: 3900
 itemCapacity: 11000
