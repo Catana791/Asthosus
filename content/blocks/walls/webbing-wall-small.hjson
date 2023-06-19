@@ -7,7 +7,7 @@ cooldownBrokenBase: 1200
 cooldownNormal: 1200
 cooldownLiquid: 1200
 length: 2
-width: 2
+width: 4
 padSize: 1
 shieldHealth: 300
 category: defense
