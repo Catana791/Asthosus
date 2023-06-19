@@ -225,6 +225,7 @@ weapons: [
       damage: 0
       splashDamage: 60
       splashDamageRadius: 24
+      buildingDamageMultiplier: 0.01
       trailSpacing: 25
       trailEffect: {
         type: ParticleEffect
