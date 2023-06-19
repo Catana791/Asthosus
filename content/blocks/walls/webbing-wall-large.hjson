@@ -1,0 +1,17 @@
+type: DirectionalForceProjector
+name: Large Projector Wall
+description: A large wall made from Barite Webbing that is capable of emitting a one-time use directional shield.
+size: 1
+health: 2050
+cooldownBrokenBase: 1200
+cooldownNormal: 1200
+cooldownLiquid: 1200
+length: 2
+padSize: 1
+shieldHealth: 600
+category: defense
+research: barite-wall-small
+requirements: [
+  item-barite-webbing/12
+  item-lithium/12
+]
