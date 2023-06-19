@@ -6,8 +6,8 @@ health: 400
 cooldownBrokenBase: 1200
 cooldownNormal: 1200
 cooldownLiquid: 1200
-length: 8
-padSize: 8
+length: 1
+padSize: 1
 shieldHealth: 300
 category: defense
 research: barite-wall-small
