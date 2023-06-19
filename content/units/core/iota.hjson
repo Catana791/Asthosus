@@ -221,7 +221,11 @@ weapons: [
     bullet: {
       type: PointBulletType
       speed: 8
-      lifetime: 20
+      hitEffect: instHit
+      despawnEffect: instHit
+      smokeEffect: shootSmokeTitan
+      shootEffect: shootTitan
+      lifetime: 30
       damage: 0
       splashDamage: 60
       splashDamageRadius: 24
