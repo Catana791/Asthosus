@@ -225,7 +225,7 @@ weapons: [
       damage: 0
       splashDamage: 60
       splashDamageRadius: 24
-      trailSpacing: 8
+      trailSpacing: 25
       trailEffect: {
         type: ParticleEffect
         region: asthosus-arrow
