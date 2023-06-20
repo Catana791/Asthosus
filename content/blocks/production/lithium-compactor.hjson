@@ -17,20 +17,20 @@ craftEffect: {
   amount: 4
   rotationSpacing: 90
   rotationOffset: 45
-  lengthOffset: 8
+  lengthOffset: 8.4
   effect: {
     type: ParticleEffect
-    particles: 3
+    particles: 4
     cone: 360
     followParent: true
     rotWithParent: false
-    sizeFrom: 0.6
-    sizeTo: 0.1
+    sizeFrom: 0.9
+    sizeTo: 0.2
     colorFrom: cf9991
     colorTo: b98279
     lifetime: 60
-    length: 1
-    baseLength: 1.2
+    length: 1.5
+    baseLength: 1.7
     interp: pow2
     sizeInterp: pow3In
   }
