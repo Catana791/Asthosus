@@ -51,8 +51,10 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawPistons
-      sides: 2
+      type: DrawFrames
+      frames: 18
+      interval: 4
+      sine: true
     }
     {
       type: DrawDefault
