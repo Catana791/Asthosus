@@ -5,6 +5,7 @@ size: 2
 heatRequirement: 3
 outputLiquid: pressure/0.1
 squareSprite: false
+maxEfficiency: 1
 category: crafting
 research: solar-heater
 requirements: [
