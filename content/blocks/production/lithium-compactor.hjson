@@ -20,17 +20,17 @@ craftEffect: {
   lengthOffset: 8
   effect: {
     type: ParticleEffect
-    particles: 9
+    particles: 3
     cone: 360
     followParent: true
     rotWithParent: false
-    sizeFrom: 2.3
-    sizeTo: 0.2
+    sizeFrom: 0.6
+    sizeTo: 0.1
     colorFrom: cf9991
     colorTo: b98279
     lifetime: 60
-    length: 6
-    baseLength: 8
+    length: 1
+    baseLength: 1.2
     interp: pow2
     sizeInterp: pow3In
   }
@@ -53,8 +53,6 @@ drawer: {
     {
       type: DrawPistons
       sides: 2
-      sinMag: 4
-      sinScl: 1
     }
     {
       type: DrawDefault
