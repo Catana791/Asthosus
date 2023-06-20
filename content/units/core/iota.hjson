@@ -228,7 +228,7 @@ weapons: [
       lifetime: 30
       damage: 0
       splashDamage: 60
-      splashDamageRadius: 24
+      splashDamageRadius: 48
       buildingDamageMultiplier: 0.01
       trailSpacing: 25
       trailEffect: {
