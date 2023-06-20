@@ -47,7 +47,7 @@ drawer: {
       type: DrawPistons
       sides: 2
       sinMag: 4
-      sinScl: 5
+      sinScl: 1
     }
     {
       type: DrawDefault
