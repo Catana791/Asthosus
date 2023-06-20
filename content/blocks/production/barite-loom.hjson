@@ -60,4 +60,4 @@ consumes: {
   liquid: pressure/0.3
   power: 4
 }
-outputItem: item-barite-webbing/2
+outputItem: item-barite-webbing/4
