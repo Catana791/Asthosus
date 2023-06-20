@@ -1,11 +1,10 @@
 type: legs
 legCount: 8
-legLength: 30
+legLength: 15
 legSpeed: 0.3
 legForwardScl: 0.56
 legMoveSpace: 1
 legPairOffset: 3
-legExtension: -15
 legBaseOffset: 10
 stepShake: 1
 legLengthScl: 0.96
