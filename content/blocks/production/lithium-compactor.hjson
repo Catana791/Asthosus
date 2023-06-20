@@ -2,6 +2,7 @@ type: HeatCrafter
 name: Lithium Compactor
 description: Grinds and compacts Demetite and Lignite into Lithium. More efficient than a regular Lithium Grinder.
 size: 3
+maxEfficiency: 1
 category: crafting
 research: lithium-grinder
 squareSprite: false
