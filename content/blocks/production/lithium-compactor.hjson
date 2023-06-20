@@ -52,7 +52,7 @@ drawer: {
     }
     {
       type: DrawFrames
-      frames: 21
+      frames: 25
       interval: 4
       sine: true
     }
