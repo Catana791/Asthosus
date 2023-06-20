@@ -13,6 +13,6 @@ shieldHealth: 600
 category: defense
 research: webbing-wall-small
 requirements: [
-  item-barite-webbing/12
-  item-lithium/12
+  item-barite-webbing/18
+  item-lithium/6
 ]
