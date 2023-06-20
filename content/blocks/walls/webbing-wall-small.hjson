@@ -13,6 +13,6 @@ shieldHealth: 300
 category: defense
 research: barite-wall-small
 requirements: [
-  item-barite-webbing/3
-  item-lithium/3
+  item-barite-webbing/4
+  item-lithium/2
 ]
