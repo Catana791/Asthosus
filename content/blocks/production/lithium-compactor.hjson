@@ -1,0 +1,85 @@
+type: HeatCrafter
+name: Lithium Compactor
+description: Grinds and compacts Demetite and Lignite into Lithium. More efficient than a regular Lithium Grinder.
+size: 3
+category: crafting
+research: lithium-grinder
+squareSprite: false
+heatRequirement: 6
+requirements: [
+  item-lodestone/90
+  item-obsidian/70
+  item-lithium/50
+  item-crosium/30
+]
+craftEffect: {
+  type: ParticleEffect
+  particles: 9
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 2.3
+  sizeTo: 0.2
+  colorFrom: cf9991
+  colorTo: b98279
+  lifetime: 60
+  length: 6
+  baseLength: 8
+  interp: pow2
+  sizeInterp: pow3In
+}
+outputItem: item-lithium/4
+craftTime: 60
+consumes: {
+  items: [
+    item-demetite/5
+    item-lignite/2
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPistons
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: 4
+      y: 4
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: -4
+      y: 4
+      spinSprite: true
+      rotateSpeed: -1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: 4
+      y: -4
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      x: -4
+      y: -4
+      spinSprite: true
+      rotateSpeed: -1.2
+    }
+  ]
+}
