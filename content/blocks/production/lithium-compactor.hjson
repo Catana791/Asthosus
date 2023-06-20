@@ -46,7 +46,8 @@ drawer: {
     {
       type: DrawPistons
       sides: 2
-      sinMag: 2
+      sinMag: 3
+      sinScl: 3
     }
     {
       type: DrawDefault
@@ -54,32 +55,32 @@ drawer: {
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: 8
-      y: 8
+      x: 7.2
+      y: 7.2
       spinSprite: true
       rotateSpeed: 2.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: -8
-      y: 8
+      x: -7.2
+      y: 7.2
       spinSprite: true
       rotateSpeed: -2.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: 8
-      y: -8
+      x: 7.2
+      y: -7.2
       spinSprite: true
       rotateSpeed: 2.2
     }
     {
       type: DrawRegion
       suffix: -cogwheel
-      x: -8
-      y: -8
+      x: -7.2
+      y: -7.2
       spinSprite: true
       rotateSpeed: -2.2
     }
