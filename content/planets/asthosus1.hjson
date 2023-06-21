@@ -9,6 +9,7 @@
   mesh: {
     type: NoiseMesh
     divisions: 6
+    seed: 101
     radius: 1.24
     color1: babca8
     color2: c6c282
