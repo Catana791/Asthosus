@@ -9,7 +9,8 @@
   mesh: {
     type: NoiseMesh
     divisions: 6
-    radius: 1.28
+    seed: 12
+    radius: 1.24
     color1: 888472
     color2: 555349
     octaves: 7
