@@ -1,4 +1,4 @@
-  generator: AsteroidGenerator
+ generator: AsteroidGenerator
   parent: asthosus-asthosus
   orbitRadius: 0
   updateLighting: false
@@ -6,16 +6,12 @@
   atmosphereRadOut: 0
   drawOrbit: false
   accessible: false
-mesh: {
-  type: NoiseMesh
-  planet: asthosus1
-  seed: 69
-  divisions: 6
-  color1: d5c995
-  color2: 666359
-  radius: 1.25
-  octaves: 5
-  persistence: 0.9
-  scale: 0.9
-  mag: 1.2
-}
+  mesh: {
+    type: NoiseMesh
+    divisions: 7
+    radius: 1.24
+    color1: babca8
+    color2: c6c282
+    octaves: 5.1
+    persistence: 0.8
+  }
