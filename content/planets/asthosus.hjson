@@ -44,7 +44,7 @@ generator: {
   ferricChance: 0.26
 }
 sectorSize: 1
-allowLaunchSchematics: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: true
