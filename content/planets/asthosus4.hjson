@@ -15,6 +15,4 @@
     color2: 555349
     octaves: 6
     persistence: 1.1
-    scale: 0.92
-    mag: 1.06
   }
