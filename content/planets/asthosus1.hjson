@@ -8,7 +8,7 @@
   accessible: false
   mesh: {
     type: NoiseMesh
-    divisions: 7
+    divisions: 6
     radius: 1.24
     color1: babca8
     color2: c6c282
