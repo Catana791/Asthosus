@@ -16,3 +16,16 @@
     octaves: 3.7
     persistence: 0.6
   }
+cloudMesh: {
+  type: HexSkyMesh
+  planet: asthosus
+  seed: 15
+  speed: 0.32
+  radius: 0.081
+  divisions: 5
+  color: fcffea7e
+  octaves: 4
+  persistence: 0.72
+  scl: 1.1
+  thresh: 0.8
+}
