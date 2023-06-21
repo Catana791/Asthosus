@@ -10,9 +10,9 @@
     type: NoiseMesh
     divisions: 6
     seed: 11
-    radius: 1.223
+    radius: 1.219
     color1: deddd3
     color2: c0bfb8
-    octaves: 3.9
+    octaves: 1.3
     persistence: 0.76
   }
