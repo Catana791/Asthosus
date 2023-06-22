@@ -41,7 +41,7 @@ legForwardScl: 0.56
     pierce: true
     pierceBuilding: false
     pierceCap: 1
-    chargeEffect: lightningcharge
+    chargeEffect: lightningCharge
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     hitColor: 85c278
