@@ -5,6 +5,7 @@ type: mech
   flying: false
   health: 210
 outlineColor: 44413c
+mechLegColor: 44413c
   weapons: [
     {
       x: 6
