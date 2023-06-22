@@ -1,0 +1,51 @@
+type: legs
+  name: Luminary
+  description: A small legged unit capable of slowly building structures and healing. Gets a small speed boost through boosting. 
+speed: 0.6
+  canBoost: true
+  boostMultiplier: 1.1
+  health: 170
+  armor: 1
+  flying: false
+  legMoveSpace: 0.9
+hovering: true
+  legCount: 4
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+  itemCapacity: 25
+  outlineColor: 44413c
+  weapons: [
+{
+  x: 0
+    y: -5
+    name: luminary-weapon
+    reload: 71
+    mirror: false
+    rotate: true
+    shootSound: laser
+    inaccuracy: 5
+    shoot: {
+  firstShotDelay: 60
+    shotDelay: 12
+    shots: 2
+  }
+  chargeSound: short-laser-charge
+    bullet: {
+  type: LaserBulletType
+    width: 2
+    length: 144
+    damage: 29
+    healPercent: 7
+    collidesTeam: true
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 1
+    chargeEffect: lightningcharge
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitColor: 85c278
+  }
+}
+  ]
+research: ground-mounting-bay
