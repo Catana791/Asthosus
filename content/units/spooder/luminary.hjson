@@ -34,6 +34,7 @@ legForwardScl: 0.56
   chargeSound: short-laser-charge
     bullet: {
   type: LaserBulletType
+  colors: [85c278, 9be98b, ffffff]
     width: 2
     length: 144
     damage: 29
