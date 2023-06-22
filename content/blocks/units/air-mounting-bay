@@ -1,5 +1,5 @@
 type: UnitAssembler
-name: Air Assembly Bay
+name: Support Assembly Bay
 description: Creates air units using payloads. Requires power.
 size: 3
 category: units
@@ -12,12 +12,13 @@ requirements: [
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: cardus
+    unit: luminary
     requirements: [
       asthosus-ferrinite-wire/12
       asthosus-lithium-wall-small/5
+      asthosus-obsidian-wall-small/3
     ]
-    time: 3000
+    time: 2700
   }
 ]
 squareSprite: false
