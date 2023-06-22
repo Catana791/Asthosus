@@ -1,0 +1,25 @@
+type: mech
+  name: Shiv
+  description: A standard attack unit. Powerful in large amounts but weak on its own. Deals high damage at close range.
+  speed: 0.5
+  flying: false
+  health: 210
+  weapons: [
+    {
+      x: 6
+        y: 2
+        reload: 10
+        rotate: false
+        mirror: true
+        alternate: true
+        shootSound: sap
+        bullet: {
+          type: SapBulletType
+            length: 80
+            damage: 
+            sapStrength: 0.05
+            damage: 5
+        }
+    }
+]
+research: ground-mounting-bay
