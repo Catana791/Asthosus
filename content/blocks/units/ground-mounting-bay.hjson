@@ -36,6 +36,7 @@ plans: [
       asthosus-lithium-wall-small/5
       asthosus-obsidian-wall-small/3
     ]
+    time: 2700
   }
 ]
 squareSprite: false
