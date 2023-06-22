@@ -18,10 +18,10 @@ mechLegColor: 44413c
         shootSound: sap
         bullet: {
           type: SapBulletType
-            length: 80
+            length: 128
             damage: 
             sapStrength: 0.05
-            damage: 5
+            damage: 7
         }
     }
 ]
