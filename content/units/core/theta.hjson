@@ -5,6 +5,8 @@ legSpeed: 0.2
 legForwardScl: 0.56
 legMoveSpace: 0.9
 hovering: true
+canBoost: true
+boostMultiplier: 0.5
 name: Thetha
 description: Defends the Substratum core. Builds structures and mines ores.
 health: 200
