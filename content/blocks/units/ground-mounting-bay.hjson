@@ -1,7 +1,7 @@
 type: UnitAssembler
 name: Ground Assembly Bay
 description: Creates ground units using payloads. Requires power.
-size: 3
+size: 5
 category: units
 droneType: mounting-drone
 research: core-essence
@@ -10,15 +10,6 @@ requirements: [
   item-lithium/100
 ]
 plans: [
-  {
-    type: AssemblerUnitPlan
-    unit: shennong
-    requirements: [
-      asthosus-ferrinite-wire/10
-      asthosus-lithium-wall-small/3
-    ]
-    time: 900
-  }
   {
     type: AssemblerUnitPlan
     unit: shiv
@@ -33,4 +24,4 @@ squareSprite: false
 consumes: {
   power: 2
 }
-areaSize: 5
+areaSize: 12
