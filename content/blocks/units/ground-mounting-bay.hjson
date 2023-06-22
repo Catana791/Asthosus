@@ -15,7 +15,7 @@ plans: [
     unit: shennong
     requirements: [
       asthosus-ferrinite-wire/10
-      asthosus-lithium-wall-small/2
+      asthosus-lithium-wall-small/3
     ]
     time: 900
   }
