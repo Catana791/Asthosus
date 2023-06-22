@@ -1,7 +1,7 @@
 type: UnitAssembler
 name: Support Assembly Bay
 description: Creates support units using payloads. Requires power.
-size: 3
+size: 5
 category: units
 droneType: mounting-drone
 research: ground-mounting-bay
@@ -25,4 +25,4 @@ squareSprite: false
 consumes: {
   power: 2
 }
-areaSize: 5
+areaSize: 12
