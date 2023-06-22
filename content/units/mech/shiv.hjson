@@ -7,6 +7,7 @@ type: mech
   weapons: [
     {
       x: 6
+      name: shiv-weapon
         y: 2
         reload: 10
         rotate: false
