@@ -7,6 +7,8 @@ legForwardScl: 0.56
 legMoveSpace: 1
 legPairOffset: 3
 legBaseOffset: 10
+canBoost: true
+boostMultiplier: 0.75
 stepShake: 1
 legLengthScl: 0.96
 rippleScale: 2
