@@ -28,15 +28,6 @@ plans: [
     ]
     time: 720
   }
-  {
-    type: AssemblerUnitPlan
-    unit: luminary
-    requirements: [
-      asthosus-lithium-wall-small/6
-      asthosus-obsidian-wall-small/3
-    ]
-    time: 2700
-  }
 ]
 squareSprite: false
 consumes: {
