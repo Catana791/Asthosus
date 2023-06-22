@@ -8,7 +8,7 @@ legMoveSpace: 1
 legPairOffset: 3
 legBaseOffset: 10
 canBoost: true
-boostMultiplier: 0.75
+boostMultiplier: 1.75
 stepShake: 1
 legLengthScl: 0.96
 rippleScale: 2
@@ -18,7 +18,7 @@ drownTimeMultiplier: 2
 rotateSpeed: 2.7
 hovering: true
 name: Iota
-description: Defends the Omphalos core. Builds structures and mines ores.
+description: Defends the Omphalos core. Builds structures and mines ores. Boost to gain a substantial speed increase.
 health: 310
 armor: 3
 speed: 2
