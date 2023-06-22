@@ -9,7 +9,7 @@ speed: 0.6
   flying: false
   legMoveSpace: 0.9
 hovering: true
-  legCount: 4
+  legCount: 6
 legLength: 8
 legSpeed: 0.23
 legForwardScl: 0.56
@@ -18,11 +18,11 @@ legForwardScl: 0.56
   weapons: [
 {
   x: 0
-    y: -5
+    y: -3
     name: luminary-weapon
-    reload: 71
+    reload: 94
     mirror: false
-    rotate: true
+    rotate: false
     shootSound: laser
     inaccuracy: 5
     shoot: {
