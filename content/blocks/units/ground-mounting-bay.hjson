@@ -19,6 +19,24 @@ plans: [
     ]
     time: 900
   }
+  {
+    type: AssemblerUnitPlan
+    unit: shiv
+    requirements: [
+      asthosus-ferrinite-wire/8
+      asthosus-lithium-wall-small/2
+    ]
+    time: 720
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: luminary
+    requirements: [
+      asthosus-ferrinite-wire/12
+      asthosus-lithium-wall-small/5
+      asthosus-obsidian-wall-small/3
+    ]
+  }
 ]
 squareSprite: false
 consumes: {
