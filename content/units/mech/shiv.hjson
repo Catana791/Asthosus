@@ -4,6 +4,7 @@ type: mech
   speed: 0.5
   flying: false
   health: 210
+outlineColor: 44413c
   weapons: [
     {
       x: 6
