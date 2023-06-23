@@ -2,7 +2,7 @@ type: ContinuousTurret
 name: Shaft
 description: A small laser turret that fires a very powerful, continuous laser at enemies. Requires power and liquid to operate. Can only shoot enemies in a straight line.
 size: 2
-range: 160
+range: 120
 shootWarmupSpeed: 0.08
 minWarmup: 0.9
 warmupMaintainTime: 120
@@ -66,7 +66,7 @@ shootType: {
   shake: 0.2
   damageInterval: 10
   damage: 3
-  length: 160
+  length: 120
   incendChance: 0
   incendSpread: 0
   incendAmount: 0
