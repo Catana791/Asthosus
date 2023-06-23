@@ -33,6 +33,7 @@ drawer: {
 }
 shootX: 0
 shootY: 0
+rotateSpeed: 0
 shootType: {
   type: PointLaserBulletType
   shake: 0.2
