@@ -56,16 +56,17 @@ shootX: 0
 shootY: 0
 rotateSpeed: 0
 shootType: {
-  type: PointLaserBulletType
+  type: ContinuousLaserBulletType 
   shake: 0.2
   damageInterval: 10
   damage: 3
   length: 160
+  width: 3
   splashDamage: 2
   splashDamageRadius: 64
   splashDamagePierce: true
+  makeFire: false
   status: melting
-  knockback: 2
   statusDuration: 120
   hitEffect: hitBulletColor
 }
