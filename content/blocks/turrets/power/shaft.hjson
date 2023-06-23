@@ -8,16 +8,9 @@ shootWarmupSpeed: 0.08
 minWarmup: 0.9
 warmupMaintainTime: 160
 shoot: {
-  type: ShootBarrel
-  firstShotDelay: 30
+  type: ShootSpread
   shots: 4
-  shotDelay: 0.1
-  barrels: [
-    0, 0, 0,
-    0, 0, 90,
-    0, 0, 180,
-    0, 0, 270
-  ]
+  spread: 90
 }
 drawer: {
   type: DrawTurret
