@@ -29,6 +29,8 @@ drawer: {
       type: RegionPart
       suffix: -body
       under: true
+      heatProgress: recoil
+      heatColor: f3767666
     }
     {
       type: RegionPart
