@@ -2,7 +2,7 @@
   name: Explosive Trap
   description: Explodes when enemies step on it, dealing decently high damage. Gets destroyed after use.
   hasShadow: false
-  health: 0
+  health: 40
   damage: 38
   tileDamage: 9
   length: 10
