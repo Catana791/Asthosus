@@ -71,42 +71,42 @@ shootType: {
       {
         type: ParticleEffect
         particles: 9
-        length: 14
-        baseLength: 6
+        length: 20
+        baseLength: 9
         sizeFrom: 3
         sizeTo: 0.1 
         interp: pow2In
         sizeInterp: pow2   
-        lifetime: 20
+        lifetime: 40
       }
       {
         type: WaveEffect
-        sizeFrom: 16
+        sizeFrom: 25
         sizeTo: 0.1
-        strokeFrom: 1.6
-        strokeTo: 0.8
+        strokeFrom: 1.8
+        strokeTo: 0.9
         interp: pow2In
-        lifetime: 20
+        lifetime: 50
       }
       {
         type: ParticleEffect
         particles: 9
-        length: 12
-        baseLength: 6
+        length: 15
+        baseLength: 5
         sizeFrom: 3
         sizeTo: 0.1 
         interp: pow2In
         sizeInterp: pow2   
-        lifetime: 20
+        lifetime: 50
       }
       {
         type: WaveEffect
-        sizeFrom: 13
+        sizeFrom: 19
         sizeTo: 0.1
         strokeFrom: 1.6
         strokeTo: 0.8
         interp: pow2In
-        lifetime: 20
+        lifetime: 60
       }
     ]
   }
