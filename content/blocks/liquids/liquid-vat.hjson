@@ -10,3 +10,4 @@ requirements: [
   item-obsidian/15
 ]
 research: aqueduct-router
+liquidPadding: 1.1
