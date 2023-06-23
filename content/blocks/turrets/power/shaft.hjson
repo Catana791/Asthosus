@@ -51,10 +51,10 @@ rotateSpeed: 0
 shootType: {
   type: PointLaserBulletType
   shake: 0.2
-  damageInterval: 10
-  damage: 10
+  damageInterval: 15
+  damage: 1
   length: 160
-  splashDamage: 10
+  splashDamage: 1
   splashDamageRadius: 48
   splashDamagePierce: true
   status: melting
