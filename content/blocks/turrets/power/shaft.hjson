@@ -57,7 +57,6 @@ shootY: 0
 rotateSpeed: 0
 shootType: {
   type: PointLaserBulletType
-  hitSize: 16
   shake: 0.2
   damageInterval: 10
   damage: 3
