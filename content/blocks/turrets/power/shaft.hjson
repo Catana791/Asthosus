@@ -7,6 +7,9 @@ shootWarmupSpeed: 0.08
 minWarmup: 0.9
 warmupMaintainTime: 160
 shootEffect: shootBig
+shootSound: shootLaser
+loopSound: laserbeam
+loopSoundVolume: 0.5
 smokeEffect: shootSmokeSquareSparse
 consumes: {
   power: 2
