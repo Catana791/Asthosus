@@ -11,7 +11,8 @@
   research: core-essence
   bullet: {
     type: ExplosionBulletType
-    damage: 38
+    splashDamage: 38
+    splashDamageRadius: 24
     killShooter: true
   }
   requirements: [
