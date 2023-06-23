@@ -13,7 +13,7 @@ squareSprite: false
 loopSound: laserbeam
 loopSoundVolume: 0.5
 shootCone: 360
-chargeSound: green-laser-charge-long
+chargeSound: short-laser-charge
 smokeEffect: shootSmokeSquareSparse
 updateEffect: shootSmokeSquareSparse
 updateEffectChance: 0.05
@@ -23,7 +23,7 @@ consumes: {
 }
 shoot: {
   type: ShootBarrel
-  firstShotDelay: 120
+  firstShotDelay: 60
   shots: 4
   shotDelay: 3
   barrels: [
@@ -64,6 +64,52 @@ shootX: 0
 shootY: 0
 rotateSpeed: 0
 shootType: {
+  chargeEffect: {
+    type: MultiEffect
+    followParent: true
+    effects: [
+      {
+        type: ParticleEffect
+        particles: 9
+        length: 14
+        baseLength: 6
+        sizeFrom: 3
+        sizeTo: 0.1 
+        interp: pow2In
+        sizeInterp: pow2   
+        lifetime: 20
+      }
+      {
+        type: WaveEffect
+        sizeFrom: 16
+        sizeTo: 0.1
+        strokeFrom: 1.6
+        strokeTo: 0.8
+        interp: pow2In
+        lifetime: 20
+      }
+      {
+        type: ParticleEffect
+        particles: 9
+        length: 12
+        baseLength: 6
+        sizeFrom: 3
+        sizeTo: 0.1 
+        interp: pow2In
+        sizeInterp: pow2   
+        lifetime: 20
+      }
+      {
+        type: WaveEffect
+        sizeFrom: 13
+        sizeTo: 0.1
+        strokeFrom: 1.6
+        strokeTo: 0.8
+        interp: pow2In
+        lifetime: 20
+      }
+    ]
+  }
   type: ContinuousLaserBulletType 
   shake: 0.2
   damageInterval: 10
