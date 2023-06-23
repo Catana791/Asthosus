@@ -12,6 +12,7 @@ recoil: 0
 squareSprite: false
 loopSound: laserbeam
 loopSoundVolume: 0.5
+shootCone: 360
 smokeEffect: shootSmokeSquareSparse
 updateEffect: shootSmokeSquareSparse
 updateEffectChance: 0.05
@@ -20,10 +21,15 @@ consumes: {
   liquid: liquid-oasis-water/0.2
 }
 shoot: {
-  type: ShootSpread
+  type: ShootBarrel
   shots: 4
-  spread: 90
-  firstShotDelay: 30
+  shotDelay: 1
+  barrels: [
+    0, 0, 0,
+    0, 0, 90,
+    0, 0, 180,
+    0, 0, 270 
+  ]
 }
 drawer: {
   type: DrawTurret
@@ -61,7 +67,7 @@ shootType: {
   damageInterval: 10
   damage: 3
   length: 160
-  width: 3
+  width: 4
   splashDamage: 2
   splashDamageRadius: 64
   splashDamagePierce: true
