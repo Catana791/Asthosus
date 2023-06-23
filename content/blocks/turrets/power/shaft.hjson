@@ -62,6 +62,7 @@ shootType: {
   splashDamageRadius: 64
   splashDamagePierce: true
   status: melting
+  knockback: 2
   statusDuration: 120
   hitEffect: hitBulletColor
 }
