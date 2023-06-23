@@ -1,18 +1,23 @@
 type: ContinuousTurret
 name: Rook
-description: A small laser turret that fires a continuous laser at enemies. Requires power and liquid to operate. Can only shoot enemies in a straight line.
+description: A small laser turret that fires a very powerful, continuous laser at enemies. Requires power and liquid to operate. Can only shoot enemies in a straight line.
 details: THE ROOOOOOK!
 size: 2
 range: 160
 shootWarmupSpeed: 0.08
 minWarmup: 0.9
 warmupMaintainTime: 160
+shootEffect: shootBig
+smokeEffect: shootSmokeSquareSparse
+consumes: {
+  power: 2
+  liquid: liquid-oasis-water/0.2
+}
 shoot: {
   type: ShootSpread
   shots: 4
   spread: 90
 }
-shootCone: 360
 drawer: {
   type: DrawTurret
   basePrefix: empty-
@@ -45,7 +50,7 @@ shootType: {
   type: PointLaserBulletType
   shake: 0.2
   damageInterval: 10
-  damage: 20
+  damage: 10
   length: 160
 }
 category: turret
