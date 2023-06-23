@@ -54,5 +54,10 @@ shootType: {
   length: 160
 }
 category: turret
-research: core-essence
-requirements: []
+research: cavalier
+requirements: [
+  item-ferrinite/70
+  item-demetite/60
+  item-lithium/60
+  item-obsidian/40
+]
