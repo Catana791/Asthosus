@@ -4,7 +4,7 @@ hasLiquids: true
 liquidCapacity: 400
 name: Liquid Vat
 description: Stores liquids and outputs them to all sides.
-category: liquids
+category: liquid
 requirements: [
   item-lodestone/15
   item-obsidian/15
