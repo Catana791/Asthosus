@@ -12,6 +12,7 @@ shoot: {
   shots: 4
   spread: 90
 }
+shootCone: 360
 drawer: {
   type: DrawTurret
   basePrefix: empty-
