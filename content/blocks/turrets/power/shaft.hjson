@@ -5,7 +5,7 @@ size: 2
 range: 160
 shootWarmupSpeed: 0.08
 minWarmup: 0.9
-warmupMaintainTime: 160
+warmupMaintainTime: 120
 shootEffect: shootBig
 shootSound: shootLaser
 loopSound: laserbeam
@@ -23,7 +23,7 @@ shoot: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: empty-
+  basePrefix: smol-
   parts: [
     {
       type: RegionPart
