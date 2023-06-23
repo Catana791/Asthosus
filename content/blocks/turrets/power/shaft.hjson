@@ -36,3 +36,6 @@ shootType: {
   damage: 10
   length: 120
 }
+category: turret
+research: core-essence
+requirements: []
