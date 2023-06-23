@@ -9,7 +9,7 @@ legPairOffset: 3
 legBaseOffset: 10
 canBoost: true
 boostMultiplier: 1.45
-stepShake: 1
+stepShake: 0.3
 legLengthScl: 0.96
 rippleScale: 2
 legSplashDamage: 16
