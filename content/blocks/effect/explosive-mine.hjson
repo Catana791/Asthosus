@@ -3,7 +3,7 @@
   description: Explodes when enemies step on it, dealing decently high damage. Gets destroyed after use.
   hasShadow: false
   health: 40
-  damage: 38
+  damage: 72
   tileDamage: 9
   length: 10
   tendrils: 4
@@ -11,7 +11,7 @@
   research: core-essence
   bullet: {
     type: ExplosionBulletType
-    splashDamage: 38
+    splashDamage: 92
     splashDamageRadius: 24
     killShooter: true
   }
