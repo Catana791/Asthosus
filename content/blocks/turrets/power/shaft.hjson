@@ -51,6 +51,11 @@ shootType: {
   damageInterval: 10
   damage: 10
   length: 160
+  splashDamage: 10
+  splashDamageRadius: 48
+  splashDamagePierce: true
+  status: melting
+  statusDuration: 120
 }
 category: turret
 research: cavalier
