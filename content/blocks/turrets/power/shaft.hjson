@@ -51,7 +51,7 @@ rotateSpeed: 0
 shootType: {
   type: PointLaserBulletType
   shake: 0.2
-  damageInterval: 15
+  damageInterval: 10
   damage: 1
   length: 160
   splashDamage: 1
