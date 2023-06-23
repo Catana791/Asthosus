@@ -3,6 +3,9 @@ name: Shaft
 description: A small laser turret that fires a continuous laser at enemies. Requires power and liquid to operate.
 size: 2
 range: 120
+shootWarmupSpeed: 0.1
+minWarmup: 0.9
+warmupMaintainTime: 120
 drawer: {
   type: DrawTurret
   basePrefix: empty-
