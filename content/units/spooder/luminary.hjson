@@ -8,6 +8,7 @@ speed: 0.6
   armor: 1
   flying: false
 legExtension: -2.5
+buildSpeed: 0.6
   legMoveSpace: 0.9
 hovering: true
   legCount: 6
