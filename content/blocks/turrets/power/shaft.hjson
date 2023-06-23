@@ -4,7 +4,6 @@ description: A small laser turret that fires a very powerful, continuous laser a
 size: 2
 range: 160
 shootWarmupSpeed: 0.08
-rotate: true
 minWarmup: 0.9
 warmupMaintainTime: 160
 shootEffect: shootBig
