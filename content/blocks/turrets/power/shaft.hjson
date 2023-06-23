@@ -13,6 +13,7 @@ squareSprite: false
 loopSound: laserbeam
 loopSoundVolume: 0.5
 shootCone: 360
+chargeSound: green-laser-charge-long
 smokeEffect: shootSmokeSquareSparse
 updateEffect: shootSmokeSquareSparse
 updateEffectChance: 0.05
@@ -22,8 +23,9 @@ consumes: {
 }
 shoot: {
   type: ShootBarrel
+  firstShotDelay: 120
   shots: 4
-  shotDelay: 1
+  shotDelay: 3
   barrels: [
     0, 0, 0,
     0, 0, 90,
