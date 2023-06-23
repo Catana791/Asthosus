@@ -19,6 +19,7 @@ shoot: {
   type: ShootSpread
   shots: 4
   spread: 90
+  firstShotDelay: 30
 }
 drawer: {
   type: DrawTurret
@@ -55,10 +56,11 @@ shootType: {
   damage: 1
   length: 160
   splashDamage: 1
-  splashDamageRadius: 48
+  splashDamageRadius: 64
   splashDamagePierce: true
   status: melting
   statusDuration: 120
+  hitEffect: hitBulletColor
 }
 category: turret
 research: cavalier
