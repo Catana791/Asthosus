@@ -1,7 +1,6 @@
 type: ContinuousTurret
-name: Rook
+name: Shaft
 description: A small laser turret that fires a very powerful, continuous laser at enemies. Requires power and liquid to operate. Can only shoot enemies in a straight line.
-details: THE ROOOOOOK!
 size: 2
 range: 160
 shootWarmupSpeed: 0.08
