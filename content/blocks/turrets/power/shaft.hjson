@@ -9,9 +9,12 @@ warmupMaintainTime: 120
 shootEffect: shootBig
 shootSound: shootLaser
 recoil: 0
+squareSprite: false
 loopSound: laserbeam
 loopSoundVolume: 0.5
 smokeEffect: shootSmokeSquareSparse
+updateEffect: shootSmokeSquareSparse
+updateEffectChance: 0.05
 consumes: {
   power: 2
   liquid: liquid-oasis-water/0.2
