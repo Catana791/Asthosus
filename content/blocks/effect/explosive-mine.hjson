@@ -9,6 +9,11 @@
   tendrils: 4
   category: effect
   research: core-essence
+  bullet: {
+    type: ExplosionBulletType
+    damage: 38
+    killShooter: true
+  }
   requirements: [
     item-demetite/30
     item-lithium/15
