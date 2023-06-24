@@ -1,0 +1,38 @@
+type: tank
+name: Trigon
+description: An assault tank unit equipped with a rocket launcher. Durable and fast.
+hitSize: 12
+treadRects: [
+  {
+    x: 13
+    y: -38
+    widht: 17
+    height: 76
+  }
+]
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 710
+armor: 6
+speed: 1.25
+rotateSpeed: 4.5
+itemCapacity: 0
+outlineColor: 44413c
+treadPullOffset: 5
+research: shennong
+weapons: [
+  {
+    x: 0
+    y: -4
+    reload: 90
+    mirror: false
+    rotate: true
+    shootSound: flame
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      spawnUnit: asthosus-smol-missile
+    }
+  }
+]
