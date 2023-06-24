@@ -5,6 +5,7 @@ speed: 2.5
 lifetime: 60
 rotateSpeed: 0.1
 hitSize: 5
+deathSound: shoot-big-artillery
 trailLength: 0
 autoFindTarget: false
 homingDelay: 0
