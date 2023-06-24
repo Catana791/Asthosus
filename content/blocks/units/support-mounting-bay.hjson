@@ -7,7 +7,7 @@ droneType: mounting-drone
 research: ground-mounting-bay
 requirements: [
   item-ferrinite/30
-  item-lithium/60
+  item-lithium/110
 ]
 plans: [
   {
