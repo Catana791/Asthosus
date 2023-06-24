@@ -23,6 +23,17 @@ treadPullOffset: 5
 research: shennong
 weapons: [
   {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -cover
+        mirror: true
+        outline: false
+        progress: warmup
+        moveX: -2
+        moveY: -2
+      }
+    ]
     x: 0
     y: -4
     name: trigon-weapon
