@@ -1,0 +1,8 @@
+name: Ferrinite Vent
+type: SteamVent
+blendGroup: ferrinite-stone
+parent: ferrinite-stone
+effect: ventSteam
+attributes: {
+   steam: 1
+}
