@@ -4,6 +4,7 @@ flying: true
 speed: 2.5
 lifetime: 60
 rotateSpeed: 0.1
+hitSize: 5
 trailLength: 0
 autoFindTarget: false
 homingDelay: 0
@@ -19,11 +20,11 @@ abilities: [
     effect: {
       type: ParticleEffect
       particles: 12
-      length: 4
-      baseLength: 6
+      length: 3.2
+      baseLength: 4
       line: true
-      strokeFrom: 3
-      strokeTo: 2
+      strokeFrom: 2.2
+      strokeTo: 1.6
       colorFrom: edc66c
       colorTo: baa164
     }
