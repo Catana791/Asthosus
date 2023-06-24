@@ -6,7 +6,8 @@ category: units
 droneType: mounting-drone
 research: ground-mounting-bay
 requirements: [
-  item-ferrinite/30
+  item-ferrinite/50
+  item-demetite/70
   item-lithium/60
 ]
 plans: [
