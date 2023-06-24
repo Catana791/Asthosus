@@ -3,8 +3,6 @@ legCount: 4
 legLength: 8
 legSpeed: 0.23
 legForwardScl: 0.56
-canBoost: true
-boostMultiplier: 1.25
 legMoveSpace: 0.9
 hovering: true
 name: Zeta
