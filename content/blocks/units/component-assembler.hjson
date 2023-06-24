@@ -14,7 +14,7 @@ consumes: {
   liquid: pressure/0.1
 }
 buildSpeed: 0.6
-filter: [lithium-wall-small, ferrinite-wire]
+filter: [lithium-wall-small, ferrinite-wire, obsidian-wall-small]
 research: core-essence
 squareSprite: false
 conductivePower: true
