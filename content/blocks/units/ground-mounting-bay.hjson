@@ -7,6 +7,7 @@ droneType: mounting-drone
 research: core-essence
 requirements: [
   item-ferrinite/50
+  item-demetite/90
   item-lithium/100
 ]
 plans: [
