@@ -27,6 +27,7 @@ plans: [
       asthosus-lithium-wall-large/3
       asthosus-lodestone-wall-large/2
     ]
+    time: 1500
   }
 ]
 squareSprite: false
