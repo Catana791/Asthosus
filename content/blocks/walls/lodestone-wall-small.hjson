@@ -1,0 +1,11 @@
+type: Wall
+name: Lodestone Wall
+description: A wall made from Lodestone. 
+size: 1
+health: 400
+category: defense
+research: ferrinite-wall-small
+requirements: [
+  item-lodestone/6
+]
+squareSprite: false
