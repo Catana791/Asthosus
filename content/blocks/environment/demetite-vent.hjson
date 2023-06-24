@@ -1,0 +1,8 @@
+name: Demetite Vent
+type: SteamVent
+blendGroup: demetite-stone
+parent: demetite-stone
+effect: ventSteam
+attributes: {
+   steam: 1
+}
