@@ -29,7 +29,7 @@ weapons: [
     reload: 90
     mirror: false
     rotate: true
-    shootSound: bang
+    shootSound: shoot-big-artillery
     bullet: {
       instantDisappear: true
       damage: 0
