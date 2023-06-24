@@ -6,5 +6,5 @@ healthScaling: 0.2
 explosiveness: 0.1
 radioactivity: 1
 color: dad2ca
-research: liquid-ferrofluid
+research: liquid-obsidian
 hiddenOnPlanets: [serpulo, erekir]
