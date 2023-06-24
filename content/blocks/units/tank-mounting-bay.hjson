@@ -19,6 +19,15 @@ plans: [
     ]
     time: 900
   }
+  {
+    type: AssemblerUnitPlan
+    unit: trigon
+    requirements: [
+      asthosus-ferrinite-wire/10
+      asthosus-lithium-wall-large/3
+      asthosus-lodestone-wall-large/2
+    ]
+  }
 ]
 squareSprite: false
 consumes: {
