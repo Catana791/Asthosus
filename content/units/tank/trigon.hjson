@@ -5,9 +5,9 @@ hitSize: 12
 treadRects: [
   {
     x: -31
-    y: -38
+    y: -60
     widht: 19
-    height: 76
+    height: 86
   }
 ]
 singleTarget: false
