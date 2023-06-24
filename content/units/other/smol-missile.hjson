@@ -1,7 +1,7 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 3
+speed: 2.5
 lifetime: 50
 rotateSpeed: 0.1
 trailLength: 0
@@ -9,23 +9,21 @@ autoFindTarget: false
 homingDelay: 0
 circleTarget: false
 faceTarget: true
-loopSound: none
-deathSound: none
 trailColor: 7a7564
 aimDst: 4
 drawCell: false
 abilities: [
   {
     type: MoveEffectAbility
-    interval: 6
+    interval: 4
     effect: {
       type: ParticleEffect
-      particles: 5
-      length: 2
-      baseLength: 2.4
+      particles: 12
+      length: 4
+      baseLength: 6
       line: true
-      strokeFrom: 1
-      strokeTo: 0.6
+      strokeFrom: 3
+      strokeTo: 2
       colorFrom: edc66c
       colorTo: baa164
     }
