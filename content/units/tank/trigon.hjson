@@ -31,6 +31,7 @@ weapons: [
         outline: false
         progress: warmup
         moveX: -2
+        under: false
         moveY: -2
       }
     ]
