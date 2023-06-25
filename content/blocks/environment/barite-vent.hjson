@@ -3,6 +3,7 @@ type: SteamVent
 blendGroup: barite-floor
 parent: barite-floor
 effect: ventSteam
+effectColor: dad2ca
 attributes: {
-   steam: 1
+   radioactivity: 1
 }
