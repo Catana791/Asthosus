@@ -4,8 +4,9 @@ description: Placed on Barite vents to create power using the radioactive emissi
 size: 3
 attribute: steam
 displayEfficiencyScale: 1
-minEfficiency: 0.0001
-powerProduction: 2
+minEfficiency: 8
+displayEfficiency: false
+powerProduction: 0.222222
 generateEffect: turbinegenerate
 effectChance: 0.05
 category: power
