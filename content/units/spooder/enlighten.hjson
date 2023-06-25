@@ -13,8 +13,8 @@ buildSpeed: 0.85
   mineTier: 1
   legMoveSpace: 0.9
 hovering: true
-  legCount: 6
-legLength: 16
+  legCount: 8
+legLength: 10
 legSpeed: 0.23
 legForwardScl: 0.56
   itemCapacity: 40
