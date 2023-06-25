@@ -5,5 +5,5 @@ parent: barite-floor
 effect: ventSteam
 effectColor: dad2ca
 attributes: {
-   funny-radiation-attribute: 1
+   steam: 1
 }
