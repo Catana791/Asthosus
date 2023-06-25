@@ -1,0 +1,48 @@
+type: mech
+  name: Bayonet
+  description: An attack unit equipped with a frag cannon and miniature rocket launcher. 
+  speed: 0.5
+  flying: false
+  health: 710
+  armor: 4
+outlineColor: 44413c
+mechLegColor: 44413c
+  weapons: [
+    {
+      x: 8
+      name: asthosian-flamethrower
+        y: 0
+        reload: 50
+        rotate: false
+        mirror: false
+        shootSound: artillery
+        bullet: {
+          type: ArtilleryBulletType
+            speed: 2
+            lifetime: 60
+            damage: 18
+            splashDamageRadius: 16
+            splashDamage: 18
+            width: 4
+            height: 6
+            trailChance: -1
+            trailEffect: missileTrail
+        }
+    }
+    {    
+      x: -8
+        y: 0
+        name: small-rocket-launcher
+        reload: 87
+        mirror: false
+        rotate: false
+        shootSound: shoot-small-flame
+        bullet: {
+          instantDisappear: true
+            damage: 0
+            spawnUnit: asthosus-teeny-tiny-missile
+        }
+        
+    }
+]
+research: shiv
