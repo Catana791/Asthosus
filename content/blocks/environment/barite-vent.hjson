@@ -1,0 +1,8 @@
+name: Barite Vent
+type: SteamVent
+blendGroup: barite-floor
+parent: barite-floor
+effect: ventSteam
+attributes: {
+   steam: 1
+}

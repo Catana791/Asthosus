@@ -1,0 +1,8 @@
+name: Hardened Sand Vent
+type: SteamVent
+blendGroup: hardened-sand-floor
+parent: hardened-sand-floor
+effect: ventSteam
+attributes: {
+   steam: 1
+}
