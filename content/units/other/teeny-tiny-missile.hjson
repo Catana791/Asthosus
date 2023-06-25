@@ -4,7 +4,7 @@ flying: true
 speed: 2
 missileAccelTime: 30
 engineSize: 0.5
-engineOffset: 3.5
+engineOffset: 2.5
 lifetime: 75
 rotateSpeed: 0
 hitSize: 3
