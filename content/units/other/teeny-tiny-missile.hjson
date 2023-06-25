@@ -13,6 +13,7 @@ autoFindTarget: false
 homingDelay: 0
 circleTarget: false
 faceTarget: true
+health: 10000
 trailColor: 7a7564
 aimDst: 4
 drawCell: false
