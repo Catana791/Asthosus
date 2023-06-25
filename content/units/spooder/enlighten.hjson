@@ -56,8 +56,8 @@ legForwardScl: 0.56
   name: enlighten-blaster
     x: 8
     y: 0
-    reload: 21
-    shootSound: zap
+    reload: 39
+    shootSound: spark
     shoot: {
   shots: 3
     shotDelay: 0.8
