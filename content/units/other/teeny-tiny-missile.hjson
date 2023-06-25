@@ -31,7 +31,7 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 12
+      splashDamage: 18
       splashDamageRadius: 32
     }
   } 
