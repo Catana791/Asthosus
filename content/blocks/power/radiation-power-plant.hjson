@@ -3,6 +3,8 @@ name: Radiation Power Plant
 description: Placed on Barite vents to create power using the radioactive emissions created by the vent.
 size: 3
 attribute: steam
+displayEfficiencyScale: 1
+minEfficiency: 0.0001
 powerProduction: 2
 generateEffect: turbinegenerate
 effectChance: 0.05
