@@ -38,6 +38,10 @@ mechLegColor: 44413c
         y: 0
         name: small-rocket-launcher
         reload: 87
+        shoot: {
+          shots: 2
+          shotDelay: 12
+        }
         mirror: false
         rotate: false
         shootSound: shoot-small-flame
