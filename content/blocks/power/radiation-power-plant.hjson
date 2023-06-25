@@ -9,6 +9,7 @@ minEfficiency: 8
 powerProduction: 0.222223
 generateEffect: turbinegenerate
 effectChance: 0.05
+squareSprite: false
 category: power
 research: discharge-generator
 requirements: [
