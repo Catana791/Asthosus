@@ -25,9 +25,9 @@ mechLegColor: 44413c
           type: ArtilleryBulletType
             speed: 2
             lifetime: 60
-            damage: 18
+            damage: 6
             splashDamageRadius: 16
-            splashDamage: 18
+            splashDamage: 6
             width: 6
             height: 8
             trailChance: -1
