@@ -15,7 +15,8 @@ mechLegColor: 44413c
         reload: 50
         rotate: false
         mirror: false
-        velocityRnd: 0.2
+        inaccuracy: 6
+        velocityRnd: 0.3
         shoot: {
           shots: 4
         }
