@@ -30,6 +30,7 @@ plans: [
       asthosus-lodestone-wall-large/2
       asthosus-obsidian-wall-small/3
     ]
+    time: 3300
   }
 ]
 squareSprite: false
