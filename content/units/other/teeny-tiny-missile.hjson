@@ -16,7 +16,9 @@ faceTarget: true
 trailColor: 7a7564
 aimDst: 4
 drawCell: false
-outlines: false
+outlines: true
+outlineRadius: 2
+outlineColor: 44413c
 range: 4
 hidden: true  
 weapons: [
