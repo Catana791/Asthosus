@@ -7,7 +7,7 @@ boostScale: 0.11111111111
 displayEfficiencyScale: 1
 minEfficiency: 8
 displayEfficiency: false
-powerProduction: 0.222222
+powerProduction: 0.222223
 generateEffect: turbinegenerate
 effectChance: 0.05
 category: power
