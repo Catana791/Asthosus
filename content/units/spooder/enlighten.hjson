@@ -12,7 +12,7 @@ buildSpeed: 0.85
   mineSpeed: 4
   mineTier: 1
   legMoveSpace: 0.9
-hovering: true
+hovering: false
   legCount: 6
 legLength: 11
 legSpeed: 0.23
