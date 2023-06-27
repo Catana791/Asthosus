@@ -1,10 +1,11 @@
 type: legs
   name: Enlighten
-  description: A small legged unit capable of slowly building structures and healing. Gets a small speed boost through boosting. 
+  description: A small legged unit capable of slowly building structures and healing.
 speed: 0.7
   health: 410
   armor: 4
   flying: false
+commands: [moveCommand, repairCommand, assistCommand, rebuildCommand]
 legExtension: -2.5
 buildSpeed: 0.85
   mineSpeed: 4
