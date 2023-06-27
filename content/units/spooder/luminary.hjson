@@ -1,10 +1,9 @@
 type: legs
   name: Luminary
-  description: A small legged unit capable of slowly building structures and healing. Gets a small speed boost through boosting. 
+  description: A small legged unit capable of slowly building structures and healing. 
 speed: 0.6
-  canBoost: true
-  boostMultiplier: 1.1
   health: 170
+commands: [moveCommand, repairCommand, assistCommand, rebuildCommand]
   armor: 1
   flying: false
 legExtension: -2.5
