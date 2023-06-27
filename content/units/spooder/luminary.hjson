@@ -3,7 +3,7 @@ type: legs
   description: A small legged unit capable of slowly building structures and healing. 
 speed: 0.6
   health: 170
-commands: [moveCommand, repairCommand, assistCommand, rebuildCommand]
+defaultController: BuilderAI
   armor: 1
   flying: false
 legExtension: -2.5
