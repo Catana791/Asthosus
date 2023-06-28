@@ -1,4 +1,4 @@
-type: HeatRouter
+type: HeatConductor
 name: Heat Distributor
 description: Spreads inputted heat in three output directions equally. 
 size: 1
