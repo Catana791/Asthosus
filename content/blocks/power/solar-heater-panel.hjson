@@ -1,0 +1,15 @@
+type: HeaterGenerator
+name: Solar Heater Panel
+description: Produces small amounts of heat and power passively. 
+size: 3
+category: production
+research: lignite-burner
+requirements: [
+  item-ferrinite/50
+  item-demetite/40
+  item-lodestone/30
+  item-lithium/40
+]
+powerProduction: 0.25
+generateEffect: none
+heatOutput: 1
