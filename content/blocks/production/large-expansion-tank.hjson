@@ -44,7 +44,7 @@ drawer: {
     }
     {
       type: DrawGlowRegion
-      suffix: -heat
+      suffix: -glow
       blending: additive
       color: d76a6a80
     }
