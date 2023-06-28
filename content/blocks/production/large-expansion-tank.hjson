@@ -1,0 +1,56 @@
+type: HeatCrafter
+name: Large Expansion Tank
+description: Uses heat to create pressure. Creates pressure faster and more efficiently than a regular Expansion Tank.
+size: 3
+heatRequirement: 8
+outputLiquid: pressure/0.3
+squareSprite: false
+maxEfficiency: 1.25
+category: crafting
+research: expansion-tank
+requirements: [
+  item-ferrinite/65
+  item-demetite/55
+  item-lodestone/65
+  item-obsidian/40
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: pressure
+      alpha: 0.6
+      padding: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator-outer
+      spinSprite: true
+      rotateSpeed: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator-inner
+      spinSprite: true
+      rotateSpeed: -6
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.2
+hasLiquids: true
+liquidCapacity: 180
