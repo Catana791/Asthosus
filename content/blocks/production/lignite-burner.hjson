@@ -58,7 +58,7 @@ rotate: false
 ambientSound: smelter
 ambientSoundVolume: 0.08
 category: crafting
-research: solar-heater
+research: core-essence
 requirements: [
   item-ferrinite/30
   item-demetite/30
