@@ -15,6 +15,7 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
       type: DrawHeatOutput
     }
     {
