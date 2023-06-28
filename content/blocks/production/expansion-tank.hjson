@@ -7,7 +7,7 @@ outputLiquid: pressure/0.1
 squareSprite: false
 maxEfficiency: 1
 category: crafting
-research: solar-heater
+research: lignite-burner
 requirements: [
   item-ferrinite/20
   item-demetite/20
