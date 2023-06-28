@@ -2,7 +2,7 @@ type: HeaterGenerator
 name: Solar Heater Panel
 description: Produces small amounts of heat and power passively. 
 size: 3
-category: production
+category: crafting
 research: lignite-burner
 requirements: [
   item-ferrinite/50
