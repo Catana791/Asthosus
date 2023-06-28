@@ -12,4 +12,4 @@ requirements: [
 ]
 powerProduction: 0.25
 generateEffect: none
-heatOutput: 1
+heatOutput: 2
