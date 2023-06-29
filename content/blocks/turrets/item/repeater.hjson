@@ -47,7 +47,7 @@ ammoTypes: {
         length: 180
         hitSound: shotgun
         width: 4
-        damage: 60
+        damage: 120
         pierce: true
         lifetime: 60
         fromColor: f8efe6
@@ -199,6 +199,17 @@ ammoTypes: {
   item-barite-webbing: {
     reloadMultiplier: 2
     spawnBullets: [
+      {
+        type: ShrapnelBulletType
+        length: 180
+        hitSound: shotgun
+        width: 4
+        damage: 100
+        pierce: true
+        lifetime: 60
+        fromColor: f8efe6
+        toColor: bab4ae
+      }
       {
         type: BasicBulletType
         width: 0
