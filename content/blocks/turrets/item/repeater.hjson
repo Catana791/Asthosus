@@ -44,14 +44,14 @@ ammoTypes: {
         height: 0
         hitEffect: none
         despawnEffect: none
-        speed: 0.66667
+        speed: 1.5
         lifetime: 30
         damage: 0
         fragBullets: 2
         fragSpread: 45
         fragVelocityMin: 1
         fragVelocityMax: 1
-        fragAngle: 45
+        fragAngle: 0
         fragLifeMin: 1
         fragLifeMax: 1
         fragRandomSpread: 0
@@ -63,7 +63,7 @@ ammoTypes: {
               height: 0
               hitEffect: none
               despawnEffect: none
-              speed: 0.66667
+              speed: 1.5
               lifetime: 30
               damage: 0
               fragBullets: 1
@@ -72,7 +72,7 @@ ammoTypes: {
               fragLifeMin: 1
               fragLifeMax: 1
               fragRandomSpread: 0
-              fragAngle: 45
+              fragAngle: 0
               fragBullet: {
                 type: ShrapnelBulletType
                 length: 60
