@@ -9,6 +9,8 @@ hitSize: 0
 trailLength: 0
 health: 10000
 homingDelay: 0
+deathExplosionEffect: none
+deathSound: none
 aimDst: 4
 drawCell: false
 engineSize: 0
@@ -19,10 +21,10 @@ abilities: [
   {
     type: EnergyFieldAbility
     hitUnits: false
-    reload: 6
+    reload: 12
     color: 9be98b
     damage: 0
-    healPercent: 1
+    healPercent: 2
     status: none
     range: 80
     maxTargets: 10
