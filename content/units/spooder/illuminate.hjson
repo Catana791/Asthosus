@@ -24,7 +24,7 @@ weapons: [
     name: enlighten-blaster
     y: 3
     reload: 72
-    shootSound: shoot-small-flame
+    shootSound: shoot-dull
     mirror: true
     alternate: true
     rotate: false
@@ -34,7 +34,7 @@ weapons: [
       shotDelay: 12
     }
     bullet: {
-      type: BasicBulletType
+      type: MissileBulletType
       homingPower: 0.09
       homingDelay: 30
       weaveScale: 3
@@ -50,13 +50,15 @@ weapons: [
       collidesTeam: true
       healPercent: 2
       trailChance: -1
-      trailLength: 16
-      trailWidth: 6
+      trailLength: 22
+      trailWidth: 2.2
       trailColor: 69a25e
       backColor: 69a25e
       lightColor: 69a25e
-      lightRadius: 10
-      lightOpacity: 0.4
+      lightRadius: 40
+      lightOpacity: 0.7
+      hitSound: dullExplosion
+      despawnSound: dullExplosion
       frontColor: 9be98b
     }
   }
@@ -64,6 +66,7 @@ weapons: [
     x: 0
     y: -8
     reload: 317
+    name: illuminate-weapon
     mirror: false
     rotate: false
     shootSound: artillery
@@ -72,6 +75,8 @@ weapons: [
       speed: 1.5
       lifetime: 120
       damage: 3
+      width: 12
+      height: 17
       collidesTeam: true
       healPercent: 2
       splashDamage: 3
