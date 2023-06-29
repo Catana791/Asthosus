@@ -28,6 +28,9 @@ drawer: {
   ]
 }
 reload: 274
+shootSound: shoot-loud-heavy
+shootEffect: shootLarge
+smokeEffect: shootSmokeTitan
 category: turret
 research: fulmination
 requirements: [
@@ -73,6 +76,7 @@ ammoTypes: {
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
+            hitSound: shotgun
             width: 4
             damage: 60
             pierce: true
@@ -119,6 +123,7 @@ ammoTypes: {
             length: 60
             width: 4
             damage: 60
+            hitSound: shotgun
             pierce: true
             lifetime: 60
             fromColor: f8efe6
@@ -149,6 +154,7 @@ ammoTypes: {
           width: 4
           damage: 60
           pierce: true
+          hitSound: shotgun
           lifetime: 60
           fromColor: f8efe6
           toColor: bab4ae
@@ -157,6 +163,7 @@ ammoTypes: {
     ]
     type: ShrapnelBulletType
     length: 60
+    hitSound: shotgun
     width: 4
     damage: 60
     pierce: true
