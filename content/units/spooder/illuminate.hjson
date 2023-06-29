@@ -20,7 +20,8 @@ itemCapacity: 80
 outlineColor: 44413c
 weapons: [
   {
-    x: -12
+    x: -9
+    name: enlighten-blaster
     y: 3
     reload: 72
     shootSound: shoot-small-flame
@@ -33,7 +34,11 @@ weapons: [
       shotDelay: 12
     }
     bullet: {
-      type: MissileBulletType
+      type: BasicBulletType
+      homingPower: 0.09
+      homingDelay: 30
+      weaveScale: 3
+      weaveMag: 3
       width: 9
       height: 13
       speed: 2
