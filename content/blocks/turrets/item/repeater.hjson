@@ -1,0 +1,111 @@
+type: ItemTurret
+name: Instauro
+description: Fires repeating bolts at enemies.
+targetAir: false
+targetGround: true
+size: 3
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      heatProgress: recoil
+      progress: recoil
+      mirror: false
+      growY: 0.15
+      growX: 0.075
+      moveY: -5
+    }
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: true
+      progress: recoil
+      moveY: -2
+      moveX: 2
+      growX: 0.075
+      growY: 0.15
+    }
+  ]
+}
+reload: 274
+category: turret
+research: fulmination
+requirements: [
+  item-ferrinite/295
+  item-lodestone/200
+  item-barite/185
+]
+ammoTypes: {
+  item-barite: {
+    spawnBullets: [
+      {
+        type: BasicBulletType
+        width: 0
+        height: 0
+        hitEffect: none
+        despawnEffect: none
+        speed: 0.66667
+        lifetime: 60
+        damage: 0
+        fragBullets: 2
+        fragSpread: 45
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragRandomSpread: 0
+        fragBullet: {
+          spawnBullets: [
+            {
+              type: BasicBulletType
+              width: 0
+              height: 0
+              hitEffect: none
+              despawnEffect: none
+              speed: 0.66667
+              lifetime: 60
+              damage: 0
+              fragBullets: 1
+              fragVelocityMin: 1
+              fragVelocityMax: 1
+              fragLifeMin: 1
+              fragLifeMax: 1
+              fragRandomSpread: 0
+              fragBullet: {
+                type: ShrapnelBulletType
+                length: 60
+                width: 4
+                damage: 60
+                pierce: true
+                lifetime: 60
+                fromColor: f8efe6
+                toColor: bab4ae
+              }
+            }
+          ]
+          type: ShrapnelBulletType
+          length: 60
+          width: 4
+          damage: 60
+          pierce: true
+          lifetime: 60
+          fromColor: f8efe6
+          toColor: bab4ae
+        }
+      }
+    ]
+    type: ShrapnelBulletType
+    length: 60
+    width: 4
+    damage: 60
+    pierce: true
+    lifetime: 60
+    fromColor: f8efe6
+    toColor: bab4ae
+  }
+}
