@@ -171,4 +171,137 @@ ammoTypes: {
     fromColor: f8efe6
     toColor: bab4ae
   }
+  item-barite-webbing: {
+    reloadMultiplier: 0.2
+    spawnBullets: [
+      {
+        type: BasicBulletType
+        width: 0
+        height: 0
+        hitEffect: none
+        despawnEffect: none
+        speed: 1.75
+        lifetime: 30
+        damage: 0
+        fragBullets: 1
+        fragAngle: 0
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullet: {
+          type: BasicBulletType
+          width: 0
+          height: 0
+          hitEffect: none
+          despawnEffect: none
+          speed: 1.75
+          lifetime: 30
+          damage: 0
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragAngle: -45
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: ShrapnelBulletType
+            length: 60
+            hitSound: shotgun
+            width: 4
+            damage: 20
+            pierce: true
+            lifetime: 60
+            fromColor: f8efe6
+            toColor: bab4ae
+          }
+        }
+      }
+      {
+        type: BasicBulletType
+        width: 0
+        height: 0
+        hitEffect: none
+        despawnEffect: none
+        speed: 1.75
+        lifetime: 30
+        damage: 0
+        fragBullets: 1
+        fragAngle: 0
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullet: {
+          type: BasicBulletType
+          width: 0
+          height: 0
+          hitEffect: none
+          despawnEffect: none
+          speed: 1.75
+          lifetime: 30
+          damage: 0
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragAngle: 45
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: ShrapnelBulletType
+            length: 60
+            width: 4
+            damage: 20
+            hitSound: shotgun
+            pierce: true
+            lifetime: 60
+            fromColor: f8efe6
+            toColor: bab4ae
+          }
+        }
+      }
+      {
+        type: BasicBulletType
+        width: 0
+        height: 0
+        hitEffect: none
+        despawnEffect: none
+        speed: 1.75
+        lifetime: 30
+        damage: 0
+        fragBullets: 2
+        fragSpread: 45
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragAngle: 22.5
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragRandomSpread: 0
+        fragBullet: {
+          type: ShrapnelBulletType
+          length: 60
+          width: 4
+          damage: 20
+          pierce: true
+          hitSound: shotgun
+          lifetime: 60
+          fromColor: f8efe6
+          toColor: bab4ae
+        }
+      }
+    ]
+    type: ShrapnelBulletType
+    length: 60
+    hitSound: shotgun
+    width: 4
+    damage: 20
+    pierce: true
+    lifetime: 60
+    fromColor: f8efe6
+    toColor: bab4ae
+  }
 }
