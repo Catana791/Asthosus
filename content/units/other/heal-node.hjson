@@ -11,6 +11,7 @@ health: 10000
 homingDelay: 0
 aimDst: 4
 drawCell: false
+engineSize: 0
 outlines: false
 range: 4
 hidden: true  
