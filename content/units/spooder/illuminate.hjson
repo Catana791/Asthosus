@@ -1,0 +1,78 @@
+type: legs
+name: Illuminate
+description: A small legged unit capable of building structures and healing. Automatically repairs damaged structures.
+speed: 0.55
+health: 790
+armor: 9
+flying: false
+defaultController: RepairAI
+legExtension: -2.5
+buildSpeed: 1.1
+mineSpeed: 6.5
+mineTier: 2
+legMoveSpace: 0.9
+hovering: false
+legCount: 6
+legLength: 20
+legSpeed: 0.23
+legForwardScl: 0.56
+itemCapacity: 80
+outlineColor: 44413c
+weapons: [
+  {
+    x: -12
+    y: 3
+    reload: 72
+    shootSound: shoot-small-flame
+    mirror: true
+    alternate: true
+    rotate: false
+    inaccuracy: 3
+    shoot: {
+      shots: 4
+      shotDelay: 12
+    }
+    bullet: {
+      type: MissileBulletType
+      width: 9
+      height: 13
+      speed: 2
+      lifetime: 90
+      damage: 32
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      collidesTeam: true
+      healPercent: 2
+      trailChance: -1
+      trailLength: 16
+      trailWidth: 6
+      trailColor: 69a25e
+      backColor: 69a25e
+      lightColor: 69a25e
+      lightRadius: 10
+      lightOpacity: 0.4
+      frontColor: 9be98b
+    }
+  }
+  {
+    x: 0
+    y: -8
+    reload: 317
+    mirror: false
+    rotate: false
+    shootSound: artillery
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 1.5
+      lifetime: 120
+      damage: 3
+      collidesTeam: true
+      healPercent: 2
+      splashDamage: 3
+      splashDamageRadius: 16
+      spawnUnit: asthosus-heal-node
+    }
+  }
+]
+research: luminary
