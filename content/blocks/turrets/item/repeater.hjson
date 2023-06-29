@@ -68,11 +68,12 @@ ammoTypes: {
               damage: 0
               fragBullets: 1
               fragVelocityMin: 1
+              fragSpread: 45
               fragVelocityMax: 1
               fragLifeMin: 1
               fragLifeMax: 1
               fragRandomSpread: 0
-              fragAngle: 22.5
+              fragAngle: 0
               fragBullet: {
                 type: ShrapnelBulletType
                 length: 60
