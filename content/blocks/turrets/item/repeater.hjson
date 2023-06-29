@@ -207,8 +207,8 @@ ammoTypes: {
         damage: 100
         pierce: true
         lifetime: 60
-        fromColor: f8efe6
-        toColor: bab4ae
+        fromColor: deb790
+        toColor: a68b6d
       }
       {
         type: BasicBulletType
@@ -255,8 +255,8 @@ ammoTypes: {
             damage: 50
             pierce: true
             lifetime: 60
-            fromColor: f8efe6
-            toColor: bab4ae
+            fromColor: deb790
+            toColor: a68b6d
           }
         }
       }
@@ -305,8 +305,8 @@ ammoTypes: {
             hitSound: shotgun
             pierce: true
             lifetime: 60
-            fromColor: f8efe6
-            toColor: bab4ae
+            fromColor: deb790
+            toColor: a68b6d
           }
         }
       }
@@ -338,8 +338,8 @@ ammoTypes: {
           pierce: true
           hitSound: shotgun
           lifetime: 60
-          fromColor: f8efe6
-          toColor: bab4ae
+          fromColor: deb790
+          toColor: a68b6d
         }
       }
     ]
@@ -350,7 +350,7 @@ ammoTypes: {
     damage: 50
     pierce: true
     lifetime: 60
-    fromColor: f8efe6
-    toColor: bab4ae
+    fromColor: deb790
+    toColor: a68b6d
   }
 }
