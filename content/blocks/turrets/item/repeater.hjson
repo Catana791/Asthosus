@@ -28,7 +28,7 @@ drawer: {
   ]
 }
 reload: 274
-shootSound: shoot-loud-heavy
+shootSound: shotgun
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
 category: turret
@@ -72,6 +72,7 @@ ammoTypes: {
           fragAngle: -45
           fragLifeMin: 1
           fragLifeMax: 1
+          despawnSound: shotgun
           fragRandomSpread: 0
           fragBullet: {
             type: ShrapnelBulletType
@@ -118,6 +119,7 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
+          despawnSound: shotgun
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
@@ -147,6 +149,7 @@ ammoTypes: {
         fragAngle: 22.5
         fragLifeMin: 1
         fragLifeMax: 1
+        despawnSound: shotgun
         fragRandomSpread: 0
         fragBullet: {
           type: ShrapnelBulletType
@@ -172,7 +175,7 @@ ammoTypes: {
     toColor: bab4ae
   }
   item-barite-webbing: {
-    reloadMultiplier: 0.2
+    reloadMultiplier: 1.8
     spawnBullets: [
       {
         type: BasicBulletType
@@ -206,6 +209,7 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
+          despawnSound: shotgun
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
@@ -251,6 +255,7 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
+          despawnSound: shotgun
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
@@ -281,6 +286,7 @@ ammoTypes: {
         fragLifeMin: 1
         fragLifeMax: 1
         fragRandomSpread: 0
+        despawnSound: shotgun
         fragBullet: {
           type: ShrapnelBulletType
           length: 60
