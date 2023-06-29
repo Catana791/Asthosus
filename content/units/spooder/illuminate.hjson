@@ -13,7 +13,7 @@ mineTier: 2
 legMoveSpace: 0.9
 hovering: false
 legCount: 6
-legLength: 20
+legLength: 18
 legSpeed: 0.23
 legForwardScl: 0.56
 itemCapacity: 80
@@ -74,6 +74,9 @@ weapons: [
       type: ArtilleryBulletType
       speed: 1.5
       lifetime: 120
+      trailColor: 69a25e
+      backColor: 69a25e
+      frontColor: 9be98b
       damage: 3
       width: 12
       height: 17
