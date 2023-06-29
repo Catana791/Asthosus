@@ -29,7 +29,7 @@ drawer: {
 }
 reload: 274
 shootSound: shoot-loud-heavy
-shootEffect: shootLarge
+shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
 category: turret
 research: fulmination
