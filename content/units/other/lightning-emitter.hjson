@@ -38,7 +38,7 @@ weapons: [
     shootSound: spark
     bullet: {
       type: LightningBulletType
-      damage: 20
+      damage: 12
       lightningLength: 9
       lightningColor: d46f6b
     }
