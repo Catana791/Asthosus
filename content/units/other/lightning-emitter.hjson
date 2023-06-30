@@ -29,7 +29,7 @@ weapons: [
     chargeSound: lasercharge2
     y: 0
     alwaysShooting: true
-    reload: 45
+    reload: 180
     shootOnDeath: true
     inaccuracy: 360
     shootCone: 360
@@ -38,8 +38,8 @@ weapons: [
     shootSound: spark
     bullet: {
       type: LightningBulletType
-      damage: 10
-      lightningLength: 32
+      damage: 20
+      lightningLength: 9
       lightningColor: d46f6b
     }
   }
