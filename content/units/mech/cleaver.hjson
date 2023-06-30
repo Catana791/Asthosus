@@ -32,9 +32,12 @@ weapons: [
       shootEffect: shootBig2
       smokeEffect: shootBigSmoke
       hitEffect: blastExplosion
-      despawnUnitCount: 1
-      despawnUnitRadius: 1
-      despawnUnit: asthosus-lightning-emitter
+      fragBullets: 1
+      fragBullet: {
+        instantDisappear: true  
+        spawnUnit: asthous-lightning-emitter
+        damage: 0
+      }
     }
   }
   {
