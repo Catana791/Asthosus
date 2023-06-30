@@ -27,7 +27,7 @@ weapons: [
       trailChance: -1
       trailEffect: missileTrail
       trailColor: d46f6b
-      splashDamage: 32
+      splashDamage: 20
       splashDamageRadius: 32
       shootEffect: shootBig2
       smokeEffect: shootBigSmoke
@@ -57,7 +57,7 @@ weapons: [
       type: BasicBulletType
       speed: 3
       lifetime: 50
-      damage: 5
+      damage: 3
       pierce: true
       pierceCap: 1
       width: 9
