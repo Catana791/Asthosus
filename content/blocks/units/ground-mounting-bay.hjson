@@ -26,9 +26,19 @@ plans: [
     requirements: [
       asthosus-ferrinite-wire/8
       asthosus-lithium-wall-large/2
-      asthosus-lodestone--wall-large/2
+      asthosus-lodestone-wall-large/2
     ]
     time: 1500
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: cleaver
+    requirements: [
+      asthosus-ferrinite-wire/8
+      asthosus-lithium-wall-large/8
+      asthosus-lodestone-wall-large/4
+      asthosus-obsidian-wall-large/3
+    ]
   }
 ]
 squareSprite: false
