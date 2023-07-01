@@ -8,6 +8,8 @@ legMoveSpace: 1
 legPairOffset: 3
 legBaseOffset: 10
 stepShake: 0.3
+mineFloor: true
+mineWalls: true
 legLengthScl: 0.96
 rippleScale: 2
 legSplashDamage: 16
