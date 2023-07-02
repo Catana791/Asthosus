@@ -205,12 +205,11 @@ weapons: [
         height: 13
         lifetime: 28
         speed: 7
-        damage: 20
-        splashDamage: 40
-        splashDamageRadius: 24
+        damage: 50
+        splashDamage: 110
+        splashDamageRadius: 32
         pierce: true
         pierceBuilding: true
-        pierceCap: 2
         hitColor: baa164
         backColor: baa164
         trailColor: baa164
@@ -236,7 +235,7 @@ weapons: [
           type: LaserBulletType
           length: 30
           width: 3
-          damage: 15
+          damage: 45
           pierce: true
           buildingDamageMultiplier: 0.75
           lifetime: 10
@@ -248,7 +247,9 @@ weapons: [
           speed: 2
           lifetime: 25
           sprite: missile-large
-          damage: 3
+          damage: 9
+          splashDamage: 5
+          splashDamageRadius: 8
           pierce: false
           width: 11
           height: 14
