@@ -80,11 +80,11 @@ weapons: [
     shoot: {
       firstShotDelay: 120
     }
-    chargeSound: lasercharge
+    chargeSound: green-laser-charge-long
     rotateSpeed: 1.8
     mirror: false
     rotate: true
-    shootY: 4
+    shootY: 6
     shootSound: laserbig
     bullet: {
       chargeEffect: {
@@ -169,6 +169,7 @@ weapons: [
       length: 200
       width: 2
       shootEffect: shootBig2
+      despawnEffect: blastExplosion
       smokeEffect: shootSmokeMissile
       hitEffect: hitMeltdown
       shake: 0.5
