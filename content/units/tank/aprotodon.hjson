@@ -30,6 +30,7 @@ weapons: [
         suffix: -sticky-outy-left
         progress: warmup
         moveY: -2
+        under: true
         moveX: -2
         moves: [
           {
@@ -44,6 +45,7 @@ weapons: [
         suffix: -sticky-outy-right
         progress: warmup
         moveY: -2
+        under: true
         moveX: 2
         moves: [
           {
@@ -55,6 +57,7 @@ weapons: [
       }
       {  
         type: RegionPart
+        under: true
         suffix: -sticky-outy-bottom
         progress: warmup
         moveY: -2
@@ -70,7 +73,9 @@ weapons: [
     x: 0
     y: 4
     name: aprotodon-weapon
-    reload: 90
+    reload: 180
+    shootStatus: unmoving
+    shootStatusDuration: 120
     continuous: true
     shoot: {
       firstShotDelay: 120
@@ -79,7 +84,7 @@ weapons: [
     rotateSpeed: 1.8
     mirror: false
     rotate: true
-    shootY: 2
+    shootY: 4
     shootSound: laserbig
     bullet: {
       chargeEffect: {
@@ -162,33 +167,27 @@ weapons: [
       type: ContinuousLaserBulletType
       buildingDamageMultiplier: 0.75
       length: 200
-      width: 3
+      width: 2
       shootEffect: shootBig2
       smokeEffect: shootSmokeMissile
       hitEffect: hitMeltdown
+      shake: 0.5
       damageInterval: 10
       damage: 60
       lifetime: 180
       fadeTime: 60
+      incendSpread: 0
+      incendAmount: 0
+      incendChance: 0
       fragBullets: 1
       colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
-      despawnSound: railgun
+      despawnSound: none
       fragBullet: {
-        type: PointBulletType
-        speed: 10
-        lifetime: 20
-        damage: 10
-        frontColor: edc66c
-        backColor: baa164
-        trailEffect: missileTrail
-        trailChance: -1
-        splashDamage: 40
-        splashDamageRadius: 32
+        type: BasicBulletType
+        instantDisappear: true
+        damage: 0
         shootEffect: shootBig
         smokeEffect: shootSmokeDisperse
-        width: 12
-        height: 12
-        hitEffect: plasticExplosion
       }
     }
   }
