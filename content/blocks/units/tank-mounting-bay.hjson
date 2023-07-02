@@ -39,8 +39,8 @@ plans: [
       asthosus-lodestone-wall-large/4
       asthosus-obsidian-wall-large/5
     ]
+    time: 3400
   }
-  time: 3400
 ]
 squareSprite: false
 consumes: {
