@@ -80,7 +80,7 @@ weapons: [
     shoot: {
       firstShotDelay: 120
     }
-    chargeSound: green-laser-charge-long
+    chargeSound: green-laser-charge-early-short
     rotateSpeed: 1.8
     mirror: false
     rotate: true
