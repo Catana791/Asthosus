@@ -203,7 +203,7 @@ weapons: [
         sprite: missile-large
         width: 7.5
         height: 13
-        lifetime: 20
+        lifetime: 28
         speed: 7
         damage: 20
         splashDamage: 40
@@ -231,11 +231,11 @@ weapons: [
         intervalSpread: 75
         intervalAngle: 0
         intervalDelay: -1
-        despawnSound: dull-explosion
+        despawnSound: explosion
         intervalBullet: {
           type: LaserBulletType
-          length: 55
-          width: 2
+          length: 30
+          width: 3
           damage: 15
           pierce: true
           buildingDamageMultiplier: 0.75
@@ -246,15 +246,16 @@ weapons: [
         fragBullet: {
           type: BasicBulletType
           speed: 2
-          lifetime: 60
+          lifetime: 25
+          sprite: missile-large
           damage: 3
           pierce: false
           width: 11
           height: 14
-          frontColor: edc66c
+          frontColor: ffffff
           backColor: baa164
           trailColor: baa164
-          despawnSound: dull-explosion
+          despawnSound: explosion
           trailWidth: 1.5
           trailLength: 9
           trailChance: -1
