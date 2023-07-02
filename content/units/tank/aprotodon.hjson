@@ -21,7 +21,7 @@ rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 44413c
 treadPullOffset: 4
-research: shennong
+research: trigon
 weapons: [
   {
     parts: [
