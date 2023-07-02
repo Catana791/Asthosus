@@ -1,0 +1,195 @@
+type: tank
+name: Aprotodon
+description: A big assault tank unit equipped with a railgun. Durable and fast (for a tank).
+hitSize: 16.5
+treadRects: [
+  {
+    x: 27
+    y: -67
+    widht: 26
+    height: 134
+  }
+]
+crushDamage: 3
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 1230
+armor: 9
+speed: 1.1
+rotateSpeed: 3.5
+itemCapacity: 0
+outlineColor: 44413c
+treadPullOffset: 4
+research: shennong
+weapons: [
+  {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -sticky-outy-left
+        progress: warmup
+        moveY: -2
+        moveX: -2
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            rot: -4
+          }
+        ]
+      }
+      {
+        type: RegionPart
+        suffix: -sticky-outy-right
+        progress: warmup
+        moveY: -2
+        moveX: 2
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            rot: 4
+          }
+        ]
+      }
+      {  
+        type: RegionPart
+        suffix: -sticky-outy-bottom
+        progress: warmup
+        moveY: -2
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            y: -1
+          }
+        ]
+      }
+    ]
+    x: 0
+    y: 4
+    name: aprotodon-weapon
+    reload: 90
+    continuous: true
+    shoot: {
+      firstShotDelay: 120
+    }
+    chargeSound: lasercharge
+    rotateSpeed: 1.8
+    mirror: false
+    rotate: true
+    shootY: 2
+    shootSound: laserbig
+    bullet: {
+      chargeEffect: {
+        type: MultiEffect
+        lifetime: 110
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 12
+            baseLength: 2
+            colorFrom: baa164
+            colorTo: edc66c
+            sizeFrom: 2.1
+            sizeTo: 0.6
+            lifetime: 50
+            interp: pow2In
+            sizeInterp: pow2
+            followParent: true
+            rotWithParent: false
+          }
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 12
+            baseLength: 2
+            colorFrom: baa164
+            colorTo: edc66c
+            sizeFrom: 2.1
+            baseRotation: 46
+            rotation: 72
+            sizeTo: 0.6
+            lifetime: 110
+            interp: pow2In
+            sizeInterp: pow2
+            followParent: true
+            rotWithParent: false
+          }
+          {  
+            type: WaveEffect
+            sides: 3
+            spin: -2
+            lifetime: 110
+            sizeFrom: 12
+            sizeTo: 1
+            strokeFrom: 1.1
+            strokeTo: 0.3
+            followParent: true
+          }
+          {  
+            type: WaveEffect
+            sides: 4
+            spin: 2
+            lifetime: 110
+            strokeFrom: 1.1
+            strokeTo: 0.3
+            sizeFrom: 1
+            sizeTo: 13
+            followParent: true
+          }
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 2
+            baseLength: 12
+            colorFrom: baa164
+            colorTo: edc66c
+            sizeFrom: 0.6
+            baseRotation: 46
+            rotation: 72
+            sizeTo: 2.1
+            lifetime: 110
+            interp: pow2Out
+            sizeInterp: pow2Out
+            followParent: true
+            rotWithParent: false
+          }
+        ]
+      }
+      type: ContinuousLaserBulletType
+      buildingDamageMultiplier: 0.75
+      length: 200
+      width: 3
+      shootEffect: shootBig2
+      smokeEffect: shootSmokeMissile
+      hitEffect: hitMeltdown
+      damageInterval: 10
+      damage: 60
+      lifetime: 180
+      fadeTime: 60
+      fragBullets: 1
+      colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
+      despawnSound: railgun
+      fragBullet: {
+        type: PointBulletType
+        speed: 10
+        lifetime: 20
+        damage: 10
+        frontColor: edc66c
+        backColor: baa164
+        trailEffect: missileTrail
+        trailChance: -1
+        splashDamage: 40
+        splashDamageRadius: 32
+        shootEffect: shootBig
+        smokeEffect: shootSmokeDisperse
+        width: 12
+        height: 12
+        hitEffect: plastExplosion
+      }
+    }
+  }
+]
