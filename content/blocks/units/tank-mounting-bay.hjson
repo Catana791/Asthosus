@@ -30,6 +30,16 @@ plans: [
     ]
     time: 1500
   }
+  {
+    type: AssemblerUnitPlan
+    unit: aprotodon
+    requirements: [
+      asthosus-ferrinite-wire/10
+      asthosus-lithium-wall-large/8
+      asthosus-lodestone-wall-large/4
+      asthosus-obsidian-wall-large/5
+    ]
+  }
 ]
 squareSprite: false
 consumes: {
