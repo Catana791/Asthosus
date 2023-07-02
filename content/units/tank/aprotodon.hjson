@@ -193,9 +193,10 @@ weapons: [
       colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
       despawnSound: none
       fragBullets: 1
-      fragRandomSpread: 3
-      fragVelocityMin: 0.75
-      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      pierceCap: 3
+      fragVelocityMin: 1
+      fragLifeMin: 1
       fragOnHit: false
       despawnSound: explosion
       fragBullet: {
