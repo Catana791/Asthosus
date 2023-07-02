@@ -188,7 +188,7 @@ weapons: [
         smokeEffect: shootSmokeDisperse
         width: 12
         height: 12
-        hitEffect: plastExplosion
+        hitEffect: plasticExplosion
       }
     }
   }
