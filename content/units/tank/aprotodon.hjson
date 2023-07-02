@@ -75,7 +75,7 @@ weapons: [
     name: aprotodon-weapon
     reload: 180
     shootStatus: unmoving
-    shootStatusDuration: 120
+    shootStatusDuration: 135
     continuous: true
     shoot: {
       firstShotDelay: 120
@@ -175,8 +175,8 @@ weapons: [
       shake: 0.5
       damageInterval: 8
       damage: 60
-      lifetime: 180
-      fadeTime: 60
+      lifetime: 160
+      fadeTime: 40
       incendSpread: 0
       incendAmount: 0
       incendChance: 0
