@@ -196,6 +196,7 @@ weapons: [
       fragRandomSpread: 3
       fragVelocityMin: 0.75
       fragLifeMin: 0.8
+      fragOnHit: false
       despawnSound: explosion
       fragBullet: {
         type: BasicBulletType
