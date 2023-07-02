@@ -11,6 +11,7 @@ treadRects: [
   }
 ]
 crushDamage: 3
+range: 160
 singleTarget: false
 omniMovement: false
 faceTarget: false
@@ -164,6 +165,15 @@ weapons: [
           }
         ]
       }
+      spawnBullets: [
+        {
+          type: BasicBulletType
+          instantDisappear: true
+          damage: 0
+          shootEffect: shootBig
+          smokeEffect: shootSmokeDisperse
+        }
+      ]
       type: ContinuousLaserBulletType
       buildingDamageMultiplier: 0.75
       length: 200
@@ -173,22 +183,64 @@ weapons: [
       smokeEffect: shootSmokeMissile
       hitEffect: hitMeltdown
       shake: 0.5
-      damageInterval: 8
-      damage: 60
+      damageInterval: 10
+      damage: 40
       lifetime: 160
       fadeTime: 40
       incendSpread: 0
       incendAmount: 0
       incendChance: 0
-      fragBullets: 1
       colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
       despawnSound: none
+      fragBullets: 1
+      fragRandomSpread: 3
+      fragVelocityMin: 0.75
+      fragLifeMin: 0.8
+      pierceCap: 4
+      despawnSound: dull-explosion
       fragBullet: {
         type: BasicBulletType
-        instantDisappear: true
-        damage: 0
-        shootEffect: shootBig
-        smokeEffect: shootSmokeDisperse
+        sprite: missile-large
+        width: 7.5
+        height: 13
+        lifetime: 20
+        speed: 7
+        damage: 20
+        splashDamage: 40
+        splashDamageRadius: 24
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 2
+        hitColor: baa164
+        backColor: baa164
+        trailColor: baa164
+        frontColor: ffffff
+        hitSize: 6
+        trailWidth: 2.8
+        trailLength: 8
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        shootEffect: shootTitan
+        smokeEffect: shootSmokeTitan
+        trailInterval: 3
+        trailEffect: shootSmokeSquareSparse
+        trailRotation: true
+        intervalBullets: 2
+        bulletInterval: 5
+        intervalRandomSpread: 0
+        intervalSpread: 45
+        intervalAngle: 0
+        intervalDelay: -1
+        intervalBullet: {
+          type: LaserBulletType
+          length: 40
+          width: 1
+          damage: 15
+          pierce: true
+          buildingDamageMultiplier: 0.75
+          lifetime: 10
+          colors: [baa164, edc66c, ffffff]
+        }
       }
     }
   }
