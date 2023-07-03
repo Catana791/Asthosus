@@ -11,7 +11,12 @@ inaccuracy: 15
 range: 200
 category: turret
 shootSound: shoot-dull
-research: catapult
+research: {
+  parent: catapult
+  requirements: [
+    item-ferrinite/250  
+  ]
+}
 requirements: [
   item-ferrinite/50
 ]
