@@ -3,7 +3,12 @@ name: Catapult
 description: Fires bursts of small artillery shells at enemies over medium distances.
 size: 1
 category: turret
-research: core-essence
+research: {
+  parent: core-essence
+  requirements: [
+    item-ferrinite/200
+  ]
+}
 shootSound: artillery
 requirements: [
   item-ferrinite/40
