@@ -10,3 +10,4 @@ requirements: [
   item-lodestone/30
   item-obsidian/70
 ]
+squareSprite: false
