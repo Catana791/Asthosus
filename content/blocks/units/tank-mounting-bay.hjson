@@ -28,7 +28,18 @@ plans: [
       asthosus-lithium-wall-large/3
       asthosus-lodestone-wall-large/2
     ]
-    time: 1500
+    time: 1600
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: aprotodon
+    requirements: [
+      asthosus-ferrinite-wire/10
+      asthosus-lithium-wall-large/8
+      asthosus-lodestone-wall-large/4
+      asthosus-obsidian-wall-large/5
+    ]
+    time: 3400
   }
 ]
 squareSprite: false

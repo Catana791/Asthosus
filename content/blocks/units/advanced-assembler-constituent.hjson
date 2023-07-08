@@ -1,6 +1,6 @@
 type: UnitAssemblerModule
 name: Advanced Assembler Constituent
-description: Increases an assemblers' tier by 2 when placed next to it's bounding box. May be used as an additional payload input.
+description: Increases an assemblers' tier by 2 when placed next to its bounding box. May be used as an additional payload input.
 size: 3
 category: units
 research: basic-assembler-constituent

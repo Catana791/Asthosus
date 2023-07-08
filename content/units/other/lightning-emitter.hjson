@@ -1,0 +1,46 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 0
+accel: 0
+lifetime: 60
+rotateSpeed: 0
+hitSize: 0
+trailLength: 0
+health: 10000
+homingDelay: 0
+deathExplosionEffect: none
+deathSound: none
+aimDst: 4
+drawCell: false
+engineSize: 0
+outlines: false
+range: 4
+hidden: true  
+weapons: [
+  {
+    x: 0
+    shoot: {
+      shots: 16
+      spread: 22.5
+      shotDelay: 1
+      firstShotDelay: 30
+    }
+    chargeSound: lasercharge2
+    y: 0
+    alwaysShooting: true
+    reload: 180
+    shootOnDeath: true
+    inaccuracy: 360
+    shootCone: 360
+    mirror: false
+    rotate: false
+    shootSound: spark
+    bullet: {
+      type: LightningBulletType
+      damage: 12
+      lightningLength: 9
+      lightningColor: d46f6b
+    }
+  }
+]
