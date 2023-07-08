@@ -9,6 +9,8 @@ name: Zeta
 description: Defends the Essence core. Builds structures and mines ores. Boost to gain a small speed increase.
 health: 135
 armor: 1
+mineFloor: true
+mineWalls: true
 speed: 1.2
 hitSize: 6
 isEnemy: false

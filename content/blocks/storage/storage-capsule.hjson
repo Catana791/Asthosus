@@ -1,0 +1,13 @@
+type: StorageBlock
+size: 2
+scaledHealth: 40
+name: Storage Capsule
+description: Stores items in larger quantities. Fragile.
+itemCapacity: 200
+category: effect
+research: ferrinite-duct-router
+requirements: [
+  item-lodestone/30
+  item-obsidian/70
+]
+squareSprite: false

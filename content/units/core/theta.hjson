@@ -13,6 +13,8 @@ speed: 1.3
 hitSize: 12
 isEnemy: false
 mineSpeed: 7.5
+mineFloor: true
+mineWalls: true
 mineTier: 1
 buildSpeed: 0.65
 drag: 0.4
