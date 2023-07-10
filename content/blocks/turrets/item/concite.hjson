@@ -1,0 +1,139 @@
+type: ItemTurret
+name: Concite
+description: Fires powerful rounds at enemies from five barrels continuously. 
+size: 4
+squareSprite: false
+reload: 30
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: true
+      under: false
+      progress: warmup
+      moveRot: -12
+      moveX: 4
+      moveY: -1
+      heatProgress: recoil
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          rot: 6
+          y: -1
+        }
+      ]
+    }
+    {
+      type: RegionPart
+      suffix: -nub
+      mirror: true
+      under: false
+      progress: recoil
+      moveX: 2
+      moveY: -2
+    }
+  ]
+}
+shootEffect: shootTitan
+smokeEffect: shootSmokeTitan
+category: turret
+research: typhoon
+requirements: [
+  item-ferrinite/600
+  item-lodestone/210
+  item-obsidian/60
+  item-crosium/105
+]
+shoot: {
+  type: ShootBarrel
+  barrels: [
+    0, 12, 0,
+    8, 12, 0,
+    -8, 12, 0,
+    -16, 12, -12
+    16, 12, 12
+  ]
+  shotDelay: 5 
+  shots: 5
+  barrelOffset: 3
+}
+range: 270
+shootSound: shoot-loud-heavy
+ammoTypes: {
+  item-obsidian: {
+    type: BasicBulletType
+    speed: 3
+    lifetime: 90
+    damage: 46
+    pierce: true
+    pierceCap: 5
+    keepVelocity: false
+    width: 18
+    height: 18
+    sprite: large-orb
+    trailChance: -1
+    trailColor: 2e293a
+    backColor: 2e293a
+    frontColor: ffffff
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailWidth: 6
+    trailLength: 22
+    lightRadius: 40
+    lightOpacity: 0.7
+    lightColor: 2e293a
+    spin: 4
+  }
+  item-crosium: {
+    type: BasicBulletType
+    speed: 3
+    lifetime: 90
+    damage: 68
+    pierce: true
+    pierceCap: 6
+    keepVelocity: false
+    width: 18
+    height: 18
+    sprite: large-orb
+    trailChance: -1
+    trailColor: 425b54
+    backColor: 425b54
+    frontColor: ffffff
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailWidth: 6
+    trailLength: 22
+    lightRadius: 40
+    lightOpacity: 0.7
+    lightColor: 425b54
+    spin: 4
+  }
+  item-barite-webbing: {
+    type: BasicBulletType
+    speed: 3
+    lifetime: 90
+    damage: 68
+    pierce: true
+    pierceCap: 6
+    keepVelocity: false
+    width: 18
+    height: 18
+    sprite: large-orb
+    trailChance: -1
+    trailColor: a78b6f
+    backColor: a78b6f
+    frontColor: ffffff
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailWidth: 6
+    trailLength: 22
+    lightRadius: 40
+    lightOpacity: 0.7
+    lightColor: a78b6f
+    spin: 4
+  }
+}
