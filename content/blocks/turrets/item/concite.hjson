@@ -88,6 +88,7 @@ ammoTypes: {
       frontColor: 594e6b
       region: asthosus-arrow 
       length: 0
+      lifetime: 8
     }
     trailInterval: 9
     trailWidth: 2.5
@@ -122,6 +123,7 @@ ammoTypes: {
       frontColor: 6b9388
       region: asthosus-arrow 
       length: 0
+      lifetime: 8
     }
     trailRotation: true
     trailInterval: 9
@@ -158,6 +160,7 @@ ammoTypes: {
       frontColor: dfb891
       region: asthosus-arrow 
       length: 0
+      lifetime: 8
     }  
     trailInterval: 9
      layer: 99
