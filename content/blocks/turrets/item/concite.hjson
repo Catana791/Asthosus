@@ -52,9 +52,9 @@ drawer: {
       suffix: -blade
       mirror: true
       under: true
-      moveX: 5
+      moveX: 0
       outline: false
-      moveY: -4
+      moveY: -3.6
       heatProgress: warmup
       progress: warmup
       heatColor: cd8d4a
