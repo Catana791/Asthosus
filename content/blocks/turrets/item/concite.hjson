@@ -72,13 +72,13 @@ ammoTypes: {
     pierce: true
     pierceCap: 5
     keepVelocity: false
-    width: 18
-    height: 18
+    width: 8
+    height: 8
     sprite: large-orb
     trailChance: -1
     trailColor: 2e293a
     backColor: 2e293a
-    frontColor: ffffff
+    frontColor: 594e6b
     trailEffect: shootSmokeTitan
     trailInterval: 9
     trailWidth: 6
@@ -97,13 +97,13 @@ ammoTypes: {
     pierce: true
     pierceCap: 6
     keepVelocity: false
-    width: 18
-    height: 18
+    width: 8
+    height: 8
     sprite: large-orb
     trailChance: -1
     trailColor: 425b54
     backColor: 425b54
-    frontColor: ffffff
+    frontColor: 6b9388
     trailEffect: shootSmokeTitan
     trailInterval: 9
     layer: 99
@@ -122,13 +122,13 @@ ammoTypes: {
     pierce: true
     pierceCap: 6
     keepVelocity: false
-    width: 18
-    height: 18
+    width: 8
+    height: 8
     sprite: large-orb
     trailChance: -1
     trailColor: a78b6f
     backColor: a78b6f
-    frontColor: ffffff
+    frontColor: dfb891
     trailEffect: shootSmokeTitan
     trailInterval: 9
      layer: 99
