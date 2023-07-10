@@ -15,7 +15,7 @@ drawer: {
       under: false
       progress: warmup
       moveRot: 15
-      moveX: 4
+      moveX: 3.2
       moveY: 0
       heatProgress: recoil
       moves: [
@@ -41,6 +41,7 @@ drawer: {
       under: true
       heatProgress: warmup
       heatColor: cd8d4a
+      moveX: 1.2
       outline: false
     }
   ]
