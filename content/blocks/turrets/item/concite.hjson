@@ -87,6 +87,7 @@ ammoTypes: {
       colorFrom: 2e293a
       frontColor: 594e6b
       region: asthosus-arrow 
+      length: 0
     }
     trailInterval: 9
     trailWidth: 2.5
@@ -112,7 +113,16 @@ ammoTypes: {
     trailColor: 425b54
     backColor: 425b54
     frontColor: 6b9388
-    trailEffect: shootSmokeSquareSparse
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 2
+      sizeTo: 1.8
+      colorFrom: 425b54
+      frontColor: 6b9388
+      region: asthosus-arrow 
+      length: 0
+    }
     trailRotation: true
     trailInterval: 9
     layer: 99
@@ -139,7 +149,16 @@ ammoTypes: {
     trailColor: a78b6f
     backColor: a78b6f
     frontColor: dfb891
-    trailEffect: shootSmokeSquareSparse  
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 2
+      sizeTo: 1.8
+      colorFrom: a78b6f
+      frontColor: dfb891
+      region: asthosus-arrow 
+      length: 0
+    }  
     trailInterval: 9
      layer: 99
     trailWidth: 2.5
