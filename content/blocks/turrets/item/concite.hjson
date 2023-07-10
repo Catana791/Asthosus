@@ -19,6 +19,7 @@ drawer: {
       moveX: 3.2
       moveY: 0
       heatProgress: recoil
+      heatColor: cd8d4a
       moves: [
         {
           type: PartMove
@@ -46,6 +47,7 @@ drawer: {
       outline: false
       layerOffset: -0.3
       turretHeatLayer: 49.8
+      color: cd8d4a
     }
     {
       type: RegionPart 
@@ -60,6 +62,7 @@ drawer: {
       heatColor: cd8d4a
       layerOffset: -0.3
       turretHeatLayer: 49.8
+      color: cd8d4a
     }
   ]
 }
