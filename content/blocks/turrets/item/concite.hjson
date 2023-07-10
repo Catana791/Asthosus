@@ -40,7 +40,8 @@ drawer: {
       mirror: true
       under: true
       heatProgress: warmup
-      heatColor: cd8d4a4D
+      heatColor: cd8d4a
+      outline: false
     }
   ]
 }
