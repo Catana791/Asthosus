@@ -62,7 +62,7 @@ shoot: {
   barrelOffset: 3
 }
 range: 270
-shootSound: shoot-loud-heavy
+shootSound: shoot-heavy-cannon
 ammoTypes: {
   item-obsidian: {
     type: BasicBulletType
