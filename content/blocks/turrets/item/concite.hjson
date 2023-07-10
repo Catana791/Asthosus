@@ -50,11 +50,11 @@ requirements: [
 shoot: {
   type: ShootBarrel
   barrels: [
-    0, 3, 0,
-    8, 3, 0,
-    -8, 3, 0,
-    -16, 2, -14,
-    16, 2, 14
+    0, -2, 0,
+    6, -2, 0,
+    -6, -2, 0,
+    -12, -4, -14,
+    12 , -4, 14
   ]
   shotDelay: 5 
   shots: 5
