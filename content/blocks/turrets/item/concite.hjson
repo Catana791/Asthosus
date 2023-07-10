@@ -12,11 +12,11 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       mirror: true
-      under: true
+      under: false
       progress: warmup
       moveRot: 12
-      moveX: -2
-      moveY: 2
+      moveX: 3
+      moveY: 1
       heatProgress: recoil
       moves: [
         {
@@ -33,8 +33,8 @@ drawer: {
       mirror: true
       under: false
       progress: recoil
-      moveX: 2
-      moveY: -2
+      growX: 0.1
+      growY: 0.1
     }
   ]
 }
