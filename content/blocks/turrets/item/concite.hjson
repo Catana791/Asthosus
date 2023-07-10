@@ -79,7 +79,15 @@ ammoTypes: {
     trailColor: 2e293a
     backColor: 2e293a
     frontColor: 594e6b
-    trailEffect: shootSmokeSquareSparse
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 2
+      sizeTo: 1.8
+      colorFrom: 2e293a
+      frontColor: 594e6b
+      region: asthosus-arrow 
+    }
     trailInterval: 9
     trailWidth: 2.5
     trailLength: 22
