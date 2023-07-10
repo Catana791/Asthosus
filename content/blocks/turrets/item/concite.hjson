@@ -47,7 +47,7 @@ drawer: {
       outline: false
       layerOffset: -0.3
       turretHeatLayer: 49.8
-      color: cd8d4a
+      color: 54776d
     }
     {
       type: RegionPart 
@@ -62,7 +62,7 @@ drawer: {
       heatColor: cd8d4a
       layerOffset: -0.3
       turretHeatLayer: 49.8
-      color: cd8d4a
+      color: 54776d
     }
   ]
 }
