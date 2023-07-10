@@ -93,6 +93,8 @@ range: 270
 shootSound: shoot-heavy-cannon
 ammoTypes: {
   item-obsidian: {
+    hitEffect: plasticExplosion
+    despawnHit: true
     type: BasicBulletType
     speed: 3
     lifetime: 90
@@ -116,6 +118,8 @@ ammoTypes: {
     layer: 99
   }
   item-crosium: {
+    hitEffect: plasticExplosion
+    despawnHit: true
     type: BasicBulletType
     speed: 3
     lifetime: 90
@@ -139,10 +143,12 @@ ammoTypes: {
     spin: 4
   }
   item-barite-webbing: {
+    hitEffect: plasticExplosion
+    despawnHit: true
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 68
+    damage: 97
     pierce: true
     pierceCap: 6
     keepVelocity: false
