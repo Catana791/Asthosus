@@ -37,8 +37,8 @@ drawer: {
     }
   ]
 }
-shootEffect: shootTitan
-smokeEffect: shootSmokeTitan
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
 category: turret
 research: typhoon
 requirements: [
@@ -50,11 +50,11 @@ requirements: [
 shoot: {
   type: ShootBarrel
   barrels: [
-    0, 6, 0,
-    8, 6, 0,
-    -8, 6, 0,
-    -16, 5, -14,
-    16, 5, 14
+    0, 3, 0,
+    8, 3, 0,
+    -8, 3, 0,
+    -16, 2, -14,
+    16, 2, 14
   ]
   shotDelay: 5 
   shots: 5
@@ -79,7 +79,7 @@ ammoTypes: {
     trailColor: 2e293a
     backColor: 2e293a
     frontColor: 594e6b
-    trailEffect: shootBigSmoke
+    trailEffect: shootSmokeSquareSparse
     trailInterval: 9
     trailWidth: 2.5
     trailLength: 22
@@ -104,7 +104,7 @@ ammoTypes: {
     trailColor: 425b54
     backColor: 425b54
     frontColor: 6b9388
-    trailEffect: shootBigSmoke
+    trailEffect: shootSmokeSquareSparse
     trailRotation: true
     trailInterval: 9
     layer: 99
@@ -131,7 +131,7 @@ ammoTypes: {
     trailColor: a78b6f
     backColor: a78b6f
     frontColor: dfb891
-    trailEffect: shootBigSmoke 
+    trailEffect: shootSmokeSquareSparse  
     trailInterval: 9
      layer: 99
     trailWidth: 2.5
