@@ -31,9 +31,16 @@ drawer: {
       type: RegionPart
       suffix: -nub
       mirror: true
-      under: false
+      under: true
       progress: recoil
-      outline: false
+    }
+    {
+      type: RegionPart
+      suffix: -connector
+      mirror: true
+      under: true
+      heatProgress: warmup
+      heatColor: cd8d4a4D
     }
   ]
 }
