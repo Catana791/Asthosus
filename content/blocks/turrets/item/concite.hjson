@@ -4,6 +4,7 @@ description: Fires powerful rounds at enemies from five barrels continuously.
 size: 4
 squareSprite: false
 reload: 30
+heatColor: cd8d4a
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -41,8 +42,20 @@ drawer: {
       under: true
       heatProgress: warmup
       heatColor: cd8d4a
-      moveX: 1.2
+      moveX: 0.85
       outline: false
+    }
+    {
+      type: RegionPart 
+      suffix: -blade
+      mirror: true
+      under: true
+      moveX: 3
+      outline: false
+      moveY: -5
+      heatProgress: warmup
+      progress: warmup
+      heatColor: cd8d4a
     }
   ]
 }
