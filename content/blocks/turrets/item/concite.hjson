@@ -12,17 +12,17 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       mirror: true
-      under: false
+      under: true
       progress: warmup
-      moveRot: -12
-      moveX: 4
-      moveY: -1
+      moveRot: 12
+      moveX: -2
+      moveY: 2
       heatProgress: recoil
       moves: [
         {
           type: PartMove
           progress: recoil
-          rot: 6
+          rot: -6
           y: -1
         }
       ]
@@ -80,13 +80,14 @@ ammoTypes: {
     backColor: 2e293a
     frontColor: ffffff
     trailEffect: shootSmokeTitan
-    trailInterval: 3
+    trailInterval: 9
     trailWidth: 6
     trailLength: 22
     lightRadius: 40
     lightOpacity: 0.7
     lightColor: 2e293a
     spin: 4
+    layer: 99
   }
   item-crosium: {
     type: BasicBulletType
@@ -104,7 +105,8 @@ ammoTypes: {
     backColor: 425b54
     frontColor: ffffff
     trailEffect: shootSmokeTitan
-    trailInterval: 3
+    trailInterval: 9
+    layer: 99
     trailWidth: 6
     trailLength: 22
     lightRadius: 40
@@ -128,7 +130,8 @@ ammoTypes: {
     backColor: a78b6f
     frontColor: ffffff
     trailEffect: shootSmokeTitan
-    trailInterval: 3
+    trailInterval: 9
+     layer: 99
     trailWidth: 6
     trailLength: 22
     lightRadius: 40
