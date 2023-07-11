@@ -10,3 +10,4 @@ health: 35
 leaks: false
 junctionReplacement: aqueduct-junction
 bridgeReplacement: aqueduct-bridge
+underBullets: true
