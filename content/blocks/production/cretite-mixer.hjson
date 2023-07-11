@@ -17,7 +17,7 @@ consumes: {
   liquid: pressure/0.1
 }
 craftTime: 120
-craftEffect: smeltSmoke
+craftEffect: smeltsmoke
 outputItem: item-cretite/1
 drawer: {
   type: DrawMulti
