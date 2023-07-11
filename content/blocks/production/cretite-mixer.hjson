@@ -1,0 +1,61 @@
+type: GenericCrafter
+name: Cretite Mixer
+description: Melts down Lithium and powderizes Lignite to create highly flammable Cretite. Requires pressure.
+size: 2
+category: crafting
+research: lithium-grinder
+requirements: [
+  item-ferrinite/65
+  item-demetite/50
+  item-lithium/30
+]
+consumes: {
+  items: [
+    item-lignite/2
+    item-lithium/1
+  ]
+  liquid: pressure/0.1
+}
+craftTime: 120
+craftEffect: smeltSmoke
+outputItem: item-cretite/1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -grindwheel
+      x: 8
+      y: 0
+      spinSprite: true
+      rotateSpeed: 0.6
+    }
+    {
+      type: DrawRegion
+      suffix: -grindwheel
+      x: -8
+      y: 0
+      spinSprite: true
+      rotateSpeed: -0.6
+    }
+    {
+      type: DrawRegion
+      suffix: -grindwheel
+      x: 0
+      y: -8
+      spinSprite: true
+      rotateSpeed: 0.6
+    }
+    {
+      type: DrawRegion
+      suffix: -grindwheel
+      x: 0
+      y: 8
+      spinSprite: true
+      rotateSpeed: -0.6
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
