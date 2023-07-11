@@ -1,6 +1,6 @@
 type: HeatProducer
-name: Lignite Burner
-description: Burns flammable Lignite to produce heat.
+name: Cretite Etna
+description: Burns highly flammable Cretite to produce heat. Is more efficient than a Lignite Burner.
 size: 3
 heatOutput: 9
 craftTime: 180
@@ -41,7 +41,7 @@ craftEffect: {
     type: ParticleEffect
     particles: 18
     length: 22
-    lifetime: 100
+    lifetime: 120
     cone: 26
     useRotation: false
     baseRotation: 45
