@@ -6,5 +6,5 @@ healthScaling: 0.2
 explosiveness: 0.1
 radioactivity: 1
 color: dad2ca
-research: liquid-obsidian
+research: item-obsidian
 hiddenOnPlanets: [serpulo, erekir]
