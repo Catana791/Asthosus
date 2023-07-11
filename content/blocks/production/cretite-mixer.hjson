@@ -17,6 +17,9 @@ consumes: {
   liquid: pressure/0.1
 }
 craftTime: 120
+ambientSound: hum
+ambientSoundVolume: 0.05
+squareSprite: false
 craftEffect: smeltsmoke
 outputItem: item-cretite/1
 drawer: {
@@ -25,7 +28,7 @@ drawer: {
     {
       type: DrawRegion
       suffix: -grindwheel
-      x: 8
+      x: 10
       y: 0
       spinSprite: true
       rotateSpeed: 0.6
@@ -33,7 +36,7 @@ drawer: {
     {
       type: DrawRegion
       suffix: -grindwheel
-      x: -8
+      x: -10
       y: 0
       spinSprite: true
       rotateSpeed: -0.6
@@ -42,7 +45,7 @@ drawer: {
       type: DrawRegion
       suffix: -grindwheel
       x: 0
-      y: -8
+      y: -10
       spinSprite: true
       rotateSpeed: 0.6
     }
@@ -50,7 +53,7 @@ drawer: {
       type: DrawRegion
       suffix: -grindwheel
       x: 0
-      y: 8
+      y: 10
       spinSprite: true
       rotateSpeed: -0.6
     }
