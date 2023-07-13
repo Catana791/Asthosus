@@ -1,0 +1,67 @@
+type: ConsumeGenerator
+name: Cretite Turbine
+description: Creates medium amounts of power by using highly flammable Cretite and Ferrofluid as an insulator and coolant. 
+size: 2
+category: power
+squareSprite: false
+research: ignition-generator
+requirements: [
+  item-ferrinite/125
+  item-demetite/60
+  item-lodestone/60
+  item-lithium/50
+]
+powerProduction: 3
+consumes: {
+  items: [
+    item-cretite/1
+  ]
+  liquid: liquid-ferrofluid/0.1
+}
+itemDuration: 180
+generateEffectChance: 0.1
+generateEffect: {
+  type: RadialEffect
+  rotationSpacing: 90
+  amount: 8
+  lengthOffset: 6
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 6
+    line: true
+    lifetime: 10
+    strokeFrom: 1.8
+    strokeTo: 0.2
+    colorFrom: d77751
+    colorTo: fca988
+    length: 1
+    baseLength: 1.4
+    cone: 5
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-ferrofluid
+      alpha: 0.7
+    }
+    {
+      type: DrawArcSmelt
+      blending: additive
+      alpha: 0.65
+      drawCenter: false
+      flameColor: fca988
+      midColor: d77751
+    }
+    {    
+      type: DrawDefault
+    }
+  ]
+}
