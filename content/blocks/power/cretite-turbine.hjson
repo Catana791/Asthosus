@@ -19,19 +19,19 @@ consumes: {
   liquid: liquid-ferrofluid/0.1
 }
 itemDuration: 180
-generateEffectChance: 0.1
+generateEffectChance: 0.5
 generateEffectRange: 0
 generateEffect: {
   type: RadialEffect
   rotationSpacing: 90
   amount: 8
-  lengthOffset: 6
+  lengthOffset: 3
   layer: 118
   effect: {
     type: ParticleEffect
     particles: 6
     line: true
-    lifetime: 10
+    lifetime: 60
     strokeFrom: 1.8
     strokeTo: 0.2
     colorFrom: d77751
