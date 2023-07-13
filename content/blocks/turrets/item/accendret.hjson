@@ -12,7 +12,13 @@ requirements: [
   item-obsidian/110
 ]
 range: 180
-reload: 16
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  spread: 5
+  shotDelay: 5
+}  
+reload: 15
 recoil: 0
 recoils: 2
 drawer: {
