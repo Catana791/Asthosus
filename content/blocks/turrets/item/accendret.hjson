@@ -52,8 +52,8 @@ ammoTypes: {
       length: 1.1
       sizeFrom: 4
       sizeTo: 0.4
-      colorFrom: b1b1b1
-      colorTo: 757575
+      colorFrom: dea67d
+      colorTo: be7766
     }
     hitSound: dull-explosion
     reloadMultiplier: 0.75
@@ -77,6 +77,16 @@ ammoTypes: {
     statusDuration: 240
   }
   item-lithium: {
+    despawnHit: true
+    hitEffect: {
+      type: ParticleEffect
+      region: asthosus-star
+      length: 1.1
+      sizeFrom: 4
+      sizeTo: 0.4
+      colorFrom: dea67d
+      colorTo: be7766
+    }
     hitSound: dull-explosion
     homingPower: 0.04
     homingDelay: 20
@@ -102,6 +112,16 @@ ammoTypes: {
     lightningDamage: 4
   }
   item-cretite: {
+    despawnHit: true
+    hitEffect: {
+      type: ParticleEffect
+      region: asthosus-star
+      length: 1.1
+      sizeFrom: 4
+      sizeTo: 0.4
+      colorFrom: dea67d
+      colorTo: be7766
+    }
     hitSound: dull-explosion
     homingPower: 0.04
     homingDelay: 20
@@ -123,6 +143,16 @@ ammoTypes: {
     statusDuration: 180
   }
   item-barite: {
+    despawnHit: true
+    hitEffect: {
+      type: ParticleEffect
+      region: asthosus-star
+      length: 1.1
+      sizeFrom: 4
+      sizeTo: 0.4
+      colorFrom: dea67d
+      colorTo: be7766
+    }
     hitSound: dull-explosion
     reloadMultiplier: 1.25
     homingPower: 0.04
@@ -145,6 +175,16 @@ ammoTypes: {
     statusDuration: 300
   }
   item-barite-webbing: {
+    despawnHit: true
+    hitEffect: {
+      type: ParticleEffect
+      region: asthosus-star
+      length: 1.1
+      sizeFrom: 4
+      sizeTo: 0.4
+      colorFrom: dea67d
+      colorTo: be7766
+    }
     hitSound: dull-explosion
     reloadMultiplier: 1.5
     homingPower: 0.04
