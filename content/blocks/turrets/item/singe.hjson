@@ -24,6 +24,20 @@ ammoTypes: {
     width: 1.5
     colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
   }
+  item-cretite: {
+    ammoMultiplier: 5
+    type: ContinuousFlameBulletType
+    lifetime: 20
+    drawFlare: false
+    hitColor: ffc9a2
+    damage: 20
+    knockback: 0
+    pierce: true
+    pierceArmor: false
+    length: 80
+    width: 1.5
+    colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+  }
 }
 category: turret
 research: catapult
