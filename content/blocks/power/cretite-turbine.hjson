@@ -19,7 +19,7 @@ consumes: {
   liquid: liquid-ferrofluid/0.1
 }
 itemDuration: 180
-generateEffectChance: 0.5
+generateEffectChance: 1
 generateEffectRange: 0
 generateEffect: {
   type: RadialEffect
@@ -31,15 +31,19 @@ generateEffect: {
     type: ParticleEffect
     particles: 6
     line: true
-    lifetime: 60
+    lifetime: 20
     strokeFrom: 1.8
+    useRotation: false
+    baseRotation: 45
     strokeTo: 0.2
-    colorFrom: d77751
-    colorTo: fca988
-    length: 1
-    baseLength: 1.4
-    cone: 5
-    layer: 89
+    colorFrom: d7775100
+    colorTo: fca98888
+    length: 12
+    baseLength: 15
+    cone: 9
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
   }
 }
 drawer: {
