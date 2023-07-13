@@ -25,7 +25,7 @@ drawer: {
   ]
 }
 reload: 103
-range: 280
+range: 140
 shootEffect: shootSmall
 smokeEffect: shootSmokeSquareSparse
 shootSound: artillery
@@ -33,9 +33,9 @@ ammoTypes: {
   item-ferrinite: {
     type: ArtilleryBulletType
     speed: 2
-    lifetime: 50
-    splashDamage: 40
-    splashDamageRadius: 24
+    lifetime: 25
+    splashDamage: 60
+    splashDamageRadius: 32
     width: 8
     height: 8
     sprite: large-orb
@@ -47,9 +47,9 @@ ammoTypes: {
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2.5
-      lifetime: 35
-      splashDamage: 40
-      splashDamageRadius: 24
+      lifetime: 17
+      splashDamage: 60
+      splashDamageRadius: 32
       width: 7.8
       height: 7.8
       sprite: large-orb
@@ -61,9 +61,9 @@ ammoTypes: {
       fragBullet: {
         type: ArtilleryBulletType
         speed: 3
-        lifetime: 20
-        splashDamage: 40
-        splashDamageRadius: 24
+        lifetime: 10
+        splashDamage: 60
+        splashDamageRadius: 32
         width: 7.6
         height: 7.6
         sprite: large-orb
@@ -74,8 +74,8 @@ ammoTypes: {
           type: BasicBulletType
           speed: 2
           lifetime: 25
-          damage: 25
-          splashDamage: 11
+          damage: 50
+          splashDamage: 35
           splashDamageRadius: 16
           pierce: true
           pierceCap: 1
