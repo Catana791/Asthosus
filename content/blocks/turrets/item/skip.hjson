@@ -28,10 +28,10 @@ reload: 103
 range: 140
 shootEffect: shootSmall
 smokeEffect: shootSmokeSquareSparse
-shootSound: whoosh
+shootSound: artillery
 ammoTypes: {
   item-ferrinite: {
-    hitSound: dull-impact
+    //hitSound: dull-impact
     frontColor: b1b1b1
     backColor: 757575
     trailColor: 757575
@@ -49,7 +49,7 @@ ammoTypes: {
     fragAngle: 0
     fragBullets: 1
     fragBullet: {
-      hitSound: dull-impact
+      //hitSound: dull-impact
       frontColor: b1b1b1
       backColor: 757575
       trailColor: 757575
@@ -67,7 +67,7 @@ ammoTypes: {
       fragAngle: 0
       fragBullets: 1
       fragBullet: {
-        hitSound: dull-impact
+        //hitSound: dull-impact
         frontColor: b1b1b1
         backColor: 757575
         trailColor: 757575
@@ -101,7 +101,7 @@ ammoTypes: {
     }
   }
   item-demetite: {
-    hitSound: dull-impact
+    //hitSound: dull-impact
     frontColor: e0d2a0
     backColor: 9a916e
     trailColor: 9a916e
@@ -119,7 +119,7 @@ ammoTypes: {
     fragAngle: 0
     fragBullets: 1
     fragBullet: {
-      hitSound: dull-impact
+      //hitSound: dull-impact
       frontColor: e0d2a0
       backColor: 9a916e
       trailColor: 9a916e
@@ -137,7 +137,7 @@ ammoTypes: {
       fragAngle: 0
       fragBullets: 1
       fragBullet: {
-        hitSound: dull-impact
+        //hitSound: dull-impact
         frontColor: e0d2a0
         backColor: 9a916e
         trailColor: 9a916e
@@ -171,7 +171,7 @@ ammoTypes: {
     }
   }
   item-lodestone: {
-    hitSound: dull-impact
+    //hitSound: dull-impact
     frontColor: 80799e
     backColor: 4e4a64
     trailColor: 4e4a64
@@ -189,7 +189,7 @@ ammoTypes: {
     fragAngle: 0
     fragBullets: 1
     fragBullet: {
-      hitSound: dull-impact
+      //hitSound: dull-impact
       frontColor: 80799e
       backColor: 4e4a64
       trailColor: 4e4a64
@@ -207,7 +207,7 @@ ammoTypes: {
       fragAngle: 0
       fragBullets: 1
       fragBullet: {
-        hitSound: dull-impact
+        //hitSound: dull-impact
         frontColor: 80799e
         backColor: 4e4a64
         trailColor: 4e4a64
@@ -241,7 +241,7 @@ ammoTypes: {
     }
   }
   item-lithium: {
-    hitSound: dull-impact
+    //hitSound: dull-impact
     frontColor: e6aca3
     backColor: b98279
     trailColor: b98279
@@ -259,7 +259,7 @@ ammoTypes: {
     fragAngle: 0
     fragBullets: 1
     fragBullet: {
-      hitSound: dull-impact
+      //hitSound: dull-impact
       frontColor: e6aca3
       backColor: b98279
       trailColor: b98279
@@ -277,7 +277,7 @@ ammoTypes: {
       fragAngle: 0
       fragBullets: 1
       fragBullet: {
-        hitSound: dull-impact
+        //hitSound: dull-impact
         frontColor: e6aca3
         backColor: b98279
         trailColor: b98279
