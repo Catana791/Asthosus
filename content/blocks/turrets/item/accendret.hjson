@@ -29,12 +29,16 @@ drawer: {
       type: RegionPart
       suffix: -l
       recoilIndex: 0
+      mirror: false
+      under: true
       moveY: -3
       progress: recoil
     }
     {
       type: RegionPart
       suffix: -r
+      mirror: false
+      under: true
       recoilIndex: 1
       moveY: -3
       progress: recoil
