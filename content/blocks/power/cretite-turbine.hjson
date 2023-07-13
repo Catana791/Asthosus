@@ -25,13 +25,13 @@ generateEffect: {
   type: RadialEffect
   rotationSpacing: 90
   amount: 8
-  lengthOffset: 3
+  lengthOffset: 4
   layer: 118
   effect: {
     type: ParticleEffect
     particles: 6
     line: true
-    lifetime: 20
+    lifetime: 120
     strokeFrom: 1.8
     useRotation: false
     baseRotation: 45
