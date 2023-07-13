@@ -30,12 +30,11 @@ generateEffect: {
   effect: {
     type: ParticleEffect
     particles: 6
-    line: true
     lifetime: 120
-    strokeFrom: 0.6
+    sizeFrom: 0.6
     useRotation: false
     baseRotation: 90
-    strokeTo: 0.1
+    sizeTo: 0.1
     colorFrom: d7775100
     colorTo: fca98888
     length: 12
