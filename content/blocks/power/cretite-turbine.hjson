@@ -25,7 +25,7 @@ generateEffect: {
   type: RadialEffect
   rotationSpacing: 90
   amount: 8
-  lengthOffset: 4
+  lengthOffset: 5.5
   layer: 118
   effect: {
     type: ParticleEffect
@@ -34,7 +34,7 @@ generateEffect: {
     lifetime: 120
     strokeFrom: 1.8
     useRotation: false
-    baseRotation: 45
+    baseRotation: 0
     strokeTo: 0.2
     colorFrom: d7775100
     colorTo: fca98888
