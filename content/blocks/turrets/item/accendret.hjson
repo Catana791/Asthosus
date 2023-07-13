@@ -29,8 +29,6 @@ drawer: {
       under: true
       progress: recoil
       moveY: -1.2
-      growY: 0.5
-      growX: 0.25
     }
     {
       type: RegionPart
@@ -42,7 +40,7 @@ drawer: {
       moves: [
         {
           progress: reload
-          y: -0.65
+          y: 1.2
         }
       ]
     }
