@@ -19,7 +19,8 @@ shoot: {
 }  
 reload: 15
 shootSound: shoot-dull
-velocityRnd: 0.06
+velocityRnd: 0.091
+inaccuracy: 2
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -85,8 +86,9 @@ ammoTypes: {
     trailColor: be7766
     status: burning
     statusDuration: 240
-    lightning: 4
-    lightningLength: 8
+    lightning: 2
+    lightningLength: 5
+    lightningColor: be7766
     lightningDamage: 4
   }
   item-cretite: {
@@ -142,7 +144,7 @@ ammoTypes: {
     height: 10
     speed: 2.5
     lifetime: 72
-    damage: 31
+    damage: 28
     pierce: true
     pierceCap: 3
     frontColor: dea67d
@@ -153,8 +155,9 @@ ammoTypes: {
     trailColor: be7766
     status: melting
     statusDuration: 360
-    lightning: 6
-    lightningLength: 11
+    lightning: 3
+    lightningLength: 6
+    lightningColor: be7766
     lightningDamage: 9
   }
 }
