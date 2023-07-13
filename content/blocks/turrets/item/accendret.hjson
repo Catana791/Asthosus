@@ -42,6 +42,7 @@ drawer: {
 }
 ammoTypes: {
   item-ferrinite: {
+    reloadMultiplier: 0.75
     homingPower: 1
     homingDelay: 20
     type: BasicBulletType
@@ -105,6 +106,7 @@ ammoTypes: {
     statusDuration: 180
   }
   item-barite: {
+    reloadMultiplier: 1.25
     homingPower: 1
     homingDelay: 20
     type: BasicBulletType
@@ -125,6 +127,7 @@ ammoTypes: {
     statusDuration: 300
   }
   item-barite-webbing: {
+    reloadMultiplier: 1.5
     homingPower: 1
     homingDelay: 20
     type: BasicBulletType
