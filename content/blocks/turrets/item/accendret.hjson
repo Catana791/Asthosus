@@ -45,6 +45,7 @@ drawer: {
 }
 ammoTypes: {
   item-ferrinite: {
+    despawnHit: true
     hitEffect: {
       type: ParticleEffect
       region: asthosus-star
