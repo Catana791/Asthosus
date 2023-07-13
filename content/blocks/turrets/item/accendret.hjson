@@ -22,24 +22,23 @@ drawer: {
   type: DrawTurret
   basePrefix: spiky-
   parts: [
-    {  
-      type: RegionPart
-      suffix: -barrel
-      mirror: true
-      under: true
-      progress: recoil
-      moveY: -1.2
-    }
-    {
-      type: RegionPart
-      suffix: -connector
-      mirror: false
-      under: false
-      progress: recoil
-      moveY: -1.6
-      ]
-    }
-  ]
+        {  
+          type: RegionPart
+          suffix: -barrel
+          mirror: true
+          under: true
+          progress: recoil
+          moveY: -1.2
+        }
+        {
+          type: RegionPart
+          suffix: -connector
+          mirror: false
+          under: false
+          progress: recoil
+          moveY: -1.6
+        }
+    ]
 }
 ammoTypes: {
   item-ferrinite: {
