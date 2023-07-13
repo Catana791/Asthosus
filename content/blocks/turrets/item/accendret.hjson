@@ -18,6 +18,8 @@ shoot: {
   spread: 5
 }  
 reload: 15
+shootSound: shoot-dull
+velocityRnd: 0.06
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -42,6 +44,7 @@ drawer: {
 }
 ammoTypes: {
   item-ferrinite: {
+    hitSound: dull-explosion
     reloadMultiplier: 0.75
     homingPower: 1
     homingDelay: 20
@@ -63,6 +66,7 @@ ammoTypes: {
     statusDuration: 240
   }
   item-lithium: {
+    hitSound: dull-explosion
     homingPower: 1
     homingDelay: 20
     type: BasicBulletType
@@ -86,6 +90,7 @@ ammoTypes: {
     lightningDamage: 4
   }
   item-cretite: {
+    hitSound: dull-explosion
     homingPower: 1
     homingDelay: 20
     type: BasicBulletType
@@ -106,6 +111,7 @@ ammoTypes: {
     statusDuration: 180
   }
   item-barite: {
+    hitSound: dull-explosion
     reloadMultiplier: 1.25
     homingPower: 1
     homingDelay: 20
@@ -127,6 +133,7 @@ ammoTypes: {
     statusDuration: 300
   }
   item-barite-webbing: {
+    hitSound: dull-explosion
     reloadMultiplier: 1.5
     homingPower: 1
     homingDelay: 20
