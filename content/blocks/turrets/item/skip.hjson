@@ -1,0 +1,88 @@
+type: ItemTurret
+name: Skip
+description: Fires skipping bullets at enemies that frag into pieces from the last skip.
+size: 2
+squareSprite: false
+research: catapult
+category: turret
+requirements: [
+  item-ferrinite/40
+  item-demetite/30
+  item-lodestone/20
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -1.5
+    }
+  ]
+}
+reload: 103
+range: 280
+shootEffect: shootSmall
+smokeEffect: shootSmokeSquareSparse
+shootSound: artillery
+ammoTypes: {
+  item-ferrinite: {
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 60
+    splashDamage: 40
+    splashDamageRadius: 24
+    width: 8
+    height: 8
+    sprite: large-orb
+    fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullets: 1
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2.5
+      lifetime: 40
+      splashDamage: 40
+      splashDamageRadius: 24
+      width: 7.8
+      height: 7.8
+      sprite: large-orb
+      fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullets: 1
+      fragBullet: {
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 20
+        splashDamage: 40
+        splashDamageRadius: 24
+        width: 7.6
+        height: 7.6
+        sprite: large-orb
+        fragBullets: 3
+        fragVelocityMin: 0.8
+        fragLifeMin: 0.8
+        fragBullet: {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 40
+          damage: 25
+          splashDamage: 11
+          splashDamageRadius: 16
+          pierce: true
+          pierceCap: 1
+          width: 3.2
+          height: 5
+        }
+      }
+    }
+  }
+}
