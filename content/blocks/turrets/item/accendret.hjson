@@ -45,6 +45,15 @@ drawer: {
 }
 ammoTypes: {
   item-ferrinite: {
+    hitEffect: {
+      type: ParticleEffect
+      region: asthosus-star
+      length: 1.1
+      sizeFrom: 4
+      sizeTo: 0.4
+      colorFrom: b1b1b1
+      colorTo: 757575
+    }
     hitSound: dull-explosion
     reloadMultiplier: 0.75
     homingPower: 0.04
