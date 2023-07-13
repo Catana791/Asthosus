@@ -33,7 +33,7 @@ ammoTypes: {
   item-ferrinite: {
     type: ArtilleryBulletType
     speed: 2
-    lifetime: 60
+    lifetime: 50
     splashDamage: 40
     splashDamageRadius: 24
     width: 8
@@ -47,7 +47,7 @@ ammoTypes: {
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2.5
-      lifetime: 40
+      lifetime: 35
       splashDamage: 40
       splashDamageRadius: 24
       width: 7.8
@@ -73,14 +73,14 @@ ammoTypes: {
         fragBullet: {
           type: BasicBulletType
           speed: 2
-          lifetime: 40
+          lifetime: 25
           damage: 25
           splashDamage: 11
           splashDamageRadius: 16
           pierce: true
           pierceCap: 1
-          width: 3.2
-          height: 5
+          width: 7
+          height: 12
         }
       }
     }
