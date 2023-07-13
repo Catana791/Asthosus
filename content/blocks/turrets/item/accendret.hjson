@@ -16,32 +16,35 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 5
-  shotDelay: 5
 }  
 reload: 15
-recoil: 0
-recoils: 2
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
   parts: [
     {  
       type: RegionPart
-      suffix: -l
-      recoilIndex: 0
-      mirror: false
+      suffix: -barrel
+      mirror: true
       under: true
-      moveY: -3
       progress: recoil
+      moveY: -1.2
+      growY: 0.5
+      growX: 0.25
     }
     {
       type: RegionPart
-      suffix: -r
+      suffix: -connector
       mirror: false
-      under: true
-      recoilIndex: 1
-      moveY: -3
+      under: false
       progress: recoil
+      moveY: -0.6
+      moves: [
+        {
+          progress: reload
+          y: -0.65
+        }
+      ]
     }
   ]
 }
