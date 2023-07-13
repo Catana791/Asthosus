@@ -38,6 +38,7 @@ generateEffect: {
     length: 1
     baseLength: 1.4
     cone: 5
+    layer: 89
   }
 }
 drawer: {
@@ -51,14 +52,13 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: liquid-ferrofluid
       alpha: 0.7
+      padding: 2.05
     }
     {
       type: DrawArcSmelt
       blending: additive
       alpha: 0.65
-      drawCenter: false
-      flameColor: fca988
-      midColor: d77751
+      particles: 0
     }
     {    
       type: DrawDefault
