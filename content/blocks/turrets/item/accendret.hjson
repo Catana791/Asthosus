@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Accendret
-description: A turret that shoots alternating rounds of incendiary ammunition. 
+description: A turret that shoots alternating rounds of piercing incendiary ammunition. 
 size: 2
 category: turret
 research: spray
@@ -36,16 +36,116 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -0.6
-      moves: [
-        {
-          progress: reload
-          y: 1.2
-        }
+      moveY: -1.6
       ]
     }
   ]
 }
 ammoTypes: {
-  item-ferrinite: {}
+  item-ferrinite: {
+    homingPower: 1
+    homingDelay: 20
+    type: BasicBulletType
+    width: 6
+    height: 10
+    speed: 2.5
+    lifetime: 72
+    damage: 9
+    pierce: true
+    pierceCap: 3
+    frontColor: dea67d
+    backColor: be7766
+    trailChance: -1
+    trailWidth: 1.2
+    trailLength: 6
+    trailColor: be7766
+    status: burning
+    statusDuration: 240
+  }
+  item-lithium: {
+    homingPower: 1
+    homingDelay: 20
+    type: BasicBulletType
+    width: 6
+    height: 10
+    speed: 2.5
+    lifetime: 72
+    damage: 11
+    pierce: true
+    pierceCap: 3
+    frontColor: dea67d
+    backColor: be7766
+    trailChance: -1
+    trailWidth: 1.2
+    trailLength: 6
+    trailColor: be7766
+    status: burning
+    statusDuration: 240
+    lightning: 4
+    lightningLength: 8
+    lightningDamage: 4
+  }
+  item-cretite: {
+    homingPower: 1
+    homingDelay: 20
+    type: BasicBulletType
+    width: 6
+    height: 10
+    speed: 2.5
+    lifetime: 72
+    damage: 15
+    pierce: true
+    pierceCap: 3
+    frontColor: dea67d
+    backColor: be7766
+    trailChance: -1
+    trailWidth: 1.2
+    trailLength: 6
+    trailColor: be7766
+    status: melting
+    statusDuration: 180
+  }
+  item-barite: {
+    homingPower: 1
+    homingDelay: 20
+    type: BasicBulletType
+    width: 6
+    height: 10
+    speed: 2.5
+    lifetime: 72
+    damage: 23
+    pierce: true
+    pierceCap: 3
+    frontColor: dea67d
+    backColor: be7766
+    trailChance: -1
+    trailWidth: 1.2
+    trailLength: 6
+    trailColor: be7766
+    status: melting
+    statusDuration: 300
+  }
+  item-barite-webbing: {
+    homingPower: 1
+    homingDelay: 20
+    type: BasicBulletType
+    width: 6
+    height: 10
+    speed: 2.5
+    lifetime: 72
+    damage: 31
+    pierce: true
+    pierceCap: 3
+    frontColor: dea67d
+    backColor: be7766
+    trailChance: -1
+    trailWidth: 1.2
+    trailLength: 6
+    trailColor: be7766
+    status: melting
+    statusDuration: 360
+    lightning: 6
+    lightningLength: 11
+    lightningDamage: 9
+  }
 }
