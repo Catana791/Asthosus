@@ -60,6 +60,7 @@ drawer: {
     }
     {
       type: DrawArcSmelt
+      particleLife: 25
     }
     {    
       type: DrawDefault
