@@ -29,7 +29,6 @@ drawer: {
       type: RegionPart
       suffix: -l
       recoilIndex: 0
-      x: -6
       moveY: -3
       progress: recoil
     }
@@ -37,7 +36,6 @@ drawer: {
       type: RegionPart
       suffix: -r
       recoilIndex: 1
-      x: 6
       moveY: -3
       progress: recoil
     }
