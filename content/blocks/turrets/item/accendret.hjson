@@ -1,0 +1,42 @@
+type: ItemTurret
+name: Accendret
+description: A turret that shoots alternating rounds of incendiary ammunition. 
+size: 2
+category: turret
+research: spray
+squareSprite: false
+requirements: [
+  item-ferrinite/110
+  item-demetite/60
+  item-lodestone/85
+  item-obsidian/110
+]
+range: 180
+reload: 16
+recoil: 0
+recoils: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {  
+      type: RegionPart
+      suffix: -l
+      recoilIndex: 0
+      x: -6
+      moveY: -3
+      progress: recoil
+    }
+    {
+      type: RegionPart
+      suffix: -r
+      recoilIndex: 1
+      6
+      moveY: -3
+      progress: recoil
+    }
+  ]
+}
+ammoTypes: {
+  item-ferrinite: {}
+}
