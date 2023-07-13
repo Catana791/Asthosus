@@ -20,6 +20,7 @@ consumes: {
 }
 itemDuration: 180
 generateEffectChance: 0.1
+generateEffectRange: 0
 generateEffect: {
   type: RadialEffect
   rotationSpacing: 90
