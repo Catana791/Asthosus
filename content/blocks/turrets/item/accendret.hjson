@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Accendret
-description: A turret that shoots alternating rounds of piercing incendiary ammunition. 
+description: A turret that shoots alternating rounds of homing and piercing incendiary ammunition. 
 size: 2
 category: turret
 research: spray
@@ -47,7 +47,7 @@ ammoTypes: {
   item-ferrinite: {
     hitSound: dull-explosion
     reloadMultiplier: 0.75
-    homingPower: 1
+    homingPower: 0.04
     homingDelay: 20
     type: BasicBulletType
     width: 6
@@ -68,7 +68,7 @@ ammoTypes: {
   }
   item-lithium: {
     hitSound: dull-explosion
-    homingPower: 1
+    homingPower: 0.04
     homingDelay: 20
     type: BasicBulletType
     width: 6
@@ -93,7 +93,7 @@ ammoTypes: {
   }
   item-cretite: {
     hitSound: dull-explosion
-    homingPower: 1
+    homingPower: 0.04
     homingDelay: 20
     type: BasicBulletType
     width: 6
@@ -115,7 +115,7 @@ ammoTypes: {
   item-barite: {
     hitSound: dull-explosion
     reloadMultiplier: 1.25
-    homingPower: 1
+    homingPower: 0.04
     homingDelay: 20
     type: BasicBulletType
     width: 6
@@ -137,7 +137,7 @@ ammoTypes: {
   item-barite-webbing: {
     hitSound: dull-explosion
     reloadMultiplier: 1.5
-    homingPower: 1
+    homingPower: 0.04
     homingDelay: 20
     type: BasicBulletType
     width: 6
