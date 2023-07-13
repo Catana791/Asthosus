@@ -31,15 +31,6 @@ smokeEffect: shootSmokeSquareSparse
 shootSound: artillery
 ammoTypes: {
   item-ferrinite: {
-    hitEffect: {
-      type: ParticleEffect
-      region: asthosus-star
-      length: 1.1
-      sizeFrom: 0.8
-      sizeTo: 0.1
-      colorFrom: b1b1b1
-      colorTo: 757575
-    }
     //hitSound: dull-impact
     frontColor: b1b1b1
     backColor: 757575
