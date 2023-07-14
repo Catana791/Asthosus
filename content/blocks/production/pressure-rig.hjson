@@ -9,8 +9,8 @@ outputLiquid: pressure/0.01
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8
-generateEffect: generatespark
-effectChance: 0.05
+generateEffect: turbinegenerate
+effectChance: 0.025
 squareSprite: false
 explodeOnFull: false
 category: crafting
