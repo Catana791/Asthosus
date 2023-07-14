@@ -1,7 +1,3 @@
 type: Prop
 name: Hardened Sand Foundling
 variants: 2
-itemDrop: item-hardened-sand
-requirements: [
-  item-hardened-sand/10
-]
