@@ -1,0 +1,8 @@
+type: Prop
+name: Hardened Sand Foundling
+variants: 2
+size: 4
+itemDrop: hardened-sand
+requirements: [
+  item-hardened-sand/10
+]
