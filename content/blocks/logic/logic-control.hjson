@@ -1,0 +1,10 @@
+type: SwitchBlock
+name: Logic Control
+description: Enables or disables logic processors.
+size: 1
+category: logic
+research: logic-chip
+requirements: [
+  item-ferrinite/10
+  item-lithium/10
+]
