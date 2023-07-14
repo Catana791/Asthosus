@@ -5,5 +5,5 @@ parent: ferrinite-stone
 effect: ventSteam
 effectColor: 55544f
 attributes: {
-   heat: 0.8
+   heat: 1
 }
