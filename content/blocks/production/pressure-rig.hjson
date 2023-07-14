@@ -1,0 +1,42 @@
+type: ThermalGenerator
+attribute: heat
+powerProduction: 0.0555556
+name: Pressure Rig
+description: Produces power when placed on Ferrinite, Demetite or Hardened Sand Vents. Also makes the pressure from said vents available for use.
+size: 3
+hasLiquids: true
+outputLiquid: pressure/0.1
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 8
+generateEffect: generatespark
+effectChance: 0.05
+squareSprite: false
+explodeOnFull: false
+category: crafting
+research: expansion-tank
+requirements: [
+  item-ferrinite/50
+  item-demetite/60
+  item-lodestone/25
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawFrames
+      frames: 35
+      sine: true
+      interval: 4
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 1.2
+    }
+  ]
+}
