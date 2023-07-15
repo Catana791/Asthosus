@@ -110,6 +110,7 @@ ammoTypes: {
     lightningLength: 5
     lightningColor: be7766
     lightningDamage: 4
+    ammoMultiplier: 2
   }
   item-cretite: {
     despawnHit: true
@@ -122,6 +123,7 @@ ammoTypes: {
       colorFrom: dea67d
       colorTo: be7766
     }
+    ammoMultiplier: 4
     hitSound: dull-explosion
     homingPower: 0.04
     homingDelay: 20
@@ -153,6 +155,7 @@ ammoTypes: {
       colorFrom: dea67d
       colorTo: be7766
     }
+    ammoMultiplier: 4
     hitSound: dull-explosion
     reloadMultiplier: 1.25
     homingPower: 0.04
@@ -185,6 +188,7 @@ ammoTypes: {
       colorFrom: dea67d
       colorTo: be7766
     }
+    ammoMultiplier: 8
     hitSound: dull-explosion
     reloadMultiplier: 1.5
     homingPower: 0.04
