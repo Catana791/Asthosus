@@ -211,6 +211,7 @@ weapons: [
         splashDamageRadius: 32
         pierce: true
         pierceBuilding: true
+        pierceCap: 2
         hitColor: baa164
         backColor: baa164
         trailColor: baa164
