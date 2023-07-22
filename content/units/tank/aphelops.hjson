@@ -36,7 +36,7 @@ weapons: [
       smokeEffect: shootSmokeSmite
       type: RailBulletType
       length: 260
-      damage: 500
+      damage: 450
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
     }
@@ -57,7 +57,7 @@ weapons: [
       height: 10
       speed: 3
       lifetime: 60
-      damage: 54
+      damage: 49
       pierce: true
       pierceCap: 1
       pierceBuilding: true
@@ -91,7 +91,7 @@ weapons: [
       type: ArtilleryBulletType
       speed: 2
       lifetime: 90
-      splashDamage: 73
+      splashDamage: 66
       splashDamageRadius: 16
       damage: 0
       hitEffect: plasticExplosion
