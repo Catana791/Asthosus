@@ -8,6 +8,13 @@ range: 320
 shootSound: shoot-big-artillery
 shootEffect: shootBig
 smokeEffect: shootSmokeTitan
+category: turret
+research: skip
+requirements: [
+  item-ferrinite/60
+  item-demetite/75
+  item-lithium/40
+]
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
