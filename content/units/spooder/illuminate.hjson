@@ -1,10 +1,11 @@
 type: legs
 name: Illuminate
-description: A small legged unit capable of building structures and healing. Automatically repairs damaged structures.
+description: A medium sized legged unit capable of building structures and healing. Automatically repairs damaged structures.
 speed: 0.55
 health: 790
 armor: 9
 flying: false
+isEnemy: false
 defaultController: RepairAI
 legExtension: -2.5
 buildSpeed: 1.1
@@ -90,4 +91,4 @@ weapons: [
     }
   }
 ]
-research: luminary
+research: enlighten
