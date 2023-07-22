@@ -40,7 +40,7 @@ ammoTypes: {
   }
 }
 category: turret
-research: catapult
+research: spray
 requirements: [
   item-ferrinite/40
   item-lodestone/24
