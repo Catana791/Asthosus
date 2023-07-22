@@ -50,13 +50,11 @@ weapons: [
       pierceEffect: hitMeltdown
       pointEffectSpace: 40
       pierceDamageFactor: 0.5
-      pointEffect: chainEmp
+      pointEffect: railTrail
       smokeEffect: shootSmokeSmite
       type: RailBulletType
       length: 260
-      damage: 0
-      splashDamage: 280
-      splashDamageRadius: 48
+      damage: 280
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
     }
