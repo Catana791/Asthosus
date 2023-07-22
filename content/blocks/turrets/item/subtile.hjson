@@ -1,0 +1,127 @@
+type: ItemTurret
+name: Subtile
+description: Fires single powerful piercing shells at enemies over large distances. Requires pressure. 
+size: 2
+squareSprite: false
+reload: 270
+range: 320
+shootSound: shoot-big-artillery
+shootEffect: shootBig
+smokeEffect: shootSmokeTitan
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -bit
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -2
+    }
+    {
+      type: RegionPart
+      suffix: -top
+      heatProgress: recoil
+    }
+  ]
+}
+consumes: {
+  liquid: pressure/0.05
+}
+ammoTypes: {
+  item-lodestone: {
+    type: BasicBulletType
+    speed: 3
+    lifetime: 107
+    damage: 45
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.6
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootBigSmoke
+    trailSpacing: 3
+    trailLength: 16
+    trailWidth: 4
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 45
+      splashDamageRadius: 24
+    }
+  }
+  item-lithium: {
+    type: BasicBulletType
+    speed: 3
+    lifetime: 107
+    damage: 60
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.65
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootBigSmoke
+    trailSpacing: 3
+    trailLength: 16
+    trailWidth: 4
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 460
+      splashDamageRadius: 24
+    }
+  }
+  item-obsidian: {
+    type: BasicBulletType
+    speed: 3
+    lifetime: 107
+    damage: 78
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.75
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootBigSmoke
+    trailSpacing: 3
+    trailLength: 16
+    trailWidth: 4
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 78
+      splashDamageRadius: 24
+    }
+  }
+}
