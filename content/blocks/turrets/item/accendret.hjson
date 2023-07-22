@@ -3,7 +3,7 @@ name: Accendret
 description: A turret that shoots alternating rounds of homing and piercing incendiary ammunition. 
 size: 2
 category: turret
-research: spray
+research: singe
 squareSprite: false
 requirements: [
   item-ferrinite/110
