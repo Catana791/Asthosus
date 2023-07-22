@@ -39,6 +39,9 @@ consumes: {
 }
 ammoTypes: {
   item-lodestone: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
     type: BasicBulletType
     speed: 3
     lifetime: 107
@@ -71,6 +74,9 @@ ammoTypes: {
     }
   }
   item-lithium: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
     type: BasicBulletType
     speed: 3
     lifetime: 107
@@ -103,6 +109,9 @@ ammoTypes: {
     }
   }
   item-obsidian: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
     type: BasicBulletType
     speed: 3
     lifetime: 107
