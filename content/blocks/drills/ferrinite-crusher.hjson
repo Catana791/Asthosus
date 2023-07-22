@@ -12,7 +12,7 @@ requirements: [
 ]
 drillTime: 98
 consumes: {
-  pressure/0.05
+  liquid: pressure/0.05
 }
 output: item-ferrinite
 attribute: ferrinite
