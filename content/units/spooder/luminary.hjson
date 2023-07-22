@@ -10,6 +10,7 @@ legExtension: -2.5
 buildSpeed: 0.6
   legMoveSpace: 0.9
 hovering: false
+isEnemy: false
   legCount: 6
 legLength: 8
 legSpeed: 0.23
