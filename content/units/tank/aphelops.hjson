@@ -1,0 +1,115 @@
+type: tank
+name Aphelops
+description: A heavy assault tank equipped with a railgun, rocket launchers and artillery cannons. Pretty fast for a tank.
+hitSize: 19.25
+treadRects: [
+  {
+    x: 40
+    y: -67
+    width: 30
+    height: 160
+  }
+]
+crushDamage: 4
+treadPullOffset: 6
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 10620
+armor: 10
+speed: 0.76
+rotateSpeed: 2.89
+itemCapacity: 0
+outlineColor: 44413c
+research: aprotodon
+weapons: [
+  {
+    name: aphelops-weapon
+    parts: [
+      {
+        type: RegionPart
+        suffix: -bit
+        mirror: true
+        under: true
+        progress: recoil
+        moveY: -4
+      }
+    ]
+    x: 0
+    y: -0.5
+    recoil: 4
+    shake: 2
+    reload: 156
+    shootSound: shoot-heavy-cannon
+    rotate: true
+    rotateSpeed: 1.1
+    mirror: false
+    bullet: {
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeSmite
+      type: PointBulletType
+      speed: 10
+      lifetime: 25
+      damage: 0
+      splashDamage: 240
+      splashDamageRadius: 48
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+    }
+  }
+  {
+    name: aphelops-launcher
+    x: 7
+    y: 5
+    reload: 21
+    mirror: true
+    alternate: true
+    rotate: true
+    shootSound: missile
+    recoil: 1
+    bullet: {
+      type: MissileBulletType
+      width: 6
+      height: 10
+      speed: 3
+      lifetime: 43
+      damage: 21
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: true
+      homingPower: 0.04
+      homingDelay: 30
+      keepVelocity: false
+      trailChance: -1
+      trailLength: 8
+      trailWidth: 2
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+    }
+  }
+  {
+    x: 7
+    y: -4
+    mirror: true
+    alternate: true
+    reload: 69
+    velocityRnd: 0.09
+    inaccuracy: 3
+    shake: 1
+    shoot: {
+      shots: 3
+      shotDelay: 3
+    }
+    shootSound: artillery
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 60
+      splashDamage: 34
+      splashDamageRadius: 16
+      damage: 0
+      hitEffect: plasticExplosion
+      despawnEffect: plasticExplosion
+    }
+  }
+]
