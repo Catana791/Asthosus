@@ -43,8 +43,8 @@ ammoTypes: {
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
     type: BasicBulletType
-    speed: 3
-    lifetime: 107
+    speed: 4
+    lifetime: 80
     damage: 45
     pierce: true
     pierceBuilding: true
@@ -78,8 +78,8 @@ ammoTypes: {
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
     type: BasicBulletType
-    speed: 3
-    lifetime: 107
+    speed: 4
+    lifetime: 80
     damage: 60
     pierce: true
     pierceBuilding: true
@@ -113,8 +113,8 @@ ammoTypes: {
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
     type: BasicBulletType
-    speed: 3
-    lifetime: 107
+    speed: 4
+    lifetime: 80
     damage: 78
     pierce: true
     pierceBuilding: true
