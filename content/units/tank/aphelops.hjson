@@ -57,7 +57,7 @@ weapons: [
       height: 10
       speed: 3
       lifetime: 60
-      damage: 48
+      damage: 54
       pierce: true
       pierceCap: 1
       pierceBuilding: true
@@ -91,7 +91,7 @@ weapons: [
       type: ArtilleryBulletType
       speed: 2
       lifetime: 90
-      splashDamage: 68
+      splashDamage: 73
       splashDamageRadius: 16
       damage: 0
       hitEffect: plasticExplosion
