@@ -1,5 +1,5 @@
 type: tank
-name Aphelops
+name: Aphelops
 description: A heavy assault tank equipped with a railgun, rocket launchers and artillery cannons. Pretty fast for a tank.
 hitSize: 19.25
 treadRects: [
