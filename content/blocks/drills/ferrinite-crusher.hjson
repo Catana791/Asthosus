@@ -5,8 +5,8 @@ size: 3
 category: production
 research: ferrinite-mining-unit
 requirements: [
-  item-ferrinite/30
-  item-demetite/35
+  item-ferrinite/40
+  item-demetite/30
   item-lithium/30
   item-obsidian/35
 ]
