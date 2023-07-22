@@ -30,7 +30,6 @@ weapons: [
         type: RegionPart
         suffix: -bit
         mirror: true
-        under: true
         progress: recoil
         moveY: -4
         layerOffset: -0.002
