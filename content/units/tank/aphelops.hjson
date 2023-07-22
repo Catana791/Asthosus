@@ -26,6 +26,7 @@ weapons: [
     rotate: true
     rotateSpeed: 1.1
     mirror: false
+    shootY: 12
     bullet: {
       shootEffect: railShoot
       pierceEffect: hitMeltdown
@@ -55,8 +56,8 @@ weapons: [
       width: 6
       height: 10
       speed: 3
-      lifetime: 43
-      damage: 40
+      lifetime: 60
+      damage: 48
       pierce: true
       pierceCap: 1
       pierceBuilding: true
@@ -89,7 +90,7 @@ weapons: [
     bullet: {
       type: ArtilleryBulletType
       speed: 2
-      lifetime: 60
+      lifetime: 90
       splashDamage: 68
       splashDamageRadius: 16
       damage: 0
