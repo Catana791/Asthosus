@@ -25,7 +25,7 @@ drawer: {
       mirror: true
       under: false
       progress: recoil
-      moveY: -2
+      moveY: -4
     }
     {
       type: RegionPart
@@ -49,10 +49,11 @@ ammoTypes: {
     width: 9
     height: 15
     trailChance: -1
-    trailEffect: shootBigSmoke
-    trailSpacing: 3
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
     trailLength: 16
-    trailWidth: 4
+    trailWidth: 3
     fragBullets: 1
     fragLifeMin: 1
     fragLifeMax: 1
@@ -80,10 +81,11 @@ ammoTypes: {
     width: 9
     height: 15
     trailChance: -1
-    trailEffect: shootBigSmoke
-    trailSpacing: 3
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
     trailLength: 16
-    trailWidth: 4
+    trailWidth: 3
     fragBullets: 1
     fragLifeMin: 1
     fragLifeMax: 1
@@ -111,10 +113,11 @@ ammoTypes: {
     width: 9
     height: 15
     trailChance: -1
-    trailEffect: shootBigSmoke
-    trailSpacing: 3
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
     trailLength: 16
-    trailWidth: 4
+    trailWidth: 3
     fragBullets: 1
     fragLifeMin: 1
     fragLifeMax: 1
