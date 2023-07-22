@@ -2,14 +2,6 @@ type: tank
 name: Aphelops
 description: A heavy assault tank equipped with a railgun, rocket launchers and artillery cannons. Pretty fast for a tank.
 hitSize: 19.25
-treadRects: [
-  {
-    x: 27
-    y: -67
-    width: 26
-    height: 120
-  }
-]
 crushDamage: 4
 treadPullOffset: 4
 singleTarget: false
@@ -43,7 +35,7 @@ weapons: [
       smokeEffect: shootSmokeSmite
       type: RailBulletType
       length: 260
-      damage: 280
+      damage: 420
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
     }
@@ -64,7 +56,7 @@ weapons: [
       height: 10
       speed: 3
       lifetime: 43
-      damage: 26
+      damage: 34
       pierce: true
       pierceCap: 1
       pierceBuilding: true
@@ -98,7 +90,7 @@ weapons: [
       type: ArtilleryBulletType
       speed: 2
       lifetime: 60
-      splashDamage: 42
+      splashDamage: 57
       splashDamageRadius: 16
       damage: 0
       hitEffect: plasticExplosion
