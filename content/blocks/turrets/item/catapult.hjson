@@ -13,6 +13,11 @@ shootSound: artillery
 requirements: [
   item-ferrinite/40
 ]
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
 outlineColor: 42413e
 targetAir: false
 targetGround: true
