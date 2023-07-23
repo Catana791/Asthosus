@@ -5,6 +5,12 @@ size: 3
 squareSprite: false
 reload: 4
 range: 200
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+coolantMultiplier: 2.8
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
