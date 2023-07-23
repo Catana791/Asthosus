@@ -16,7 +16,7 @@ consumes: {
     amount: 0.6
   }
 }
-coolantMultplier: 2.8
+coolantMultplier: 0.4
 range: 160
 category: turret
 research: fulmination
