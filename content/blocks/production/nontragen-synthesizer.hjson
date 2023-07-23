@@ -7,6 +7,8 @@ boostScale: 0.5556
 hasItems: true
 hasLiquids: true
 hasPower: true
+size: 3
+squareSprite: false
 name: Nontragen Synthesizer
 description: Grinds down Obsidian into Obsidian Powder and pressurizes it with Oasis Water using Pressure to create Nontragen.
 consumes: {
