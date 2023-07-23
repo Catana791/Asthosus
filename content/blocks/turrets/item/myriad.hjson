@@ -11,6 +11,12 @@ shoot: {
   shotDelay: 6
   barrels: 4
 }
+consumes: {
+  coolant: {
+    amount: 0.6
+  }
+}
+coolantMultplier: 2.8
 range: 160
 category: turret
 research: fulmination
