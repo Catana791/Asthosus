@@ -5,6 +5,12 @@ size: 4
 squareSprite: false
 reload: 30
 heatColor: cd8d4a
+coolantMultiplier: 0.5
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
