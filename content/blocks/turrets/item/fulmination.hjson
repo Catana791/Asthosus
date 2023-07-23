@@ -9,7 +9,6 @@ targetGround: true
 moveWhileCharging: false
 accurateDelay: false
 chargeSound: lasercharge2
-coolantMultiplier: 0.5
 consumes: {
   coolant: {
     amount: 0.3
