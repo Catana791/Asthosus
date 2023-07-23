@@ -36,6 +36,9 @@ drawer: {
 }
 consumes: {
   liquid: pressure/0.05
+  coolant: {
+    amount: 0.2
+  }
 }
 ammoTypes: {
   item-lodestone: {
