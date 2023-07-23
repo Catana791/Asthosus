@@ -1,0 +1,11 @@
+name: Nontragen
+description: An explosive gas made from pressurizing Oasis Water and Powderized Obsidian.
+gas: true
+explosiveness: 0.8
+flammability: 0
+coolant: true
+temparature: 0.25
+heatCapacity: 0.9
+color: 4f9d97
+gasColor: 84dca0
+research: liquid-oasis-water
