@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Fulmination
-description: Fires clumps of rock at enemies that burst into pieces on impact. 
+description: Fires homing rockets at enemies. 
 size: 3
 reload: 212
 range: 160
@@ -9,6 +9,12 @@ targetGround: true
 moveWhileCharging: false
 accurateDelay: false
 chargeSound: lasercharge2
+coolantMultiplier: 0.5
+consumes: {
+  coolant: {
+    amount: 0.3
+  }
+}
 shoot: {
   firstShotDelay: 20
   shots: 2
