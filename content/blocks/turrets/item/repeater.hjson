@@ -6,6 +6,12 @@ targetGround: true
 size: 3
 squareSprite: false
 range: 180
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+coolantMultiplier: 0.6
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
