@@ -40,7 +40,7 @@ ammoTypes: {
     damage: 0
     spawnUnit: asthosus-encased-shell
     rangeChange: 40
-    reloadMultiplier: 1.2
+    ammoMultiplier: 1
   }
 }
 drawer: {
