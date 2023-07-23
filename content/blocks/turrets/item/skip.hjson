@@ -10,6 +10,11 @@ requirements: [
   item-demetite/30
   item-lodestone/20
 ]
+consumes: {
+  coolant: {
+    amount: 0.2
+  }
+}
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
