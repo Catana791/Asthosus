@@ -19,6 +19,7 @@ consumes: {
     liquid-oasis-water/0.1
     pressure/0.1
   ]
+  power: 0.75
 }
 craftTime: 120
 outputLiquid: liquid-nontragen/0.2
