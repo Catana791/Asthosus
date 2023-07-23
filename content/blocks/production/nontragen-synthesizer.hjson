@@ -1,0 +1,59 @@
+type: AttributeCrafter
+attribute: heat
+baseEfficiency: 1
+minEfficiency: 1
+maxBoost: 1
+boostScale: 0.5556
+hasItems: true
+hasLiquids: true
+hasPower: true
+name: Nontragen Synthesizer
+description: Grinds down Obsidian into Obsidian Powder and pressurizes it with Oasis Water using Pressure to create Nontragen.
+consumes: {
+  items: [
+    item-obsidian/2
+  ]
+  liquids: [
+    liquid-oasis-water/0.1
+    pressure/0.1
+  ]
+}
+craftTime: 120
+outputLiquid: liquid-nontragen/0.2
+craftEffect: smeltsmoke
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: liquid-nontragen
+      alpha: 0.7
+    }
+    {    
+      type: DrawBubbles
+    }
+    {
+      type: DrawCircles
+      color: 3d7c78
+      strokeMax: 2.1
+      radius: 10
+      amount: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+category: crafting
+research: ferrofluid-mixer
+requirements: [
+  item-ferrinite/60
+  item-demetite/40
+  item-lithium/50
+  item-obsidian/40
+]
