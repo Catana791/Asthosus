@@ -19,6 +19,7 @@ shoot: {
   shots: 2
   shotDelay: 11
 }
+ammoPerShot: 9
 shootSound: shoot-heavy-cannon
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
@@ -34,6 +35,7 @@ ammoTypes: {
     instantDisappear: true
     damage: 0
     spawnUnit: asthosus-encased-shell
+    ammoMultiplier: 3
   }
   item-obsidian: {
     instantDisappear: true
