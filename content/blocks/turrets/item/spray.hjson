@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Spray
-description: A small turret made from Ferrinite, used to defend allied structures from flying foes. Shoots sprays of bullets at enemies.
+description: A small turret made from Ferrinite, used to defend allied structures. Shoots sprays of bullets at enemies.
 size: 1
 reload: 30
 shoot: {
@@ -37,7 +37,7 @@ ammoTypes: {
     collidesGround: true
     collidesAir: false
     ammoMultiplier: 5
-    damage: 1
+    damage: 3
     splashDamage: 6
     splashDamageRadius: 8
   }
@@ -50,7 +50,7 @@ ammoTypes: {
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: false
-    damage: 2
+    damage: 5
     splashDamage: 8
     splashDamageRadius: 12
   }
