@@ -5,5 +5,5 @@ parent: obsidian-floor
 effect: ventSteam
 effectColor: 2b2233
 attributes: {
-   steam: 1
+   heat: 1
 }
