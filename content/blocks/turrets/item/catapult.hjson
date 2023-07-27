@@ -15,6 +15,7 @@ requirements: [
 ]
 consumes: {
   coolant: {
+    allowGas: true
     amount: 0.1
   }
 }
