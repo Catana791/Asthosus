@@ -9,16 +9,14 @@ outlineColor: 44413c
 mechLegColor: 44413c
 parts: [
   {
-    type: HaloPart
+    type: FlarePart
     x: 0
     y: 0
-    color: ffbe7f
-    colorTo: d46f6b
-    shapes: 2
-    sides: 6
-    rotateSpeed: 1.2
-    radius: 12
-    haloRadius: 12
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: 0
+    radius: 8
+    followRotation: true
   }
   {
     type: FlarePart
@@ -27,7 +25,8 @@ parts: [
     color1: ffbe7f
     color2: d46f6b
     spinSpeed: 0
-    radius: 8
+    radius: 6
+    sides: 8
     followRotation: true
   }
   {
@@ -52,8 +51,8 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: -22
-    y: 2
+    x: -12
+    y: 0
     mirror: false
     alternate: true
     reload: 192
@@ -72,8 +71,8 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: 22
-    y: 2
+    x: 12
+    y: 0
     flipSprite: true
     mirror: false
     alternate: true
@@ -93,8 +92,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: 8
-    y: 6
+    x: 9.5
+    y: 5
     mirror: false
     rotate: true
   }
@@ -110,8 +109,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: -8
-    y: 6
+    x: -9.5
+    y: 5
     mirror: false
     rotate: true
   }
@@ -127,8 +126,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: 6
-    y: -4
+    x: 7
+    y: -2
     mirror: false
     rotate: true
   }
@@ -144,8 +143,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: -6
-    y: -4
+    x: -7
+    y: -2
     mirror: false
     rotate: true
   }
