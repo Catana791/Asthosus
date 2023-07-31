@@ -14,8 +14,8 @@ parts: [
     y: 0
     color1: ffbe7f
     color2: d46f6b
-    spinSpeed: 0
-    radius: 4
+    spinSpeed: -0.89
+    radius: 7
     followRotation: true
   }
   {
@@ -24,8 +24,8 @@ parts: [
     y: 0
     color1: ffbe7f
     color2: d46f6b
-    spinSpeed: 0
-    radius: 3
+    spinSpeed: 0.89
+    radius: 5
     sides: 8
     followRotation: true
   }
