@@ -1,0 +1,4 @@
+name: Demetic Wall
+type: StaticWall
+itemDrop: item-demetite
+variants: 3
