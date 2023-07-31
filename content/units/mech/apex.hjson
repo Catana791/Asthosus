@@ -25,9 +25,27 @@ parts: [
     color: ffbe7f
     spinSpeed: 0
   }
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff33
+    outline: false
+    mirror: false
+  }
 ]
 weapons: [
   {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
     name: apex-weapon
     x: 30
     y: 0
@@ -38,6 +56,16 @@ weapons: [
     rotate: false
   }
   {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
     name: apex-mount
     x: 12
     y: 12
@@ -45,6 +73,16 @@ weapons: [
     rotate: true
   }
   {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
     name: apex-mount
     x: -12
     y: 12
@@ -52,6 +90,16 @@ weapons: [
     rotate: true
   }
   {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
     name: apex-mount
     x: 10
     y: -10
@@ -59,6 +107,16 @@ weapons: [
     rotate: true
   }
   {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
     name: apex-mount
     x: -10
     y: -10
