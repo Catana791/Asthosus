@@ -51,7 +51,7 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: -14
+    x: -16
     y: 0
     mirror: false
     alternate: true
@@ -71,7 +71,7 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: 12
+    x: 16
     y: 0
     flipSprite: true
     mirror: false
