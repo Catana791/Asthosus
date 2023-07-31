@@ -14,16 +14,21 @@ parts: [
     y: 0
     color: ffbe7f
     colorTo: d46f6b
-    shapes: 9
-    sides: 9
+    shapes: 2
+    sides: 6
     rotateSpeed: 1.2
+    radius: 12
+    haloRadius: 12
   }
   {
     type: FlarePart
     x: 0
     y: 0
-    color: ffbe7f
+    color1: ffbe7f
+    color2: d46f6b
     spinSpeed: 0
+    radius: 8
+    followRotation: true
   }
   {
     type: RegionPart
@@ -47,9 +52,30 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: 30
-    y: 0
-    mirror: true
+    x: -22
+    y: 2
+    mirror: false
+    alternate: true
+    reload: 192
+    shootSound: shoot-loud-heavy
+    rotate: false
+  }
+  {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    name: apex-weapon
+    x: 22
+    y: 2
+    flipSprite: true
+    mirror: false
     alternate: true
     reload: 192
     shootSound: shoot-loud-heavy
@@ -67,8 +93,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: 12
-    y: 12
+    x: 8
+    y: 6
     mirror: false
     rotate: true
   }
@@ -84,8 +110,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: -12
-    y: 12
+    x: -8
+    y: 6
     mirror: false
     rotate: true
   }
@@ -101,8 +127,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: 10
-    y: -10
+    x: 6
+    y: -4
     mirror: false
     rotate: true
   }
@@ -118,8 +144,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: -10
-    y: -10
+    x: -6
+    y: -4
     mirror: false
     rotate: true
   }
