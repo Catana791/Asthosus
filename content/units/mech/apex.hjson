@@ -1,0 +1,69 @@
+type: mech
+name: Apex
+description: "A large attack unit equipped with [WIP]"
+speed: 0.38
+flying: false
+health: 9780
+armor: 10
+outlineColor: 44413c
+mechLegColor: 44413c
+parts: [
+  {
+    type: HaloPart
+    x: 0
+    y: 0
+    color: ffbe7f
+    colorTo: d46f6b
+    shapes: 9
+    sides: 9
+    rotateSpeed: 1.2
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color: ffbe7f
+    spinSpeed: 0
+  }
+]
+weapons: [
+  {
+    name: apex-weapon
+    x: 30
+    y: 0
+    mirror: true
+    alternate: true
+    reload: 192
+    shootSound: shoot-loud-heavy
+    rotate: false
+  }
+  {
+    name: apex-mount
+    x: 12
+    y: 12
+    mirror: false
+    rotate: true
+  }
+  {
+    name: apex-mount
+    x: -12
+    y: 12
+    mirror: false
+    rotate: true
+  }
+  {
+    name: apex-mount
+    x: 10
+    y: -10
+    mirror: false
+    rotate: true
+  }
+  {
+    name: apex-mount
+    x: -10
+    y: -10
+    mirror: false
+    rotate: true
+  }
+]
+research: cleaver
