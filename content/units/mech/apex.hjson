@@ -40,7 +40,6 @@ parts: [
 ]
 weapons: [
   {
-    layerOffset: -1
     parts: [
       {
         type: RegionPart
@@ -61,7 +60,6 @@ weapons: [
     rotate: false
   }
   {
-    layerOffset: -1
     parts: [
       {
         type: RegionPart
@@ -98,6 +96,17 @@ weapons: [
     y: 5
     mirror: false
     rotate: true
+    reload: 48
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 3
+      lifetime: 60
+      damage: 23
+      splashDamage: 23
+      splashDamageRadius: 16
+      width: 7
+      height: 13
+    }
   }
   {
     parts: [
@@ -115,6 +124,24 @@ weapons: [
     y: 5
     mirror: false
     rotate: true
+    reload: 12
+    inaccuracy: 3
+    shoot: {
+      shots: 5
+      shotDelay: 0.2
+    }
+    bullet: {
+      type: BasicBulletType
+      speed: 5
+      lifetime: 20
+      pierce: true
+      pierceCap: 3
+      damage: 7
+      splashDamage: 3
+      splashDamageRadius: 8
+      width: 5
+      height: 10
+    }
   }
   {
     parts: [
@@ -132,6 +159,23 @@ weapons: [
     y: -4.5
     mirror: false
     rotate: true
+    inaccuracy: 3
+    shoot: {
+      shots: 5
+      shotDelay: 0.2
+    }
+    bullet: {
+      type: BasicBulletType
+      speed: 5
+      lifetime: 20
+      pierce: true
+      pierceCap: 3
+      damage: 7
+      splashDamage: 3
+      splashDamageRadius: 8
+      width: 5
+      height: 10
+    }
   }
   {
     parts: [
@@ -149,6 +193,18 @@ weapons: [
     y: -4.5
     mirror: false
     rotate: true
+    reload: 48
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 3
+      lifetime: 60
+      damage: 23
+      splashDamage: 23
+      splashDamageRadius: 16
+      width: 7
+      height: 13
+    }
+  }
   }
 ]
 research: cleaver
