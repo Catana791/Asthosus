@@ -51,8 +51,8 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: -16
-    y: 0
+    x: -15
+    y: 1
     mirror: false
     alternate: true
     reload: 192
@@ -71,8 +71,8 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: 16
-    y: 0
+    x: 15
+    y: 1
     flipSprite: true
     mirror: false
     alternate: true
@@ -92,7 +92,7 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: 9.5
+    x: 10
     y: 5
     mirror: false
     rotate: true
@@ -109,7 +109,7 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: -9.5
+    x: -10
     y: 5
     mirror: false
     rotate: true
@@ -126,8 +126,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: 7
-    y: -4
+    x: 8
+    y: -4.5
     mirror: false
     rotate: true
   }
@@ -143,8 +143,8 @@ weapons: [
       }
     ]
     name: apex-mount
-    x: -7
-    y: -4
+    x: -8
+    y: -4.5
     mirror: false
     rotate: true
   }
