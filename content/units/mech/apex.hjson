@@ -96,7 +96,7 @@ weapons: [
     y: 5
     mirror: false
     rotate: true
-    reload: 48
+    reload: 62
     bullet: {
       type: ArtilleryBulletType
       speed: 3
@@ -124,7 +124,7 @@ weapons: [
     y: 5
     mirror: false
     rotate: true
-    reload: 12
+    reload: 23
     inaccuracy: 3
     shoot: {
       shots: 5
@@ -158,6 +158,7 @@ weapons: [
     x: 8
     y: -4.5
     mirror: false
+    reload: 31
     rotate: true
     inaccuracy: 3
     shoot: {
