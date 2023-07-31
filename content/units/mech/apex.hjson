@@ -15,7 +15,7 @@ parts: [
     color1: ffbe7f
     color2: d46f6b
     spinSpeed: 0
-    radius: 8
+    radius: 4
     followRotation: true
   }
   {
@@ -25,7 +25,7 @@ parts: [
     color1: ffbe7f
     color2: d46f6b
     spinSpeed: 0
-    radius: 6
+    radius: 3
     sides: 8
     followRotation: true
   }
@@ -51,7 +51,7 @@ weapons: [
       }
     ]
     name: apex-weapon
-    x: -12
+    x: -14
     y: 0
     mirror: false
     alternate: true
@@ -127,7 +127,7 @@ weapons: [
     ]
     name: apex-mount
     x: 7
-    y: -2
+    y: -4
     mirror: false
     rotate: true
   }
@@ -144,7 +144,7 @@ weapons: [
     ]
     name: apex-mount
     x: -7
-    y: -2
+    y: -4
     mirror: false
     rotate: true
   }
