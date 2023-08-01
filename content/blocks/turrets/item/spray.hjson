@@ -13,7 +13,7 @@ consumes: {
   }
 }
 inaccuracy: 15
-range: 200
+range: 120
 category: turret
 shootSound: shoot-dull
 research: {
