@@ -51,6 +51,7 @@ weapons: [
       }
     ]
     name: apex-weapon
+    layerOffset: -0.1
     x: -15
     y: 1
     mirror: false
@@ -71,6 +72,7 @@ weapons: [
       }
     ]
     name: apex-weapon
+    layerOffset: -0.1
     x: 15
     y: 1
     flipSprite: true
@@ -95,6 +97,7 @@ weapons: [
     x: 10
     y: 5
     mirror: false
+    flipSprite: true
     rotate: true
     reload: 62
     bullet: {
@@ -158,6 +161,7 @@ weapons: [
     x: 8
     y: -4.5
     mirror: false
+    flipSprite: true
     reload: 31
     rotate: true
     inaccuracy: 3
