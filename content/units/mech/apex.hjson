@@ -77,23 +77,24 @@ weapons: [
     mirror: true
     alternate: true
     rotate: true
-    reload: 41
+    reload: 30
     inaccuracy: 3
     shoot: {
       shots: 5
-      shotDelay: 3
+      shotDelay: 2
     }
+    shootSound: shoot-dull
     bullet: {
       type: BasicBulletType
       speed: 5
-      lifetime: 20
+      lifetime: 35
       pierce: true
       pierceCap: 3
       damage: 7
       splashDamage: 3
       splashDamageRadius: 8
-      width: 5
-      height: 10
+      width: 9
+      height: 16
     }
   }
   {
@@ -118,12 +119,12 @@ weapons: [
     bullet: {
       type: ArtilleryBulletType
       speed: 3
-      lifetime: 60
+      lifetime: 75
       damage: 23
       splashDamage: 23
       splashDamageRadius: 16
-      width: 7
-      height: 13
+      width: 10
+      height: 18
     }
   }
 ]
