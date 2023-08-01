@@ -7,6 +7,7 @@ health: 9780
 armor: 10
 outlineColor: 44413c
 mechLegColor: 44413c
+rotateSpeed: 2
 parts: [
   {
     type: FlarePart
