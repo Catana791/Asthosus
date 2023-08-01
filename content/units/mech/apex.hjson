@@ -59,6 +59,35 @@ weapons: [
     reload: 192
     shootSound: shoot-loud-heavy
     rotate: false
+    bullet: {
+      type: BasicBulletType
+      sprite: asthosus-hook
+      width: 22
+      height: 30
+      speed: 3
+      lifetime: 60
+      damage: 50
+      pierce: true
+      pierceCap: 4
+      buildingDamageMultiplier: 0.8
+      knockback: -10
+      fragBullets: 3
+      fragVelocityRnd: 0
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragSpread: 120
+      fragBullet: {
+        type: ShrapnelBulletType
+        length: 80
+        width: 3
+        lifetime: 90
+        damage: 20
+        pierce: true
+      }
+    }
   }
   {
     parts: [
@@ -114,15 +143,15 @@ weapons: [
     mirror: true
     alternate: true
     rotate: true
-    reload: 48
+    reload: 26
     shootSound: shoot-laser
     bullet: {
       type: LaserBulletType
-      sideWidth: 0.8
+      sideWidth: 1.25
       sideLength: 12
       sideAngle: 45
       length: 120
-      lifetime: 90
+      lifetime: 34
       width: 1.6
       damage: 33
     }
