@@ -153,7 +153,7 @@ weapons: [
       lifetime: 35
       pierce: true
       pierceCap: 3
-      damage: 19
+      damage: 18
       splashDamage: 3
       splashDamageRadius: 8
       width: 9
@@ -189,7 +189,7 @@ weapons: [
       length: 120
       lifetime: 34
       width: 1.6
-      damage: 62
+      damage: 60
     }
   }
 ]
