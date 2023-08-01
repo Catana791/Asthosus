@@ -54,62 +54,11 @@ weapons: [
     layerOffset: -0.01
     x: -15
     y: 1
-    mirror: false
+    mirror: true
     alternate: true
     reload: 192
     shootSound: shoot-loud-heavy
     rotate: false
-  }
-  {
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
-    name: apex-weapon
-    layerOffset: -0.01
-    x: 15
-    y: 1
-    flipSprite: true
-    mirror: false
-    alternate: true
-    reload: 192
-    shootSound: shoot-loud-heavy
-    rotate: false
-  }
-  {
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
-    name: apex-mount
-    x: 10
-    y: 5
-    mirror: false
-    flipSprite: true
-    rotate: true
-    reload: 62
-    bullet: {
-      type: ArtilleryBulletType
-      speed: 3
-      lifetime: 60
-      damage: 23
-      splashDamage: 23
-      splashDamageRadius: 16
-      width: 7
-      height: 13
-    }
   }
   {
     parts: [
@@ -125,49 +74,14 @@ weapons: [
     name: apex-mount
     x: -10
     y: 5
-    mirror: false
+    mirror: true
+    alternate: true
     rotate: true
-    reload: 23
+    reload: 41
     inaccuracy: 3
     shoot: {
       shots: 5
-      shotDelay: 0.2
-    }
-    bullet: {
-      type: BasicBulletType
-      speed: 5
-      lifetime: 20
-      pierce: true
-      pierceCap: 3
-      damage: 7
-      splashDamage: 3
-      splashDamageRadius: 8
-      width: 5
-      height: 10
-    }
-  }
-  {
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
-    name: apex-mount
-    x: 8
-    y: -4.5
-    mirror: false
-    flipSprite: true
-    reload: 31
-    rotate: true
-    inaccuracy: 3
-    shoot: {
-      shots: 5
-      shotDelay: 0.2
+      shotDelay: 3
     }
     bullet: {
       type: BasicBulletType
@@ -196,9 +110,11 @@ weapons: [
     name: apex-mount
     x: -8
     y: -4.5
-    mirror: false
+    mirror: true
+    alternate: true
     rotate: true
     reload: 48
+    shootSound: artillery
     bullet: {
       type: ArtilleryBulletType
       speed: 3
