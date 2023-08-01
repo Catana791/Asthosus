@@ -69,9 +69,9 @@ weapons: [
       trailInterval: 6
       sprite: asthosus-hook
       hitEffect: hitMeltdown
-      width: 12
+      width: 18
       fragOnHit: false
-      height: 20
+      height: 36
       speed: 3
       lifetime: 60
       damage: 50
