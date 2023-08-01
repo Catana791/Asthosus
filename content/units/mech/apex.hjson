@@ -55,6 +55,7 @@ weapons: [
     x: -15
     y: 1
     mirror: true
+    shootY: 25
     alternate: true
     reload: 192
     shootSound: shoot-loud-heavy
@@ -91,12 +92,26 @@ weapons: [
       hitSound: shotgun
       despawnSound: shotgun
       fragBullet: {
-        type: ShrapnelBulletType
-        length: 20
-        width: 1
-        lifetime: 90
-        damage: 20
+        type: BasicBulletType
+        speed: 3
+        lifetime: 30
+        damage: 0
         pierce: true
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragSpread: 0
+        fragRandomSpread: 0
+        fragBullet: {
+          type: ExplosionBulletType
+          speed: 0
+          killShooter: false
+          splashDamage: 60
+          splashDamageRadius: 16
+          splashPierce: true
+          buildingDamageMultiplier: 0.25
+        }
       }
     }
   }
