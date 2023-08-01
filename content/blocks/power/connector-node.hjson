@@ -4,7 +4,7 @@ description: Connects wires over small distances without needing to direclty con
 size: 1
 health: 20
 squareSprite: false
-laserRange: 3
+laserRange: 4
 maxNodes: 2
 requirements: [
   item-ferrinite/20
