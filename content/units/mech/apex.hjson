@@ -58,10 +58,17 @@ weapons: [
     alternate: true
     reload: 192
     shootSound: shoot-loud-heavy
+    ejectEffect: casing3
     rotate: false
     bullet: {
       type: BasicBulletType
+      shootEffect: shootTitan
+      smokeEffect: shootBigSmoke
+      trailEffect: dynamicSpikes
+      trailChance: -1
+      trailInterval: 6
       sprite: asthosus-hook
+      hitEffect: hitMeltdown
       width: 22
       fragOnHit: false
       height: 30
@@ -71,7 +78,8 @@ weapons: [
       pierce: true
       pierceCap: 4
       buildingDamageMultiplier: 0.8
-      knockback: -10
+      knockback: -18
+      homingPower: 0.002
       fragBullets: 3
       fragVelocityRnd: 0
       fragLifeMin: 1
@@ -79,7 +87,9 @@ weapons: [
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragRandomSpread: 0
-      fragSpread: 120
+      fragSpread: 120 
+      hitSound: shotgun
+      despawnSound: shotgun
       fragBullet: {
         type: ShrapnelBulletType
         length: 20
@@ -101,7 +111,8 @@ weapons: [
         mirror: false
       }
     ]
-    name: apex-mount
+    name: apex-mount 
+    ejectEffect: casing1
     x: -10
     y: 5
     mirror: true
@@ -115,6 +126,8 @@ weapons: [
     }
     shootSound: shoot-dull
     bullet: {
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
       type: BasicBulletType
       speed: 5
       lifetime: 35
@@ -147,6 +160,8 @@ weapons: [
     reload: 26
     shootSound: shoot-laser
     bullet: {
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
       type: LaserBulletType
       sideWidth: 1.25
       sideLength: 12
