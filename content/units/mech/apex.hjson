@@ -78,7 +78,7 @@ weapons: [
     alternate: true
     rotate: true
     reload: 30
-    inaccuracy: 3
+    inaccuracy: 5
     shoot: {
       shots: 5
       shotDelay: 2
@@ -115,12 +115,15 @@ weapons: [
     alternate: true
     rotate: true
     reload: 48
-    shootSound: artillery
+    shootSound: shoot-laser
     bullet: {
-      type: ShrapnelBulletType
+      type: LaserBulletType
+      sideWidth: 0.8
+      sideLength: 12
+      sideAngle: 45
       length: 120
       lifetime: 90
-      width: 1.5
+      width: 1.6
       damage: 33
     }
   }
