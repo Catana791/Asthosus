@@ -40,6 +40,101 @@ parts: [
 ]
 weapons: [
   {
+    x: 0
+    y: 0
+    rotate: false
+    mirror: false
+    reload: 165
+    chargeSound: green-laser-charge-early-short
+    shootSound: shoot-small-flame
+    shoot: {
+      firstShotDelay: 120
+      shots: 12
+      shotDelay: 8
+    }
+    ejectEffect: none
+    bullet: {
+      type: BasicBulletType
+      speed: 2
+      lifetime: 70
+      damage: 70
+      pierce: true
+      frontColor: ffbe7f
+      backColor: d46f6b
+      pierceCap: 3
+      buildingDamageMultiplier: 0.8
+      sprite: asthosus-star-bullet
+      spin: 3
+      width: 24
+      height: 24
+      shootEffect: {
+        type: ParticleEffect
+        particles: 12
+        sizeFrom: 6
+        sizeTo: 0.9
+        interp: pow2In
+        sizeInterp: pow2
+        colorFrom: ffbe7f
+        colorTo: d46f6b
+        length: 12
+        baseLength: 20
+        cone: 360
+        lifetime: 32
+      }
+      smokeEffect: none
+      chargeEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 8
+            length: 3
+            baseLength: 20
+            sizeFrom: 1
+            sizeTo: 4
+            colorFrom: ffbe7f
+            colorTo: d46f6b
+            cone: 360
+            lifetime: 118
+          }  
+          {
+            type: WaveEffect
+            strokeFrom: 0.1
+            strokeTo: 1
+            sizeFrom: 2
+            sizeTo: 22
+            colorFrom: ffbe7f
+            colorTo: d46f6b
+            lifetime: 129
+          }
+          {
+            type: ParticleEffect
+            particles: 8
+            length: 20
+            baseLength: 3
+            sizeFrom: 4
+            sizeTo: 1
+            colorFrom: ffbe7f
+            colorTo: d46f6b
+            cone: 360
+            followParent: true
+            lifetime: 112
+          } 
+          {
+            type: WaveEffect
+            strokeFrom: 1
+            strokeTo: 0.1
+            sizeFrom: 22
+            sizeTo: 2
+            colorFrom: ffbe7f
+            colorTo: d46f6b
+            lifetime: 131
+          }
+        ]
+      }
+    }
+  }
+  {
     parts: [
       {
         type: RegionPart
@@ -74,7 +169,7 @@ weapons: [
       fragOnHit: false
       height: 72
       speed: 3
-      lifetime: 60
+      lifetime: 65
       damage: 50
       pierce: true
       pierceCap: 4
