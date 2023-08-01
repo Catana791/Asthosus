@@ -117,14 +117,11 @@ weapons: [
     reload: 48
     shootSound: artillery
     bullet: {
-      type: ArtilleryBulletType
-      speed: 3
-      lifetime: 75
-      damage: 23
-      splashDamage: 23
-      splashDamageRadius: 16
-      width: 10
-      height: 18
+      type: ShrapnelBulletType
+      length: 120
+      lifetime: 90
+      width: 1.5
+      damage: 33
     }
   }
 ]
