@@ -95,6 +95,8 @@ weapons: [
         type: BasicBulletType
         speed: 1
         lifetime: 30
+        width: 7
+        height: 13
         damage: 0
         pierce: true
         fragVelocityMin: 1
