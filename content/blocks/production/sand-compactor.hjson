@@ -33,6 +33,10 @@ drawer: {
       particleRad: 12
       particleLife: 75
     }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
   ]
 }
 ambientSound: hum
