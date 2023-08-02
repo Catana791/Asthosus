@@ -33,14 +33,14 @@ drawer: {
       drawLiquid: pressure
       padLeft: 0.5
       padTop: 0.5
-      padBottom: 14
-      padRight: 10
+      padBottom: 18
+      padRight: 18
       alpha: 0.8
     }
     {
       type: DrawLiquidTile
       drawLiquid: liquid-oasis-water
-      padLeft: 14
+      padLeft: 18
       padTop: 14
       padBottom: 0.5
       padRight: 0.5
