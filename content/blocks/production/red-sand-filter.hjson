@@ -25,8 +25,8 @@ drawer: {
       suffix: -spinner
       spinSprite: true
       rotateSpeed: 6.25
-      x: -20
-      y: -20
+      x: -10
+      y: -10
     }
     {
       type: DrawLiquidTile
@@ -34,7 +34,7 @@ drawer: {
       padLeft: 0.5
       padTop: 0.5
       padBottom: 18
-      padRight: 18
+      padRight: 14
       alpha: 0.8
     }
     {
