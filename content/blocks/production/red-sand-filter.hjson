@@ -13,6 +13,28 @@ consumes: {
     liquid-oasis-water/0.3
   ]
 }
+ambientSound: extractLoop
+ambientSoundVolume: 0.09
+craftEffect: {
+  type: RadialEffect
+  amount: 1
+  rotationOffset: 225
+  effect: {
+    lengthOffset: 12
+    type: ParticleEffect
+    particles: 12
+    colorFrom: fca67b
+    colorTo: c27954
+    sizeFrom: 0.95
+    sizeTo: 0.2
+    lifetime: 30
+    cone: 360
+    length: 12
+    baseLength: 16
+    interp: pow2Out
+    sizeInterp: pow2
+  }
+}
 drawer: {
   type: DrawMulti
   drawers: [
@@ -25,8 +47,8 @@ drawer: {
       suffix: -spinner
       spinSprite: true
       rotateSpeed: 9
-      x: -6
-      y: -6
+      x: -6.5
+      y: -6.5
     }
     {
       type: DrawLiquidTile
