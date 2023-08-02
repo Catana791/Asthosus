@@ -27,11 +27,11 @@ drawer: {
     {
       type: DrawParticles
       color: d3ae8d
-      alpha: 0.8
-      particleSize: 2
-      particles: 20
+      alpha: 0.85
+      particleSize: 1.6
+      particles: 30
       particleRad: 12
-      particleLife: 75
+      particleLife: 60
     }
     {
       type: DrawRegion
