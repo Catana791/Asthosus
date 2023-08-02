@@ -56,3 +56,11 @@ outputItems: [
   sand/1
 ]
 outputLiquid: liquid-purified-oasis-water/0.1
+category: crafting
+research: cretite-mixer
+requirements: [
+  item-ferrinite/160
+  item-demetite/120
+  item-lithium/40
+  item-obsidian/100
+]
