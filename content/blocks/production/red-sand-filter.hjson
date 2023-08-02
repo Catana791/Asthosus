@@ -19,8 +19,8 @@ craftEffect: {
   type: RadialEffect
   amount: 1
   rotationOffset: 225
+  lengthOffset: 12
   effect: {
-    lengthOffset: 12
     type: ParticleEffect
     particles: 12
     colorFrom: fca67b
@@ -29,8 +29,8 @@ craftEffect: {
     sizeTo: 0.2
     lifetime: 30
     cone: 360
-    length: 12
-    baseLength: 16
+    length: 6
+    baseLength: 8
     interp: pow2Out
     sizeInterp: pow2
   }
