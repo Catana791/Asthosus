@@ -24,9 +24,9 @@ drawer: {
       type: DrawRegion
       suffix: -spinner
       spinSprite: true
-      rotateSpeed: 6.25
-      x: -10
-      y: -10
+      rotateSpeed: 9
+      x: -6
+      y: -6
     }
     {
       type: DrawLiquidTile
@@ -35,7 +35,6 @@ drawer: {
       padTop: 0.5
       padBottom: 18
       padRight: 14
-      alpha: 0.8
     }
     {
       type: DrawLiquidTile
@@ -44,7 +43,14 @@ drawer: {
       padTop: 14
       padBottom: 0.5
       padRight: 0.5
-      alpha: 0.8
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-purified-oasis-water
+      padLeft: 18
+      padBottom: 18
+      padTop: 0.5
+      padRight: 0.5
     }
     {
       type: DrawDefault
