@@ -72,7 +72,6 @@ weapons: [
         sizeTo: 60
         colorFrom: edc66c
         colorTo: baa164
-        lifetime: 95
         region: asthosus-emp-bullet-hit
       }
     }
