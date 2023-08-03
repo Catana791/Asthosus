@@ -59,7 +59,7 @@ weapons: [
       height: 28
       trailChance: -1
       trailLength: 28
-      trailWidth: 8
+      trailWidth: 5
       backColor: baa164
       trailColor: baa164
       lightColor: baa164
@@ -68,13 +68,12 @@ weapons: [
         type: ParticleEffect
         particles: 1
         length: 0
-        sizeFrom: 20
-        sizeTo: 12
+        sizeFrom: 60
+        sizeTo: 60
         colorFrom: edc66c
         colorTo: baa164
         lifetime: 95
         region: asthosus-emp-bullet-hit
-        spin: -1.2
       }
     }
   }
