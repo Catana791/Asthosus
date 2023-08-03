@@ -1,6 +1,6 @@
 type: tank
 name: Aphelops
-description: A heavy assault tank equipped with a railgun, rocket launchers and artillery cannons. Pretty fast for a tank.
+description: A heavy assault tank equipped with an emp launcher and smaller cannons. Also equipped with two point defense mounts.
 hitSize: 19.25
 crushDamage: 4
 treadPullOffset: 4
@@ -9,6 +9,16 @@ omniMovement: false
 faceTarget: false
 health: 10620
 armor: 10
+parts: [
+    {
+      type: RegionPart
+      suffix: -glow
+      blending: additive
+      color: ffffff33
+      outline: false
+      mirror: false
+   }
+]
 speed: 0.76
 rotateSpeed: 2.89
 itemCapacity: 0
@@ -27,22 +37,47 @@ weapons: [
     rotateSpeed: 1.1
     mirror: false
     shootY: 12
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
     bullet: {
-      shootEffect: railShoot
-      pierceEffect: hitMeltdown
-      pointEffectSpace: 60
-      pierceDamageFactor: 0.5
-      pointEffect: railTrail
-      smokeEffect: shootSmokeSmite
-      type: RailBulletType
-      length: 260
-      damage: 450
-      hitEffect: blastExplosion
-      despawnEffect: blastExplosion
+      type: EmpBulletType
+      keepVelocity: false
+      radius: 160
+      lifetime: 1
+      hitEffect: none
+      despawnEffect: none
+      hitShake: 2
+      hitSound: spark
+      despawnHit: true
+      hitPowerEffect: none
+      applyEffect: none
+      hitColor: baa164
+      mixColorFrom: edc66c
+      mixColorTo: baa164
+      timeDuration: 120
+      timeIncrease: 4 
     }
   }
   {
     name: aphelops-launcher
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
     x: 9
     y: 5
     reload: 21
@@ -73,29 +108,27 @@ weapons: [
   }
   {
     name: aphelops-launcher
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    type: PointDefenseWeapon
+    color: edc66c
     x: 13
     y: -8
     mirror: true
-    alternate: true
-    reload: 69
-    velocityRnd: 0.09
-    inaccuracy: 3
-    shake: 1
+    reload: 14
     rotate: true
-    shoot: {
-      shots: 3
-      shotDelay: 3
-    }
-    shootSound: artillery
+    shootSound: sap
     bullet: {
-      type: ArtilleryBulletType
-      speed: 2
-      lifetime: 90
-      splashDamage: 66
-      splashDamageRadius: 16
-      damage: 0
-      hitEffect: plasticExplosion
-      despawnEffect: plasticExplosion
+      maxRange: 160
+      damage: 20
     }
   }
 ]
