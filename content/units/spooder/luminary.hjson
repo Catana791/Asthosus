@@ -3,7 +3,8 @@ type: legs
   description: A small legged unit capable of slowly building structures and healing. Automatically repairs damaged structures.
 speed: 0.6
   health: 170
-defaultController: RepairAI
+controller: RepairAI
+commands: [move, repair, rebuild, assist]
   armor: 1
   flying: false
 legExtension: -2.5
