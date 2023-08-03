@@ -120,6 +120,9 @@ weapons: [
       lifetime: 90
       despawnHit: true
       hitSound: spark
+      splashDamage: 450
+      splashDamageRadius: 48
+      splashDamagePierce: true
       width: 20
       height: 28
       trailChance: -1
@@ -129,6 +132,8 @@ weapons: [
       trailColor: baa164
       lightColor: baa164
       frontColor: baa164
+      status: slow
+      statusDuration: 240
       hitEffect: {
         type: ParticleEffect
         particles: 1
@@ -138,6 +143,7 @@ weapons: [
         colorFrom: edc66c
         colorTo: baa164
         region: asthosus-emp-bullet-hit
+        lifetime: 10
       }
     }
   }
