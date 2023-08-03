@@ -6,7 +6,7 @@ speed: 0.7
   armor: 4
   flying: false
 controller: BuilderAI
-commands: [move, repair, rebuild, assist]
+commands: [move, mine, repair, rebuild, assist]
 legExtension: -2.5
 buildSpeed: 0.85
   mineSpeed: 4
