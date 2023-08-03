@@ -5,17 +5,14 @@ speed: 0
 accel: 0
 lifetime: 60
 rotateSpeed: 0
-hitSize: 0
 trailLength: 0
 health: 10000
 homingDelay: 0
 deathExplosionEffect: none
 deathSound: none
-aimDst: 4
 drawCell: false
 engineSize: 0
 outlines: false
-range: 4
 hidden: true  
 abilities: [
   {
