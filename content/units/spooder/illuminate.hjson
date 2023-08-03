@@ -16,6 +16,9 @@ hovering: false
 legCount: 6
 legLength: 18
 commands: [move, mine, repair, rebuild, assist]
+mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
+mineWalls: true
+mineFloor: true
 legSpeed: 0.23
 legForwardScl: 0.56
 itemCapacity: 80
