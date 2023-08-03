@@ -6,7 +6,7 @@ health: 790
 armor: 9
 flying: false
 isEnemy: false
-defaultController: RepairAI
+controller: RepairAI
 legExtension: -2.5
 buildSpeed: 1.1
 mineSpeed: 6.5
