@@ -21,7 +21,7 @@ abilities: [
   {
     type: EnergyFieldAbility
     hitUnits: false
-    reload: 12
+    reload: 13
     color: 9be98b
     damage: 0
     healPercent: 2
