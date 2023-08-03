@@ -74,6 +74,7 @@ weapons: [
         colorTo: baa164
         lifetime: 95
         region: asthosus-emp-bullet-hit
+        spin: -1.2
       }
     }
   }
