@@ -15,7 +15,7 @@ legMoveSpace: 0.9
 hovering: false
 legCount: 6
 legLength: 18
-commands: [move, repair, rebuild, assist]
+commands: [move, mine, repair, rebuild, assist]
 legSpeed: 0.23
 legForwardScl: 0.56
 itemCapacity: 80
