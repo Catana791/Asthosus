@@ -7,6 +7,9 @@ speed: 0.7
   flying: false
 controller: BuilderAI
 commands: [move, mine, repair, rebuild, assist]
+mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
+mineWalls: true
+mineFloor: true
 legExtension: -2.5
 buildSpeed: 0.85
   mineSpeed: 4
