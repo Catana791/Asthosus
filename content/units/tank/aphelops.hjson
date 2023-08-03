@@ -47,23 +47,34 @@ weapons: [
         mirror: false
       }
     ]
-    bullet: {
-      type: EmpBulletType
-      keepVelocity: false
-      radius: 160
-      lifetime: 1
-      hitEffect: none
-      despawnEffect: none
-      hitShake: 2
-      hitSound: spark
+    bullet: {  
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      type: BasicBulletType
+      speed: 2
+      lifetime: 90
       despawnHit: true
-      hitPowerEffect: none
-      applyEffect: none
-      hitColor: baa164
-      mixColorFrom: edc66c
-      mixColorTo: baa164
-      timeDuration: 120
-      timeIncrease: 4 
+      hitSound: spark
+      width: 20
+      height: 28
+      trailChance: -1
+      trailLength: 28
+      trailWidth: 8
+      backColor: baa164
+      trailColor: baa164
+      lightColor: baa164
+      frontColor: baa164
+      hitEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        sizeFrom: 20
+        sizeTo: 12
+        colorFrom: edc66c
+        colorTo: baa164
+        lifetime: 95
+        region: asthosus-emp-bullet-hit
+      }
     }
   }
   {
@@ -80,7 +91,7 @@ weapons: [
     ]
     x: 9
     y: 5
-    reload: 21
+    reload: 7
     mirror: true
     alternate: true
     rotate: true
@@ -92,7 +103,7 @@ weapons: [
       height: 10
       speed: 3
       lifetime: 60
-      damage: 49
+      damage: 16
       pierce: true
       pierceCap: 1
       pierceBuilding: true
