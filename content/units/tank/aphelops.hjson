@@ -26,6 +26,71 @@ outlineColor: 44413c
 research: aprotodon
 weapons: [
   {
+    name: aphelops-launcher
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    x: 9
+    y: 5
+    reload: 14
+    mirror: true
+    alternate: true
+    rotate: true
+    shootSound: missile
+    recoil: 1
+    bullet: {
+      type: MissileBulletType
+      width: 6
+      height: 10
+      speed: 3
+      lifetime: 60
+      damage: 32
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: true
+      homingPower: 0.04
+      homingDelay: 30
+      keepVelocity: false
+      trailChance: -1
+      trailLength: 8
+      trailWidth: 2
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+    }
+  }
+  {
+    name: aphelops-launcher
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    type: PointDefenseWeapon
+    color: edc66c
+    x: 13
+    y: -8
+    mirror: true
+    reload: 14
+    rotate: true
+    shootSound: sap
+    bullet: {
+      maxRange: 160
+      damage: 20
+    }
+  }
+  {
     name: aphelops-weapon
     x: 0
     y: -0.5
@@ -74,71 +139,6 @@ weapons: [
         colorTo: baa164
         region: asthosus-emp-bullet-hit
       }
-    }
-  }
-  {
-    name: aphelops-launcher
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
-    x: 9
-    y: 5
-    reload: 7
-    mirror: true
-    alternate: true
-    rotate: true
-    shootSound: missile
-    recoil: 1
-    bullet: {
-      type: MissileBulletType
-      width: 6
-      height: 10
-      speed: 3
-      lifetime: 60
-      damage: 16
-      pierce: true
-      pierceCap: 1
-      pierceBuilding: true
-      homingPower: 0.04
-      homingDelay: 30
-      keepVelocity: false
-      trailChance: -1
-      trailLength: 8
-      trailWidth: 2
-      hitEffect: hitBulletColor
-      despawnEffect: hitBulletColor
-    }
-  }
-  {
-    name: aphelops-launcher
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
-    type: PointDefenseWeapon
-    color: edc66c
-    x: 13
-    y: -8
-    mirror: true
-    reload: 14
-    rotate: true
-    shootSound: sap
-    bullet: {
-      maxRange: 160
-      damage: 20
     }
   }
 ]
