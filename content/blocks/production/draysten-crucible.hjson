@@ -96,12 +96,11 @@ drawer: {
     }
     {
       type: DrawBubbles
+      radius: 9
+      color: 5eb3ac
     }
     {
       type: DrawArcSmelt
-    }
-    {
-      type: DrawCrucibleFlame  
     }
     {
       type: DrawDefault
