@@ -24,13 +24,6 @@ craftEffect: {
       type: RadialEffect
       amount: 4
       rotationSpacing: 90
-      lengthOffset: 1
-      effect: surgeCruciSmoke
-    }
-    {
-      type: RadialEffect
-      amount: 4
-      rotationSpacing: 90
       rotationOffset: 45
       lengthOffset: 12
       effect: surgeCruciSmoke
@@ -48,6 +41,22 @@ craftEffect: {
       amount: 4
       rotationSpacing: 90
       rotationOffset: 50
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 55
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 35
       lengthOffset: 12
       effect: surgeCruciSmoke
     }
