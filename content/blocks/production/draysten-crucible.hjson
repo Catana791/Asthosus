@@ -2,7 +2,7 @@ type: HeatCrafter
 heatRequirement: 12
 ambientSound: smelter
 ambientSoundVolume: 0.12
-maxHeatEfficiency: 1.5
+maxEfficiency: 1.5
 name: Draysten Crucible
 description: Creates Draysten using Barite Webbing and Nontragen. Requires heat and power.
 size: 4
