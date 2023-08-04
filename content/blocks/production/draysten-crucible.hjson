@@ -1,9 +1,8 @@
 type: HeatCrafter
 heatRequirement: 12
-attribute: barite
-baseEfficiency: 0
-minEfficiency: 0
-maxBoost: 1
+ambientSound: smelter
+ambientSoundVolume: 0.12
+maxHeatEfficiency: 1.5
 name: Draysten Crucible
 description: Creates Draysten using Barite Webbing and Nontragen. Requires heat, power and pressure. Must be placed on Barite Floors.
 size: 4
@@ -51,6 +50,14 @@ drawer: {
       particleLife: 30
     }
     {
+      type: DrawSpikes
+      amount: 8
+      color: 84dca0
+      length: 12
+      rotateSpeed: 1.25
+      stroke: 1.25
+    }
+    {
       type: DrawBubbles
     }
     {
@@ -61,6 +68,15 @@ drawer: {
     }
     {
       type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: 5eb3ac
+      alpha: 0.85
+      particleSize: 1
+      particles: 42
+      particleRad: 12
+      particleLife: 30
     }
   ]
 }
