@@ -17,6 +17,14 @@ consumes: {
     liquid-nontragen/0.2
   ]
 }
+craftEffect: {
+  type: RadialEffect
+  amount: 4
+  rotationSpacing: 90
+  rotationOffset: 45
+  lengthOffset: 12
+  effect: surgeCruciSmoke
+}
 outputItem: item-draysten/1
 category: crafting
 research: barite-loom
@@ -48,14 +56,6 @@ drawer: {
       particles: 42
       particleRad: 18
       particleLife: 60
-    }
-    {
-      type: DrawSpikes
-      amount: 8
-      color: 5eb3ac
-      length: 8
-      rotateSpeed: 1.25
-      stroke: 1.25
     }
     {
       type: DrawBubbles
