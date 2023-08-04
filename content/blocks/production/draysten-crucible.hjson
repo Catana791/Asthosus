@@ -14,7 +14,6 @@ consumes: {
     item-barite-webbing/1  
   ]
   liquids: [
-    pressure/0.4
     liquid-nontragen/0.2
   ]
 }
