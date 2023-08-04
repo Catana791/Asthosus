@@ -46,14 +46,14 @@ drawer: {
       alpha: 0.85
       particleSize: 1
       particles: 42
-      particleRad: 12
-      particleLife: 30
+      particleRad: 18
+      particleLife: 60
     }
     {
       type: DrawSpikes
       amount: 8
-      color: 84dca0
-      length: 12
+      color: 5eb3ac
+      length: 8
       rotateSpeed: 1.25
       stroke: 1.25
     }
@@ -74,9 +74,9 @@ drawer: {
       color: 5eb3ac
       alpha: 0.85
       particleSize: 1
-      particles: 42
-      particleRad: 12
-      particleLife: 30
+      particles: 28
+      particleRad: 18
+      particleLife: 90
     }
   ]
 }
