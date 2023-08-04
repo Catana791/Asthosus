@@ -18,12 +18,40 @@ consumes: {
   ]
 }
 craftEffect: {
-  type: RadialEffect
-  amount: 4
-  rotationSpacing: 90
-  rotationOffset: 45
-  lengthOffset: 12
-  effect: surgeCruciSmoke
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      lengthOffset: 1
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 45
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 40
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 50
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+  ]
 }
 outputItem: item-draysten/1
 category: crafting
