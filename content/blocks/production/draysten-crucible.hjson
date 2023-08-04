@@ -9,6 +9,7 @@ size: 4
 squareSprite: false
 craftTime: 180
 consumes: {
+  power: 6
   items: [
     item-barite-webbing/1  
   ]
