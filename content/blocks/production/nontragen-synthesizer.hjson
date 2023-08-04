@@ -3,7 +3,6 @@ attribute: heat
 baseEfficiency: 1
 minEfficiency: 1
 maxBoost: 1
-displayEfficiency: false
 boostScale: 0.5556
 hasItems: true
 hasLiquids: true
