@@ -1,0 +1,66 @@
+type: HeatCrafter
+heatRequirement: 12
+attribute: barite
+baseEfficiency: 0
+minEfficiency: 0
+maxBoost: 1
+name: Draysten Crucible
+description: Creates Draysten using Barite Webbing and Nontragen. Requires heat, power and pressure. Must be placed on Barite Floors.
+size: 4
+squareSprite: false
+craftTime: 180
+consumes: {
+  items: [
+    item-barite-webbing/1  
+  ]
+  liquids: [
+    pressure/0.4
+    liquid-nontragen/0.2
+  ]
+}
+outputItem: item-draysten/1
+category: crafting
+research: barite-loom
+requirements: [
+  item-lodestone/220
+  item-lithium/200
+  item-obsidian/240
+  item-crosium/40
+  item-barite-webbing/80
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-nontragen
+      alpha: 0.9
+      padding: 3
+    }
+    {
+      type: DrawParticles
+      color: 5eb3ac
+      alpha: 0.85
+      particleSize: 1
+      particles: 42
+      particleRad: 12
+      particleLife: 30
+    }
+    {
+      type: DrawBubbles
+    }
+    {
+      type: DrawArcSmelt
+    }
+    {
+      type: DrawCrucibleFlame  
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
