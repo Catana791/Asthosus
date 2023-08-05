@@ -41,6 +41,18 @@ plans: [
     ]
     time: 3300
   }
+  {
+    type: AssemblerUnitPlan
+    unit: apex
+    requirements: [
+      asthosus-ferrinite-wire/8
+      asthosus-lithium-wall-large/42
+      asthosus-lodestone-wall-large/4
+      asthosus-obsidian-wall-large/34
+      asthosus-crosium-wall-large/26
+    ]
+    time: 8700
+  }
 ]
 squareSprite: false
 consumes: {
