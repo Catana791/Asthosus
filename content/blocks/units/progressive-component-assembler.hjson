@@ -1,0 +1,24 @@
+type: Constructor
+name: Progressive Component Assembler
+description: Crafts advanced components used for unit assembly. Requires power, Nontragen and pressure. Conducts power to blocks it touches.
+size: 3
+category: units
+requirements: [
+  item-demetite/270
+  item-lodestone/110
+  item-lithium/150
+  item-obsidian/160
+] 
+hasPower: true
+consumes: {
+  power: 4
+  liquids: [
+    pressure/0.2
+    liquid-nontragen/0.2
+  ]
+}
+buildSpeed: 1
+filter: [crosium-wall-large]
+research: component-assembler
+squareSprite: false
+conductivePower: true
