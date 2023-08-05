@@ -14,6 +14,5 @@ requirements: [
 ]
 consumes: {
   power: 11
-  liquid: pressure/1
 }
 tier: 3
