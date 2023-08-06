@@ -15,8 +15,8 @@ shootEffect: {
     type: ParticleEffect
     particles: 1
     length: 0
-    sizeFrom: 30
-    sizeTo: 26
+    sizeFrom: 15
+    sizeTo: 12
     colorFrom: edc66c
     colorTo: baa164
     region: asthosus-emp-bullet-hit
