@@ -15,8 +15,8 @@ shootEffect: {
     type: ParticleEffect
     particles: 1
     length: 0
-    sizeFrom: 60
-    sizeTo: 56
+    sizeFrom: 30
+    sizeTo: 26
     colorFrom: edc66c
     colorTo: baa164
     region: asthosus-emp-bullet-hit
@@ -49,6 +49,6 @@ shootType: {
 category: defense
 research: webbing-wall-small
 requirements: [
-  item-draysten/18
-  item-lithium/6
+  item-draysten/4
+  item-lithium/2
 ]
