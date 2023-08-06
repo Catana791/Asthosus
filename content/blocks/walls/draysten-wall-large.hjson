@@ -15,8 +15,8 @@ shootEffect: {
     type: ParticleEffect
     particles: 1
     length: 0
-    sizeFrom: 40
-    sizeTo: 36
+    sizeFrom: 25
+    sizeTo: 23
     colorFrom: edc66c
     colorTo: baa164
     region: asthosus-emp-bullet-hit
@@ -38,7 +38,7 @@ shootType: {
   speed: 0
   lifetime: 1
   splashDamage: 1
-  splashDamageRadius: 64
+  splashDamageRadius: 96
   splashDamagePierce: true
   damage: 0
   status: slow
