@@ -83,7 +83,7 @@ weapons: [
     mirror: true
     alternate: true
     shootCone: 360
-    reload: 14
+    reload: 19
     targetInterval: 6
     targetSwitchInterval: 8
     rotate: true
