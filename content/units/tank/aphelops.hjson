@@ -82,7 +82,7 @@ weapons: [
     x: 13
     y: -8
     mirror: true
-    reload: 14
+    reload: 7
     rotate: true
     shootSound: sap
     bullet: {
