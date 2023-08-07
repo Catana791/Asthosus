@@ -78,14 +78,18 @@ weapons: [
       }
     ]
     type: PointDefenseWeapon
-    color: edc66c
     x: 13
     y: -8
     mirror: true
-    reload: 7
+    alternate: true
+    shootCone: 360
+    reload: 14
+    targetInterval: 6
+    targetSwitchInterval: 8
     rotate: true
     shootSound: sap
     bullet: {
+      shootEffect: sparkShoot
       maxRange: 160
       damage: 20
     }
