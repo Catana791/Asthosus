@@ -49,3 +49,8 @@ weapons: [
     }
   } 
 ]
+research: {
+  parent: cruise-missile-launcher  
+  requirements: [
+  ]
+}
