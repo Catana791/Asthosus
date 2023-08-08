@@ -1,0 +1,51 @@
+type: missile
+template: MissileUnitType
+name: Obsidian Cruise Missile
+flying: true
+speed: 2
+lifetime: 120
+rotateSpeed: 0.1
+hitSize: 16
+trailLength: 16
+health: 5000
+trailColor: 3d354b
+aimDst: 4
+drawCell: true
+abilities: [
+  {
+    type: MoveEffectAbility
+    interval: 4
+    effect: {
+      type: ParticleEffect
+      particles: 12
+      length: 3.2
+      baseLength: 4
+      line: true
+      strokeFrom: 2.2
+      strokeTo: 1.6
+      colorFrom: 594e6b
+      colorTo: 2e293a
+    }
+    rotateEffect: true
+  }
+]
+outlineColor: 44413c
+range: 4
+hidden: false
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: false
+    x: 0
+    y: 0
+    shootCone: 360
+    shake: 3
+    shootSound: explosion
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 400
+      splashDamageRadius: 48
+    }
+  } 
+]
