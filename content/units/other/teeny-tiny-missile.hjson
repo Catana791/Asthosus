@@ -3,6 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 2
 missileAccelTime: 30
+useUnitCap: false
 engineSize: 0.5
 engineOffset: 2.5
 lifetime: 75
