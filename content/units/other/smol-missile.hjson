@@ -6,6 +6,7 @@ lifetime: 60
 rotateSpeed: 0.1
 hitSize: 5
 trailLength: 0
+useUnitCap: false
 health: 10000
 autoFindTarget: false
 homingDelay: 0
