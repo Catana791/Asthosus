@@ -6,6 +6,7 @@ accel: 0
 lifetime: 60
 rotateSpeed: 0
 trailLength: 0
+useUnitCap: false
 health: 10000
 homingDelay: 0
 deathExplosionEffect: none
