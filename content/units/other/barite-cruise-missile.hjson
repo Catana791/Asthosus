@@ -8,7 +8,7 @@ rotateSpeed: 0.1
 hitSize: 16
 trailLength: 16
 health: 7000
-trailColor: 3d354b
+trailColor: bab4ae
 aimDst: 4
 drawCell: true
 abilities: [
@@ -49,3 +49,4 @@ weapons: [
     }
   } 
 ]
+research: obsidian-cruise-missile
