@@ -1,0 +1,52 @@
+type: missile
+template: MissileUnitType
+name: Draysten Cruise Missile
+flying: true
+speed: 2
+lifetime: 120
+rotateSpeed: 0.1
+hitSize: 16
+trailLength: 16
+health: 10000
+trailColor: 7e4a4a
+aimDst: 4
+drawCell: true
+abilities: [
+  {
+    type: MoveEffectAbility
+    interval: 4
+    effect: {
+      type: ParticleEffect
+      particles: 12
+      length: 3.2
+      baseLength: 4
+      line: true
+      strokeFrom: 2.2
+      strokeTo: 1.6
+      colorFrom: c67979
+      colorTo: 7e4a4a
+    }
+    rotateEffect: true
+  }
+]
+outlineColor: 44413c
+range: 4
+hidden: false
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: false
+    x: 0
+    y: 0
+    shootCone: 360
+    shake: 4
+    shootSound: explosion
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 700
+      splashDamageRadius: 48
+    }
+  } 
+]
+research: barite-cruise-missile
