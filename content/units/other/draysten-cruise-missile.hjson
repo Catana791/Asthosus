@@ -3,7 +3,8 @@ template: MissileUnitType
 name: Draysten Cruise Missile
 flying: true
 speed: 2
-lifetime: 120
+useUnitCap: false
+lifetime: 360
 rotateSpeed: 0.1
 hitSize: 16
 trailLength: 16
