@@ -4,6 +4,7 @@ flying: true
 speed: 0
 accel: 0
 lifetime: 60
+useUnitCap: false
 rotateSpeed: 0
 trailLength: 0
 health: 10000
