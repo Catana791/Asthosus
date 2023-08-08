@@ -9,7 +9,7 @@ hitSize: 16
 trailLength: 16
 health: 10000
 trailColor: 7e4a4a
-aimDst: 4
+defaultController: MissileAI
 drawCell: true
 abilities: [
   {
@@ -30,7 +30,6 @@ abilities: [
   }
 ]
 outlineColor: 44413c
-range: 4
 hidden: false
 weapons: [
   {
