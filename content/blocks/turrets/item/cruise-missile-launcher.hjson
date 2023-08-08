@@ -18,10 +18,8 @@ plans: [
   {
     unit: barite-cruise-missile
     requirements: [
-      {
-        item-cretite/4
-        item-barite/20
-      }
+      item-cretite/4
+      item-barite/20
     ]
     time: 1200
   }
