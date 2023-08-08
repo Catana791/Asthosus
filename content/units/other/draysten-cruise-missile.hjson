@@ -4,7 +4,7 @@ name: Draysten Cruise Missile
 flying: true
 speed: 2
 useUnitCap: false
-lifetime: 360
+lifetime: 240
 rotateSpeed: 0.1
 hitSize: 16
 trailLength: 16
