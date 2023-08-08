@@ -8,9 +8,9 @@ useUnitCap: false
 lifetime: 240
 hitSize: 16
 trailLength: 16
+defaultController: MissileAI
 health: 7000
 trailColor: bab4ae
-aimDst: 4
 drawCell: true
 abilities: [
   {
@@ -31,7 +31,6 @@ abilities: [
   }
 ]
 outlineColor: 44413c
-range: 4
 hidden: false
 weapons: [
   {
