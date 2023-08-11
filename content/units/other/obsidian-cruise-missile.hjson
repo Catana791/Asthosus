@@ -3,14 +3,20 @@ template: MissileUnitType
 name: Obsidian Cruise Missile
 flying: true
 speed: 2
-useUnitCap: false
 lifetime: 240
+rotateSpeed: 0.1
 hitSize: 16
-trailLength: 16
-health: 5000
-trailColor: 3d354b
-defaultController: MissileAI
+trailLength: 18
+useUnitCap: false
+health: 50000
+autoFindTarget: false
+homingDelay: 0
+circleTarget: false
+faceTarget: true
+trailColor: 2e293a
+aimDst: 4
 drawCell: true
+range: 4
 abilities: [
   {
     type: MoveEffectAbility
@@ -39,12 +45,12 @@ weapons: [
     x: 0
     y: 0
     shootCone: 360
-    shake: 3
+    shake: 4
     shootSound: explosion
     bullet: {
       type: ExplosionBulletType
       splashDamage: 400
-      splashDamageRadius: 48
+      splashDamageRadius: 64
     }
   } 
 ]
