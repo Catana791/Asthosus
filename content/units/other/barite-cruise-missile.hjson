@@ -1,17 +1,22 @@
 type: missile
 template: MissileUnitType
 name: Barite Cruise Missile
-useUnitCap: false
 flying: true
 speed: 2
-useUnitCap: false
 lifetime: 240
+rotateSpeed: 0.1
 hitSize: 16
-trailLength: 16
-defaultController: MissileAI
-health: 7000
+trailLength: 18
+useUnitCap: false
+health: 100000
+autoFindTarget: false
+homingDelay: 0
+circleTarget: false
+faceTarget: true
 trailColor: bab4ae
+aimDst: 4
 drawCell: true
+range: 4
 abilities: [
   {
     type: MoveEffectAbility
@@ -40,12 +45,12 @@ weapons: [
     x: 0
     y: 0
     shootCone: 360
-    shake: 3
+    shake: 4
     shootSound: explosion
     bullet: {
       type: ExplosionBulletType
       splashDamage: 550
-      splashDamageRadius: 48
+      splashDamageRadius: 64
     }
   } 
 ]
