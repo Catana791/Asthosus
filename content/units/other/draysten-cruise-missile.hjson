@@ -2,21 +2,17 @@ type: missile
 template: MissileUnitType
 name: Draysten Cruise Missile
 flying: true
-speed: 2
-lifetime: 240
-rotateSpeed: 1
+speed: 4
+missileAccelTime: 30
+lifetime: 120
+lowAltitude: true
+maxRange: 4
 hitSize: 16
 trailLength: 18
 useUnitCap: false
 health: 100000
-autoFindTarget: false
-homingDelay: 0
-circleTarget: false
-faceTarget: true
+homingDelay: 10
 trailColor: 7a7564
-aimDst: 4
-drawCell: true
-range: 4
 abilities: [
   {
     type: MoveEffectAbility
