@@ -1,5 +1,6 @@
 type: missile
 template: MissileUnitType
+name: Draysten Cruise Missile
 flying: true
 speed: 2
 lifetime: 240
@@ -7,7 +8,7 @@ rotateSpeed: 0.1
 hitSize: 5
 trailLength: 0
 useUnitCap: false
-health: 10000
+health: 100000
 autoFindTarget: false
 homingDelay: 0
 circleTarget: false
@@ -49,7 +50,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 700
-      splashDamageRadius: 48
+      splashDamageRadius: 64
     }
   } 
 ]
