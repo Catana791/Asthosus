@@ -5,8 +5,8 @@ flying: true
 speed: 2
 lifetime: 240
 rotateSpeed: 0.1
-hitSize: 5
-trailLength: 0
+hitSize: 16
+trailLength: 18
 useUnitCap: false
 health: 100000
 autoFindTarget: false
