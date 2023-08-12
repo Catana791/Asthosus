@@ -5,13 +5,9 @@ flying: true
 speed: 4
 missileAccelTime: 30
 lifetime: 120
-lowAltitude: true
-maxRange: 4
-hitSize: 16
 trailLength: 18
 useUnitCap: false
 health: 100000
-homingDelay: 10
 trailColor: 7a7564
 abilities: [
   {
@@ -40,6 +36,8 @@ weapons: [
     mirror: false
     x: 0
     y: 0
+    predictTarget: false  
+    useAttackRange: false    
     shootCone: 360
     shake: 4
     shootSound: explosion
