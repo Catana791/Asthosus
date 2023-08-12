@@ -5,18 +5,12 @@ flying: true
 speed: 2
 lifetime: 240
 rotateSpeed: 0.1
-hitSize: 16
 trailLength: 18
 useUnitCap: false
 health: 100000
 autoFindTarget: false
-homingDelay: 0
-circleTarget: false
-faceTarget: true
 trailColor: bab4ae
-aimDst: 4
 drawCell: true
-range: 4
 abilities: [
   {
     type: MoveEffectAbility
@@ -36,12 +30,13 @@ abilities: [
   }
 ]
 outlineColor: 44413c
-hidden: false
 weapons: [
   {
     reload: 1
     shootOnDeath: true
     mirror: false
+    predictTarget: false  
+    useAttackRange: false
     x: 0
     y: 0
     shootCone: 360
