@@ -1,0 +1,44 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 5
+lifetime: 50
+rotateSpeed: 10
+trailLength: 0
+useUnitCap: false
+drawCell: false
+abilities: [
+  {
+    type: MoveEffectAbility
+    interval: 3
+    effect: {
+      type: ParticleEffect
+      cone: 45
+      baseRotation: 180
+      particles: 12
+      length: 3.2
+      baseLength: 4
+      line: true
+      strokeFrom: 2.2
+      strokeTo: 1.6
+      colorFrom: c67979
+      colorTo: 7e4a4a
+    }
+    rotateEffect: true
+  }
+]
+outlines: false  
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 60
+      splashDamageRadius: 32
+    }
+  } 
+]
