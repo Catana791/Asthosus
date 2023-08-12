@@ -11,7 +11,7 @@ minWarmup: 0.9
 warmupMaintainTime: 90
 predictTarget: false
 shootCone: 360
-reload: 50
+reload: 25
 range: 250
 drawer: {
   type: DrawTurret
@@ -46,7 +46,7 @@ shootSound: missileLaunch
 shoot: {
   type: ShootBarrel
   shots: 4
-  shotDelay: 10
+  shotDelay: 5
   barrels: [
     0, 6, 0,
     -6, 0, -90,
