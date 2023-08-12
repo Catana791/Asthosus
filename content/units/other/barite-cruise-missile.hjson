@@ -2,15 +2,13 @@ type: missile
 template: MissileUnitType
 name: Barite Cruise Missile
 flying: true
-speed: 2
-lifetime: 240
-rotateSpeed: 0.1
+speed: 4
+missileAccelTime: 30
+lifetime: 120
 trailLength: 18
 useUnitCap: false
-health: 100000
-autoFindTarget: false
+health: 75000
 trailColor: bab4ae
-drawCell: true
 abilities: [
   {
     type: MoveEffectAbility
