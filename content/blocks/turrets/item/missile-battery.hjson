@@ -6,10 +6,12 @@ rotateSpeed: 0
 recoil: 0
 shootX: 0
 shootY: 0
-shootWarmupSpeed: 0.4
-minWarmup: 1
+shootWarmupSpeed: 0.05
+minWarmup: 0.9
 warmupMaintainTime: 90
+shootCone: 360
 reload: 50
+range: 250
 drawer: {
   type: DrawTurret
   parts: [
@@ -18,28 +20,24 @@ drawer: {
       suffix: -cover-top
       progress: warmup
       moveY: -3  
-      moveRot: 90
     }
     {
       type: RegionPart
       suffix: -cover-left
       progress: warmup
       moveX: 3  
-      moveRot: 90
     }
     {
       type: RegionPart
       suffix: -cover-bottom
       progress: warmup
       moveY: 3  
-      moveRot: 90
     }
     {
       type: RegionPart
       suffix: -cover-right
       progress: warmup
       moveX: -3  
-      moveRot: 90
     }
   ]
 }
