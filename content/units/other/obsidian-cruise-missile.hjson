@@ -4,7 +4,7 @@ name: Obsidian Cruise Missile
 flying: true
 speed: 4
 lifetime: 120
-rotateSpeed: 0.1
+missileAccelTime: 30
 trailLength: 18
 useUnitCap: false
 health: 50000
