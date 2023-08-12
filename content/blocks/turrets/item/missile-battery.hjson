@@ -19,29 +19,29 @@ drawer: {
       type: RegionPart
       suffix: -cover-top
       progress: warmup
-      moveY: -3  
+      moveY: -6
     }
     {
       type: RegionPart
       suffix: -cover-left
       progress: warmup
-      moveX: 3  
+      moveX: 3 6
     }
     {
       type: RegionPart
       suffix: -cover-bottom
       progress: warmup
-      moveY: 3  
+      moveY: 6  
     }
     {
       type: RegionPart
       suffix: -cover-right
       progress: warmup
-      moveX: -3  
+      moveX: -6
     }
   ]
 }
-shootSound: missile
+shootSound: missileLaunch
 shoot: {
   type: ShootBarrel
   shots: 4
@@ -56,7 +56,7 @@ shoot: {
 ammoTypes: {
   item-draysten: {
     shootEffect: shootBig
-    smokeEffect: shootSmokeMissile
+    smokeEffect: shootBigSmoke
     instantDisappear: true
     damage: 0
     spawnUnit: asthosus-missile-battery-missile
