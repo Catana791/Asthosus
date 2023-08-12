@@ -1,0 +1,74 @@
+type: ItemTurret
+name: Missile Battery
+description: Uses Draysten as ammo to fire fast-paced volleys of missiles at enemies. 
+size: 3
+rotateSpeed: 0
+recoil: 0
+shootX: 0
+shootY: 0
+shootWarmupSpeed: 0.4
+minWarmup: 1
+warmupMaintainTime: 90
+reload: 50
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -cover-top
+      progress: warmup
+      moveY: -3  
+      moveRot: 90
+    }
+    {
+      type: RegionPart
+      suffix: -cover-left
+      progress: warmup
+      moveX: 3  
+      moveRot: 90
+    }
+    {
+      type: RegionPart
+      suffix: -cover-bottom
+      progress: warmup
+      moveY: 3  
+      moveRot: 90
+    }
+    {
+      type: RegionPart
+      suffix: -cover-right
+      progress: warmup
+      moveX: -3  
+      moveRot: 90
+    }
+  ]
+}
+shootSound: missile
+shoot: {
+  type: ShootBarrel
+  shots: 4
+  shotDelay: 10
+  barrels: [
+    0, 6, 0,
+    -6, 0, 0,
+    0, -6, 0,
+    6, 0, 0
+  ]
+}
+ammoTypes: {
+  item-draysten: {
+    shootEffect: shootBig
+    smokeEffect: shootSmokeMissile
+    instantDisappear: true
+    damage: 0
+    spawnUnit: asthosus-missile-battery-missile
+  }
+}
+category: turret
+research: concite
+requirements: [
+  item-ferrinite/800
+  item-lodestone/300
+  item-lithium/280
+  item-draysten/120
+]
