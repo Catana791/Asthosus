@@ -9,6 +9,7 @@ shootY: 0
 shootWarmupSpeed: 0.05
 minWarmup: 0.9
 warmupMaintainTime: 90
+predictTarget: false
 shootCone: 360
 reload: 50
 range: 250
