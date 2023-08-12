@@ -55,6 +55,7 @@ shoot: {
 }
 ammoTypes: {
   item-draysten: {
+    ammoMultiplier: 16
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     instantDisappear: true
