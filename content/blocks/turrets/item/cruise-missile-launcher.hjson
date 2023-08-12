@@ -3,6 +3,7 @@ name: Cruise Missile Launcher
 description: Relentlessly creates missiles that are then sent off to hit targets over long distances. Creates missiles even if no enemies are present.
 size: 4
 squareSprite: false
+rotate: false
 consumes: {
   power: 3
 }
@@ -13,7 +14,7 @@ plans: [
       item-cretite/4
       item-obsidian/24
     ]
-    time: 1200
+    time: 600
   }
   {
     unit: barite-cruise-missile
@@ -21,7 +22,7 @@ plans: [
       item-cretite/4
       item-barite/20
     ]
-    time: 1200
+    time: 600
   }
   {
     unit: draysten-cruise-missile
@@ -29,7 +30,7 @@ plans: [
       item-cretite/4
       item-draysten/12
     ]
-    time: 1200
+    time: 600
   }
 ]
 category: turret
