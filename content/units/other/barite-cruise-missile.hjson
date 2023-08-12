@@ -30,6 +30,7 @@ abilities: [
   }
 ]
 outlineColor: 44413c
+hidden: false
 weapons: [
   {
     reload: 1
