@@ -26,6 +26,17 @@ parts: [
     outline: false
     mirror: false
   }
+  {
+    type: FlarePart
+    x: 0
+    y: 2
+    color1: 9be98b
+    color2: 69a25e
+    spinSpeed: -0.9
+    radius: 3
+    sides: 4
+    followRotation: true
+  }
 ]
 legLength: 30
 legExtension: -15
@@ -44,6 +55,7 @@ boostMultiplier: 1.3
 drownTimeMultiplier: 2
 itemCapacity: 100
 controller: RepairAI
+mineTier: 5
 commands: [move, boost, mine, repair, rebuild, assist]
 mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
 weapons: [
