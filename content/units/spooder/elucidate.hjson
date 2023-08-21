@@ -34,7 +34,7 @@ parts: [
     color2: 69a25e
     spinSpeed: -0.9
     radius: 3
-    sides: 4
+    sides: 8
     followRotation: true
   }
 ]
