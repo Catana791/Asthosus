@@ -53,6 +53,7 @@ plans: [
       asthosus-obsidian-wall-large/34
       asthosus-crosium-wall-large/26
     ]
+    time: 10500
   }
 ]
 squareSprite: false
