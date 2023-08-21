@@ -7,10 +7,10 @@ armor: 9
 abilities: [
   {
     type: ForceFieldAbility
-    radius: 48
-    max: 2000
+    radius: 64
+    max: 2800
     cooldown: 300
-    regen: 0.2
+    regen: 0.5
   }
 ]
 research: illuminate
@@ -48,7 +48,7 @@ commands: [move, boost, mine, repair, rebuild, assist]
 mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
 weapons: [
   {
-    x: -12
+    x: -9
     name: elucidate-weapon-front
     y: 6
     reload: 72
@@ -101,7 +101,7 @@ weapons: [
     }
   }
   {
-    x: 0
+    x: 6
     y: -8
     reload: 216
     parts: [
@@ -116,6 +116,7 @@ weapons: [
     ]
     name: elucidate-weapon-back
     mirror: true
+    alternate: true
     rotate: false
     shootCone: 90
     shootSound: artillery
@@ -133,7 +134,7 @@ weapons: [
       healPercent: 2
       splashDamage: 3
       splashDamageRadius: 16
-      despawnUnit: asthosus-heal-node
+      despawnUnit: asthosus-heal-node-2
       despawnUnitCount: 1
       despawnUnitRadius: 1
     }
