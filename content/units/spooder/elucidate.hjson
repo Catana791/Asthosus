@@ -1,0 +1,141 @@
+type: legs
+name: Elucidate
+description: A large spiderlike unit capable of repairing damaged structures, building and mining. Equipped with a Shield Projector.
+hitSize: 16
+health: 6750
+armor: 9
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 48
+    max: 2000
+    cooldown: 300
+    regen: 0.2
+  }
+]
+research: illuminate
+legCount: 6
+legMoveSpace: 1
+legPairOffset: 2
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff33
+    outline: false
+    mirror: false
+  }
+]
+legLength: 30
+legExtension: -15
+legBaseOffset: 10
+stepShake: 1
+legLengthScl: 0.96
+buildSpeed: 1.6
+rippleScale: 2
+legSpeed: 0.3
+drag: 0.1
+speed: 0.52
+rotateSpeed: 2.4
+hovering: false
+canBoost: true
+boostMultiplier: 1.3
+drownTimeMultiplier: 2
+itemCapacity: 100
+controller: RepairAI
+commands: [move, boost, mine, repair, rebuild, assist]
+mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
+weapons: [
+  {
+    x: -12
+    name: elucidate-weapon-front
+    y: 6
+    reload: 72
+    shootSound: shoot-dull
+    mirror: true
+    alternate: true
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    rotate: true
+    inaccuracy: 3
+    shoot: {
+      shots: 5
+      shotDelay: 12
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.09
+      homingDelay: 30
+      weaveScale: 3
+      weaveMag: 3
+      width: 9
+      height: 13
+      speed: 2
+      lifetime: 90
+      damage: 32
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      collidesTeam: true
+      healPercent: 2
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: 69a25e
+      backColor: 69a25e
+      lightColor: 69a25e
+      lightRadius: 40
+      lightOpacity: 0.7
+      hitSound: dullExplosion
+      despawnSound: dullExplosion
+      frontColor: 9be98b
+    }
+  }
+  {
+    x: 0
+    y: -8
+    reload: 216
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    name: elucidate-weapon-back
+    mirror: true
+    rotate: false
+    shootCone: 90
+    shootSound: artillery
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 1.5
+      lifetime: 120
+      trailColor: 69a25e
+      backColor: 69a25e
+      frontColor: 9be98b
+      damage: 3
+      width: 12
+      height: 17
+      collidesTeam: true
+      healPercent: 2
+      splashDamage: 3
+      splashDamageRadius: 16
+      despawnUnit: asthosus-heal-node
+      despawnUnitCount: 1
+      despawnUnitRadius: 1
+    }
+  }
+]
