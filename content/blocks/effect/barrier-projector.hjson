@@ -19,7 +19,7 @@ consumes: {
   items: {
     items: [
       {
-        item: crosium
+        item: item-crosium
         amount: 1
       }
     ]
