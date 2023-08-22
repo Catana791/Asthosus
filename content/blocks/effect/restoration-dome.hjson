@@ -1,4 +1,4 @@
-research: ferrinite-wire
+research: restoration-projector
 type: RegenProjector
 name: Restoration Dome
 description: Slowly restores the health of nearby allied blocks. Requires power. Has more range than a normal Restoration Projector and regenerates health faster.
@@ -31,7 +31,6 @@ requirements: [
   item-obsidian/45
 ]
 category: effect
-research: restoration-projector
 drawer: {
   type: DrawMulti
   drawers: [
