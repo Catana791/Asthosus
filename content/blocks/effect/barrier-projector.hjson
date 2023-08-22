@@ -16,14 +16,4 @@ requirements: [
 ]
 consumes: {
   power: 4
-  items: {
-    items: [
-      {
-        item: item-crosium
-        amount: 1
-      }
-    ]
-    optional: true
-    booster: true
-  }
 }
