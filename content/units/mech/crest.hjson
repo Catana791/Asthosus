@@ -54,7 +54,7 @@ weapons: [
     ]
     name: crest-weapon
     layerOffset: -0.01
-    x: -23
+    x: -24
     y: 0
     mirror: true
     shootY: 18
@@ -65,8 +65,8 @@ weapons: [
     rotate: false
     bullet: {
       type: BasicBulletType
-      height: 32
-      width: 32
+      height: 20
+      width: 20
       pierce: true
       pierceCap: 4
       shootEffect: shootTitan
@@ -93,6 +93,7 @@ weapons: [
     reload: 319
     shootSound: shoot-dull
     inaccuracy: 9
+    velocityRnd: 0.21
     shoot: {
       shots: 6
       shotDelay: 8
