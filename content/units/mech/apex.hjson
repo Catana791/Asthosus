@@ -1,13 +1,13 @@
 type: mech
 name: Apex
-description: "A large attack unit equipped with [WIP]"
+description: "Fires harpoons and burst of flak at enemy targets."
 speed: 0.38
 flying: false
 health: 9780
 armor: 10
 outlineColor: 44413c
-hitSize: 20
 mechLegColor: 44413c
+hitSize: 22
 rotateSpeed: 2
 parts: [
   {
