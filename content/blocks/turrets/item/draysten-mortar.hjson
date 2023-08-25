@@ -16,7 +16,8 @@ shootWarmupSpeed: 0.05
 reload: 240
 minWarmup: 0.99
 warmupMaintainTime: 120
-shootSound: shoot-loud-heavy
+shootSound: shoot-mortar
+minRange: 40
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
