@@ -13,6 +13,7 @@ requirements: [
   item-draysten/140
 ]
 shootWarmupSpeed: 0.05
+reload: 240
 minWarmup: 0.99
 warmupMaintainTime: 120
 shootSound: shoot-loud-heavy
@@ -47,7 +48,7 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveX: 1
+      moveX: 2
     }
   ]
 }
