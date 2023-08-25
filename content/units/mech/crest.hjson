@@ -1,6 +1,6 @@
 type: mech
 name: Crest
-description: "A large attack unit equipped with two launchers, firing high-damage piercing bullets and a cluster artillery launcher."
+description: "Fires cluster artillery at enemy targets. Equipped with dual launchers."
 speed: 0.21
 flying: false
 health: 25100
