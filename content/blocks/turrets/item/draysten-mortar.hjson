@@ -29,7 +29,6 @@ drawer: {
       mirror: false
       outline: false
       progress: warmup 
-      moveY: -3
       moves: [
         {
           type: PartMove
@@ -62,11 +61,12 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 220
+    splashDamage: 420
     splashDamageRadius: 40
+    splashDamagePierce: true
     incendChance: 1
-    incendAmount: 1
-    incendSpread: 1
+    incendAmount: 8
+    incendSpread: 2
     status: burning
     statusDuration: 240
     ammoMultiplier: 1
@@ -90,7 +90,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 25
+        splashDamage: 75
       }
     }
   }
@@ -103,11 +103,12 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 290
+    splashDamage: 500
     splashDamageRadius: 40
+    splashDamagePierce: true
     incendChance: 1
-    incendAmount: 1
-    incendSpread: 1
+    incendAmount: 8
+    incendSpread: 2
     status: burning
     statusDuration: 300
     ammoMultiplier: 1
@@ -131,7 +132,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 30
+        splashDamage: 90
       }
     }
   }
@@ -144,11 +145,12 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 340
+    splashDamage: 580
     splashDamageRadius: 40
+    splashDamagePierce: true
     incendChance: 1
-    incendAmount: 1
-    incendSpread: 1
+    incendAmount: 8
+    incendSpread: 2
     status: burning
     statusDuration: 360
     ammoMultiplier: 1
@@ -172,7 +174,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 35
+        splashDamage: 115
       }
     }
   }
