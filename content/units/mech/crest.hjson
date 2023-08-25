@@ -73,8 +73,8 @@ weapons: [
       smokeEffect: shootSmokeMissile
       buildingDamageMultiplier: 0.75
       despawnSound: explosionBig
-      damage: 310
-      splashDamage: 180
+      damage: 300
+      splashDamage: 160
       splashDamageRadius: 32
       sprite: large-orb
       trailChance: -1
@@ -112,7 +112,7 @@ weapons: [
       width: 11
       height: 17
       lifetime: 90
-      splashDamage: 210
+      splashDamage: 190
       shootEffect: surgeCruciSmoke
       smokeEffect: surgeCruciSmoke
       splashDamageRadius: 16
