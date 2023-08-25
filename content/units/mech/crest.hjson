@@ -59,7 +59,7 @@ weapons: [
     mirror: true
     shootY: 18
     alternate: true
-    reload: 102
+    reload: 51
     shootSound: shoot-heavy-cannon
     ejectEffect: casing3
     rotate: false
