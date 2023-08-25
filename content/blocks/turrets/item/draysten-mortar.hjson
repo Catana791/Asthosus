@@ -54,10 +54,9 @@ ammoPerShot: 3
 ammoTypes: {
   item-crosium: {
     type: ArtilleryBulletType
-    trailInterval: 5
-    trailRotation: true
     trailChance: -1
-    trailEffect: missileTrail
+    trailWidth: 2.2
+    trailLength: 18
     speed: 2
     lifetime: 120
     width: 12
@@ -72,16 +71,16 @@ ammoTypes: {
     ammoMultiplier: 1
     despawnSound: explosionbig
     fragRandomSpread: 0
-    fragSpread: 22.5
+    fragSpread: 45
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
-    fragBullets: 16
+    fragBullets: 8
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2
-      lifetime: 30
+      lifetime: 15
       damage: 0
       collides: false
       fragRandomSpread: 0
@@ -97,9 +96,8 @@ ammoTypes: {
   item-barite-webbing: {
     type: ArtilleryBulletType
     trailChance: -1
-    trailInterval: 5
-    trailRotation: true
-    trailEffect: missileTrail
+    trailWidth: 2.2
+    trailLength: 18
     speed: 2
     lifetime: 120
     width: 12
@@ -114,16 +112,16 @@ ammoTypes: {
     ammoMultiplier: 1
     despawnSound: explosionbig
     fragRandomSpread: 0
-    fragSpread: 22.5
+    fragSpread: 45
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
-    fragBullets: 16
+    fragBullets: 8
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2
-      lifetime: 30
+      lifetime: 15
       damage: 0
       collides: false
       fragRandomSpread: 0
@@ -139,9 +137,8 @@ ammoTypes: {
   item-draysten: {
     type: ArtilleryBulletType
     trailChance: -1
-    trailInterval: 5
-    trailRotation: true
-    trailEffect: missileTrail
+    trailWidth: 2.2
+    trailLength: 18
     speed: 2
     lifetime: 120
     width: 12
@@ -156,16 +153,16 @@ ammoTypes: {
     ammoMultiplier: 1
     despawnSound: explosionbig
     fragRandomSpread: 0
-    fragSpread: 22.5
+    fragSpread: 45
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
-    fragBullets: 16
+    fragBullets: 8
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2
-      lifetime: 30
+      lifetime: 15
       damage: 0
       collides: false
       fragRandomSpread: 0
