@@ -72,6 +72,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect: shootSmokeMissile
       buildingDamageMultiplier: 0.75
+      despawnSound: explosionBig
       damage: 200
       splashDamage: 110
       splashDamageRadius: 32
@@ -116,6 +117,7 @@ weapons: [
       smokeEffect: surgeCruciSmoke
       splashDamageRadius: 16
       despawnUnitCount: 1
+      despawnSound: dullExplosion
       despawnUnitRadius: 1
       despawnUnit: asthosus-lightning-emitter
     }
