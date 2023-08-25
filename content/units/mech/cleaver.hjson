@@ -1,10 +1,11 @@
 type: mech
 name: Cleaver
-description: A large attack unit equipped with an electric mine launcher and a machine gun. 
+description: Uses a gatling gun to pelt enemy targets. Equipped with an electric mine launcher.
 speed: 0.45
 flying: false
 health: 1090
 armor: 9
+hitSize: 14
 outlineColor: 44413c
 mechLegColor: 44413c
 weapons: [
