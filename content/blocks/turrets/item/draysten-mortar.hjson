@@ -12,6 +12,9 @@ requirements: [
   item-obsidian/120
   item-draysten/140
 ]
+consumes: {
+  liquid: pressure/0.2
+}
 shootWarmupSpeed: 0.05
 reload: 240
 minWarmup: 0.99
