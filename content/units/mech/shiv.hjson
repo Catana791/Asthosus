@@ -1,6 +1,6 @@
 type: mech
 name: Shiv
-description: A standard attack unit. Powerful in large amounts but weak on its own. Deals high damage at close range.
+description: Fires sapping lasers at nearby targets. Strong in numbers, weak in few.
 speed: 0.5
 flying: false
 health: 210
