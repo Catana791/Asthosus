@@ -73,8 +73,8 @@ weapons: [
       smokeEffect: shootSmokeMissile
       buildingDamageMultiplier: 0.75
       despawnSound: explosionBig
-      damage: 200
-      splashDamage: 110
+      damage: 310
+      splashDamage: 180
       splashDamageRadius: 32
       sprite: large-orb
       trailChance: -1
@@ -96,7 +96,7 @@ weapons: [
     inaccuracy: 9
     velocityRnd: 0.21
     shoot: {
-      shots: 6
+      shots: 7
       shotDelay: 8
     }
     rotate: false
