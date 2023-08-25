@@ -35,11 +35,6 @@ drawer: {
           progress: recoil
           y: 6
         }
-        {
-          type: PartMove
-          progress: reload
-          y: -6
-        }
       ]
     }
     {
