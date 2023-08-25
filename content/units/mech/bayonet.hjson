@@ -1,6 +1,6 @@
 type: mech
 name: Bayonet
-description: An attack unit equipped with a frag cannon and miniature rocket launcher. 
+description: Launches frag artillery at nearby targets. Equipped with a missile launcher.
 speed: 0.5
 flying: false
 health: 710
