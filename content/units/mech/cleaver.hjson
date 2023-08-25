@@ -5,6 +5,7 @@ speed: 0.45
 flying: false
 health: 1090
 armor: 9
+hitSize: 14
 outlineColor: 44413c
 mechLegColor: 44413c
 weapons: [
