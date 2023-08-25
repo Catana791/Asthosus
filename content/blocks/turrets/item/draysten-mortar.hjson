@@ -47,48 +47,137 @@ drawer: {
     }
   ]
 }
+shootEffect: surgeCruciSmoke
+smokeEffect: shootSmokeMissile
 range: 240
+ammoPerShot: 3
 ammoTypes: {
   item-crosium: {
     type: ArtilleryBulletType
+    trailInterval: 5
+    trailRotation: true
+    trailChance: -1
+    trailEffect: missileTrail
     speed: 2
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 80
+    splashDamage: 220
     splashDamageRadius: 40
     incendChance: 1
-    incendAmount: 0.5
-    incendSpread: 0.5
+    incendAmount: 1
+    incendSpread: 1
     status: burning
     statusDuration: 240
+    ammoMultiplier: 1
+    despawnSound: explosionbig
+    fragRandomSpread: 0
+    fragSpread: 22.5
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 16
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 30
+      damage: 0
+      collides: false
+      fragRandomSpread: 0
+      fragAngle: 90
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        killShooter: false
+        splashDamage: 25
+      }
+    }
   }
   item-barite-webbing: {
     type: ArtilleryBulletType
+    trailChance: -1
+    trailInterval: 5
+    trailRotation: true
+    trailEffect: missileTrail
     speed: 2
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 110
+    splashDamage: 290
     splashDamageRadius: 40
     incendChance: 1
-    incendAmount: 0.5
-    incendSpread: 0.5
+    incendAmount: 1
+    incendSpread: 1
     status: burning
     statusDuration: 300
+    ammoMultiplier: 1
+    despawnSound: explosionbig
+    fragRandomSpread: 0
+    fragSpread: 22.5
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 16
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 30
+      damage: 0
+      collides: false
+      fragRandomSpread: 0
+      fragAngle: 90
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        killShooter: false
+        splashDamage: 30
+      }
+    }
+  }
   }
   item-draysten: {
     type: ArtilleryBulletType
+    trailChance: -1
+    trailInterval: 5
+    trailRotation: true
+    trailEffect: missileTrail
     speed: 2
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 150
+    splashDamage: 340
     splashDamageRadius: 40
     incendChance: 1
-    incendAmount: 0.5
-    incendSpread: 0.5
+    incendAmount: 1
+    incendSpread: 1
     status: burning
     statusDuration: 360
+    ammoMultiplier: 1
+    despawnSound: explosionbig
+    fragRandomSpread: 0
+    fragSpread: 22.5
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 16
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 30
+      damage: 0
+      collides: false
+      fragRandomSpread: 0
+      fragAngle: 90
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        killShooter: false
+        splashDamage: 35
+      }
+    }
+  }
   }
 }
