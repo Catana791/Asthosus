@@ -112,7 +112,7 @@ weapons: [
       width: 11
       height: 17
       lifetime: 90
-      splashDamage: 95
+      splashDamage: 210
       shootEffect: surgeCruciSmoke
       smokeEffect: surgeCruciSmoke
       splashDamageRadius: 16
