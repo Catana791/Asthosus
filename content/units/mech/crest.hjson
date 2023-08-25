@@ -1,0 +1,116 @@
+type: mech
+name: Crest
+description: "A large attack unit equipped with two launchers, firing high-damage piercing bullets and a cluster artillery launcher."
+speed: 0.21
+flying: false
+health: 25100
+armor: 14
+outlineColor: 44413c
+hitSize: 30
+mechLegColor: 44413c
+rotateSpeed: 1.2
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -0.89
+    radius: 11
+    followRotation: true
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: 0.89
+    radius: 9
+    sides: 8
+    followRotation: true
+  }
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff33
+    outline: false
+    mirror: false
+  }
+]
+weapons: [
+  {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    name: crest-weapon
+    layerOffset: -0.01
+    x: -25
+    y: -1
+    mirror: true
+    shootY: 32
+    alternate: true
+    reload: 102
+    shootSound: shoot-heavy-cannon
+    ejectEffect: casing3
+    rotate: false
+    bullet: {
+      type: BasicBulletType
+      pierce: true
+      pierceCap: 4
+      buildingDamageMultiplier: 0.75
+      damage: 200
+      splashDamage: 110
+      splashDamageRadius: 32
+      sprite: large-orb
+      trailChance: -1
+      trailSpacing: 4
+      trailEffect: surgeCruciSmoke
+      trailRotation: true
+      trailLength: 21
+      trailWidth: 4
+      speed: 3
+      lifetime: 90
+      spin: 12
+    }
+  }
+  {
+    x: 0
+    y: -3
+    reload: 319
+    shootSound: shoot-dull
+    inaccuracy: 9
+    shoot: {
+      shots: 6
+      shotDelay: 8
+    }
+    rotate: false
+    mirror: false
+    layerOffset: -0.01
+    bullet: {
+      type: ArtilleryBulletType
+      trailChance: -1
+      trailWidth: 2
+      trailLength: 16
+      speed: 3
+      width: 11
+      height: 17
+      lifetime: 90
+      splashDamage: 95
+      splashDamageRadius: 16
+      despawnUnitCount: 1
+      despawnUnitRadius: 1
+      despawnUnit: asthosus-lightning-emitter
+    }
+  }
+]
+research: apex
