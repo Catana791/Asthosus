@@ -33,7 +33,7 @@ drawer: {
         {
           type: PartMove
           progress: recoil
-          y: 6
+          y: 16
         }
       ]
     }
