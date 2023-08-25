@@ -54,10 +54,10 @@ weapons: [
     ]
     name: crest-weapon
     layerOffset: -0.01
-    x: -25
-    y: -1
+    x: -23
+    y: 0
     mirror: true
-    shootY: 32
+    shootY: 18
     alternate: true
     reload: 102
     shootSound: shoot-heavy-cannon
@@ -65,8 +65,12 @@ weapons: [
     rotate: false
     bullet: {
       type: BasicBulletType
+      height: 32
+      width: 32
       pierce: true
       pierceCap: 4
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeMissile
       buildingDamageMultiplier: 0.75
       damage: 200
       splashDamage: 110
@@ -77,7 +81,7 @@ weapons: [
       trailEffect: surgeCruciSmoke
       trailRotation: true
       trailLength: 21
-      trailWidth: 4
+      trailWidth: 5
       speed: 3
       lifetime: 90
       spin: 12
@@ -97,7 +101,8 @@ weapons: [
     mirror: false
     layerOffset: -0.01
     bullet: {
-      type: ArtilleryBulletType
+      type: BasicBulletType
+      sprite: shell
       trailChance: -1
       trailWidth: 2
       trailLength: 16
@@ -106,6 +111,8 @@ weapons: [
       height: 17
       lifetime: 90
       splashDamage: 95
+      shootEffect: surgeCruciSmoke
+      smokeEffect: surgeCruciSmoke
       splashDamageRadius: 16
       despawnUnitCount: 1
       despawnUnitRadius: 1
