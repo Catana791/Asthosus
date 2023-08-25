@@ -1,0 +1,98 @@
+type: ItemTurret
+name: Draysten Mortar
+description: A powerful turret that launches Artillery shells over long distances. Requires pressure. 
+size: 4
+squareSprite: false
+category: turret
+research: accendret
+requirements: [
+  item-ferrinite/850
+  item-lodestone/500
+  item-lithium/300
+  item-obsidian/120
+  item-draysten/140
+]
+shootWarmupSpeed: 0.05
+minWarmup: 0.99
+warmupMaintainTime: 120
+shootSound: shoot-loud-heavy
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -actuator
+      under: false
+      mirror: false
+      outline: false
+      progress: warmup 
+      moveY: -3
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: 6
+        }
+        {
+          type: PartMove
+          progress: reload
+          y: -6
+        }
+      ]
+    }
+    {
+      type: RegionPart
+      suffix: -body
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 1
+    }
+  ]
+}
+range: 240
+ammoTypes: {
+  item-crosium: {
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 120
+    width: 12
+    height: 20
+    splashDamage: 80
+    splashDamageRadius: 40
+    incendChance: 1
+    incendAmount: 0.5
+    incendSpread: 0.5
+    status: burning
+    statusDuration: 240
+  }
+  item-barite-webbing: {
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 120
+    width: 12
+    height: 20
+    splashDamage: 110
+    splashDamageRadius: 40
+    incendChance: 1
+    incendAmount: 0.5
+    incendSpread: 0.5
+    status: burning
+    statusDuration: 300
+  }
+  item-draysten: {
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 120
+    width: 12
+    height: 20
+    splashDamage: 150
+    splashDamageRadius: 40
+    incendChance: 1
+    incendAmount: 0.5
+    incendSpread: 0.5
+    status: burning
+    statusDuration: 360
+  }
+}
