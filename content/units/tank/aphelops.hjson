@@ -1,6 +1,6 @@
 type: tank
 name: Aphelops
-description: A heavy assault tank equipped with an emp launcher and smaller cannons. Also equipped with two point defense mounts.
+description: Fires EMP bolts at enemy targets. Equipped with cannons and point defense mounts.
 hitSize: 29
 crushDamage: 4
 treadPullOffset: 4
