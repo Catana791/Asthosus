@@ -1,10 +1,10 @@
 type: legs
-  name: Enlighten
-  description: A small legged unit capable of slowly building structures and healing. Automatically rebuilds structures and helps the player build.
+name: Enlighten
+description: A small legged unit capable of slowly building structures and healing. Automatically rebuilds structures and helps the player build.
 speed: 0.7
-  health: 410
-  armor: 4
-  flying: false
+health: 410
+armor: 4
+flying: false
 controller: BuilderAI
 commands: [move, boost, mine, repair, rebuild, assist]
 mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
@@ -14,18 +14,19 @@ mineWalls: true
 mineFloor: true
 legExtension: -2.5
 buildSpeed: 0.85
-  mineSpeed: 4
-  mineTier: 1
-  legMoveSpace: 0.9
+mineSpeed: 4
+mineTier: 1
+legMoveSpace: 0.9
 isEnemy: false
 hovering: false
-  legCount: 6
+legCount: 6
 legLength: 11
 legSpeed: 0.23
 legForwardScl: 0.56
-  itemCapacity: 40
-  outlineColor: 44413c
-  weapons: [
+itemCapacity: 40
+outlineColor: 44413c
+hitSize: 12
+weapons: [
 {
   x: -8
     y: 0
