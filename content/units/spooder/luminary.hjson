@@ -1,24 +1,25 @@
 type: legs
-  name: Luminary
-  description: A small legged unit capable of slowly building structures and healing. Automatically repairs damaged structures.
+name: Luminary
+description: A small legged unit capable of slowly building structures and healing. Automatically repairs damaged structures.
 speed: 0.6
-  health: 170
+health: 170
 controller: RepairAI
 commands: [move, repair, rebuild, assist]
-  armor: 1
-  flying: false
+armor: 1
+flying: false
 legExtension: -2.5
 buildSpeed: 0.6
-  legMoveSpace: 0.9
+legMoveSpace: 0.9
 hovering: false
 isEnemy: false
-  legCount: 6
+legCount: 6
 legLength: 8
 legSpeed: 0.23
 legForwardScl: 0.56
-  itemCapacity: 25
-  outlineColor: 44413c
-  weapons: [
+itemCapacity: 25
+outlineColor: 44413c
+hitSize: 8
+weapons: [
 {
   x: 0
     y: -3
