@@ -1,7 +1,7 @@
 type: legs
 name: Elucidate
 description: A large spiderlike unit capable of repairing damaged structures, building and mining. Equipped with a Shield Projector.
-hitSize: 16
+hitSize: 22
 health: 6750
 armor: 9
 abilities: [
