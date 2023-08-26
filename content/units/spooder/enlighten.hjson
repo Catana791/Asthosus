@@ -6,10 +6,8 @@ health: 410
 armor: 4
 flying: false
 controller: BuilderAI
-commands: [move, boost, mine, repair, rebuild, assist]
+commands: [move, mine, repair, rebuild, assist]
 mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
-canBoost: true
-boostMultiplier: 1.2
 mineWalls: true
 mineFloor: true
 legExtension: -2.5
