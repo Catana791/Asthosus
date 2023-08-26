@@ -1,7 +1,7 @@
 type: tank
 name: Trigon
-description: An assault tank unit equipped with a rocket launcher. Durable and fast.
-hitSize: 12
+description: Quick and durable. Equipped with a rocket launcher.
+hitSize: 19
 treadRects: [
   {
     x: -31

@@ -1,7 +1,7 @@
 type: tank
 name: Aprotodon
-description: A big assault tank unit equipped with a railgun. Durable and fast (for a tank).
-hitSize: 16.5
+description: Quick and durable. Equipped with a beam railgun.
+hitSize: 28
 treadRects: [
   {
     x: 27
