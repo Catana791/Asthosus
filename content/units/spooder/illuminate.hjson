@@ -15,9 +15,7 @@ legMoveSpace: 0.9
 hovering: false
 legCount: 6
 legLength: 18
-canBoost: true
-boostMultiplier: 1.3
-commands: [move, boost, mine, repair, rebuild, assist]
+commands: [move, mine, repair, rebuild, assist]
 mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
 mineWalls: true
 mineFloor: true
