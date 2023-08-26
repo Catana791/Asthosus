@@ -13,6 +13,7 @@ consumes: {
     liquid-oasis-water/0.3
   ]
 }
+ignoreLiquidFullness: true
 ambientSound: extractLoop
 ambientSoundVolume: 0.09
 craftEffect: {
