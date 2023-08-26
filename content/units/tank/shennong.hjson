@@ -1,6 +1,6 @@
 type: tank
 name: Shennong
-description: A fast assault tank equipped with a basic weaving machine gun.
+description: Fires weaving machine bullets at enemy targets.
 hitSize: 8
 treadPullOffset: 3
 omniMovement: false
