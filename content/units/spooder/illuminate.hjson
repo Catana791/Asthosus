@@ -1,6 +1,6 @@
 type: legs
 name: Illuminate
-description: A medium sized legged unit capable of building structures and healing. Automatically repairs damaged structures.
+description: Capable of building and automatically repairing damaged structures. Assists other units in construction. Equipped with artillery and heal cannons.
 speed: 0.55
 health: 790
 armor: 9
@@ -15,9 +15,7 @@ legMoveSpace: 0.9
 hovering: false
 legCount: 6
 legLength: 18
-canBoost: true
-boostMultiplier: 1.3
-commands: [move, boost, mine, repair, rebuild, assist]
+commands: [move, mine, repair, rebuild, assist]
 mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
 mineWalls: true
 mineFloor: true
@@ -25,6 +23,7 @@ legSpeed: 0.23
 legForwardScl: 0.56
 itemCapacity: 80
 outlineColor: 44413c
+hitSize: 15
 weapons: [
   {
     x: -9

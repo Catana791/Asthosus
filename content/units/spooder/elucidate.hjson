@@ -1,7 +1,7 @@
 type: legs
 name: Elucidate
-description: A large spiderlike unit capable of repairing damaged structures, building and mining. Equipped with a Shield Projector.
-hitSize: 16
+description: Capable of building and automatically repairing damaged structures. Equipped with dual artillery and heal cannons. Projects a shield to protect nearby allied units.
+hitSize: 22
 health: 6750
 armor: 9
 abilities: [
@@ -50,13 +50,11 @@ drag: 0.1
 speed: 0.52
 rotateSpeed: 2.4
 hovering: false
-canBoost: true
-boostMultiplier: 1.3
 drownTimeMultiplier: 2
 itemCapacity: 100
 controller: RepairAI
 mineTier: 5
-commands: [move, boost, mine, repair, rebuild, assist]
+commands: [move, mine, repair, rebuild, assist]
 mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
 weapons: [
   {
