@@ -1,6 +1,6 @@
 type: legs
 name: Enlighten
-description: A small legged unit capable of slowly building structures and healing. Automatically rebuilds structures and helps the player build.
+description: Capable of building and automatically repairing damaged structures. Assists other units in construction. Equipped with a healing beam and arc cannon.
 speed: 0.7
 health: 410
 armor: 4
