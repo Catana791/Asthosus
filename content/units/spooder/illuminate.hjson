@@ -1,6 +1,6 @@
 type: legs
 name: Illuminate
-description: A medium sized legged unit capable of building structures and healing. Automatically repairs damaged structures.
+description: Capable of building and automatically repairing damaged structures. Assists other units in construction. Equipped with artillery and heal cannons.
 speed: 0.55
 health: 790
 armor: 9
