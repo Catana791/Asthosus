@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Cretite Turbine
-description: Creates medium amounts of power by using highly flammable Cretite and Ferrofluid as an insulator and coolant. 
+description: Creates medium amounts of power by using highly flammable Cretite and Purified Oasis Water as coolant. 
 size: 2
 category: power
 squareSprite: false
@@ -16,7 +16,7 @@ consumes: {
   items: [
     item-cretite/1
   ]
-  liquid: liquid-ferrofluid/0.1
+  liquid: liquid-purified-oasis-water/0.2
 }
 itemDuration: 180
 generateEffectChance: 2
@@ -54,7 +54,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-ferrofluid
+      drawLiquid: liquid-purified-oasis-water
       alpha: 0.7
       padding: 2.05
     }
