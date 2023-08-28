@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Discharge Generator
-description: Produces power by discharging charged materials. Uses Ferrofluid as an insulator to protect the reactor.
+description: Produces power by discharging charged materials. Uses Purified Oasis Water as coolant.
 size: 3
 drawer: {
   type: DrawMulti
@@ -11,7 +11,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-ferrofluid
+      drawLiquid: liquid-purified-oasis-water
       alpha: 0.7
     }
     {
@@ -36,7 +36,7 @@ requirements: [
   item-lithium/55
 ]
 consumes: {
-  liquid: liquid-ferrofluid/0.05
+  liquid: liquid-purified-oasis-water/0.1
   itemCharged: {
     minCharge: 0.1
   } 
