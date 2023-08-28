@@ -51,23 +51,6 @@ ammoTypes: {
     layer: 98
     sprite: asthosus-drop-bullet
   }
-  liquid-ferrofluid: {
-    despawnEffect: none
-    hitEffect: none
-    mixColorTo: 000000 
-    mixColorFrom: 242424
-    type: BasicBulletType
-    width: 9
-    height: 12
-    speed: 1.5
-    lifetime: 80
-    knockback: 0.6
-    status: tarred
-    statusDuration: 120
-    damage: 3
-    layer: 98
-    sprite: asthosus-drop-bullet
-  } 
 }
 drawer: {
   type: DrawTurret
