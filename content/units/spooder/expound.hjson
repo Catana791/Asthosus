@@ -66,7 +66,21 @@ controller: RepairAI
 commands: [move, repair, rebuild, assist]
 weapons: [
   {
-    x: -9
+    x: 11
+    y: 8
+    mirror: true
+    rotate: true
+    type: RepairBeamWeapon
+    repairSpeed: 1
+    rotateSpeed: 3
+    targetUnits: true
+    targetBuildings: false
+    bullet: {
+      maxRange: 160
+    }
+  }
+  {
+    x: -16
     name: elucidate-weapon-front
     y: 0
     reload: 51
@@ -140,11 +154,11 @@ weapons: [
     mirror: false
     rotate: true
     shootCone: 90
-    shootSound: artillery
+    shootSound: shoot-laser
     bullet: {
       type: LaserBulletType
       length: 160
-      width: 4
+      width: 6
       damage: 30
       collidesTeam: true
       healPercent: 3
