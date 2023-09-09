@@ -169,10 +169,13 @@ weapons: [
       }
     ]
     shoot: {
-      type: ShootSpread
+      type: ShootBarrel
       shots: 2
-      spread: 6
       shotDelay: 45
+      barrels: [
+        -3, 0, 0,
+        3, 0, 0
+      ]
     }
     bullet: {
       type: ArtilleryBulletType
