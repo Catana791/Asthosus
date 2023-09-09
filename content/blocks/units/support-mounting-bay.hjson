@@ -60,4 +60,4 @@ squareSprite: false
 consumes: {
   power: 2
 }
-areaSize: 12
+areaSize: 13
