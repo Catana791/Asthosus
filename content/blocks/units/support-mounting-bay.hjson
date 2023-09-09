@@ -55,6 +55,18 @@ plans: [
     ]
     time: 10500
   }
+  {
+    type: AssemblerUnitPlan
+    unit: expound
+    requirements: [
+      asthosus-lithium-wall-large/76
+      asthosus-obsidian-wall-large/34
+      asthosus-crosium-wall-large/50
+      asthosus-webbing-wall-large/20
+      asthosus-draysten-wall-large/22
+    ]
+    time: 24900
+  }
 ]
 squareSprite: false
 consumes: {
