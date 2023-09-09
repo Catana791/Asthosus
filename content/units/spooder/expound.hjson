@@ -1,0 +1,196 @@
+type: legs
+name: Expound
+description: Capable of building and automatically repairing damaged structures. Equipped with a double barrel healing launcher, a piercing heal laser array and two missile launchers.
+hitSize: 26
+health: 19700
+armor: 13
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 80
+    max: 4150
+    cooldown: 420
+    regen: 0.75
+  }
+  {
+    type: UnitSpawnAbility
+    spawnTime: 600
+    unit: luminary
+    spawnX: 0
+    spawnY: 0
+  }
+]
+research: elucidate
+legCount: 8
+legMoveSpace: 0.8
+legPairOffset: 3
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff33
+    outline: false
+    mirror: false
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: 9be98b
+    color2: 69a25e
+    spinSpeed: -0.9
+    radius: 3
+    sides: 8
+    followRotation: true
+  }
+]
+legLength: 50
+legExtension: -17
+legBaseOffset: 8
+stepShake: 1
+legLengthScl: 0.93
+buildSpeed: 2.2
+rippleScale: 3
+legSpeed: 0.19
+drag: 0.1
+speed: 0.41
+rotateSpeed: 1.95
+hovering: false
+drownTimeMultiplier: 2
+legSplashDamage: 20
+legSplashRange: 32
+itemCapacity: 200
+controller: RepairAI
+commands: [move, repair, rebuild, assist]
+weapons: [
+  {
+    x: -9
+    name: elucidate-weapon-front
+    y: 0
+    reload: 51
+    shootSound: shoot-dull
+    mirror: true
+    alternate: false
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    rotate: true
+    inaccuracy: 5
+    shoot: {
+      shots: 5
+      shotDelay: 6
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.09
+      homingDelay: 30
+      weaveScale: 3
+      weaveMag: 3
+      width: 9
+      height: 13
+      speed: 2
+      lifetime: 90
+      damage: 32
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      collidesTeam: true
+      healPercent: 2
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: 69a25e
+      backColor: 69a25e
+      lightColor: 69a25e
+      lightRadius: 40
+      lightOpacity: 0.7
+      hitSound: dullExplosion
+      despawnSound: dullExplosion
+      frontColor: 9be98b
+    }
+  }
+  {
+    x: 0
+    y: 12
+    reload: 91
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    shoot: {
+      shots: 3
+    }
+    inaccuracy: 3
+    name: elucidate-weapon-back
+    mirror: false
+    rotate: true
+    shootCone: 90
+    shootSound: artillery
+    bullet: {
+      type: LaserBulletType
+      length: 160
+      width: 4
+      damage: 30
+      collidesTeam: true
+      healPercent: 3
+      colors: [69a25e, 9be98b, ffffff]
+    }
+  }
+  {
+    name: expound-weapon
+    x: 0
+    y: -16
+    reload: 90
+    rotate: false
+    mirror: false
+    shootSound: shoot-large-artillery
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    shoot: {
+      type: ShootSpread
+      shots: 2
+      spread: 6
+      shotDelay: 45
+    }
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 1.5
+      lifetime: 120
+      trailColor: 69a25e
+      backColor: 69a25e
+      frontColor: 9be98b
+      damage: 6
+      width: 12
+      height: 17
+      collidesTeam: true
+      healPercent: 2
+      splashDamage: 3
+      splashDamageRadius: 16
+      despawnUnit: asthosus-heal-node-2
+      despawnUnitCount: 1
+      despawnUnitRadius: 1
+    }
+  }
+]
