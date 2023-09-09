@@ -3,6 +3,7 @@ name: Expound
 description: Capable of building and automatically repairing damaged structures. Equipped with a double barrel healing launcher, a piercing heal laser array and two missile launchers.
 hitSize: 26
 health: 19700
+outlineColor: 44413c
 armor: 13
 abilities: [
   {
