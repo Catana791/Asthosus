@@ -3,6 +3,7 @@ name: Elucidate
 description: Capable of building and automatically repairing damaged structures. Equipped with dual artillery and heal cannons. Projects a shield to protect nearby allied units.
 hitSize: 22
 health: 6750
+outlineColor: 44413c
 armor: 9
 abilities: [
   {
