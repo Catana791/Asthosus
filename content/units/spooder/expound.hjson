@@ -157,7 +157,7 @@ weapons: [
     reload: 90
     rotate: false
     mirror: false
-    shootSound: shoot-large-artillery
+    shootSound: shoot-big-artillery
     parts: [
       {
         type: RegionPart
