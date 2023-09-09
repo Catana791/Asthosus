@@ -40,8 +40,8 @@ parts: [
     color1: 9be98b
     color2: 69a25e
     spinSpeed: -0.9
-    radius: 3
-    sides: 8
+    radius: 5
+    sides: 6
     followRotation: true
   }
 ]
