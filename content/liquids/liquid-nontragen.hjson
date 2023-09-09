@@ -7,3 +7,4 @@ heatCapacity: 0.9
 color: 4f9d97
 gasColor: 84dca0
 research: liquid-oasis-water
+coolant: true
