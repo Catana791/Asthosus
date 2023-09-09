@@ -53,9 +53,7 @@ hovering: false
 drownTimeMultiplier: 2
 itemCapacity: 100
 controller: RepairAI
-mineTier: 5
-commands: [move, mine, repair, rebuild, assist]
-mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
+commands: [move, repair, rebuild, assist]
 weapons: [
   {
     x: -9
