@@ -25,5 +25,15 @@ itemCapacity: 0
 outlineColor: 44413c
 research: aphelops
 weapons: [
-  
+  {
+    name: annectodon-weapon
+    x: 0
+    y: 0
+    reload: 10
+    rotate: true
+    mirror: false
+    bullet: 
+
+    }
+  }
 ]
