@@ -26,6 +26,16 @@ outlineColor: 44413c
 research: aphelops
 weapons: [
   {
+    parts: [
+        {
+          type: RegionPart
+          suffix: -glow
+          blending: additive
+          color: ffffff33
+          outline: false
+          mirror: false
+       }
+    ]
     name: annectodon-weapon
     x: 0
     y: 0
