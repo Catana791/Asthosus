@@ -32,7 +32,7 @@ weapons: [
     reload: 10
     rotate: true
     mirror: false
-    bullet: 
+    bullet: {
 
     }
   }
