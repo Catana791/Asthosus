@@ -1,0 +1,29 @@
+type: tank
+name: Annectodon
+description: WIP
+hitSize: 30
+crushDamage: 6
+treadPullOffset: 6
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 18760
+armor: 14
+parts: [
+    {
+      type: RegionPart
+      suffix: -glow
+      blending: additive
+      color: ffffff33
+      outline: false
+      mirror: false
+   }
+]
+speed: 0.59
+rotateSpeed: 1.92
+itemCapacity: 0
+outlineColor: 44413c
+research: aphelops
+weapons: [
+  
+]
