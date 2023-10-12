@@ -42,22 +42,20 @@ weapons: [
     reload: 290
     rotate: true
     mirror: false
+    rotateSpeed: 1.5
     shootSound: shoot-loud-heavy
-    chargeSound: green-laser-charge-long
-    shoot: { 
-      firstShotDelay: 300
-    }
     bullet: {
       spawnBullets: [
         {
           type: LaserBulletType
           length: 240
-          width: 6
+          width: 12
           sideAngle: 45
           sideLength: 50
-          sideWidth: 2.2
+          sideWidth: 4
           colors: [baa164, edc66c, ffffff]
           damage: 0
+          lifetime: 119
         }
       ]
       type: BasicBulletType
@@ -81,9 +79,12 @@ weapons: [
       hitEffect: massiveExplosion
       despawnEffect: massiveExplosion
       removeAfterPierce: false
-      lightningDelay: 6
-      lightningSpacing: 20
-      lightningType: {
+      intervalAngle: 0
+      intervalBullets: 1
+      intervalDelay: -1
+      intervalRandomSpread: 3
+      bulletInterval: 6
+      intervalBullet: {
         type: ExplosionBulletType
         killShooter: false
         splashDamageRadius: 40
