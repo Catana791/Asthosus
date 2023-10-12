@@ -49,18 +49,18 @@ weapons: [
         {
           type: LaserBulletType
           length: 240
-          width: 12
+          width: 16
           sideAngle: 45
           sideLength: 50
-          sideWidth: 4
+          sideWidth: 1.5
           colors: [baa164, edc66c, ffffff]
           damage: 0
-          lifetime: 119
+          lifetime: 126
         }
       ]
       type: BasicBulletType
-      width: 22
-      height: 22
+      width: 12
+      height: 16
       sprite: large-orb
       frontColor: edc66c
       backColor: baa164
@@ -92,6 +92,37 @@ weapons: [
         speed: 0
         lifetime: 30
         hitSound: explosion
+        hitEffect: {
+          type: MultiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 20
+              length: 40
+              lifetime: 60
+              colorFrom: 787878
+              colorTo: 787878
+              sizeFrom: 3
+              sizeTo: 0
+              interp: pow3Out
+              sizeInterp: pow2In
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 20
+              length: 35
+              lifetime: 72
+              colorFrom: 787878
+              colorTo: 787878
+              sizeFrom: 4
+              sizeTo: 0
+              interp: pow2Out
+              sizeInterp: pow2In
+            }
+          ]
+        }
       }
       fragRandomSpread: 0
       fragOnHit: false
