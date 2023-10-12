@@ -39,11 +39,197 @@ weapons: [
     name: annectodon-weapon
     x: 0
     y: 0
-    reload: 10
+    reload: 290
     rotate: true
     mirror: false
+    shootSound: shoot-loud-heavy
+    chargeSound: green-laser-charge-long
+    shoot: { 
+      firstShotDelay: 3000
+    }
     bullet: {
+      type: BasicBulletType
+      width: 22
+      height: 22
+      sprite: large-orb
+      frontColor: edc66c
+      backColor: baa164
+      speed: 2
+      lifetime: 120
+      trailChance: -1
+      trailColor: baa164
+      trailLength: 22
+      trailWidth: 6
+      trailEffect: shootSmokeSquareSparse
+      trailRotation: true
+      trailParam: 3
+      pierce: true
+      pierceCap: 3
+      damage: 120
+      splashDamage: 480
+      splashDamageRadius: 40
+      pierceBuilding: true
+      hitEffect: massiveExplosion
+      despawnEffect: massiveExplosion
+      pierceDamageFactor: 0.75
 
+      spawnBullets: [
+        {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 20
+          width: 0.0001
+          height: 0.0001
+          collides: false
+          damage: 0
+          fragVelocityMin: 0
+          fragVelocityMax: 0
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: BombBulletType
+            speed: 0
+            splashDamage: 120
+            splashDamageRadius: 8
+            width: 8
+            height: 8
+            hitEffect: flakExplosion
+            hitSound: explosion
+            status: blasted
+            statusDuration: 120
+          }
+        }
+        {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 40
+          width: 0.0001
+          height: 0.0001
+          collides: false
+          damage: 0
+          fragVelocityMin: 0
+          fragVelocityMax: 0
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: BombBulletType
+            speed: 0
+            splashDamage: 100
+            splashDamageRadius: 12
+            width: 12
+            height: 12
+            hitEffect: flakExplosion
+            hitSound: explosion
+            status: blasted
+            statusDuration: 120
+          }
+        }
+        {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 60
+          width: 0.0001
+          height: 0.0001
+          collides: false
+          damage: 0
+          fragVelocityMin: 0
+          fragVelocityMax: 0
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: BombBulletType
+            speed: 0
+            splashDamage: 80
+            splashDamageRadius: 16
+            width: 16
+            height: 16
+            hitEffect: flakExplosion
+            hitSound: explosion
+            status: blasted
+            statusDuration: 120
+          }
+        }
+        {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 80
+          width: 0.0001
+          height: 0.0001
+          collides: false
+          damage: 0
+          fragVelocityMin: 0
+          fragVelocityMax: 0
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: BombBulletType
+            speed: 0
+            splashDamage: 60
+            splashDamageRadius: 20
+            width: 20
+            height: 20
+            hitEffect: flakExplosion
+            hitSound: explosion
+            status: blasted
+            statusDuration: 120
+          }
+        }
+        {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 100
+          width: 0.0001
+          height: 0.0001
+          collides: false
+          damage: 0
+          fragVelocityMin: 0
+          fragVelocityMax: 0
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: BombBulletType
+            speed: 0
+            splashDamage: 120
+            splashDamageRadius: 24
+            width: 24
+            height: 24
+            hitEffect: flakExplosion
+            hitSound: explosion
+            status: blasted
+            statusDuration: 120
+          }
+        }
+      ]
+
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragVelocityMin: 0
+      fragVelocityMax: 0
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragBullet: {
+        type: BasicBulletType
+        speed: 0
+        instantDisappear: true
+        damage: 0
+        fragBullets: 1
+        fragRandomSpread: 0
+        fragVelocityMin: 0
+        fragVelocityMax: 0
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragBullet: {
+          type: ExplosionBulletType
+          killShooter: false
+          splashDamage: 120
+          splashDamageRadius: 24
+        }
+      }
     }
   }
 ]
