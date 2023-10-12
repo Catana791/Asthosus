@@ -48,6 +48,7 @@ weapons: [
       spawnBullets: [
         {
           type: LaserBulletType
+          laserAbsorb: false
           length: 240
           width: 16
           sideAngle: 45
