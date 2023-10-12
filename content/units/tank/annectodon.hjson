@@ -45,7 +45,7 @@ weapons: [
     shootSound: shoot-loud-heavy
     chargeSound: green-laser-charge-long
     shoot: { 
-      firstShotDelay: 3000
+      firstShotDelay: 300
     }
     bullet: {
       type: BasicBulletType
