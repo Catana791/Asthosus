@@ -84,16 +84,6 @@ weapons: [
       intervalDelay: -1
       intervalRandomSpread: 3
       bulletInterval: 6
-      fragBullets: 4
-      fragRandomSpread: 360
-      fragBullet: {
-        type: LightningBulletType
-        lightningColor: edc66c
-        lightningLength: 10
-        lightningDamage: 30
-        hitSound: spark
-        lifetime: 1
-      }
       intervalBullet: {
         type: ExplosionBulletType
         killShooter: false
@@ -102,6 +92,15 @@ weapons: [
         speed: 0
         lifetime: 30
         hitSound: explosion
+        fragBullets: 5
+        fragBullet: {
+          type: LightningBulletType
+          lightningColor: edc66c
+          lightningLength: 12
+          lightningDamage: 30
+          hitSound: spark
+          lifetime: 1
+        }
         hitEffect: {
           type: MultiEffect
           effects: [
