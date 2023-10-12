@@ -96,9 +96,10 @@ weapons: [
         fragBullet: {
           type: LightningBulletType
           lightningColor: edc66c
-          lightningLength: 12
+          lightningLength: 5
           lightningDamage: 30
           hitSound: spark
+          despawnSound: spark
           lifetime: 1
         }
         hitEffect: {
