@@ -15,8 +15,8 @@ plans: [
     type: AssemblerUnitPlan
     unit: shennong
     requirements: [
-      asthosus-ferrinite-wire/10
-      asthosus-lithium-wall-small/3
+      asthosus-lithium-wall-small/2
+      asthosus-spray/1
     ]
     time: 900
   }
