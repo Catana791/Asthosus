@@ -15,9 +15,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: luminary
     requirements: [
-      asthosus-ferrinite-wire/12
-      asthosus-lithium-wall-small/5
-      asthosus-obsidian-wall-small/3
+      asthosus-catapult/1
+      asthosus-restoration-projector/1
+      asthosus-lithium-wall-small/4
     ]
     time: 2700
   }
