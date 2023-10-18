@@ -1,0 +1,21 @@
+type: Constructor
+name: Median Component Assembler
+description: Crafts components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+size: 3
+category: units
+requirements: [
+  item-demetite/225
+  item-lodestone/95
+  item-lithium/80
+  item-obsidian/35
+] 
+hasPower: true
+consumes: {
+  power: 1
+  liquid: pressure/0.1
+}
+buildSpeed: 1.3
+filter: []
+research: rudimentary-component-assembler
+squareSprite: false
+conductivePower: true
