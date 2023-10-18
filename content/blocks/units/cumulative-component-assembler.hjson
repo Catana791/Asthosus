@@ -1,0 +1,25 @@
+type: Constructor
+name: Cumulative Component Assembler
+description: Crafts high-tier components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+size: 5
+category: units
+requirements: [
+  item-demetite/225
+  item-lodestone/140
+  item-lithium/110
+  item-obsidian/60
+  item-crosium/25
+] 
+hasPower: true
+consumes: {
+  power: 2.5
+  liquids: [
+    pressure/0.2
+    liquid-nontragen/0.2
+  ]
+}
+buildSpeed: 1.7
+filter: []
+research: progressive-component-assembler
+squareSprite: false
+conductivePower: true
