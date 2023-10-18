@@ -11,6 +11,7 @@ requirements: [
   item-crosium/25
 ] 
 hasPower: true
+maxBlockSize: 4
 consumes: {
   power: 1.5
   liquids: [
