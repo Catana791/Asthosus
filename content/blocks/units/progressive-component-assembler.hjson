@@ -1,7 +1,7 @@
 type: Constructor
 name: Progressive Component Assembler
 description: Crafts advanced components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
-size: 3
+size: 5
 category: units
 requirements: [
   item-demetite/225
