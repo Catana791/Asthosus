@@ -4,12 +4,12 @@ description: Crafts high-tier components used for unit assembly. Requires power 
 size: 5
 category: units
 requirements: [
-  item-demetite/225
-  item-lodestone/140
-  item-lithium/110
-  item-obsidian/60
-  item-crosium/25
-  item-draysten/15
+  item-demetite/340
+  item-lodestone/210
+  item-lithium/150
+  item-obsidian/85
+  item-crosium/45
+  item-draysten/25
 ] 
 hasPower: true
 maxBlockSize: 4
