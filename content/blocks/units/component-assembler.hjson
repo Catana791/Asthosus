@@ -14,6 +14,6 @@ consumes: {
 }
 buildSpeed: 1
 filter: [catapult, spray, restoration-projector, lithium-wall-small, obsidian-wall-small]
-research: core-essence
+research: ground-mounting-bay
 squareSprite: false
 conductivePower: true
