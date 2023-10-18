@@ -9,6 +9,7 @@ requirements: [
   item-lithium/110
   item-obsidian/60
   item-crosium/25
+  item-draysten/15
 ] 
 hasPower: true
 maxBlockSize: 4
