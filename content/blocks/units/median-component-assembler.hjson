@@ -10,6 +10,7 @@ requirements: [
   item-obsidian/35
 ] 
 hasPower: true
+maxBlockSize: 3
 consumes: {
   power: 1
   liquid: pressure/0.1
