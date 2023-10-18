@@ -8,3 +8,4 @@ requirements: [
   item-lodestone/10
 ]
 canOverdrive: false
+payloadLimit: 4
