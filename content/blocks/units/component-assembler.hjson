@@ -10,7 +10,7 @@ requirements: [
 ] 
 hasPower: true
 consumes: {
-  power: 1
+  power: 0.5
 }
 buildSpeed: 1
 filter: [catapult, spray, restoration-projector, lithium-wall-small, obsidian-wall-small]
