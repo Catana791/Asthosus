@@ -15,9 +15,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: luminary
     requirements: [
-      asthosus-catapult/1
+      asthosus-lithium-wall-small/1
       asthosus-restoration-projector/1
-      asthosus-lithium-wall-small/4
+      asthosus-mechanical-joint/6
     ]
     time: 2700
   }
