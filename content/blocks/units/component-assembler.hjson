@@ -13,7 +13,7 @@ consumes: {
   power: 0.5
 }
 buildSpeed: 1
-filter: [catapult, spray, restoration-projector, lithium-wall-small, obsidian-wall-small]
+filter: [catapult, spray, restoration-projector, lithium-wall-small, obsidian-wall-small, asthosus-mechanical-joint]
 research: ground-mounting-bay
 squareSprite: false
 conductivePower: true
