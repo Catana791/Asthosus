@@ -1,0 +1,10 @@
+type: Junction
+name: Mechanical Joint
+description: A joint used for legged unit production. 
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  demetite/2
+  lodestone/4
+]
