@@ -15,8 +15,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: shiv
     requirements: [
-      asthosus-spray/2
-      asthosus-lithium-wall-small/1
+      asthosus-spray/1
+      asthosus-lithium-wall-small/2
+      asthosus-mechanical-joint/2
     ]
     time: 720
   }
