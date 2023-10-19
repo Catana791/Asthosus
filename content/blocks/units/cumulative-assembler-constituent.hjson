@@ -1,5 +1,5 @@
 type: UnitAssemblerModule
-name: Progressive Assembler Constituent
+name: Cumulative Assembler Constituent
 description: Increases an assemblers' tier by 4 when placed next to its bounding box. May be used as an additional payload input.
 size: 4
 category: units
