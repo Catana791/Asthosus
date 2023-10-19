@@ -26,7 +26,7 @@ plans: [
     unit: enlighten
     requirements: [
       asthosus-restoration-dome/1
-      asthosus-ferrinite-wall-large/2
+      asthosus-large-ferrinite-wall/2
       asthosus-mechanical-joint/6
       asthosus-depulse/1
     ]
@@ -37,8 +37,7 @@ plans: [
     unit: illuminate
     requirements: [
       asthosus-restoration-dome/2
-      asthosus-lodestone-wall-large/4
-      asthosus-explosive-trap/2
+      asthosus-lodestone-wall-large/5
       asthosus-mechanical-joint/6
       asthosus-spray/1
     ]
@@ -62,7 +61,7 @@ plans: [
     requirements: [
       asthosus-barrier-projector/1
       asthosus-restoration-dome/3
-      asthosus-large-projector-wall/2
+      asthosus-webbing-wall-large/2
       asthosus-draysten-wall-large/4
       asthosus-mechanical-joint/6
       asthosus-subtile/1
