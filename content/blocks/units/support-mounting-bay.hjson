@@ -25,10 +25,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: enlighten
     requirements: [
-      asthosus-ferrinite-wire/12
-      asthosus-lithium-wall-large/3
-      asthosus-lodestone-wall-large/2
-      asthosus-obsidian-wall-small/3
+      asthosus-restoration-dome/1
+      asthosus-ferrinite-wall-large/2
+      asthosus-mechanical-joint/6
+      asthosus-depulse/1
     ]
     time: 3300
   }
@@ -36,10 +36,11 @@ plans: [
     type: AssemblerUnitPlan
     unit: illuminate
     requirements: [
-      asthosus-ferrinite-wire/12
-      asthosus-lithium-wall-large/8
+      asthosus-restoration-dome/2
       asthosus-lodestone-wall-large/4
-      asthosus-obsidian-wall-large/4
+      asthosus-explosive-trap/2
+      asthosus-mechanical-joint/6
+      asthosus-spray/1
     ]
     time: 5100
   }
@@ -47,11 +48,11 @@ plans: [
     type: AssemblerUnitPlan
     unit: elucidate
     requirements: [
-      asthosus-ferrinite-wire/12
-      asthosus-lithium-wall-large/42
-      asthosus-lodestone-wall-large/4
-      asthosus-obsidian-wall-large/34
-      asthosus-crosium-wall-large/26
+      asthosus-barrier-projector/1
+      asthosus-restoration-dome/2
+      asthosus-barite-wall-large/4
+      asthosus-mechanical-joint/6
+      asthosus-concite/1
     ]
     time: 10500
   }
@@ -59,11 +60,12 @@ plans: [
     type: AssemblerUnitPlan
     unit: expound
     requirements: [
-      asthosus-lithium-wall-large/76
-      asthosus-obsidian-wall-large/34
-      asthosus-crosium-wall-large/50
-      asthosus-webbing-wall-large/20
-      asthosus-draysten-wall-large/22
+      asthosus-barrier-projector/1
+      asthosus-restoration-dome/3
+      asthosus-large-projector-wall/2
+      asthosus-draysten-wall-large/4
+      asthosus-mechanical-joint/6
+      asthosus-subtile/1
     ]
     time: 24900
   }
