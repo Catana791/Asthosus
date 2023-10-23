@@ -26,7 +26,7 @@ plans: [
     unit: enlighten
     requirements: [
       asthosus-restoration-dome/1
-      asthosus-large-ferrinite-wall/2
+      asthosus-lithium-wall-large/2
       asthosus-mechanical-joint/6
       asthosus-depulse/1
     ]
