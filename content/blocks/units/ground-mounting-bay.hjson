@@ -25,9 +25,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: bayonet
     requirements: [
-      asthosus-ferrinite-wire/8
+      asthosus-skip/1
+      asthosus-mechanical-joint/2
       asthosus-lithium-wall-large/2
-      asthosus-lodestone-wall-large/2
     ]
     time: 1500
   }
