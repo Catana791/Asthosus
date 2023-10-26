@@ -15,8 +15,8 @@ consumes: {
   power: 1
   liquid: pressure/0.1
 }
-buildSpeed: 1.3
-filter: []
+buildSpeed: 1.5
+filter: [lithium-wall-small, lithium-wall-large, lodestone-wall-small, lodestone-wall-large, obsidian-wall-small, obsidian-wall-large, barite-wall-small, barite-wall-large, mechanical-joint, restoration-projector, restoration-dome]
 research: rudimentary-component-assembler
 squareSprite: false
 conductivePower: true
