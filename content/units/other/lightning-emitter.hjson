@@ -9,6 +9,7 @@ trailLength: 0
 useUnitCap: false
 health: 10000
 homingDelay: 0
+shadowElevation: -1
 deathExplosionEffect: none
 deathSound: none
 drawCell: false
