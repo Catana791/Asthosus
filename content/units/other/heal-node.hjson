@@ -12,6 +12,7 @@ homingDelay: 0
 deathExplosionEffect: none
 deathSound: none
 drawCell: false
+shadowElevation: -1
 engineSize: 0
 outlines: false
 hidden: true  
