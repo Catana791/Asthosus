@@ -3,7 +3,7 @@ name: Expansion Tank
 description: Uses heat to create pressure. 
 size: 2
 heatRequirement: 3
-outputLiquid: pressure/0.1
+outputLiquid: pressure/0.05
 squareSprite: false
 maxEfficiency: 1
 category: crafting
