@@ -21,7 +21,7 @@ consumes: {
   ]
 }
 buildSpeed: 2
-filter: [draysten-mortar, missile-battery, subtile, barite-wall-small, barite-wall-large, crosium-wall-small, crosium-wall-large, draysten-wall-small, draysten-wall-large, restoration-dome, barrier-projector]
+filter: [draysten-mortar, missile-battery, subtile, barite-wall-small, barite-wall-large, crosium-wall-small, crosium-wall-large, webbing-wall-small, webbing-wall-large, draysten-wall-small, draysten-wall-large, restoration-dome, barrier-projector]
 research: progressive-component-assembler
 squareSprite: false
 conductivePower: true
