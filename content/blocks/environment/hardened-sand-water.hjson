@@ -1,6 +1,7 @@
-type: ShallowLiquid
+type: Floor
 name: Hardened Sand Oasis Water
 liquidDrop: liquid-oasis-water
 liquidMultiplier: 0.7
 isLiquid: true
 cacheLayer: water
+shallow: true
