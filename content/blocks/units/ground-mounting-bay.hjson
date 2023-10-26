@@ -35,10 +35,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: cleaver
     requirements: [
-      asthosus-ferrinite-wire/8
-      asthosus-lithium-wall-large/8
-      asthosus-lodestone-wall-large/4
-      asthosus-obsidian-wall-large/3
+      asthosus-subtile/2
+      asthosus-mechanical-joint/2
+      asthosus-barite-wall-large/4
     ]
     time: 3300
   }
@@ -46,11 +45,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: apex
     requirements: [
-      asthosus-ferrinite-wire/8
-      asthosus-lithium-wall-large/42
-      asthosus-lodestone-wall-large/4
-      asthosus-obsidian-wall-large/34
-      asthosus-crosium-wall-large/26
+      asthosus-concite/1
+      asthosus-mechanical-joint/4
+      asthosus-lithium-wall-large/8
+      asthosus-barite-wall-large/6
     ]
     time: 8700
   }
@@ -58,11 +56,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: crest
     requirements: [
-      asthosus-lithium-wall-large/70
-      asthosus-obsidian-wall-large/32
-      asthosus-crosium-wall-large/48
-      asthosus-webbing-wall-large/22
-      asthosus-draysten-wall-large/22
+      asthosus-draysten-mortar/1
+      asthosus-mechanical-joint/4
+      asthosus-barite-wall-large/12
+      asthosus-crosium-wall-large/8
     ]
     time: 24900
   }
