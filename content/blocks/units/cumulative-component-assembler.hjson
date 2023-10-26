@@ -20,8 +20,8 @@ consumes: {
     liquid-nontragen/0.2
   ]
 }
-buildSpeed: 1.7
-filter: []
+buildSpeed: 2
+filter: [barite-wall-small, barite-wall-large, crosium-wall-small, crosium-wall-large, draysten-wall-small, draysten-wall-large, restoration-dome, barrier-projector]
 research: progressive-component-assembler
 squareSprite: false
 conductivePower: true
