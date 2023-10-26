@@ -14,7 +14,7 @@ consumes: {
   liquid: pressure/0.05
 }
 buildSpeed: 1
-filter: [lithium-wall-small, lithium-wall-large, lodestone-wall-small, lodestone-wall-large, obsidian-wall-small, obsidian-wall-large, mechanical-joint, restoration-projector]
+filter: [skip, depulse, billow, lithium-wall-small, lithium-wall-large, lodestone-wall-small, lodestone-wall-large, obsidian-wall-small, obsidian-wall-large, mechanical-joint, restoration-projector]
 research: component-assembler
 squareSprite: false
 conductivePower: true
