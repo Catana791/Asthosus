@@ -20,7 +20,7 @@ consumes: {
   ]
 }
 buildSpeed: 2
-filter: [barite-wall-small, barite-wall-large, crosium-wall-small, crosium-wall-large, restoration-dome, barrier-projector]
+filter: [typhoon, concite, barite-wall-small, barite-wall-large, crosium-wall-small, crosium-wall-large, restoration-dome, barrier-projector]
 research: median-component-assembler
 squareSprite: false
 conductivePower: true
