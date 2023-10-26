@@ -34,7 +34,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: aprotodon
     requirements: [
-      asthosus-instauro/1
+      asthosus-repeater/1
       asthosus-lithium-wall-large/6
       asthosus-obsidian-wall-large/4
     ]
