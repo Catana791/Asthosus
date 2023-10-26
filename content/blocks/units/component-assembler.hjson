@@ -6,14 +6,13 @@ category: units
 requirements: [
   item-demetite/50
   item-lodestone/50
-  item-lithium/50
 ] 
 hasPower: true
 consumes: {
   power: 0.5
 }
 buildSpeed: 1
-filter: [catapult, spray, restoration-projector, lithium-wall-small, obsidian-wall-small, asthosus-mechanical-joint]
+filter: [catapult, spray, lithium-wall-small, lithium-wall-large, lodestone-wall-small, lodestone-wall-large]
 research: ground-mounting-bay
 squareSprite: false
 conductivePower: true
