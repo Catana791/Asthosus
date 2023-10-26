@@ -19,8 +19,8 @@ consumes: {
     liquid-nontragen/0.1
   ]
 }
-buildSpeed: 1.5
-filter: []
+buildSpeed: 2
+filter: [barite-wall-small, barite-wall-large, crosium-wall-small, crosium-wall-large, restoration-dome, barrier-projector]
 research: median-component-assembler
 squareSprite: false
 conductivePower: true
