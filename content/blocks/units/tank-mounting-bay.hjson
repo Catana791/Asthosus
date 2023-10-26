@@ -34,10 +34,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: aprotodon
     requirements: [
-      asthosus-ferrinite-wire/10
-      asthosus-lithium-wall-large/8
-      asthosus-lodestone-wall-large/4
-      asthosus-obsidian-wall-large/5
+      asthosus-instauro/1
+      asthosus-lithium-wall-large/6
+      asthosus-obsidian-wall-large/4
     ]
     time: 3400
   }
@@ -45,13 +44,22 @@ plans: [
     type: AssemblerUnitPlan
     unit: aphelops
     requirements: [
-      asthosus-ferrinite-wire/10
-      asthosus-lithium-wall-large/35
-      asthosus-lodestone-wall-large/4
-      asthosus-obsidian-wall-large/32
-      asthosus-crosium-wall-large/26
+      asthosus-typhoon/2
+      asthosus-crosium-wall-large/4
+      asthosus-lithium-wall-large/12
     ]
     time: 8800
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: annectodon
+    requirements: [
+      asthosus-missile-battery/2
+      asthosus-freight-conveyor/2
+      asthosus-lithium-wall-large/20
+      asthosus-barite-wall-large/16
+    ]
+    time: 23800
   }
 ]
 squareSprite: false
