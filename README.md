@@ -10,6 +10,6 @@
   All unit tiers being made in an Erekir Assembler style. <br>
   <br>
  <br>
-  Adds tonnes of new liquids, items, blocks, and more!
-  <br> <br> <br>
+  Adds many new liquids, items, blocks, and more!
+  <br> <br>
   # STILL VERY MUCH WIP!
