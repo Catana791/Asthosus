@@ -4,10 +4,11 @@
   A mod that adds a new planet with a playable campaign. <br>
   Contains its own tech tree! <br> <br>
   
-  Introduces new gimmicks and systems such as many buildings <br>
-  requiring pressure to work instead of power, <br> <br>
+  Introduces new gimmicks and systems, such as many <br>
+  buildings requiring pressure to work instead of power. <br> <br>
   Power transfer via wires that connect directly or <br>
-  All unit tiers being made in an Erekir Assembler style. <br>
+  via short-ranged power nodes. <br>
+  All unit tiers are made with Erekir assemblers. <br>
   <br>
  <br>
   Adds many new liquids, items, blocks, and more!
