@@ -16,4 +16,12 @@ requirements: [
   item-ferrinite/1
 ]
 category: power
-research: core-essence
+research: {
+  parent: core-essence
+  objectives: [
+    {
+      type: OnSector
+      preset: spark
+    }
+  ]
+}
