@@ -3,11 +3,15 @@ name: Lithium Grinder
 description: Grinds Demetite and Lignite into powder and uses it to create Lithium.
 size: 2
 category: crafting
-research: lodestone-mixer
+research: {
+  parent: lodestone-mixer
+  objectives: [item-lodestone]
+}
 squareSprite: false
 requirements: [
   item-ferrinite/30
-  item-demetite/45
+  item-demetite/35
+  item-lodestone/15
 ]
 craftEffect: {
   type: ParticleEffect
