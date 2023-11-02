@@ -7,6 +7,6 @@
   buildings requiring pressure to work instead of power. <br> <br>
   Power transfer via wires that connect directly or <br>
   via short-ranged power nodes. <br>
-  All unit tiers are made with Erekir assemblers. <br> <br>
+  All unit tiers are made with Erekir styled assemblers. <br> <br>
   Adds many new liquids, items, blocks, and more! <br> <br>
   # STILL VERY MUCH WIP!
