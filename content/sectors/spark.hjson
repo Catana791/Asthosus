@@ -2,7 +2,7 @@ localizedName: Spark
 captureWave: 20
 difficulty: 2
 planet: asthosus
-sector: 2
+sector: 0
 research: {
   parent: genesis
   objectives: [
