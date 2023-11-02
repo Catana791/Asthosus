@@ -1,0 +1,14 @@
+localizedName: Spark
+captureWave: 20
+difficulty: 2
+planet: asthosus
+sector: 2
+research: {
+  parent: genesis
+  objectives: [
+    {
+      type: SectorComplete
+      preset: genesis
+    }
+  ]
+}
