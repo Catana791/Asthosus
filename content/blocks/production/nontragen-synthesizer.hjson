@@ -53,7 +53,7 @@ drawer: {
   ]
 }
 category: crafting
-research: ferrofluid-mixer
+research: crosium-infuser
 requirements: [
   item-ferrinite/60
   item-demetite/40
