@@ -1,5 +1,6 @@
 type: CoreBlock
 name: Core: Essence
+description: "Core of the base. Stores items and allows for more active units."
 requirements: [
   item-ferrinite/1600
   item-demetite/1200
