@@ -21,7 +21,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: spark
+      preset: ignition
     }
   ]
 }
