@@ -13,7 +13,6 @@ shootY: 4
 loopSound: pressure-release
 shootSound: none
 loopSoundVolume: 0.6
-research: catapult
 research: {
    parent: catapult
    objectives: [
