@@ -12,7 +12,7 @@ research: {
     }
     {
       type: research
-      preset: lodestone-mixer
+      content: lodestone-mixer
     }
   ]
 }
