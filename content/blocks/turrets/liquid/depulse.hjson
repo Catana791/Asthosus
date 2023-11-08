@@ -14,6 +14,16 @@ loopSound: pressure-release
 shootSound: none
 loopSoundVolume: 0.6
 research: catapult
+research: {
+   parent: catapult
+   objectives: [
+      catapult,
+      {
+         type: OnSector
+         preset: ignition
+      }
+   ]
+}
 requirements: [
   item-demetite/80
   item-lodestone/50
