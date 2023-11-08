@@ -4,17 +4,14 @@ description: Grinds Demetite and Lignite into powder and uses it to create Lithi
 size: 2
 category: crafting
 research: {
-  parent: lodestone-mixer
-  objectives: [
-    {
-      type: OnSector
-      preset: lattice
-    }
-    {
-      type: Research
-      content: lodestone-mixer
-    }
-  ]
+   parent: lodestone-mixer
+   objectives: [
+      lodestone-mixer,
+      {
+         type: OnSector
+         preset: lattice
+      }
+   ]
 }
 squareSprite: false
 requirements: [
