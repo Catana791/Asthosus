@@ -5,7 +5,16 @@ size: 2
 category: crafting
 research: {
   parent: lodestone-mixer
-  objectives: [item-lodestone]
+  objectives: [
+    {
+      type: OnSector
+      preset: lattice
+    }
+    {
+      type: research
+      preset: lodestone-mixer
+    }
+  ]
 }
 squareSprite: false
 requirements: [
