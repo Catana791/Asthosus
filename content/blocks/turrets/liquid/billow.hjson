@@ -9,7 +9,16 @@ hasLiquids: true
 liquidCapacity: 20
 recoil: 0
 category: turret
-research: depulse
+research: {
+   parent: depulse
+   objectives: [
+      depulse,
+      {
+         type: OnSector
+         preset: ignition
+      }
+   ]
+}
 range: 120
 requirements: [
   item-ferrinite/40

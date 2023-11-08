@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Accendret
-description: A turret that shoots alternating rounds of homing and piercing incendiary ammunition. 
+description: Fires alternating homing, piercing, and incendiary rounds at enemies.
 size: 2
 category: turret
 research: singe
