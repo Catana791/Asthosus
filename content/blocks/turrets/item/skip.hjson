@@ -6,7 +6,7 @@ squareSprite: false
 research: {
    parent: catapult
    objectives: [
-      Catapult,
+      catapult,
       {
          type: OnSector
          preset: ignition
