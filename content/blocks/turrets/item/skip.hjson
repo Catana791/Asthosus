@@ -3,7 +3,16 @@ name: Skip
 description: Fires skipping bullets at enemies that frag into pieces from the last skip.
 size: 2
 squareSprite: false
-research: catapult
+research: {
+   parent: catapult
+   objectives: [
+      Catapult,
+      {
+         type: OnSector
+         preset: ignition
+      }
+   ]
+}
 category: turret
 requirements: [
   item-ferrinite/40
