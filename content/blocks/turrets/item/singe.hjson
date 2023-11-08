@@ -40,7 +40,16 @@ ammoTypes: {
   }
 }
 category: turret
-research: spray
+research: {
+   parent: spray
+   objectives: [
+      spray,
+      {
+         type: OnSector
+         preset: ignition
+      }
+   ]
+}
 requirements: [
   item-ferrinite/40
   item-lodestone/24
