@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Skip
-description: Fires skipping bullets at enemies that frag into pieces from the last skip.
+description: Launches skipping pellets at enemies. Pellets frag after their last bounce.
 size: 2
 squareSprite: false
 research: {
