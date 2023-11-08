@@ -9,7 +9,6 @@ hasLiquids: true
 liquidCapacity: 20
 recoil: 0
 category: turret
-research: depulse
 research: {
    parent: depulse
    objectives: [
