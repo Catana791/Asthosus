@@ -11,8 +11,8 @@ research: {
       preset: lattice
     }
     {
-      type: research
-      content: lodestone-mixer
+      type: content
+      preset: lodestone-mixer
     }
   ]
 }
