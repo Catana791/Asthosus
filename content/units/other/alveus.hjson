@@ -1,0 +1,51 @@
+type: tether
+name: Alveus
+description: Used for moving items from a base station to a drop point.
+flying: true
+controller: CargoAI
+isEnemy: false
+logicControllable: false
+allowedInPayloads: false
+playerControllable: false
+payloadCapacity: 0
+lowAltitude: false
+drag: 0.06
+speed: 3.5
+rotateSpeed: 9
+accel: 0.1
+itemCapacity: 50
+health: 60
+hitSize: 8
+hidden: true
+engines: [
+  {
+    x: 0
+    y: -4
+    rotation: 180
+    radius: 2
+  }
+  {
+    x: 6
+    y: -3
+    rotation: 235
+    radius: 1.25
+  }
+  {
+    x: -6
+    y: -3
+    rotation: -235
+    radius: 1.25
+  }
+  {
+    x: 5
+    y: 3
+    rotation: 235
+    radius: 1.25
+  }
+  {
+    x: -5
+    y: 3
+    rotation: -235
+    radius: 1.25
+  }
+]
