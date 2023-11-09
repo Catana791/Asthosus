@@ -20,32 +20,32 @@ hidden: true
 engines: [
   {
     x: 0
-    y: -4
+    y: -4.5
     rotation: 180
-    radius: 2
+    radius: 1.8
   }
   {
-    x: 6
-    y: -3
-    rotation: 235
+    x: 3.5
+    y: -4
+    rotation: 315
     radius: 1.25
   }
   {
-    x: -6
-    y: -3
-    rotation: -235
+    x: -3.5
+    y: -4
+    rotation: 45
     radius: 1.25
   }
   {
-    x: 5
-    y: 3
-    rotation: 235
+    x: 3
+    y: 0
+    rotation: 315
     radius: 1.25
   }
   {
-    x: -5
-    y: 3
-    rotation: -235
+    x: -3
+    y: 0
+    rotation: 45
     radius: 1.25
   }
 ]
