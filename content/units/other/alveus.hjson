@@ -14,6 +14,7 @@ drag: 0.06
 speed: 3.5
 rotateSpeed: 9
 accel: 0.1
+engineSize: 0
 itemCapacity: 50
 health: 60
 hitSize: 8
@@ -27,14 +28,14 @@ engines: [
   }
   {
     x: 3.4
-    y: -4.5
+    y: -5
     rotation: 315
     radius: 1.25
   }
   {
     x: -3.4
-    y: -4.5
-    rotation: 45
+    y: -5
+    rotation: -45
     radius: 1.25
   }
   {
@@ -46,7 +47,7 @@ engines: [
   {
     x: -3.5
     y: -0.5
-    rotation: 45
+    rotation: -45
     radius: 1.25
   }
 ]
