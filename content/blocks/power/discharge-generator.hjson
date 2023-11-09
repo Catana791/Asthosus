@@ -2,6 +2,7 @@ type: ConsumeGenerator
 name: Discharge Generator
 description: Produces power by discharging charged materials. Uses Purified Oasis Water as coolant.
 size: 3
+squareSprite: false
 drawer: {
   type: DrawMulti
   drawers: [
