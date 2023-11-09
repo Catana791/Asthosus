@@ -29,13 +29,13 @@ engines: [
   {
     x: 3.4
     y: -5.2
-    rotation: -45
+    rotation: 315
     radius: 1.25
   }
   {
     x: -3.4
     y: -5.2
-    rotation: -45
+    rotation: 45
     radius: 1.25
   }
   {
