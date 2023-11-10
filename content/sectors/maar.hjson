@@ -8,6 +8,14 @@ reseearch: {
   objectives: [
     {
       type: SectorComplete
+      preset: genesis
+    }
+    {
+      type: SectorComplete
+      preset: ignition
+    }
+    {
+      type: SectorComplete
       preset: lattice
     }
   ]
