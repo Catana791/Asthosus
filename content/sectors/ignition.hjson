@@ -3,7 +3,7 @@ description: Small deposits of Lignite have formed via geothermal activity. Star
 captureWave: 20
 difficulty: 2
 planet: asthosus
-sector: 0
+sector: 15
 research: {
   parent: genesis
   objectives: [
