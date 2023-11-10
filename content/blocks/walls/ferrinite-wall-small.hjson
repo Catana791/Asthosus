@@ -5,7 +5,7 @@ size: 1
 health: 380
 squareSprite: false
 requirements: [
-  item-ferrinite/9
+  item-ferrinite/6
 ]
 research: core-essence
 category: defense
