@@ -10,7 +10,7 @@ requirements: [
   item-lithium/30
   item-obsidian/35
 ]
-drillTime: 98
+drillTime: 90
 consumes: {
   liquid: pressure/0.05
 }
