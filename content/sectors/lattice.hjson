@@ -9,6 +9,10 @@ research: {
   objectives: [
     {
       type: SectorComplete
+      preset: genesis
+    }
+    {
+      type: SectorComplete
       preset: ignition
     }
   ]
