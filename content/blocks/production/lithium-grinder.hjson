@@ -36,10 +36,10 @@ craftEffect: {
   sizeInterp: pow3In
 }
 outputItem: item-lithium/1
-craftTime: 60
+craftTime: 120
 consumes: {
   items: [
-    item-demetite/2
+    item-demetite/3
     item-lignite/1
   ]
 }
