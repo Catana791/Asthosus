@@ -3,7 +3,7 @@ description: You find yourself on a sector with lots of water. This could be ver
 difficulty: 3
 planet: asthosus
 sector: 14
-reseearch: {
+research: {
   parent: lattice
   objectives: [
     {
