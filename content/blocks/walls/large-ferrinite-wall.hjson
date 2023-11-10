@@ -7,5 +7,5 @@ category: defense
 squareSprite: false
 research: ferrinite-wall-small
 requirements: [
-  item-ferrinite/30
+  item-ferrinite/24
 ] 
