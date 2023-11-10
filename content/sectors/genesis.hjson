@@ -5,3 +5,4 @@ planet: asthosus
 sector: 1
 research: core-essence
 difficulty: 1
+alwaysUnlocked: true
