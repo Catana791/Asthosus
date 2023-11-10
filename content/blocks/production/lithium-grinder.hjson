@@ -35,7 +35,7 @@ craftEffect: {
   interp: pow2
   sizeInterp: pow3In
 }
-outputItem: item-lithium/1
+outputItem: item-lithium/2
 craftTime: 120
 consumes: {
   items: [
