@@ -1,6 +1,7 @@
 type: Duct
 name: Ferrinite Pipeline
 category: distribution
+alwaysUnlocked: true
 research: core-essence
 researchCost: [
   item-ferrinite/10
