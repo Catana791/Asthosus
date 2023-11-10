@@ -40,7 +40,7 @@ outputItem: item-lithium/4
 craftTime: 60
 consumes: {
   items: [
-    item-demetite/5
+    item-demetite/3
     item-lignite/2
   ]
 }
