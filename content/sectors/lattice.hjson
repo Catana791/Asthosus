@@ -3,7 +3,7 @@ description: Scattered boulders of resources dot the area. Prevent the enemy fro
 captureWave: 30
 difficulty: 4
 planet: asthosus
-sector: 2
+sector: 0
 research: {
   parent: ignition
   objectives: [
