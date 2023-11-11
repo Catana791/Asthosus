@@ -6,11 +6,7 @@ category: crafting
 research: {
    parent: lodestone-mixer
    objectives: [
-      lodestone-mixer,
-      {
-         type: OnSector
-         preset: lattice
-      }
+      lodestone-mixer
    ]
 }
 squareSprite: false
