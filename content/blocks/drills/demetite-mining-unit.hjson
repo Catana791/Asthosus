@@ -5,7 +5,7 @@ size: 2
 category: production
 research: ferrinite
 requirements: [
-  "item-ferrinite/20"
+  item-ferrinite/20
 ]
 drillTime: 240
 output: item-demetite
@@ -14,3 +14,6 @@ ambientSound: drill
 ambientSoundVolume: 0.08
 research: ferrinite-mining-unit
 squareSprite: false
+researchCost: [
+  item-ferrinite/60
+]
