@@ -5,6 +5,7 @@ name: Pressure Rig
 description: Produces power when placed on Ferrinite, Demetite or Hardened Sand Vents. Also makes the pressure from said vents available for use.
 size: 3
 hasLiquids: true
+squareSprite: false
 outputLiquid: pressure/0.01
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
