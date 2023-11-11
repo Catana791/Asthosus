@@ -5,7 +5,7 @@ health: 65
 size: 1
 speed: 22
 requirements: [
-  item-ferrinite/4
+  item-ferrinite/2
 ]
 squareSprite: false
 category: distribution
