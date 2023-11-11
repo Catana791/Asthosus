@@ -37,8 +37,8 @@ ammoTypes: {
     collidesGround: true
     collidesAir: false
     ammoMultiplier: 5
-    damage: 20
-    splashDamage: 18
+    damage: 8
+    splashDamage: 7
     splashDamageRadius: 8
   }
   item-lodestone: {
@@ -50,8 +50,8 @@ ammoTypes: {
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: false
-    damage: 32
-    splashDamage: 24
+    damage: 11
+    splashDamage: 13
     splashDamageRadius: 12
   }
 }
