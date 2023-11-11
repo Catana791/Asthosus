@@ -17,7 +17,7 @@ requirements: [
 ]
 category: power
 research: {
-  parent: core-essence
+  parent: ignition-generator
   objectives: [
     {
       type: OnSector
