@@ -11,7 +11,7 @@ mechLegColor: 44413c
   weapons: [
     {
       x: 8
-      name: asthosian-flamethrower
+      name: bayonet-weapon-mirror
         y: 0
         reload: 50
         rotate: false
@@ -38,7 +38,7 @@ mechLegColor: 44413c
     {    
       x: -8
         y: 0
-        name: small-rocket-launcher
+        name: bayonet-weapon
         reload: 87
         shoot: {
           shots: 2
