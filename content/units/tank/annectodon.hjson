@@ -55,7 +55,7 @@ weapons: [
           sideLength: 50
           sideWidth: 1.5
           colors: [baa164, edc66c, ffffff]
-          damage: 150
+          damage: 250
           lifetime: 126
         }
       ]
@@ -73,8 +73,8 @@ weapons: [
       trailWidth: 6
       pierce: true
       pierceCap: 3
-      damage: 480
-      splashDamage: 1620
+      damage: 380
+      splashDamage: 1520
       splashDamageRadius: 40
       pierceBuilding: true
       hitEffect: massiveExplosion
