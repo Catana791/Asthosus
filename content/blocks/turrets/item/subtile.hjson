@@ -13,11 +13,7 @@ research: skip
 research: {
    parent: skip
    objectives: [
-      skip,
-      {
-         type: OnSector
-         preset: lattice
-      }
+      skip
    ]
 }
 requirements: [
