@@ -6,7 +6,7 @@ speed: 6
 health: 110
 itemCapacity: 3
 requirements: [
-  item-ferrinite/5
+  item-ferrinite/3
 ]
 squareSprite: false
 category: distribution
