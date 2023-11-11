@@ -43,7 +43,15 @@ craftTime: 90
   //}
 //}
 category: crafting
-research: core-essence
+research: {
+  parent: core-essence
+  objectives: [
+    {
+      type: OnSector
+      preset: lattice
+    }
+  ]
+}
 requirements: [
   item-ferrinite/40
   item-demetite/30
