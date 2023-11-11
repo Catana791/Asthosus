@@ -9,9 +9,9 @@ outlineColor: 44413c
 mechLegColor: 44413c
   weapons: [
     {
-      x: 6
+      x: 5.5
       name: shiv-weapon
-        y: 2
+        y: 1
         reload: 10
         rotate: false
         mirror: true
