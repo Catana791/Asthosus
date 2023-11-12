@@ -16,12 +16,4 @@ requirements: [
   item-ferrinite/1
 ]
 category: power
-research: {
-  parent: ignition-generator
-  objectives: [
-    {
-      type: OnSector
-      preset: ignition
-    }
-  ]
-}
+research: ignition-generator
