@@ -9,3 +9,4 @@ requirements: [
   item-lodestone/24
 ]
 squareSprite: false
+researchCostMultiplier: 0.6
