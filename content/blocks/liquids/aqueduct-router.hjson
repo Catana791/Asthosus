@@ -12,3 +12,4 @@ research: aqueduct-junction
 requirements: [
   item-lodestone/14
 ]
+researchCostMultiplier: 0.5
