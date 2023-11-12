@@ -8,7 +8,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: lattice
+      preset: ignition
     }
   ]
 }
