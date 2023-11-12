@@ -3,7 +3,15 @@ name: Ignition Generator
 description: Burns flammable materials to create small amounts of power.
 size: 1
 category: power
-research: core-essence
+research: {
+  parent: core-essence
+  objectives: [
+    {
+      type: OnSector
+      preset: lattice
+    }
+  ]
+}
 squareSprite: false
 requirements: [
   item-ferrinite/30
