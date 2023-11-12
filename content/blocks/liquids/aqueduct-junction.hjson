@@ -10,3 +10,4 @@ requirements: [
 ]
 conductivePower: true
 hasPower: true
+researchCostMultiplier: 0.5
