@@ -1,5 +1,5 @@
 type: Pump
-name: Exothermic Pump
+name: Lodestone Pump
 description: Slowly pumps liquid from liquid tiles.
 size: 1
 category: liquid
