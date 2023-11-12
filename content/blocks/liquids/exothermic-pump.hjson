@@ -1,5 +1,5 @@
 type: Pump
-name: Lodestone Pump
+name: Exothermic Pump
 description: Pumps liquids from liquid tiles. Requires Lignite to operate.
 size: 2
 category: liquid
