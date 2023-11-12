@@ -23,6 +23,10 @@ research: {
       }
    ]
 }
+researchCost: [
+   item-demetite/900
+   item-lodestone/700
+]
 requirements: [
   item-demetite/80
   item-lodestone/50
