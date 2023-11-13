@@ -4,8 +4,8 @@ description: Quick and durable. Equipped with a rocket launcher.
 hitSize: 19
 treadRects: [
   {
-    x: 16
-    y: 43
+    x: -16
+    y: -43
     widht: 18
     height: 86
   }
