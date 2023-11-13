@@ -19,7 +19,7 @@ speed: 1.25
 rotateSpeed: 4.5
 itemCapacity: 0
 outlineColor: 44413c
-treadPullOffset: 5
+//treadPullOffset: 5
 research: shennong
 weapons: [
   {
