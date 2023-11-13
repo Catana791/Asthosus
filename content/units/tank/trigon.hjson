@@ -6,8 +6,8 @@ treadRects: [
   {
     x: -16
     y: -43
-    widht: 18
-    height: 86
+    widht: 180
+    height: 180
   }
 ]
 singleTarget: false
