@@ -4,10 +4,10 @@ description: Quick and durable. Equipped with a beam railgun.
 hitSize: 28
 treadRects: [
   {
-    x: 27
-    y: -67
-    widht: 26
-    height: 134
+    x: -34
+    y: -61
+    widht: 21
+    height: 119
   }
 ]
 crushDamage: 3
@@ -21,7 +21,7 @@ speed: 1.1
 rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 44413c
-treadPullOffset: 4
+treadPullOffset: 5
 research: trigon
 weapons: [
   {
