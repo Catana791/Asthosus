@@ -6,7 +6,7 @@ category: liquid
 squareSprite: false
 research: aqueduct
 requirements: [
-  item-lodestone/12
+  item-lodestone/8
 ]
 conductivePower: true
 hasPower: true
