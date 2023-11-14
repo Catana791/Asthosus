@@ -12,7 +12,7 @@ segments: 3
 segmentScl: 3
 segmentPhase: 5
 segmentMag: 0.5
-rotateSpeed: 4
+rotateSpeed: 6
 omniMovement: false
 hitSize: 10
 isEnemy: false
