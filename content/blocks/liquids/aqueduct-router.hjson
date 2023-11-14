@@ -10,6 +10,6 @@ category: liquid
 squareSprite: false
 research: aqueduct-junction
 requirements: [
-  item-lodestone/14
+  item-lodestone/10
 ]
 researchCostMultiplier: 0.5
