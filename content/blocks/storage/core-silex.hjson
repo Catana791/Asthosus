@@ -1,0 +1,17 @@
+type: CoreBlock
+name: Core: Silex
+description: Core of the base. Fairly well armored and stores a decent quantity of items.
+requirements: [
+  item-ferrinite/3000
+  item-demetite/3000
+  item-lodestone/1000
+  item-lithium/1000
+]
+size: 4
+squareSprite: false
+unitType: hirude
+health: 4400
+itemCapacity: 11000
+unitCapModifier: 16
+category: effect
+research: core-petra
