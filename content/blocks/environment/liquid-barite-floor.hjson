@@ -6,5 +6,5 @@ status: asthosus-status-radiated
 statusDuration: 300
 isLiquid: true
 cacheLayer: water
-albedo: 0.6
+albedo: 0.9
 supportsOverlay: true
