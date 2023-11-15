@@ -1,0 +1,10 @@
+type: Floor
+name: Liquid Barite
+speedMultiplier: 0.7
+variants: 3
+status: asthosus-status-radiated
+statusDuration: 300
+isLiquid: true
+cacheLayer: water
+albedo: 0.6
+supportsOverlay: true
