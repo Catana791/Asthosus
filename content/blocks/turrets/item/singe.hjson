@@ -10,6 +10,7 @@ targetAir: false
 researchCostMultiplier: 0.75
 range: 80
 shootY: 1
+outlineColor: 42413e
 ammoTypes: {
   item-lignite: {
     ammoMultiplier: 4
