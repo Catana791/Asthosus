@@ -10,19 +10,12 @@ requirements: [
   item-obsidian/115
   item-barite-webbing/50
 ]
-chargeSound: green-laser-charge-long
-moveWhileCharging: true
-accurateDelay: false
-shoot: {
-  firstShotDelay: 360
-}
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
 }
 outlineColor: 44413c
 shootType: {
-  chargeEffect: [greenLaserChargeSmall, lancerLaserCharge, lancerLaserChargeBegin, lightningCharge]
   type: ContinuousLaserBulletType
   length: 176
   damage: 4
@@ -43,7 +36,7 @@ shootWarmupSpeed: 0.1
 shootCone: 360
 aimChangeSpeed: 0.9
 rotateSpeed: 1.8
-shootY: 0.5
+shootY: 2.2
 consumes: {
-  power: 360
+  power: 6
 }
