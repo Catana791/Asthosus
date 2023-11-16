@@ -96,7 +96,7 @@ shoot: {
   barrelOffset: 3
 }
 range: 270
-shootSound: shoot-heavy-cannon
+shootSound: shoot-big-artillery
 ammoTypes: {
   item-obsidian: {
     hitEffect: plasticExplosion
