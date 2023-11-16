@@ -174,3 +174,4 @@ ammoTypes: {
     spin: 4
   }
 }
+outlineColor: 42413e
