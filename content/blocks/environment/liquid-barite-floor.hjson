@@ -5,6 +5,6 @@ variants: 3
 status: asthosus-status-radiated
 statusDuration: 300
 isLiquid: true
-cacheLayer: water
+cacheLayer: cryofluid
 albedo: 0.9
 supportsOverlay: true
