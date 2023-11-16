@@ -80,7 +80,7 @@ ammoTypes: {
       sideAngle: 45
       length: 60
       width: 4
-      damage: 70
+      damage: 30
       pierce: true
     }
     fragBullets: 3
@@ -141,7 +141,7 @@ ammoTypes: {
       sideAngle: 45
       length: 60
       width: 4
-      damage: 100
+      damage: 40
       pierce: true
       pierceArmor: true
     }
@@ -203,7 +203,7 @@ ammoTypes: {
       sideAngle: 45
       length: 60
       width: 4
-      damage: 120
+      damage: 50
       pierce: true
       pierceArmor: true
     }
