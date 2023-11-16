@@ -44,7 +44,8 @@ shoot: {
 }
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
-coolantMultiplier: 0.1
+coolantMultiplier: 0.25
+chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
 ammoTypes: {
   item-crosium: {
     type: BasicBulletType
