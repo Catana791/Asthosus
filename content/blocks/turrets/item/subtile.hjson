@@ -9,6 +9,7 @@ shootSound: shoot-big-artillery
 shootEffect: shootBig
 smokeEffect: shootSmokeTitan
 category: turret
+outlineColor: 42413e
 research: skip
 research: {
    parent: skip
