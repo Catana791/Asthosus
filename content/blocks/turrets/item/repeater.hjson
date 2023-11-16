@@ -3,6 +3,7 @@ name: Instauro
 description: Fires repeating bolts at enemies.
 targetAir: false
 targetGround: true
+outlineColor: 42413e
 size: 3
 squareSprite: false
 range: 180
