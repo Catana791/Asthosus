@@ -4,6 +4,7 @@ description: Creates a constant, low-damaging beam that knocks back ground units
 size: 2
 category: turret
 outlineColor: 42413e
+outlineColor: 42413e
 liquidConsumed: 0.05
 targetInterval: 5
 targetUnderBlocks: false
