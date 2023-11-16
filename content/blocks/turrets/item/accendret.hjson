@@ -220,3 +220,4 @@ ammoTypes: {
     lightningDamage: 9
   }
 }
+outlineColor: 42413e
