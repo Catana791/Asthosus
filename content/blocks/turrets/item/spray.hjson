@@ -16,6 +16,7 @@ inaccuracy: 15
 range: 120
 category: turret
 shootSound: shoot-dull
+outlineColor: 42413e
 research: {
   parent: catapult
   requirements: [
