@@ -1,6 +1,6 @@
 type: ContinuousTurret
 name: Tralux
-description: Fires a continuous rupturing beam of pure energy at enemies. 
+description: Fires a continuous rupturing beam of pure energy at enemies, radiating them. 
 size: 3
 category: turret
 research: cavalier
@@ -15,3 +15,26 @@ drawer: {
   basePrefix: spiky-
 }
 outlineColor: 44413c
+shootType: {
+  type: ContinuousLaserBulletType
+  length: 176
+  damage: 4
+  width: 8
+  incendChance: 0
+  incendAmount: 0
+  incendSpread: 0
+  status: asthosus-status-radiated
+  statusDuration: 120
+  colors: [a29d99, bab4ae, dad2ca, f8efe6, ffffff]
+}
+range: 176
+shootSound: none
+loopSound: laserbeam
+shootWarmupSpeed: 0.1
+shootCone: 360
+aimChangeSpeed: 0.9
+rotateSpeed: 1.8
+shootY: 0.5
+consumes: {
+  power: 360
+}
