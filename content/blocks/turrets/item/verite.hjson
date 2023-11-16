@@ -4,6 +4,7 @@ description: Long-range, high-precision turret. Fires piercing rounds at enemies
 size: 3
 reload: 600
 shootSound: shoot-heavy-cannon
+outlineColor: 42413e
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
