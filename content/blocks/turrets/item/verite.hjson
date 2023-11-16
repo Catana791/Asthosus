@@ -52,8 +52,8 @@ ammoTypes: {
     lifetime: 80
     width: 10
     height: 18
-    hitEffect: [massiveExplosion, titanExplosion, spawnShockwave, impactReactorExplosion]
-    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave, impactReactorExplosion]
+    hitEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
     pierceArmor: true
     damage: 100
@@ -113,8 +113,8 @@ ammoTypes: {
     lifetime: 80
     width: 10
     height: 18
-    hitEffect: [massiveExplosion, titanExplosion, spawnShockwave, impactReactorExplosion]
-    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave, impactReactorExplosion]
+    hitEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
     pierceArmor: true
     damage: 120
@@ -175,8 +175,8 @@ ammoTypes: {
     lifetime: 80
     width: 10
     height: 18
-    hitEffect: [massiveExplosion, titanExplosion, spawnShockwave, impactReactorExplosion]
-    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave, impactReactorExplosion]
+    hitEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
     pierceArmor: true
     damage: 160
