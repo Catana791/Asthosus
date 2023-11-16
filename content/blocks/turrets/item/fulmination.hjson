@@ -8,6 +8,7 @@ targetAir: false
 targetGround: true
 moveWhileCharging: false
 accurateDelay: false
+outlineColor: 42413e
 chargeSound: lasercharge2
 consumes: {
   coolant: {
