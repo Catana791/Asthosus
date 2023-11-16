@@ -8,6 +8,7 @@ minWarmup: 0.9
 warmupMaintainTime: 120
 shootEffect: shootBig
 shootSound: shootLaser
+outlineColor: 42413e
 recoil: 0
 squareSprite: false
 loopSound: laserbeam
