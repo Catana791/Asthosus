@@ -22,7 +22,7 @@ drawer: {
 }
 outlineColor: 44413c
 shootType: {
-  chargeEffect: [greenLaserChargeSmall, lancerLaserCharge, lancerLaserChargeBegin, lightningCharge, 
+  chargeEffect: [greenLaserChargeSmall, lancerLaserCharge, lancerLaserChargeBegin, lightningCharge]
   type: ContinuousLaserBulletType
   length: 176
   damage: 4
