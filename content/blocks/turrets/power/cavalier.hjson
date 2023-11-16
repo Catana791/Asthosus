@@ -11,6 +11,7 @@ shoot: {
   shotDelay: 10
 }
 range: 176
+outlineColor: 42413e
 shootSound: shoot-laser
 chargeSound: short-laser-charge
 shootType: {
