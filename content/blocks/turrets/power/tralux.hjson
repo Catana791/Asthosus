@@ -19,14 +19,16 @@ shootType: {
   type: ContinuousLaserBulletType
   length: 176
   damage: 4
-  width: 8
+  width: 2.5
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
   status: asthosus-status-radiated
   statusDuration: 120
-  colors: [a29d99, bab4ae, dad2ca, f8efe6, ffffff]
+  colors: [6b6763, 827f7c, a6a29f, cfcbc6, f5f0ec]
+  shake: 0.5
 }
+shootShake: 0.5
 range: 176
 shootSound: none
 loopSound: laserbeam
