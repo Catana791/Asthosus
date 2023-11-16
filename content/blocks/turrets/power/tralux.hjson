@@ -1,0 +1,17 @@
+type: ContinuousTurret
+name: Tralux
+description: Fires a continuous rupturing beam of pure energy at enemies. 
+size: 3
+category: turret
+research: cavalier
+requirements: [
+  item-ferrinite/280
+  item-demetite/190
+  item-obsidian/115
+  item-barite-webbing/50
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
+outlineColor: 44413c
