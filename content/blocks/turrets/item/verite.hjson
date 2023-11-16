@@ -1,0 +1,156 @@
+type: ItemTurret
+name: Verite
+description: Long-range, high-precision turret. Fires piercing rounds at enemies. Requires pressure.
+size: 3
+reload: 600
+shootSound: shoot-loud-heavy
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -nub
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -4
+      moves: [
+        {
+          type: PartMove
+          progress: reload
+          y: 4
+        }
+      ]
+    }
+  ]
+}
+rotateSpeed: 2
+shootCone: 10
+category: turret
+research: subtile
+squareSprite: false
+range: 400
+requirements: [
+  item-ferrinite/850
+  item-lodestone/400
+  item-lithium/400
+  item-barite/280
+  item-draysten/90
+]
+consumes: {
+  liquid: pressure/0.3
+  coolant: {
+    amount: 0.5
+  }
+}
+coolantMultiplier: 0.1
+ammoTypes: {
+  item-crosium: {
+    type: BasicBulletType
+    speed: 5
+    lifetime: 80
+    width: 10
+    height: 18
+    hitEffect: massiveExplosion
+    despawnEffect: massiveExplosion
+    pierce: true
+    pierceArmor: true
+    damage: 100
+    splashDamage: 100
+    splashDamageRadius: 48
+    despawnSound: explosion
+    trailChance: -1
+    trailEffect: shootSmokeSquareSparse
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 180
+    intervalBullet: {
+      type: LaserBulletType
+      sideWidth: 2
+      sideLength: 16
+      sideAngle: 45
+      length: 80
+      width: 4
+      damage: 60
+      pierce: true
+    }
+  }
+  item-barite-webbing: {
+    type: BasicBulletType
+    speed: 5
+    lifetime: 80
+    width: 10
+    height: 18
+    hitEffect: massiveExplosion
+    despawnEffect: massiveExplosion
+    pierce: true
+    pierceArmor: true
+    damage: 120
+    splashDamage: 120
+    splashDamageRadius: 48
+    despawnSound: explosion
+    trailChance: -1
+    trailEffect: shootSmokeSquareSparse
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 180
+    intervalBullet: {
+      type: LaserBulletType
+      sideWidth: 2
+      sideLength: 16
+      sideAngle: 45
+      length: 80
+      width: 4
+      damage: 80
+      pierce: true
+      pierceArmor: true
+    }
+  }
+  item-draysten: {
+    type: BasicBulletType
+    speed: 5
+    lifetime: 80
+    width: 10
+    height: 18
+    hitEffect: massiveExplosion
+    despawnEffect: massiveExplosion
+    pierce: true
+    pierceArmor: true
+    damage: 160
+    splashDamage: 160
+    splashDamageRadius: 48
+    despawnSound: explosion
+    trailChance: -1
+    trailEffect: shootSmokeSquareSparse
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+    bulletInterval: 8
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 180
+    intervalBullet: {
+      type: LaserBulletType
+      sideWidth: 2
+      sideLength: 16
+      sideAngle: 45
+      length: 80
+      width: 4
+      damage: 120
+      pierce: true
+      pierceArmor: true
+    }
+  }
+}
