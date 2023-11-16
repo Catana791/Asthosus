@@ -18,6 +18,7 @@ consumes: {
 }
 coolantMultplier: 0.4
 range: 160
+outlineColor: 42413e
 category: turret
 research: fulmination
 requirements: [
