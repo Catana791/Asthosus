@@ -1,0 +1,38 @@
+type: ItemTurret
+name: Syntaxe
+description: Heats up and melts Barite to then fire at enemies, creating pools of liquid barite.
+size: 3
+squareSprite: false
+outlineColor: 44413c
+category: turret
+research: depulse
+requirements: [
+  item-ferrinite/370
+  item-lithium/120
+  item-barite/160
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -wing
+      mirror: true
+      under: true
+      moveRot: 12
+      progress: warmup
+      heatProgress: warmup
+    }
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -6
+      heatProgress: recoil
+    }
+  ]
+}
+reload: 
