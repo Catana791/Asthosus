@@ -31,7 +31,7 @@ drawer: {
 consumes: {
   power: 1
   liquids: [
-    liquid-liquid-barite/0.2
+    liquid-liquid-barite/0.4
     liquid-oasis-water/0.2
   ]
 }
