@@ -1,0 +1,19 @@
+type: GenericCrafter
+name: Barite Quern
+description: Crushes Irradiated Lumps into usable and buildable Barite. Requires power.
+size: 2
+squareSprite: false
+consumes: {
+  power: 1
+  items: item-irradiated-lump/3
+}
+craftTime: 30
+craftEffect: blastExplosion
+outputItem: item-barite/1
+category: crafting
+research: abrasion-quarry
+requirements: [
+  item-ferrinite/60
+  item-lithium/35
+  item-obsidian/50
+]
