@@ -5,7 +5,9 @@ size: 2
 squareSprite: false
 consumes: {
   power: 1
-  items: item-irradiated-lump/3
+  items: [
+    item-irradiated-lump/3
+  ]
 }
 craftTime: 30
 craftEffect: blastExplosion
