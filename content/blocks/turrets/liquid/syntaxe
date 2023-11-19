@@ -35,4 +35,12 @@ drawer: {
     }
   ]
 }
-reload: 
+reload: 90
+range: 240
+ammoTypes: {
+  item-barite: {
+    type: LiquidBulletType
+    orbSize: 4
+    liquid
+  }
+}
