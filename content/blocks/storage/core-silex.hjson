@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: Silex
-description: Core of the base. Fairly well armored and stores a decent quantity of items.
+description: Core of the base. Well armored and able to store large amounts of items. Allows for more active units than a Substratum core.
 requirements: [
   item-ferrinite/3000
   item-demetite/3000
