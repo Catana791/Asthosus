@@ -51,6 +51,9 @@ ammoTypes: {
     pierceCap: 1
     speed: 2
     lifetime: 80
-    puddleSize: 24
+    puddleSize: 48
+    despawnHit: true
+    despawnSound: splash
+    layer: 99
   }
 }
