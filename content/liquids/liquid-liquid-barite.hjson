@@ -1,8 +1,15 @@
+type: CellLiquid
 name: Liquid Barite
 effect: asthosus-status-radiated
 boilPoint: 1.2
-color: 54798b
+colorFrom:: dad2ca
+colorTo: 54776d
+maxSpread: 0
+spreadDamage: 0
+moveThroughBlocks: false
+blockReactive: false
+temperature: 1
 heatCapacity: 0
 explosiveness: 1.25
-gasColor: d9e1e6E6
+gasColor: dad2cae6
 viscosity: 0.2
