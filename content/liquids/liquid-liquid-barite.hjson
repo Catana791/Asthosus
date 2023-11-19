@@ -2,6 +2,7 @@ type: CellLiquid
 name: Liquid Barite
 effect: asthosus-status-radiated
 boilPoint: 1.2
+color: dad2ca
 colorFrom: dad2ca
 colorTo: 54776d
 maxSpread: 0
