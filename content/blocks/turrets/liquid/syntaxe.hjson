@@ -48,6 +48,9 @@ ammoTypes: {
     liquid: liquid-liquid-barite
     damage: 85
     pierce: true
+    knockback: 1
+    mixColorFrom: f8efe6
+    mixColorTo: bab4ae
     pierceCap: 1
     speed: 2
     lifetime: 80
