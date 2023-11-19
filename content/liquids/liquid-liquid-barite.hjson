@@ -1,0 +1,8 @@
+name: Liquid Barite
+effect: asthosus-status-radiated
+boilPoint: 1.2
+color: 54798b
+heatCapacity: 0
+explosiveness: 1.25
+gasColor: d9e1e6E6
+viscosity: 0.2
