@@ -36,11 +36,23 @@ drawer: {
   ]
 }
 reload: 90
+shootSound: splash
+shoot: {
+  shots: 3
+  shotDelay: 2
+}
+inaccuracy: 5
 range: 240
 ammoTypes: {
   item-barite: {
     type: LiquidBulletType
     orbSize: 4
-    liquid
+    liquid: liquid-liquid-barite
+    damage: 85
+    pierce: true
+    pierceCap: 1
+    speed: 2
+    lifetime: 80
+    puddleSize: 24
   }
 }
