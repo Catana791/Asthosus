@@ -20,7 +20,6 @@ drawer: {
       suffix: -wing
       mirror: true
       under: true
-      moveRot: 12
       progress: warmup
       heatProgress: warmup
     }
@@ -30,7 +29,6 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -6
       heatProgress: recoil
     }
   ]
