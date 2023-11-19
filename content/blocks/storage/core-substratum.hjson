@@ -1,5 +1,6 @@
 type: CoreBlock
 name: Core: Substratum
+description: Core of the base.  Well armored and able to store large amounts of items.
 requirements: [
   item-ferrinite/3000
   item-demetite/3000
