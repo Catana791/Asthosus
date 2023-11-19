@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: Petra
-description: "Core of the base. Compared to the Essence core, has more armor and allows for more active units."
+description: Core of the base. Armored and stores a medium amount of resources. Allows for more active units than an Essence core.
 requirements: [
   item-ferrinite/1600
   item-demetite/1200
