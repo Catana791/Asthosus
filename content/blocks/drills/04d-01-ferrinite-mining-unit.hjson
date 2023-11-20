@@ -3,12 +3,12 @@ name: Ferrinite Mining Unit
 description: Mines Ferrinite slowly from Ferrinite and Aged Ferrinite Walls. 
 size: 2
 category: production
-research: core-essence
+research: 11k-01-core-essence
 requirements: [
-  "item-ferrinite/20"
+  01a-01-item-ferrinite/20
 ]
 drillTime: 240
-output: item-ferrinite
+output: 01a-01-item-ferrinite
 attribute: ferrinite
 ambientSound: drill
 ambientSoundVolume: 0.08
