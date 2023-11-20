@@ -7,9 +7,9 @@ squareSprite: false
 laserRange: 4
 maxNodes: 2
 requirements: [
-  item-ferrinite/20
-  item-lodestone/20
-  item-lithium/20
+  01a-01-item-ferrinite/20
+  01a-06-item-lodestone/20
+  01a-07-item-lithium/20
 ]
 category: power
-research: ferrinite-wire-router
+research: 07g-03-ferrinite-wire-router
