@@ -1,0 +1,198 @@
+type: mech
+name: Apex
+description: "Fires harpoons and burst of flak at enemy targets."
+speed: 0.38
+flying: false
+health: 9780
+armor: 10
+outlineColor: 44413c
+mechLegColor: 44413c
+hitSize: 22
+rotateSpeed: 2
+parts: [
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: -0.89
+    radius: 7
+    followRotation: true
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: ffbe7f
+    color2: d46f6b
+    spinSpeed: 0.89
+    radius: 5
+    sides: 8
+    followRotation: true
+  }
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff33
+    outline: false
+    mirror: false
+  }
+]
+weapons: [
+
+  {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    name: apex-weapon
+    layerOffset: -0.01
+    x: -15
+    y: 1
+    mirror: true
+    shootY: 25
+    alternate: true
+    reload: 102
+    shootSound: shoot-heavy-cannon
+    ejectEffect: casing3
+    rotate: false
+    bullet: {
+      type: BasicBulletType
+      shootEffect: shootTitan
+      smokeEffect: shootBigSmoke
+      trailEffect: dynamicSpikes
+      trailChance: -1
+      trailInterval: 6
+      sprite: asthosus-hook
+      hitEffect: hitMeltdown
+      width: 32
+      fragOnHit: false
+      height: 72
+      speed: 3
+      lifetime: 65
+      damage: 220
+      pierce: true
+      pierceCap: 4
+      buildingDamageMultiplier: 0.8
+      knockback: -18
+      homingPower: 0.002
+      fragBullets: 3
+      fragVelocityRnd: 0
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragSpread: 120 
+      hitSound: explosion
+      despawnSound: explosion
+      fragBullet: {
+        type: BasicBulletType
+        speed: 1
+        lifetime: 30
+        width: 12
+        height: 18
+        damage: 0
+        pierce: true
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragSpread: 0
+        fragOnHit: false
+        fragRandomSpread: 0
+        fragBullet: {
+          type: ExplosionBulletType
+          fragOnHit: false
+          speed: 0
+          killShooter: false
+          splashDamage: 90
+          splashDamageRadius: 16
+          splashPierce: true
+          buildingDamageMultiplier: 0.25
+        }
+      }
+    }
+  }
+  {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    name: apex-mount 
+    ejectEffect: casing1
+    x: -10
+    y: 5
+    mirror: true
+    alternate: true
+    rotate: true
+    reload: 30
+    inaccuracy: 5
+    shoot: {
+      shots: 5
+      shotDelay: 2
+    }
+    shootSound: shoot-dull
+    bullet: {
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      type: BasicBulletType
+      speed: 5
+      lifetime: 35
+      pierce: true
+      pierceCap: 3
+      damage: 18
+      splashDamage: 3
+      splashDamageRadius: 8
+      width: 9
+      height: 16
+    }
+  }
+  {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    name: apex-mount
+    x: -8
+    y: -4.5
+    mirror: true
+    alternate: true
+    rotate: true
+    reload: 26
+    shootSound: shoot-laser
+    bullet: {
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      type: LaserBulletType
+      sideWidth: 1.25
+      sideLength: 12
+      sideAngle: 45
+      length: 120
+      lifetime: 34
+      width: 1.6
+      damage: 60
+    }
+  }
+]
+research: cleaver

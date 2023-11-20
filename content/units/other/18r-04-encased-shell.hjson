@@ -1,0 +1,48 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 3
+useUnitCap: false
+lifetime: 54
+rotateSpeed: 0.2
+trailLength: 5
+autoFindTarget: false
+homingDelay: 0
+circleTarget: false
+faceTarget: true
+loopSound: none
+deathSound: none
+trailColor: 7a7564
+aimDst: 4
+drawCell: false
+engineSize: 0
+outlines: false
+range: 4
+hidden: true
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 110
+      splashDamageRadius: 24
+      ammoMultiplier: 3
+      fragBullets: 3
+      fragBullet: {
+        type: BasicBulletType
+        width: 14
+        height: 18
+        speed: 2
+        damage: 26
+        shrinkX: 0
+        shrinkY: 0
+        pierce: false
+        lifetime: 20
+      }
+    }
+  } 
+]

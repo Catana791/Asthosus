@@ -1,0 +1,29 @@
+type: mech
+name: Shiv
+description: Fires sapping lasers at nearby targets. Strong in numbers, weak in few.
+speed: 0.5
+flying: false
+health: 210
+hitSize: 10
+outlineColor: 44413c
+mechLegColor: 44413c
+  weapons: [
+    {
+      x: 5.5
+      name: shiv-weapon
+        y: 1
+        reload: 10
+        rotate: false
+        mirror: true
+        alternate: true
+        shootSound: sap
+        bullet: {
+          type: SapBulletType
+            length: 128
+            damage: 
+            sapStrength: 0.05
+            damage: 7
+        }
+    }
+]
+research: ground-mounting-bay

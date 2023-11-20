@@ -1,0 +1,22 @@
+type: tether
+name: Mounting Drone
+description: Mounts units from Assembly Bays.
+flying: true
+drag: 0.06
+accel: 0.11
+speed: 1.1
+health: 90
+engineSize: 2
+engineOffset: 6.5
+payloadCapacity: 0
+targetable: false
+bounded: false
+outlineColor: 44413c
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
+controller: AssemblerAI
