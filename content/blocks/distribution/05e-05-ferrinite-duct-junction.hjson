@@ -5,8 +5,8 @@ health: 65
 size: 1
 speed: 22
 requirements: [
-  item-ferrinite/2
+  01a-01-item-ferrinite/2
 ]
 squareSprite: false
 category: distribution
-research: ferrinite-duct
+research: 05e-01-ferrinite-duct
