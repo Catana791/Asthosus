@@ -1,0 +1,44 @@
+type: GenericCrafter
+name: Oasis Water Sieve
+description: Purifies Oasis Water to create Purified Oasis Water.
+size: 2
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+outputLiquid: liquid-purified-oasis-water/0.1
+consumes: {
+  liquid: liquid-oasis-water/0.2
+}
+category: crafting
+research: aqueduct
+requirements: [
+  item-ferrinite/40
+  item-demetite/40
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -sieve
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-oasis-water
+      padding: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 0.6
+    }
+  ]
+}

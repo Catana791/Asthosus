@@ -1,0 +1,156 @@
+type: ItemTurret
+name: Subtile
+description: Fires single powerful piercing shells at enemies over large distances. Requires pressure. 
+size: 2
+squareSprite: false
+reload: 270
+range: 320
+shootSound: shoot-big-artillery
+shootEffect: shootBig
+smokeEffect: shootSmokeTitan
+category: turret
+outlineColor: 42413e
+research: skip
+research: {
+   parent: skip
+   objectives: [
+      skip
+   ]
+}
+requirements: [
+  item-ferrinite/60
+  item-demetite/75
+  item-lithium/40
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -bit
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -4
+    }
+    {
+      type: RegionPart
+      suffix: -top
+      heatProgress: recoil
+    }
+  ]
+}
+consumes: {
+  liquid: pressure/0.05
+  coolant: {
+    amount: 0.2
+  }
+}
+ammoTypes: {
+  item-lodestone: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 4
+    lifetime: 80
+    damage: 45
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.6
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 45
+      splashDamageRadius: 24
+    }
+  }
+  item-lithium: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 4
+    lifetime: 80
+    damage: 60
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.65
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 460
+      splashDamageRadius: 24
+    }
+  }
+  item-obsidian: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 4
+    lifetime: 80
+    damage: 78
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.75
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 78
+      splashDamageRadius: 24
+    }
+  }
+}

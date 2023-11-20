@@ -1,0 +1,20 @@
+type: Pump
+name: Exothermic Pump
+description: Pumps liquids from liquid tiles. Requires Lignite to operate.
+size: 2
+category: liquid
+squareSprite: false
+research: lodestone-pump
+requirements: [
+  item-ferrinite/60
+  item-demetite/45
+  item-lodestone/25
+  item-lithium/20
+]
+pumpAmount: 0.1
+consumes: {
+  items: [
+    item-lignite/1
+  ]
+}
+consumeTime: 120

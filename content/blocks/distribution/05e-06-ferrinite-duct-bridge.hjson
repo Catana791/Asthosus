@@ -1,0 +1,16 @@
+type: DuctBridge
+name: Ferrinite Pipeline Bridge
+description: Acts as a bridge for crossing pipelines or terrain.
+health: 135
+size: 1
+requirements: [
+  item-ferrinite/4
+  item-demetite/2
+] 
+category: distribution
+research: ferrinite-duct-junction
+squareSprite: false
+range: 4
+speed: 4.285714
+arrowSpacing: 7
+bufferCapacity: 11

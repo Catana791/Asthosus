@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: Ferrinite Wire Router
+description: Just for aesthetics. Connects multiple Ferrinite Wires. Can store very little amounts of power.
+health: 80
+conductivePower: true
+hasPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 10
+}
+requirements: [
+  item-ferrinite/3
+]
+category: power
+research: ferrinite-wire-junction
+liquidCapacity: 0

@@ -1,0 +1,160 @@
+type: ItemTurret
+name: Myriad
+description: Fires homing and fragging missiles at enemies. Applies the shock status to hit enemies.
+size: 3
+reload: 71
+shootSound: shoot-small-flame
+shoot: {
+  type: ShootBarrel
+  shots: 5
+  shotDelay: 6
+  barrels: [
+    0, 4, 0,
+    -3, -1, 0,
+    -7, 1, 0,
+    3, -1, 0,
+    7, 1, 0
+  ]
+}
+consumes: {
+  coolant: {
+    amount: 0.6
+  }
+}
+coolantMultplier: 0.4
+range: 160
+outlineColor: 42413e
+category: turret
+research: fulmination
+requirements: [
+  item-ferrinite/130
+  item-lodestone/100
+  item-lithium/80
+  item-crosium/60
+]
+ammoTypes: {
+  item-lithium: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    homingPower: 0.08
+    homingDelay: 30
+    homingRange: 40
+    speed: 3
+    lifetime: 53
+    hitEffect: blastExplosion
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnHit: true
+    damage: 3
+    splashDamage: 16
+    splashDamageRadius: 24
+    status: shocked
+    ammoMultiplier: 3
+    fragBullets: 3
+    fragBullet: {
+      type: MissileBulletType
+      width: 4
+      height: 6
+      homingPower: 0.08
+      homingDelay: 30
+      homingRange: 40
+      speed: 2
+      lifetime: 20
+      hitEffect: blastExplosion
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      despawnHit: true
+      damage: 1
+      splashDamage: 5
+      splashDamageRadius: 9
+      status: shocked
+      lightning: 3
+      lightningDamage: 3
+    }
+  }
+  item-crosium: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    homingPower: 0.08
+    homingDelay: 30
+    homingRange: 40
+    speed: 3
+    lifetime: 53
+    hitEffect: blastExplosion
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnHit: true
+    damage: 4
+    splashDamage: 20
+    splashDamageRadius: 30
+    status: shocked
+    ammoMultiplier: 4
+    fragBullets: 4
+    fragBullet: {
+      type: MissileBulletType
+      width: 4
+      height: 6
+      homingPower: 0.08
+      homingDelay: 30
+      homingRange: 40
+      speed: 2
+      lifetime: 20
+      hitEffect: blastExplosion
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      despawnHit: true
+      damage: 1
+      splashDamage: 5
+      splashDamageRadius: 9
+      status: shocked
+      lightning: 2
+      lightningDamage: 5
+    }
+  }
+  item-barite-webbing: {
+    type: MissileBulletType
+    width: 7
+    height: 9
+    homingPower: 0.08
+    homingDelay: 30
+    homingRange: 40
+    speed: 3
+    lifetime: 53
+    hitEffect: blastExplosion
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    despawnHit: true
+    damage: 7
+    splashDamage: 26
+    splashDamageRadius: 36
+    status: shocked
+    ammoMultiplier: 5
+    fragBullets: 5
+    fragBullet: {
+      type: MissileBulletType
+      width: 4
+      height: 6
+      homingPower: 0.08
+      homingDelay: 30
+      homingRange: 40
+      speed: 2
+      lifetime: 20
+      hitEffect: blastExplosion
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      despawnHit: true
+      damage: 1
+      splashDamage: 5
+      splashDamageRadius: 9
+      status: shocked
+      lightning: 3
+      lightningDamage: 5
+    }
+  }
+} 
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}

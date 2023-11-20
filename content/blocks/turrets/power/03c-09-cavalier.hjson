@@ -1,0 +1,66 @@
+type: PowerTurret
+name: Cavalier
+description: Charges up to deliver three consecutive laser beams that deal high damage and pierce enemies.
+size: 2
+reload: 148
+accurateDelay: false
+inaccuracy: 3
+shoot: {
+  firstShotDelay: 60
+  shots: 3
+  shotDelay: 10
+}
+range: 176
+outlineColor: 42413e
+shootSound: shoot-laser
+chargeSound: short-laser-charge
+shootType: {
+  type: LaserBulletType
+  colors: [b98279, e6aca3, ffffff]
+  lightningColor: e6aca3
+  length: 176
+  lightning: 3
+  lightningLength: 6
+  lightningDamage: 8
+  lightningCone: 90
+  damage: 21
+  buildingDamageMultiplier: 0.5
+  chargeEffect: lightningCharge
+}
+category: turret
+squareSprite: false
+research: catapult
+requirements: [
+  item-ferrinite/40
+  item-demetite/50
+  item-lithium/50
+  item-obsidian/40
+]
+targetAir: false
+consumes: {
+  power: 3
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -2
+      heatProgress: recoil
+      mirror: false
+      under: false
+    }
+    {
+      type: Regionpart
+      suffix: -side
+      mirror: true
+      under: true
+      progress: recoil
+      moveY: -0.5
+      heatProgress: recoil
+    }
+  ]
+}

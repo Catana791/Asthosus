@@ -1,0 +1,117 @@
+type: ConsumeGenerator
+name: Pressure Turbine
+description: Uses pressure to create larger amounts of power.
+size: 2
+category: power
+research: ignition-generator
+requirements: [
+  item-ferrinite/50
+  item-lodestone/45
+  item-lithium/30
+]
+consumes: {
+  liquid: pressure/0.1
+}
+hasLiquids: true
+liquidCapacity: 30
+itemDuration: 60
+powerProduction: 1
+layer: 118
+generateEffectRange: 0
+generateEffect: {
+  type: RadialEffect
+  rotationSpacing: 22.5
+  amount: 16
+  lengthOffset: 6
+  effect: {
+    type: ParticleEffect
+    baseRotation: 90
+    length: 5
+    baseLength: 6
+    particles: 4
+    useRotation: false
+    sizeFrom: 1
+    sizeTo: 0.1
+    lifetime: 120
+    cone: 1
+    layer: 80
+    colorFrom: ffffff00
+    colorTo: ffffff88
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+ambientSound: extractLoop
+ambientSoundVolume: 0.01
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: 0
+      y: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: 0
+      y: -6
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: 6
+      y: 0
+    }
+    {
+      type: DrawRegion
+      suffix: -cogwheel
+      spinSprite: true
+      rotateSpeed: 2.8
+      x: -6
+      y: 0
+    }
+    {
+      type: DrawPistons
+      suffix: -main-piston
+      angleOffset: 45
+      sinMag: 2
+      sinScl: 3
+    }
+    {
+      type: DrawPistons
+      suffix: -also-main-piston
+      angleOffset: -45
+      sinMag: 2
+      sinScl: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -tank-bottom
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -tank-liquid
+      drawLiquid: pressure
+    }
+    {
+      type: DrawRegion
+      suffix: -tank
+    }
+  ]
+}

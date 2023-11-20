@@ -1,0 +1,44 @@
+type: UnitFactory
+name: Cruise Missile Launcher
+description: Relentlessly creates missiles that are then sent off to hit targets over long distances. Creates missiles even if no enemies are present.
+size: 4
+squareSprite: false
+rotate: false
+consumes: {
+  power: 3
+}
+plans: [
+  {
+    unit: obsidian-cruise-missile
+    requirements: [
+      item-cretite/4
+      item-obsidian/24
+    ]
+    time: 600
+  }
+  {
+    unit: barite-cruise-missile
+    requirements: [
+      item-cretite/4
+      item-barite/20
+    ]
+    time: 600
+  }
+  {
+    unit: draysten-cruise-missile
+    requirements: [
+      item-cretite/4
+      item-draysten/12
+    ]
+    time: 600
+  }
+]
+category: turret
+research: fulmination
+requirements: [
+  item-ferrinite/350
+  item-lodestone/250
+  item-lithium/220
+  item-obsidian/105
+  item-draysten/80
+]

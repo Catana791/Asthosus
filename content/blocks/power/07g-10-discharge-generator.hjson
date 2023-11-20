@@ -1,0 +1,44 @@
+type: ConsumeGenerator
+name: Discharge Generator
+description: Produces power by discharging charged materials. Uses Purified Oasis Water as coolant.
+size: 3
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-purified-oasis-water
+      alpha: 0.7
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -top
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.24
+powerProduction: 15
+category: power
+research: pressure-turbine
+requirements: [
+  item-demetite/190
+  item-lodestone/90
+  item-lithium/55
+]
+consumes: {
+  liquid: liquid-purified-oasis-water/0.1
+  itemCharged: {
+    minCharge: 0.1
+  } 
+}

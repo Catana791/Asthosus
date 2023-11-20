@@ -1,0 +1,15 @@
+type: Battery
+name: Power Cell
+description: A simple power cell made for holding and storing power.
+health: 65
+size: 1
+squareSprite: false
+consumes: {
+  powerBuffered: 2000
+}
+requirements: [
+  item-ferrinite/15,
+  item-demetite/5
+]
+category: power
+research: ferrinite-wire

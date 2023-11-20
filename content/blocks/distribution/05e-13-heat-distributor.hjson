@@ -1,0 +1,26 @@
+type: HeatConductor
+name: Heat Distributor
+description: Spreads inputted heat in three output directions equally. 
+size: 1
+category: distribution
+research: lignite-burner
+requirements: [
+  item-lodestone/30
+  item-lithium/20
+]
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
