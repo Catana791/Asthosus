@@ -3,10 +3,10 @@ name: Heat Distributor
 description: Spreads inputted heat in three output directions equally. 
 size: 1
 category: distribution
-research: lignite-burner
+research: 09i-15-lignite-burner
 requirements: [
-  item-lodestone/30
-  item-lithium/20
+  01a-06-item-lodestone/30
+  01a-07-item-lithium/20
 ]
 regionRotated1: 1
 drawer: {
