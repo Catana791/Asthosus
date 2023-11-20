@@ -1,8 +1,0 @@
-localizedName: Genesis
-description: You land on Asthosus and find yourself in a small ravine devoid of life and resources. Can you really conquer this planet?
-captureWave: 10
-planet: asthosus
-sector: 1
-research: core-essence
-difficulty: 1
-alwaysUnlocked: true

@@ -1,9 +1,0 @@
-name: Ferrinite Vent
-type: SteamVent
-blendGroup: ferrinite-stone
-parent: ferrinite-stone
-effect: ventSteam
-effectColor: 55544f
-attributes: {
-   heat: 1
-}

@@ -1,6 +1,0 @@
-type: StaticWall
-name: Barite Wall
-description: "Contains traces of Barite."
-attributes: {
-  barite: 1
-}
