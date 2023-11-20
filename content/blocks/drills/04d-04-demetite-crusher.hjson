@@ -3,18 +3,18 @@ name: Demetite Crusher
 description: Mines Demetite from Demetite walls. Requires pressure. Is more efficient than a regular Demetite Mining Unit.
 size: 3
 category: production
-research: demetite-mining-unit
+research: 04d-02-demetite-mining-unit
 requirements: [
-  item-ferrinite/30
-  item-demetite/40
-  item-lithium/30
-  item-obsidian/35
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/40
+  01a-07-item-lithium/30
+  01a-09-item-obsidian/35
 ]
 drillTime: 90
 consumes: {
-  liquid: pressure/0.05
+  liquid: 02b-01-pressure/0.05
 }
-output: item-demetite
+output: 01a-02-item-demetite
 attribute: demetite
 ambientSound: drill
 ambientSoundVolume: 0.1
