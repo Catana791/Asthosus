@@ -10,7 +10,7 @@ consumes: {
   powerBuffered: 10
 }
 requirements: [
-  item-ferrinite/3
+  01a-01-item-ferrinite/3
 ]
 category: power
-research: ferrinite-wire
+research: 07g-01-ferrinite-wire
