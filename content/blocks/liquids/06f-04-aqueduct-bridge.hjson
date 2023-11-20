@@ -7,8 +7,8 @@ arrowSpacing: 6
 range: 4
 hasPower: false
 category: liquid
-research: aqueduct-junction
+research: 06f-02-aqueduct-junction
 requirements: [
-  item-lodestone/12
+  01a-06-item-lodestone/12
 ]
 researchCostMultiplier: 0.5
