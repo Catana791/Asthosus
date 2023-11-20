@@ -6,8 +6,8 @@ name: Liquid Vat
 description: Stores liquids and outputs them to all sides.
 category: liquid
 requirements: [
-  item-lodestone/15
-  item-obsidian/15
+  01a-06-item-lodestone/15
+  01a-09-item-obsidian/15
 ]
-research: aqueduct-router
+research: 06f-03-aqueduct-router
 liquidPadding: 1.8
