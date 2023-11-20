@@ -5,15 +5,15 @@ size: 2
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
-outputLiquid: liquid-purified-oasis-water/0.1
+outputLiquid: 02b-03-liquid-purified-oasis-water/0.1
 consumes: {
-  liquid: liquid-oasis-water/0.2
+  liquid: 02b-02-liquid-oasis-water/0.2
 }
-category: crafting
-research: aqueduct
+category: liquid
+research: 06f-01-aqueduct
 requirements: [
-  item-ferrinite/40
-  item-demetite/40
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/40
 ]
 drawer: {
   type: DrawMulti
@@ -28,7 +28,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-oasis-water
+      drawLiquid: 02b-02-liquid-oasis-water
       padding: 1.5
     }
     {
