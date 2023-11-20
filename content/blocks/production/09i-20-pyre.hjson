@@ -18,8 +18,8 @@ drawer: {
   ]
 }
 category: crafting
-research: lithium-grinder
+research: 09i-03-lithium-grinder
 requirements: [
-  item-demetite/25
-  item-lodestone/10
+  01a-02-item-demetite/25
+  01a-06-item-lodestone/10
 ]
