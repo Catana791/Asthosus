@@ -1,0 +1,6 @@
+type: StaticWall
+name: Obsidian Wall
+description: "A wall made from lava that cooled too quickly."
+attributes: {
+  obsidian: 1
+}

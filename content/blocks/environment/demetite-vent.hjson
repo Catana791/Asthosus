@@ -1,0 +1,9 @@
+name: Demetite Vent
+type: SteamVent
+blendGroup: demetite-stone
+parent: demetite-stone
+effect: ventSteam
+effectColor: 867e60
+attributes: {
+   heat: 1
+}

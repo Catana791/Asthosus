@@ -1,0 +1,8 @@
+type: Floor
+name: Hardened Sand
+itemDrop: item-hardened-sand
+playerUnmineable: true
+attributes: {
+  oil: 0.3
+  sand: 0.4
+}

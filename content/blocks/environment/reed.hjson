@@ -1,0 +1,10 @@
+type: SeaBush
+name: Reed
+lobesMin: 1
+lobesMax: 4
+magMax: 8
+magMin: 2
+origin: 0.3
+spread: 40
+sclMin: 60
+sclMax: 100

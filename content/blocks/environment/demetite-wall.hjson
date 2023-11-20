@@ -1,0 +1,6 @@
+type: StaticWall
+name: Demetite Wall
+description: "Contains traces of Demetite which can be mined using specialized means."
+attributes: {
+  demetite: 1
+}
