@@ -28,7 +28,7 @@ drawer: {
 }
 consumes: {
   items: [
-    item-cretite/1
+    01a-08-item-cretite/1
   ]
   power: 1.5
 }
@@ -59,9 +59,9 @@ rotate: false
 ambientSound: smelter
 ambientSoundVolume: 0.1
 category: crafting
-research: lignite-burner
+research: 09i-15-lignite-burner
 requirements: [
-  item-ferrinite/110
-  item-demetite/95
-  item-lithium/55
+  01a-01-item-ferrinite/110
+  01a-02-item-demetite/95
+  01a-07-item-lithium/55
 ]
