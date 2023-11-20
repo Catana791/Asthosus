@@ -2,8 +2,8 @@ type: OverflowGate
 name: Overflow Controller
 description: Outputs items to the sides if the front path is blocked.
 category: distribution
-research: duct-sorter
+research: 05e-07-duct-sorter
 requirements: [
-  item-ferrinite/5
-  item-demetite/4
+  01a-01-item-ferrinite/5
+  01a-02-item-demetite/4
 ]
