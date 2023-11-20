@@ -4,17 +4,17 @@ description: Pumps liquids from liquid tiles. Requires Lignite to operate.
 size: 2
 category: liquid
 squareSprite: false
-research: lodestone-pump
+research: 06f-05-lodestone-pump
 requirements: [
-  item-ferrinite/60
-  item-demetite/45
-  item-lodestone/25
-  item-lithium/20
+  01a-01-item-ferrinite/60
+  01a-02-item-demetite/45
+  01a-06-item-lodestone/25
+  01a-07-item-lithium/20
 ]
-pumpAmount: 0.1
+pumpAmount: 0.125
 consumes: {
   items: [
-    item-lignite/1
+    01a-03-item-lignite/1
   ]
 }
 consumeTime: 120
