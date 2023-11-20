@@ -2,13 +2,13 @@ type: Duct
 name: Ferrinite Pipeline
 category: distribution
 alwaysUnlocked: true
-research: core-essence
+research: 11k-01-core-essence
 researchCost: [
-  item-ferrinite/10
+  01a-01-item-ferrinite/10
 ]
 speed: 10
 health: 45
-bridgeReplacement: ferrinite-duct-bridge
+bridgeReplacement: 05e-06-ferrinite-duct-bridge
 requirements: [
-  item-ferrinite/1
+  01a-01-item-ferrinite/1
 ]
