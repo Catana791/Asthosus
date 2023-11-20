@@ -4,14 +4,14 @@ description: Grinds and compacts Demetite and Lignite into Lithium. More efficie
 size: 3
 maxEfficiency: 1
 category: crafting
-research: lithium-grinder
+research: 09i-03-lithium-grinder
 squareSprite: false
 heatRequirement: 6
 requirements: [
-  item-lodestone/90
-  item-obsidian/70
-  item-lithium/50
-  item-crosium/30
+  01a-06-item-lodestone/90
+  01a-07-item-lithium/50
+  01a-09-item-obsidian/70
+  01a-12-item-crosium/30
 ]
 craftEffect: {
   type: RadialEffect
@@ -36,12 +36,12 @@ craftEffect: {
     sizeInterp: pow3In
   }
 }
-outputItem: item-lithium/4
+outputItem: 01a-07-item-lithium/4
 craftTime: 60
 consumes: {
   items: [
-    item-demetite/3
-    item-lignite/2
+    01a-02-item-demetite/3
+    01a-03-item-lignite/2
   ]
 }
 drawer: {
