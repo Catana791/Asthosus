@@ -8,8 +8,8 @@ health: 45
 liquidCapacity: 20
 category: liquid
 squareSprite: false
-research: aqueduct-junction
+research: 06f-02-aqueduct-junction
 requirements: [
-  item-lodestone/10
+  01a-06-item-lodestone/10
 ]
 researchCostMultiplier: 0.5
