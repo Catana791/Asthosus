@@ -1,0 +1,69 @@
+type: UnitAssembler
+name: Tank Assembly Bay
+description: Creates tank units using payloads. Requires power.
+size: 5
+category: units
+droneType: mounting-drone
+research: ground-mounting-bay
+requirements: [
+  item-ferrinite/50
+  item-demetite/70
+  item-lithium/60
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: shennong
+    requirements: [
+      asthosus-lithium-wall-small/4
+      asthosus-spray/1
+    ]
+    time: 900
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: trigon
+    requirements: [
+      asthosus-billow/1
+      asthosus-lithium-wall-large/2
+      asthosus-lodestone-wall-small/2
+    ]
+    time: 1600
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: aprotodon
+    requirements: [
+      asthosus-repeater/1
+      asthosus-lithium-wall-large/6
+      asthosus-obsidian-wall-large/4
+    ]
+    time: 3400
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: aphelops
+    requirements: [
+      asthosus-typhoon/2
+      asthosus-crosium-wall-large/4
+      asthosus-lithium-wall-large/12
+    ]
+    time: 8800
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: annectodon
+    requirements: [
+      asthosus-missile-battery/2
+      asthosus-freight-conveyor/2
+      asthosus-lithium-wall-large/20
+      asthosus-barite-wall-large/16
+    ]
+    time: 23800
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
+areaSize: 13

@@ -1,0 +1,22 @@
+type: Constructor
+name: Median Component Assembler
+description: Crafts components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+size: 3
+category: units
+requirements: [
+  item-demetite/225
+  item-lodestone/95
+  item-lithium/80
+  item-obsidian/35
+] 
+hasPower: true
+maxBlockSize: 3
+consumes: {
+  power: 1
+  liquid: pressure/0.1
+}
+buildSpeed: 1.5
+filter: [spray, repeater, subtile, lithium-wall-small, lithium-wall-large, lodestone-wall-small, lodestone-wall-large, obsidian-wall-small, obsidian-wall-large, barite-wall-small, barite-wall-large, mechanical-joint, restoration-projector, restoration-dome]
+research: rudimentary-component-assembler
+squareSprite: false
+conductivePower: true

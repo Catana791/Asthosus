@@ -1,0 +1,18 @@
+type: PayloadDeconstructor
+name: Component Disassembler
+description: Uses pressure and power to disassemble unit components and output their materials.
+itemCapacity: 100
+size: 3
+category: units
+research: component-assembler
+requirements: [
+  item-demetite/80
+  item-lodestone/80
+  item-lithium/80
+]
+squareSprite: false
+deconstructSpeed: 0.8
+consumes: {
+  power: 2
+  liquid: pressure/0.2
+}

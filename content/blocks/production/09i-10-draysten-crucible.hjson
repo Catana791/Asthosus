@@ -1,0 +1,118 @@
+type: HeatCrafter
+heatRequirement: 12
+ambientSound: smelter
+ambientSoundVolume: 0.12
+maxEfficiency: 1.5
+name: Draysten Crucible
+description: Creates Draysten using Barite Webbing and Nontragen. Requires heat and power.
+size: 4
+squareSprite: false
+craftTime: 180
+consumes: {
+  power: 6
+  items: [
+    item-barite-webbing/1  
+  ]
+  liquids: [
+    liquid-nontragen/0.2
+  ]
+}
+craftEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 45
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 40
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 50
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 55
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 35
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+  ]
+}
+outputItem: item-draysten/1
+category: crafting
+research: barite-loom
+requirements: [
+  item-lodestone/220
+  item-lithium/200
+  item-obsidian/240
+  item-crosium/40
+  item-barite-webbing/80
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-nontragen
+      alpha: 0.9
+      padding: 3
+    }
+    {
+      type: DrawParticles
+      color: 5eb3ac
+      alpha: 0.85
+      particleSize: 1
+      particles: 42
+      particleRad: 18
+      particleLife: 60
+    }
+    {
+      type: DrawBubbles
+      radius: 9
+      color: 5eb3ac
+    }
+    {
+      type: DrawArcSmelt
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: 5eb3ac
+      alpha: 0.85
+      particleSize: 1
+      particles: 28
+      particleRad: 18
+      particleLife: 90
+    }
+  ]
+}

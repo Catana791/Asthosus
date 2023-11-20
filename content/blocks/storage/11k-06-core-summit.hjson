@@ -1,0 +1,19 @@
+type: CoreBlock
+name: Core: Summit
+description: Core of the base. Incredibly well armored and able to store vasts amounts of items. Allows for more active units than an Omphalos core.
+requirements: [
+  item-ferrinite/8000
+  item-demetite/8000
+  item-lodestone/2000
+  item-lithium/3000
+  item-barite/3000
+  item-barite-webbing/1000
+]
+size: 5
+squareSprite: false
+unitType: clitelle
+health: 8110
+itemCapacity: 15000
+unitCapModifier: 28
+category: effect
+research: core-silex

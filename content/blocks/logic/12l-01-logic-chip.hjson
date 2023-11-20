@@ -1,0 +1,12 @@
+type: LogicBlock
+name: Logic Chip
+description: Runs logic instructions. Is able to control units and buildings.
+category: logic
+research: core-essence
+requirements: [
+  item-ferrinite/90
+  item-demetite/105
+  item-lithium/40
+]
+instructionsPerTick: 2
+size: 1

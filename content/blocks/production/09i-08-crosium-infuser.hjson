@@ -1,0 +1,76 @@
+type: GenericCrafter
+name: Crosium Infuser
+description: Infuses Obsidian with Purified Oasis Water before compressing it to create Crosium. Requires power and pressure.
+size: 3
+craftTime: 90
+consumes: {
+  power: 2.5
+  liquids: [
+    liquid-purified-oasis-water/0.2
+    pressure/0.2
+  ]
+  items: [
+    item-obsidian/2
+  ]
+}
+outputItem: item-crosium/2
+hasLiquids: true
+hasItems: true
+liquidCapacity: 30
+category: crafting
+research: lodestone-basin
+requirements: [
+  item-demetite/130
+  item-lodestone/110
+  item-obsidian/70
+]
+squareSprite: false
+ambientSound: extractLoop
+ambientSoundVolume: 0.08
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-purified-oasis-water
+      padding: 3
+      alpha: 0.55
+    }
+    {
+      type: DrawMultiWeave
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 54776d
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 1d1d1d
+      spread: 7
+      reccurence: 3
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 464646
+      spread: 2
+      reccurence: 2
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      color: 54776d
+      square: false
+      stroke: 0.8
+      minStroke: 0.2
+    }
+  ]
+}

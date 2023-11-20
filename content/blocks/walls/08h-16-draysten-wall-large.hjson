@@ -1,0 +1,54 @@
+type: PowerTurret
+name: Large Draysten Wall
+description: A sturdy wall made from Draysten that slows down enemies in it's vicinity. Requires and conducts power. Slows enemies for longer and has more range than a normal Draysten Wall.
+health: 3920
+size: 2
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 0
+shootEffect: {
+    type: ParticleEffect
+    particles: 1
+    length: 0
+    sizeFrom: 25
+    sizeTo: 23
+    colorFrom: edc66c
+    colorTo: baa164
+    region: asthosus-emp-bullet-hit
+    lifetime: 15
+}
+smokeEffect: none
+shootSound: spark
+shootY: 0
+shootX: 0
+recoil: 0
+shootCone: 360
+reload: 90
+range: 96
+consumes: {
+  power: 0.5
+}
+shootType: {
+  type: BasicBulletType
+  speed: 0
+  lifetime: 1
+  splashDamage: 1
+  splashDamageRadius: 96
+  splashDamagePierce: true
+  damage: 0
+  status: slow
+  statusDuration: 240
+  width: 0.00001
+  height: 0.00001
+}
+category: defense
+research: draysten-wall-small
+requirements: [
+  item-draysten/18
+  item-lithium/6
+]

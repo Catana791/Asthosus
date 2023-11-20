@@ -1,0 +1,30 @@
+type: HeatProducer
+name: Atmospheric Heater
+description: Stores and concentrates the heat from Asthosus' environment to be used by machines.
+size: 1
+health: 70
+heatOutput: 1
+ambientSound: smelter
+ambientSoundVolume: 0.06
+warmupRate: 10
+rotate: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+category: crafting
+research: core-essence
+requirements: [
+  item-ferrinite/15
+  item-demetite/12
+]

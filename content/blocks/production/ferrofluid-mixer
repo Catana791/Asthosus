@@ -1,0 +1,69 @@
+type: GenericCrafter
+name: Ferrofluid Mixer
+description: Mixes magnetic Ferrofluid which is used for numerous technical appliences.
+size: 2
+hasLiquids: true
+liquidCapacity: 80
+consumes: {
+  items: [
+    item-lodestone/1
+  ]
+  liquid: liquid-purified-oasis-water/0.2
+}
+outputLiquid: liquid-ferrofluid/0.2
+craftTime: 90
+category: crafting
+research: oasis-water-sieve
+requirements: [
+  item-demetite/40
+  item-obsidian/20
+  item-lithium/20
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    } 
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-purified-oasis-water
+      padding: 1.5
+      alpha: 0.7
+    }
+    {
+      type: DrawRegion
+      suffix: -pistons-bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -belt-holders
+    }
+    {
+      type: DrawFrames
+      frames: 6
+      interval: 3
+      sine: false
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -tank-bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: liquid-ferrofluid
+      padding: 6
+      alpha: 0.8
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

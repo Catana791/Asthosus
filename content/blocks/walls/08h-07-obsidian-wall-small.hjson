@@ -1,0 +1,29 @@
+type: Wall
+name: Obsidian Wall
+description: A wall made from obsidian. Protects allied structures from damage. Bursts into damaging shards upon destruction.
+size: 1
+health: 510
+category: defense
+research: lithium-wall-small
+requirements: [
+  item-obsidian/6
+]
+destroyBullet: {
+  instantDisappear: true
+  damage: 0
+  speed: 0
+  fragBullets: 3
+  fragBullet: {
+    type: BasicBulletType
+    speed: 4
+    lifetime: 20
+    pierce: true
+    pierceCap: 1
+    damage: 24
+    width: 4
+    height: 5
+    homingPower: 0.1
+    mixColorFrom: 594e6b
+    mixColorTo: 2e293a
+  }
+}

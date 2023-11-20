@@ -1,0 +1,14 @@
+type: Wall
+name: Crosium Wall
+description: A wall made from crosium. Defends allied structures from damage. Capable of absorbing lasers and conducting power.
+absorbLasers: true
+health: 590
+requirements: [
+  item-crosium/5
+  item-lodestone/2
+]
+hasPower: true
+conductivePower: true
+squareSprite: false
+category: defense
+research: obsidian-wall-small
