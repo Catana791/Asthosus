@@ -3,13 +3,13 @@ name: Barite Loom
 description: Weaves Barite Webbing using Barite and Lignite. Requires power and pressure. Works better on Barite tiles.
 size: 3
 category: crafting
-research: crosium-infuser
+research: 09i-08-crosium-infuser
 attribute: barite
 maxBoost: 1.25
 requirements: [
-  item-demetite/120
-  item-lithium/150
-  item-barite/75
+  01a-02-item-demetite/120
+  01a-07-item-lithium/150
+  01a-11-item-barite/75
 ]
 itemCapacity: 50
 liquidCapacity: 50
@@ -23,13 +23,13 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: pressure
+      drawLiquid: 02b-01-pressure
       alpha: 0.1
       padding: 2.5
     }
     {
       type: DrawLiquidTile
-      drawLiquid: pressure
+      drawLiquid: 02b-01-pressure
       alpha: 0.15
       padding: 2.5
     }
@@ -54,10 +54,10 @@ drawer: {
 craftTime: 200
 consumes: {
   items: [
-    item-barite/9
-    item-lignite/18
+    01a-11-item-barite/9
+    01a-03-item-lignite/18
   ]
-  liquid: pressure/0.3
+  liquid: 02b-01-pressure/0.3
   power: 4
 }
-outputItem: item-barite-webbing/4
+outputItem: 01a-13-item-barite-webbing/4
