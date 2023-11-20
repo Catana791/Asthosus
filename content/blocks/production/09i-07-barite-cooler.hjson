@@ -4,12 +4,12 @@ description: Cools down Liquid Barite to create Barite. Requires power.
 size: 2
 squareSprite: false
 category: crafting
-research: lodestone-basin
+research: 09i-02-lodestone-basin
 requirements: [
-  item-ferrinite/60
-  item-lithium/40
-  item-obsidian/50
-  item-barite/20
+  01a-01-item-ferrinite/60
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/50
+  01a-11-item-barite/20
 ]
 drawer: {
   type: DrawMulti
@@ -20,7 +20,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-liquid-barite
+      drawLiquid: 02b-04-liquid-liquid-barite
       padding: 3
     }
     {
@@ -31,10 +31,10 @@ drawer: {
 consumes: {
   power: 1
   liquids: [
-    liquid-liquid-barite/0.4
-    liquid-oasis-water/0.2
+    02b-04-liquid-liquid-barite/0.4
+    02b-02-liquid-oasis-water/0.2
   ]
 }
 craftTime: 120
 craftEffect: smeltsmoke
-outputItem: item-barite/1
+outputItem: 01a-11-item-barite/1
