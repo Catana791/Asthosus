@@ -15,11 +15,11 @@ effectChance: 0.025
 squareSprite: false
 explodeOnFull: false
 category: crafting
-research: expansion-tank
+research: 09i-13-expansion-tank
 requirements: [
-  item-ferrinite/50
-  item-demetite/60
-  item-lodestone/25
+  01a-01-item-ferrinite/50
+  01a-02-item-demetite/60
+  01a-06-item-lodestone/25
 ]
 drawer: {
   type: DrawMulti
