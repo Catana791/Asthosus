@@ -6,13 +6,13 @@ scaledHealth: 60
 squareSprite: false
 craftEffect: smeltsmoke
 outputItems: [
-  item-lodestone/1
+  01a-06-item-lodestone/1
   sand/1
 ]
 consumes: {
   items: [
-    item-ferrinite/1
-    item-hardened-sand/1
+    01a-01-item-ferrinite/1
+    01a-04-item-hardened-sand/1
   ]
 }
 craftTime: 90
@@ -44,17 +44,17 @@ craftTime: 90
 //}
 category: crafting
 research: {
-  parent: core-essence
+  parent: 11k-01-core-essence
   objectives: [
     {
       type: OnSector
-      preset: lattice
+      preset: 19s-03-lattice
     }
   ]
 }
 requirements: [
-  item-ferrinite/40
-  item-demetite/30
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/30
 ]
 drawer: {
   type: DrawMulti
