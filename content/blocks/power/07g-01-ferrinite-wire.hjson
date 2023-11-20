@@ -5,7 +5,7 @@ conductivePower: true
 health: 70
 hasPower: true
 outputsPower: true
-junctionReplacement: ferrinite-wire-junction
+junctionReplacement: 07g-02-ferrinite-wire-junction
 bridgeReplacement: imaginary-bridge
 liquidPressure: 0
 liquidCapacity: 0
@@ -13,7 +13,7 @@ consumes: {
   powerBuffered: 5
 } 
 requirements: [
-  item-ferrinite/1
+  01a-01-item-ferrinite/1
 ]
 category: power
-research: ignition-generator
+research: 07g-07-ignition-generator
