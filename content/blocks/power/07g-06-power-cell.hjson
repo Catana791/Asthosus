@@ -8,8 +8,8 @@ consumes: {
   powerBuffered: 2000
 }
 requirements: [
-  item-ferrinite/15,
-  item-demetite/5
+  01a-01-item-ferrinite/15
+  01a-02-item-demetite/5
 ]
 category: power
-research: ferrinite-wire
+research: 07g-01-ferrinite-wire
