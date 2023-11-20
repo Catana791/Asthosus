@@ -3,26 +3,26 @@ name: Lodestone Basin
 description: Creates Lodestone more efficiently by melting down the Ferrinite used before mixing it with Hardened Sand. Requires Oasis Water for cooling.
 size: 3
 category: crafting
-research: lodestone-mixer
+research: 09i-01-lodestone-mixer
 itemCapacity: 40
 requirements: [
-  item-demetite/110
-  item-lodestone/50
-  item-obsidian/80
-  item-lithium/40
+  01a-02-item-demetite/110
+  01a-06-item-lodestone/50
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/80
 ]
 craftTime: 60
 craftEffect: none
 outputItems: [
-  item-lodestone/4
+  01a-06-item-lodestone/4
   sand/2
 ]
 consumes: {
   items: [
-    item-ferrinite/2
-    item-hardened-sand/3
+    01a-01-item-ferrinite/2
+    01a-04-item-hardened-sand/3
   ]
-  liquid: liquid-oasis-water/0.1
+  liquid: 02b-02-liquid-oasis-water/0.1
 }
 drawer: {
   type: DrawMulti
@@ -33,7 +33,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-oasis-water
+      drawLiquid: 02b-02-liquid-oasis-water
       alpha: 0.65
       padding: 2.5
     }
