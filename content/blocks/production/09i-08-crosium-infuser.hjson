@@ -6,23 +6,23 @@ craftTime: 90
 consumes: {
   power: 2.5
   liquids: [
-    liquid-purified-oasis-water/0.2
-    pressure/0.2
+    02b-03-liquid-purified-oasis-water/0.2
+    02b-01-pressure/0.2
   ]
   items: [
-    item-obsidian/2
+    01a-09-item-obsidian/2
   ]
 }
-outputItem: item-crosium/2
+outputItem: 01a-12-item-crosium/2
 hasLiquids: true
 hasItems: true
 liquidCapacity: 30
 category: crafting
-research: lodestone-basin
+research: 09i-02-lodestone-basin
 requirements: [
-  item-demetite/130
-  item-lodestone/110
-  item-obsidian/70
+  01a-02-item-demetite/130
+  01a-06-item-lodestone/110
+  01a-09-item-obsidian/70
 ]
 squareSprite: false
 ambientSound: extractLoop
@@ -36,7 +36,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-purified-oasis-water
+      drawLiquid: 02b-03-liquid-purified-oasis-water
       padding: 3
       alpha: 0.55
     }
