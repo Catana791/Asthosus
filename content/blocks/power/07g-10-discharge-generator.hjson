@@ -12,7 +12,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-purified-oasis-water
+      drawLiquid: 02b-03-liquid-purified-oasis-water
       alpha: 0.7
     }
     {
@@ -30,14 +30,14 @@ ambientSound: hum
 ambientSoundVolume: 0.24
 powerProduction: 15
 category: power
-research: pressure-turbine
+research: 07g-08-pressure-turbine
 requirements: [
-  item-demetite/190
-  item-lodestone/90
-  item-lithium/55
+  01a-02-item-demetite/190
+  01a-06-item-lodestone/90
+  01a-07-item-lithium/55
 ]
 consumes: {
-  liquid: liquid-purified-oasis-water/0.1
+  liquid: 02b-03-liquid-purified-oasis-water/0.1
   itemCharged: {
     minCharge: 0.1
   } 
