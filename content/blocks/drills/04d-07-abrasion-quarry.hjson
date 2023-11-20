@@ -4,15 +4,15 @@ description: Uses large-scale friction explosions to mine materials from the gro
 size: 3
 hardnessDrillMultiplier: 150
 category: production
-research: friction-quarry-large
+research: 04d-06-friction-quarry-large
 drillTime: 200
 tier: 4
 shake: 2
 drillMultipliers: {
-  item-barite: 0.5
-  item-obsidian: 0.75
+  01a-11-item-barite: 0.5
+  01a-09-item-obsidian: 0.75
 }
-blockedItem: item-hardened-sand
+blockedItem: 01a-04-item-hardened-sand
 arrows: 1
 squareSprite: false
 itemCapacity: 40
@@ -30,16 +30,16 @@ drillEffect: {
 consumes: {
   power: 2
   liquid: {
-    liquid: liquid-oasis-water
+    liquid: 02b-02-liquid-oasis-water
     amount: 0.04
     optional: true
     booster: true
   }
 }
 requirements: [
-  item-ferrinite/46 
-  item-lodestone/30
-  item-lithium/20
-  item-obsidian/40
+  01a-01-item-ferrinite/46 
+  01a-06-item-lodestone/30
+  01a-07-item-lithium/20
+  01a-09-item-obsidian/40
 ]
 squareSprite: false
