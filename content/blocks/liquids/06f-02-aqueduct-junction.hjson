@@ -4,9 +4,9 @@ description: Used for crossing two aqueducts.
 solid: false
 category: liquid
 squareSprite: false
-research: aqueduct
+research: 06f-01-aqueduct
 requirements: [
-  item-lodestone/8
+  01a-06-item-lodestone/8
 ]
 conductivePower: true
 hasPower: true
