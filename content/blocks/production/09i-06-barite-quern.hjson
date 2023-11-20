@@ -6,16 +6,16 @@ squareSprite: false
 consumes: {
   power: 1
   items: [
-    item-irradiated-lump/3
+    01a-10-item-irradiated-lump/3
   ]
 }
 craftTime: 30
 craftEffect: blastExplosion
-outputItem: item-barite/1
+outputItem: 01a-11-item-barite/1
 category: crafting
-research: abrasion-quarry
+research: 04d-07-abrasion-quarry
 requirements: [
-  item-ferrinite/60
-  item-lithium/35
-  item-obsidian/50
+  01a-01-item-ferrinite/60
+  01a-07-item-lithium/35
+  01a-09-item-obsidian/50
 ]
