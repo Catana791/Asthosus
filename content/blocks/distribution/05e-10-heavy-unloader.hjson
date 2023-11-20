@@ -3,10 +3,10 @@ name: Heavy Unloader
 description: A directional Unloader that cannot unload cores. 
 size: 1
 category: distribution
-research: storage-capsule
+research: 11k-07-storage-capsule
 requirements: [
-  item-lodestone/30
-  item-obsidian/50
+  01a-06-item-lodestone/30
+  01a-09-item-obsidian/50
 ]
 speed: 4
 solid: false
