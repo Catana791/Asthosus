@@ -3,14 +3,14 @@ name: Pressure Turbine
 description: Uses pressure to create larger amounts of power.
 size: 2
 category: power
-research: ignition-generator
+research: 06g-07-ignition-generator
 requirements: [
-  item-ferrinite/50
-  item-lodestone/45
-  item-lithium/30
+  01a-01-item-ferrinite/50
+  01a-06-item-lodestone/45
+  01a-07-item-lithium/30
 ]
 consumes: {
-  liquid: pressure/0.1
+  liquid: 02b-01-pressure/0.1
 }
 hasLiquids: true
 liquidCapacity: 30
@@ -107,7 +107,7 @@ drawer: {
     {
       type: DrawLiquidRegion
       suffix: -tank-liquid
-      drawLiquid: pressure
+      drawLiquid: 02b-01-pressure
     }
     {
       type: DrawRegion
