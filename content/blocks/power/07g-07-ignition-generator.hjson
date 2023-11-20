@@ -4,18 +4,18 @@ description: Burns flammable materials to create small amounts of power.
 size: 1
 category: power
 research: {
-  parent: core-essence
+  parent: 11k-01-core-essence
   objectives: [
     {
       type: OnSector
-      preset: ignition
+      preset: 19s-02-ignition
     }
   ]
 }
 squareSprite: false
 requirements: [
-  item-ferrinite/30
-  item-demetite/30
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/30
 ]
 consumes: {
   itemFlammable: {}
