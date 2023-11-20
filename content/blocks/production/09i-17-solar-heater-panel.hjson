@@ -3,12 +3,12 @@ name: Solar Heater Panel
 description: Produces small amounts of heat and power passively. 
 size: 3
 category: crafting
-research: heat-distributor
+research: 05e-13-heat-distributor
 requirements: [
-  item-ferrinite/50
-  item-demetite/40
-  item-lodestone/30
-  item-lithium/40
+  01a-01-item-ferrinite/50
+  01a-02-item-demetite/40
+  01a-06-item-lodestone/30
+  01a-07-item-lithium/40
 ]
 powerProduction: 0.25
 generateEffect: none
