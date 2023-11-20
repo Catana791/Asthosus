@@ -28,7 +28,7 @@ drawer: {
 }
 consumes: {
   items: [
-    item-lignite/1
+    01a-03-item-lignite/1
   ]
 }
 craftEffect: {
@@ -58,8 +58,8 @@ rotate: false
 ambientSound: smelter
 ambientSoundVolume: 0.08
 category: crafting
-research: core-essence
+research: 11k-01-core-essence
 requirements: [
-  item-ferrinite/30
-  item-demetite/30
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/30
 ]
