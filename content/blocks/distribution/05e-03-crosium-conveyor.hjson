@@ -5,10 +5,10 @@ speed: 0.075
 itemCapacity: 50
 health: 40
 category: distribution
-research: transverse-duct
+research: 05e-02-transverse-duct
 requirements: [
-  item-lodestone/2
-  item-crosium/1
+  01a-06-item-lodestone/2
+  01a-12-item-crosium/1
 ]   
 loadEffect: {
   type: ParticleEffect
