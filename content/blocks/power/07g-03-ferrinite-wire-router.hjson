@@ -9,8 +9,8 @@ consumes: {
   powerBuffered: 10
 }
 requirements: [
-  item-ferrinite/3
+  01a-01-item-ferrinite/3
 ]
 category: power
-research: ferrinite-wire-junction
+research: 07g-02-ferrinite-wire-junction
 liquidCapacity: 0
