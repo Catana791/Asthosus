@@ -4,7 +4,7 @@ description: Uses friction explosions to mine basic materials from the ground. R
 size: 2
 category: production
 hardnessDrillMultiplier: 50
-research: explosion-quarry
+research: 04d-05-friction-quarry
 drillTime: 270
 hasPower: false
 tier: 3
@@ -23,14 +23,14 @@ drillEffect: {
 }
 consumes: {
   liquid: {
-    liquid: liquid-oasis-water
+    liquid: 02b-02-liquid-oasis-water
     amount: 0.04
     optional: true
     booster: true
   }
 }
 requirements: [
-  item-ferrinite/28
-  item-lodestone/12
+  01a-01-item-ferrinite/28
+  01a-06-item-lodestone/12
 ]
 squareSprite: false
