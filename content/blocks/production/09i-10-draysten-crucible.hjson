@@ -11,10 +11,10 @@ craftTime: 180
 consumes: {
   power: 6
   items: [
-    item-barite-webbing/1  
+    01a-13-item-barite-webbing/1  
   ]
   liquids: [
-    liquid-nontragen/0.2
+    02b-05-liquid-nontragen/0.2
   ]
 }
 craftEffect: {
@@ -62,15 +62,15 @@ craftEffect: {
     }
   ]
 }
-outputItem: item-draysten/1
+outputItem: 01a-14-item-draysten/1
 category: crafting
-research: barite-loom
+research: 09i-09-barite-loom
 requirements: [
-  item-lodestone/220
-  item-lithium/200
-  item-obsidian/240
-  item-crosium/40
-  item-barite-webbing/80
+  01a-06-item-lodestone/220
+  01a-07-item-lithium/200
+  01a-09-item-obsidian/240
+  01a-12-item-crosium/40
+  01a-13-item-barite-webbing/80
 ]
 drawer: {
   type: DrawMulti
@@ -81,7 +81,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-nontragen
+      drawLiquid: 02b-05-liquid-nontragen
       alpha: 0.9
       padding: 3
     }
