@@ -4,14 +4,14 @@ description: Accepts items dropped by an Alveus cargo drone.
 itemCapacity: 100
 size: 2
 category: distribution
-research: unit-cargo-base-station
+research: 05e-11-unit-cargo-base-station
 requirements: [
-  item-lithium/60
-  item-obsidian/30
-  item-barite-webbing/30
+  01a-07-item-lithium/60
+  01a-09item-obsidian/30
+  01a-13-item-barite-webbing/30
 ]
 researchCost: [
-  item-lithium/250
-  item-obsidian/90
-  item-barite-webbing/30
+  01a-07-item-lithium/250
+  01a-09-item-obsidian/90
+  01a-13-item-barite-webbing/30
 ]
