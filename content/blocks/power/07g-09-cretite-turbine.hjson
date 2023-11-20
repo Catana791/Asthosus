@@ -4,19 +4,19 @@ description: Creates medium amounts of power by using highly flammable Cretite a
 size: 2
 category: power
 squareSprite: false
-research: ignition-generator
+research: 07g-07-ignition-generator
 requirements: [
-  item-ferrinite/125
-  item-demetite/60
-  item-lodestone/60
-  item-lithium/50
+  01a-01-item-ferrinite/125
+  01a-02-item-demetite/60
+  01a-06-item-lodestone/60
+  01a-07-item-lithium/50
 ]
 powerProduction: 3
 consumes: {
   items: [
-    item-cretite/1
+    01a-08-item-cretite/1
   ]
-  liquid: liquid-purified-oasis-water/0.2
+  liquid: 02b-03-liquid-purified-oasis-water/0.2
 }
 itemDuration: 180
 generateEffectChance: 2
@@ -54,7 +54,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: liquid-purified-oasis-water
+      drawLiquid: 02b-03-liquid-purified-oasis-water
       alpha: 0.7
       padding: 2.05
     }
