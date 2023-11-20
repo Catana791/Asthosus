@@ -4,9 +4,9 @@ description: Slowly pumps liquid from liquid tiles.
 size: 1
 category: liquid
 squareSprite: false
-research: core-essence
+research: 11k-01-core-essence
 requirements: [
-  item-demetite/18
-  item-lodestone/12
+  01a-02-item-demetite/18
+  01a-06-item-lodestone/12
 ]
 pumpAmount: 0.1
