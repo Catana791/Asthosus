@@ -8,7 +8,7 @@
   length: 10
   tendrils: 4
   category: effect
-  research: core-essence
+  research: 11k-01-core-essence
   bullet: {
     type: ExplosionBulletType
     splashDamage: 45
@@ -16,7 +16,7 @@
     killShooter: true
   }
   requirements: [
-    item-demetite/30
-    item-lithium/15
+    01a-02-item-demetite/30
+    01a-07-item-lithium/15
   ]
   
