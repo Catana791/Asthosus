@@ -4,11 +4,11 @@ description: Uses small scale friction explosions to mine basic materials from t
 size: 1
 category: production
 research: {
-  parent: demetite-mining-unit
+  parent: 04d-02-demetite-mining-unit
   objectives: [
     {
       type: OnSector
-      preset: ignition
+      preset: 19s-01-ignition
     }
   ]
 }
@@ -31,14 +31,14 @@ drillEffect: {
 }
 consumes: {
   liquid: {
-    liquid: liquid-oasis-water
+    liquid: 02b-02-liquid-oasis-water
     amount: 0.01
     optional: true
     booster: true
   }
 }
 requirements: [
-  item-ferrinite/20
-  item-demetite/20
+  01a-01-item-ferrinite/20
+  01a-02-item-demetite/20
 ]
 squareSprite: false
