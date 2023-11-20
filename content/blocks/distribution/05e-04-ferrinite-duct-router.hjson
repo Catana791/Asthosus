@@ -6,8 +6,8 @@ speed: 6
 health: 110
 itemCapacity: 3
 requirements: [
-  item-ferrinite/3
+  01a-01-item-ferrinite/3
 ]
 squareSprite: false
 category: distribution
-research: ferrinite-duct-junction
+research: 05e-05-ferrinite-duct-junction
