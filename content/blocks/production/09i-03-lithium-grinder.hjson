@@ -4,16 +4,16 @@ description: Grinds Demetite and Lignite into powder and uses it to create Lithi
 size: 2
 category: crafting
 research: {
-   parent: lodestone-mixer
+   parent: 09i-01-lodestone-mixer
    objectives: [
-      lodestone-mixer
+      09i-01-lodestone-mixer
    ]
 }
 squareSprite: false
 requirements: [
-  item-ferrinite/30
-  item-demetite/35
-  item-lodestone/15
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/35
+  01a-06-item-lodestone/15
 ]
 craftEffect: {
   type: ParticleEffect
@@ -31,12 +31,12 @@ craftEffect: {
   interp: pow2
   sizeInterp: pow3In
 }
-outputItem: item-lithium/2
+outputItem: 01a-07-item-lithium/2
 craftTime: 120
 consumes: {
   items: [
-    item-demetite/3
-    item-lignite/1
+    01a-02-item-demetite/3
+    01a-03-item-lignite/1
   ]
 }
 drawer: {
