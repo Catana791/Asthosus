@@ -13,16 +13,16 @@ name: Nontragen Synthesizer
 description: Grinds down Obsidian into Obsidian Powder and pressurizes it with Oasis Water using Pressure to create Nontragen.
 consumes: {
   items: [
-    item-obsidian/2
+    01a-09-item-obsidian/2
   ]
   liquids: [
-    liquid-oasis-water/0.1
-    pressure/0.1
+    02b-02-liquid-oasis-water/0.1
+    02b-01-pressure/0.1
   ]
   power: 0.75
 }
 craftTime: 120
-outputLiquid: liquid-nontragen/0.2
+outputLiquid: 02b-05-liquid-nontragen/0.2
 craftEffect: smeltsmoke
 drawer: {
   type: DrawMulti
@@ -34,7 +34,7 @@ drawer: {
     {
       type: DrawLiquidTile
       padding: 3
-      drawLiquid: liquid-nontragen
+      drawLiquid: 02b-05-liquid-nontragen
       alpha: 0.7
     }
     {    
@@ -53,10 +53,10 @@ drawer: {
   ]
 }
 category: crafting
-research: crosium-infuser
+research: 09i-08-crosium-infuser
 requirements: [
-  item-ferrinite/60
-  item-demetite/40
-  item-lithium/50
-  item-obsidian/40
+  01a-01-item-ferrinite/60
+  01a-02-item-demetite/40
+  01a-07-item-lithium/50
+  01a-09item-obsidian/40
 ]
