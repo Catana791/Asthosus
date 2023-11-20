@@ -1,0 +1,10 @@
+name: Draysten
+description: A slightly charged and flammable alloy used in lategame building and unit creation. Made by infusing Barite Webbing with Nontragen using Heat and Pressure.
+charge: 0.5
+explosiveness: 0.5
+radioactivity: 0.25
+cost: 1.3
+healthScaling: 0.25
+color: a46363
+research: item-barite-webbing
+hiddenOnPlanets: [serpulo, erekir]

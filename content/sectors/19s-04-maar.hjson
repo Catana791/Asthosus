@@ -1,0 +1,14 @@
+localizedName: Maar
+description: You find yourself on a sector with lots of water. This could be very useful to your production. Apparently though, the Crux thought the same thing...
+difficulty: 3
+planet: asthosus
+sector: 14
+research: {
+  parent: lattice
+  objectives: [
+    {
+      type: SectorComplete
+      preset: lattice
+    }
+  ]
+}

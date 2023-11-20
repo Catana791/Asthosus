@@ -1,0 +1,75 @@
+localizedName: Asthosus
+description: WIP
+alwaysUnlocked: true
+mesh: {
+  type: NoiseMesh
+  planet: asthosus
+  seed: 69
+  divisions: 5
+  color1: d5c995
+  color2: 666359
+  radius: 1.2
+  octaves: 4
+  persistence: 1
+  scale: 0.75
+  mag: 1
+}
+cloudMesh: {
+  type: HexSkyMesh
+  planet: asthosus
+  seed: 15
+  speed: 0.32
+  radius: 0.08
+  divisions: 6
+  color: eafffd7e
+  octaves: 3
+  persistence: 0.7
+  scl: 1
+  thresh: 0.6
+}
+generator: {
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 4
+radius: 1.2
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+orbitRadius: 24
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 666359
+iconColor: 666359
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-essence
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: ["item-ferrinite", "item-demetite", "item-lodestone", "item-lignite", "item-lithium", "item-hardened-sand", "item-red-sand", "item-obsidian", "item-cretite", "item-crosium", "item-barite", "item-barite-webbing", "item-draysten", "sand"]
