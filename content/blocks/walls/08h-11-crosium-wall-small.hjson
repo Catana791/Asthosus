@@ -4,11 +4,11 @@ description: A wall made from crosium. Defends allied structures from damage. Ca
 absorbLasers: true
 health: 590
 requirements: [
-  item-crosium/5
-  item-lodestone/2
+  01a-12-item-crosium/5
+  01a-06-item-lodestone/2
 ]
 hasPower: true
 conductivePower: true
 squareSprite: false
 category: defense
-research: obsidian-wall-small
+research: 08h-07-obsidian-wall-small
