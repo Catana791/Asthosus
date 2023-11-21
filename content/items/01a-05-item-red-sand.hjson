@@ -2,6 +2,6 @@ name: Red Sand
 hardness: 2
 cost: 0.2
 lowPriority: true
-research: item-hardened-sand
+research: 01a-04-item-hardened-sand
 color: e28d62
 hiddenOnPlanets: [serpulo, erekir]
