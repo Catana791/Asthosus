@@ -5,5 +5,5 @@ buildable: false
 explosiveness: 0
 radioactivity: 0.8
 color: 7f9991
-research: item-obsidian
+research: 01a-09-item-obsidian
 hiddenOnPlanets: [serpulo, erekir]
