@@ -29,12 +29,12 @@ shootType: {
 }
 category: turret
 squareSprite: false
-research: catapult
+research: 03c-01-catapult
 requirements: [
-  item-ferrinite/40
-  item-demetite/50
-  item-lithium/50
-  item-obsidian/40
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/50
+  01a-07-item-lithium/50
+  01a-09-item-obsidian/40
 ]
 targetAir: false
 consumes: {
