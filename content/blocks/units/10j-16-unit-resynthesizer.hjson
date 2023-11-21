@@ -1,0 +1,17 @@
+type: RepairTower
+name: Unit Resynthesizer
+description: Constantly repairs all units in its range. Requires power.
+size: 2
+squareSprite: false
+category: units
+requirements: [
+  01a-01-item-ferrinite/45
+  01a-07-item-lithium/35
+  01a-09-item-obsidian-55
+]
+research: 10j-01-ground-mounting-bay
+range: 160
+healAmount: 0.5
+consumes: {
+  power: 1
+}
