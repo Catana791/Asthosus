@@ -4,15 +4,15 @@ description: Uses pressure and power to disassemble unit components and output t
 itemCapacity: 100
 size: 3
 category: units
-research: component-assembler
+research: 10j-09-component-assembler
 requirements: [
-  item-demetite/80
-  item-lodestone/80
-  item-lithium/80
+  01a-02-item-demetite/80
+  01a-06-item-lodestone/80
+  01a-07-item-lithium/80
 ]
 squareSprite: false
 deconstructSpeed: 0.8
 consumes: {
   power: 2
-  liquid: pressure/0.2
+  liquid: 02b-01-pressure/0.2
 }
