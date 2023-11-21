@@ -20,7 +20,7 @@ updateEffect: shootSmokeSquareSparse
 updateEffectChance: 0.05
 consumes: {
   power: 2
-  liquid: liquid-oasis-water/0.2
+  liquid: 02b-02-liquid-oasis-water/0.2
 }
 shoot: {
   type: ShootBarrel
@@ -129,10 +129,10 @@ shootType: {
   hitEffect: hitBulletColor
 }
 category: turret
-research: cavalier
+research: 03c-09-cavalier
 requirements: [
-  item-ferrinite/70
-  item-demetite/60
-  item-lithium/60
-  item-obsidian/40
+  01a-01-item-ferrinite/70
+  01a-02-item-demetite/60
+  01a-07-item-lithium/60
+  01a-09-item-obsidian/40
 ]
