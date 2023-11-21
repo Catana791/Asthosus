@@ -11,6 +11,10 @@ researchCostMultiplier: 0.75
 range: 80
 shootY: 1
 outlineColor: 42413e
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
 ammoTypes: {
   01a-03-item-lignite: {
     ammoMultiplier: 4
