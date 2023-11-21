@@ -4,7 +4,7 @@ description: A large wall made from Barite. Protects allied structures from dama
 size: 2
 health: 3410
 category: defense
-research: barite-wall-small
+research: 08h-09-barite-wall-small
 requirements: [
-  item-barite/24
+  01a-11-item-barite/24
 ]
