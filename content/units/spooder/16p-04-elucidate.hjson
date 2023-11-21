@@ -14,7 +14,7 @@ abilities: [
     regen: 0.5
   }
 ]
-research: illuminate
+research: 16p-03-illuminate
 legCount: 6
 legMoveSpace: 1
 legPairOffset: 2
