@@ -50,7 +50,7 @@ mechLegColor: 44413c
         bullet: {
           instantDisappear: true
             damage: 0
-            spawnUnit: asthosus-teeny-tiny-missile
+            spawnUnit: asthosus-18r-02-teeny-tiny-missile
         }
     }
 ]
