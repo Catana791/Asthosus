@@ -35,13 +35,13 @@ ammoTypes: {
   01a-07-item-lithium: {
     instantDisappear: true
     damage: 0
-    spawnUnit: asthosus-encased-shell
+    spawnUnit: asthosus-18r-04-encased-shell
     ammoMultiplier: 3
   }
   01a-09-item-obsidian: {
     instantDisappear: true
     damage: 0
-    spawnUnit: asthosus-encased-shell
+    spawnUnit: asthosus-18r-04-encased-shell
     rangeChange: 40
     ammoMultiplier: 1
   }
