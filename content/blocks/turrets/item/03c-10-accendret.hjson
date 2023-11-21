@@ -3,13 +3,13 @@ name: Accendret
 description: Fires alternating homing, piercing, and incendiary rounds at enemies.
 size: 2
 category: turret
-research: singe
+research: 01a-03-singe
 squareSprite: false
 requirements: [
-  item-ferrinite/110
-  item-demetite/60
-  item-lodestone/85
-  item-obsidian/110
+  01a-01-item-ferrinite/110
+  01a-02-item-demetite/60
+  01a-06-item-lodestone/85
+  01a-09-item-obsidian/110
 ]
 range: 180
 consumes: {
@@ -49,7 +49,7 @@ drawer: {
     ]
 }
 ammoTypes: {
-  item-ferrinite: {
+  01a-01-item-ferrinite: {
     despawnHit: true
     hitEffect: {
       type: ParticleEffect
@@ -81,7 +81,7 @@ ammoTypes: {
     status: burning
     statusDuration: 240
   }
-  item-lithium: {
+  01a-07-item-lithium: {
     despawnHit: true
     hitEffect: {
       type: ParticleEffect
@@ -117,7 +117,7 @@ ammoTypes: {
     lightningDamage: 4
     ammoMultiplier: 2
   }
-  item-cretite: {
+  01a-08-item-cretite: {
     despawnHit: true
     hitEffect: {
       type: ParticleEffect
@@ -149,7 +149,7 @@ ammoTypes: {
     status: melting
     statusDuration: 180
   }
-  item-barite: {
+  01a-11-item-barite: {
     despawnHit: true
     hitEffect: {
       type: ParticleEffect
@@ -182,7 +182,7 @@ ammoTypes: {
     status: melting
     statusDuration: 300
   }
-  item-barite-webbing: {
+  01a-13-item-barite-webbing: {
     despawnHit: true
     hitEffect: {
       type: ParticleEffect
