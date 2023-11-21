@@ -5,5 +5,5 @@ flammability: 2
 charge: 0.2
 buildable: false
 color: e78f6c
-research: item-lithium
+research: 01a-07-item-lithium
 hiddenOnPlanets: [serpulo, erekir]
