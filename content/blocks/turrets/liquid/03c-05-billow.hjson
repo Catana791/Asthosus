@@ -11,23 +11,23 @@ outlineColor: 42413e
 recoil: 0
 category: turret
 research: {
-   parent: depulse
+   parent: 03c-06-depulse
    objectives: [
-      depulse,
+      03c-06-depulse,
       {
          type: OnSector
-         preset: ignition
+         preset: 19s-02-ignition
       }
    ]
 }
 range: 120
 requirements: [
-  item-ferrinite/40
-  item-demetite/60
-  item-lodestone/35
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/60
+  01a-06-item-lodestone/35
 ]
 ammoTypes: {
-  liquid-oasis-water: {
+  02b-02-liquid-oasis-water: {
     despawnEffect: none
     hitEffect: none
     type: BasicBulletType
@@ -44,7 +44,7 @@ ammoTypes: {
     layer: 98
     sprite: asthosus-drop-bullet
   }
-  liquid-purified-oasis-water: {
+  02b-03-liquid-purified-oasis-water: {
     despawnEffect: none
     hitEffect: none
     type: BasicBulletType
