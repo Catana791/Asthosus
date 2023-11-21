@@ -16,7 +16,7 @@ hovering: false
 legCount: 6
 legLength: 18
 commands: [move, mine, repair, rebuild, assist]
-mineItems: [item-ferrinite, item-demetite, item-lignite, item-obsidian]
+mineItems: [01a-01-item-ferrinite, 01a-02-item-demetite, 01a-03-item-lignite, 01a-09-item-obsidian]
 mineWalls: true
 mineFloor: true
 legSpeed: 0.23
