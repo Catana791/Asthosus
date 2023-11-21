@@ -1,6 +1,6 @@
 type: CellLiquid
 name: Liquid Barite
-effect: asthosus-status-radiated
+effect: asthosus-13m-02-status-radiated
 boilPoint: 1.2
 color: dad2ca
 colorFrom: dad2ca
@@ -14,3 +14,4 @@ heatCapacity: 0
 explosiveness: 1.25
 gasColor: dad2cae6
 viscosity: 0.7
+research: 01a-11-item-barite
