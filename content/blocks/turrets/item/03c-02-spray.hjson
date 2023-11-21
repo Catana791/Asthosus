@@ -18,18 +18,18 @@ category: turret
 shootSound: shoot-dull
 outlineColor: 42413e
 research: {
-  parent: catapult
+  parent: 03c-01-catapult
   requirements: [
-    item-ferrinite/250  
+    01a-01-item-ferrinite/250  
   ]
 }
 requirements: [
-  item-ferrinite/50
+  01a-01-item-ferrinite/50
 ]
 targetGround: true
 targetAir: false
 ammoTypes: {
-  item-demetite: {
+  01a-02-item-demetite: {
     type: FlakBulletType
     width: 7
     height: 9
@@ -42,7 +42,7 @@ ammoTypes: {
     splashDamage: 6
     splashDamageRadius: 8
   }
-  item-lodestone: {
+  01a-06-item-lodestone: {
     type: FlakBulletType
     width: 7
     height: 9
