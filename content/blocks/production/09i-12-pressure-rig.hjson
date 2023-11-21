@@ -6,7 +6,7 @@ description: Produces power when placed on Ferrinite, Demetite or Hardened Sand 
 size: 3
 hasLiquids: true
 squareSprite: false
-outputLiquid: pressure/0.01
+outputLiquid: 02b-01-pressure/0.01
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8
