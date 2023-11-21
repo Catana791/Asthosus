@@ -36,7 +36,7 @@ weapons: [
       fragBullets: 1
       fragBullet: {
         instantDisappear: true  
-        spawnUnit: asthosus-lightning-emitter
+        spawnUnit: asthosus-18r-11-lightning-emitter
         damage: 0
       }
     }
