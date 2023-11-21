@@ -5,11 +5,11 @@ size: 3
 squareSprite: false
 outlineColor: 44413c
 category: turret
-research: depulse
+research: 03c-06-depulse
 requirements: [
-  item-ferrinite/370
-  item-lithium/120
-  item-barite/160
+  01a-01-item-ferrinite/370
+  01a-07-item-lithium/120
+  01a-11-item-barite/160
 ]
 drawer: {
   type: DrawTurret
@@ -42,10 +42,10 @@ shoot: {
 inaccuracy: 5
 range: 240
 ammoTypes: {
-  item-barite: {
+  01a-11-item-barite: {
     type: LiquidBulletType
     orbSize: 4
-    liquid: liquid-liquid-barite
+    liquid: 02b-04-liquid-liquid-barite
     damage: 85
     pierce: true
     knockback: 1
