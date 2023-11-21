@@ -12,7 +12,7 @@ range: 80
 shootY: 1
 outlineColor: 42413e
 ammoTypes: {
-  item-lignite: {
+  01a-03-item-lignite: {
     ammoMultiplier: 4
     type: ContinuousFlameBulletType
     lifetime: 20
@@ -26,7 +26,7 @@ ammoTypes: {
     width: 1.5
     colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
   }
-  item-cretite: {
+  01a-08-item-cretite: {
     ammoMultiplier: 5
     type: ContinuousFlameBulletType
     lifetime: 20
@@ -43,12 +43,12 @@ ammoTypes: {
 }
 category: turret
 research: {
-   parent: spray
+   parent: 03c-02-spray
    objectives: [
-      spray,
+      03c-02-spray,
       {
          type: OnSector
-         preset: ignition
+         preset: 19s-02-ignition
       }
    ]
 }
