@@ -1,4 +1,4 @@
 name: Ferretic Wall
 type: StaticWall
-itemDrop: item-ferrinite
+itemDrop: 01a-01-item-ferrinite
 variants: 3
