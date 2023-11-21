@@ -40,14 +40,14 @@ shootSound: shotgun
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
 category: turret
-research: fulmination
+research: 03c-12-fulmination
 requirements: [
-  item-ferrinite/295
-  item-lodestone/200
-  item-barite/185
+  01a-01-item-ferrinite/295
+  01a-06-item-lodestone/200
+  01a-11-item-barite/185
 ]
 ammoTypes: {
-  item-barite: {
+  01a-11-item-barite: {
     spawnBullets: [
       {
         type: ShrapnelBulletType
@@ -203,7 +203,7 @@ ammoTypes: {
     fromColor: f8efe6
     toColor: bab4ae
   }
-  item-barite-webbing: {
+  01a-13-item-barite-webbing: {
     reloadMultiplier: 2
     spawnBullets: [
       {
