@@ -4,9 +4,9 @@ description: A large wall made from Lodestone.
 size: 2
 health: 1620
 category: defense
-research: lodestone-wall-small
+research: 08h-03-lodestone-wall-small
 requirements: [
-  item-lodestone/24
+  01a-06-item-lodestone/24
 ]
 squareSprite: false
 researchCostMultiplier: 0.6
