@@ -1,0 +1,18 @@
+type: WallCrafter
+name: Demetite Mining Unit
+description: Mines Demetite slowly from Demetite Walls. 
+size: 2
+category: production
+requirements: [
+  01a-01-item-ferrinite/20
+]
+drillTime: 240
+output: 01a-02-item-demetite
+attribute: demetite
+ambientSound: drill
+ambientSoundVolume: 0.08
+research: 04d-01-ferrinite-mining-unit
+squareSprite: false
+researchCost: [
+  01a-01-item-ferrinite/60
+]

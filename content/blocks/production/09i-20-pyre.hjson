@@ -1,0 +1,25 @@
+type: Incinerator
+name: Pyre
+description: Uses power to burn items inputted into it and destroy them.
+size: 1
+squareSprite: false
+consumes: {
+  power: 0.5
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+  ]
+}
+category: crafting
+research: 09i-03-lithium-grinder
+requirements: [
+  01a-02-item-demetite/25
+  01a-06-item-lodestone/10
+]

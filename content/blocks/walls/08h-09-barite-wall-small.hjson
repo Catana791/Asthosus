@@ -1,0 +1,10 @@
+type: Wall
+name: Barite Wall
+description: A wall made from Barite. Protects allied structures from damage.
+size: 1
+health: 890
+category: defense
+research: 08h-07-obsidian-wall-small
+requirements: [
+  01a-11-item-barite/6
+]

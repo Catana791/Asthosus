@@ -1,0 +1,11 @@
+type: PayloadConveyor
+name: Freight Conveyor
+description: Transports payload such as units forth. Magnetic.
+category: units
+research: 10j-09-component-assembler
+requirements: [
+  01a-01-item-ferrinite/18
+  01a-06-item-lodestone/10
+]
+canOverdrive: false
+payloadLimit: 4

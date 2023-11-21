@@ -1,0 +1,328 @@
+type: ItemTurret
+name: Skip
+description: Launches skipping pellets at enemies. Pellets frag after their last bounce.
+size: 2
+squareSprite: false
+research: {
+   parent: 03c-01-catapult
+   objectives: [
+      03c-01-catapult,
+      {
+         type: OnSector
+         preset: 19s-02-ignition
+      }
+   ]
+}
+category: turret
+outlineColor: 42413e
+requirements: [
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/30
+  01a-06-item-lodestone/20
+]
+consumes: {
+  coolant: {
+    amount: 0.2
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -1.5
+    }
+  ]
+}
+reload: 103
+range: 140
+shootEffect: shootSmall
+smokeEffect: shootSmokeSquareSparse
+shootSound: artillery
+ammoTypes: {
+  01a-01-item-ferrinite: {
+    //hitSound: dull-impact
+    frontColor: b1b1b1
+    backColor: 757575
+    trailColor: 757575
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 25
+    splashDamage: 40
+    splashDamageRadius: 32
+    width: 8
+    height: 8
+    sprite: large-orb
+    fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullets: 1
+    fragBullet: {
+      //hitSound: dull-impact
+      frontColor: b1b1b1
+      backColor: 757575
+      trailColor: 757575
+      type: ArtilleryBulletType
+      speed: 2.5
+      lifetime: 25
+      splashDamage: 40
+      splashDamageRadius: 32
+      width: 7.8
+      height: 7.8
+      sprite: large-orb
+      fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullets: 1
+      fragBullet: {
+        //hitSound: dull-impact
+        frontColor: b1b1b1
+        backColor: 757575
+        trailColor: 757575
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 20
+        splashDamage: 40
+        splashDamageRadius: 32
+        width: 7.6
+        height: 7.6
+        sprite: large-orb
+        fragBullets: 3
+        fragVelocityMin: 0.8
+        fragLifeMin: 0.8
+        fragBullet: {
+          frontColor: b1b1b1
+          backColor: 757575
+          trailColor: 757575
+          type: BasicBulletType
+          speed: 2
+          lifetime: 25
+          damage: 25
+          splashDamage: 12
+          splashDamageRadius: 16
+          pierce: true
+          pierceCap: 1
+          width: 7
+          height: 12
+        }
+      }
+    }
+  }
+  01a-02-item-demetite: {
+    //hitSound: dull-impact
+    frontColor: e0d2a0
+    backColor: 9a916e
+    trailColor: 9a916e
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 25
+    splashDamage: 44
+    splashDamageRadius: 32
+    width: 8
+    height: 8
+    sprite: large-orb
+    fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullets: 1
+    fragBullet: {
+      //hitSound: dull-impact
+      frontColor: e0d2a0
+      backColor: 9a916e
+      trailColor: 9a916e
+      type: ArtilleryBulletType
+      speed: 2.5
+      lifetime: 25
+      splashDamage: 44
+      splashDamageRadius: 32
+      width: 7.8
+      height: 7.8
+      sprite: large-orb
+      fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullets: 1
+      fragBullet: {
+        //hitSound: dull-impact
+        frontColor: e0d2a0
+        backColor: 9a916e
+        trailColor: 9a916e
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 20
+        splashDamage: 44
+        splashDamageRadius: 32
+        width: 7.6
+        height: 7.6
+        sprite: large-orb
+        fragBullets: 3
+        fragVelocityMin: 0.8
+        fragLifeMin: 0.8
+        fragBullet: {
+          frontColor: e0d2a0
+          backColor: 9a916e
+          trailColor: 9a916e
+          type: BasicBulletType
+          speed: 2
+          lifetime: 25
+          damage: 28
+          splashDamage: 13
+          splashDamageRadius: 16
+          pierce: true
+          pierceCap: 1
+          width: 7
+          height: 12
+        }
+      }
+    }
+  }
+  01a-06-item-lodestone: {
+    //hitSound: dull-impact
+    frontColor: 80799e
+    backColor: 4e4a64
+    trailColor: 4e4a64
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 25
+    splashDamage: 51
+    splashDamageRadius: 32
+    width: 8
+    height: 8
+    sprite: large-orb
+    fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullets: 1
+    fragBullet: {
+      //hitSound: dull-impact
+      frontColor: 80799e
+      backColor: 4e4a64
+      trailColor: 4e4a64
+      type: ArtilleryBulletType
+      speed: 2.5
+      lifetime: 25
+      splashDamage: 51
+      splashDamageRadius: 32
+      width: 7.8
+      height: 7.8
+      sprite: large-orb
+      fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullets: 1
+      fragBullet: {
+        //hitSound: dull-impact
+        frontColor: 80799e
+        backColor: 4e4a64
+        trailColor: 4e4a64
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 20
+        splashDamage: 51
+        splashDamageRadius: 32
+        width: 7.6
+        height: 7.6
+        sprite: large-orb
+        fragBullets: 3
+        fragVelocityMin: 0.8
+        fragLifeMin: 0.8
+        fragBullet: {
+          frontColor: 80799e
+          backColor: 4e4a64
+          trailColor: 4e4a64
+          type: BasicBulletType
+          speed: 2
+          lifetime: 25
+          damage: 32
+          splashDamage: 16
+          splashDamageRadius: 16
+          pierce: true
+          pierceCap: 1
+          width: 7
+          height: 12
+        }
+      }
+    }
+  }
+  01a-07-item-lithium: {
+    //hitSound: dull-impact
+    frontColor: e6aca3
+    backColor: b98279
+    trailColor: b98279
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 25
+    splashDamage: 59
+    splashDamageRadius: 32
+    width: 8
+    height: 8
+    sprite: large-orb
+    fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullets: 1
+    fragBullet: {
+      //hitSound: dull-impact
+      frontColor: e6aca3
+      backColor: b98279
+      trailColor: b98279
+      type: ArtilleryBulletType
+      speed: 2.5
+      lifetime: 25
+      splashDamage: 59
+      splashDamageRadius: 32
+      width: 7.8
+      height: 7.8
+      sprite: large-orb
+      fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullets: 1
+      fragBullet: {
+        //hitSound: dull-impact
+        frontColor: e6aca3
+        backColor: b98279
+        trailColor: b98279
+        type: ArtilleryBulletType
+        speed: 3
+        lifetime: 20
+        splashDamage: 59
+        splashDamageRadius: 32
+        width: 7.6
+        height: 7.6
+        sprite: large-orb
+        fragBullets: 3
+        fragVelocityMin: 0.8
+        fragLifeMin: 0.8
+        fragBullet: {
+          frontColor: e6aca3
+          backColor: b98279
+          trailColor: b98279
+          type: BasicBulletType
+          speed: 2
+          lifetime: 25
+          damage: 36
+          splashDamage: 19
+          splashDamageRadius: 16
+          pierce: true
+          pierceCap: 1
+          width: 7
+          height: 12
+        }
+      }
+    }
+  }
+}

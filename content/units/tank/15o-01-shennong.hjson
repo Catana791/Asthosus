@@ -1,0 +1,48 @@
+type: tank
+name: Shennong
+description: Fires weaving machine bullets at enemy targets.
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 1.5
+rotateSpeed: 6
+health: 280
+armor: 2
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: shennong-weapon
+    reload: 12
+    rotate: true
+    mirror: false
+    shoot: {
+      type: ShootSpread
+      shots: 2
+      spread: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      weaveMag: 3
+      weaveScale: 3
+      speed: 2
+      lifetime: 40
+      pierce: true
+      pierceCap: 1
+      damage: 3
+    }
+  }
+]
+research: 10j-02-tank-mounting-bay

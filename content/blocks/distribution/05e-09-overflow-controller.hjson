@@ -1,0 +1,9 @@
+type: OverflowGate
+name: Overflow Controller
+description: Outputs items to the sides if the front path is blocked.
+category: distribution
+research: 05e-07-duct-sorter
+requirements: [
+  01a-01-item-ferrinite/5
+  01a-02-item-demetite/4
+]

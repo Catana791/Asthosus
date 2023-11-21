@@ -1,0 +1,118 @@
+type: HeatCrafter
+heatRequirement: 12
+ambientSound: smelter
+ambientSoundVolume: 0.12
+maxEfficiency: 1.5
+name: Draysten Crucible
+description: Creates Draysten using Barite Webbing and Nontragen. Requires heat and power.
+size: 4
+squareSprite: false
+craftTime: 180
+consumes: {
+  power: 6
+  items: [
+    01a-13-item-barite-webbing/1  
+  ]
+  liquids: [
+    02b-05-liquid-nontragen/0.2
+  ]
+}
+craftEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 45
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 40
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 50
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 55
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 35
+      lengthOffset: 12
+      effect: surgeCruciSmoke
+    }
+  ]
+}
+outputItem: 01a-14-item-draysten/1
+category: crafting
+research: 09i-09-barite-loom
+requirements: [
+  01a-06-item-lodestone/220
+  01a-07-item-lithium/200
+  01a-09-item-obsidian/240
+  01a-12-item-crosium/40
+  01a-13-item-barite-webbing/80
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-05-liquid-nontragen
+      alpha: 0.9
+      padding: 3
+    }
+    {
+      type: DrawParticles
+      color: 5eb3ac
+      alpha: 0.85
+      particleSize: 1
+      particles: 42
+      particleRad: 18
+      particleLife: 60
+    }
+    {
+      type: DrawBubbles
+      radius: 9
+      color: 5eb3ac
+    }
+    {
+      type: DrawArcSmelt
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: 5eb3ac
+      alpha: 0.85
+      particleSize: 1
+      particles: 28
+      particleRad: 18
+      particleLife: 90
+    }
+  ]
+}

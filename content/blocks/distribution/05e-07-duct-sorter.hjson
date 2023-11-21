@@ -1,0 +1,9 @@
+type: Sorter
+name: Pipeline Sorter
+description: If an input item matches the selection, it passes forward. If not, it is outputted to the sides.
+category: distribution
+research: 05e-04-ferrinite-duct-router
+requirements: [
+  01a-01-item-ferrinite/3
+  01a-02-item-demetite/3
+]

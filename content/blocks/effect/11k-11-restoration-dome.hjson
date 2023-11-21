@@ -1,0 +1,47 @@
+research: 11k-10-restoration-projector
+type: RegenProjector
+name: Restoration Dome
+description: Slowly restores the health of nearby allied blocks. Requires power. Has more range than a normal Restoration Projector and regenerates health faster.
+size: 2
+range: 9
+baseColor: 85c278
+squareSprite: false
+effect: {
+  type: ParticleEffect
+  colorFrom: 85c278
+  colorTo: 69a25e
+  particles: 3
+  line: true
+  length: 4
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {
+  power: 1
+}
+healPercent: 0.026666667
+requirements: [
+  01a-01-item-ferrinite/90
+  01a-07-item-lithium/60
+  01a-09-item-obsidian/45
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+  ]
+} 

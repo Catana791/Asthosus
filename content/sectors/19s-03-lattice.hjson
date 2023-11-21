@@ -1,0 +1,15 @@
+localizedName: Lattice
+description: Scattered boulders of resources dot the area. Prevent the enemy from harnessing them. Expand quickly.
+captureWave: 30
+difficulty: 4
+planet: asthosus
+sector: 0
+research: {
+  parent: 19s-02-ignition
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-02-ignition
+    }
+  ]
+}

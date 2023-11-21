@@ -1,0 +1,46 @@
+research: 07g-01-ferrinite-wire
+type: RegenProjector
+name: Restoration Projector
+description: Slowly restores the health of nearby allied blocks. Requires power.
+size: 1
+range: 6
+baseColor: 85c278
+squareSprite: false
+effect: {
+  type: ParticleEffect
+  colorFrom: 85c278
+  colorTo: 69a25e
+  particles: 3
+  line: true
+  length: 3
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {
+  power: 0.5
+}
+healPercent: 0.0166667
+requirements: [
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/30
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+  ]
+} 

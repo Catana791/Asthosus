@@ -1,0 +1,174 @@
+type: ItemTurret
+name: Typhoon
+description: Rapidly blasts bullets at enemies. 
+size: 3
+squareSprite: false
+reload: 4
+range: 200
+outlineColor: 42413e
+coolantMultiplier: 0.5
+consumes: {
+  coolant: {
+    amount: 0.5
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      heatProgress: recoil
+      under: true
+      moveY: -1
+      growX: 0.1
+      growY: 0.1
+    }
+    {
+      type: RegionPart
+      suffix: -wing
+      mirror: true
+      progress: warmup
+      moveX: 1.5
+      moveY: -0.5
+      moveRot: -8
+    }
+  ]
+}
+category: turret
+research: 03c-14-myriad
+shootSound: shoot-dull
+requirements: [
+  01a-01-item-ferrinite/180
+  01a-06-item-lodestone/90
+  01a-09-item-obsidian/70
+  01a-12-item-crosium/60
+]
+ammoTypes: {
+  01a-01-item-ferrinite: {
+    reloadMultiplier: 0.8
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 11
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 1
+    splashDamage: 11
+    splashDamageRadius: 12
+    ammoMultiplier: 8
+  }
+  01a-02-item-demetite: {
+    reloadMultiplier: 0.85
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 10
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 2
+    splashDamage: 13
+    splashDamageRadius: 12
+    ammoMultiplier: 8
+  }
+  01a-06-item-lodestone: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 8
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 1
+    damage: 4
+    splashDamage: 18
+    splashDamageRadius: 16
+    ammoMultiplier: 9
+  }
+  01a-07-item-lithium: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 7
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 2
+    damage: 4
+    status: shocked
+    splashDamage: 19
+    splashDamageRadius: 16
+    ammoMultiplier: 9
+  }
+  01a-09-item-obsidian: {
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 6
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 2
+    damage: 5
+    splashDamage: 24
+    splashDamageRadius: 16
+    ammoMultiplier: 10
+    fragBullets: 4
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 3
+      splashDamage: 4
+      splashDamageRadius: 4
+    }
+  }
+  01a-12-item-crosium: {
+    reloadMultiplier: 1.1
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    inaccuracy: 6
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: true
+    pierceCap: 3
+    damage: 7
+    splashDamage: 31
+    splashDamageRadius: 22
+    ammoMultiplier: 12
+    fragBullets: 6
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 4
+      splashDamage: 5
+      splashDamageRadius: 4
+    }
+  }
+}

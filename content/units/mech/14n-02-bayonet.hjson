@@ -1,0 +1,57 @@
+type: mech
+name: Bayonet
+description: Launches frag artillery at nearby targets. Equipped with a missile launcher.
+speed: 0.5
+flying: false
+health: 710
+armor: 4
+hitSize: 11
+outlineColor: 44413c
+mechLegColor: 44413c
+  weapons: [
+    {
+      x: 8
+      name: bayonet-weapon-mirror
+        y: 0
+        reload: 50
+        rotate: false
+        mirror: false
+        inaccuracy: 6
+        velocityRnd: 0.3
+        shoot: {
+          shots: 4
+        }
+        shootSound: artillery
+        bullet: {
+          type: ArtilleryBulletType
+            speed: 2
+            lifetime: 60
+            damage: 6
+            splashDamageRadius: 16
+            splashDamage: 7
+            width: 6
+            height: 8
+            trailChance: -1
+            trailEffect: missileTrail
+        }
+    }
+    {    
+      x: -8
+        y: 0
+        name: bayonet-weapon
+        reload: 87
+        shoot: {
+          shots: 2
+          shotDelay: 12
+        }
+        mirror: false
+        rotate: false
+        shootSound: shoot-small-flame
+        bullet: {
+          instantDisappear: true
+            damage: 0
+            spawnUnit: asthosus-18r-02-teeny-tiny-missile
+        }
+    }
+]
+research: 14n-01-shiv

@@ -5,6 +5,6 @@ size: 2
 customShadow: true
 placeablePlayer: false
 requirements: [
-  item-demetite/2
-  item-lodestone/4
+  01a-02-item-demetite/2
+  01a-06-item-lodestone/4
 ]

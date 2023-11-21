@@ -1,0 +1,10 @@
+name: Barite
+description: A radioactive mineral used for high tier building, power production and crafting.
+hardness: 4
+cost: 1.1
+healthScaling: 0.2
+explosiveness: 0.1
+radioactivity: 1
+color: dad2ca
+research: 01a-10-item-irradiated-lump
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,8 @@
+name: Lodestone
+description: A magnetic rock used in unit production and more advanced building.
+hardness: 3
+cost: 0.8
+charge: 0.1
+research: 01a-02-item-demetite
+color: 676593
+hiddenOnPlanets: [serpulo, erekir]

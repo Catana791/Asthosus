@@ -1,0 +1,15 @@
+type: PowerNode
+name: Connector Node
+description: Connects wires over small distances without needing to direclty connect. A wire bridge.
+size: 1
+health: 20
+squareSprite: false
+laserRange: 4
+maxNodes: 2
+requirements: [
+  01a-01-item-ferrinite/20
+  01a-06-item-lodestone/20
+  01a-07-item-lithium/20
+]
+category: power
+research: 07g-03-ferrinite-wire-router

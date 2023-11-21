@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Barite Cooler
+description: Cools down Liquid Barite to create Barite. Requires power.
+size: 2
+squareSprite: false
+category: crafting
+research: 09i-02-lodestone-basin
+requirements: [
+  01a-01-item-ferrinite/60
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/50
+  01a-11-item-barite/20
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-liquid-liquid-barite
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+consumes: {
+  power: 1
+  liquids: [
+    02b-04-liquid-liquid-barite/0.4
+    02b-02-liquid-oasis-water/0.2
+  ]
+}
+craftTime: 120
+craftEffect: smeltsmoke
+outputItem: 01a-11-item-barite/1

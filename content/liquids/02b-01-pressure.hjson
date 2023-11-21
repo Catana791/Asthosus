@@ -1,0 +1,14 @@
+name: Pressure
+description: Used to power countless Asthosian machines. 
+heatCapacity: 0
+explosiveness: 2
+temperature: 0.5
+coolant: false
+gas: true
+color: ffffff00
+flammability: 0
+gasColor: ffffff00
+barColor: ffffff33
+incinerable: false
+lightColor: ffffff00
+research: 01a-06-item-lodestone

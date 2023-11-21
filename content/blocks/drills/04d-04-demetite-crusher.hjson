@@ -1,0 +1,21 @@
+type: WallCrafter
+name: Demetite Crusher
+description: Mines Demetite from Demetite walls. Requires pressure. Is more efficient than a regular Demetite Mining Unit.
+size: 3
+category: production
+research: 04d-02-demetite-mining-unit
+requirements: [
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/40
+  01a-07-item-lithium/30
+  01a-09-item-obsidian/35
+]
+drillTime: 90
+consumes: {
+  liquid: 02b-01-pressure/0.05
+}
+output: 01a-02-item-demetite
+attribute: demetite
+ambientSound: drill
+ambientSoundVolume: 0.1
+squareSprite: false

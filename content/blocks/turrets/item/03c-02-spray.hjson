@@ -1,0 +1,62 @@
+type: ItemTurret
+name: Spray
+description: A small turret made from Ferrinite, used to defend allied structures. Shoots sprays of bullets at enemies.
+size: 1
+reload: 30
+shoot: {
+  shots: 5
+  shotDelay: 2
+}
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+inaccuracy: 15
+range: 120
+category: turret
+shootSound: shoot-dull
+outlineColor: 42413e
+research: {
+  parent: 03c-01-catapult
+  requirements: [
+    01a-01-item-ferrinite/250  
+  ]
+}
+requirements: [
+  01a-01-item-ferrinite/50
+]
+targetGround: true
+targetAir: false
+ammoTypes: {
+  01a-02-item-demetite: {
+    type: FlakBulletType
+    width: 7
+    height: 9
+    speed: 4
+    lifetime: 50
+    collidesGround: true
+    collidesAir: false
+    ammoMultiplier: 5
+    damage: 7
+    splashDamage: 6
+    splashDamageRadius: 8
+  }
+  01a-06-item-lodestone: {
+    type: FlakBulletType
+    width: 7
+    height: 9
+    speed: 4
+    lifetime: 50
+    ammoMultiplier: 6
+    collidesGround: true
+    collidesAir: false
+    damage: 10
+    splashDamage: 12
+    splashDamageRadius: 12
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}

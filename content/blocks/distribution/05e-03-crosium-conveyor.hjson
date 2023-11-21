@@ -1,0 +1,28 @@
+type: StackConveyor
+name: Crosium Belt
+description: Packages stacks of items before sending them off. Outputs items in three directions at the end.
+speed: 0.075
+itemCapacity: 50
+health: 40
+category: distribution
+research: 05e-02-transverse-duct
+requirements: [
+  01a-06-item-lodestone/2
+  01a-12-item-crosium/1
+]   
+loadEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 9
+  line: true
+  strokeFrom: 0.8
+  strokeTo: 0.1
+}
+unloadEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 9
+  line: true
+  strokeFrom: 0.8
+  strokeTo: 0.1
+}

@@ -1,0 +1,65 @@
+type: HeatProducer
+name: Lignite Burner
+description: Burns flammable Lignite to produce heat.
+size: 2
+heatOutput: 3
+craftTime: 180
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+consumes: {
+  items: [
+    01a-03-item-lignite/1
+  ]
+}
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 45
+  amount: 8
+  lengthOffset: 4
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 12
+    length: 14
+    lifetime: 100
+    cone: 20
+    useRotation: false
+    baseRotation: 45
+    sizeFrom: 2.5
+    sizeTo: 0
+    colorFrom: ffffff00
+    colorTo: ffffff88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+}
+rotate: false
+ambientSound: smelter
+ambientSoundVolume: 0.08
+category: crafting
+research: 11k-01-core-essence
+requirements: [
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/30
+]

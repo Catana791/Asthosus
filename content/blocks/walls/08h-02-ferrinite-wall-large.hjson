@@ -1,0 +1,11 @@
+type: Wall
+name: Large Ferrinite Wall
+description: A large wall made from Ferrinite. Protects allied structures from damage.
+size: 2
+health: 1510
+category: defense
+squareSprite: false
+research: 08h-01-ferrinite-wall-small
+requirements: [
+  01a-01-item-ferrinite/24
+] 

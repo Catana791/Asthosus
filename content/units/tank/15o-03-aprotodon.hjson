@@ -1,0 +1,269 @@
+type: tank
+name: Aprotodon
+description: Quick and durable. Equipped with a beam railgun.
+hitSize: 28
+treadRects: [
+  {
+    x: -34
+    y: -61
+    widht: 21
+    height: 119
+  }
+]
+crushDamage: 3
+range: 160
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 1230
+armor: 9
+speed: 1.1
+rotateSpeed: 3.5
+itemCapacity: 0
+outlineColor: 44413c
+treadPullOffset: 5
+research: 15o-02-trigon
+weapons: [
+  {
+    parts: [
+      {
+        type: RegionPart
+        suffix: -sticky-outy-left
+        progress: warmup
+        moveY: -2
+        under: true
+        moveX: -2
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            rot: -4
+          }
+        ]
+      }
+      {
+        type: RegionPart
+        suffix: -sticky-outy-right
+        progress: warmup
+        moveY: -2
+        under: true
+        moveX: 2
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            rot: 4
+          }
+        ]
+      }
+      {  
+        type: RegionPart
+        under: true
+        suffix: -sticky-outy-bottom
+        progress: warmup
+        moveY: -2
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            y: -1
+          }
+        ]
+      }
+    ]
+    x: 0
+    y: 2.5
+    name: aprotodon-weapon
+    reload: 180
+    shootStatus: unmoving
+    shootStatusDuration: 135
+    continuous: true
+    shoot: {
+      firstShotDelay: 120
+    }
+    chargeSound: green-laser-charge-early-short
+    rotateSpeed: 1.8
+    mirror: false
+    rotate: true
+    shootY: 6
+    shootSound: laserbig
+    bullet: {
+      chargeEffect: {
+        type: MultiEffect
+        lifetime: 110
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 12
+            baseLength: 2
+            colorFrom: baa164
+            colorTo: edc66c
+            sizeFrom: 2.1
+            sizeTo: 0.6
+            lifetime: 50
+            interp: pow2In
+            sizeInterp: pow2
+            followParent: true
+            rotWithParent: false
+          }
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 12
+            baseLength: 2
+            colorFrom: baa164
+            colorTo: edc66c
+            sizeFrom: 2.1
+            baseRotation: 46
+            rotation: 72
+            sizeTo: 0.6
+            lifetime: 110
+            interp: pow2In
+            sizeInterp: pow2
+            followParent: true
+            rotWithParent: false
+          }
+          {  
+            type: WaveEffect
+            sides: 3
+            spin: -2
+            lifetime: 110
+            sizeFrom: 12
+            sizeTo: 1
+            strokeFrom: 1.1
+            strokeTo: 0.3
+            followParent: true
+          }
+          {  
+            type: WaveEffect
+            sides: 4
+            spin: 2
+            lifetime: 110
+            strokeFrom: 1.1
+            strokeTo: 0.3
+            sizeFrom: 1
+            sizeTo: 13
+            followParent: true
+          }
+          {
+            type: ParticleEffect
+            particles: 6
+            length: 2
+            baseLength: 12
+            colorFrom: baa164
+            colorTo: edc66c
+            sizeFrom: 0.6
+            baseRotation: 46
+            rotation: 72
+            sizeTo: 2.1
+            lifetime: 110
+            interp: pow2Out
+            sizeInterp: pow2Out
+            followParent: true
+            rotWithParent: false
+          }
+        ]
+      }
+      spawnBullets: [
+        {
+          type: BasicBulletType
+          instantDisappear: true
+          damage: 0
+          shootEffect: shootBig
+          smokeEffect: shootSmokeDisperse
+        }
+      ]
+      type: ContinuousLaserBulletType
+      buildingDamageMultiplier: 0.75
+      length: 200
+      width: 2
+      shootEffect: shootBig2
+      despawnEffect: blastExplosion
+      smokeEffect: shootSmokeMissile
+      hitEffect: hitMeltdown
+      shake: 0.5
+      damageInterval: 10
+      damage: 40
+      lifetime: 160
+      fadeTime: 40
+      incendSpread: 0
+      incendAmount: 0
+      incendChance: 0
+      colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
+      despawnSound: none
+      fragBullets: 1
+      fragRandomSpread: 0
+      pierceCap: 6
+      fragVelocityMin: 1
+      fragLifeMin: 1
+      fragOnHit: false
+      despawnSound: explosion
+      fragBullet: {
+        type: BasicBulletType
+        sprite: missile-large
+        width: 7.5
+        height: 13
+        lifetime: 28
+        speed: 7
+        damage: 50
+        splashDamage: 110
+        splashDamageRadius: 32
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 2
+        hitColor: baa164
+        backColor: baa164
+        trailColor: baa164
+        frontColor: ffffff
+        hitSize: 6
+        trailWidth: 2.8
+        trailLength: 8
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        shootEffect: shootTitan
+        smokeEffect: shootSmokeTitan
+        trailInterval: 3
+        trailEffect: shootSmokeSquareSparse
+        trailRotation: true
+        intervalBullets: 2
+        bulletInterval: 5
+        intervalRandomSpread: 0
+        intervalSpread: 75
+        intervalAngle: 0
+        intervalDelay: -1
+        despawnSound: explosion
+        intervalBullet: {
+          type: LaserBulletType
+          length: 30
+          width: 3
+          damage: 45
+          pierce: true
+          buildingDamageMultiplier: 0.75
+          lifetime: 10
+          colors: [baa164, edc66c, ffffff]
+        }
+        fragBullets: 5 
+        fragBullet: {
+          type: BasicBulletType
+          speed: 2
+          lifetime: 25
+          sprite: missile-large
+          damage: 9
+          splashDamage: 5
+          splashDamageRadius: 8
+          pierce: false
+          width: 11
+          height: 14
+          frontColor: ffffff
+          backColor: baa164
+          trailColor: baa164
+          despawnSound: explosion
+          trailWidth: 1.5
+          trailLength: 9
+          trailChance: -1
+        }
+      }
+    }
+  }
+]

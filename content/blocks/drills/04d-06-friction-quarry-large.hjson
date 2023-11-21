@@ -1,0 +1,36 @@
+type: BurstDrill
+name: Large Friction Quarry
+description: Uses friction explosions to mine basic materials from the ground. Reinforced using Lodestone.
+size: 2
+category: production
+hardnessDrillMultiplier: 50
+research: 04d-05-friction-quarry
+drillTime: 270
+hasPower: false
+tier: 3
+shake: 1
+itemCapacity: 30
+researchCostMultiplier: 0.8
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 14
+  strokeFrom: 1.1
+  strokeTo: 0.2
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+consumes: {
+  liquid: {
+    liquid: 02b-02-liquid-oasis-water
+    amount: 0.04
+    optional: true
+    booster: true
+  }
+}
+requirements: [
+  01a-01-item-ferrinite/28
+  01a-06-item-lodestone/12
+]
+squareSprite: false

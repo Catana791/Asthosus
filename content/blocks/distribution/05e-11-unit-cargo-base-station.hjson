@@ -1,0 +1,25 @@
+type: UnitCargoLoader
+name: Cargo Base Station
+description: Loads a cargo drone with items to be sent off towards a Cargo Drop Point.
+size: 2
+unitType: 18r-01-alveus
+buildTime: 600
+consumes: {
+  power: 2
+  liquid: 02b-05-liquid-nontragen/0.1
+}
+polyColor: c5a381
+polyRadius: 8
+itemCapacity: 200
+category: distribution
+requirements: [
+  01a-07-item-lithium/120
+  01a-09-item-obsidian/80
+  01a-13-item-barite-webbing/80
+]
+research: 05e-03-crosium-conveyor
+researchCost: [
+  01a-07-item-lithium/680
+  01a-09-item-obsidian/320
+  01a-13-item-barite-webbing/50
+]

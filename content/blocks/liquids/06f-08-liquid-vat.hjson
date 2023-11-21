@@ -1,0 +1,13 @@
+type: LiquidRouter
+size: 2
+hasLiquids: true
+liquidCapacity: 400
+name: Liquid Vat
+description: Stores liquids and outputs them to all sides.
+category: liquid
+requirements: [
+  01a-06-item-lodestone/15
+  01a-09-item-obsidian/15
+]
+research: 06f-03-aqueduct-router
+liquidPadding: 1.8

@@ -1,0 +1,185 @@
+type: ItemTurret
+name: Draysten Mortar
+description: A powerful turret that launches Artillery shells over long distances. Requires pressure. 
+size: 4
+squareSprite: false
+category: turret
+research: 03c-10-accendret
+outlineColor: 42413e
+requirements: [
+  01a-01-item-ferrinite/850
+  01a-06-item-lodestone/500
+  01a-07-item-lithium/300
+  01a-09-item-obsidian/120
+  01a-14-item-draysten/140
+]
+consumes: {
+  liquid: 02b-01-pressure/0.2
+}
+shootWarmupSpeed: 0.05
+reload: 240
+minWarmup: 0.99
+warmupMaintainTime: 120
+shootSound: shoot-mortar
+minRange: 40
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -actuator
+      under: false
+      mirror: false
+      outline: false
+      progress: warmup 
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: 16
+        }
+      ]
+    }
+    {
+      type: RegionPart
+      suffix: -body
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 2
+    }
+  ]
+}
+shootEffect: surgeCruciSmoke
+smokeEffect: shootSmokeMissile
+range: 240
+ammoPerShot: 3
+ammoTypes: {
+  01a-12-item-crosium: {
+    type: ArtilleryBulletType
+    trailChance: -1
+    trailWidth: 2.2
+    trailLength: 18
+    speed: 2
+    lifetime: 120
+    width: 12
+    height: 20
+    splashDamage: 420
+    splashDamageRadius: 40
+    splashDamagePierce: true
+    incendChance: 1
+    incendAmount: 8
+    incendSpread: 2
+    status: burning
+    statusDuration: 240
+    ammoMultiplier: 1
+    despawnSound: explosionbig
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 8
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 15
+      damage: 0
+      collides: false
+      fragRandomSpread: 0
+      fragAngle: 90
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        killShooter: false
+        splashDamage: 75
+      }
+    }
+  }
+  01a-13-item-barite-webbing: {
+    type: ArtilleryBulletType
+    trailChance: -1
+    trailWidth: 2.2
+    trailLength: 18
+    speed: 2
+    lifetime: 120
+    width: 12
+    height: 20
+    splashDamage: 500
+    splashDamageRadius: 40
+    splashDamagePierce: true
+    incendChance: 1
+    incendAmount: 8
+    incendSpread: 2
+    status: burning
+    statusDuration: 300
+    ammoMultiplier: 1
+    despawnSound: explosionbig
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 8
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 15
+      damage: 0
+      collides: false
+      fragRandomSpread: 0
+      fragAngle: 90
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        killShooter: false
+        splashDamage: 90
+      }
+    }
+  }
+  01a-14-item-draysten: {
+    type: ArtilleryBulletType
+    trailChance: -1
+    trailWidth: 2.2
+    trailLength: 18
+    speed: 2
+    lifetime: 120
+    width: 12
+    height: 20
+    splashDamage: 580
+    splashDamageRadius: 40
+    splashDamagePierce: true
+    incendChance: 1
+    incendAmount: 8
+    incendSpread: 2
+    status: burning
+    statusDuration: 360
+    ammoMultiplier: 1
+    despawnSound: explosionbig
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 8
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 15
+      damage: 0
+      collides: false
+      fragRandomSpread: 0
+      fragAngle: 90
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        killShooter: false
+        splashDamage: 115
+      }
+    }
+  }
+}

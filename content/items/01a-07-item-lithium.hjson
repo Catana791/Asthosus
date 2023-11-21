@@ -1,0 +1,10 @@
+name: Lithium
+description: A material commonly used in electronics.
+hardness: 2
+flammability: 0.2
+explosiveness: 0.1
+research: 01a-03-item-lignite
+cost: 0.8
+charge: 0.2
+color: cf9991
+hiddenOnPlanets: [serpulo, erekir]

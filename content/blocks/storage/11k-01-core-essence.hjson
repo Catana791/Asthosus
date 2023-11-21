@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: Essence
+description: Core of the base. Armored and stores a medium amount of items.
+requirements: [
+  01a-01-item-ferrinite/1600
+  01a-02-item-demetite/1200
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: 17q-01-zeta
+health: 1450
+itemCapacity: 4500
+unitCapModifier: 8
+category: effect
+research: {
+  planet: asthosus
+  root: true
+  name: Asthosus
+  requiresUnlock: false
+}

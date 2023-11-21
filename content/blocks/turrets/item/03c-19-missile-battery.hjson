@@ -1,0 +1,84 @@
+type: ItemTurret
+name: Missile Battery
+description: Uses Draysten as ammo to fire fast-paced volleys of missiles at enemies. 
+size: 3
+rotateSpeed: 0
+recoil: 0
+shootX: 0
+shootY: 0
+shootWarmupSpeed: 0.05
+minWarmup: 0.9
+outlineColor: 42413e
+warmupMaintainTime: 90
+predictTarget: false
+shootCone: 360
+reload: 25
+range: 250
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -cover-top
+      progress: warmup
+      moveY: -6
+    }
+    {
+      type: RegionPart
+      suffix: -cover-left
+      progress: warmup
+      moveX: 6
+    }
+    {
+      type: RegionPart
+      suffix: -cover-bottom
+      progress: warmup
+      moveY: 6  
+    }
+    {
+      type: RegionPart
+      suffix: -cover-right
+      progress: warmup
+      moveX: -6
+    }
+  ]
+}
+shootSound: missileLaunch
+shoot: {
+  type: ShootBarrel
+  shots: 4
+  shotDelay: 5
+  barrels: [
+    0, 6, 0,
+    -6, 0, -90,
+    0, -6, 180,
+    6, 0, 90
+  ]
+}
+ammoTypes: {
+01a-13-item-barite-webbing: {
+    ammoMultiplier: 8
+    reloadMultiplier: 0.75
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
+    damage: 0
+    spawnUnit: asthosus-18r-05-missile-battery-missile
+  }
+  01a-14-item-draysten: {
+    ammoMultiplier: 16
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
+    damage: 0
+    spawnUnit: asthosus-18r-05-missile-battery-missile
+  }
+}
+category: turret
+research: 03c-16-concite
+requirements: [
+  01a-01-item-ferrinite/800
+  01a-06-item-lodestone/300
+  01a-07-item-lithium/280
+  01a-14-item-draysten/120
+]

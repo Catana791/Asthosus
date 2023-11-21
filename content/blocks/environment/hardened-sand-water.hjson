@@ -1,6 +1,6 @@
 type: Floor
 name: Hardened Sand Oasis Water
-liquidDrop: liquid-oasis-water
+liquidDrop: 02b-02-liquid-oasis-water
 liquidMultiplier: 0.7
 isLiquid: true
 cacheLayer: water

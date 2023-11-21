@@ -1,0 +1,43 @@
+type: GenericCrafter
+name: Sand Compactor
+description: Condenses regular Sand back into Hardened Sand to be reused. Requires pressure.
+size: 3
+squareSprite: false
+craftTime: 90
+consumes: {
+  items: [
+    sand/3
+  ]
+  liquid: 02b-01-pressure/0.05
+}
+outputItem: 01a-04-item-hardened-sand/1
+category: crafting
+research: 09i-01-lodestone-mixer
+requirements: [
+  01a-01-item-ferrinite/65
+  01a-06-item-lodestone/40
+  01a-07-item-lithium/45
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: d3ae8d
+      alpha: 0.85
+      particleSize: 1.6
+      particles: 30
+      particleRad: 12
+      particleLife: 60
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.05

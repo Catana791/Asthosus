@@ -1,0 +1,97 @@
+type: GenericCrafter
+name: Red Sand Filter
+description: Filters Red Sand using Oasis Water to create Sand as well as Ferrinite, Demetite and Lignite in small amounts. Also outputs Purified Oasis Water. Requires power and Pressure.
+size: 4
+craftTime: 120
+consumes: {
+  power: 2.5
+  items: [
+    01a-05-item-red-sand/6
+  ]
+  liquids: [
+    02b-01-pressure/0.15
+    02b-02-liquid-oasis-water/0.3
+  ]
+}
+ignoreLiquidFullness: true
+ambientSound: extractLoop
+ambientSoundVolume: 0.09
+craftEffect: {
+  type: RadialEffect
+  amount: 1
+  rotationOffset: 225
+  lengthOffset: 12
+  effect: {
+    type: ParticleEffect
+    particles: 12
+    colorFrom: fca67b
+    colorTo: c27954
+    sizeFrom: 0.95
+    sizeTo: 0.2
+    lifetime: 30
+    cone: 360
+    length: 6
+    baseLength: 8
+    interp: pow2Out
+    sizeInterp: pow2
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 9
+      x: -6.5
+      y: -6.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-pressure
+      padLeft: 0.5
+      padTop: 0.5
+      padBottom: 18
+      padRight: 14
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-liquid-oasis-water
+      padLeft: 18
+      padTop: 14
+      padBottom: 0.5
+      padRight: 0.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-liquid-purified-oasis-water
+      padLeft: 18
+      padBottom: 18
+      padTop: 0.5
+      padRight: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+outputItems: [
+  01a-01-item-ferrinite/1
+  01a-02-item-demetite/1
+  01a-03-item-lignite/1
+  sand/2
+]
+outputLiquid: 02b-03-liquid-purified-oasis-water/0.1
+category: crafting
+research: 09i-05-cretite-mixer
+requirements: [
+  01a-01-item-ferrinite/160
+  01a-02-item-demetite/120
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/100
+]

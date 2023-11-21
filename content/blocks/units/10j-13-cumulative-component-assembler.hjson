@@ -1,0 +1,41 @@
+type: Constructor
+name: Cumulative Component Assembler
+description: Crafts high-tier components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+size: 5
+category: units
+requirements: [
+  01a-02-item-demetite/340
+  01a-06-item-lodestone/210
+  01a-07-item-lithium/150
+  01a-09-item-obsidian/85
+  01a-12-item-crosium/45
+  01a-14-item-draysten/25
+] 
+hasPower: true
+maxBlockSize: 4
+consumes: {
+  power: 2.5
+  liquids: [
+    02b-01-pressure/0.2
+    02b-05-liquid-nontragen/0.2
+  ]
+}
+buildSpeed: 2
+filter: [
+  03c-20-draysten-mortar,
+  03c-19-missile-battery, 
+  03c-07-subtile, 
+  08h-09-barite-wall-small, 
+  08h-10-barite-wall-large, 
+  08h-11-crosium-wall-small, 
+  08h-12-crosium-wall-large,
+  08h-13-webbing-wall-small,
+  08h-14-webbing-wall-large, 
+  08h-15-draysten-wall-small, 
+  08h-16-draysten-wall-large,
+  11k-11-restoration-dome, 
+  11k-09-barrier-projector
+]
+research: 10j-12-progressive-component-assembler
+squareSprite: false
+conductivePower: true

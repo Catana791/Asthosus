@@ -1,5 +1,5 @@
 type: Floor
 name: Red Sand
 description: A floor consisting of red sand. Mineable for Red Sand.
-itemDrop: item-red-sand
+itemDrop: 01a-05-item-red-sand
 variants: 3

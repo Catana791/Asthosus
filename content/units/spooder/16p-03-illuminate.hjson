@@ -1,0 +1,99 @@
+type: legs
+name: Illuminate
+description: Capable of building and automatically repairing damaged structures. Assists other units in construction. Equipped with artillery and heal cannons.
+speed: 0.55
+health: 790
+armor: 9
+flying: false
+isEnemy: false
+controller: RepairAI
+legExtension: -2.5
+buildSpeed: 1.1
+mineSpeed: 6.5
+mineTier: 2
+legMoveSpace: 0.9
+hovering: false
+legCount: 6
+legLength: 18
+commands: [move, mine, repair, rebuild, assist]
+mineItems: [01a-01-item-ferrinite, 01a-02-item-demetite, 01a-03-item-lignite, 01a-09-item-obsidian]
+mineWalls: true
+mineFloor: true
+legSpeed: 0.23
+legForwardScl: 0.56
+itemCapacity: 80
+outlineColor: 44413c
+hitSize: 15
+weapons: [
+  {
+    x: -9
+    name: enlighten-blaster
+    y: 3
+    reload: 72
+    shootSound: shoot-dull
+    mirror: true
+    alternate: true
+    rotate: false
+    inaccuracy: 3
+    shoot: {
+      shots: 4
+      shotDelay: 12
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.09
+      homingDelay: 30
+      weaveScale: 3
+      weaveMag: 3
+      width: 9
+      height: 13
+      speed: 2
+      lifetime: 90
+      damage: 32
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      collidesTeam: true
+      healPercent: 2
+      trailChance: -1
+      trailLength: 22
+      trailWidth: 2.2
+      trailColor: 69a25e
+      backColor: 69a25e
+      lightColor: 69a25e
+      lightRadius: 40
+      lightOpacity: 0.7
+      hitSound: dullExplosion
+      despawnSound: dullExplosion
+      frontColor: 9be98b
+    }
+  }
+  {
+    x: 0
+    y: -8
+    reload: 317
+    name: illuminate-weapon
+    mirror: false
+    rotate: false
+    shootSound: artillery
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 1.5
+      lifetime: 120
+      trailColor: 69a25e
+      backColor: 69a25e
+      frontColor: 9be98b
+      damage: 3
+      width: 12
+      height: 17
+      collidesTeam: true
+      healPercent: 2
+      splashDamage: 3
+      splashDamageRadius: 16
+      despawnUnit: asthosus-18r-09-heal-node
+      despawnUnitCount: 1
+      despawnUnitRadius: 1
+    }
+  }
+]
+research: 16p-02-enlighten

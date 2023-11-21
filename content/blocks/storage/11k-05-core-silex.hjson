@@ -1,0 +1,17 @@
+type: CoreBlock
+name: Core: Silex
+description: Core of the base. Well armored and able to store large amounts of items. Allows for more active units than a Substratum core.
+requirements: [
+  01a-01-item-ferrinite/3000
+  01a-02-item-demetite/3000
+  01a-06-item-lodestone/1000
+  01a-07-item-lithium/1000
+]
+size: 4
+squareSprite: false
+unitType: 17q-05-hirude
+health: 4400
+itemCapacity: 11000
+unitCapModifier: 16
+category: effect
+research: 11k-04-core-petra

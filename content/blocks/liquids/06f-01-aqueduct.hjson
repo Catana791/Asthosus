@@ -1,0 +1,13 @@
+type: Conduit
+name: Aqueduct
+description: Transports liquids forth.
+category: liquid
+research: 06f-05-lodestone-pump
+requirements: [
+  01a-06-item-lodestone/1
+]
+health: 35
+leaks: false
+junctionReplacement: 06f-02-aqueduct-junction
+bridgeReplacement: 06f-04-aqueduct-bridge
+underBullets: true

@@ -1,0 +1,22 @@
+  type: ShockMine
+  name: Explosive Trap
+  description: Explodes when enemies step on it, dealing decently high damage. Gets destroyed after use.
+  hasShadow: false
+  health: 40
+  damage: 30
+  tileDamage: 9
+  length: 10
+  tendrils: 4
+  category: effect
+  research: 11k-01-core-essence
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 45
+    splashDamageRadius: 24
+    killShooter: true
+  }
+  requirements: [
+    01a-02-item-demetite/30
+    01a-07-item-lithium/15
+  ]
+  

@@ -1,0 +1,15 @@
+type: LiquidRouter
+name: Aqueduct Router
+description: Distributes inputted liquids to three outputs equally.
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 20
+category: liquid
+squareSprite: false
+research: 06f-02-aqueduct-junction
+requirements: [
+  01a-06-item-lodestone/10
+]
+researchCostMultiplier: 0.5

@@ -1,0 +1,10 @@
+name: Crosium
+description: Used in advanced building and unit creation. Has a unique structure that allows the material to be electrically insulative and conductive depending on the handling.
+hardness: 3
+flammability: 0.1
+explosiveness: 0.05
+cost: 1.3
+healthScaling: 0.1
+color: 54776d
+research: 01a-09-item-obsidian
+hiddenOnPlanets: [serpulo, erekir]

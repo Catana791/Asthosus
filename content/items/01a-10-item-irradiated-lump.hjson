@@ -1,0 +1,9 @@
+name: Irradiated Lump
+description: A radioactive mineral that has no use on it's own but can be processed into Barite.
+hardness: 4
+buildable: false
+explosiveness: 0
+radioactivity: 0.8
+color: 7f9991
+research: 01a-09-item-obsidian
+hiddenOnPlanets: [serpulo, erekir]

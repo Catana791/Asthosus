@@ -1,0 +1,8 @@
+name: Ferrinite
+description: "A rock-like material. Seemingly hardened sand or stone. Used in basic building."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: 8f8d87
+research: 11k-01-core-essence
+hiddenOnPlanets: [serpulo, erekir]

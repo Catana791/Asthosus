@@ -1,0 +1,10 @@
+type: Wall
+name: Large Barite Wall
+description: A large wall made from Barite. Protects allied structures from damage.
+size: 2
+health: 3410
+category: defense
+research: 08h-09-barite-wall-small
+requirements: [
+  01a-11-item-barite/24
+]

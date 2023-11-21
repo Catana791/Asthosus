@@ -1,0 +1,17 @@
+type: UnitCargoUnloadPoint
+name: Cargo Drop Point
+description: Accepts items dropped by an Alveus cargo drone.
+itemCapacity: 100
+size: 2
+category: distribution
+research: 05e-11-unit-cargo-base-station
+requirements: [
+  01a-07-item-lithium/60
+  01a-09-item-obsidian/30
+  01a-13-item-barite-webbing/30
+]
+researchCost: [
+  01a-07-item-lithium/250
+  01a-09-item-obsidian/90
+  01a-13-item-barite-webbing/30
+]

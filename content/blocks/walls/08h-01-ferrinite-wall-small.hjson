@@ -1,0 +1,11 @@
+type: Wall
+name: Ferrinite Wall
+description: Protects structures from incoming damage.
+size: 1
+health: 380
+squareSprite: false
+requirements: [
+  01a-01-item-ferrinite/6
+]
+research: 11k-01-core-essence
+category: defense

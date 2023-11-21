@@ -1,0 +1,8 @@
+name: Lignite
+description: A coal-like material that can be used for burning and heating.
+hardness: 1
+flammability: 1.2
+cost: 0.5
+research: 01a-02-item-demetite
+color: 565656
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,13 @@
+type: PowerNode
+name: Network Terminal
+description: Connects to wires, displaying current and stored power inside the system.
+size: 1
+health: 90
+laserRange: 0
+maxNodes: 1
+requirements: [
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/30
+]
+category: power
+research: 07g-06-power-cell

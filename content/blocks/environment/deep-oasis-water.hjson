@@ -2,10 +2,10 @@ type: Floor
 name: Deep Oasis Water
 speedMultiplier: 0.5
 variants: 3
-status: asthosus-status-rejuvenated
+status: asthosus-13m-01-status-rejuvenated
 statusDuration: 30
 drownTime: 660
-liquidDrop: liquid-oasis-water
+liquidDrop: 02b-02-liquid-oasis-water
 liquidMultiplier: 1.4
 isLiquid: true
 cacheLayer: water

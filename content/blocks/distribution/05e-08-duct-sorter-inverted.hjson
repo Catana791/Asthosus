@@ -1,0 +1,10 @@
+type: Sorter
+invert: true
+name: Inverted Pipeline Sorter
+description: Works like a Duct Sorter but outputs selected items to the sides instead of straight on.
+category: distribution
+research: 05e-07-duct-sorter
+requirements: [
+  01a-01-item-ferrinite/3
+  01a-02-item-demetite/3
+]

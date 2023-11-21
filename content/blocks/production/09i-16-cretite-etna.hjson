@@ -1,0 +1,67 @@
+type: HeatProducer
+name: Cretite Etna
+description: Burns highly flammable Cretite to produce heat. Is more efficient than a Lignite Burner.
+size: 3
+heatOutput: 9
+craftTime: 180
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      blending: additive
+      color: d76a6a80
+    }
+  ]
+}
+consumes: {
+  items: [
+    01a-08-item-cretite/1
+  ]
+  power: 1.5
+}
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 45
+  amount: 9
+  lengthOffset: 5
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 18
+    length: 22
+    lifetime: 120
+    cone: 26
+    useRotation: false
+    baseRotation: 45
+    sizeFrom: 2.5
+    sizeTo: 0
+    colorFrom: ffffff00
+    colorTo: ffffff88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+}
+rotate: false
+ambientSound: smelter
+ambientSoundVolume: 0.1
+category: crafting
+research: 09i-15-lignite-burner
+requirements: [
+  01a-01-item-ferrinite/110
+  01a-02-item-demetite/95
+  01a-07-item-lithium/55
+]

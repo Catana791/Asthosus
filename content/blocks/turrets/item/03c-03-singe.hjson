@@ -1,0 +1,62 @@
+type: ItemTurret
+name: Singe
+description: Uses flammable materials as ammo to create a large flame.
+size: 1
+squareSprite: false
+reload: 8
+inaccuracy: 5
+shootSound: shoot-small-flame
+targetAir: false
+researchCostMultiplier: 0.75
+range: 80
+shootY: 1
+outlineColor: 42413e
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
+ammoTypes: {
+  01a-03-item-lignite: {
+    ammoMultiplier: 4
+    type: ContinuousFlameBulletType
+    lifetime: 20
+    drawFlare: false
+    hitColor: ffc9a2
+    damage: 12
+    knockback: 0
+    pierce: true
+    pierceArmor: false
+    length: 80
+    width: 1.5
+    colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+  }
+  01a-08-item-cretite: {
+    ammoMultiplier: 5
+    type: ContinuousFlameBulletType
+    lifetime: 20
+    drawFlare: false
+    hitColor: ffc9a2
+    damage: 20
+    knockback: 0
+    pierce: true
+    pierceArmor: false
+    length: 80
+    width: 1.5
+    colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+  }
+}
+category: turret
+research: {
+   parent: 03c-02-spray
+   objectives: [
+      03c-02-spray,
+      {
+         type: OnSector
+         preset: 19s-02-ignition
+      }
+   ]
+}
+requirements: [
+  01a-01-item-ferrinite/40
+  01a-06-item-lodestone/24
+]

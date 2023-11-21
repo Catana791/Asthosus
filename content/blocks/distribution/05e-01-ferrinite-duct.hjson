@@ -1,0 +1,14 @@
+type: Duct
+name: Ferrinite Pipeline
+category: distribution
+alwaysUnlocked: true
+research: 11k-01-core-essence
+researchCost: [
+  01a-01-item-ferrinite/10
+]
+speed: 10
+health: 45
+bridgeReplacement: 05e-06-ferrinite-duct-bridge
+requirements: [
+  01a-01-item-ferrinite/1
+]

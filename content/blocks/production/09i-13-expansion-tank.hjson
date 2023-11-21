@@ -1,0 +1,39 @@
+type: HeatCrafter
+name: Expansion Tank
+description: Uses heat to create pressure. 
+size: 2
+heatRequirement: 3
+outputLiquid: 02b-01-pressure/0.05
+squareSprite: false
+maxEfficiency: 1
+category: crafting
+research: 09i-15-lignite-burner
+requirements: [
+  01a-01-item-ferrinite/20
+  01a-02-item-demetite/20
+  01a-06-item-lodestone/10
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -heat
+      blending: additive
+      color: d76a6a80
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 6
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.1
+hasLiquids: true
+liquidCapacity: 60

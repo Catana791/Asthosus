@@ -1,0 +1,89 @@
+type: legs
+name: Enlighten
+description: Capable of building and automatically repairing damaged structures. Assists other units in construction. Equipped with a healing beam and arc cannon.
+speed: 0.7
+health: 410
+armor: 4
+flying: false
+controller: BuilderAI
+commands: [move, mine, repair, rebuild, assist]
+mineItems: [01a-01-item-ferrinite, 01a-02-item-demetite, 01a-03-item-lignite, 01a-09-item-obsidian]
+mineWalls: true
+mineFloor: true
+legExtension: -2.5
+buildSpeed: 0.85
+mineSpeed: 4
+mineTier: 1
+legMoveSpace: 0.9
+isEnemy: false
+hovering: false
+legCount: 6
+legLength: 11
+legSpeed: 0.23
+legForwardScl: 0.56
+itemCapacity: 40
+outlineColor: 44413c
+hitSize: 12
+weapons: [
+{
+  x: -8
+    y: 0
+    name: enlighten-blaster
+    reload: 94
+    mirror: false
+    rotate: false
+    shootSound: laser
+    inaccuracy: 5
+    shoot: {
+  firstShotDelay: 60
+    shotDelay: 12
+    shots: 2
+  }
+  chargeSound: short-laser-charge
+    bullet: {
+  type: LaserBulletType
+  colors: [85c278, 9be98b, ffffff]
+    width: 2
+    length: 100
+    damage: 17
+    healPercent: 4
+    collidesTeam: true
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 1
+    chargeEffect: lightningCharge
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitColor: 85c278
+  }
+}
+  {
+  name: enlighten-blaster
+    x: 8
+    y: 0
+    reload: 39
+    shootSound: spark
+    shoot: {
+  shots: 3
+    shotDelay: 0.8
+  }
+  rotate: false
+    mirror: false
+    inaccuracy: 6
+     bullet: {
+    type: LightningBulletType
+      lightningLength: 12.5
+      damage: 12
+      collidesTeam: true
+      pierceBuilding: true
+      pierce: true
+      pierceCap: 1
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitColor: 85c278
+      lightningColor: 85c278
+      healPercent: 2
+  }
+}
+  ]
+research: 16p-01-luminary
