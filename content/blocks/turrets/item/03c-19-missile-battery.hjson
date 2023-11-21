@@ -56,7 +56,16 @@ shoot: {
   ]
 }
 ammoTypes: {
-  item-draysten: {
+01a-13-item-barite-webbing: {
+    ammoMultiplier: 8
+    reloadMultiplier: 0.75
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
+    damage: 0
+    spawnUnit: asthosus-missile-battery-missile
+  }
+  01a-14-item-draysten: {
     ammoMultiplier: 16
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -68,8 +77,8 @@ ammoTypes: {
 category: turret
 research: concite
 requirements: [
-  item-ferrinite/800
-  item-lodestone/300
-  item-lithium/280
-  item-draysten/120
+  01a-01-item-ferrinite/800
+  01a-06-item-lodestone/300
+  01a-07-item-lithium/280
+  01a-14-item-draysten/120
 ]
