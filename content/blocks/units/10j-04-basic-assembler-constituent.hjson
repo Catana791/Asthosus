@@ -3,11 +3,11 @@ name: Basic Assembler Constituent
 description: Increases an assemblers' tier by 1 when placed next to its bounding box. May be used as an additional payload input.
 size: 3
 category: units
-research: ground-mounting-bay
+research: 10j-01-ground-mounting-bay
 requirements: [
-  item-ferrinite/220
-  item-demetite/120
-  item-lithium/80
+  01a-01-item-ferrinite/220
+  01a-02-item-demetite/120
+  01a-07-item-lithium/80
 ]
 consumes: {
   power: 3
