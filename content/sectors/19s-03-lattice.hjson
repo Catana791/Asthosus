@@ -5,11 +5,11 @@ difficulty: 4
 planet: asthosus
 sector: 0
 research: {
-  parent: ignition
+  parent: 19s-02-ignition
   objectives: [
     {
       type: SectorComplete
-      preset: ignition
+      preset: 19s-02-ignition
     }
   ]
 }
