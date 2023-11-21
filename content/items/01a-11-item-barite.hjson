@@ -6,5 +6,5 @@ healthScaling: 0.2
 explosiveness: 0.1
 radioactivity: 1
 color: dad2ca
-research: item-irradiated-lump
+research: 01a-10-item-irradiated-lump
 hiddenOnPlanets: [serpulo, erekir]
