@@ -1,4 +1,4 @@
 name: Demetic Wall
 type: StaticWall
-itemDrop: item-demetite
+itemDrop: 01a-02-item-demetite
 variants: 3
