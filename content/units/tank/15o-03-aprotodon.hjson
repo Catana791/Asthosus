@@ -22,7 +22,7 @@ rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 44413c
 treadPullOffset: 5
-research: trigon
+research: 15o-02-trigon
 weapons: [
   {
     parts: [
