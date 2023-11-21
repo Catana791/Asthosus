@@ -23,7 +23,7 @@ speed: 0.76
 rotateSpeed: 2.89
 itemCapacity: 0
 outlineColor: 44413c
-research: aprotodon
+research: 15o-03-aprotodon
 weapons: [
   {
     name: aphelops-launcher
