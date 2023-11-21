@@ -25,20 +25,20 @@ shootSound: shoot-heavy-cannon
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
 category: turret
-research: spray
+research: 03c-02-spray
 requirements: [
-  item-ferrinite/160
-  item-lodestone/120
-  item-obsidian/60
+  01a-01-item-ferrinite/160
+  01a-06-item-lodestone/120
+  01a-09-item-obsidian/60
 ]
 ammoTypes: {
-  item-lithium: {
+  01a-07-item-lithium: {
     instantDisappear: true
     damage: 0
     spawnUnit: asthosus-encased-shell
     ammoMultiplier: 3
   }
-  item-obsidian: {
+  01a-09-item-obsidian: {
     instantDisappear: true
     damage: 0
     spawnUnit: asthosus-encased-shell
