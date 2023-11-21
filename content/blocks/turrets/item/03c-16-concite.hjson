@@ -75,12 +75,12 @@ drawer: {
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
 category: turret
-research: typhoon
+research: 03c-15-typhoon
 requirements: [
-  item-ferrinite/600
-  item-lodestone/210
-  item-obsidian/60
-  item-crosium/105
+  01a-01-item-ferrinite/600
+  01a-06-item-lodestone/210
+  01a-09-item-obsidian/60
+  01a-12-item-crosium/105
 ]
 shoot: {
   type: ShootBarrel
@@ -98,7 +98,7 @@ shoot: {
 range: 270
 shootSound: shoot-big-artillery
 ammoTypes: {
-  item-obsidian: {
+  01a-09-item-obsidian: {
     hitEffect: plasticExplosion
     despawnHit: true
     type: BasicBulletType
@@ -123,7 +123,7 @@ ammoTypes: {
     spin: 4
     layer: 99
   }
-  item-crosium: {
+  01a-12-item-crosium: {
     hitEffect: plasticExplosion
     despawnHit: true
     type: BasicBulletType
@@ -148,7 +148,7 @@ ammoTypes: {
     lightColor: 425b54
     spin: 4
   }
-  item-barite-webbing: {
+  01a-13-item-barite-webbing: {
     hitEffect: plasticExplosion
     despawnHit: true
     type: BasicBulletType
@@ -165,7 +165,7 @@ ammoTypes: {
     trailColor: a78b6f
     backColor: a78b6f
     frontColor: dfb891
-     layer: 99
+    layer: 99
     trailWidth: 2.5
     trailLength: 22
     lightRadius: 40
