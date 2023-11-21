@@ -3,68 +3,68 @@ name: Support Assembly Bay
 description: Creates support units using payloads. Requires power.
 size: 5
 category: units
-droneType: mounting-drone
-research: ground-mounting-bay
+droneType: 18r-12-mounting-drone
+research: 10j-01-ground-mounting-bay
 requirements: [
-  item-ferrinite/60
-  item-demetite/60
-  item-lithium/110
+  01a-01-item-ferrinite/60
+  01a-02-item-demetite/60
+  01a-07-item-lithium/110
 ]
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: luminary
+    unit: 16p-01-luminary
     requirements: [
-      asthosus-lithium-wall-small/1
-      asthosus-restoration-projector/1
+      asthosus-08h-05-lithium-wall-small/1
+      asthosus-11k-10-restoration-projector/1
       asthosus-mechanical-joint/6
     ]
     time: 2700
   }
   {
     type: AssemblerUnitPlan
-    unit: enlighten
+    unit: 16p-02-enlighten
     requirements: [
-      asthosus-restoration-dome/1
-      asthosus-lithium-wall-large/2
+      asthosus-03c-06-depulse/1
+      asthosus-11k-11-restoration-dome/1
+      asthosus-08h-06-lithium-wall-large/2
       asthosus-mechanical-joint/6
-      asthosus-depulse/1
     ]
     time: 3300
   }
   {
     type: AssemblerUnitPlan
-    unit: illuminate
+    unit: 16p-03-illuminate
     requirements: [
-      asthosus-restoration-dome/2
-      asthosus-lodestone-wall-large/5
+      asthosus-03c-02-spray/1
+      asthosus-11k-11-restoration-dome/2
+      asthosus-08h-04-lodestone-wall-large/5
       asthosus-mechanical-joint/6
-      asthosus-spray/1
     ]
     time: 5100
   }
   {
     type: AssemblerUnitPlan
-    unit: elucidate
+    unit: 16p-04-elucidate
     requirements: [
-      asthosus-barrier-projector/1
-      asthosus-restoration-dome/2
-      asthosus-barite-wall-large/4
+      asthosus-03c-16-concite/1
+      asthosus-11k-09-barrier-projector/1
+      asthosus-11k-11-restoration-dome/2
+      asthosus-08h-10-barite-wall-large/4
       asthosus-mechanical-joint/6
-      asthosus-concite/1
     ]
     time: 10500
   }
   {
     type: AssemblerUnitPlan
-    unit: expound
+    unit: 16p-05-expound
     requirements: [
-      asthosus-barrier-projector/1
-      asthosus-restoration-dome/3
-      asthosus-webbing-wall-large/2
-      asthosus-draysten-wall-large/4
+      asthosus-03c-07-subtile/1
+      asthosus-11k-09-barrier-projector/1
+      asthosus-11k-11-restoration-dome/3
+      asthosus-08h-13-webbing-wall-large/2
+      asthosus-08h-16-draysten-wall-large/4
       asthosus-mechanical-joint/6
-      asthosus-subtile/1
     ]
     time: 24900
   }
