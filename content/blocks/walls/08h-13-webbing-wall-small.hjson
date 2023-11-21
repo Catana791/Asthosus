@@ -11,8 +11,8 @@ width: 4
 padSize: 1
 shieldHealth: 300
 category: defense
-research: barite-wall-small
+research: 08h-09-barite-wall-small
 requirements: [
-  item-barite-webbing/4
-  item-lithium/2
+  01a-13-item-barite-webbing/4
+  01a-07-item-lithium/2
 ]
