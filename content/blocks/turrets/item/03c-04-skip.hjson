@@ -4,21 +4,21 @@ description: Launches skipping pellets at enemies. Pellets frag after their last
 size: 2
 squareSprite: false
 research: {
-   parent: catapult
+   parent: 03c-01-catapult
    objectives: [
-      catapult,
+      03c-01-catapult,
       {
          type: OnSector
-         preset: ignition
+         preset: 19s-02-ignition
       }
    ]
 }
 category: turret
 outlineColor: 42413e
 requirements: [
-  item-ferrinite/40
-  item-demetite/30
-  item-lodestone/20
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/30
+  01a-06-item-lodestone/20
 ]
 consumes: {
   coolant: {
@@ -45,7 +45,7 @@ shootEffect: shootSmall
 smokeEffect: shootSmokeSquareSparse
 shootSound: artillery
 ammoTypes: {
-  item-ferrinite: {
+  01a-01-item-ferrinite: {
     //hitSound: dull-impact
     frontColor: b1b1b1
     backColor: 757575
@@ -115,7 +115,7 @@ ammoTypes: {
       }
     }
   }
-  item-demetite: {
+  01a-02-item-demetite: {
     //hitSound: dull-impact
     frontColor: e0d2a0
     backColor: 9a916e
@@ -185,7 +185,7 @@ ammoTypes: {
       }
     }
   }
-  item-lodestone: {
+  01a-06-item-lodestone: {
     //hitSound: dull-impact
     frontColor: 80799e
     backColor: 4e4a64
@@ -255,7 +255,7 @@ ammoTypes: {
       }
     }
   }
-  item-lithium: {
+  01a-07-item-lithium: {
     //hitSound: dull-impact
     frontColor: e6aca3
     backColor: b98279
