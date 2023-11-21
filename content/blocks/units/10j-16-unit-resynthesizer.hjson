@@ -10,7 +10,7 @@ requirements: [
   01a-09-item-obsidian/55
 ]
 research: 10j-01-ground-mounting-bay
-range: 160
+range: 80
 healAmount: 0.5
 consumes: {
   power: 1
