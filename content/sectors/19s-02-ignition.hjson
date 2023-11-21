@@ -5,11 +5,11 @@ difficulty: 2
 planet: asthosus
 sector: 15
 research: {
-  parent: genesis
+  parent: 19s-01-genesis
   objectives: [
     {
       type: SectorComplete
-      preset: genesis
+      preset: 19s-01-genesis
     }
   ]
 }
