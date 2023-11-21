@@ -8,8 +8,7 @@ gas: true
 color: ffffff00
 flammability: 0
 gasColor: ffffff00
-research: core-essence
 barColor: ffffff33
 incinerable: false
 lightColor: ffffff00
-research: item-lodestone
+research: 01a-06-item-lodestone
