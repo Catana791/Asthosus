@@ -23,7 +23,7 @@ speed: 0.59
 rotateSpeed: 1.92
 itemCapacity: 0
 outlineColor: 44413c
-research: aphelops
+research: 15o-04-aphelops
 weapons: [
   {
     parts: [
