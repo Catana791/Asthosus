@@ -12,6 +12,6 @@ squareSprite: false
 unitType: 17q-05-hirude
 health: 4400
 itemCapacity: 11000
-unitCapModifier: 16
+unitCapModifier: 20
 category: effect
 research: 11k-04-core-petra
