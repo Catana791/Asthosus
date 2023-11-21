@@ -3,12 +3,12 @@ name: Tralux
 description: Fires a continuous rupturing beam of pure energy at enemies, radiating them. 
 size: 3
 category: turret
-research: cavalier
+research: 03c-09-cavalier
 requirements: [
-  item-ferrinite/280
-  item-demetite/190
-  item-obsidian/115
-  item-barite-webbing/50
+  01a-01-item-ferrinite/280
+  01a-02-item-demetite/190
+  01a-09-item-obsidian/115
+  01a-13-item-barite-webbing/50
 ]
 drawer: {
   type: DrawTurret
@@ -23,7 +23,7 @@ shootType: {
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
-  status: asthosus-status-radiated
+  status: asthosus-13m-02-status-radiated
   statusDuration: 120
   colors: [6b6763, 827f7c, a6a29f, cfcbc6, f5f0ec]
   shake: 0.5
