@@ -52,7 +52,6 @@ mechLegColor: 44413c
             damage: 0
             spawnUnit: asthosus-teeny-tiny-missile
         }
-        
     }
 ]
-research: shiv
+research: 14n-01shiv
