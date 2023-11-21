@@ -5,9 +5,9 @@ name: Storage Capsule
 description: Stores items in larger quantities. Fragile.
 itemCapacity: 200
 category: effect
-research: ferrinite-duct-router
+research: 05e-04-ferrinite-duct-router
 requirements: [
-  item-lodestone/30
-  item-obsidian/70
+  01a-01-item-lodestone/30
+  01a-09-item-obsidian/70
 ]
 squareSprite: false
