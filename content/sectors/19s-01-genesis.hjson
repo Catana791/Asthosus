@@ -3,6 +3,6 @@ description: You land on Asthosus and find yourself in a small ravine devoid of 
 captureWave: 10
 planet: asthosus
 sector: 1
-research: core-essence
+research: 11k-01-core-essence
 difficulty: 1
 alwaysUnlocked: true
