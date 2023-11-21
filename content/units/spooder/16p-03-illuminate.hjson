@@ -90,7 +90,7 @@ weapons: [
       healPercent: 2
       splashDamage: 3
       splashDamageRadius: 16
-      despawnUnit: asthosus-heal-node
+      despawnUnit: asthosus-18r-09-heal-node
       despawnUnitCount: 1
       despawnUnitRadius: 1
     }
