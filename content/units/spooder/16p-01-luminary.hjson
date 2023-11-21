@@ -50,7 +50,7 @@ weapons: [
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     hitColor: 85c278
+    }
   }
-}
-  ]
-research: support-mounting-bay
+]
+research: 10j-03-support-mounting-bay
