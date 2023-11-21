@@ -17,5 +17,4 @@ reload: 120
 chargeTime: 90
 range: 480
 maxPayloadSize: 3
-
-  
+size: 3
