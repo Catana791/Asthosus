@@ -4,17 +4,29 @@ description: Crafts basic components used for unit assembly. Requires power and 
 size: 3
 category: units
 requirements: [
-  item-demetite/120
-  item-lodestone/85
-  item-lithium/60
+  01a-02-item-demetite/120
+  01a-06-item-lodestone/85
+  01a-07-item-lithium/60
 ] 
 hasPower: true
 consumes: {
   power: 0.75
-  liquid: pressure/0.05
+  liquid: 02b-01-pressure/0.05
 }
 buildSpeed: 1
-filter: [skip, depulse, billow, lithium-wall-small, lithium-wall-large, lodestone-wall-small, lodestone-wall-large, obsidian-wall-small, obsidian-wall-large, mechanical-joint, restoration-projector]
-research: component-assembler
+filter: [
+  03c-04-skip, 
+  03c-06-depulse, 
+  03c-05-billow, 
+  08h-05-lithium-wall-small, 
+  08h-06-lithium-wall-large, 
+  08h-03-lodestone-wall-small, 
+  08h-04-lodestone-wall-large, 
+  08h-07-obsidian-wall-small, 
+  08h-08-obsidian-wall-large, 
+  11k-10-restoration-projector,
+  mechanical-joint 
+]
+research: 10j-09-component-assembler
 squareSprite: false
 conductivePower: true
