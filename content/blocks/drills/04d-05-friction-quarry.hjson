@@ -8,7 +8,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-01-ignition
+      preset: 19s-02-ignition
     }
   ]
 }
