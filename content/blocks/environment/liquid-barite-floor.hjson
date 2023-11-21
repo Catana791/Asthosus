@@ -2,10 +2,10 @@ type: Floor
 name: Liquid Barite
 speedMultiplier: 0.7
 variants: 3
-status: asthosus-status-radiated
+status: asthosus-13m-02-status-radiated
 statusDuration: 300
 isLiquid: true
-liquidDrop: liquid-liquid-barite
+liquidDrop: 02b-04-liquid-liquid-barite
 cacheLayer: arkycite
 albedo: 0.9
 supportsOverlay: true
