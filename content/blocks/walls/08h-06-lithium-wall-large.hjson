@@ -7,7 +7,7 @@ lightningDamage: 10
 lightningColor: cf9991
 health: 1620
 requirements: [
-  item-lithium/24
+  01a-07-item-lithium/24
 ] 
 category: defense
-research: lithium-wall-small
+research: 08h-05-lithium-wall-small
