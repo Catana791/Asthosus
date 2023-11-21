@@ -4,9 +4,9 @@ description: A wall made from obsidian. Protects allied structures from damage. 
 size: 1
 health: 510
 category: defense
-research: lithium-wall-small
+research: 08h-05-lithium-wall-small
 requirements: [
-  item-obsidian/6
+  01a-09-item-obsidian/6
 ]
 destroyBullet: {
   instantDisappear: true
