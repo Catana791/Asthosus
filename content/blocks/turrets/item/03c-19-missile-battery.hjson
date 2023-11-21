@@ -63,7 +63,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     instantDisappear: true
     damage: 0
-    spawnUnit: asthosus-missile-battery-missile
+    spawnUnit: asthosus-18r-05-missile-battery-missile
   }
   01a-14-item-draysten: {
     ammoMultiplier: 16
@@ -71,11 +71,11 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     instantDisappear: true
     damage: 0
-    spawnUnit: asthosus-missile-battery-missile
+    spawnUnit: asthosus-18r-05-missile-battery-missile
   }
 }
 category: turret
-research: concite
+research: 03c-16-concite
 requirements: [
   01a-01-item-ferrinite/800
   01a-06-item-lodestone/300
