@@ -4,11 +4,11 @@ difficulty: 3
 planet: asthosus
 sector: 14
 research: {
-  parent: lattice
+  parent: 19s-03-lattice
   objectives: [
     {
       type: SectorComplete
-      preset: lattice
+      preset: 19s-03-lattice
     }
   ]
 }
