@@ -4,12 +4,12 @@ description: A large wall made from crosium. Defends allied structures from dama
 absorbLasers: true
 health: 2220
 requirements: [
-  item-crosium/20
-  item-lodestone/8
+  01a-12-item-crosium/20
+  01a-06-item-lodestone/8
 ]
 hasPower: true
 conductivePower: true
 squareSprite: false
 category: defense
-research: crosium-wall-small
+research: 08h-11-crosium-wall-small
 size: 2
