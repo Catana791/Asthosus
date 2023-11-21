@@ -53,6 +53,6 @@ research: {
    ]
 }
 requirements: [
-  item-ferrinite/40
-  item-lodestone/24
+  01a-01-item-ferrinite/40
+  01a-06-item-lodestone/24
 ]
