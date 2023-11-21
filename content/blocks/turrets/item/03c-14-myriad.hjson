@@ -25,15 +25,15 @@ coolantMultplier: 0.4
 range: 160
 outlineColor: 42413e
 category: turret
-research: fulmination
+research: 03c-12-fulmination
 requirements: [
-  item-ferrinite/130
-  item-lodestone/100
-  item-lithium/80
-  item-crosium/60
+  01a-01-item-ferrinite/130
+  01a-06-item-lodestone/100
+  01a-07-item-lithium/80
+  01a-12-item-crosium/60
 ]
 ammoTypes: {
-  item-lithium: {
+  01a-07-item-lithium: {
     type: MissileBulletType
     width: 7
     height: 9
@@ -73,7 +73,7 @@ ammoTypes: {
       lightningDamage: 3
     }
   }
-  item-crosium: {
+  01a-12-item-crosium: {
     type: MissileBulletType
     width: 7
     height: 9
@@ -113,7 +113,7 @@ ammoTypes: {
       lightningDamage: 5
     }
   }
-  item-barite-webbing: {
+  01a-13-item-barite-webbing: {
     type: MissileBulletType
     width: 7
     height: 9
