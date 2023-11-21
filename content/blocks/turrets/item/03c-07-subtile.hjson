@@ -10,17 +10,16 @@ shootEffect: shootBig
 smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 42413e
-research: skip
 research: {
-   parent: skip
+   parent: 03c-04-skip
    objectives: [
-      skip
+      03c-04-skip
    ]
 }
 requirements: [
-  item-ferrinite/60
-  item-demetite/75
-  item-lithium/40
+  01a-01-item-ferrinite/60
+  01a-02-item-demetite/75
+  01a-07-item-lithium/40
 ]
 drawer: {
   type: DrawTurret
@@ -42,13 +41,13 @@ drawer: {
   ]
 }
 consumes: {
-  liquid: pressure/0.05
+  liquid: 02b-01-pressure/0.05
   coolant: {
     amount: 0.2
   }
 }
 ammoTypes: {
-  item-lodestone: {
+  01a-06-item-lodestone: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
@@ -83,7 +82,7 @@ ammoTypes: {
       splashDamageRadius: 24
     }
   }
-  item-lithium: {
+  01a-07-item-lithium: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
@@ -118,7 +117,7 @@ ammoTypes: {
       splashDamageRadius: 24
     }
   }
-  item-obsidian: {
+  01a-09-item-obsidian: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
