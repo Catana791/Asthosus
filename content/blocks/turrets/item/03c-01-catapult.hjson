@@ -4,14 +4,14 @@ description: Fires bursts of small artillery shells at enemies over medium dista
 size: 1
 category: turret
 research: {
-  parent: core-essence
+  parent: 11k-01-core-essence
   requirements: [
-    item-ferrinite/200
+    01a-01-item-ferrinite/200
   ]
 }
 shootSound: artillery
 requirements: [
-  item-ferrinite/40
+  01a-01-item-ferrinite/40
 ]
 consumes: {
   coolant: {
@@ -33,7 +33,7 @@ shoot: {
   shotDelay: 0.78
 }
 ammoTypes: {
-  item-ferrinite: {
+  01a-01-item-ferrinite: {
     type: ArtilleryBulletType
     width: 7
     height: 9
@@ -42,7 +42,7 @@ ammoTypes: {
     splashDamage: 28
     splashDamageRadius: 8
   }
-  item-demetite: {
+  01a-02-item-demetite: {
     type: ArtilleryBulletType
     width: 7
     height: 9
@@ -51,7 +51,7 @@ ammoTypes: {
     splashDamage: 38
     splashDamageRadius: 12
   }
-  item-lithium: {
+  01a-07-item-lithium: {
     type: ArtilleryBulletType
     width: 7
     height: 9
