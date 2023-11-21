@@ -6,5 +6,5 @@ temperature: 0.25
 heatCapacity: 0.9
 color: 4f9d97
 gasColor: 84dca0
-research: liquid-oasis-water
+research: 02b-02-liquid-oasis-water
 coolant: true
