@@ -16,7 +16,7 @@ abilities: [
   {
     type: UnitSpawnAbility
     spawnTime: 600
-    unit: luminary
+    unit: 16p-01-luminary
     spawnX: 0
     spawnY: 0
   }
@@ -206,7 +206,7 @@ weapons: [
       healPercent: 2
       splashDamage: 3
       splashDamageRadius: 16
-      despawnUnit: asthosus-heal-node-2
+      despawnUnit: asthosus-18r-10-heal-node-2
       despawnUnitCount: 1
       despawnUnitRadius: 1
     }
