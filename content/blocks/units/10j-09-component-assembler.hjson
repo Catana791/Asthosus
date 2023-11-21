@@ -4,15 +4,22 @@ description: Crafts very basic components used for unit assembly. Requires power
 size: 3
 category: units
 requirements: [
-  item-demetite/50
-  item-lodestone/50
+  01a-02-item-demetite/50
+  01a-06-item-lodestone/50
 ] 
 hasPower: true
 consumes: {
   power: 0.5
 }
 buildSpeed: 1
-filter: [catapult, spray, lithium-wall-small, lithium-wall-large, lodestone-wall-small, lodestone-wall-large]
-research: ground-mounting-bay
+filter: [
+  03c-01-catapult, 
+  03c-02-spray, 
+  08h-05-lithium-wall-small, 
+  08h-06-lithium-wall-large,
+  08h-03-lodestone-wall-small, 
+  08h-04-lodestone-wall-large
+]
+research: 10j-01-ground-mounting-bay
 squareSprite: false
 conductivePower: true
