@@ -4,9 +4,9 @@ description: A large wall made from obsidian. Protects allied structures from da
 size: 2
 health: 1910
 category: defense
-research: obsidian-wall-small
+research: 08h-07-obsidian-wall-small
 requirements: [
-  item-obsidian/24
+  01a-09-item-obsidian/24
 ]
 destroyBullet: {
   instantDisappear: true
