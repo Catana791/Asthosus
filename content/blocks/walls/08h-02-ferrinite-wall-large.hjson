@@ -5,7 +5,7 @@ size: 2
 health: 1510
 category: defense
 squareSprite: false
-research: ferrinite-wall-small
+research: 08h-01-ferrinite-wall-small
 requirements: [
-  item-ferrinite/24
+  01a-01-item-ferrinite/24
 ] 
