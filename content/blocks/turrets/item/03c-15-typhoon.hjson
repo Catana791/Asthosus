@@ -38,16 +38,16 @@ drawer: {
   ]
 }
 category: turret
-research: myriad
+research: 03c-14-myriad
 shootSound: shoot-dull
 requirements: [
-  item-ferrinite/180
-  item-lodestone/90
-  item-obsidian/70
-  item-crosium/60
+  01a-01-item-ferrinite/180
+  01a-06-item-lodestone/90
+  01a-09-item-obsidian/70
+  01a-12-item-crosium/60
 ]
 ammoTypes: {
-  item-ferrinite: {
+  01a-01-item-ferrinite: {
     reloadMultiplier: 0.8
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -63,7 +63,7 @@ ammoTypes: {
     splashDamageRadius: 12
     ammoMultiplier: 8
   }
-  item-demetite: {
+  01a-02-item-demetite: {
     reloadMultiplier: 0.85
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -79,7 +79,7 @@ ammoTypes: {
     splashDamageRadius: 12
     ammoMultiplier: 8
   }
-  item-lodestone: {
+  01a-06-item-lodestone: {
     hitEffect: flakExplosion
     type: BasicBulletType
     inaccuracy: 8
@@ -94,7 +94,7 @@ ammoTypes: {
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
-  item-lithium: {
+  01a-07-item-lithium: {
     hitEffect: flakExplosion
     type: BasicBulletType
     inaccuracy: 7
@@ -110,7 +110,7 @@ ammoTypes: {
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
-  item-obsidian: {
+  01a-09-item-obsidian: {
     hitEffect: flakExplosion
     type: BasicBulletType
     inaccuracy: 6
@@ -140,7 +140,7 @@ ammoTypes: {
       splashDamageRadius: 4
     }
   }
-  item-crosium: {
+  01a-12-item-crosium: {
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
     type: BasicBulletType
