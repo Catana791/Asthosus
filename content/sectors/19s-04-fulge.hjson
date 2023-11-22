@@ -1,0 +1,15 @@
+localizedName: Fulge
+description: You land on a small sector. This is the perfect opportunity to research and use Lithium. 
+captureWave: 30
+difficulty: 4
+planet: asthosus
+sector: 21
+research: {
+  parent: 19s-03-lattice
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-lattice
+    }
+  ]
+}
