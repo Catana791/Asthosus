@@ -3,7 +3,7 @@ description: You land on a small sector. This is the perfect opportunity to rese
 captureWave: 30
 difficulty: 4
 planet: asthosus
-sector: 7
+sector: 14
 research: {
   parent: 19s-03-lattice
   objectives: [
