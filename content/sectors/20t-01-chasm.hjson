@@ -1,0 +1,15 @@
+localizedName: Chasm
+description: This sector is optional for conquering Asthosus but it may prove useful for Lithium production. The crux has built a small base here. Bring it down.
+captureWave: 30
+difficulty: 4
+planet: asthosus
+sector: 31
+research: {
+  parent: 19s-04-fulge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-04-fulge
+    }
+  ]
+}
