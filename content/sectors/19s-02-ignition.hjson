@@ -13,3 +13,5 @@ research: {
     }
   ]
 }
+overrideLaunchDefaults: true
+addStartingItems: false
