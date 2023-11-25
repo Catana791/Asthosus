@@ -11,3 +11,4 @@ requirements: [
 squareSprite: false
 category: distribution
 research: 05e-05-ferrinite-duct-junction
+researchCostMultiplier: 0.5
