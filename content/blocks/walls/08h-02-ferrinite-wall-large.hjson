@@ -9,3 +9,4 @@ research: 08h-01-ferrinite-wall-small
 requirements: [
   01a-01-item-ferrinite/24
 ] 
+researchCostMultiplier: 0.5
