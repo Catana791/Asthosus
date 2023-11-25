@@ -7,6 +7,10 @@ research: {
    parent: 09i-01-lodestone-mixer
    objectives: [
       09i-01-lodestone-mixer
+      {
+         type: OnSector
+         preset: 19s-04-fulge
+      }
    ]
 }
 squareSprite: false
