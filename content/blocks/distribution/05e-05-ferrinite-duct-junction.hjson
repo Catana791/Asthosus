@@ -10,3 +10,4 @@ requirements: [
 squareSprite: false
 category: distribution
 research: 05e-01-ferrinite-duct
+researchCostMultiplier: 0.5
