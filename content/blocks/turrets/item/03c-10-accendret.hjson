@@ -3,7 +3,7 @@ name: Accendret
 description: Fires alternating homing, piercing, and incendiary rounds at enemies.
 size: 2
 category: turret
-research: 01a-03-singe
+research: 03c-03-singe
 squareSprite: false
 requirements: [
   01a-01-item-ferrinite/110
