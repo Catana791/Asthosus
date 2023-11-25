@@ -14,3 +14,4 @@ range: 4
 speed: 4.285714
 arrowSpacing: 7
 bufferCapacity: 11
+researchCostMultiplier: 0.5
