@@ -3,7 +3,7 @@ name: Pressure Turbine
 description: Uses pressure to create larger amounts of power.
 size: 2
 category: power
-research: 06g-07-ignition-generator
+research: 07g-07-ignition-generator
 requirements: [
   01a-01-item-ferrinite/50
   01a-06-item-lodestone/45
