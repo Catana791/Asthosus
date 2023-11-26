@@ -40,7 +40,7 @@ shootSound: shotgun
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
 category: turret
-research: 03c-12-fulmination
+research: 03c-11-fulmination
 requirements: [
   01a-01-item-ferrinite/295
   01a-06-item-lodestone/200
