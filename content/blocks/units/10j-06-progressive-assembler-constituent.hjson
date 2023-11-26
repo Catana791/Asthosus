@@ -1,6 +1,6 @@
 type: UnitAssemblerModule
 name: Progressive Assembler Constituent
-description: Increases an assemblers' tier by 3 when placed next to its bounding box. May be used as an additional payload input.
+description: Increases an assemblers' tier by 3 when placed next to its bounding box. May be used as an additional payload input. Requires the previous constituent(s) to be built as well.
 size: 4
 category: units
 research: 10j-05-advanced-assembler-constituent
@@ -13,6 +13,6 @@ requirements: [
   01a-13-item-barite-webbing/600
 ]
 consumes: {
-  power: 11
+  power: 2
 }
 tier: 3
