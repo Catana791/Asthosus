@@ -11,7 +11,7 @@ requirements: [
   01a-06-item-lodestone/500
   01a-07-item-lithium/300
   01a-09-item-obsidian/120
-  01a-14-item-draysten/140
+  01a-14-item-draysten/70
 ]
 consumes: {
   liquid: 02b-01-pressure/0.2
