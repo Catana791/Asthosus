@@ -55,7 +55,7 @@ abilities: [
   {
     type: EnergyFieldAbility
     blinkSize: 0.0001
-    damage: 12
+    damage: 0
     reload: 30
     healPercent: 4
     hitUnits: true
