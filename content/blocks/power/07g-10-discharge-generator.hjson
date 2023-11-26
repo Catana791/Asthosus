@@ -14,6 +14,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-03-liquid-purified-oasis-water
       alpha: 0.7
+      padding: 2.05
     }
     {
       type: DrawDefault
