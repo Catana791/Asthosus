@@ -7,7 +7,6 @@ category: turret
 research: 03c-10-accendret
 outlineColor: 42413e
 requirements: [
-  01a-01-item-ferrinite/850
   01a-06-item-lodestone/500
   01a-07-item-lithium/300
   01a-09-item-obsidian/120
