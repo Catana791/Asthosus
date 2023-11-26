@@ -35,6 +35,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: 16p-03-illuminate
     requirements: [
+      asthosus-03c-11-fulmination/1
       asthosus-11k-11-restoration-dome/2
       asthosus-08h-06-lithium-wall-large/3
       asthosus-mechanical-joint/6
