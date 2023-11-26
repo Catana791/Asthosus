@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 name: Cretite Turbine
 description: Creates medium amounts of power by using highly flammable Cretite and Purified Oasis Water as coolant. 
-size: 2
+size: 3
 category: power
 squareSprite: false
 research: 07g-07-ignition-generator
