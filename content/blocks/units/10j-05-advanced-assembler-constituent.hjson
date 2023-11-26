@@ -1,6 +1,6 @@
 type: UnitAssemblerModule
 name: Advanced Assembler Constituent
-description: Increases an assemblers' tier by 2 when placed next to its bounding box. May be used as an additional payload input.
+description: Increases an assemblers' tier by 2 when placed next to its bounding box. May be used as an additional payload input. Requires the previous constituent(s) to be built as well.
 size: 3
 category: units
 research: 10j-04-basic-assembler-constituent
@@ -11,6 +11,6 @@ requirements: [
   01a-11-item-barite/660
 ]
 consumes: {
-  power: 5
+  power: 2
 }
 tier: 2
