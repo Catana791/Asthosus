@@ -11,7 +11,7 @@ requirements: [
   01a-06-item-lodestone/60
   01a-07-item-lithium/50
 ]
-powerProduction: 3
+powerProduction: 6
 consumes: {
   items: [
     01a-08-item-cretite/1
