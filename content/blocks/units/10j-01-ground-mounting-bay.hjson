@@ -46,8 +46,7 @@ plans: [
     unit: 14n-04-apex
     requirements: [
       asthosus-03c-16-concite/1
-      asthosus-08h-06-lithium-wall-large/6
-      asthosus-08h-10-barite-wall-large/4
+      asthosus-08h-10-barite-wall-large/10
       asthosus-mechanical-joint/4
     ]
     time: 8700
