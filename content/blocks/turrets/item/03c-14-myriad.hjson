@@ -25,7 +25,7 @@ coolantMultplier: 0.4
 range: 160
 outlineColor: 42413e
 category: turret
-research: 03c-12-fulmination
+research: 03c-11-fulmination
 requirements: [
   01a-01-item-ferrinite/130
   01a-06-item-lodestone/100
