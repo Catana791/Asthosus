@@ -26,11 +26,10 @@ research: 03c-07-subtile
 squareSprite: false
 range: 400
 requirements: [
-  01a-01-item-ferrinite/850
   01a-06-item-lodestone/400
   01a-07-item-lithium/400
   01a-11-item-barite/280
-  01a-14-item-draysten/90
+  01a-14-item-draysten/45
 ]
 consumes: {
   liquid: 02b-01-pressure/0.3
