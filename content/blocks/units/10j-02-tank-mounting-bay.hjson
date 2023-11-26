@@ -15,8 +15,8 @@ plans: [
     type: AssemblerUnitPlan
     unit: 15o-01-shennong
     requirements: [
-      asthosus-08h-05-lithium-wall-small/4
       asthosus-03c-02-spray/1
+      asthosus-08h-05-lithium-wall-small/4
     ]
     time: 900
   }
@@ -25,8 +25,8 @@ plans: [
     unit: 15o-02-trigon
     requirements: [
       asthosus-03c-05-billow/1
-      asthosus-08h-06-lithium-wall-large/2
       asthosus-08h-03-lodestone-wall-small/2
+      asthosus-08h-06-lithium-wall-large/2
     ]
     time: 1600
   }
@@ -35,8 +35,8 @@ plans: [
     unit: 15o-03-aprotodon
     requirements: [
       asthosus-03c-13-instauro/1
-      asthosus-08h-06-lithium-wall-large/6
-      asthosus-08h-08-obsidian-wall-large/4
+      asthosus-08h-06-lithium-wall-large/3
+      asthosus-08h-08-obsidian-wall-large/2
     ]
     time: 3400
   }
@@ -44,9 +44,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: 15o-04-aphelops
     requirements: [
-      asthosus-03c-15-typhoon/2
-      asthosus-08h-12-crosium-wall-large/4
-      asthosus-08h-06-lithium-wall-large/12
+      asthosus-03c-15-typhoon/1
+      asthosus-08h-06-lithium-wall-large/6
+      asthosus-08h-12-crosium-wall-large/3
     ]
     time: 8800
   }
@@ -54,10 +54,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: 15o-05-annectodon
     requirements: [
-      asthosus-03c-19-missile-battery/2
+      asthosus-03c-19-missile-battery/1
       asthosus-10j-14-freight-conveyor/2
-      asthosus-08h-06-lithium-wall-large/20
-      asthosus-08h-10-barite-wall-large/16
+      asthosus-08h-10-barite-wall-large/10
     ]
     time: 23800
   }
