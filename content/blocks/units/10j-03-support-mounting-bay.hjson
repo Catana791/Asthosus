@@ -36,7 +36,7 @@ plans: [
     unit: 16p-03-illuminate
     requirements: [
       asthosus-11k-11-restoration-dome/2
-      asthosus-08h-04-lithium-wall-large/3
+      asthosus-08h-06-lithium-wall-large/3
       asthosus-mechanical-joint/6
     ]
     time: 5100
