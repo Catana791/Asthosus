@@ -16,7 +16,7 @@ plans: [
     unit: 14n-01-shiv
     requirements: [
       asthosus-03c-02-spray/1
-      asthosus-08h-05-lithium-wall-small/2
+      asthosus-08h-05-lithium-wall-small/1
       asthosus-mechanical-joint/2
     ]
     time: 720
@@ -26,8 +26,8 @@ plans: [
     unit: 14n-02-bayonet
     requirements: [
       asthosus-03c-04-skip/1
-      asthosus-mechanical-joint/2
       asthosus-08h-06-lithium-wall-large/2
+      asthosus-mechanical-joint/2
     ]
     time: 1500
   }
@@ -35,9 +35,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: 14n-03-cleaver
     requirements: [
-      asthosus-03c-07-subtile/2
+      asthosus-03c-07-subtile/1
+      asthosus-08h-10-barite-wall-large/2
       asthosus-mechanical-joint/2
-      asthosus-08h-10-barite-wall-large/4
     ]
     time: 3300
   }
@@ -46,9 +46,9 @@ plans: [
     unit: 14n-04-apex
     requirements: [
       asthosus-03c-16-concite/1
+      asthosus-08h-06-lithium-wall-large/6
+      asthosus-08h-10-barite-wall-large/4
       asthosus-mechanical-joint/4
-      asthosus-08h-06-lithium-wall-large/8
-      asthosus-08h-10-barite-wall-large/6
     ]
     time: 8700
   }
@@ -57,9 +57,8 @@ plans: [
     unit: 14n-05-crest
     requirements: [
       asthosus-03c-20-draysten-mortar/1
-      asthosus-mechanical-joint/4
-      asthosus-08h-10-barite-wall-large/12
       asthosus-08h-12-crosium-wall-large/8
+      asthosus-mechanical-joint/4
     ]
     time: 24900
   }
