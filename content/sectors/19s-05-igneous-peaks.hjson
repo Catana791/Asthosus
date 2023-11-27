@@ -1,0 +1,15 @@
+localizedName: Igneous Peaks
+description: This sector has high-temperature biomes that contain a new resource for you to use: Obsidian. Mine Obsidian and use it to bring down this sectors guardian. 
+captureWave: 30
+difficulty: 5
+planet: asthosus
+sector: 45
+research: {
+  parent: 19s-04-fulge
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-04-fulge
+    }
+  ]
+}
