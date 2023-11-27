@@ -1,19 +1,17 @@
 type: legs
-legCount: 8
-legLength: 4
+legCount: 4
+legLength: 8
 legSpeed: 0.23
 legForwardScl: 0.56
 legMoveSpace: 0.9
 hovering: true
 name: Barite Crawler
-description: A strange lifeform that was born in Asthosus' 
-health: 135
-armor: 1
-mineFloor: true
-mineWalls: true
+description: A strange lifeform that was born in Asthosus' radioactive biomes.
+health: 360
+armor: 4
 speed: 1.2
-speed: 4
-hitSize: 6
+drawCell: false
+hitSize: 3
 isEnemy: false
 drag: 0.4
 itemCapacity: 0
