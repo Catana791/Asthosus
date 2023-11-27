@@ -1,0 +1,49 @@
+type: legs
+legCount: 8
+legLength: 4
+legSpeed: 0.23
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+name: Barite Crawler
+description: A strange lifeform that was born in Asthosus' 
+health: 135
+armor: 1
+mineFloor: true
+mineWalls: true
+speed: 1.2
+speed: 4
+hitSize: 6
+isEnemy: false
+drag: 0.4
+itemCapacity: 0
+outlineColor: 42413e
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    rotate: false
+    reload: 76
+    inaccuracy: 7
+    shoot: {
+      shots: 3
+    }
+    shootSound: splash
+    bullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 1
+      damage: 10
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 32
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+]
