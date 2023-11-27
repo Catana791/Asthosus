@@ -1,6 +1,7 @@
 type: legs
-legCount: 4
-legLength: 5
+legCount: 7
+legLength: 9
+legPairOffset: 2
 legSpeed: 0.23
 hovering: true
 name: Barite Crawler
@@ -14,6 +15,7 @@ isEnemy: false
 drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
+aimDst: 160
 weapons: [
   {
     x: 0
@@ -29,7 +31,7 @@ weapons: [
     bullet: {
       type: LiquidBulletType
       liquid: 02b-04-liquid-liquid-barite
-      orbSize: 1
+      orbSize: 3
       damage: 10
       pierce: true
       pierceCap: 1
@@ -40,6 +42,82 @@ weapons: [
       despawnHit: true
       despawnSound: splash
       layer: 99
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: 0
+    y: 4
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: medium-eye
+    outlines: false
+    top: false
+    x: -2.5
+    y: 5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: small-eye
+    outlines: false
+    top: false
+    x: 2.5
+    y: 5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: small-eye
+    outlines: false
+    top: false
+    x: 1
+    y: 6
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
     }
   }
 ]
