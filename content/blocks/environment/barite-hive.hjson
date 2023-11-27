@@ -1,7 +1,8 @@
 type: UnitFactory
 name: Barite Hive
 description: A hive that seems to be creating spider-like creatures. Best not to get close to them.
-size: 3
+size: 2
+customShadow: true
 placeablePlayer: false
 requirements: []
 plans: [
