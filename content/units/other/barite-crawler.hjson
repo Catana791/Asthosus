@@ -10,6 +10,7 @@ health: 360
 armor: 4
 speed: 1.2
 drawCell: false
+useUnitCap: false
 hitSize: 3
 isEnemy: false
 drag: 0.4
