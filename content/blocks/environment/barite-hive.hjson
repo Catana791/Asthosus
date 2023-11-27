@@ -7,6 +7,7 @@ placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
 unitCapModifier: 3
+health: 5000
 requirements: []
 plans: [
   {
