@@ -1,0 +1,6 @@
+type: Floor
+name: Hive Tile
+description: A floor that surrounds barite hive. Seems to be organic matter that slows drones walking on it. Best not to touch it.
+variants: 3
+status: slow
+statusDuration: 1
