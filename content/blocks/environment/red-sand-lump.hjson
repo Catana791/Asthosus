@@ -1,4 +1,6 @@
-type: Prop
+type: TallBlock
 name: Red Sand Lump
 variants: 2
-breakSound: rock-crush
+clipSize: 64
+shadowAlpha: 0.5
+shadowOffset: -1.25
