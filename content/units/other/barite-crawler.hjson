@@ -11,6 +11,8 @@ armor: 4
 speed: 1.2
 drawCell: false
 useUnitCap: false
+defaultController: DefenerAI
+controller: DefenderAI
 hitSize: 3
 isEnemy: false
 drag: 0.4
