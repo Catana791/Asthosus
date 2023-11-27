@@ -6,6 +6,7 @@ customShadow: true
 placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
+unitCapModifier: 3
 requirements: []
 plans: [
   {
