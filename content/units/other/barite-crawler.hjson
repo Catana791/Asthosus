@@ -11,8 +11,6 @@ armor: 4
 speed: 1.2
 drawCell: false
 useUnitCap: false
-defaultController: CommandAI
-controller: CommandAI
 hitSize: 3
 isEnemy: false
 drag: 0.4
