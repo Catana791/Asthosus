@@ -4,7 +4,15 @@ description: Creates ground units using payloads. Requires power.
 size: 5
 category: units
 droneType: 18r-12-mounting-drone
-research: 11k-01-core-essence
+research: {
+  parent: 11k-01-core-essence
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-05-immist
+    }
+  ]
+}
 requirements: [
   01a-01-item-ferrinite/50
   01a-02-item-demetite/90
