@@ -1,7 +1,7 @@
 type: legs
-legCount: 7
-legLength: 15
-legPairOffset: 2
+legCount: 5
+legLength: 18
+legPairOffset: 1
 legSpeed: 0.23
 hovering: true
 name: Barite Stalker
