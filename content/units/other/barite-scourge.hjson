@@ -1,0 +1,208 @@
+type: legs
+legCount: 5
+legLength: 18
+legPairOffset: 1
+legSpeed: 0.23
+hovering: true
+name: Barite Scourge
+description: A strange lifeform that was born in Asthosus' radioactive biomes.
+health: 1890
+armor: 4
+speed: 1.2
+drawCell: false
+useUnitCap: false
+stepShake: 0
+hitSize: 24
+isEnemy: false
+drag: 0.4
+itemCapacity: 0
+outlineColor: 42413e
+aimDst: 160
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    rotate: false
+    reload: 76
+    inaccuracy: 0
+    shootSound: splash
+    bullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 5
+      damage: 150
+      pierce: true
+      pierceCap: 2
+      knockback: 1
+      speed: 2
+      lifetime: 60
+      puddleSize: 24
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+  {
+    x: -8
+    y: 0
+    mirror: true
+    alternate: true
+    rotate: false
+    reload: 210
+    shoot: {
+      shots: 4
+      shotDelay: 5
+    }
+    inaccuracy: 0
+    shootSound: splash
+    bullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 4
+      damage: 60
+      pierce: true
+      pierceCap: 2
+      knockback: 1
+      speed: 2
+      lifetime: 30
+      puddleSize: 24
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: -10
+    y: 5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: -3
+    y: 7.5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: -2
+    y: 14
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: -10
+    y: 9.5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: 4.5
+    y: 8.5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: 7
+    y: 4
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: 13
+    y: 3.6
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+]
