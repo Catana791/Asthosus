@@ -21,7 +21,7 @@ aimDst: 160
 weapons: [
   {
     x: 0
-    y: 0
+    y: 15
     mirror: false
     rotate: false
     reload: 76
@@ -45,7 +45,7 @@ weapons: [
   }
   {
     x: -8
-    y: 0
+    y: 15
     mirror: true
     alternate: true
     rotate: false
