@@ -11,6 +11,7 @@ armor: 4
 speed: 1.2
 drawCell: false
 useUnitCap: false
+stepShake: 0
 hitSize: 24
 isEnemy: false
 drag: 0.4
