@@ -5,7 +5,7 @@ difficulty: 5
 planet: asthosus
 sector: 45
 research: {
-  parent: 19s-04-immist
+  parent: 19s-05-immist
   objectives: [
     {
       type: SectorComplete
