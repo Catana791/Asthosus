@@ -1,7 +1,7 @@
 type: legs
-legCount: 5
-legLength: 18
-legPairOffset: 1
+legCount: 11
+legLength: 22
+legPairOffset: 5
 legSpeed: 0.23
 hovering: true
 name: Barite Scourge
@@ -12,7 +12,7 @@ speed: 1.2
 drawCell: false
 useUnitCap: false
 stepShake: 0
-hitSize: 24
+hitSize: 28
 isEnemy: false
 drag: 0.4
 itemCapacity: 0
