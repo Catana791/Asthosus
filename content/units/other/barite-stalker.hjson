@@ -17,7 +17,7 @@ isEnemy: false
 drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
-aimDst: 240
+aimDst: 160
 weapons: [
   {
     x: 0
@@ -36,7 +36,7 @@ weapons: [
       pierceCap: 2
       knockback: 1
       speed: 2
-      lifetime: 120
+      lifetime: 80
       puddleSize: 24
       despawnHit: true
       despawnSound: splash
