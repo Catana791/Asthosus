@@ -1,0 +1,216 @@
+type: legs
+legCount: 7
+legLength: 15
+legPairOffset: 2
+legSpeed: 0.23
+hovering: true
+name: Barite Stalker
+description: A strange lifeform that was born in Asthosus' radioactive biomes.
+health: 780
+armor: 4
+speed: 1.2
+drawCell: false
+useUnitCap: false
+hitSize: 24
+isEnemy: false
+drag: 0.4
+itemCapacity: 0
+outlineColor: 42413e
+aimDst: 240
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    rotate: false
+    reload: 76
+    inaccuracy: 0
+    shootSound: splash
+    bullet: {
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 5
+      damage: 60
+      pierce: true
+      pierceCap: 2
+      knockback: 1
+      speed: 2
+      lifetime: 120
+      puddleSize: 24
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: -8
+    y: 2.1
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: -4
+    y: 4
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: 6
+    y: 4
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: large-eye
+    outlines: false
+    top: false
+    x: 3
+    y: 7
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: medium-eye
+    outlines: false
+    top: false
+    x: 0
+    y: 5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: medium-eye
+    outlines: false
+    top: false
+    x: -6
+    y: 2.5
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: small-eye
+    outlines: false
+    top: false
+    x: 7.5
+    y: 3
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: small-eye
+    outlines: false
+    top: false
+    x: 7.5
+    y: 4
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+  {
+    name: small-eye
+    outlines: false
+    top: false
+    x: 5
+    y: 4
+    reload: 120
+    recoil: 0
+    mirror: false
+    rotate: true
+    shootSound: none
+    bullet: {
+      instantDisappear: true
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      hitEffect: none
+    }
+  }
+]
