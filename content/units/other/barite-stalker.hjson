@@ -17,7 +17,7 @@ isEnemy: false
 drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
-aimDst: 160
+aimDst: 240
 weapons: [
   {
     x: 0
