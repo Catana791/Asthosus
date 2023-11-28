@@ -9,6 +9,7 @@ description: A strange lifeform that was born in Asthosus' radioactive biomes.
 health: 360
 armor: 4
 speed: 1.2
+stepShake: 0
 drawCell: false
 useUnitCap: false
 hitSize: 16
