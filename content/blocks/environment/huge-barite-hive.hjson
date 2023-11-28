@@ -1,0 +1,19 @@
+type: UnitFactory
+name: Large Barite Hive
+description: A hive that seems to be creating spider-like creatures. Best not to get close to them.
+size: 3
+customShadow: true
+placeablePlayer: false
+drawTeamOverlay: false
+squareSprite: false
+unitCapModifier: 3
+health: 7000
+requirements: []
+plans: [
+  {
+    unit: barite-scourge
+    requirements: []
+    time: 6000
+  }
+]
+consumes: {}
