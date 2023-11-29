@@ -80,12 +80,12 @@ mesh: [
     //red sand
     type: NoiseMesh
     planet: asthosus
-    divisions: 4
-    seed: 61
-    radius: 1.2568
+    divisions: 6
+    seed: 17
+    radius: 1.2514
     color1: dea67d
     color2: d58b79
-    octaves: 3.6
+    octaves: 5.7
     persistence: 0.9
   }
 ]
