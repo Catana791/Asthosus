@@ -6,7 +6,8 @@
   atmosphereRadOut: 0
   drawOrbit: false
   accessible: false
-  mesh: {
+  mesh:
+ {
     type: NoiseMesh
     divisions: 6
     seed: 101
