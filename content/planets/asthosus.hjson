@@ -56,9 +56,9 @@ mesh: [
     //barite
     type: NoiseMesh
     planet: asthosus
-    divisions: 4
+    divisions: 5
     seed: 19
-    radius: 1.245
+    radius: 1.247
     color1: f8efe6
     color2: bab4ae
     octaves: 4.5
@@ -68,9 +68,9 @@ mesh: [
     //radian barite
     type: NoiseMesh
     planet: asthosus
-    divisions: 4
+    divisions: 6
     seed: 61
-    radius: 1.251
+    radius: 1.250
     color1: 6b9388
     color2: 425b54
     octaves: 4.5
