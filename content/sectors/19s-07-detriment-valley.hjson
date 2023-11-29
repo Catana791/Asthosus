@@ -3,6 +3,7 @@ description: A sector that has survived many bombings. Venture into mining barit
 difficulty: 5
 planet: asthosus
 sector: 22
+captureWave: 25
 research: {
   parent: 19s-06-igneous-peaks
   objectives: ]
