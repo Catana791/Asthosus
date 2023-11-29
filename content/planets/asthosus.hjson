@@ -6,9 +6,9 @@ mesh: [
     //water
     type: NoiseMesh
     planet: asthosus
-    divisions: 4
+    divisions: 5
     seed: 7
-    radius: 1.222
+    radius: 1.229
     color1: 587d89
     color2: 5e95a8
     octaves: 3.7
@@ -18,7 +18,7 @@ mesh: [
     //ferrinite
     type: NoiseMesh
     planet: asthosus
-    divisions: 4
+    divisions: 5
     radius: 1.22
     seed: 94
     color1: e9e9de
@@ -70,7 +70,7 @@ mesh: [
     planet: asthosus
     divisions: 6
     seed: 61
-    radius: 1.250
+    radius: 1.248
     color1: 6b9388
     color2: 425b54
     octaves: 4.5
