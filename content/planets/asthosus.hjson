@@ -1,5 +1,5 @@
 localizedName: Asthosus
-description: WIP
+description: A deserted planet, filled with dangers but also possibilities. Good luck!
 alwaysUnlocked: true
 mesh: [
  {
@@ -32,7 +32,7 @@ mesh: [
     planet: asthosus
     divisions: 6
     seed: 101
-    radius: 1.24
+    radius: 1.2441
     color1: babca8
     color2: c6c282
     octaves: 5.1
@@ -46,7 +46,7 @@ mesh: [
     divisions: 5
     color1: d5c995
     color2: 666359
-    radius: 1.2
+    radius: 1.212
     octaves: 4
     persistence: 1
     scale: 0.75
@@ -89,19 +89,44 @@ mesh: [
     persistence: 0.9
   }
 ]
-cloudMesh: {
-  type: HexSkyMesh
-  planet: asthosus
-  seed: 15
-  speed: 0.32
-  radius: 0.08
-  divisions: 6
-  color: eafffd7e
-  octaves: 3
-  persistence: 0.7
-  scl: 1
-  thresh: 0.6
-}
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
 generator: {
   type: PlanetGenerator
   octaves: 3
