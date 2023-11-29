@@ -1,19 +1,31 @@
 localizedName: Asthosus
 description: WIP
 alwaysUnlocked: true
-mesh: {
-  type: NoiseMesh
-  planet: asthosus
-  seed: 69
-  divisions: 5
-  color1: d5c995
-  color2: 666359
-  radius: 1.2
-  octaves: 4
-  persistence: 1
-  scale: 0.75
-  mag: 1
-}
+mesh: [
+  {
+    type: NoiseMesh
+    divisions: 6
+    seed: 101
+    radius: 1.24
+    color1: babca8
+    color2: c6c282
+    octaves: 5.1
+    persistence: 0.8
+  }
+  {
+    type: NoiseMesh
+    planet: asthosus
+    seed: 69
+    divisions: 5
+    color1: d5c995
+    color2: 666359
+    radius: 1.2
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+]
 cloudMesh: {
   type: HexSkyMesh
   planet: asthosus
