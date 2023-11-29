@@ -2,6 +2,16 @@ localizedName: Asthosus
 description: WIP
 alwaysUnlocked: true
 mesh: [
+ {
+    type: NoiseMesh
+    divisions: 4
+    seed: 7
+    radius: 1.222
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 3.7
+    persistence: 1.1
+  }
   {
     type: NoiseMesh
     divisions: 4
