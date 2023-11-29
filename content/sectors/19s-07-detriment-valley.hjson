@@ -6,7 +6,7 @@ sector: 22
 captureWave: 25
 research: {
   parent: 19s-06-igneous-peaks
-  objectives: ]
+  objectives: [
     {
       type: SectorComplete
       preset: 19s-06-igneous-peaks
