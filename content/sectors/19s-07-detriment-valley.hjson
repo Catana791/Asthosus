@@ -1,0 +1,14 @@
+localizedName: Detriment Valley
+description: A sector that has survived many bombings. Venture into mining barite. Create strong defenses to push back the enemy in this sector.
+difficulty: 5
+planet: asthosus
+sector: 102
+research: {
+  parent: 19s-06-igneous-peaks
+  objectives: ]
+    {
+      type: SectorComplete
+      preset: 19s-06-igneous-peaks
+    }
+  ]
+}
