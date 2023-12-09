@@ -6,7 +6,7 @@ reload: 212
 range: 160
 targetAir: false
 targetGround: true
-moveWhileCharging: false
+moveWhileCharging: true
 accurateDelay: false
 outlineColor: 42413e
 chargeSound: lasercharge2
