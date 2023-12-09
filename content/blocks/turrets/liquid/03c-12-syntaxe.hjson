@@ -58,5 +58,7 @@ ammoTypes: {
     despawnHit: true
     despawnSound: splash
     layer: 99
+    status: asthosus-13m-02-status-radiated
+    statusDuration: 120
   }
 }
