@@ -32,7 +32,7 @@ requirements: [
   01a-09-item-obsidian/60
 ]
 ammoTypes: {
-  01a-07-item-lodestone: {
+  01a-06-item-lodestone: {
     reloadMultiplier: 0.75
     instantDisappear: true
     damage: 0
