@@ -31,3 +31,4 @@ filter: [
 research: 10j-09-component-assembler
 squareSprite: false
 conductivePower: true
+maxBlockSize: 3
