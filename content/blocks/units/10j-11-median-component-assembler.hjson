@@ -1,7 +1,7 @@
 type: Constructor
 name: Median Component Assembler
 description: Crafts components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
-size: 3
+size: 4
 category: units
 requirements: [
   01a-02-item-demetite/225
