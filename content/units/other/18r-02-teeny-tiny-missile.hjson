@@ -1,4 +1,5 @@
 type: missile
+physics: false
 template: MissileUnitType
 flying: true
 speed: 2
