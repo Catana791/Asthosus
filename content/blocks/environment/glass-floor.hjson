@@ -1,6 +1,6 @@
 type: Floor
 name: Glass
 description: Scorched red sand.
-albedo: 1
+albedo: 100
 variants: 3
   
