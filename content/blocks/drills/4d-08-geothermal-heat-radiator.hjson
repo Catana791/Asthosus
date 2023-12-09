@@ -1,8 +1,0 @@
-type: HeatProducer
-name: Geothermal Heat Radiator
-description: Produces heat when placed on vents. 
-size: 3
-attribute: heat
-heatOutput: 6
-requirements: []
-category: production
