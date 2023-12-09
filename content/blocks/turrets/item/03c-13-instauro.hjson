@@ -59,6 +59,8 @@ ammoTypes: {
         lifetime: 60
         fromColor: f8efe6
         toColor: bab4ae
+        status: asthosus-13m-02-status-radiated
+        statusDuration: 60
       }
       {
         type: BasicBulletType
@@ -107,6 +109,8 @@ ammoTypes: {
             lifetime: 60
             fromColor: f8efe6
             toColor: bab4ae
+            status: asthosus-13m-02-status-radiated
+            statusDuration: 60
           }
         }
       }
@@ -157,6 +161,8 @@ ammoTypes: {
             lifetime: 60
             fromColor: f8efe6
             toColor: bab4ae
+            status: asthosus-13m-02-status-radiated
+            statusDuration: 60
           }
         }
       }
@@ -190,6 +196,8 @@ ammoTypes: {
           lifetime: 60
           fromColor: f8efe6
           toColor: bab4ae
+          status: asthosus-13m-02-status-radiated
+          statusDuration: 60
         }
       }
     ]
@@ -202,6 +210,8 @@ ammoTypes: {
     lifetime: 60
     fromColor: f8efe6
     toColor: bab4ae
+    status: asthosus-13m-02-status-radiated
+    statusDuration: 60
   }
   01a-13-item-barite-webbing: {
     reloadMultiplier: 2
