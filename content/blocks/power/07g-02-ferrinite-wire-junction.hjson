@@ -1,18 +1,24 @@
-type: Junction
-name: Ferrinite Wire Junction
-description: Used to cross two Ferrinite Wires. Can store very small amounts of power.
+type: ArmoredConveyor
+name: Reinforced Wire
+description: Transfers power when placed next to more wires. Stores more power and has substantially more health than a regular wire.
 conductivePower: true
+health: 280
 hasPower: true
-health: 90
-hasItems: false
-itemCapacity: 0
 outputsPower: true
+junctionReplacement: imaginary-junction
+bridgeReplacement: imaginary-bridge
+liquidPressure: 0
 liquidCapacity: 0
 consumes: {
   powerBuffered: 10
-}
+} 
 requirements: [
-  01a-01-item-ferrinite/3
+  01a-06-item-lodestone/1
 ]
 category: power
-research: 07g-01-ferrinite-wire
+research: 07g-07-ignition-generator
+acceptsItems: false
+instantTransfer: false
+solid: false
+hasItems: false
+itemCapacity: 0
