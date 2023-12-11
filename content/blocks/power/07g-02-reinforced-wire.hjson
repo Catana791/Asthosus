@@ -1,8 +1,8 @@
 type: ArmoredConveyor
-name: Ferrinite Wire
-description: Transfers power when placed next to more wires. Can store very small amounts of power.
+name: Reinforced Wire
+description: Transfers power when placed next to more wires. Stores more power and has substantially more health than a regular wire.
 conductivePower: true
-health: 70
+health: 280
 hasPower: true
 outputsPower: true
 junctionReplacement: imaginary-junction
@@ -10,13 +10,13 @@ bridgeReplacement: imaginary-bridge
 liquidPressure: 0
 liquidCapacity: 0
 consumes: {
-  powerBuffered: 5
+  powerBuffered: 10
 } 
 requirements: [
-  01a-01-item-ferrinite/1
+  01a-06-item-lodestone/1
 ]
 category: power
-research: 07g-07-ignition-generator
+research: 07g-01-ferrinite-wire
 acceptsItems: false
 instantTransfer: false
 solid: false
