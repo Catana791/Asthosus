@@ -20,3 +20,4 @@ research: 07g-07-ignition-generator
 acceptsItems: false
 instantTransfer: false
 solid: false
+speed: 0.05
