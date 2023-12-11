@@ -1,9 +1,11 @@
-type: LiquidJunction
+type: Junction
 name: Ferrinite Wire Junction
 description: Used to cross two Ferrinite Wires. Can store very small amounts of power.
 conductivePower: true
 hasPower: true
 health: 90
+hasItems: false
+itemCapacity: 0
 outputsPower: true
 liquidCapacity: 0
 consumes: {
