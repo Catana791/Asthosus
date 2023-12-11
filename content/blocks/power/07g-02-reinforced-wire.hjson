@@ -16,7 +16,7 @@ requirements: [
   01a-06-item-lodestone/1
 ]
 category: power
-research: 07g-07-ignition-generator
+research: 07g-01-ferrinite-wire
 acceptsItems: false
 instantTransfer: false
 solid: false
