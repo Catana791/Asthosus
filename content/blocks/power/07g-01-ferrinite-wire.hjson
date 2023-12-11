@@ -20,3 +20,5 @@ research: 07g-07-ignition-generator
 acceptsItems: false
 instantTransfer: false
 solid: false
+hasItems: false
+itemCapacity: 0
