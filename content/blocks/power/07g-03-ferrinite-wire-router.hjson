@@ -14,5 +14,5 @@ requirements: [
   01a-01-item-ferrinite/3
 ]
 category: power
-research: 07g-02-ferrinite-wire-junction
+research: 07g-01-ferrinite-wire
 liquidCapacity: 0
