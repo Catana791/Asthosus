@@ -1,2 +1,2 @@
-type: LiquidBridge
+type: ItemBridge
 buildVisibility: hidden
