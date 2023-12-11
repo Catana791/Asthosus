@@ -1,11 +1,11 @@
-type: Conduit
+type: Conveyor
 name: Ferrinite Wire
 description: Transfers power when placed next to more wires. Can store very small amounts of power.
 conductivePower: true
 health: 70
 hasPower: true
 outputsPower: true
-junctionReplacement: 07g-02-ferrinite-wire-junction
+junctionReplacement: imaginary-junction
 bridgeReplacement: imaginary-bridge
 liquidPressure: 0
 liquidCapacity: 0
