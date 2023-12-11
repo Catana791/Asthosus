@@ -17,3 +17,6 @@ requirements: [
 ]
 category: power
 research: 07g-07-ignition-generator
+acceptsItems: false
+instantTransfer: false
+solid: false
