@@ -147,7 +147,7 @@ sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
-allowSectorInvasion: true
+allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 4
 radius: 1.2
