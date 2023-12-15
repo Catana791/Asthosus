@@ -34,7 +34,7 @@ weapons: [
       type: MissileBulletType
       speed: 3
       lifetime: 40
-      damage: 3
+      damage: 7
       width: 3
       height: 6
       trailWidth: 1
