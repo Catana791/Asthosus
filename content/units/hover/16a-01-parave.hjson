@@ -1,37 +1,31 @@
 type: mech
-flying: false
-hovering: true
-shadowElevation: 0.1
 name: Parave
-allowLegStep: true
+description: Fires homing missiles at enemies. Cannot cross terrain.
+hovering: true
 hoverable: true
+shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
-description: Fires homing missiles at enemies. Cannot cross terrain.
-bounded: true
-physics: true
-drag: 0.07
+drag: 0.08
 outlineColor: 44413c
 speed: 1.8
 rotateSpeed: 5
-accel: 0.09
+accel: 0.095
+groundLayer: 60
 health: 210
 armor: 1
 hitSize: 6
 engines: [
   {
     x: 0
-    y: -7
+    y: -6.6
     radius: 1.5
   }
 ]
-engineOffset: 7
-engineSize: 1.5
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: true
-groundLayer: 60
 weapons: [
   {
     x: 1.7
@@ -49,7 +43,7 @@ weapons: [
       type: MissileBulletType
       speed: 3
       lifetime: 40
-      damage: 7
+      damage: 9
       width: 3
       height: 6
       trailWidth: 1
