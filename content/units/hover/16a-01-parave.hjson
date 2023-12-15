@@ -3,6 +3,8 @@ flying: false
 hovering: true
 shadowElevation: 0.1
 name: Parave
+allowLegStep: true
+hoverable: true
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
