@@ -5,34 +5,35 @@ shadowElevation: 0.1
 name: Parave
 description: Fires homing missiles at enemies. Cannot cross terrain.
 drag: 0.07
+outlineColor: 44413c
 speed: 1.8
 rotateSpeed: 5
 accel: 0.09
 health: 210
 armor: 1
 hitSize: 6
-engineOffset: 4
-engineSize: 1
+engineOffset: 7
+engineSize: 1.5
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: true
 weapons: [
   {
-    x: 1
+    x: 1.5
     y: 1
     mirror: true
     alternate: true
-    reload: 12
+    reload: 46
     rotate: false
     shootSound: missile
     shoot: {
       shots: 3
-      shotDelay: 3
+      shotDelay: 5
     }
     bullet: {
       type: MissileBulletType
       speed: 3
-      lifetime: 50
+      lifetime: 40
       damage: 3
       width: 3
       height: 6
