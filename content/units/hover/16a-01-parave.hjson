@@ -3,6 +3,9 @@ flying: false
 hovering: true
 shadowElevation: 0.1
 name: Parave
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
 description: Fires homing missiles at enemies. Cannot cross terrain.
 bounded: true
 physics: true
