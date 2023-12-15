@@ -17,6 +17,7 @@ engineSize: 1.5
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: true
+groundLayer: 60
 weapons: [
   {
     x: 1.7
