@@ -19,7 +19,7 @@ useEngineElevation: false
 lowAltitude: true
 weapons: [
   {
-    x: 1.5
+    x: 1.7
     y: 1
     mirror: true
     alternate: true
