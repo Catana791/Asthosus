@@ -1,4 +1,5 @@
 type: flying
+template: ErekirUnitType
 flying: false
 hovering: true
 shadowElevation: 0.1
