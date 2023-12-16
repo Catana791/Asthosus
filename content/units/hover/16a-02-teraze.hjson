@@ -80,7 +80,7 @@ weapons: [
     bullet: {
       instantDisappear: true
       damage: 0
-      spawnUnit: asthosus-18r-02-teeny-tiny-missile
+      spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
     }
   }
 ]
