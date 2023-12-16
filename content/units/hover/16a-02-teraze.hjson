@@ -50,19 +50,19 @@ engines: [
     x: 0
     y: -8
     radius: 2.5
-    rotation: 90
+    rotation: -90
   }
   {
     x: -5.2
     y: -5.5
     radius: 1.4
-    rotation: 90
+    rotation: -90
   }
   {
     x: 5.2
     y: -5.5
     radius: 1.4
-    rotation: 90
+    rotation: -90
   }
 ]
 itemCapacity: 0
