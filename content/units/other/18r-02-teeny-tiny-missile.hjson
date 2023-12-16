@@ -27,12 +27,14 @@ hidden: true
 weapons: [
   {
     reload: 1
+    shake: 0
     shootOnDeath: true
     mirror: true
     shootCone: 360
     shake: 1
     bullet: {
       type: ExplosionBulletType
+      shake: 0
       splashDamage: 18
       splashDamageRadius: 32
     }
