@@ -21,8 +21,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
-    x: 2
-    y: -13
+    x: 8.3
+    y: -12.5
     interval: 5
     minVelocity: 0.6
   }
@@ -30,7 +30,25 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
+    x: -8.3
+    y: -12.5
+    interval: 5
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
     x: -2
+    y: -13
+    interval: 5
+    minVelocity: 0.6
+  }  
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 2
     y: -13
     interval: 5
     minVelocity: 0.6
@@ -40,36 +58,36 @@ engines: [
   {
     x: 2
     y: -13
-    radius: 1.4
+    radius: 1.5
     rotation: -90
   }
   {
     x: -2
     y: -13
-    radius: 1.4
+    radius: 1.5
+    rotation: -90
+  }
+  {
+    x: -8.3
+    y: -12.5
+    radius: 1.8
+    rotation: -135
+  }
+  {
+    x: 8.3
+    y: -12.5
+    radius: 1.8
+    rotation: -90
+  }
+  {
+    x: 8
+    y: -3.5
+    radius: 1.6
     rotation: -90
   }
   {
     x: -8
-    y: -12
-    radius: 1.8
-    rotation: -135
-  }
-  {
-    x: 8
-    y: -12
-    radius: 1.8
-    rotation: -135
-  }
-  {
-    x: 7
-    y: -2.2
-    radius: 1.6
-    rotation: 45
-  }
-  {
-    x: -7
-    y: -2.2
+    y: -3.5
     radius: 1.6
     rotation: -135
   }
