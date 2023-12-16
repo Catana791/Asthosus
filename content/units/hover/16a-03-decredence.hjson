@@ -1,0 +1,143 @@
+type: mech
+name: Decredence
+description: Fires homing shells and missiles at enemies. Cannot cross terrain.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 44413c
+speed: 2
+rotateSpeed: 5
+accel: 0.085
+groundLayer: 60
+health: 870
+armor: 4
+hitSize: 14
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: -5
+    y: -1
+    interval: 8
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: 5
+    y: -1
+    interval: 8
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: 3
+    y: -14
+    interval: 5
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: -3
+    y: -14
+    interval: 5
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 3
+    y: -14
+    radius: 1.2
+    rotation: -90
+  }
+  {
+    x: -3
+    y: -14
+    radius: 1.2
+    rotation: -90
+  }
+  {
+    x: -6
+    y: -12
+    radius: 1.8
+    rotation: -135
+  }
+  {
+    x: 6
+    y: -12
+    radius: 1.8
+    rotation: 45
+  }
+  {
+    x: 5
+    y: -1
+    radius: 1.6
+    rotation: 45
+  }
+  {
+    x: -5
+    y: -1
+    radius: 1.6
+    rotation: -135
+  }
+]
+itemCapacity: 0
+engineSize: 0
+useEngineElevation: false
+weapons: [
+  {
+    x: 2
+    y: 9
+    mirror: true
+    alternate: true
+    reload: 47
+    rotate: false
+    shootSound: shoot-big-artillery
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+    }
+  }
+  {
+    x: 5
+    y: 6
+    mirror: true
+    alternate: true
+    reload: 21
+    rotate: false
+    shootSound: missile
+    shoot: {
+      shots: 2
+      shotDelay: 6
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 3
+      lifetime: 53
+      damage: 13
+      splashDamage: 27
+      splashDamageRadius: 16
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: false
+      width: 8
+      height: 12
+      trailLength: 9
+      trailWidth: 3
+      weaveScale: 5
+      weaveMag: 3
+    }
+  }
+]
