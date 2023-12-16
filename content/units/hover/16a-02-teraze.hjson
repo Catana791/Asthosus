@@ -32,7 +32,7 @@ abilities: [
     effect: missileTrailShort
     x: -5.2
     y: -5.5
-    interval: 6
+    interval: 7
     minVelocity: 0.6
   }
   {
@@ -41,7 +41,7 @@ abilities: [
     effect: missileTrailShort
     x: 5.2
     y: -5.5
-    interval: 6
+    interval: 7
     minVelocity: 0.6
   }
 ]
@@ -50,19 +50,19 @@ engines: [
     x: 0
     y: -8
     radius: 2.5
-    rotation: 0
+    rotation: 90
   }
   {
     x: -5.2
     y: -5.5
     radius: 1.4
-    rotation: 0
+    rotation: 90
   }
   {
     x: 5.2
     y: -5.5
     radius: 1.4
-    rotation: 0
+    rotation: 90
   }
 ]
 itemCapacity: 0
