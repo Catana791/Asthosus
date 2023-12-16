@@ -6,7 +6,7 @@ speed: 3
 useUnitCap: false
 engineSize: 0.5
 engineOffset: 2.5
-lifetime: 75
+lifetime: 50
 rotateSpeed: 0
 hitSize: 3
 trailLength: 0
