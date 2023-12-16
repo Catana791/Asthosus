@@ -9,7 +9,7 @@ mechSideSway: 0
 mechStride: 0
 drag: 0.08
 outlineColor: 44413c
-speed: 1.8
+speed: 2.6
 rotateSpeed: 5
 accel: 0.095
 groundLayer: 60
