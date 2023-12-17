@@ -120,8 +120,10 @@ weapons: [
     rotate: false
     shootSound: shoot-heay-cannon
     shoot: {
-      firstShotDelay: 120
+      firstShotDelay: 70
     }
+    shootStatus: unmoving
+    shootStatusDuration: 90
     chargeSound: short-laser-charge
     bullet: {
       type: BasicBulletType
