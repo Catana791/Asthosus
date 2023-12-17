@@ -30,8 +30,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: 9.5
-    y: -15
+    x: 10
+    y: -14
     interval: 8
     minVelocity: 0.6
   }
@@ -39,8 +39,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: -9.5
-    y: -15
+    x: -10
+    y: -14
     interval: 8
     minVelocity: 0.6
   }
@@ -71,14 +71,14 @@ engines: [
     rotation: -90
   }
   {
-    x: 9.5
-    y: -15
+    x: 10
+    y: -14
     radius: 2
     rotation: -45
   }
   {
-    x: -9.5
-    y: -15
+    x: -10
+    y: -14
     radius: 2
     rotation: -135
   }
@@ -95,14 +95,14 @@ engines: [
     rotation: -135
   }
   {
-    x: -14
-    y: -2.5
+    x: -13
+    y: -3.2
     radius: 2
     rotation: -135
   }
   {
-    x: 14
-    y: -2.5
+    x: 13
+    y: -3.2
     radius: 2
     rotation: -45
   }
@@ -124,6 +124,7 @@ weapons: [
     chargeSound: short-laser-charge
     bullet: {
       type: BasicBulletType
+      chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
       speed: 3
       lifetime: 20
       damage: 210
