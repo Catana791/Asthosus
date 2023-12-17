@@ -54,7 +54,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 4
     lifetime: 80
-    damage: 45
+    damage: 67
     pierce: true
     pierceBuilding: true
     buildingDamageMultiplier: 0.6
@@ -78,7 +78,7 @@ ammoTypes: {
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false
-      splashDamage: 45
+      splashDamage: 69
       splashDamageRadius: 24
     }
   }
@@ -89,7 +89,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 4
     lifetime: 80
-    damage: 60
+    damage: 90
     pierce: true
     pierceBuilding: true
     buildingDamageMultiplier: 0.65
@@ -113,7 +113,7 @@ ammoTypes: {
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false
-      splashDamage: 460
+      splashDamage: 78
       splashDamageRadius: 24
     }
   }
@@ -124,7 +124,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 4
     lifetime: 80
-    damage: 78
+    damage: 117
     pierce: true
     pierceBuilding: true
     buildingDamageMultiplier: 0.75
@@ -148,7 +148,7 @@ ammoTypes: {
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false
-      splashDamage: 78
+      splashDamage: 117
       splashDamageRadius: 24
     }
   }
