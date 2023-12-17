@@ -116,6 +116,8 @@ useEngineElevation: false
 weapons: [
   {
     name: tequant-body-weapon  
+    x: 0
+    y: 2
     useAttackRange: false
     cooldownTime: 90
     reload: 312
