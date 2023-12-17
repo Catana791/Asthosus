@@ -93,7 +93,7 @@ weapons: [
   {
     x: 0
     y: -3
-    reload: 319
+    reload: 269
     shootSound: shoot-dull
     inaccuracy: 9
     velocityRnd: 0.21
