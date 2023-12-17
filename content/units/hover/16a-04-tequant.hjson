@@ -131,65 +131,75 @@ weapons: [
     chargeSound: short-laser-charge
     bullet: {
       type: BasicBulletType
-      recoil: 2
-      chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
-      speed: 3
-      lifetime: 20
-      damage: 210
-      pierce: true
-      pierceBuilding: true
-      sprite: large-orb
-      width: 12
-      height: 12
-      trailWidth: 4
-      trailLength: 18
-      shootEffect: shootTitan
-      smokeEffect: shootSmokeTitan
-      fragBullets: 1
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragLifeMin: 1
-      fragLifeMax: 1
-      fragRandomSpread: 0
-      fragOnHit: false
-      despawnHit: true
-      fragBullet: {
-        type: BasicBulletType
-        frontColor: f3e979
-        backColor: c7be5a
-        trailColor: c7be5a
-        sprite: large-orb
-        width: 24
-        height: 24
-        speed: 1
-        lifetime: 176
-        pierce: true
-        pierceBuilding: true
-        pierceCap: 5
-        damage: 180
-        trailEffect: missileTrail
-        trailInterval: 3
-        trailParam: 4
-        trailWidth: 2
-        trailLength: 22
-        despawnSound: spark
-        hitSound: spark
-        bulletInterval: 4
-        intervalRandomSpread: 360
-        intervalBullets: 4
-        intervalAngle: 360
-        intervalSpread: 300
-        intervalBullet: {
-          type: LightningBulletType
-          damage: 12
-          lightningColor: f3e979
-          lightningLength: 8
-          hitSound: spark
-          despawnSound: spark
+      speed: 10
+      lifetime: 16
+      width: 0
+      height: 0
+      damage: 0
+      spawnBullets: [
+        {
+          type: BasicBulletType
+          recoil: 2
+          chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+          speed: 3
+          lifetime: 20
+          damage: 210
           pierce: true
-          pierceCap: 3
+          pierceBuilding: true
+          sprite: large-orb
+          width: 12
+          height: 12
+          trailWidth: 4
+          trailLength: 18
+          shootEffect: shootTitan
+          smokeEffect: shootSmokeTitan
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragOnHit: false
+          despawnHit: true
+          fragBullet: {
+            type: BasicBulletType
+            frontColor: f3e979
+            backColor: c7be5a
+            trailColor: c7be5a
+            sprite: large-orb
+            width: 24
+            height: 24
+            speed: 1
+            lifetime: 176
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 5
+            damage: 180
+            trailEffect: missileTrail
+            trailInterval: 3
+            trailParam: 4
+            trailWidth: 2
+            trailLength: 22
+            despawnSound: spark
+            hitSound: spark
+            bulletInterval: 4
+            intervalRandomSpread: 360
+            intervalBullets: 4
+            intervalAngle: 360
+            intervalSpread: 300
+            intervalBullet: {
+              type: LightningBulletType
+              damage: 12
+              lightningColor: f3e979
+              lightningLength: 8
+              hitSound: spark
+              despawnSound: spark
+              pierce: true
+              pierceCap: 3
+            }
+          }
         }
-      }
+      ]
     }
   }
   {
