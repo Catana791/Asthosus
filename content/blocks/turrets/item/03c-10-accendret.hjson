@@ -69,7 +69,7 @@ ammoTypes: {
     height: 10
     speed: 2.5
     lifetime: 72
-    damage: 9
+    damage: 19
     pierce: true
     pierceCap: 3
     frontColor: dea67d
@@ -100,7 +100,7 @@ ammoTypes: {
     height: 10
     speed: 2.5
     lifetime: 72
-    damage: 11
+    damage: 25
     pierce: true
     pierceCap: 3
     frontColor: dea67d
@@ -137,7 +137,7 @@ ammoTypes: {
     height: 10
     speed: 2.5
     lifetime: 72
-    damage: 15
+    damage: 32
     pierce: true
     pierceCap: 3
     frontColor: dea67d
@@ -170,7 +170,7 @@ ammoTypes: {
     height: 10
     speed: 2.5
     lifetime: 72
-    damage: 23
+    damage: 45
     pierce: true
     pierceCap: 3
     frontColor: dea67d
@@ -203,7 +203,7 @@ ammoTypes: {
     height: 10
     speed: 2.5
     lifetime: 72
-    damage: 28
+    damage: 52
     pierce: true
     pierceCap: 3
     frontColor: dea67d
