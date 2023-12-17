@@ -113,7 +113,8 @@ useEngineElevation: false
 weapons: [
   {
     x: 0
-    name: tequant-body-weapon
+    name: tequant-body-weapon  
+    cooldownTime: 90
     y: -9
     reload: 312
     mirror: false
