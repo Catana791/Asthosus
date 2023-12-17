@@ -114,7 +114,7 @@ shootType: {
   type: ContinuousLaserBulletType 
   shake: 0.2
   damageInterval: 10
-  damage: 8
+  damage: 72
   length: 120
   incendChance: 0
   incendSpread: 0
