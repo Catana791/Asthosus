@@ -38,7 +38,7 @@ weapons: [
         width: 14
         height: 18
         speed: 2
-        damage: 26
+        damage: 68
         shrinkX: 0
         shrinkY: 0
         pierce: false
