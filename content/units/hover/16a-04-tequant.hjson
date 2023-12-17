@@ -113,7 +113,8 @@ useEngineElevation: false
 weapons: [
   {
     x: 0
-    y: -11
+    name: tequant-body-weapon
+    y: -9
     reload: 312
     mirror: false
     rotate: false
@@ -124,7 +125,7 @@ weapons: [
     chargeSound: short-laser-charge
     bullet: {
       type: BasicBulletType
-      recoil: 4
+      recoil: 3
       chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
       speed: 3
       lifetime: 20
