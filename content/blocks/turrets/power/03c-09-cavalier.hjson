@@ -23,7 +23,7 @@ shootType: {
   lightningLength: 6
   lightningDamage: 8
   lightningCone: 90
-  damage: 60
+  damage: 90
   buildingDamageMultiplier: 0.5
   chargeEffect: lightningCharge
 }
