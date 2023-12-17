@@ -2,7 +2,7 @@ localizedName: Detriment Valley
 description: An old production complex lies here, idle for thousands of years. Kickstart its self-repair capabilities. Utilize Barite Webbing for defense. Do not be fooled by the large wave spacing; this is a key site of enemy interest. Thus, utilize old, dead constructions left after each attempt to secure a foothold.
 difficulty: 5
 planet: asthosus
-sector: 34
+sector: 16
 captureWave: 9
 research: {
   parent: 19s-07-detriment-valley
