@@ -30,8 +30,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: 10
-    y: -14
+    x: 9
+    y: -15
     interval: 8
     minVelocity: 0.6
   }
@@ -39,8 +39,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: -10
-    y: -14
+    x: -9
+    y: -15
     interval: 8
     minVelocity: 0.6
   }
@@ -48,7 +48,7 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
-    x: -16
+    x: -15
     y: -12
     interval: 7
     minVelocity: 0.6
@@ -57,7 +57,7 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
-    x: 16
+    x: 15
     y: -12
     interval: 7
     minVelocity: 0.6
@@ -71,38 +71,38 @@ engines: [
     rotation: -90
   }
   {
-    x: 10
-    y: -14
+    x: 9
+    y: -15
     radius: 2
     rotation: -45
   }
   {
-    x: -10
-    y: -14
+    x: -9
+    y: -15
     radius: 2
     rotation: -135
   }
   {
-    x: 16
+    x: 15
     y: -12
     radius: 3
     rotation: -45
   }
   {
-    x: -16
+    x: -15
     y: -12
     radius: 3
     rotation: -135
   }
   {
-    x: -12
-    y: -6
+    x: -13
+    y: -5
     radius: 2
     rotation: -135
   }
   {
-    x: 12
-    y: -6
+    x: 13
+    y: -5
     radius: 2
     rotation: -45
   }
@@ -187,8 +187,8 @@ weapons: [
     name: tequant-weapon
     layerOffset: -1
     top: false
-    x: 14
-    y: 7
+    x: 13
+    y: 8
     reload: 69
     mirror: true
     alternate: true
