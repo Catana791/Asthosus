@@ -13,6 +13,8 @@ speed: 1.8
 rotateSpeed: 5
 accel: 0.08
 groundLayer: 60
+range: 160
+aimDst: 160
 health: 8910
 armor: 6
 hitSize: 19
@@ -128,7 +130,7 @@ weapons: [
     chargeSound: short-laser-charge
     bullet: {
       type: BasicBulletType
-      recoil: 3
+      recoil: 2
       chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
       speed: 3
       lifetime: 20
