@@ -204,6 +204,8 @@ weapons: [
   }
   {
     name: tequant-weapon
+    layerOffset: -1
+    top: false
     x: 11
     y: 14
     reload: 69
