@@ -22,7 +22,7 @@ abilities: [
     teamColor: true
     effect: missileTrail
     x: 0
-    y: -25
+    y: -18
     interval: 6
     minVelocity: 0.6
   }
@@ -48,43 +48,43 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -25
+    y: -18
     radius: 3
     rotation: -90
   }
   {
-    x: 9
-    y: -20
+    x: 10
+    y: -14
     radius: 2
     rotation: -45
   }
   {
-    x: -9
-    y: -20
+    x: -10
+    y: -14
     radius: 2
     rotation: -135
   }
   {
-    x: 13
-    y: -16
+    x: 16
+    y: -12
     radius: 3
     rotation: -45
   }
   {
-    x: -13
-    y: -16
+    x: -16
+    y: -12
     radius: 3
     rotation: -135
   }
   {
-    x: -7
-    y: -3
+    x: -12
+    y: -6
     radius: 2
     rotation: -135
   }
   {
-    x: 7
-    y: -3
+    x: 12
+    y: -6
     radius: 2
     rotation: -45
   }
@@ -95,7 +95,7 @@ useEngineElevation: false
 weapons: [
   {
     x: 0
-    y: -12
+    y: -11
     reload: 312
     mirror: false
     rotate: false
@@ -105,50 +105,9 @@ weapons: [
     }
     chargeSound: short-laser-charge
     bullet: {
-      chargeEffect: {
-        type: MultiEffect
-        effects: [
-           {
-              type: ParticleEffect
-              particles: 20
-              offset: 100
-              sizeFrom: 1
-              sizeTo: 6
-              length: 40
-              baseLength: -40
-              interp: pow3In
-              sizeInterp: pow5Out
-              lifetime: 110
-              colorFrom: f3e979
-              colorTo: ffffff
-            }
-            {
-              type: WaveEffect
-              lifetime: 140
-              sizeFrom: 50
-              sizeTo: 0
-              interp: pow5Out
-              strokeFrom: 0
-              strokeTo: 4
-              colorFrom: f3e979
-              colorTo: ffffff
-            }
-            {
-              type: WaveEffect
-              lifetime: 150
-              sizeFrom: 60
-              sizeTo: 0
-              interp: pow10Out
-              strokeFrom: 0
-              strokeTo: 4
-              colorFrom: f3e979
-              colorTo: ffffff
-            }
-        ]
-      }
       type: BasicBulletType
       speed: 3
-      lifetime: 11
+      lifetime: 20
       damage: 210
       pierce: true
       pierceBuilding: true
@@ -169,11 +128,14 @@ weapons: [
       despawnHit: true
       fragBullet: {
         type: BasicBulletType
+        frontColor: f3e979
+        backColor: c7be5a
+        trailColor: c7be5a
         sprite: large-orb
         width: 24
         height: 24
         speed: 1
-        lifetime: 144
+        lifetime: 176
         pierce: true
         pierceBuilding: true
         pierceCap: 5
@@ -185,15 +147,16 @@ weapons: [
         trailLength: 22
         despawnSound: spark
         hitSound: spark
-        bulletInterval: 2
+        bulletInterval: 4
         intervalRandomSpread: 360
         intervalBullets: 4
         intervalAngle: 360
         intervalSpread: 300
         intervalBullet: {
           type: LightningBulletType
-          damage: 3
-          lightningLength: 12
+          damage: 12
+          lightningColor: f3e979
+          lightningLength: 8
           hitSound: spark
           despawnSound: spark
           pierce: true
@@ -206,8 +169,8 @@ weapons: [
     name: tequant-weapon
     layerOffset: -1
     top: false
-    x: 11
-    y: 14
+    x: 14
+    y: 7
     reload: 69
     mirror: true
     alternate: true
