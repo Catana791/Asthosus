@@ -1,0 +1,223 @@
+type: mech
+name: Tequant
+description: Fires a slow moving, high damaging ball of lightning and small missiles at enemies. Cannot cross terrain.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 44413c
+speed: 1.8
+rotateSpeed: 5
+accel: 0.08
+groundLayer: 60
+health: 8910
+armor: 6
+hitSize: 19
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: 0
+    y: -25
+    interval: 6
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 13
+    y: -16
+    interval: 8
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -13
+    y: -16
+    interval: 8
+    minVelocity: 0.6
+  }
+]
+engines: [
+  {
+    x: 0
+    y: -25
+    radius: 3
+    rotation: -90
+  }
+  {
+    x: 9
+    y: -20
+    radius: 2
+    rotation: -45
+  }
+  {
+    x: -9
+    y: -20
+    radius: 2
+    rotation: -135
+  }
+  {
+    x: 13
+    y: -16
+    radius: 3
+    rotation: -45
+  }
+  {
+    x: -13
+    y: -16
+    radius: 3
+    rotation: -135
+  }
+  {
+    x: -7
+    y: -3
+    radius: 2
+    rotation: -135
+  }
+  {
+    x: 7
+    y: -3
+    radius: 2
+    rotation: -45
+  }
+]
+itemCapacity: 0
+engineSize: 0
+useEngineElevation: false
+weapons: [
+  {
+    x: 0
+    y: -12
+    reload: 312
+    mirror: false
+    rotate: false
+    shootSound: shoot-heay-cannon
+    shoot: {
+      firstShotDelay: 120
+    }
+    chargeSound: short-laser-charge
+    bullet: {
+      chargeEffect: {
+        type: MultiEffect
+        effects: [
+           {
+              type: ParticleEffect
+              particles: 20
+              offset: 100
+              sizeFrom: 1
+              sizeTo: 6
+              length: 40
+              baseLength: -40
+              interp: pow3In
+              sizeInterp: pow5Out
+              lifetime: 110
+              colorFrom: f3e979
+              colorTo: ffffff
+            }
+            {
+              type: WaveEffect
+              lifetime: 140
+              sizeFrom: 50
+              sizeTo: 0
+              interp: pow5Out
+              strokeFrom: 0
+              strokeTo: 4
+              colorFrom: f3e979
+              colorTo: ffffff
+            }
+            {
+              type: WaveEffect
+              lifetime: 150
+              sizeFrom: 60
+              sizeTo: 0
+              interp: pow10Out
+              strokeFrom: 0
+              strokeTo: 4
+              colorFrom: f3e979
+              colorTo: ffffff
+            }
+        ]
+      }
+      type: BasicBulletType
+      speed: 3
+      lifetime: 11
+      damage: 210
+      pierce: true
+      pierceBuilding: true
+      sprite: large-orb
+      width: 12
+      height: 12
+      trailWidth: 4
+      trailLength: 18
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      fragBullets: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragRandomSpread: 0
+      fragOnHit: false
+      despawnHit: true
+      fragBullet: {
+        type: BasicBulletType
+        sprite: large-orb
+        width: 24
+        height: 24
+        speed: 1
+        lifetime: 144
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 5
+        damage: 180
+        trailEffect: missileTrail
+        trailInterval: 3
+        trailParam: 4
+        trailWidth: 2
+        trailLength: 22
+        despawnSound: spark
+        hitSound: spark
+        bulletInterval: 2
+        intervalRandomSpread: 360
+        intervalBullets: 4
+        intervalAngle: 360
+        intervalSpread: 300
+        intervalBullet: {
+          type: LightningBulletType
+          damage: 3
+          lightningLength: 12
+          hitSound: spark
+          despawnSound: spark
+          pierce: true
+          pierceCap: 3
+        }
+      }
+    }
+  }
+  {
+    name: tequant-weapon
+    x: 11
+    y: 14
+    reload: 69
+    mirror: true
+    alternate: true
+    shoot: {
+      shots: 3
+      shotDelay: 12
+    }
+    shootSound: missileLaunch
+    rotate: false
+    bullet: {
+      instantDisappear: true
+      spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+    }
+  }
+]
