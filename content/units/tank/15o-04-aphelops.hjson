@@ -125,7 +125,7 @@ weapons: [
       despawnHit: true
       hitSound: spark
       splashDamage: 450
-      splashDamageRadius: 48
+      splashDamageRadius: 32
       splashDamagePierce: true
       width: 20
       height: 28
