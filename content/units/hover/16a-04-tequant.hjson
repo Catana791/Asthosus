@@ -30,8 +30,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: 13
-    y: -16
+    x: 10
+    y: -14
     interval: 8
     minVelocity: 0.6
   }
@@ -39,9 +39,27 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrailShort
-    x: -13
-    y: -16
+    x: -10
+    y: -14
     interval: 8
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: -16
+    y: -12
+    interval: 7
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: 16
+    y: -12
+    interval: 7
     minVelocity: 0.6
   }
 ]
