@@ -114,14 +114,12 @@ shootType: {
   type: ContinuousLaserBulletType 
   shake: 0.2
   damageInterval: 10
-  damage: 72
+  damage: 58
   length: 120
   incendChance: 0
   incendSpread: 0
   incendAmount: 0
   width: 4
-  splashDamage: 2
-  splashDamageRadius: 64
   splashDamagePierce: true
   makeFire: false
   status: melting
