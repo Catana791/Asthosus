@@ -1,6 +1,6 @@
 type: DirectionalForceProjector
 name: Projector Wall
-description: A wall made from Barite Webbing that is capable of emitting a one-time use directional shield.
+description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield.
 size: 1
 health: 400
 cooldownBrokenBase: 1200
