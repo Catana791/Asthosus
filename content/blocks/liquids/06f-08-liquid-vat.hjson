@@ -11,3 +11,4 @@ requirements: [
 ]
 research: 06f-03-aqueduct-router
 liquidPadding: 1.8
+researchCostMultiplier: 0.5
