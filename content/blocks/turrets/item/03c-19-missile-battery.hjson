@@ -13,6 +13,7 @@ warmupMaintainTime: 90
 predictTarget: false
 shootCone: 360
 reload: 25
+researchCostMultiplier: 0.5
 range: 250
 drawer: {
   type: DrawTurret
