@@ -5,6 +5,7 @@ size: 3
 category: crafting
 research: 09i-01-lodestone-mixer
 itemCapacity: 40
+researchCostMultiplier: 0.5
 requirements: [
   01a-02-item-demetite/110
   01a-06-item-lodestone/50
