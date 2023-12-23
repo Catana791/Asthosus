@@ -27,3 +27,4 @@ destroyBullet: {
     mixColorTo: 2e293a
   }
 }
+researchCostMultiplier: 0.5
