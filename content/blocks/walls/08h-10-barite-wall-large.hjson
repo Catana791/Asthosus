@@ -8,3 +8,4 @@ research: 08h-09-barite-wall-small
 requirements: [
   01a-11-item-barite/24
 ]
+researchCostMultiplier: 0.5
