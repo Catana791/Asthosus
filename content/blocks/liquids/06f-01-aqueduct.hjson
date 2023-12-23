@@ -1,6 +1,6 @@
 type: Conduit
 name: Aqueduct
-description: Transports liquids forth.
+description: Transports liquids forward.
 category: liquid
 research: 06f-05-lodestone-pump
 requirements: [
