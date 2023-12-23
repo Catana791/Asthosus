@@ -9,7 +9,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-05-immist
+      preset: 19s-04-fulge
     }
   ]
 }
