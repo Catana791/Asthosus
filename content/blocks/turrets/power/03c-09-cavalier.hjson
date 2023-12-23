@@ -14,6 +14,7 @@ range: 176
 outlineColor: 42413e
 shootSound: shoot-laser
 chargeSound: short-laser-charge
+researchCostMultiplier: 0.5
 shootType: {
   type: LaserBulletType
   colors: [b98279, e6aca3, ffffff]
