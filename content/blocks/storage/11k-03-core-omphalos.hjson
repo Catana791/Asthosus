@@ -16,3 +16,4 @@ itemCapacity: 15000
 unitCapModifier: 24
 category: effect
 research: 11k-02-core-substratum
+researchCostMultiplier: 0.05
