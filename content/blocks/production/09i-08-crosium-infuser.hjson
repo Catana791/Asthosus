@@ -3,6 +3,7 @@ name: Crosium Infuser
 description: Infuses Obsidian with Purified Oasis Water before compressing it to create Crosium. Requires power and pressure.
 size: 3
 craftTime: 90
+researchCostMultiplier: 0.5
 consumes: {
   power: 2.5
   liquids: [
