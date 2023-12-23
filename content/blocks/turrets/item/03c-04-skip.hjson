@@ -15,6 +15,7 @@ research: {
 }
 category: turret
 outlineColor: 42413e
+researchCostMultiplier: 0.5
 requirements: [
   01a-01-item-ferrinite/40
   01a-02-item-demetite/30
