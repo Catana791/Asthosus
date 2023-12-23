@@ -27,3 +27,4 @@ mechLegColor: 44413c
     }
 ]
 research: 10j-01-ground-mounting-bay
+researchCostMultiplier: 0.05
