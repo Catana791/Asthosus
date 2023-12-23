@@ -14,6 +14,7 @@ requirements: [
 itemCapacity: 50
 liquidCapacity: 50
 squareSprite: false
+researchCostMultiplier: 0.5
 drawer: {
   type: DrawMulti
   drawers: [
