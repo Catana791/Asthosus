@@ -13,3 +13,4 @@ requirements: [
 powerProduction: 0.25
 generateEffect: none
 heatOutput: 2
+researchCostMultiplier: 0.5
