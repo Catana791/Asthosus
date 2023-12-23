@@ -14,6 +14,7 @@ research: {
    ]
 }
 squareSprite: false
+researchCostMultiplier: 0.5
 requirements: [
   01a-01-item-ferrinite/30
   01a-02-item-demetite/35
