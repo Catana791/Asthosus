@@ -1,6 +1,6 @@
 type: AttributeCrafter
-name: Barite Loom
-description: Weaves Barite Webbing using Barite and Lignite. Requires power and pressure. Works better on Barite tiles.
+name: Vesmonium Accultor
+description: Creates Vesmonium using Barite and Lignite. Requires power and pressure. Works better on Barite tiles.
 size: 3
 category: crafting
 research: 09i-08-crosium-infuser
