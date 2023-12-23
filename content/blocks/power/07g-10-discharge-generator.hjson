@@ -43,3 +43,4 @@ consumes: {
     minCharge: 0.1
   } 
 }
+researchCostMultiplier: 0.5
