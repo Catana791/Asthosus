@@ -74,3 +74,4 @@ weapons: [
   }
 ]
 research: 14n-02-bayonet
+researchCostMultiplier: 0.05
