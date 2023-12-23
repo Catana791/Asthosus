@@ -17,3 +17,4 @@ requirements: [
 consumes: {
   power: 4
 }
+researchCostMultiplier: 0.5
