@@ -14,5 +14,5 @@ ambientSoundVolume: 0.08
 research: 04d-01-ferrinite-mining-unit
 squareSprite: false
 researchCost: [
-  01a-01-item-ferrinite/60
+  01a-01-item-ferrinite/20
 ]
