@@ -20,3 +20,4 @@ requirements: [
 ]
 ambientSound: hum
 ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5
