@@ -1,6 +1,6 @@
 type: mech
 name: Crest
-description: "Fires cluster artillery at enemy targets. Equipped with dual launchers."
+description: "Fires cluster shock artillery at enemy targets. Equipped with dual cannons."
 speed: 0.21
 flying: false
 health: 25100
@@ -127,3 +127,4 @@ weapons: [
   }
 ]
 research: 14n-04-apex
+researchCostMultiplier: 0.05
