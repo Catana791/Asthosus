@@ -16,7 +16,7 @@ blockedItem: 01a-04-item-hardened-sand
 arrows: 1
 squareSprite: false
 itemCapacity: 40
-researchCostMultiplier: 0.8
+researchCostMultiplier: 0.5
 drillEffect: {
   type: WaveEffect
   sizeFrom: 0.1
