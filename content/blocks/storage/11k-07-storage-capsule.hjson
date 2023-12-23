@@ -11,3 +11,4 @@ requirements: [
   01a-09-item-obsidian/70
 ]
 squareSprite: false
+researchCostMultiplier: 0.5
