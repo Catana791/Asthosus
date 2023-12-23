@@ -19,6 +19,7 @@ aimDst: 160
 health: 8910
 armor: 6
 hitSize: 19
+researchCostMultiplier: 0.05
 abilities: [
   {
     type: MoveEffectAbility
