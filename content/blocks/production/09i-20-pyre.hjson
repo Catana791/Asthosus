@@ -23,3 +23,4 @@ requirements: [
   01a-02-item-demetite/25
   01a-06-item-lodestone/10
 ]
+researchCostMultiplier: 0.5
