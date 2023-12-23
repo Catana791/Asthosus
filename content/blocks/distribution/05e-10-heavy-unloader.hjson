@@ -13,3 +13,4 @@ solid: false
 underBullets: true
 regionRotated1: 1
 allowCoreUnload: false
+researchCostMultiplier: 0.5
