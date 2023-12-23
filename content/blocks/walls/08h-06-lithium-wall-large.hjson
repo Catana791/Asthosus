@@ -11,3 +11,4 @@ requirements: [
 ] 
 category: defense
 research: 08h-05-lithium-wall-small
+researchCostMultiplier: 0.5
