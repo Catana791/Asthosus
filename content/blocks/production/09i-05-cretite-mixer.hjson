@@ -18,6 +18,7 @@ consumes: {
 }
 craftTime: 120
 ambientSound: hum
+researchCostMultiplier: 0.5
 ambientSoundVolume: 0.05
 squareSprite: false
 craftEffect: smeltsmoke
