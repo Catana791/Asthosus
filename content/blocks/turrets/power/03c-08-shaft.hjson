@@ -11,6 +11,7 @@ shootSound: shootLaser
 outlineColor: 42413e
 recoil: 0
 squareSprite: false
+researchCostMultiplier: 0.5
 loopSound: laserbeam
 loopSoundVolume: 0.5
 shootCone: 360
