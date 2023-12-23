@@ -40,3 +40,4 @@ drawer: {
     }
   ]
 } 
+researchCostMultiplier: 0.5
