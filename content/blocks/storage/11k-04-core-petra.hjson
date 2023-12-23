@@ -15,3 +15,4 @@ itemCapacity: 4500
 unitCapModifier: 12
 category: effect
 research: 11k-01-core-essence
+researchCostMultiplier: 0.05
