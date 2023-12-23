@@ -10,3 +10,4 @@ requirements: [
   01a-06-item-lodestone/12
 ]
 pumpAmount: 0.1
+researchCostMultiplier: 0.5
