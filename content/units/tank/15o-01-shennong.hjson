@@ -46,3 +46,4 @@ weapons: [
   }
 ]
 research: 10j-02-tank-mounting-bay
+researchCostMultiplier: 0.05
