@@ -13,3 +13,4 @@ requirements: [
 ]
 category: power
 research: 07g-02-reinforced-wire
+researchCostMultiplier: 0.5
