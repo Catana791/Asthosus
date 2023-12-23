@@ -6,6 +6,7 @@ squareSprite: false
 reload: 30
 heatColor: cd8d4a
 coolantMultiplier: 0.5
+researchCostMultiplier: 0.5
 consumes: {
   coolant: {
     amount: 0.5
