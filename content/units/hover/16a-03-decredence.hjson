@@ -16,6 +16,7 @@ groundLayer: 60
 health: 870
 armor: 4
 hitSize: 14
+researchCostMultiplier: 0.05
 abilities: [
   {
     type: MoveEffectAbility
