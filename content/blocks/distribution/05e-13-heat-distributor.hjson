@@ -1,6 +1,6 @@
 type: HeatConductor
 name: Heat Distributor
-description: Spreads inputted heat in three output directions equally. 
+description: Transfers heat to other Heat Distributors or heat consumers. 
 size: 1
 category: distribution
 research: 09i-15-lignite-burner
