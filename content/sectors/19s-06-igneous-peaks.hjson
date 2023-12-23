@@ -5,11 +5,11 @@ difficulty: 5
 planet: asthosus
 sector: 45
 research: {
-  parent: 19s-05-immist
+  parent: 19s-04-fulge
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-05-immist
+      preset: 19s-04-fulge
     }
   ]
 }
