@@ -26,3 +26,4 @@ unloadEffect: {
   strokeFrom: 0.8
   strokeTo: 0.1
 }
+researchCostMultiplier: 0.5
