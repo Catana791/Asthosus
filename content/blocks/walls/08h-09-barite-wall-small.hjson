@@ -8,3 +8,4 @@ research: 08h-07-obsidian-wall-small
 requirements: [
   01a-11-item-barite/6
 ]
+researchCostMultiplier: 0.5
