@@ -5,6 +5,7 @@ size: 2
 squareSprite: false
 category: crafting
 research: 09i-02-lodestone-basin
+researchCostMultiplier: 0.5
 requirements: [
   01a-01-item-ferrinite/60
   01a-07-item-lithium/40
