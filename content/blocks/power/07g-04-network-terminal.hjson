@@ -11,3 +11,4 @@ requirements: [
 ]
 category: power
 research: 07g-06-power-cell
+researchCostMultiplier: 0.5
