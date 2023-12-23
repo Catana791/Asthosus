@@ -14,6 +14,7 @@ generateEffect: turbinegenerate
 effectChance: 0.025
 squareSprite: false
 explodeOnFull: false
+researchCostMultiplier: 0.5
 category: crafting
 research: 09i-13-expansion-tank
 requirements: [
