@@ -20,3 +20,4 @@ research: 07g-01-ferrinite-wire
 acceptsItems: false
 instantTransfer: false
 solid: false
+researchCostMultiplier: 0.5

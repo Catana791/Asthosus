@@ -9,4 +9,4 @@ requirements: [
   01a-06-item-lodestone/6
 ]
 squareSprite: false
-researchCostMultiplier: 0.6
+researchCostMultiplier: 0.5

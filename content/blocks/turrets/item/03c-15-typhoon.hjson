@@ -7,6 +7,7 @@ reload: 4
 range: 200
 outlineColor: 42413e
 coolantMultiplier: 0.5
+researchCostMultiplier: 0.5
 consumes: {
   coolant: {
     amount: 0.5

@@ -1,6 +1,6 @@
 type: Duct
 name: Transverse Pipeline
-description: Transports items forth using magnetical force. 
+description: Transports items forward using magnetical force. 
 category: distribution
 research: 05e-01-ferrinite-duct
 speed: 4.285714
@@ -10,3 +10,4 @@ requirements: [
   01a-06-item-lodestone/1
   01a-07-item-lithium/1
 ]
+researchCostMultiplier: 0.5

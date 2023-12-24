@@ -12,6 +12,7 @@ range: 130
 targetAir: false
 shootY: 4
 loopSound: pressure-release
+researchCostMultiplier: 0.5
 shootSound: none
 loopSoundVolume: 0.6
 research: {

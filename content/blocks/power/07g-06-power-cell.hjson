@@ -13,3 +13,4 @@ requirements: [
 ]
 category: power
 research: 07g-01-ferrinite-wire
+researchCostMultiplier: 0.5

@@ -10,6 +10,7 @@ shootEffect: shootBig
 smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 42413e
+researchCostMultiplier: 0.5
 research: {
    parent: 03c-04-skip
    objectives: [

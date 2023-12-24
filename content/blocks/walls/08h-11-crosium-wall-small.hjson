@@ -12,3 +12,4 @@ conductivePower: true
 squareSprite: false
 category: defense
 research: 08h-07-obsidian-wall-small
+researchCostMultiplier: 0.5

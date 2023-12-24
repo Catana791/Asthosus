@@ -12,6 +12,7 @@ consumes: {
 }
 outputItem: 01a-04-item-hardened-sand/1
 category: crafting
+researchCostMultiplier: 0.5
 research: 09i-01-lodestone-mixer
 requirements: [
   01a-01-item-ferrinite/65

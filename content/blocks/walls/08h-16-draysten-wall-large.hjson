@@ -24,6 +24,7 @@ shootEffect: {
 }
 smokeEffect: none
 shootSound: spark
+researchCostMultiplier: 0.5
 shootY: 0
 shootX: 0
 recoil: 0

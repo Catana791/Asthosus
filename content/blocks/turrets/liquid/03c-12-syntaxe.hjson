@@ -5,6 +5,7 @@ size: 3
 squareSprite: false
 outlineColor: 44413c
 category: turret
+researchCostMultiplier: 0.5
 research: 03c-06-depulse
 requirements: [
   01a-01-item-ferrinite/370

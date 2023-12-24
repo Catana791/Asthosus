@@ -10,3 +10,4 @@ requirements: [
 ]
 instructionsPerTick: 2
 size: 1
+researchCostMultiplier: 0.5

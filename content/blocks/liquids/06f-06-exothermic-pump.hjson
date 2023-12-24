@@ -18,3 +18,4 @@ consumes: {
   ]
 }
 consumeTime: 120
+researchCostMultiplier: 0.5

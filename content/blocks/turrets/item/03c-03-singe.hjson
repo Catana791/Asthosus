@@ -7,7 +7,7 @@ reload: 8
 inaccuracy: 5
 shootSound: shoot-small-flame
 targetAir: false
-researchCostMultiplier: 0.75
+researchCostMultiplier: 0.5
 range: 80
 shootY: 1
 outlineColor: 42413e

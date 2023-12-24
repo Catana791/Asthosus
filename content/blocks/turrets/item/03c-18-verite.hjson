@@ -24,6 +24,7 @@ shootCone: 10
 category: turret
 research: 03c-07-subtile
 squareSprite: false
+researchCostMultiplier: 0.5
 range: 400
 requirements: [
   01a-06-item-lodestone/400

@@ -15,6 +15,7 @@ consumes: {
 }
 ignoreLiquidFullness: true
 ambientSound: extractLoop
+researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
 craftEffect: {
   type: RadialEffect

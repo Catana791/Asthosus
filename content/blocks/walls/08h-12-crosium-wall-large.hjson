@@ -13,3 +13,4 @@ squareSprite: false
 category: defense
 research: 08h-11-crosium-wall-small
 size: 2
+researchCostMultiplier: 0.5

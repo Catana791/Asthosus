@@ -6,6 +6,7 @@ maxEfficiency: 1
 category: crafting
 research: 09i-03-lithium-grinder
 squareSprite: false
+researchCostMultiplier: 0.5
 heatRequirement: 6
 requirements: [
   01a-06-item-lodestone/90

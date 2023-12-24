@@ -196,3 +196,4 @@ weapons: [
   }
 ]
 research: 14n-03-cleaver
+researchCostMultiplier: 0.05

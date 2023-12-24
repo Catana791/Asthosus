@@ -8,6 +8,7 @@ squareSprite: false
 maxEfficiency: 1.25
 category: crafting
 research: 09i-13-expansion-tank
+researchCostMultiplier: 0.5
 requirements: [
   01a-01-item-ferrinite/65
   01a-02-item-demetite/55

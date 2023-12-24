@@ -5,6 +5,7 @@ size: 2
 heatOutput: 3
 craftTime: 180
 squareSprite: false
+researchCostMultiplier: 0.5
 drawer: {
   type: DrawMulti
   drawers: [

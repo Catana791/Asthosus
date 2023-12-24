@@ -26,6 +26,7 @@ drawer: {
     }
   ]
 }
+researchCostMultiplier: 0.5
 consumes: {
   items: [
     01a-08-item-cretite/1

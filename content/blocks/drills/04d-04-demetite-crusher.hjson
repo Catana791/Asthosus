@@ -19,3 +19,4 @@ attribute: demetite
 ambientSound: drill
 ambientSoundVolume: 0.1
 squareSprite: false
+researchCostMultiplier: 0.5

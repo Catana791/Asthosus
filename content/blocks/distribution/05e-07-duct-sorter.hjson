@@ -7,3 +7,4 @@ requirements: [
   01a-01-item-ferrinite/3
   01a-02-item-demetite/3
 ]
+researchCostMultiplier: 0.5

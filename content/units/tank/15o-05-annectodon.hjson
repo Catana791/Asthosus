@@ -1,6 +1,6 @@
 type: tank
 name: Annectodon
-description: A large tank unit equipped with a powerful disruptor cannon, specialized in the eradication of hordes.
+description: Equipped with a powerful disruptor cannon. Excels in eradicating hordes of enemies.
 hitSize: 30
 crushDamage: 6
 treadPullOffset: 6
@@ -182,3 +182,4 @@ weapons: [
     }
   }
 ]
+researchCostMultiplier: 0.05

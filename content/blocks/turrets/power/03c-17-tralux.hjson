@@ -3,6 +3,7 @@ name: Tralux
 description: Fires a continuous rupturing beam of pure energy at enemies, radiating them. 
 size: 3
 category: turret
+researchCostMultiplier: 0.5
 research: 03c-09-cavalier
 requirements: [
   01a-01-item-ferrinite/280
