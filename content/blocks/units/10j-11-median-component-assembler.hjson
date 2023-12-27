@@ -30,7 +30,8 @@ filter: [
   08h-10-barite-wall-large,
   11k-10-restoration-projector, 
   11k-11-restoration-dome,
-  mechanical-joint
+  mechanical-joint,
+  large-autoforge
 ]
 research: 10j-10-rudimentary-component-assembler
 squareSprite: false
