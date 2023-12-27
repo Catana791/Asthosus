@@ -1,0 +1,10 @@
+type: Junction
+name: Large Missile Autoforge
+description: A forge, creating missiles. Used for hovering unit production. 
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  01a-09-item-obsidian/18
+  01a-11-item-barite/18
+]
