@@ -26,7 +26,8 @@ filter: [
   08h-08-obsidian-wall-large, 
   11k-10-restoration-projector,
   10j-14-freight-conveyor,
-  mechanical-joint 
+  mechanical-joint,
+  autoforge
 ]
 research: 10j-09-component-assembler
 squareSprite: false
