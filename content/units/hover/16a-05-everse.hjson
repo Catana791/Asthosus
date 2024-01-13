@@ -23,9 +23,9 @@ abilities: [
   {
     type: MoveEffectAbility
     x: 0
-    y: -42
+    y: -40
     teamColor: true
-    effect: [missileTrail, artilleryTrail, artilleryTrailSmoke, instTrail]
+    effect: [missileTrail, artilleryTrail, artilleryTrailSmoke]
     interval: 5
     minVelocity: 0.6
   }
@@ -51,20 +51,20 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -36
+    y: -34
     radius: 8
     rotation: -90
   }
   {
     x: 21
-    y: -34
-    radius: 4
+    y: -33
+    radius: 3
     rotation: -90
   }
   {
     x: -21
-    y: -34
-    radius: 4
+    y: -33
+    radius: 3
     rotation: -90
   }
 ]
@@ -110,7 +110,7 @@ weapons: [
   }
   {
       name: tequant-weapon
-      x: 20
+      x: 22
       layerOffset: -1
       y: 20
       mirror: true
@@ -123,7 +123,7 @@ weapons: [
       bullet: {
         type: MissileBulletType
         homingPower: 0.09
-        homingDelay: 20
+        homingDelay: 10
         width: 8
         height: 14
         speed: 3
@@ -148,7 +148,7 @@ weapons: [
       bullet: {
         type: MissileBulletType
         homingPower: 0.09
-        homingDelay: 20
+        homingDelay: 10
         width: 8
         height: 14
         speed: 3
@@ -162,7 +162,7 @@ weapons: [
       name: tequant-weapon
       layerOffset: -1
       x: 26
-      y: -15
+      y: -17
       mirror: true
       alternate: true
       rotate: false
@@ -173,7 +173,7 @@ weapons: [
       bullet: {
         type: MissileBulletType
         homingPower: 0.09
-        homingDelay: 20
+        homingDelay: 10
         width: 8
         height: 14
         speed: 3
