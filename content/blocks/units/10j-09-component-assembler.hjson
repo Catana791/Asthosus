@@ -21,6 +21,6 @@ filter: [
   08h-04-lodestone-wall-large,
   10j-14-freight-conveyor
 ]
-research: 10j-01-ground-mounting-bay
+research: 10j-00-ground-mounting-bay
 squareSprite: false
 conductivePower: true
