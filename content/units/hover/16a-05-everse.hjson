@@ -16,6 +16,8 @@ groundLayer: 60
 health: 16790
 armor: 8
 hitSize: 30
+aimDst: 290
+range: 290
 researchCostMultiplier: 0.05
 parts: [
 {
@@ -24,8 +26,8 @@ parts: [
     y: 0
     color1: 6e5b9a
     color2: 473b64
-    spinSpeed: -0.89
-    radius: 11
+    spinSpeed: -0.65
+    radius: 15
     followRotation: true
     sides: 4
   }
@@ -36,7 +38,7 @@ parts: [
     color1: 6e5b9a
     color2: 473b64
     spinSpeed: 0.89
-    radius: 9
+    radius: 13
     sides: 8
     followRotation: true
   }
