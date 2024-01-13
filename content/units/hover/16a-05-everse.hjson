@@ -97,6 +97,8 @@ weapons: [
       trailEffect: {
         type: ParticleEffect
         particles: 5
+        colorFrom: ffd2ae
+        colorTo: e58956
         length: 1
         baseLength: 2
         rotWithParent: true
