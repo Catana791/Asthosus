@@ -1,0 +1,20 @@
+type: UnitAssembler
+name: Hover Assembly Bay
+description: Creates hovering units using payloads. Requires power.
+size: 5
+category: units
+droneType: 18r-12-mounting-drone
+research: 10j-01-ground-mounting-bay
+requirements: [
+  01a-01-item-ferrinite/110
+  01a-02-item-demetite/130
+  01a-07-item-lithium/120
+]
+plans: [
+
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
+areaSize: 13
