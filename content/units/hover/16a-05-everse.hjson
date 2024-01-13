@@ -20,10 +20,10 @@ aimDst: 290
 range: 290
 researchCostMultiplier: 0.05
 parts: [
-{
+  {
     type: FlarePart
     x: 0
-    y: 0
+    y: -2
     color1: 6e5b9a
     color2: 473b64
     spinSpeed: -0.65
@@ -34,7 +34,7 @@ parts: [
   {
     type: FlarePart
     x: 0
-    y: 0
+    y: -2
     color1: 6e5b9a
     color2: 473b64
     spinSpeed: 0.89
