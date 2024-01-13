@@ -4,7 +4,7 @@ description: Creates support units using payloads. Requires power.
 size: 5
 category: units
 droneType: 18r-12-mounting-drone
-research: 10j-01-ground-mounting-bay
+research: 10j-00-ground-mounting-bay
 requirements: [
   01a-01-item-ferrinite/60
   01a-02-item-demetite/60
