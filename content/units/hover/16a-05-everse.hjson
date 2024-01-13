@@ -86,8 +86,8 @@ weapons: [
     bullet: {
       type: PointBulletType
       speed: 8
-      maxRange: 200
-      lifetime: 25
+      maxRange: 280
+      lifetime: 35
       damage: 0
       splashDamage: 400
       splashDamageRadius: 40
@@ -96,8 +96,8 @@ weapons: [
       trailEffect: {
         type: ParticleEffect
         particles: 16
-        length: 10
-        baseLength: 12
+        length: 4
+        baseLength: 6
         rotWithParent: true
         sizeFrom: 6
         sizeTo: 3
