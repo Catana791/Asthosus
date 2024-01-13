@@ -20,14 +20,52 @@ armor: 8
 hitSize: 30
 researchCostMultiplier: 0.05
 abilities: [
-  
+  {
+    type: MoveEffectAbility
+    x: 0
+    y: -32
+    teamColor: true
+    effect: [missileTrail, artilleryTrail, artilleryTrailSmoke, instTrail]
+    interval: 5
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    x: 21
+    y: -31
+    teamColor: true
+    effect: missileTrail
+    interval: 7
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    x: -21
+    y: -31
+    teamColor: true
+    effect: missileTrail
+    interval: 7
+    minVelocity: 0.6
+  }
 ]
 engines: [
   {
     x: 0
-    y: -24
+    y: -32
     radius: 8
-    rotation: 0
+    rotation: -90
+  }
+  {
+    x: 21
+    y: -31
+    radius: 4
+    rotation: -90
+  }
+  {
+    x: -21
+    y: -31
+    radius: 4
+    rotation: -90
   }
 ]
 itemCapacity: 0
@@ -42,7 +80,7 @@ weapons: [
     mirror: false
     shoot: {
       shots: 3
-      shotDelay: 20
+      shotDelay: 12
     }
     shootSound: railgun
     bullet: {
@@ -61,7 +99,8 @@ weapons: [
   }
   {
       name: tequant-weapon
-      x: 15
+      x: 20
+      layerOffset: -1
       y: 20
       mirror: true
       alternate: false
@@ -69,20 +108,23 @@ weapons: [
       baseRotation: -90
       shootCone: 360
       shootSound: missile
-      reload: 21
+      reload: 9
       bullet: {
         type: MissileBulletType
+        homingPower: 0.9
+        homingDelay: 20
         width: 8
         height: 14
         speed: 3
         lifetime: 50
         damage: 20
         pierce: true
-        pierceCap: 1
+        pierceCap: 2
       }
     }
     {
       name: tequant-weapon
+      layerOffset: -1
       x: 25
       y: 9
       mirror: true
@@ -90,27 +132,44 @@ weapons: [
       rotate: false
       baseRotation: -90
       shootSound: missileLaunch
-      reload: 46
+      reload: 7
       shootCone: 360
       bullet: {
-        instantDisappear: true
-        spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+        type: MissileBulletType
+        homingPower: 0.9
+        homingDelay: 20
+        width: 8
+        height: 14
+        speed: 3
+        lifetime: 50
+        damage: 20
+        pierce: true
+        pierceCap: 2
       }
     }
     {
       name: tequant-weapon
-      x: 28
-      y: -25
+      layerOffset: -1
+      x: 26
+      y: -15
       mirror: true
       alternate: true
       rotate: false
       baseRotation: -90
       shootSound: missileLaunch
-      reload: 32
+      reload: 15
       shootCone: 360
       bullet: {
-        instantDisappear: true
-        spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+        type: MissileBulletType
+        homingPower: 0.9
+        homingDelay: 20
+        width: 8
+        height: 14
+        speed: 3
+        lifetime: 50
+        damage: 20
+        pierce: true
+        pierceCap: 2
       }
     }
 ]
