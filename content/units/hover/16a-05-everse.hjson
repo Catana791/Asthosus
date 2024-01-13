@@ -19,6 +19,7 @@ hitSize: 30
 aimDst: 290
 range: 290
 researchCostMultiplier: 0.05
+research: 16a-04-tequant
 parts: [
   {
     type: FlarePart
