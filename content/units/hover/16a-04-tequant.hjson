@@ -19,6 +19,7 @@ health: 8910
 armor: 6
 hitSize: 19
 researchCostMultiplier: 0.05
+research: 16a-03-decredence
 abilities: [
   {
     type: MoveEffectAbility
