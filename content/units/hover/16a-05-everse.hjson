@@ -17,6 +17,30 @@ health: 16790
 armor: 8
 hitSize: 30
 researchCostMultiplier: 0.05
+parts: [
+{
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: 6e5b9a
+    color2: 473b64
+    spinSpeed: -0.89
+    radius: 11
+    followRotation: true
+    sides: 4
+  }
+  {
+    type: FlarePart
+    x: 0
+    y: 0
+    color1: 6e5b9a
+    color2: 473b64
+    spinSpeed: 0.89
+    radius: 9
+    sides: 8
+    followRotation: true
+  }
+]
 abilities: [
   {
     type: MoveEffectAbility
