@@ -58,7 +58,8 @@ weapons: [
       trailEffect: [missileTrail, missileTrailShort, artilleryTrail, artilleryTrailSmoke, trailFade]
       hitEffect: [explosion, massiveExplosion, instHit]
     }
-    {
+  }
+  {
       name: tequant-weapon
       x: 15
       y: 20
