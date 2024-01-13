@@ -1,0 +1,116 @@
+type: mech
+name: Everse
+defaultController: FlyingAI
+commands: [move]
+description: Fires a burst of rupturing railgun bolts as well as missiles at enemies. Cannot cross terrain.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 44413c
+speed: 1.6
+rotateSpeed: 5
+accel: 0.06
+groundLayer: 60
+health: 16790
+armor: 8
+hitSize: 30
+researchCostMultiplier: 0.05
+abilities: [
+  
+]
+engines: [
+  {
+    x: 0
+    y: -24
+    radius: 8
+    rotation: 0
+  }
+]
+itemCapacity: 0
+engineSize: 0
+useEngineElevation: false
+weapons: [
+  {
+    x: 0
+    y: -4
+    reload: 356
+    rotate: false
+    mirror: false
+    shoot: {
+      shots: 3
+      shotDelay: 20
+    }
+    shootSound: railgun
+    bullet: {
+      type: PointBulletType
+      speed: 8
+      maxRange: 200
+      lifetime: 25
+      damage: 0
+      splashDamage: 400
+      splashDamageRadius: 40
+      splashPierce: true
+      buildingDamageMultiplier: 0.5
+      trailEffect: [missileTrail, missileTrailShort, artilleryTrail, artilleryTrailSmoke, trailFade]
+      hitEffect: [explosion, massiveExplosion, instHit]
+    }
+    {
+      name: tequant-weapon
+      x: 15
+      y: 20
+      mirror: true
+      alternate: false
+      rotate: false
+      baseRotation: -90
+      shootCone: 360
+      shootSound: missile
+      reload: 21
+      bullet: {
+        type: MissileBulletType
+        width: 8
+        height: 14
+        speed: 3
+        lifetime: 50
+        damage: 20
+        pierce: true
+        pierceCap: 1
+      }
+    }
+    {
+      name: tequant-weapon
+      x: 25
+      y: 9
+      mirror: true
+      alternate: true
+      rotate: false
+      baseRotation: -90
+      shootSound: missileLaunch
+      reload: 46
+      shootCone: 360
+      bullet: {
+        instantDisappear: true
+        spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+      }
+    }
+    {
+      name: tequant-weapon
+      x: 28
+      y: -25
+      mirror: true
+      alternate: true
+      rotate: false
+      baseRotation: -90
+      shootSound: missileLaunch
+      reload: 32
+      shootCone: 360
+      bullet: {
+        instantDisappear: true
+        spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+      }
+    }
+  }
+]
