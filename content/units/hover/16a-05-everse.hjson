@@ -93,7 +93,16 @@ weapons: [
       splashDamageRadius: 40
       splashPierce: true
       buildingDamageMultiplier: 0.5
-      trailEffect: [missileTrail, missileTrailShort, artilleryTrail, artilleryTrailSmoke, trailFade]
+      trailEffect: {
+        type: ParticleEffect
+        particles: 16
+        length: 10
+        baseLength: 12
+        rotWithParent: true
+        sizeFrom: 6
+        sizeTo: 3
+        sizeInterp: pow2Out
+      }
       hitEffect: none
       despawnEffect: none
       despawnHit: true
