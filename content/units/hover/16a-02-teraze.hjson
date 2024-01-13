@@ -17,6 +17,7 @@ health: 660
 armor: 3
 hitSize: 9
 researchCostMultiplier: 0.05
+research: 16a-01-parave
 abilities: [
   {
     type: MoveEffectAbility
