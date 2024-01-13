@@ -1,6 +1,5 @@
 type: mech
 name: Tequant
-defaultController: FlyingAI
 description: Fires a slow moving, high damaging ball of lightning and small missiles at enemies. Cannot cross terrain.
 hovering: true
 hoverable: true
