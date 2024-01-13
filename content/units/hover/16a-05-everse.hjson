@@ -1,7 +1,5 @@
 type: mech
 name: Everse
-defaultController: FlyingAI
-commands: [move]
 description: Fires a burst of rupturing railgun bolts as well as missiles at enemies. Cannot cross terrain.
 hovering: true
 hoverable: true
