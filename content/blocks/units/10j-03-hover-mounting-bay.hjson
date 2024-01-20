@@ -13,11 +13,56 @@ requirements: [
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: dagger
+    unit: 16a-01-parave 
     requirements: [
-      copper-wall/1
+      asthosus-03c-03-singe/1
+      asthosus-08h-07-obsidian-wall-small/3
+      asthosus-08h-06-lithium-wall-large/1
     ]
-    time: 100
+    time: 720
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: 16a-02-teraze 
+    requirements: [
+      asthosus-autoforge/2
+      asthosus-08h-08-obsidian-wall-large/2
+      asthosus-08h-06-lithium-wall-large/2
+    ]
+    time: 1500
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: 16a-03-decredence 
+    requirements: [
+      asthosus-autoforge/2
+      asthosus-03c-10-accendret/1
+      asthosus-08h-06-lithium-wall-large/4
+      asthosus-08h-10-barite-wall-large/2
+    ]
+    time: 3600
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: 16a-04-tequant 
+    requirements: [
+      asthosus-large-autoforge/2
+      asthosus-03c-14-myriad/1
+      asthosus-08h-06-lithium-wall-large/6
+      asthosus-08h-12-crosium-wall-large/4
+    ]
+    time: 9000
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: 16a-04-tequant 
+    requirements: [
+      asthosus-large-autoforge/3
+      asthosus-03c-18-verite/1
+      asthosus-08h-08-obsidian-wall-large/8
+      asthosus-08h-14-crosium-wall-large/6
+    ]
+    time: 9000
   }
 ]
 squareSprite: false
