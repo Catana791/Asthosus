@@ -112,10 +112,11 @@ weapons: [
       type: PointBulletType
       speed: 8
       maxRange: 320
+      scaleLife: true
       lifetime: 40
-      damage: 0
+      damage: 100
       inaccuracy: 4
-      splashDamage: 400
+      splashDamage: 300
       splashDamageRadius: 40
       splashPierce: true
       buildingDamageMultiplier: 0.5
