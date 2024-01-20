@@ -1,0 +1,6 @@
+type: TallBlock
+name: Large Obsidian Spikes
+variants: 3
+clipSize: 128
+shadowAlpha: 0.5
+shadowOffset: -1.25
