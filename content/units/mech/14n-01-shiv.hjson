@@ -22,7 +22,7 @@ mechLegColor: 44413c
             length: 128
             damage: 
             sapStrength: 0.05
-            damage: 7
+            damage: 6
         }
     }
 ]
