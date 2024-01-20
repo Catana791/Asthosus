@@ -103,7 +103,7 @@ weapons: [
     mirror: false
     shoot: {
       shots: 3
-      shotDelay: 12
+      shotDelay: 60
     }
     shootSound: railgun
     bullet: {
@@ -112,6 +112,7 @@ weapons: [
       length: 320
       pierceDamageFactor: 0.75
       scaleLife: true
+      pointEffectSpace: 10
       lifetime: 40
       damage: 100
       inaccuracy: 4
@@ -119,6 +120,8 @@ weapons: [
       splashDamageRadius: 40
       splashPierce: true
       buildingDamageMultiplier: 0.5
+      hitEffect: explosion
+      endEffect: explosion
       pointEffect: {
         type: ParticleEffect
         particles: 5
