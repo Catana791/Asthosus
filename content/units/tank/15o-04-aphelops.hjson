@@ -110,7 +110,7 @@ weapons: [
       {
         type: RegionPart
         suffix: -glow
-        blending: disabled
+        blending: normal
         color: ffffff33
         outline: false
         mirror: false
