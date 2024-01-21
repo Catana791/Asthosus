@@ -19,7 +19,7 @@ drownTimeMultiplier: 2
 rotateSpeed: 2.7
 hovering: true
 name: Iota
-description: Defends the Omphalos core. Builds structures and mines ores. Boost to gain a substantial speed increase.
+description: Defends the Omphalos core. Builds structures and mines ores. 
 health: 310
 armor: 3
 speed: 2
@@ -49,29 +49,9 @@ abilities: [
     targetGround: true
   }
 ]
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: ffffff33
-    outline: false
-    mirror: false
-  }
-]
 weapons: [
   {
     name: zeta-weapon-r
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: 12
     y: 6
     mirror: false
@@ -90,16 +70,6 @@ weapons: [
   }
   {
     name: zeta-weapon-l
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: -12
     y: 6
     mirror: false
@@ -118,16 +88,6 @@ weapons: [
   }
   {
     name: theta-weapon
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: 0
     y: 6
     reload: 73
@@ -211,16 +171,6 @@ weapons: [
     shootSound: shoot-heavy-cannon
     rotate: false
     mirror: false
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     bullet: {
       type: PointBulletType
       speed: 8
