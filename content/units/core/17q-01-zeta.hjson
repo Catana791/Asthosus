@@ -7,7 +7,7 @@ legMoveSpace: 0.9
 hovering: true
 groundLayer: 75
 name: Zeta
-description: Defends the Essence core. Builds structures and mines ores. Boost to gain a small speed increase.
+description: Defends the Essence core. Builds structures and mines ores.
 health: 135
 armor: 1
 mineFloor: true
@@ -20,32 +20,11 @@ mineTier: 1
 buildSpeed: 0.4
 drag: 0.4
 itemCapacity: 20
-engineOffset: 6
 alwaysUnlocked: true
 outlineColor: 42413e
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: ffffff33
-    outline: false
-    mirror: false
-  }
-]
 weapons: [
   {
     name: zeta-weapon-r
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: 6.2
     y: -1
     mirror: false
@@ -72,16 +51,6 @@ weapons: [
   }
   {
     name: zeta-weapon-l
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: -6.2
     y: -1
     mirror: false
