@@ -13,7 +13,7 @@ parts: [
     {
       type: RegionPart
       suffix: -glow
-      blending: additive
+      blending: disabled
       color: ffffff33
       outline: false
       mirror: false
@@ -31,7 +31,7 @@ weapons: [
       {
         type: RegionPart
         suffix: -glow
-        blending: additive
+        blending: disabled
         color: ffffff33
         outline: false
         mirror: false
@@ -71,7 +71,7 @@ weapons: [
       {
         type: RegionPart
         suffix: -glow
-        blending: additive
+        blending: disabled
         color: ffffff33
         outline: false
         mirror: false
@@ -110,7 +110,7 @@ weapons: [
       {
         type: RegionPart
         suffix: -glow
-        blending: additive
+        blending: disabled
         color: ffffff33
         outline: false
         mirror: false
