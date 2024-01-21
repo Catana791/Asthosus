@@ -7,7 +7,7 @@ legMoveSpace: 0.9
 hovering: true
 groundLayer: 75
 name: Thetha
-description: Defends the Substratum core. Builds structures and mines ores. Boost to gain a speed increase.
+description: Defends the Substratum core. Builds structures and mines ores. 
 health: 200
 armor: 2
 speed: 1.3
@@ -36,29 +36,9 @@ abilities: [
     radius: 30
   }
 ]
-parts: [
-  {
-    type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: ffffff33
-    outline: false
-    mirror: false
-  }
-]
 weapons: [
   {
     name: zeta-weapon-r
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: 7.2
     y: 3
     mirror: false
@@ -77,16 +57,6 @@ weapons: [
   }
   {
     name: zeta-weapon-l
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: -7.2
     y: 3
     mirror: false
@@ -105,16 +75,6 @@ weapons: [
   }
   {
     name: theta-weapon
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: 0
     y: -6
     reload: 73
