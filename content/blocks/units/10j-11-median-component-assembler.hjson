@@ -17,9 +17,9 @@ consumes: {
 }
 buildSpeed: 1.5
 filter: [
-  03c-02-spray, 
   03c-07-subtile, 
   03c-13-instauro, 
+  03c-10-accendret,
   08h-05-lithium-wall-small, 
   08h-06-lithium-wall-large, 
   08h-03-lodestone-wall-small, 
