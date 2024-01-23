@@ -15,6 +15,7 @@ buildSpeed: 1
 filter: [
   03c-01-catapult, 
   03c-02-spray, 
+  03c-03-singe
   08h-05-lithium-wall-small, 
   08h-06-lithium-wall-large,
   08h-03-lodestone-wall-small, 
