@@ -8,3 +8,17 @@ visible: true
 parent: asthosus-asthosus
 solarSystem: sun
 launchCandidates: []
+mesh: [
+  {
+    //ferrinite
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 5
+    radius: 1.22
+    seed: 94
+    color1: e9e9de
+    color2: c2c1b4
+    octaves: 3.7
+    persistence: 0.6
+  }
+]
