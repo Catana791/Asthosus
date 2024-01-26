@@ -25,58 +25,12 @@ treadPullOffset: 5
 research: 15o-02-trigon
 weapons: [
   {
-    parts: [
-      {
-        type: RegionPart
-        suffix: -sticky-outy-left
-        progress: warmup
-        moveY: -2
-        under: true
-        moveX: -2
-        moves: [
-          {
-            type: PartMove
-            progress: recoil
-            rot: -4
-          }
-        ]
-      }
-      {
-        type: RegionPart
-        suffix: -sticky-outy-right
-        progress: warmup
-        moveY: -2
-        under: true
-        moveX: 2
-        moves: [
-          {
-            type: PartMove
-            progress: recoil
-            rot: 4
-          }
-        ]
-      }
-      {  
-        type: RegionPart
-        under: true
-        suffix: -sticky-outy-bottom
-        progress: warmup
-        moveY: -2
-        moves: [
-          {
-            type: PartMove
-            progress: recoil
-            y: -1
-          }
-        ]
-      }
-    ]
     x: 0
-    y: 2.5
+    y: 0.5
     name: aprotodon-weapon
     reload: 180
     shootStatus: unmoving
-    shootStatusDuration: 135
+    shootStatusDuration: 160
     continuous: true
     shoot: {
       firstShotDelay: 120
