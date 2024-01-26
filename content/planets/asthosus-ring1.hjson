@@ -1,0 +1,18 @@
+ generator: AsteroidGenerator
+  parent: asthosus-asthosus
+  orbitRadius: 12
+  atmosphereRadIn: 0
+  atmosphereRadOut: 0
+  drawOrbit: false
+  accessible: false
+  mesh:
+ {
+    type: NoiseMesh
+    divisions: 6
+    seed: 101
+    radius: 0.2
+    color1: 8f8a77
+    color2: beb48f
+    octaves: 5.1
+    persistence: 0.8
+  }
