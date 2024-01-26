@@ -1,6 +1,10 @@
-  generator: AsteroidGenerator
-  parent: asthosus-asthosus
-  orbitRadius: 1
-  drawOrbit: false
-  accessible: true
-  radius: 0.2
+alwaysUnlocked: true
+orbitSpacing: 4
+accessible: true
+orbitRadius: 2
+updateLighting: false
+bloom: false
+visible: true
+parent: asthosus-asthosus
+solarSystem: sun
+launchCandidates: []
