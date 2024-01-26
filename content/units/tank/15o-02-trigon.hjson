@@ -23,20 +23,8 @@ treadPullOffset: 5
 research: 15o-01-shennong
 weapons: [
   {
-    parts: [
-      {
-        type: RegionPart
-        suffix: -cover
-        mirror: true
-        outline: false
-        progress: warmup
-        moveX: -2
-        under: false
-        moveY: -2
-      }
-    ]
     x: 0
-    y: -4
+    y: -1
     name: trigon-weapon
     reload: 90
     mirror: false
