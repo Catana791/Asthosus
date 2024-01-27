@@ -15,6 +15,7 @@ requirements: [
   01a-01-item-ferrinite/40
 ]
 coolant: {
+  type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
   amount: 0.1
