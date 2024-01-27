@@ -14,6 +14,7 @@ mesh: [
   }
 ]
 radius: 0.05
+orbitOffset: 3
 hasAtmosphere: false
 drawOrbit: true
 visible: true
