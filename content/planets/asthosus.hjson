@@ -149,14 +149,13 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-orbitSpacing: 4
+orbitSpacing: 6
 radius: 1.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
-orbitRadius: 4
 updateLighting: false
 sectorSeed: 14513
 bloom: false
