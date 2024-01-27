@@ -1,6 +1,7 @@
 localizedName: Asthosus
 description: A deserted planet, filled with dangers but also possibilities. Good luck!
 alwaysUnlocked: true
+children: [ring1, ring2]
 mesh: [
  {
     //water
