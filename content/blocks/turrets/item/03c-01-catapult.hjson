@@ -14,13 +14,10 @@ shootSound: artillery
 requirements: [
   01a-01-item-ferrinite/40
 ]
-consumes: {
-  coolant: {
-    type: ConsumeCoolant
-    allowGas: true
-    allowLiquid: true
-    amount: 0.1
-  }
+coolant: {
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
 }
 outlineColor: 42413e
 targetAir: false
