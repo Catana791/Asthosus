@@ -5,7 +5,7 @@ orbitRadius: 2
 updateLighting: false
 bloom: false
 visible: true
-parent: asthosus-asthosus
+parent: asthosus
 solarSystem: sun
 launchCandidates: []
 mesh: [
