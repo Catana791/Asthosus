@@ -14,8 +14,10 @@ mesh: [
   }
 ]
 radius: 0.05
+hasAtmosphere: false
 drawOrbit: true
 visible: true
 parent: asthosus
 solarSystem: sun
 accessible: true
+bloom: false
