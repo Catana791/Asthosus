@@ -149,7 +149,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-orbitSpacing: 0.05
+orbitSpacing: 0.1
 radius: 1.2
 minZoom: 1.5
 drawOrbit: true
