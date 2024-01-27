@@ -167,7 +167,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: 11k-01-core-essence
-parent: asthosus-asthosus
+parent: asthosus
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
