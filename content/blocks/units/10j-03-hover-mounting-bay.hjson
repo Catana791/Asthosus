@@ -4,7 +4,10 @@ description: Creates hovering units using payloads. Requires power.
 size: 5
 category: units
 droneType: 18r-12-mounting-drone
-research: 10j-00-ground-mounting-bay
+research: {
+  parent: 10j-00-ground-mounting-bay
+  objectives: [01a-09-item-obsidian]
+}
 requirements: [
   01a-01-item-ferrinite/110
   01a-02-item-demetite/130
