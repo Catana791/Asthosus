@@ -9,16 +9,6 @@ omniMovement: false
 faceTarget: false
 health: 18760
 armor: 14
-parts: [
-    {
-      type: RegionPart
-      suffix: -glow
-      blending: additive
-      color: ffffff33
-      outline: false
-      mirror: false
-   }
-]
 speed: 0.59
 rotateSpeed: 1.92
 itemCapacity: 0
@@ -26,16 +16,6 @@ outlineColor: 44413c
 research: 15o-04-aphelops
 weapons: [
   {
-    parts: [
-        {
-          type: RegionPart
-          suffix: -glow
-          blending: additive
-          color: ffffff33
-          outline: false
-          mirror: false
-       }
-    ]
     name: annectodon-weapon
     x: 0
     y: 0
