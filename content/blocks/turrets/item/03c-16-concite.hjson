@@ -29,7 +29,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -1
+      moveY: -2
       recoilIndex: 0
     }
     {  
@@ -38,7 +38,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -1
+      moveY: -2
       recoilIndex: 1
     }  
   ]
@@ -85,6 +85,7 @@ ammoTypes: {
     lightColor: 2e293a
     spin: 4
     layer: 99
+    ammoMultiplier: 10
   }
   01a-12-item-crosium: {
     hitEffect: plasticExplosion
@@ -110,6 +111,7 @@ ammoTypes: {
     lightOpacity: 0.7
     lightColor: 425b54
     spin: 4
+    ammoMultiplier: 16
   }
   01a-13-item-barite-webbing: {
     hitEffect: plasticExplosion
@@ -135,6 +137,7 @@ ammoTypes: {
     lightOpacity: 0.7
     lightColor: a78b6f
     spin: 4
+    ammoMultiplier: 18
   }
 }
 outlineColor: 42413e
