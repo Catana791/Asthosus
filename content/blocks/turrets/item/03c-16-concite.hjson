@@ -3,7 +3,7 @@ name: Concite
 description: Fires powerful rounds at enemies from five barrels continuously. 
 size: 4
 squareSprite: false
-reload: 40
+reload: 20
 heatColor: cd8d4a
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
@@ -29,7 +29,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -2
+      moveY: -3
       recoilIndex: 0
     }
     {  
@@ -38,7 +38,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -2
+      moveY: -3
       recoilIndex: 1
     }  
   ]
@@ -56,7 +56,7 @@ requirements: [
 shoot: {
   type: ShootAlternate
   spread: 11
-  shotDelay: 16
+  shotDelay: 8
 }
 range: 270
 shootSound: shoot-big-artillery
