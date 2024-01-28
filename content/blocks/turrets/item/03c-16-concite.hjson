@@ -12,65 +12,35 @@ consumes: {
     amount: 0.5
   }
 }
+recoils: 2
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
   parts: [
     {
       type: RegionPart
-      suffix: -barrel
-      mirror: true
+      suffix: -bar
+      mirror: false
       under: false
-      progress: warmup
-      moveRot: 15
-      moveX: 3.2
-      moveY: 0
-      heatProgress: recoil
-      heatColor: cd8d4a
-      moves: [
-        {
-          type: PartMove
-          progress: recoil
-          rot: -6
-          y: -1
-        }
-      ]
     }
-    {
+    {  
       type: RegionPart
-      suffix: -nub
-      mirror: true
-      under: false
+      suffix: -wing-left
+      mirror: false
+      under: true
       progress: recoil
+      moveY: -1
+      recoilIndex: 0
     }
-    {
+    {  
       type: RegionPart
-      suffix: -connector
-      mirror: true
+      suffix: -wing-right
+      mirror: false
       under: true
-      heatProgress: warmup
-      heatColor: cd8d4a
-      moveX: 0.85
-      outline: false
-      layerOffset: -0.3
-      turretHeatLayer: 49.8
-      color: 54776d
-    }
-    {
-      type: RegionPart 
-      suffix: -blade
-      mirror: true
-      under: true
-      moveX: 0
-      outline: false
-      moveY: -4.8
-      heatProgress: warmup
-      progress: warmup
-      heatColor: cd8d4a
-      layerOffset: -0.3
-      turretHeatLayer: 49.8
-      color: 54776d
-    }
+      progress: recoil
+      moveY: -1
+      recoilIndex: 1
+    }  
   ]
 }
 shootEffect: shootBig
@@ -84,17 +54,10 @@ requirements: [
   01a-12-item-crosium/105
 ]
 shoot: {
-  type: ShootBarrel
-  barrels: [
-    0, -2, 0,
-    6, -2, 0,
-    -6, -2, 0,
-    -12, -4, 0,
-    12 , -4, 0
-  ]
-  shotDelay: 5 
-  shots: 5
-  barrelOffset: 3
+  type: ShootAlternate
+  shots: 2
+  spread: 10
+  shotDelay: 16
 }
 range: 270
 shootSound: shoot-big-artillery
