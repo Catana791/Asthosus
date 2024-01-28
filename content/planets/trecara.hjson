@@ -49,9 +49,9 @@ cloudMesh: [
    divisions: 6
    color: eafffd7e
    octaves: 3
-   persistence: 0.5
-   scl: 1.1
-   thresh: 0.6
+   persistence: 0.3
+   scl: 0.78
+   thresh: 0.3
   }
 ]
 sectorSize: 1
