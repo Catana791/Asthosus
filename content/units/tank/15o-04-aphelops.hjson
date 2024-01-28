@@ -9,17 +9,6 @@ omniMovement: false
 faceTarget: false
 health: 10620
 armor: 10
-parts: [
-    {
-      type: RegionPart
-      suffix: -glow
-      blending: additive
-      layerOffset: -0.3
-      color: ffffff33
-      outline: false
-      mirror: false
-   }
-]
 speed: 0.76
 rotateSpeed: 2.89
 itemCapacity: 0
@@ -27,18 +16,6 @@ outlineColor: 44413c
 research: 15o-03-aprotodon
 weapons: [
   {
-    name: aphelops-launcher
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        layerOffset: -0.2
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     x: 9
     y: 5
     reload: 14
@@ -69,17 +46,6 @@ weapons: [
   }
   {
     name: aphelops-launcher
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        color: ffffff33
-        layerOffset: -0.1
-        outline: false
-        mirror: false
-      }
-    ]
     type: PointDefenseWeapon
     x: 13
     y: -8
@@ -109,17 +75,6 @@ weapons: [
     rotateSpeed: 1.1
     mirror: false
     shootY: 12
-    parts: [
-      {
-        type: RegionPart
-        suffix: -glow
-        blending: additive
-        layerOffset: 0
-        color: ffffff33
-        outline: false
-        mirror: false
-      }
-    ]
     bullet: {  
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
