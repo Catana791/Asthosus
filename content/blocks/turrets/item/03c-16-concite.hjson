@@ -12,7 +12,7 @@ consumes: {
     amount: 0.5
   }
 }
-recoils: 2
+recoils: 1
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -27,7 +27,7 @@ drawer: {
       type: RegionPart
       suffix: -wing-left
       mirror: false
-      under: true
+      under: false
       progress: recoil
       moveY: -2
       recoilIndex: 0
