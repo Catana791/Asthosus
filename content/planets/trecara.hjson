@@ -41,30 +41,6 @@ mesh: [
   }
 ]
 cloudMesh: [
- {
-   type: HexSkyMesh
-   planet: asthosus
-   speed: 1.21
-   radius: 0.1
-   divisions: 6
-   color: eafffd7e
-   octaves: 3
-   persistence: 0.3
-   scl: 1
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: asthosus
-   speed: 1.01
-   radius: 0.11
-   divisions: 6
-   color: eafffd7e
-   octaves: 3
-   persistence: 0.4
-   scl: 0.9
-   thresh: 0.6
-  }
   {
    type: HexSkyMesh
    planet: asthosus
@@ -86,7 +62,7 @@ allowSectorInvasion: false
 startSector: 0
 radius: 0.25
 minZoom: 1
-maxZoom: 2
+maxZoom: 1.2
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
