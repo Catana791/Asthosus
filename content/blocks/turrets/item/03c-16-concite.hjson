@@ -12,7 +12,7 @@ consumes: {
     amount: 0.5
   }
 }
-recoils: 1
+recoils: 3
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
