@@ -1,0 +1,124 @@
+localizedName: Trecara
+description: Asthosus moon, a lush stellar body that contains an abundance of water and fauna. Ores are exceedingly rare here so use what you have to conquer this planet.
+details: Noone knows why the catastrophy that hit Asthosus and turned it into a desert planet hit Asthosus in the first place. Trecara was meant to save as a protection against such disaster...
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 5
+    seed: 7
+    radius: 0.529
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //ferrinite
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 5
+    radius: 0.522
+    seed: 94
+    color1: 64ab7b
+    color2: 487c59
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //sand
+    type: NoiseMesh
+    planet: asthosus
+    divisions: 6
+    seed: 101
+    radius: 0.52441
+    color1: babca8
+    color2: c6c282
+    octaves: 5.1
+    persistence: 0.8
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+radius: 0.5
+minZoom: 0.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 666359
+iconColor: 666359
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: 11k-01-core-essence
+parent: asthosus
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "01a-01-item-ferrinite",
+  "01a-02-item-demetite", 
+  "01a-06-item-lodestone", 
+  "01a-03-item-lignite", 
+  "01a-07-item-lithium", 
+  "01a-04-item-hardened-sand", 
+  "01a-05-item-red-sand", 
+  "01a-09-item-obsidian", 
+  "01a-08-item-cretite", 
+  "01a-12-item-crosium", 
+  "01a-10-item-irradiated-lump",
+  "01a-11-item-barite", 
+  "01a-13-item-barite-webbing",
+  "01a-14-item-draysten", 
+  "sand"
+]
