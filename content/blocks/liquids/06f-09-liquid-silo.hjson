@@ -1,0 +1,14 @@
+type: LiquidRouter
+size: 3
+hasLiquids: true
+liquidCapacity: 1200
+name: Liquid Silo
+description: Stores vasts amounts of liquids and outputs them to all sides.
+category: liquid
+requirements: [
+  01a-06-item-lodestone/65
+  01a-07-item-lithium/25
+  01a-09-item-obsidian/35
+]
+research: 06f-08-liquid-vat
+researchCostMultiplier: 0.5
