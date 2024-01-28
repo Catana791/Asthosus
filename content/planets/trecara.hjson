@@ -84,7 +84,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-radius: 0.2
+radius: 0.25
 minZoom: 1
 maxZoom: 2
 drawOrbit: true
