@@ -9,14 +9,14 @@ mesh: [
     planet: asthosus
     divisions: 5
     seed: 7
-    radius: 0.229
+    radius: 0.227
     color1: 587d89
     color2: 5e95a8
     octaves: 3.7
     persistence: 1.1
   }
   {
-    //ferrinite
+    //grass
     type: NoiseMesh
     planet: asthosus
     divisions: 5
@@ -85,7 +85,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 radius: 0.2
-minZoom: 0.5
+minZoom: 0.8
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
