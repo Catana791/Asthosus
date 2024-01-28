@@ -9,7 +9,7 @@ mesh: [
     planet: asthosus
     divisions: 5
     seed: 7
-    radius: 0.529
+    radius: 0.229
     color1: 587d89
     color2: 5e95a8
     octaves: 3.7
@@ -20,7 +20,7 @@ mesh: [
     type: NoiseMesh
     planet: asthosus
     divisions: 5
-    radius: 0.522
+    radius: 0.222
     seed: 94
     color1: 64ab7b
     color2: 487c59
@@ -33,7 +33,7 @@ mesh: [
     planet: asthosus
     divisions: 6
     seed: 101
-    radius: 0.52441
+    radius: 0.22441
     color1: babca8
     color2: c6c282
     octaves: 5.1
@@ -84,8 +84,8 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-radius: 0.5
-minZoom: 0.8
+radius: 0.2
+minZoom: 0.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
