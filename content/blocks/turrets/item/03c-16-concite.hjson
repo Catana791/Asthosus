@@ -85,7 +85,7 @@ ammoTypes: {
     lightColor: 2e293a
     spin: 4
     layer: 99
-    ammoMultiplier: 10
+    ammoMultiplier: 6
   }
   01a-12-item-crosium: {
     hitEffect: plasticExplosion
