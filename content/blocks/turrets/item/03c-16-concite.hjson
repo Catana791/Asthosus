@@ -3,7 +3,7 @@ name: Concite
 description: Fires powerful rounds at enemies from five barrels continuously. 
 size: 4
 squareSprite: false
-reload: 5
+reload: 6
 heatColor: cd8d4a
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
@@ -29,7 +29,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -3
+      moveY: -2
       recoilIndex: 0
     }
     {  
@@ -38,7 +38,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -3
+      moveY: -2
       recoilIndex: 1
     }  
   ]
