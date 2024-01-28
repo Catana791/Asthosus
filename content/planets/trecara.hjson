@@ -9,7 +9,7 @@ mesh: [
     planet: asthosus
     divisions: 5
     seed: 7
-    radius: 0.227
+    radius: 0.2245
     color1: 587d89
     color2: 5e95a8
     octaves: 3.7
@@ -85,7 +85,8 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 radius: 0.2
-minZoom: 0.3
+minZoom: 1
+maxZoom: 2
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
