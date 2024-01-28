@@ -59,7 +59,7 @@ shoot: {
   shotDelay: 2
 }
 range: 270
-shootSound: shoot-mashinegun
+shootSound: shoot-big-artillery
 ammoTypes: {
   01a-09-item-obsidian: {
     hitEffect: plasticExplosion
