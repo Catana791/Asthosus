@@ -18,7 +18,6 @@ mechLegColor: 44413c
         rotate: false
         mirror: true
         alternate: true
-        inaccuracy: 9
         shootSound: energy-blade-launch
         shoot: {
           shots: 2
@@ -26,8 +25,8 @@ mechLegColor: 44413c
         }
         bullet: {
           type: BasicBulletType
-          speed: 2
-          lifetime: 64
+          speed: 4
+          lifetime: 32
           pierce: false
           damage: 18
           pierce: true
@@ -37,6 +36,8 @@ mechLegColor: 44413c
           sprite: asthosus-energy-blade
           hitSound: energy-blade-hit
           despawnSound: energy-blade-hit
+          trailLength: 16
+          trailWidth: 3
         }
     }
 ]
