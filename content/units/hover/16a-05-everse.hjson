@@ -18,30 +18,6 @@ armor: 8
 hitSize: 30
 researchCostMultiplier: 0.05
 research: 16a-04-tequant
-parts: [
-  {
-    type: FlarePart
-    x: 0
-    y: -2
-    color1: 6e5b9a
-    color2: 473b64
-    spinSpeed: -0.65
-    radius: 15
-    followRotation: true
-    sides: 4
-  }
-  {
-    type: FlarePart
-    x: 0
-    y: -2
-    color1: 6e5b9a
-    color2: 473b64
-    spinSpeed: 0.89
-    radius: 13
-    sides: 8
-    followRotation: true
-  }
-]
 abilities: [
   {
     type: MoveEffectAbility
