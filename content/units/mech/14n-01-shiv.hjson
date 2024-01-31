@@ -12,7 +12,7 @@ mechLegColor: 44413c
       top: false
       x: -6.1
       name: shiv-weapon
-      recoil: 0.2
+      recoil: 0.4
         y: 1.25
         reload: 8
         rotate: false
