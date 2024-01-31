@@ -12,8 +12,9 @@ mechLegColor: 44413c
       top: false
       x: -6.1
       name: shiv-weapon
+      recoil: 0.1
         y: 1.25
-        reload: 2
+        reload: 4
         rotate: false
         mirror: true
         alternate: false
@@ -24,9 +25,9 @@ mechLegColor: 44413c
           speed: 2
           lifetime: 64
           pierce: false
-          damage: 1
-          width: 2
-          height: 3
+          damage: 2
+          width: 4
+          height: 8
         }
     }
 ]
