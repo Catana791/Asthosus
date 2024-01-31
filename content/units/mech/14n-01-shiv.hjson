@@ -31,15 +31,13 @@ mechLegColor: 44413c
           damage: 18
           pierce: true
           pierceCap: 1
-          width: 36
-          height: 18
+          width: 28
+          height: 12
           sprite: asthosus-energy-blade
           hitSound: spark
           despawnSound: spark
           trailEffect: disperseTrail
           trailInterval: 3
-          shrinkX: -0.5
-          shrinkY: -0.2
         }
     }
 ]
