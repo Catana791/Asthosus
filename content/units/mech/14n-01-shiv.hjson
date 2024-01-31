@@ -10,7 +10,7 @@ mechLegColor: 44413c
   weapons: [
     {
       top: false
-      x: -6.125
+      x: -6.1
       name: shiv-weapon
         y: 1.25
         reload: 10
