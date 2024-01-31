@@ -41,8 +41,8 @@ mechLegColor: 44413c
           trailLength: 16
           trailWidth: 1.5
           trailColor: b98279
-          shrinkX: -5
-          shrinkY: -5
+          shrinkX: -0.1
+          shrinkY: -0.1
         }
     }
 ]
