@@ -1,6 +1,6 @@
 type: mech
 name: Shiv
-description: Fires sapping lasers at nearby targets. Strong in numbers, weak in few.
+description: Fires electric energy blades at nearby targets. Strong in numbers, weak in few.
 speed: 0.5
 flying: false
 health: 210
@@ -33,11 +33,14 @@ mechLegColor: 44413c
           pierceCap: 1
           width: 22
           height: 12
+          frontColor: e6aca3
+          backColor: b98279
           sprite: asthosus-energy-blade
-          hitSound: energy-blade-hit
-          despawnSound: energy-blade-hit
+          hitSound: spark
+          despawnSound: spark
           trailLength: 16
-          trailWidth: 3
+          trailWidth: 1.5
+          trailColor: b98279
         }
     }
 ]
