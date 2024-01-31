@@ -13,17 +13,20 @@ mechLegColor: 44413c
       x: -6.1
       name: shiv-weapon
         y: 1.25
-        reload: 10
+        reload: 2
         rotate: false
         mirror: true
-        alternate: true
-        shootSound: sap
+        alternate: false
+        inaccuracy: 9
+        shootSound: shoot-dull
         bullet: {
-          type: SapBulletType
-            length: 128
-            damage: 
-            sapStrength: 0.05
-            damage: 6
+          type: BasicBulletType
+          speed: 2
+          lifetime: 64
+          pierce: false
+          damage: 1
+          width: 2
+          height: 3
         }
     }
 ]
