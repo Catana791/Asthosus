@@ -31,8 +31,8 @@ mechLegColor: 44413c
           damage: 18
           pierce: true
           pierceCap: 1
-          width: 22
-          height: 12
+          width: 36
+          height: 18
           frontColor: e6aca3
           backColor: b98279
           sprite: asthosus-energy-blade
@@ -41,6 +41,8 @@ mechLegColor: 44413c
           trailLength: 16
           trailWidth: 1.5
           trailColor: b98279
+          shrinkX: -5
+          shrinkY: -5
         }
     }
 ]
