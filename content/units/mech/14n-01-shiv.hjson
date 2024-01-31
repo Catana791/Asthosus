@@ -14,20 +14,25 @@ mechLegColor: 44413c
       name: shiv-weapon
       recoil: 0.4
         y: 1.25
-        reload: 8
+        reload: 24
         rotate: false
         mirror: true
-        alternate: false
+        alternate: true
         inaccuracy: 9
-        shootSound: shoot-dull
+        shootSound: energy-blade-launch
         bullet: {
           type: BasicBulletType
           speed: 2
           lifetime: 64
           pierce: false
-          damage: 4
-          width: 6
-          height: 10
+          damage: 12
+          pierce: true
+          pierceCap: 1
+          width: 12
+          height: 6
+          sprite: asthosus-energy-blade
+          hitSound: energy-blade-hit
+          despawnSound: energy-blade-hit
         }
     }
 ]
