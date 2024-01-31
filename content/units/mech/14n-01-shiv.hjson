@@ -30,7 +30,7 @@ mechLegColor: 44413c
           pierce: false
           damage: 18
           pierce: true
-          pierceCap: 1
+          pierceCap: 2
           width: 28
           height: 12
           sprite: asthosus-energy-blade
