@@ -25,3 +25,4 @@ filter: [
 research: 10j-00-ground-mounting-bay
 squareSprite: false
 conductivePower: true
+researchCostMultiplier: 0.5
