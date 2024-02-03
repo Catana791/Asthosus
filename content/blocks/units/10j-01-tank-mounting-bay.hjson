@@ -1,3 +1,4 @@
+researchCostMultiplier: 0.5
 type: UnitAssembler
 name: Tank Assembly Bay
 description: Creates tank units using payloads. Requires power.
