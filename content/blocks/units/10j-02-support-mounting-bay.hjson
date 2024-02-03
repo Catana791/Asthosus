@@ -1,3 +1,4 @@
+researchCostMultiplier: 0.5
 type: UnitAssembler
 name: Support Assembly Bay
 description: Creates support units using payloads. Requires power.
