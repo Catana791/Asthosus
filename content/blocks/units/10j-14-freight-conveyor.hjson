@@ -9,3 +9,4 @@ requirements: [
 ]
 canOverdrive: false
 payloadLimit: 4
+researchCostMultiplier: 0.5
