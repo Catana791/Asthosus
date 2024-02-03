@@ -8,3 +8,4 @@ requirements: [
   01a-06-item-lodestone/18
 ]
 canOverdrive: false
+researchCostMultiplier: 0.5
