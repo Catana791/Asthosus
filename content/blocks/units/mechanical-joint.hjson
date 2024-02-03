@@ -9,3 +9,4 @@ requirements: [
   01a-06-item-lodestone/4
 ]
 research: 10j-00-ground-mounting-bay
+researchCostMultiplier: 0.25
