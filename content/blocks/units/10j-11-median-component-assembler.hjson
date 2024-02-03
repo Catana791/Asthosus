@@ -36,3 +36,4 @@ filter: [
 research: 10j-10-rudimentary-component-assembler
 squareSprite: false
 conductivePower: true
+researchCostMultiplier: 0.5
