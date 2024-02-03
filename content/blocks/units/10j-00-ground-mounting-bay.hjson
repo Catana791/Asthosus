@@ -75,3 +75,4 @@ consumes: {
   power: 2
 }
 areaSize: 13
+researchCostMultiplier: 0.5
