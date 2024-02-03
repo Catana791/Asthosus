@@ -33,3 +33,4 @@ filter: [
 research: 10j-11-median-component-assembler
 squareSprite: false
 conductivePower: true
+researchCostMultiplier: 0.5
