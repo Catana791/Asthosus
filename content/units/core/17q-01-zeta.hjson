@@ -5,7 +5,7 @@ legSpeed: 0.23
 legForwardScl: 0.56
 legMoveSpace: 0.9
 hovering: true
-groundLayer: 75
+groundLayer: 60
 name: Zeta
 description: Defends the Essence core. Builds structures and mines ores.
 health: 135
