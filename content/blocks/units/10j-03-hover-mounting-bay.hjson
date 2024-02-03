@@ -1,3 +1,4 @@
+researchCostMultiplier: 0.5
 type: UnitAssembler
 name: Hover Assembly Bay
 description: Creates hovering units using payloads. Requires power.
