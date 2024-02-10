@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Subtile
-description: Fires single powerful piercing shell at enemies over large distances. Requires pressure. 
+description: Fires a single powerful piercing shell at enemies over large distances. Requires pressure. 
 size: 2
 squareSprite: false
 reload: 270
