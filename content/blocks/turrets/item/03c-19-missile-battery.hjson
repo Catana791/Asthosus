@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Missile Battery
-description: Uses Draysten as ammo to fire fast-paced volleys of missiles at enemies. 
+description: Uses Vesmonium or Draysten as ammo to fire fast-paced volleys of missiles at enemies. 
 size: 3
 rotateSpeed: 0
 recoil: 0
