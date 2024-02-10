@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Instauro
-description: Fires repeating bolts at enemies.
+description: Fires repeating bolts at enemies, covering a lot of area.
 targetAir: false
 targetGround: true
 outlineColor: 42413e
