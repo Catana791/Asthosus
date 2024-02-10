@@ -1,4 +1,5 @@
 name: Red Sand
+description: Sand obtained from a Mesa biome. Contains traces of various materials.
 hardness: 2
 cost: 0.2
 lowPriority: true
