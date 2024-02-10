@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Concite
-description: Fires powerful rounds at enemies from five barrels continuously. 
+description: Fires alternating, powerful rounds at enemies, piercing them.
 size: 4
 squareSprite: false
 reload: 6
