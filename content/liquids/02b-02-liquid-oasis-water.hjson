@@ -1,4 +1,5 @@
 name: Oasis Water
+description: A liquid pumped from an Oasis located inside a desert biome. Used as coolant or for production.
 effect: asthosus-13m-01-status-rejuvenated
 boilPoint: 0.5
 color: 54798b
