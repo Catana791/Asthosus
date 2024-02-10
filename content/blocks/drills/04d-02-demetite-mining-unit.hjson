@@ -1,6 +1,6 @@
 type: WallCrafter
 name: Demetite Mining Unit
-description: Mines Demetite slowly from Demetite Walls. 
+description: Mines Demetite slowly from Demetite Walls. Does not work on Aged Demetite walls.
 size: 2
 category: production
 requirements: [
