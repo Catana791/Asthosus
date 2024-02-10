@@ -1,5 +1,6 @@
 type: Duct
 name: Ferrinite Pipeline
+description: Transports items using negative pressure.
 category: distribution
 alwaysUnlocked: true
 research: 11k-01-core-essence
