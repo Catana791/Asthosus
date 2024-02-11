@@ -4,7 +4,7 @@ ambientSound: smelter
 ambientSoundVolume: 0.12
 maxEfficiency: 1.5
 name: Draysten Crucible
-description: Creates Draysten using Barite Webbing and Nontragen. Requires heat and power.
+description: Creates Draysten using Vesmonium and Nontragen. Requires heat and power.
 size: 4
 researchCostMultiplier: 0.5
 squareSprite: false
