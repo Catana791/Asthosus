@@ -21,14 +21,6 @@ drillEffect: {
   colorTo: 6b6a66
   lifetime: 20
 }
-consumes: {
-  liquid: {
-    liquid: 02b-02-liquid-oasis-water
-    amount: 0.04
-    optional: true
-    booster: true
-  }
-}
 requirements: [
   01a-01-item-ferrinite/28
   01a-06-item-lodestone/12
