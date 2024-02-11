@@ -13,10 +13,10 @@ squareSprite: false
 category: power
 research: 07g-10-discharge-generator
 requirements: [
-  01a-01-item-ferrinite/60
   01a-02-item-demetite/70
   01a-06-item-lodestone/95
-  01a-07-item-lithium/20
+  01a-07-item-lithium/45
+  01a-11-item-barite/20
 ]
 ambientSound: hum
 ambientSoundVolume: 0.08
