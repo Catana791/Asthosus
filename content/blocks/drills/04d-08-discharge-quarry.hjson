@@ -27,7 +27,7 @@ drillEffect: {
   lifetime: 40
 }
 consumes: {
-  power: 2
+  power: 3
 }
 requirements: [
   01a-01-item-ferrinite/90
