@@ -1,0 +1,38 @@
+type: BurstDrill
+name: Discharge Quarry
+description: Uses massive friction explosions to mine materials from the ground in high amounts. Fortified using Barite. Can mine advanced materials. Requires power.
+size: 4
+hardnessDrillMultiplier: 150
+category: production
+research: 04d-07-abrasion-quarry
+drillTime: 120
+tier: 4
+shake: 3
+drillMultipliers: {
+  01a-11-item-barite: 0.75
+  01a-09-item-obsidian: 1
+}
+blockedItem: 01a-04-item-hardened-sand
+squareSprite: false
+itemCapacity: 60
+researchCostMultiplier: 0.5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 34
+  strokeFrom: 3.1
+  strokeTo: 0.7
+  colorFrom: 594e6b
+  colorTo: 2e293a
+  lifetime: 40
+}
+consumes: {
+  power: 2
+}
+requirements: [
+  01a-01-item-ferrinite/90
+  01a-06-item-lodestone/45
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/90
+  01a-11-item-barite/35
+]
