@@ -1,5 +1,5 @@
 type: ThermalGenerator
-name: Radiation Power Plant
+name: Radiation Reactor
 description: Placed on Barite vents to create power using the radioactive emissions created by the vent.
 size: 3
 attribute: steam
