@@ -1,12 +1,11 @@
 type: ThermalGenerator
 attribute: heat
-powerProduction: 0.0555556
 name: Pressure Rig
-description: Produces power when placed on Ferrinite, Demetite or Hardened Sand Vents. Also makes the pressure from said vents available for use.
+description: When placed on Ferrinite, Demetite or Hardened Sand Vents, makes the pressure from said vents available for use.
 size: 3
 hasLiquids: true
 squareSprite: false
-outputLiquid: 02b-01-pressure/0.01
+outputLiquid: 02b-01-pressure/0.02
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8
