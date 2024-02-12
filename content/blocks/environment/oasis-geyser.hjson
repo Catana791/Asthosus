@@ -22,7 +22,7 @@ effect: [
     type: ParticleEffect
     particles: 18
     baseRotation: 90
-    cone: 24
+    cone: 20
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 8
@@ -31,13 +31,13 @@ effect: [
     colorTo: 879fa9
     lifetime: 180
     useRotation: false
-    startDelay: 4
+    startDelay: 6
   }
   {
     type: ParticleEffect
     particles: 20
     baseRotation: 90
-    cone: 24
+    cone: 18
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 10
@@ -46,13 +46,13 @@ effect: [
     colorTo: 879fa9
     lifetime: 180
     useRotation: false
-    startDelay: 7
+    startDelay: 8
   }
   {
     type: ParticleEffect
-    particles: 22
+    particles: 20
     baseRotation: 90
-    cone: 22
+    cone: 16
     sizeFrom: 1.8
     sizeTo: 0.2
     length: 12
@@ -62,6 +62,51 @@ effect: [
     lifetime: 180
     useRotation: false
     startDelay: 10
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 14
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 16
+    baseLength: 64
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 12
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 12
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 18
+    baseLength: 72
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 14
+  }
+  {
+    type: ParticleEffect
+    particles: 24
+    baseRotation: 90
+    cone: 10
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 20
+    baseLength: 80
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 16
   }
 ]
 cacheLayer: water
