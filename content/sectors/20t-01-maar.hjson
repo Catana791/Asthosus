@@ -3,7 +3,7 @@ description: This sector is optional for conquering Asthosus but it may prove us
 captureWave: 30
 difficulty: 2
 planet: asthosus
-sector: 16
+sector: 17
 research: {
   parent: 19s-03-lattice
   objectives: [
