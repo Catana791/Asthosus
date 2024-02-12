@@ -15,8 +15,6 @@ effect: {
   colorFrom: 758a93
   colorTo: 879fa9
   lifetime: 128
-  sizeInterp: pow3In
-  interp: pow2
   useRotation: false
 }
 cacheLayer: water
