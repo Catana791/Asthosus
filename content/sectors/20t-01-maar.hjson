@@ -1,0 +1,15 @@
+localizedName: Chasm
+description: This sector is optional for conquering Asthosus but it may prove useful for Lodestone production.
+captureWave: 30
+difficulty: 2
+planet: asthosus
+sector: 13
+research: {
+  parent: 19s-03-lattice
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-lattice
+    }
+  ]
+}
