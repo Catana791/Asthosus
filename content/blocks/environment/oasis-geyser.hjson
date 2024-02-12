@@ -2,7 +2,7 @@ name: Oasis Geyser
 type: SteamVent
 blendGroup: deep-oasis-water
 parent: deep-oasis-water
-effectSpacing: 240
+effectSpacing: 90
 effect: {
   type: ParticleEffect
   particles: 18
