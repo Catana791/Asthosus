@@ -5,15 +5,15 @@ parent: deep-oasis-water
 effectSpacing: 240
 effect: {
   type: ParticleEffect
-  particles: 12
+  particles: 18
   baseRotation: 90
   cone: 35
-  sizeFrom: 1.2
-  sizeTo: 0.2
-  length: 2
-  baseLength: 10
+  sizeFrom: 1.8
+  sizeTo: 0.3
+  length: 6
+  baseLength: 12
   colorFrom: 758a93
   colorTo: 879fa9
-  lifetime: 66
+  lifetime: 128
 }
 cacheLayer: water
