@@ -8,8 +8,8 @@ effect: {
   particles: 16
   baseRotation: 90
   cone: 22
-  sizeFrom: 0
-  sizeTo: 1.8
+  sizeFrom: 1.8
+  sizeTo: 0.2
   length: 6
   baseLength: 24
   colorFrom: 758a93
