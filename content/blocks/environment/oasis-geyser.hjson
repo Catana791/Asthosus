@@ -11,8 +11,8 @@ effect: [
     cone: 22
     sizeFrom: 1.8
     sizeTo: 0.2
-    length: 6
-    baseLength: 24
+    length: 24
+    baseLength: 6
     colorFrom: 758a93
     colorTo: 879fa9
     lifetime: 180
@@ -25,8 +25,8 @@ effect: [
     cone: 20
     sizeFrom: 1.8
     sizeTo: 0.2
-    length: 8
-    baseLength: 32
+    length: 32
+    baseLength: 8
     colorFrom: 758a93
     colorTo: 879fa9
     lifetime: 180
@@ -40,8 +40,8 @@ effect: [
     cone: 18
     sizeFrom: 1.8
     sizeTo: 0.2
-    length: 10
-    baseLength: 40
+    length: 40
+    baseLength: 10
     colorFrom: 758a93
     colorTo: 879fa9
     lifetime: 180
@@ -55,8 +55,8 @@ effect: [
     cone: 16
     sizeFrom: 1.8
     sizeTo: 0.2
-    length: 12
-    baseLength: 48
+    length: 48
+    baseLength: 12
     colorFrom: 758a93
     colorTo: 879fa9
     lifetime: 180
@@ -70,8 +70,8 @@ effect: [
     cone: 14
     sizeFrom: 1.8
     sizeTo: 0.2
-    length: 16
-    baseLength: 64
+    length: 64
+    baseLength: 16
     colorFrom: 758a93
     colorTo: 879fa9
     lifetime: 180
@@ -85,8 +85,8 @@ effect: [
     cone: 12
     sizeFrom: 1.8
     sizeTo: 0.2
-    length: 18
-    baseLength: 72
+    length: 72
+    baseLength: 18
     colorFrom: 758a93
     colorTo: 879fa9
     lifetime: 180
@@ -100,8 +100,8 @@ effect: [
     cone: 10
     sizeFrom: 1.8
     sizeTo: 0.2
-    length: 20
-    baseLength: 80
+    length: 80
+    baseLength: 20
     colorFrom: 758a93
     colorTo: 879fa9
     lifetime: 180
