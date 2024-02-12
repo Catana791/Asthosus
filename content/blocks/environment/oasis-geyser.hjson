@@ -63,6 +63,66 @@ effect: [
     useRotation: false
     startDelay: 10
   }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 12
+    baseLength: 48
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 14
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 9
+    baseLength: 36
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 16
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 6
+    baseLength: 24
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 18
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 3
+    baseLength: 12
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 20
+  }
 ]
 cacheLayer: water
 mapColor: 758a93
