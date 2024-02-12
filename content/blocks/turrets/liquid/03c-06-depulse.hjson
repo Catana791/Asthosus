@@ -39,13 +39,6 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      mirror: false
-      suffix: -hose
-      heatProgress: recoil
-      heatColor: fa285933
-    }
-    {
-      type: RegionPart
       mirror: true
       suffix: -wing
       under: true
