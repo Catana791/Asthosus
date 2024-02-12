@@ -2,7 +2,7 @@ name: Oasis Geyser
 type: SteamVent
 blendGroup: deep-oasis-water
 parent: deep-oasis-water
-effectSpacing: 90
+effectSpacing: 30
 effect: {
   type: ParticleEffect
   particles: 18
@@ -11,10 +11,11 @@ effect: {
   sizeFrom: 1.8
   sizeTo: 0.3
   length: 6
-  baseLength: 12
+  baseLength: 24
   colorFrom: 758a93
   colorTo: 879fa9
   lifetime: 128
+  sizeInterp: pow2Out
 }
 cacheLayer: water
 mapColor: 758a93
