@@ -17,3 +17,4 @@ effect: {
   lifetime: 128
 }
 cacheLayer: water
+mapColor: 758a93
