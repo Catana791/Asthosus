@@ -5,5 +5,5 @@ parent: hardened-sand-floor
 effect: ventSteam
 effectColor: d1c092
 attributes: {
-   heat: 1.2
+   heat: 
 }
