@@ -3,19 +3,66 @@ type: SteamVent
 blendGroup: deep-oasis-water
 parent: deep-oasis-water
 effectSpacing: 720
-effect: {
-  type: ParticleEffect
-  particles: 16
-  baseRotation: 90
-  cone: 22
-  sizeFrom: 1.8
-  sizeTo: 0.2
-  length: 6
-  baseLength: 24
-  colorFrom: 758a93
-  colorTo: 879fa9
-  lifetime: 180
-  useRotation: false
-}
+effect: [ 
+  {
+    type: ParticleEffect
+    particles: 16
+    baseRotation: 90
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 6
+    baseLength: 24
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+  }
+  {
+    type: ParticleEffect
+    particles: 18
+    baseRotation: 90
+    cone: 24
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 8
+    baseLength: 32
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 60
+  }
+  {
+    type: ParticleEffect
+    particles: 20
+    baseRotation: 90
+    cone: 26
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 10
+    baseLength: 40
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 90
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 28
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 12
+    baseLength: 48
+    colorFrom: 758a93
+    colorTo: 879fa9
+    lifetime: 180
+    useRotation: false
+    startDelay: 120
+  }
+]
 cacheLayer: water
 mapColor: 758a93
