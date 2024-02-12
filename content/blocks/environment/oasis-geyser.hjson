@@ -4,9 +4,9 @@ blendGroup: deep-oasis-water
 parent: deep-oasis-water
 effect: {
   type: ParticleEffect
-  particles: 18
+  particles: 16
   baseRotation: 90
-  cone: 35
+  cone: 22
   sizeFrom: 1.8
   sizeTo: 0.3
   length: 6
