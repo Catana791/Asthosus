@@ -76,7 +76,7 @@ effect: [
     colorTo: 879fa9
     lifetime: 180
     useRotation: false
-    startDelay: 110
+    startDelay: 12
   }
   {
     type: ParticleEffect
@@ -91,7 +91,7 @@ effect: [
     colorTo: 879fa9
     lifetime: 180
     useRotation: false
-    startDelay: 112
+    startDelay: 14
   }
   {
     type: ParticleEffect
@@ -106,7 +106,7 @@ effect: [
     colorTo: 879fa9
     lifetime: 180
     useRotation: false
-    startDelay: 114
+    startDelay: 16
   }
   {
     type: ParticleEffect
@@ -121,7 +121,7 @@ effect: [
     colorTo: 879fa9
     lifetime: 180
     useRotation: false
-    startDelay: 116
+    startDelay: 18
   }
 ]
 cacheLayer: water
