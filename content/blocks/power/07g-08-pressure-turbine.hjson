@@ -10,12 +10,12 @@ requirements: [
   01a-07-item-lithium/30
 ]
 consumes: {
-  liquid: 02b-01-pressure/0.1
+  liquid: 02b-01-pressure/0.15
 }
 hasLiquids: true
 liquidCapacity: 30
 itemDuration: 60
-powerProduction: 1
+powerProduction: 0.666666667
 layer: 118
 generateEffectRange: 0
 generateEffect: {
