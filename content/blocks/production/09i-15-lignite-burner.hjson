@@ -1,9 +1,9 @@
 type: HeatProducer
 name: Lignite Burner
-description: Burns flammable Lignite to produce heat.
+description: Burns flammable Lignite to produce heat and output created heat to all sides equally.
 size: 2
 heatOutput: 3
-craftTime: 180
+craftTime: 60
 squareSprite: false
 researchCostMultiplier: 0.5
 drawer: {
