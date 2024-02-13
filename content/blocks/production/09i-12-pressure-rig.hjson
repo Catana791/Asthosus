@@ -8,7 +8,7 @@ squareSprite: false
 outputLiquid: 02b-01-pressure/0.0166666667
 displayEfficiencyScale: 0.11111111111
 baseEfficiency: 0
-maxBoost: 0
+maxBoost: 1
 displayEfficiency: false
 minEfficiency: 8
 generateEffect: turbinegenerate
