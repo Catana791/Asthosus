@@ -12,8 +12,8 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 1.1
     x: 0
-    y: -2.2
-    effect: [missileTrail, artilleryTrail]
+    y: -2
+    effect: artilleryTrailSmoke
     teamColor: true
     interval: 1
   }
