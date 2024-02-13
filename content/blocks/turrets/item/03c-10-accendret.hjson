@@ -12,10 +12,11 @@ requirements: [
   01a-09-item-obsidian/110
 ]
 range: 180
-consumes: {
-  coolant: {
-    amount: 0.2
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
 }
 shoot: {
   type: ShootAlternate
