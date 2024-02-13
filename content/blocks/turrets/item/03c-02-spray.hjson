@@ -7,10 +7,11 @@ shoot: {
   shots: 5
   shotDelay: 2
 }
-consumes: {
-  coolant: {
-    amount: 0.1
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
 }
 inaccuracy: 15
 range: 120
