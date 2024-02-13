@@ -19,10 +19,6 @@ mechLegColor: 44413c
         mirror: true
         alternate: true
         shootSound: energy-blade-launch
-        shoot: {
-          shots: 2
-          shotDelay: 16
-        }
         bullet: {
           type: BasicBulletType
           speed: 4
@@ -31,14 +27,14 @@ mechLegColor: 44413c
           damage: 22
           pierce: true
           pierceCap: 2
-          width: 28
+          width: 56
           height: 12
           sprite: asthosus-energy-blade
           hitSound: spark
           despawnSound: spark
           trailEffect: disperseTrail
           trailInterval: 3
-          recoil: -20
+          recoil: -12
           impact: true
         }
     }
