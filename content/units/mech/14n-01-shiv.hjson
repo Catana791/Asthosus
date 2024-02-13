@@ -45,8 +45,6 @@ abilities: [
           width: 28
           height: 12
           sprite: asthosus-energy-blade
-          hitSound: spark
-          despawnSound: spark
           trailEffect: disperseTrail
           trailInterval: 3
         }
