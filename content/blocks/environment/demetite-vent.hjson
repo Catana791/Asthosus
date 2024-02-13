@@ -5,5 +5,5 @@ parent: demetite-stone
 effect: ventSteam
 effectColor: 867e60
 attributes: {
-   heat: 1
+   heat: 0.11111111
 }
