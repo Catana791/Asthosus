@@ -24,6 +24,7 @@ abilities: [
       x: -6.1
       name: shiv-weapon
       recoil: 0.4
+      shootCone: 45
         y: 1.25
         reload: 72
         rotate: false
