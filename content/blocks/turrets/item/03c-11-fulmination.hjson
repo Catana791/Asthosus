@@ -11,10 +11,11 @@ accurateDelay: false
 outlineColor: 42413e
 chargeSound: lasercharge2
 researchCostMultiplier: 0.5
-consumes: {
-  coolant: {
-    amount: 0.3
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
 }
 shoot: {
   firstShotDelay: 20
