@@ -28,7 +28,7 @@ mechLegColor: 44413c
           speed: 4
           lifetime: 32
           pierce: false
-          damage: 18
+          damage: 22
           pierce: true
           pierceCap: 2
           width: 28
@@ -38,6 +38,7 @@ mechLegColor: 44413c
           despawnSound: spark
           trailEffect: disperseTrail
           trailInterval: 3
+          recoil: -8
         }
     }
 ]
