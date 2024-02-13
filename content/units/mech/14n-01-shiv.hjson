@@ -62,8 +62,6 @@ abilities: [
         width: 0
         despawnEffect: none
         hitEffect: none
-        despawnSound: energy-blade-hit
-        hitSound: energy-blade-hit
         height: 0
         collides: false
         damage: 0
