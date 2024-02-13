@@ -1,7 +1,7 @@
 type: AttributeCrafter
 attribute: heat
 name: Pressure Rig
-description: When placed on Ferrinite, Demetite or Hardened Sand Vents, makes the pressure from said vents available for use.
+description: Harnesses the pressure of geothermal vents and makes it available for use.
 size: 3
 hasLiquids: true
 squareSprite: false
