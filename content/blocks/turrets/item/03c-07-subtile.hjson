@@ -48,7 +48,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.1
+  amount: 0.2
 }
 ammoTypes: {
   01a-06-item-lodestone: {
