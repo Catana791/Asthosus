@@ -59,6 +59,8 @@ abilities: [
       shootSound: energy-blade-hit
       bullet: {
         width: 0
+        speed: 8
+        lifetime: 10
         despawnEffect: none
         hitEffect: none
         height: 0
