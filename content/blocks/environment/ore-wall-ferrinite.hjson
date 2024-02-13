@@ -1,4 +1,0 @@
-type: OreBlock
-name: Ferrinite Wall Ore
-itemDrop: 01a-01-item-ferrinite
-wallOre: true
