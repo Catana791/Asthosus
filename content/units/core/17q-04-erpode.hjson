@@ -1,6 +1,6 @@
 type: crawl
 name: Erpode
-description: Defends the Petra core. Has very little offensive capabilities but is able to build, mine and support. 
+description: Defends the Petra core. Has no offensive capabilities but is able to build, mine and support. 
 health: 260
 speed: 2.4
 armor: 2
