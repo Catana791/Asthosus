@@ -43,9 +43,12 @@ drawer: {
 }
 consumes: {
   liquid: 02b-01-pressure/0.05
-  coolant: {
-    amount: 0.2
-  }
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
 }
 ammoTypes: {
   01a-06-item-lodestone: {
