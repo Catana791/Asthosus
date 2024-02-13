@@ -18,6 +18,10 @@ mechLegColor: 44413c
         rotate: false
         mirror: true
         alternate: true
+        shoot: {
+          shots: 2
+          shotDelay: 12
+        }
         shootSound: energy-blade-launch
         bullet: {
           type: BasicBulletType
@@ -27,16 +31,31 @@ mechLegColor: 44413c
           damage: 22
           pierce: true
           pierceCap: 2
-          width: 56
+          width: 28
           height: 12
           sprite: asthosus-energy-blade
           hitSound: spark
           despawnSound: spark
           trailEffect: disperseTrail
           trailInterval: 3
-          recoil: -12
-          impact: true
         }
+    }
+    {  
+      x: 0
+      y: 0
+      rotate: false
+      mirror: false
+      reload: 120
+      bullet: {
+        width: 0
+        height: 0
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -24
+        impact: true
+      }
     }
 ]
 research: 10j-00-ground-mounting-bay
