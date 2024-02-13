@@ -7,6 +7,17 @@ health: 210
 hitSize: 10
 outlineColor: 44413c
 mechLegColor: 44413c
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.1
+    x: 0
+    y: -1.5
+    effect: [missileTrail, artilleryTrail, artilleryTrailSmoke]
+    teamColor: true
+    interval: 1
+  }
+]
   weapons: [
     {
       top: false
