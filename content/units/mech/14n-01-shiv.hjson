@@ -12,10 +12,10 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 1.1
     x: 0
-    y: -2
+    y: -2.4
     effect: artilleryTrailSmoke
     teamColor: true
-    interval: 1
+    interval: 3
   }
 ]
   weapons: [
@@ -58,10 +58,12 @@ abilities: [
       mirror: false
       reload: 120
       shootSound: energy-blade-hit
-      shootStatus: disarmed
-      shootStatusDuration: 20
       bullet: {
         width: 0
+        despawnEffect: none
+        hitEffect: none
+        despawnSound: energy-blade-hit
+        hitSound: energy-blade-hit
         height: 0
         collides: false
         damage: 0
