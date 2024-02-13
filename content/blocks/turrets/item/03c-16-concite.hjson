@@ -7,10 +7,11 @@ reload: 6
 heatColor: cd8d4a
 coolantMultiplier: 0.5
 researchCostMultiplier: 0.5
-consumes: {
-  coolant: {
-    amount: 0.5
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
 }
 recoils: 2
 drawer: {
