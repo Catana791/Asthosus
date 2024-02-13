@@ -55,7 +55,7 @@ abilities: [
       y: 0
       rotate: false
       mirror: false
-      reload: 120
+      reload: 210
       shootCone: 5
       shootSound: energy-blade-hit
       bullet: {
@@ -69,7 +69,7 @@ abilities: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -20
+        recoil: -24
         impact: true
       }
     }
