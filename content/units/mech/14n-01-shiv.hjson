@@ -46,6 +46,7 @@ mechLegColor: 44413c
       rotate: false
       mirror: false
       reload: 120
+      shootSound: short-laser-charge
       bullet: {
         width: 0
         height: 0
