@@ -7,10 +7,11 @@ outlineColor: 42413e
 size: 3
 squareSprite: false
 range: 180
-consumes: {
-  coolant: {
-    amount: 0.5
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
 }
 coolantMultiplier: 0.6
 researchCostMultiplier: 0.5
