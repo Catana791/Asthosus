@@ -1,4 +1,0 @@
-type: OreBlock
-name: Demetite Wall Ore
-itemDrop: 01a-02-item-demetite
-wallOre: true
