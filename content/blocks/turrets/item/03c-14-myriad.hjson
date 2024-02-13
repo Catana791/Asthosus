@@ -16,10 +16,11 @@ shoot: {
     7, 1, 0
   ]
 }
-consumes: {
-  coolant: {
-    amount: 0.6
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.6
 }
 coolantMultplier: 0.4
 researchCostMultiplier: 0.5
