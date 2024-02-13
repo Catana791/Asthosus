@@ -6,7 +6,7 @@ legForwardScl: 0.56
 legMoveSpace: 0.9
 hovering: true
 groundLayer: 60
-name: Thetha
+name: Theta
 description: Defends the Substratum core. Builds structures and mines ores. 
 health: 200
 armor: 2
