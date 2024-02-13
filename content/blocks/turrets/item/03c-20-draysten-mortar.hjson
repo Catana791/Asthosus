@@ -65,7 +65,7 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 420
+    splashDamage: 480
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -94,7 +94,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 75
+        splashDamage: 90
       }
     }
   }
@@ -107,7 +107,7 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 500
+    splashDamage: 540
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -136,7 +136,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 90
+        splashDamage: 110
       }
     }
   }
@@ -149,7 +149,7 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 580
+    splashDamage: 610
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -178,7 +178,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 115
+        splashDamage: 135
       }
     }
   }
