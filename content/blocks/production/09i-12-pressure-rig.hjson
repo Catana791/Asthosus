@@ -11,7 +11,7 @@ baseEfficiency: 0
 generateEffect: turbinegenerate
 effectChance: 0.025
 squareSprite: false
-minEfficiency: 6
+minEfficiency: 4
 explodeOnFull: false
 researchCostMultiplier: 0.5
 category: crafting
