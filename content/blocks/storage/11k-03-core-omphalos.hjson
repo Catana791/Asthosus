@@ -1,5 +1,6 @@
 type: CoreBlock
 name: Core: Omphalos
+description: Core of the base. Excellently armored and stores massive amounts of items.
 requirements: [
   01a-01-item-ferrinite/8000
   01a-02-item-demetite/8000
