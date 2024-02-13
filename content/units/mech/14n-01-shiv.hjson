@@ -53,6 +53,7 @@ abilities: [
     {  
       x: 0
       y: 0
+      display: false
       rotate: false
       mirror: false
       reload: 210
