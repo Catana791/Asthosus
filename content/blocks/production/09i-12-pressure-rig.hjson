@@ -6,7 +6,6 @@ size: 3
 hasLiquids: true
 squareSprite: false
 outputLiquid: 02b-01-pressure/0.15
-displayEfficiencyScale: 0.11111111111
 baseEfficiency: 0
 generateEffect: turbinegenerate
 effectChance: 0.025
