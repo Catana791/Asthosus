@@ -1,6 +1,6 @@
 type: crawl
 name: Hirude
-description: Defends the Silex core. Has very little offensive capabilities but is able to build, mine and support. 
+description: Defends the Silex core. Has no offensive capabilities but is able to build, mine and support. 
 health: 380
 speed: 3
 armor: 4
