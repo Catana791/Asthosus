@@ -1,0 +1,9 @@
+name: Cold Obsidian Vent
+type: SteamVent
+blendGroup: cold-obsidian-floor
+parent: cold-obsidian-floor
+effect: ventSteam
+effectColor: 52495a
+attributes: {
+   heat: 0.11111111
+}
