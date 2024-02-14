@@ -1,6 +1,20 @@
 type: Constructor
 name: Progressive Component Assembler
-description: Crafts advanced components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+description: 
+'''
+  Crafts advanced components used for unit assembly. Requires power and pressure. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Typhoon
+    - Concite
+    - Barite Wall
+    - Large Barite Wall
+    - Crosium Wall
+    - Large Crosium Wall
+    - Restoration Dome
+    - Barrier Projector
+''' 
 size: 5
 category: units
 requirements: [
