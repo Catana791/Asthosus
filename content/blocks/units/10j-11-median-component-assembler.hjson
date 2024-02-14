@@ -1,6 +1,27 @@
 type: Constructor
 name: Median Component Assembler
-description: Crafts components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+description: 
+'''
+  Crafts components used for unit assembly. Requires power and pressure. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Subtile
+    - Instauro
+    - Accendret
+    - Lithium Wall
+    - Large Lithium Wall
+    - Lodestone Wall
+    - Large Lodestone Wall
+    - Obsidian Wall
+    - Large Obsidian Wall
+    - Barite Wall
+    - Large Barite Wall
+    - Restoration Projector
+    - Restoration Dome
+    - Mechanical Joint
+    - Large Missile Autoforge
+'''
 size: 4
 category: units
 requirements: [
