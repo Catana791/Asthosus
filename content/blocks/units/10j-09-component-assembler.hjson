@@ -1,6 +1,20 @@
 type: Constructor
 name: Elementary Component Assembler
-description: Crafts very basic components used for unit assembly. Requires power. Conducts power to blocks it touches.
+description: 
+''' 
+  Crafts very basic components used for unit assembly. Requires power. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Catapult
+    - Spray
+    - Singe
+    - Lithium Wall
+    - Large Lithium Wall
+    - Lodestone Wall
+    - Large Lodestone Wall
+    - Freight Conveyor
+''' 
 size: 3
 category: units
 requirements: [
