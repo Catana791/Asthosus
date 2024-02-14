@@ -1,6 +1,25 @@
 type: Constructor
 name: Cumulative Component Assembler
-description: Crafts high-tier components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+description: 
+'''
+  Crafts high-tier components used for unit assembly. Requires power and pressure. 
+  Conducts power to blocks it touches.
+
+  Recipes:
+    - Draysten Mortar
+    - Missile Battery
+    - Subtile
+    - Barite Wall
+    - Large Barite Wall
+    - Crosium Wall
+    - Large Crosium Wall
+    - Projector Wall
+    - Large Projector Wall
+    - Draysten Wall
+    - Large Draysten Wall
+    - Restoration Dome
+    - Barrier Projector
+'''
 size: 5
 category: units
 requirements: [
