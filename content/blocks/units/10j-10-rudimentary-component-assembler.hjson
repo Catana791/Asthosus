@@ -1,6 +1,25 @@
 type: Constructor
 name: Rudimentary Component Assembler
-description: Crafts basic components used for unit assembly. Requires power and pressure. Conducts power to blocks it touches.
+description: 
+''' 
+  Crafts basic components used for unit assembly. Requires power and pressure. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Skip
+    - Depulse
+    - Billow
+    - Lithium Wall
+    - Large Lithium Wall
+    - Lodestone Wall
+    - Large Lodestone Wall
+    - Obsidian Wall
+    - Large Obsidian Wall
+    - Restoration Projector
+    - Freight Conveyor
+    - Mechanical Joint
+    - Missile Autoforge
+''' 
 size: 3
 category: units
 requirements: [
