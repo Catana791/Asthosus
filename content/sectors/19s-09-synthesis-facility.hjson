@@ -1,0 +1,16 @@
+localizedName: Synthesis Facility
+description: The enemy is coming from two sides here. Venture into the creation of Crosium and defend this challenging sector. 
+difficulty: 7
+planet: asthosus
+sector: 12
+captureWave: 35
+research: {
+  parent: 19s-07-detriment-valley
+  objectives: [
+    01a-12-item-crosium,
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}
