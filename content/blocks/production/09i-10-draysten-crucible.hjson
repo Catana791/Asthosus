@@ -66,6 +66,20 @@ craftEffect: {
 outputItem: 01a-14-item-draysten/1
 category: crafting
 research: 09i-09-barite-loom
+research: {
+  parent: 09i-09-barite-loom  
+  objectives: [  
+    01a-13-item-barite-webbing,
+    {
+      type: SectorComplete
+      preset: 19s-09-synthesis-facility
+    }
+    {
+      type: OnSector
+      preset: 19s-10-furnace-settlement
+    }
+  ]
+}
 requirements: [
   01a-06-item-lodestone/220
   01a-07-item-lithium/200
