@@ -4,6 +4,19 @@ description: Creates Vesmonium using Barite and Lignite. Requires power and pres
 size: 3
 category: crafting
 research: 09i-08-crosium-infuser
+research: {
+  parent: 09i-08-crosium-infuser  
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+    {
+      type: OnSector
+      preset: 19s-08-defringed-webbery
+    }
+  ]
+}
 attribute: barite
 maxBoost: 1.25
 requirements: [
