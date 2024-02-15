@@ -6,6 +6,7 @@ description:
   Venture into the creation of Draysten and bring down this massive outpost.
 ''' 
 difficulty: 8
+captureWave: 20
 planet: asthosus
 sector: 9
 attackAfterWaves: true
