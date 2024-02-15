@@ -19,7 +19,19 @@ hasLiquids: true
 hasItems: true
 liquidCapacity: 30
 category: crafting
-research: 09i-02-lodestone-basin
+research: {
+  parent: 09i-02-lodestone-basin  
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+    {
+      type: OnSector
+      preset: 19s-09-synthesis-facility
+    }
+  ]
+}
 requirements: [
   01a-02-item-demetite/130
   01a-06-item-lodestone/110
