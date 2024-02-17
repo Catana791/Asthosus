@@ -32,7 +32,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-06-liquid-silicon-tetraflouride
+      drawLiquid: 02b-06-liquid-silicon-tetrafluoride
       padding: 3
     }
     {
