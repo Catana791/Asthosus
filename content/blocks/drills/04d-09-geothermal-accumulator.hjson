@@ -1,0 +1,44 @@
+type: AttributeCrafter
+attribute: heat
+name: Geothermal Accumulator
+description: Collects Silicon Tetrafluoride gas from vents to use in refinement processes. 
+size: 3
+hasLiquids: true
+squareSprite: false
+outputLiquid: 02b-06-liquid-silicon-tetraflouride/0.2
+displayEfficiencyScale: 1
+baseEfficiency: 0
+generateEffect: turbinegenerate
+effectChance: 0.025
+squareSprite: false
+minEfficiency: 1
+explodeOnFull: false
+researchCostMultiplier: 0.5
+category: crafting
+research: 04d-07-abrasion-quarry
+requirements: [
+  01a-01-item-ferrinite/40
+  01a-02-item-demetite/55
+  01a-09-item-obsidian/30
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+      spinSprite: true
+      rotateSpeed: 0.8
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-06-liquid-silicon-tetraflouride
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.05
