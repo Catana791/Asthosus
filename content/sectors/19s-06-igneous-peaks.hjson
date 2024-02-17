@@ -3,7 +3,7 @@ description: This sector has high-temperature biomes that contain a new resource
 captureWave: 50
 difficulty: 5
 planet: asthosus
-sector: 45
+sector: 7
 research: {
   parent: 19s-05-immist
   objectives: [
