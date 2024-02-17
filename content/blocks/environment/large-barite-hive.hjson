@@ -13,7 +13,7 @@ plans: [
   {
     unit: barite-stalker
     requirements: []
-    time: 15000
+    time: 12000
   }
 ]
 consumes: {}
