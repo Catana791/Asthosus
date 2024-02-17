@@ -15,7 +15,7 @@ smokeThreshold: 0.6
 flashThreshold: 0.75
 explosionRadius: 200
 explosionDamage: 4500
-explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion
+explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion]
 fuelItem: 01a-14-item-draysten
 consumes: {
   liquid: 02b-02-liquid-oasis-water/2
