@@ -18,7 +18,13 @@ outputItems: [
 ]
 category: crafting
 research: 04d-09-geothermal-accumulator
+researchCostMultiplier: 0.5
 squareSprite: false
+requirements: [
+  01a-01-item-ferrinite/70
+  01a-06-item-lodestone/45
+  01a-09-item-obsidian/40
+]
 drawer: {
   type: DrawMulti
   drawers: [
