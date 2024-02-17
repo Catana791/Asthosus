@@ -14,7 +14,7 @@ squareSprite: false
 minEfficiency: 1
 explodeOnFull: false
 researchCostMultiplier: 0.5
-category: crafting
+category: production
 research: 04d-07-abrasion-quarry
 requirements: [
   01a-01-item-ferrinite/40
