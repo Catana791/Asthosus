@@ -1,0 +1,33 @@
+type: NuclearReactor
+name: Draysten Destabilizer
+description: Utilizes fission power to split Draysten, allowing for extreme power output. Requires heavy cooling to prevent explosions.
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+explosionShake: 10
+itemCapacity: 20
+liquidCapacity: 280
+itemDuration: 420
+powerProduction: 100
+heating: 0.02
+smokeThreshold: 0.6
+flashThreshold: 0.75
+explosionRadius: 200
+explosionDamage: 4500
+fuelItem: 01a-14-item-draysten
+consumes: {
+  liquid: 02b-02-oasis-water/2
+  items: [
+    01a-14-item-draysten/1
+  ]
+}
+requirements: [
+  01a-01-item-ferrinite/3000
+  01a-06-item-lodestone/1850
+  01a-09-item-obsidian/1200
+  01a-13-item-barite-webbing/360
+  01a-14-item-draysten/85
+]
+category: power
+research: 07g-11-radiation-power-plant
