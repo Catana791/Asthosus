@@ -5,5 +5,5 @@ temperature: 0.9
 heatCapacity: 0.05
 explosivness: 0.25
 flammability: 0.3
-color: f8efe6
+color: e2cf7a
 research: 02b-01-pressure
