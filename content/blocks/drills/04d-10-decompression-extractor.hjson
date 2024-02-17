@@ -36,9 +36,17 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-06-liquid-silicon-tetrafluoride
       padding: 3
+      alpha: 0.75
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 3.25
     }
     {
       type: DrawBubbles
+      color: f8efe6
     }
     {
       type: DrawDefault
