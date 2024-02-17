@@ -17,7 +17,7 @@ explosionRadius: 200
 explosionDamage: 4500
 fuelItem: 01a-14-item-draysten
 consumes: {
-  liquid: 02b-02-oasis-water/2
+  liquid: 02b-02-liquid-oasis-water/2
   items: [
     01a-14-item-draysten/1
   ]
@@ -31,3 +31,20 @@ requirements: [
 ]
 category: power
 research: 07g-11-radiation-power-plant
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-liquid-oasis-water  
+      padding: 8
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
