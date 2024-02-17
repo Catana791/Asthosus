@@ -11,6 +11,7 @@ liquidCapacity: 280
 itemDuration: 420
 powerProduction: 100
 heating: 0.008
+squareSprite: false
 smokeThreshold: 0.6
 flashThreshold: 0.75
 explosionRadius: 200
