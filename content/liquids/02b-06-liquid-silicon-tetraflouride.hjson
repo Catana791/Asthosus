@@ -1,0 +1,9 @@
+name: Silicon Tetraflouride
+description: A highly dangerous gas used in production. 
+gas: true
+temperature: 0.9
+heatCapacity: 0.05
+explosivness: 0.25
+flammability: 0.3
+color: f8efe6
+research: 02b-01-pressure
