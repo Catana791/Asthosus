@@ -42,11 +42,11 @@ drawer: {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true
-      rotateSpeed: 3.25
+      rotateSpeed: 9
     }
     {
       type: DrawBubbles
-      color: f8efe6
+      color: e2cf7a
     }
     {
       type: DrawDefault
