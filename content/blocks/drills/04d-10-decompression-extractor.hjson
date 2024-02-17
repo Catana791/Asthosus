@@ -16,7 +16,7 @@ outputItems: [
   01a-02-item-demetite/3
   sand/2
 ]
-category: crafting
+category: production
 research: 04d-09-geothermal-accumulator
 researchCostMultiplier: 0.5
 squareSprite: false
