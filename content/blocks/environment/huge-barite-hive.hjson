@@ -13,7 +13,7 @@ plans: [
   {
     unit: barite-scourge
     requirements: []
-    time: 6000
+    time: 15000
   }
 ]
 consumes: {}
