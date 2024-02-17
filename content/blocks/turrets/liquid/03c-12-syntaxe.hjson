@@ -54,7 +54,7 @@ ammoTypes: {
     mixColorTo: bab4ae
     pierceCap: 1
     speed: 2
-    lifetime: 80
+    lifetime: 120
     puddleSize: 48
     despawnHit: true
     despawnSound: splash
