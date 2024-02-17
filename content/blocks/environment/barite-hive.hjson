@@ -13,7 +13,7 @@ plans: [
   {
     unit: barite-crawler
     requirements: []
-    time: 6000
+    time: 9000
   }
 ]
 consumes: {}
