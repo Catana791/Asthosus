@@ -3,7 +3,7 @@ name: Fulmination
 description: Fires homing rockets at enemies. 
 size: 3
 reload: 212
-range: 160
+range: 240
 targetAir: false
 targetGround: true
 moveWhileCharging: true
