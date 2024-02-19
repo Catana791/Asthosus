@@ -4,7 +4,7 @@ flying: true
 speed: 3
 useUnitCap: false
 physics: false
-lifetime: 54
+lifetime: 80
 rotateSpeed: 0.2
 trailLength: 5
 autoFindTarget: false
