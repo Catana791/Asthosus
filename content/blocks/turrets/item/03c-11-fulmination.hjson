@@ -2,7 +2,7 @@ type: ItemTurret
 name: Fulmination
 description: Fires homing rockets at enemies. 
 size: 3
-reload: 212
+reload: 220
 range: 240
 targetAir: false
 targetGround: true
