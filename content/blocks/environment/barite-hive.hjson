@@ -5,6 +5,7 @@ size: 2
 customShadow: true
 placeablePlayer: false
 drawTeamOverlay: false
+buildVisibility: editorOnly
 squareSprite: false
 unitCapModifier: 3
 health: 5000
