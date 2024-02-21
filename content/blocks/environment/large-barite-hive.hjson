@@ -7,6 +7,7 @@ placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
 unitCapModifier: 3
+buildVisibility: editorOnly
 health: 6000
 requirements: []
 plans: [
