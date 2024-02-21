@@ -20,6 +20,7 @@ shootX: 0
 shootY: 0
 shootCone: 360
 shootSound: none
+range: 32
 recoil: 0
 shootType: {
   instantDisappear: true
