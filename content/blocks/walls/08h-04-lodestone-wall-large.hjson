@@ -2,7 +2,7 @@ type: Wall
 name: Large Lodestone Wall
 description: A large wall made from Lodestone. 
 size: 2
-health: 1620
+health: 1680
 category: defense
 research: 08h-03-lodestone-wall-small
 requirements: [
