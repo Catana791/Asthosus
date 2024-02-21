@@ -25,7 +25,7 @@ shootType: {
   instantDisappear: true
   damage: 0
   splashDamage: 1
-  splashDamageRadius: 16
+  splashDamageRadius: 24
   status: asthosus-13m-02-status-radiated
   statusDuration: 90
   despawnEffect: none
@@ -33,7 +33,7 @@ shootType: {
   shootEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 8
+    sizeTo: 16
     strokeFrom: 2
     strokeTo: 0
   }
