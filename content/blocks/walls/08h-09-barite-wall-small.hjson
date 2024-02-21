@@ -27,13 +27,13 @@ shootType: {
   splashDamage: 1
   splashDamageRadius: 16
   status: asthosus-13m-02-status-radiated
-  statusDuration: 60
+  statusDuration: 90
   despawnEffect: none
   hitEffect: none
   shootEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 16
+    sizeTo: 8
     strokeFrom: 2
     strokeTo: 0
   }
