@@ -33,7 +33,7 @@ shootType: {
   shootEffect: {
     type: WaveEffect
     sizeFrom: 0
-    sizeTo: 16
+    sizeTo: 8
     strokeFrom: 2
     strokeTo: 0
   }
