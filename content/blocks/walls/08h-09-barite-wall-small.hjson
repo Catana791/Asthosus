@@ -5,17 +5,22 @@ size: 1
 health: 890
 category: defense
 research: 08h-07-obsidian-wall-small
+drawer: {
+  type: DrawTurret
+  basePrefix: affo23i4523cnwe928hvcn178vc84v2h1cvn-
+}
 requirements: [
   01a-11-item-barite/6
 ]
 researchCostMultiplier: 0.5
 reload: 60
 rotateSpeed: 0
-shootEffect: none
 smokeEffect: none
 shootX: 0
 shootY: 0
 shootCone: 360
+shootSound: none
+recoil: 0
 shootType: {
   instantDisappear: true
   damage: 0
@@ -23,5 +28,14 @@ shootType: {
   splashDamageRadius: 16
   status: asthosus-13m-02-status-radiated
   statusDuration: 60
+  despawnEffect: none
+  hitEffect: none
+  shootEffect: {
+    type: WaveEffect
+    sizeFrom: 0
+    sizeTo: 16
+    strokeFrom: 2
+    strokeTo: 0
+  }
 }
 consumes: { }
