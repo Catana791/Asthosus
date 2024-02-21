@@ -6,6 +6,7 @@ customShadow: true
 placeablePlayer: false
 drawTeamOverlay: false
 squareSprite: false
+buildVisibility: editorOnly
 unitCapModifier: 3
 health: 7000
 requirements: []
