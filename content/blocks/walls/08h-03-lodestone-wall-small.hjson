@@ -2,7 +2,7 @@ type: Wall
 name: Lodestone Wall
 description: A wall made from Lodestone. 
 size: 1
-health: 400
+health: 440
 category: defense
 research: 08h-01-ferrinite-wall-small
 requirements: [
