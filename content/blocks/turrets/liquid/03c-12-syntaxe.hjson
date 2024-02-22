@@ -62,4 +62,42 @@ ammoTypes: {
     status: asthosus-13m-02-status-radiated
     statusDuration: 120
   }
+  01a-13-item-barite-webbing: {
+    type: LiquidBulletType
+    orbSize: 4
+    liquid: 02b-04-liquid-liquid-barite
+    damage: 210
+    pierce: true
+    knockback: 1
+    mixColorFrom: f8efe6
+    mixColorTo: bab4ae
+    pierceCap: 1
+    speed: 2
+    lifetime: 120
+    puddleSize: 48
+    despawnHit: true
+    despawnSound: splash
+    layer: 99
+    status: asthosus-13m-02-status-radiated
+    statusDuration: 240
+  }
+  01a-14-item-draysten: {
+    type: LiquidBulletType
+    orbSize: 4
+    liquid: 02b-04-liquid-liquid-barite
+    damage: 260
+    pierce: true
+    knockback: 1
+    mixColorFrom: f8efe6
+    mixColorTo: bab4ae
+    pierceCap: 1
+    speed: 2
+    lifetime: 120
+    puddleSize: 48
+    despawnHit: true
+    despawnSound: splash
+    layer: 99
+    status: asthosus-13m-02-status-radiated
+    statusDuration: 300
+  }
 }
