@@ -1,0 +1,24 @@
+localizedName: Omega
+description: 
+''' 
+  The enemy has cornered you with the full brunt of their forces. Survive the onslaught. Defend the core. Capture this planet for yourself.
+
+  Consider securing areas before building production. The enemy will not give up territory without a fight.
+''' 
+difficulty: 10
+captureWave: 50
+planet: asthosus
+sector: 20
+research: {
+  parent: 19s-10-furnace-settlement
+  objectives: [
+    01a-12-item-crosium,
+    01a-13-item-barite-webbing,
+    01a-14-item-draysten,
+    03c-16-concite,
+    {
+      type: SectorComplete
+      preset: 19s-10-furnace-settlement
+    }
+  ]
+}
