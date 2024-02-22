@@ -8,7 +8,7 @@ description:
 difficulty: 10
 captureWave: 50
 planet: asthosus
-sector: 21
+sector: 20
 research: {
   parent: 19s-10-furnace-settlement
   objectives: [
