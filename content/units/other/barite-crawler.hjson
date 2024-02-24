@@ -6,7 +6,7 @@ legSpeed: 0.23
 hovering: true
 name: Barite Crawler
 description: A strange lifeform that was born in Asthosus' radioactive biomes.
-health: 280
+health: 300
 armor: 4
 speed: 1.2
 stepShake: 0
