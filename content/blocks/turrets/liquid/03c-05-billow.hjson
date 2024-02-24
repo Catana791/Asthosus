@@ -31,7 +31,8 @@ ammoTypes: {
   02b-02-liquid-oasis-water: {
     despawnEffect: none
     hitEffect: none
-    type: BasicBulletType
+    type: LiquidBulletType
+    liquid: 02b-02-liquid-oasis-water
     mixColorTo: 54798b 
     mixColorFrom: 334751
     width: 9
@@ -48,7 +49,8 @@ ammoTypes: {
   02b-03-liquid-purified-oasis-water: {
     despawnEffect: none
     hitEffect: none
-    type: BasicBulletType
+    type: LiquidBulletType
+    liquid: 02b-03-liquid-purified-oasis-water
     mixColorTo: 54798b 
     mixColorFrom: 8ccced
     width: 9
@@ -59,6 +61,23 @@ ammoTypes: {
     status: wet
     status-duration: 180
     damage: 2
+    layer: 98
+    sprite: asthosus-drop-bullet
+  }
+  02b-04-liquid-liquid-barite: {
+    despawnEffect: none
+    hitEffect: none
+    type: BasicBulletType
+    mixColorTo: f8efe6 
+    mixColorFrom: bab4ae
+    width: 9
+    height: 12
+    speed: 1.5
+    lifetime: 80
+    knockback: 0.7
+    status: asthosus-13m-02-status-radiated
+    status-duration: 180
+    damage: 4
     layer: 98
     sprite: asthosus-drop-bullet
   }
