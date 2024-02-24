@@ -59,7 +59,8 @@ weapons: [
     rotate: true
     ejectEffect: casing1
     bullet: {
-      type: SapBulletType
+      type: SapBulletType  
+      collidesTiles: false
       damage: 24
       sapStrength: 0.3
       length: 80
@@ -78,6 +79,7 @@ weapons: [
     rotate: true
     ejectEffect: casing1
     bullet: {
+      collidesTiles: false
       type: SapBulletType
       damage: 26
       sapStrength: 0.3
