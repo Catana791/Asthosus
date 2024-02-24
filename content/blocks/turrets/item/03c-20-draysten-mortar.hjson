@@ -65,7 +65,7 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 540
+    splashDamage: 360
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -74,6 +74,93 @@ ammoTypes: {
     status: burning
     statusDuration: 240
     ammoMultiplier: 1
+    despawnSound: explosionbig
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 8
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2
+      lifetime: 10
+      damage: 0
+      collides: false
+      fragRandomSpread: 0
+      fragAngle: 90
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        splashDamageRadius: 16
+        killShooter: false
+        splashDamage: 40
+        fragBullets: 1
+        fragRandomSpread: 0
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullet: {
+          type: ArtilleryBulletType
+          speed: 2
+          lifetime: 10
+          damage: 0
+          collides: false
+          fragRandomSpread: 0
+          fragAngle: 90
+          fragBullets: 1
+          fragBullet: {
+            type: ExplosionBulletType
+            splashDamageRadius: 16
+            killShooter: false
+            splashDamage: 35
+            fragBullet: {
+              type: ArtilleryBulletType
+              speed: 2
+              lifetime: 10
+              damage: 0
+              collides: false
+              fragRandomSpread: 0
+              fragAngle: 90
+              fragBullets: 1
+              fragBullets: 1
+              fragRandomSpread: 0
+              fragLifeMin: 1
+              fragLifeMax: 1
+              fragVelocityMin: 1
+              fragVelocityMax: 1
+              fragBullet: {
+                type: ExplosionBulletType
+                splashDamageRadius: 12
+                killShooter: false
+                splashDamage: 30
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  01a-13-item-barite-webbing: {
+    ammoMultiplier: 2
+    type: ArtilleryBulletType
+    trailChance: -1
+    trailWidth: 2.2
+    trailLength: 18
+    speed: 2
+    lifetime: 120
+    width: 12
+    height: 20
+    splashDamage: 380
+    splashDamageRadius: 40
+    splashDamagePierce: true
+    incendChance: 1
+    incendAmount: 8
+    incendSpread: 2
+    status: melting
+    statusDuration: 300
     despawnSound: explosionbig
     fragRandomSpread: 0
     fragSpread: 45
@@ -133,9 +220,9 @@ ammoTypes: {
               fragVelocityMax: 1
               fragBullet: {
                 type: ExplosionBulletType
-                splashDamageRadius: 12
                 killShooter: false
                 splashDamage: 50
+                splashDamageRadius: 12
               }
             }
           }
@@ -143,8 +230,8 @@ ammoTypes: {
       }
     }
   }
-  01a-13-item-barite-webbing: {
-    ammoMultiplier: 2
+  01a-14-item-draysten: {
+    ammoMultiplier: 3
     type: ArtilleryBulletType
     trailChance: -1
     trailWidth: 2.2
@@ -153,14 +240,14 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 580
+    splashDamage: 420
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
     incendAmount: 8
     incendSpread: 2
     status: melting
-    statusDuration: 300
+    statusDuration: 360
     despawnSound: explosionbig
     fragRandomSpread: 0
     fragSpread: 45
@@ -220,96 +307,9 @@ ammoTypes: {
               fragVelocityMax: 1
               fragBullet: {
                 type: ExplosionBulletType
+                splashDamageRadius: 12
                 killShooter: false
                 splashDamage: 60
-                splashDamageRadius: 12
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  01a-14-item-draysten: {
-    ammoMultiplier: 3
-    type: ArtilleryBulletType
-    trailChance: -1
-    trailWidth: 2.2
-    trailLength: 18
-    speed: 2
-    lifetime: 120
-    width: 12
-    height: 20
-    splashDamage: 640
-    splashDamageRadius: 40
-    splashDamagePierce: true
-    incendChance: 1
-    incendAmount: 8
-    incendSpread: 2
-    status: melting
-    statusDuration: 360
-    despawnSound: explosionbig
-    fragRandomSpread: 0
-    fragSpread: 45
-    fragLifeMin: 1
-    fragLifeMax: 1
-    fragVelocityMin: 1
-    fragVelocityMax: 1
-    fragBullets: 8
-    fragBullet: {
-      type: ArtilleryBulletType
-      speed: 2
-      lifetime: 10
-      damage: 0
-      collides: false
-      fragRandomSpread: 0
-      fragAngle: 90
-      fragBullets: 1
-      fragBullet: {
-        type: ExplosionBulletType
-        splashDamageRadius: 16
-        killShooter: false
-        splashDamage: 80
-        fragBullets: 1
-        fragRandomSpread: 0
-        fragLifeMin: 1
-        fragLifeMax: 1
-        fragVelocityMin: 1
-        fragVelocityMax: 1
-        fragBullet: {
-          type: ArtilleryBulletType
-          speed: 2
-          lifetime: 10
-          damage: 0
-          collides: false
-          fragRandomSpread: 0
-          fragAngle: 90
-          fragBullets: 1
-          fragBullet: {
-            type: ExplosionBulletType
-            splashDamageRadius: 16
-            killShooter: false
-            splashDamage: 75
-            fragBullet: {
-              type: ArtilleryBulletType
-              speed: 2
-              lifetime: 10
-              damage: 0
-              collides: false
-              fragRandomSpread: 0
-              fragAngle: 90
-              fragBullets: 1
-              fragBullets: 1
-              fragRandomSpread: 0
-              fragLifeMin: 1
-              fragLifeMax: 1
-              fragVelocityMin: 1
-              fragVelocityMax: 1
-              fragBullet: {
-                type: ExplosionBulletType
-                splashDamageRadius: 12
-                killShooter: false
-                splashDamage: 70
               }
             }
           }
