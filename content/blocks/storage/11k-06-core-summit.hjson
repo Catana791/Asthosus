@@ -17,4 +17,4 @@ itemCapacity: 15000
 unitCapModifier: 28
 category: effect
 research: 11k-05-core-silex
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.0125
