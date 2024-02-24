@@ -144,6 +144,7 @@ ammoTypes: {
     }
   }
   01a-13-item-barite-webbing: {
+    ammoMultiplier: 2
     type: ArtilleryBulletType
     trailChance: -1
     trailWidth: 2.2
@@ -158,9 +159,8 @@ ammoTypes: {
     incendChance: 1
     incendAmount: 8
     incendSpread: 2
-    status: burning
+    status: melting
     statusDuration: 300
-    ammoMultiplier: 1
     despawnSound: explosionbig
     fragRandomSpread: 0
     fragSpread: 45
@@ -231,6 +231,7 @@ ammoTypes: {
     }
   }
   01a-14-item-draysten: {
+    ammoMultiplier: 3
     type: ArtilleryBulletType
     trailChance: -1
     trailWidth: 2.2
@@ -245,9 +246,8 @@ ammoTypes: {
     incendChance: 1
     incendAmount: 8
     incendSpread: 2
-    status: burning
-    statusDuration: 240
-    ammoMultiplier: 1
+    status: melting
+    statusDuration: 360
     despawnSound: explosionbig
     fragRandomSpread: 0
     fragSpread: 45
