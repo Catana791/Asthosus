@@ -8,7 +8,7 @@ name: Barite Scourge
 description: A strange lifeform that was born in Asthosus' radioactive biomes.
 health: 1700
 armor: 4
-speed: 1.2
+speed: 0.8
 drawCell: false
 useUnitCap: false
 stepShake: 0
