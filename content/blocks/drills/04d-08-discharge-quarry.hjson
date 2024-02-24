@@ -5,6 +5,7 @@ size: 4
 hardnessDrillMultiplier: 150
 category: production
 research: 04d-07-abrasion-quarry
+hasLiquids: false
 drillTime: 240
 tier: 4
 shake: 3
