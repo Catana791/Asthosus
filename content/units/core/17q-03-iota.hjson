@@ -13,8 +13,7 @@ mineFloor: true
 mineWalls: true
 legLengthScl: 0.96
 rippleScale: 2
-legSplashDamage: 16
-legSplashRange: 16
+legSplashDamage: 0
 drownTimeMultiplier: 2
 rotateSpeed: 2.7
 hovering: true
