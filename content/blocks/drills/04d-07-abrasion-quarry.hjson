@@ -6,6 +6,7 @@ hardnessDrillMultiplier: 150
 category: production
 research: 04d-06-friction-quarry-large
 drillTime: 200
+hasLiquids: false
 tier: 4
 shake: 2
 drillMultipliers: {
