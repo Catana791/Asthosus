@@ -8,6 +8,7 @@ description:
   Recipes: 
     - Typhoon
     - Concite
+    - Myriad
     - Barite Wall
     - Large Barite Wall
     - Crosium Wall
@@ -37,6 +38,7 @@ buildSpeed: 2
 filter: [
   03c-15-typhoon,
   03c-16-concite,
+  03c-14-myriad,
   08h-09-barite-wall-small, 
   08h-10-barite-wall-large, 
   08h-11-crosium-wall-small, 
