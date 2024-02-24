@@ -1,11 +1,12 @@
 type: GenericCrafter
 name: Oasis Water Sieve
-description: Purifies Oasis Water to create Purified Oasis Water.
+description: Purifies Oasis Water to create Purified Oasis Water. Outputs sand as a byproduct.
 size: 2
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
 outputLiquid: 02b-03-liquid-purified-oasis-water/0.1
+outputItem: sand/1
 consumes: {
   liquid: 02b-02-liquid-oasis-water/0.2
 }
