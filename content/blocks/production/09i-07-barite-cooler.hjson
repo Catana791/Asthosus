@@ -32,8 +32,8 @@ drawer: {
 consumes: {
   power: 1
   liquids: [
-    02b-04-liquid-liquid-barite/0.4
-    02b-02-liquid-oasis-water/0.2
+    02b-04-liquid-liquid-barite/0.26666666667
+    02b-02-liquid-oasis-water/0.15
   ]
 }
 craftTime: 120
