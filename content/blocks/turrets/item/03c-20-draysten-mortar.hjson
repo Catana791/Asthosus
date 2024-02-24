@@ -246,7 +246,7 @@ ammoTypes: {
     incendAmount: 8
     incendSpread: 2
     status: burning
-    statusDuration: 360
+    statusDuration: 240
     ammoMultiplier: 1
     despawnSound: explosionbig
     fragRandomSpread: 0
@@ -290,12 +290,6 @@ ammoTypes: {
             splashDamageRadius: 16
             killShooter: false
             splashDamage: 75
-            fragBullets: 1
-            fragRandomSpread: 0
-            fragLifeMin: 1
-            fragLifeMax: 1
-            fragVelocityMin: 1
-            fragVelocityMax: 1
             fragBullet: {
               type: ArtilleryBulletType
               speed: 2
@@ -305,11 +299,17 @@ ammoTypes: {
               fragRandomSpread: 0
               fragAngle: 90
               fragBullets: 1
+              fragBullets: 1
+              fragRandomSpread: 0
+              fragLifeMin: 1
+              fragLifeMax: 1
+              fragVelocityMin: 1
+              fragVelocityMax: 1
               fragBullet: {
                 type: ExplosionBulletType
+                splashDamageRadius: 12
                 killShooter: false
                 splashDamage: 70
-                splashDamageRadius: 12
               }
             }
           }
