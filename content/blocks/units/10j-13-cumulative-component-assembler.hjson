@@ -6,9 +6,9 @@ description:
   Conducts power to blocks it touches.
 
   Recipes:
+    - Verite
     - Draysten Mortar
     - Missile Battery
-    - Verite
     - Barite Wall
     - Large Barite Wall
     - Crosium Wall
@@ -41,9 +41,9 @@ consumes: {
 }
 buildSpeed: 2
 filter: [
-  03c-20-draysten-mortar,
+  03c-18-verite,
   03c-19-missile-battery, 
-  03c-18-verite, 
+  03c-20-draysten-mortar,
   08h-09-barite-wall-small, 
   08h-10-barite-wall-large, 
   08h-11-crosium-wall-small, 
@@ -52,8 +52,8 @@ filter: [
   08h-14-webbing-wall-large, 
   08h-15-draysten-wall-small, 
   08h-16-draysten-wall-large,
-  11k-11-restoration-dome, 
-  11k-09-barrier-projector
+  11k-09-barrier-projector,
+  11k-11-restoration-dome
 ]
 research: 10j-12-progressive-component-assembler
 squareSprite: false
