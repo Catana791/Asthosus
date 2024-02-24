@@ -2,6 +2,7 @@ type: NuclearReactor
 name: Draysten Destabilizer
 description: Utilizes fission power to split Draysten, allowing for extreme power output. Requires heavy cooling to prevent explosions.
 size: 5
+researchCostMultiplier: 0.05
 hasPower: true
 hasLiquids: true
 hasItems: true
