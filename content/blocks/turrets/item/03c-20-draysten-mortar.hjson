@@ -94,7 +94,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 70
+        splashDamage: 60
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -113,7 +113,28 @@ ammoTypes: {
           fragBullet: {
             type: ExplosionBulletType
             killShooter: false
-            splashDamage: 70
+            splashDamage: 55
+            fragBullet: {
+              type: ArtilleryBulletType
+              speed: 2
+              lifetime: 10
+              damage: 0
+              collides: false
+              fragRandomSpread: 0
+              fragAngle: 90
+              fragBullets: 1
+              fragBullets: 1
+              fragRandomSpread: 0
+              fragLifeMin: 1
+              fragLifeMax: 1
+              fragVelocityMin: 1
+              fragVelocityMax: 1
+              fragBullet: {
+                type: ExplosionBulletType
+                killShooter: false
+                splashDamage: 50
+              }
+            }
           }
         }
       }
@@ -148,7 +169,7 @@ ammoTypes: {
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2
-      lifetime: 15
+      lifetime: 10
       damage: 0
       collides: false
       fragRandomSpread: 0
@@ -157,7 +178,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 85
+        splashDamage: 70
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -176,7 +197,28 @@ ammoTypes: {
           fragBullet: {
             type: ExplosionBulletType
             killShooter: false
-            splashDamage: 85
+            splashDamage: 65
+            fragBullet: {
+              type: ArtilleryBulletType
+              speed: 2
+              lifetime: 10
+              damage: 0
+              collides: false
+              fragRandomSpread: 0
+              fragAngle: 90
+              fragBullets: 1
+              fragBullets: 1
+              fragRandomSpread: 0
+              fragLifeMin: 1
+              fragLifeMax: 1
+              fragVelocityMin: 1
+              fragVelocityMax: 1
+              fragBullet: {
+                type: ExplosionBulletType
+                killShooter: false
+                splashDamage: 60
+              }
+            }
           }
         }
       }
@@ -211,7 +253,7 @@ ammoTypes: {
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2
-      lifetime: 15
+      lifetime: 10
       damage: 0
       collides: false
       fragRandomSpread: 0
@@ -220,7 +262,7 @@ ammoTypes: {
       fragBullet: {
         type: ExplosionBulletType
         killShooter: false
-        splashDamage: 105
+        splashDamage: 80
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -239,7 +281,28 @@ ammoTypes: {
           fragBullet: {
             type: ExplosionBulletType
             killShooter: false
-            splashDamage: 105
+            splashDamage: 75
+            fragBullets: 1
+            fragRandomSpread: 0
+            fragLifeMin: 1
+            fragLifeMax: 1
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragBullet: {
+              type: ArtilleryBulletType
+              speed: 2
+              lifetime: 10
+              damage: 0
+              collides: false
+              fragRandomSpread: 0
+              fragAngle: 90
+              fragBullets: 1
+              fragBullet: {
+                type: ExplosionBulletType
+                killShooter: false
+                splashDamage: 70
+              }
+            }
           }
         }
       }
