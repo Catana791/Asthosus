@@ -233,7 +233,7 @@ ammoTypes: {
     lifetime: 120
     width: 12
     height: 20
-    splashDamage: 610
+    splashDamage: 640
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
