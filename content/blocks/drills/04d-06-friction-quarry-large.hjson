@@ -10,6 +10,7 @@ hasPower: false
 tier: 3
 shake: 1
 itemCapacity: 30
+hasLiquids: false
 researchCostMultiplier: 0.5
 drillEffect: {
   type: WaveEffect
