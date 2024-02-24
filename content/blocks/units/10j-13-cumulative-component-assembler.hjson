@@ -8,7 +8,7 @@ description:
   Recipes:
     - Draysten Mortar
     - Missile Battery
-    - Subtile
+    - Verite
     - Barite Wall
     - Large Barite Wall
     - Crosium Wall
@@ -43,7 +43,7 @@ buildSpeed: 2
 filter: [
   03c-20-draysten-mortar,
   03c-19-missile-battery, 
-  03c-07-subtile, 
+  03c-18-verite, 
   08h-09-barite-wall-small, 
   08h-10-barite-wall-large, 
   08h-11-crosium-wall-small, 
