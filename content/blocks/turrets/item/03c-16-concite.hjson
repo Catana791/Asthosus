@@ -68,7 +68,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 60
+    damage: 50
     pierce: true
     pierceCap: 5
     keepVelocity: false
@@ -94,7 +94,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 88
+    damage: 72
     pierce: true
     pierceCap: 6
     keepVelocity: false
@@ -120,7 +120,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 126
+    damage: 98
     pierce: true
     pierceCap: 6
     keepVelocity: false
