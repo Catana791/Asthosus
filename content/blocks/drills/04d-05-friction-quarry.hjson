@@ -3,6 +3,7 @@ name: Friction Quarry
 description: Uses small scale friction explosions to mine basic materials from the ground.
 size: 1
 category: production
+hasLiquids: false
 research: {
   parent: 04d-02-demetite-mining-unit
   objectives: [
