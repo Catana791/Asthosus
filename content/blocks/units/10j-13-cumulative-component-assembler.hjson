@@ -58,4 +58,4 @@ filter: [
 research: 10j-12-progressive-component-assembler
 squareSprite: false
 conductivePower: true
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.05
