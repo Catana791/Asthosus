@@ -74,7 +74,6 @@ weapons: [
   }
   {
     name: large-eye
-    outlines: false
     top: false
     x: -10
     y: 5
@@ -93,7 +92,6 @@ weapons: [
   }
   {
     name: large-eye
-    outlines: false
     top: false
     x: -3
     y: 7.5
@@ -112,7 +110,6 @@ weapons: [
   }
   {
     name: large-eye
-    outlines: false
     top: false
     x: -2
     y: 14
@@ -131,7 +128,6 @@ weapons: [
   }
   {
     name: large-eye
-    outlines: false
     top: false
     x: -10
     y: 9.5
@@ -150,7 +146,6 @@ weapons: [
   }
   {
     name: large-eye
-    outlines: false
     top: false
     x: 4.5
     y: 8.5
@@ -169,7 +164,6 @@ weapons: [
   }
   {
     name: large-eye
-    outlines: false
     top: false
     x: 7
     y: 4
@@ -188,7 +182,6 @@ weapons: [
   }
   {
     name: large-eye
-    outlines: false
     top: false
     x: 13
     y: 3.6
