@@ -66,14 +66,12 @@ drawer: {
       fill: false
       color: 1d1d1d
       spread: 7
-      reccurence: 3
     }
     {
       type: DrawBubbles
       fill: false
       color: 464646
       spread: 2
-      reccurence: 2
     }
     {
       type: DrawDefault
