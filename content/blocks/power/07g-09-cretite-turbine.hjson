@@ -19,7 +19,6 @@ consumes: {
   liquid: 02b-03-liquid-purified-oasis-water/0.2
 }
 itemDuration: 180
-generateEffectChance: 2
 generateEffectRange: 0
 generateEffect: {
   type: RadialEffect
