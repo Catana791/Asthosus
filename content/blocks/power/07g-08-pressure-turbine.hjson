@@ -16,7 +16,6 @@ hasLiquids: true
 liquidCapacity: 30
 itemDuration: 60
 powerProduction: 0.666666667
-layer: 118
 generateEffectRange: 0
 generateEffect: {
   type: RadialEffect
