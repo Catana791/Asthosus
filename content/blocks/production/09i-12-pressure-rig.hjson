@@ -8,11 +8,8 @@ squareSprite: false
 outputLiquid: 02b-01-pressure/0.15
 displayEfficiencyScale: 1
 baseEfficiency: 0
-generateEffect: turbinegenerate
-effectChance: 0.025
 squareSprite: false
 minEfficiency: 1
-explodeOnFull: false
 researchCostMultiplier: 0.5
 category: crafting
 research: 09i-13-expansion-tank
