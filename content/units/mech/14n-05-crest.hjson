@@ -80,7 +80,6 @@ weapons: [
       splashDamageRadius: 32
       sprite: large-orb
       trailChance: -1
-      trailSpacing: 4
       trailEffect: surgeCruciSmoke
       trailRotation: true
       trailLength: 21
