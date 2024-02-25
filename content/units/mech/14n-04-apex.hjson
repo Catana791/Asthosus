@@ -85,7 +85,6 @@ weapons: [
       knockback: -18
       homingPower: 0.002
       fragBullets: 3
-      fragVelocityRnd: 0
       fragLifeMin: 1
       fragLifeMax: 1
       fragVelocityMin: 1
@@ -116,7 +115,6 @@ weapons: [
           killShooter: false
           splashDamage: 90
           splashDamageRadius: 16
-          splashPierce: true
           buildingDamageMultiplier: 0.25
         }
       }
