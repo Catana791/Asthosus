@@ -29,7 +29,6 @@ shootType: {
   colors: [6b6763, 827f7c, a6a29f, cfcbc6, f5f0ec]
   shake: 0.5
 }
-shootShake: 0.5
 range: 176
 shootSound: none
 loopSound: laserbeam
