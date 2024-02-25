@@ -22,7 +22,7 @@ coolant: {
   allowLiquid: true
   amount: 0.6
 }
-coolantMultplier: 0.4
+coolantMultplier: 0.2
 researchCostMultiplier: 0.5
 range: 160
 outlineColor: 42413e
