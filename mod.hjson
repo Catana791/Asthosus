@@ -1,9 +1,23 @@
 name: "asthosus"
 description: 
 ''' 
-  A mod aiming to add a new planet with new content and mechanics and a new campaign.
+  A that adds a new planet, Asthosus, into the game.
+  
+  Asthosus is a deserted planet. A wasteland filled with danger.
+
+  It has a fully playable campaign with 11 campaign and 2 optional maps. 
+  2 more optional maps will be added in the future.
+
+  I aimed to re-use nearly no vanilla content and instead fill the mod 
+  with new and (hopefully) exciting things.
+
+  If you find any issues or want to tell me anything else,
+  feel free to join the Asthosus Discord server. 
+  The same thing goes for when you need help with this mod.
+
+  Enjoy!
 '''
-author: "Fresh791"
-minGameVersion: 144.1
-version: "E"
+author: "Catana791"
+minGameVersion: 146
+version: "1.0"
 displayName: "Asthosus"
