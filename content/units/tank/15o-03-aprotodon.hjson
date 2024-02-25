@@ -70,7 +70,6 @@ weapons: [
             colorTo: edc66c
             sizeFrom: 2.1
             baseRotation: 46
-            rotation: 72
             sizeTo: 0.6
             lifetime: 110
             interp: pow2In
@@ -81,7 +80,6 @@ weapons: [
           {  
             type: WaveEffect
             sides: 3
-            spin: -2
             lifetime: 110
             sizeFrom: 12
             sizeTo: 1
@@ -92,7 +90,6 @@ weapons: [
           {  
             type: WaveEffect
             sides: 4
-            spin: 2
             lifetime: 110
             strokeFrom: 1.1
             strokeTo: 0.3
@@ -109,7 +106,6 @@ weapons: [
             colorTo: edc66c
             sizeFrom: 0.6
             baseRotation: 46
-            rotation: 72
             sizeTo: 2.1
             lifetime: 110
             interp: pow2Out
