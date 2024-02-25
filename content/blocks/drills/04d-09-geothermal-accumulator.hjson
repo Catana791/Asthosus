@@ -8,11 +8,8 @@ squareSprite: false
 outputLiquid: 02b-06-liquid-silicon-tetrafluoride/0.2
 displayEfficiencyScale: 1
 baseEfficiency: 0
-generateEffect: turbinegenerate
-effectChance: 0.025
 squareSprite: false
 minEfficiency: 1
-explodeOnFull: false
 researchCostMultiplier: 0.5
 category: production
 research: 04d-07-abrasion-quarry
