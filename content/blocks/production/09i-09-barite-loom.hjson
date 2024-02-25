@@ -54,7 +54,6 @@ drawer: {
     }
     {
       type: DrawWeave
-      suffix: -frame0
     }
     {
       type: DrawMultiWeave
