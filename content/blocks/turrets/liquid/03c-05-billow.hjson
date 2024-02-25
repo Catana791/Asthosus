@@ -1,7 +1,6 @@
 type: LiquidTurret
 name: Billow
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
-blockFlags: [turret, extinguisher]
 size: 2
 reload: 4
 inaccuracy: 6
@@ -33,10 +32,6 @@ ammoTypes: {
     hitEffect: none
     type: LiquidBulletType
     liquid: 02b-02-liquid-oasis-water
-    mixColorTo: 54798b 
-    mixColorFrom: 334751
-    width: 9
-    height: 12
     speed: 1.5
     lifetime: 80
     knockback: 0.7
@@ -44,25 +39,19 @@ ammoTypes: {
     statusDuration: 120
     damage: 0
     layer: 98
-    sprite: asthosus-drop-bullet
   }
   02b-03-liquid-purified-oasis-water: {
     despawnEffect: none
     hitEffect: none
     type: LiquidBulletType
     liquid: 02b-03-liquid-purified-oasis-water
-    mixColorTo: 54798b 
-    mixColorFrom: 8ccced
-    width: 9
-    height: 12
     speed: 1.5
     lifetime: 80
     knockback: 0.7
     status: wet
-    status-duration: 180
+    statusDuration: 180
     damage: 2
     layer: 98
-    sprite: asthosus-drop-bullet
   }
   02b-04-liquid-liquid-barite: {
     despawnEffect: none
@@ -76,7 +65,7 @@ ammoTypes: {
     lifetime: 80
     knockback: 0.7
     status: asthosus-13m-02-status-radiated
-    status-duration: 180
+    statusDuration: 180
     damage: 4
     layer: 98
     sprite: asthosus-drop-bullet
