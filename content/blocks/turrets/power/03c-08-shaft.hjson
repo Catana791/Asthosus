@@ -17,8 +17,6 @@ loopSoundVolume: 0.5
 shootCone: 360
 chargeSound: short-laser-charge
 smokeEffect: shootSmokeSquareSparse
-updateEffect: shootSmokeSquareSparse
-updateEffectChance: 0.05
 consumes: {
   power: 2
   liquid: 02b-02-liquid-oasis-water/0.2
