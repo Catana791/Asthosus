@@ -55,7 +55,7 @@ drawer: {
       under: false
     }
     {
-      type: Regionpart
+      type: RegionPart
       suffix: -side
       mirror: true
       under: true
