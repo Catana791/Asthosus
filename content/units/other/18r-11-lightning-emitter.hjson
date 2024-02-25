@@ -21,7 +21,6 @@ weapons: [
   {
     shoot: {
       shots: 16
-      spread: 22.5
       shotDelay: 1
     }
     alwaysShooting: true
