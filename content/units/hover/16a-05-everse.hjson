@@ -118,7 +118,6 @@ weapons: [
       inaccuracy: 4
       splashDamage: 300
       splashDamageRadius: 40
-      splashPierce: true
       buildingDamageMultiplier: 0.5
       hitEffect: explosion
       endEffect: explosion
