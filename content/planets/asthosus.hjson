@@ -128,7 +128,6 @@ cloudMesh: [
   }
 ]
 generator: {
-  type: PlanetGenerator
   octaves: 3
   persistence: 0.52
   scale: 22
