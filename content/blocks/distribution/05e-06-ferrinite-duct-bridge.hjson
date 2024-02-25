@@ -12,6 +12,4 @@ research: 05e-05-ferrinite-duct-junction
 squareSprite: false
 range: 4
 speed: 4.285714
-arrowSpacing: 7
-bufferCapacity: 11
 researchCostMultiplier: 0.5
