@@ -35,7 +35,6 @@ weapons: [
       type: ExplosionBulletType
       despawnShake: 0
       hitShake: 0
-      shake: 0
       splashDamage: 18
       splashDamageRadius: 32
     }
