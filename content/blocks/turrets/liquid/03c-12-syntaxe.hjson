@@ -50,8 +50,6 @@ ammoTypes: {
     damage: 170
     pierce: true
     knockback: 1
-    mixColorFrom: f8efe6
-    mixColorTo: bab4ae
     pierceCap: 1
     speed: 2
     lifetime: 120
@@ -69,8 +67,6 @@ ammoTypes: {
     damage: 260
     pierce: true
     knockback: 1
-    mixColorFrom: f8efe6
-    mixColorTo: bab4ae
     pierceCap: 1
     speed: 2
     lifetime: 120
@@ -88,8 +84,6 @@ ammoTypes: {
     damage: 260
     pierce: true
     knockback: 1
-    mixColorFrom: f8efe6
-    mixColorTo: bab4ae
     pierceCap: 1
     speed: 2
     lifetime: 120
