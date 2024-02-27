@@ -9,6 +9,7 @@ description:
     - Subtile
     - Instauro
     - Accendret
+    - Fulmination
     - Lithium Wall
     - Large Lithium Wall
     - Lodestone Wall
@@ -41,6 +42,7 @@ filter: [
   03c-07-subtile, 
   03c-13-instauro, 
   03c-10-accendret,
+  03c-11-fulmination,
   08h-05-lithium-wall-small, 
   08h-06-lithium-wall-large, 
   08h-03-lodestone-wall-small, 
