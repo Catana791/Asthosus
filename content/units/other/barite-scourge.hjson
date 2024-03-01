@@ -10,10 +10,8 @@ health: 1700
 armor: 4
 speed: 0.8
 drawCell: false
-useUnitCap: false
 stepShake: 0
 hitSize: 28
-isEnemy: false
 drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
