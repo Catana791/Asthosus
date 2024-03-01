@@ -1,5 +1,5 @@
 type: MessageBlock
-name: Hardened Message
+name: Message Chip
 description: Stores a message for communication between allies.
 size: 1
 requirements: [
