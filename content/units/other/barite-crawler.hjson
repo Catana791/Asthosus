@@ -11,9 +11,7 @@ armor: 4
 speed: 1.2
 stepShake: 0
 drawCell: false
-useUnitCap: false
 hitSize: 16
-isEnemy: false
 drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
