@@ -1,0 +1,9 @@
+type: MessageBlock
+name: Hardened Message
+description: Stores a message for communication between allies.
+size: 1
+requirements: [
+  01a-06-item-lodestone/10
+]
+category: logic
+research: 12l-01-logic-chip
