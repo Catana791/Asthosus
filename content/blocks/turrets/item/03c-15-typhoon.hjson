@@ -113,6 +113,7 @@ ammoTypes: {
     ammoMultiplier: 9
   }
   01a-09-item-obsidian: {
+    reloadMultiplier: 0.66
     hitEffect: flakExplosion
     type: BasicBulletType
     inaccuracy: 6
