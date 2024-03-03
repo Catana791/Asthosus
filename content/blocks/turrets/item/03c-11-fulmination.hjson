@@ -48,7 +48,7 @@ ammoTypes: {
     ammoMultiplier: 2
   }
   01a-09-item-obsidian: {
-    reloadMultiplier: 0.66
+    reloadMultiplier: 0.666666666
     instantDisappear: true
     damage: 0
     spawnUnit: asthosus-18r-04-encased-shell
