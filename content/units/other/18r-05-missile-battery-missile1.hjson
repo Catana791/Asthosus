@@ -23,8 +23,8 @@ abilities: [
       line: true
       strokeFrom: 1.6
       strokeTo: 1
-      colorFrom: c67979
-      colorTo: 7e4a4a
+      colorFrom: dfb891
+      colorTo: a78b6f
     }
     rotateEffect: true
   }
