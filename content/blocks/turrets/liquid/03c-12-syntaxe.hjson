@@ -1,5 +1,7 @@
 type: ItemTurret
 name: Syntaxe
+heatRequirement: 3
+maxHeatEfficiency: 1.4
 description: Heats up and melts Barite to then fire at enemies, creating pools of liquid barite.
 size: 3
 squareSprite: false
