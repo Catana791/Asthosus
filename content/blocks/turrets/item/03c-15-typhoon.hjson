@@ -49,38 +49,6 @@ requirements: [
   01a-12-item-crosium/60
 ]
 ammoTypes: {
-  01a-01-item-ferrinite: {
-    reloadMultiplier: 0.8
-    hitEffect: flakExplosion
-    type: BasicBulletType
-    inaccuracy: 11
-    speed: 3
-    width: 11
-    height: 14
-    lifetime: 65
-    pierce: true
-    pierceCap: 1
-    damage: 4
-    splashDamage: 44
-    splashDamageRadius: 12
-    ammoMultiplier: 8
-  }
-  01a-02-item-demetite: {
-    reloadMultiplier: 0.85
-    hitEffect: flakExplosion
-    type: BasicBulletType
-    inaccuracy: 10
-    speed: 3
-    width: 11
-    height: 14
-    lifetime: 65
-    pierce: true
-    pierceCap: 1
-    damage: 8
-    splashDamage: 52
-    splashDamageRadius: 12
-    ammoMultiplier: 8
-  }
   01a-06-item-lodestone: {
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -91,8 +59,8 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 1
-    damage: 12
-    splashDamage: 58
+    damage: 4
+    splashDamage: 32
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
@@ -106,9 +74,9 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 2
-    damage: 13
+    damage: 6
     status: shocked
-    splashDamage: 60
+    splashDamage: 40
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
@@ -123,8 +91,8 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 2
-    damage: 13
-    splashDamage: 72
+    damage: 8
+    splashDamage: 42
     splashDamageRadius: 16
     ammoMultiplier: 10
     fragBullets: 4
@@ -138,8 +106,8 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 10
-      splashDamage: 12
+      damage: 8
+      splashDamage: 8
       splashDamageRadius: 4
     }
   }
@@ -154,8 +122,8 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 3
-    damage: 16
-    splashDamage: 86
+    damage: 8
+    splashDamage: 46
     splashDamageRadius: 22
     ammoMultiplier: 12
     fragBullets: 6
@@ -170,7 +138,7 @@ ammoTypes: {
       pierce: true
       pierceCap: 1
       damage: 10
-      splashDamage: 11
+      splashDamage: 10
       splashDamageRadius: 4
     }
   }
