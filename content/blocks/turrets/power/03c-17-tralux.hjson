@@ -19,7 +19,7 @@ outlineColor: 44413c
 shootType: {
   type: ContinuousLaserBulletType
   length: 176
-  damage: 28
+  damage: 31
   width: 2
   incendChance: 0
   incendAmount: 0
