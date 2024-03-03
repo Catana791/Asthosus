@@ -128,8 +128,8 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
-    damage: 22
-    splashDamage: 92
+    damage: 17
+    splashDamage: 82
     splashDamageRadius: 36
     status: shocked
     ammoMultiplier: 5
@@ -148,7 +148,7 @@ ammoTypes: {
       smokeEffect: shootSmallSmoke
       despawnHit: true
       damage: 3
-      splashDamage: 14
+      splashDamage: 12
       splashDamageRadius: 9
       status: shocked
       lightning: 3
