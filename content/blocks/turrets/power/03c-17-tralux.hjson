@@ -2,6 +2,8 @@ type: ContinuousTurret
 name: Tralux
 description: Fires a continuous rupturing beam of pure energy at enemies, radiating them. 
 size: 3
+heatRequirement: 3
+maxHeatEfficiency: 1.4
 category: turret
 researchCostMultiplier: 0.5
 research: 03c-09-cavalier
