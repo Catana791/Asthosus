@@ -42,7 +42,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       ammoMultiplier: 24
-      splashDamage: 40
+      splashDamage: 60
       splashDamageRadius: 32
     }
   } 
