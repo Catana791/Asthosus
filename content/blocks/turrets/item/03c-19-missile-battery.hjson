@@ -12,7 +12,7 @@ outlineColor: 42413e
 warmupMaintainTime: 90
 predictTarget: false
 shootCone: 360
-reload: 25
+reload: 20
 researchCostMultiplier: 0.5
 range: 250
 drawer: {
@@ -67,7 +67,7 @@ ammoTypes: {
     spawnUnit: asthosus-18r-05-missile-battery-missile
   }
   01a-14-item-draysten: {
-    ammoMultiplier: 16
+    ammoMultiplier: 18
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     instantDisappear: true
