@@ -1,10 +1,10 @@
 type: GenericCrafter
 name: Geode Cracker
-description: Cracks open Crystalline Geodes, removing the Ferrinite layer and turning the geode into useable Obsidian.
+description: Cracks open Crystalline Geodes, removing the Ferrinite layer and turning the geode into usable Obsidian.
 size: 2
 squareSprite: false
 category: production
-research: 04d-06-large-friction-quarry
+research: 04d-06-friction-quarry-large
 craftTime: 180
 requirements: [
   01a-01-item-ferrinite/30
