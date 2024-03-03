@@ -122,7 +122,7 @@ ammoTypes: {
     }
   }
   01a-09-item-obsidian: {
-    reloadMultiplier: 0.66
+    reloadMultiplier: 0.66666666666666
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
