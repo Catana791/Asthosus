@@ -58,21 +58,21 @@ shoot: {
 }
 ammoTypes: {
 01a-13-item-barite-webbing: {
-    ammoMultiplier: 8
+    ammoMultiplier: 12
     reloadMultiplier: 0.75
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     instantDisappear: true
     damage: 0
-    spawnUnit: asthosus-18r-05-missile-battery-missile
+    spawnUnit: asthosus-18r-05-missile-battery-missile1
   }
   01a-14-item-draysten: {
-    ammoMultiplier: 18
+    ammoMultiplier: 24
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     instantDisappear: true
     damage: 0
-    spawnUnit: asthosus-18r-05-missile-battery-missile
+    spawnUnit: asthosus-18r-06-missile-battery-missile2
   }
 }
 category: turret
