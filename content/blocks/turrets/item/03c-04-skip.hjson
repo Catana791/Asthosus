@@ -328,7 +328,7 @@ ammoTypes: {
     }
   }
    01a-09-item-obsidian: {
-    reloadMultiplier: 0.66
+    reloadMultiplier: 0.66666666666666
     //hitSound: dull-impact
     frontColor: b1b1b1
     backColor: 757575
