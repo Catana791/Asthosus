@@ -87,7 +87,7 @@ ammoTypes: {
     lightColor: 2e293a
     spin: 4
     layer: 99
-    ammoMultiplier: 6
+    ammoMultiplier: 2
   }
   01a-12-item-crosium: {
     hitEffect: plasticExplosion
@@ -113,7 +113,7 @@ ammoTypes: {
     lightOpacity: 0.7
     lightColor: 425b54
     spin: 4
-    ammoMultiplier: 16
+    ammoMultiplier: 6
   }
   01a-13-item-barite-webbing: {
     hitEffect: plasticExplosion
@@ -139,7 +139,7 @@ ammoTypes: {
     lightOpacity: 0.7
     lightColor: a78b6f
     spin: 4
-    ammoMultiplier: 18
+    ammoMultiplier: 8
   }
 }
 outlineColor: 42413e
