@@ -1,0 +1,7 @@
+name: Crystalline Geode
+description: Obsidian Crystals covered in thick layers of Ferrinite. Must be crushed to obtain useable Obsidian.
+hardness: 3
+cost: 1
+color: 3d354b
+research: 01a-02-item-demetite
+hiddenOnPlanets: [serpulo, erekir]
