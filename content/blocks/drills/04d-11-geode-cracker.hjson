@@ -22,4 +22,4 @@ outputItems: [
   01a-09-item-obsidian/4
 ]
 craftEffect: blastExplosion
-  
+researchCostMultiplier: 0.5
