@@ -57,4 +57,4 @@ drawer: {
   ]
 }
 itemCapacity: 50
-craftEffect: [smeltsmoke, turbineGenerate]
+craftEffect: [smeltsmoke, turbinegenerate]
