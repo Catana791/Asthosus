@@ -39,10 +39,12 @@ drawer: {
     {
       type: DrawParticles
       color: 3d354b
+      particleRad: 11
     }
     {
       type: DrawParticles
       color: e78f6c
+      particleRad: 11
     }
     {
       type: DrawDefault
@@ -50,7 +52,9 @@ drawer: {
     {
       type: DrawParticles
       color: 649197
+      particleRad: 9
     }
   ]
 }
 itemCapacity: 50
+craftEffect: [smeltsmoke, turbineGenerate]
