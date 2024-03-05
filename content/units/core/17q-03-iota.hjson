@@ -158,6 +158,7 @@ weapons: [
           lifetime: 32
           damage: 8
           splashDamage: 4
+          buildingDamageMultiplier: 0.01
           splashDamageRadius: 6
           width: 12
           height: 14
