@@ -1,0 +1,21 @@
+type: ParticleWeather
+name: Radiation Storm
+color: dad2ca
+noiseColor: dad2ca
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 140
+sizeMin: 70
+minAlpha: 0
+maxAlpha: 0.3
+density: 1500
+baseSpeed: 5.4
+attributes: {
+  light: -0.1
+}
+opacityMultiplier: 0.35
+force: 0.1
+sound: wind
+soundVol: 0.8
+duration: 4200
