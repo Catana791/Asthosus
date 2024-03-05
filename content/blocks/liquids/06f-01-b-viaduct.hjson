@@ -1,0 +1,17 @@
+type: Conduit
+name: Viaduct
+description: An Aqueduct with higher health and speed, made out of Obsidian.
+category: liquid
+research: 06f-01-aqueduct
+requirements: [
+  01a-07-item-lithium/1
+  01a-09-item-obsidian/1
+]
+health: 125
+leaks: false
+junctionReplacement: 06f-02-aqueduct-junction
+bridgeReplacement: 06f-04-aqueduct-bridge
+underBullets: true
+researchCostMultiplier: 0.5
+liquidPressure: 1.025
+liquidCapacity: 20
