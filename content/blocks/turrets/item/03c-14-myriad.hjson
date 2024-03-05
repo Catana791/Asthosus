@@ -48,8 +48,8 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
-    damage: 6
-    splashDamage: 32
+    damage: 4
+    splashDamage: 26
     splashDamageRadius: 24
     status: shocked
     ammoMultiplier: 3
@@ -68,11 +68,11 @@ ammoTypes: {
       smokeEffect: shootSmallSmoke
       despawnHit: true
       damage: 2
-      splashDamage: 10
+      splashDamage: 6
       splashDamageRadius: 9
       status: shocked
       lightning: 3
-      lightningDamage: 6
+      lightningDamage: 4
     }
   }
   01a-12-item-crosium: {
@@ -88,8 +88,8 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
-    damage: 8
-    splashDamage: 40
+    damage: 6
+    splashDamage: 32
     splashDamageRadius: 30
     status: shocked
     ammoMultiplier: 4
@@ -108,11 +108,11 @@ ammoTypes: {
       smokeEffect: shootSmallSmoke
       despawnHit: true
       damage: 2
-      splashDamage: 10
+      splashDamage: 6
       splashDamageRadius: 9
       status: shocked
       lightning: 2
-      lightningDamage: 10
+      lightningDamage: 8
     }
   }
   01a-13-item-barite-webbing: {
@@ -128,8 +128,8 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
-    damage: 8
-    splashDamage: 41
+    damage: 6
+    splashDamage: 36
     splashDamageRadius: 36
     status: shocked
     ammoMultiplier: 5
@@ -152,7 +152,7 @@ ammoTypes: {
       splashDamageRadius: 9
       status: shocked
       lightning: 3
-      lightningDamage: 10
+      lightningDamage: 8
     }
   }
 } 
