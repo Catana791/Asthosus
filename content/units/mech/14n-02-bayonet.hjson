@@ -10,7 +10,7 @@ outlineColor: 44413c
 mechLegColor: 44413c
   weapons: [
     {
-      x: 8
+      x: 9
       name: bayonet-weapon-mirror
         y: 0
         reload: 50
@@ -36,7 +36,7 @@ mechLegColor: 44413c
         }
     }
     {    
-      x: -8
+      x: -9
         y: 0
         name: bayonet-weapon
         reload: 87
