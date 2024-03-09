@@ -1,0 +1,113 @@
+name: Barite Geyser
+type: SteamVent
+blendGroup: liquid-barite-floor
+parent: liquid-barite-floor
+effectSpacing: 720
+effect: [ 
+  {
+    type: ParticleEffect
+    particles: 16
+    baseRotation: 90
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 24
+    baseLength: 6
+    colorFrom: 5d736d
+    colorTo: 8fb7ac
+    lifetime: 180
+    useRotation: false
+  }
+  {
+    type: ParticleEffect
+    particles: 18
+    baseRotation: 90
+    cone: 20
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 32
+    baseLength: 8
+    colorFrom: 5d736d
+    colorTo: 8fb7ac
+    lifetime: 180
+    useRotation: false
+    startDelay: 6
+  }
+  {
+    type: ParticleEffect
+    particles: 20
+    baseRotation: 90
+    cone: 18
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 40
+    baseLength: 10
+    colorFrom: 5d736d
+    colorTo: 8fb7ac
+    lifetime: 180
+    useRotation: false
+    startDelay: 8
+  }
+  {
+    type: ParticleEffect
+    particles: 20
+    baseRotation: 90
+    cone: 16
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 48
+    baseLength: 12
+    colorFrom: 5d736d
+    colorTo: 8fb7ac
+    lifetime: 180
+    useRotation: false
+    startDelay: 10
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 14
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 64
+    baseLength: 16
+    colorFrom: 5d736d
+    colorTo: 8fb7ac
+    lifetime: 180
+    useRotation: false
+    startDelay: 12
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 12
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 72
+    baseLength: 18
+    colorFrom: 5d736d
+    colorTo: 8fb7ac
+    lifetime: 180
+    useRotation: false
+    startDelay: 14
+  }
+  {
+    type: ParticleEffect
+    particles: 24
+    baseRotation: 90
+    cone: 10
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 80
+    baseLength: 20
+    colorFrom: 5d736d
+    colorTo: 8fb7ac
+    lifetime: 180
+    useRotation: false
+    startDelay: 16
+  }
+]
+cacheLayer: arkycit
+mapColor: 6e8f86
