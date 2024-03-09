@@ -23,5 +23,6 @@ description:
 '''
 author: "Catana791"
 minGameVersion: 146
-version: "1.0"
+version: "1.1"
 displayName: "Asthosus"
+subtitle: "Now with nicer biomes and more stuff!"
