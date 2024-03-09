@@ -1,4 +1,4 @@
 type: TallBlock
 name: Dead Bush
 variants: 2
-shadowAlpha: 0.4
+hasShadow: false
