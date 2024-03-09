@@ -40,6 +40,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-02-liquid-oasis-water
       padding: 1.5
+      alpha: 0.5
     }
     {
       type: DrawDefault
