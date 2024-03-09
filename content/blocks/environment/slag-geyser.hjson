@@ -1,0 +1,113 @@
+name: Oasis Geyser
+type: SteamVent
+blendGroup: molten-slag
+parent: molten-slag
+effectSpacing: 720
+effect: [ 
+  {
+    type: ParticleEffect
+    particles: 16
+    baseRotation: 90
+    cone: 22
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 24
+    baseLength: 6
+    colorFrom: b86338
+    colorTo: ff8142
+    lifetime: 180
+    useRotation: false
+  }
+  {
+    type: ParticleEffect
+    particles: 18
+    baseRotation: 90
+    cone: 20
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 32
+    baseLength: 8
+    colorFrom: b86338
+    colorTo: ff8142
+    lifetime: 180
+    useRotation: false
+    startDelay: 6
+  }
+  {
+    type: ParticleEffect
+    particles: 20
+    baseRotation: 90
+    cone: 18
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 40
+    baseLength: 10
+    colorFrom: b86338
+    colorTo: ff8142
+    lifetime: 180
+    useRotation: false
+    startDelay: 8
+  }
+  {
+    type: ParticleEffect
+    particles: 20
+    baseRotation: 90
+    cone: 16
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 48
+    baseLength: 12
+    colorFrom: b86338
+    colorTo: ff8142
+    lifetime: 180
+    useRotation: false
+    startDelay: 10
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 14
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 64
+    baseLength: 16
+    colorFrom: b86338
+    colorTo: ff8142
+    lifetime: 180
+    useRotation: false
+    startDelay: 12
+  }
+  {
+    type: ParticleEffect
+    particles: 22
+    baseRotation: 90
+    cone: 12
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 72
+    baseLength: 18
+    colorFrom: b86338
+    colorTo: ff8142
+    lifetime: 180
+    useRotation: false
+    startDelay: 14
+  }
+  {
+    type: ParticleEffect
+    particles: 24
+    baseRotation: 90
+    cone: 10
+    sizeFrom: 1.8
+    sizeTo: 0.2
+    length: 80
+    baseLength: 20
+    colorFrom: b86338
+    colorTo: ff8142
+    lifetime: 180
+    useRotation: false
+    startDelay: 16
+  }
+]
+cacheLayer: slag
+mapColor: b86338
