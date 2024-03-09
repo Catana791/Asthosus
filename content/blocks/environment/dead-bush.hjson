@@ -1,7 +1,3 @@
-type: TallBlock
-name: Red Sand Lump
+type: TreeBlock
+name: Dead Bush
 variants: 2
-clipSize: 96
-shadowAlpha: 0.5
-shadowOffset: -1.5
-customShadow: true
