@@ -4,7 +4,7 @@ description: Filters Red Sand using Oasis Water to create Sand as well as Ferrin
 size: 4
 craftTime: 120
 consumes: {
-  power: 2.5
+  power: 1.5
   items: [
     01a-05-item-red-sand/6
   ]
