@@ -1,3 +1,5 @@
 type: TreeBlock
 name: Dead Bush
 variants: 2
+shadowAlpha: 0
+hasShadow: false
