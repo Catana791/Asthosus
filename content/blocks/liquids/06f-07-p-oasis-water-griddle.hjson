@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Oasis Water Griddle
-description: Purifies Oasis Water using pressure to create Purified Oasis Water. Outputs sand as a byproduct. Is more efficient than a regular Oasis Water Sieve.
+description: Purifies Oasis Water using Pressure and Sand to create Purified Oasis Water. Is more efficient than a regular Oasis Water Sieve.
 size: 3
 hasLiquids: true
 squareSprite: false
@@ -8,11 +8,13 @@ liquidCapacity: 80
 itemCapacity: 20
 craftTime: 120
 outputLiquid: 02b-03-liquid-purified-oasis-water/0.6
-outputItem: sand/1
 consumes: {
   liquids: [
     02b-01-pressure/0.1
     02b-02-liquid-oasis-water/0.8
+  ]
+  items: [
+    sand/4
   ]
 }
 category: liquid
