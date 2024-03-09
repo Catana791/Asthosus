@@ -7,6 +7,7 @@ reload: 180
 range: 180
 category: effect
 research: 11k-11-restoration-dome
+bulletDamage: 300
 requirements: [
   01a-01-item-ferrinite/225
   01a-06-item-lodestone/60
