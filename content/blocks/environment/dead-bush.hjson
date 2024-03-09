@@ -1,4 +1,4 @@
-type: TallBlock
+type: TreeBlock
 name: Dead Bush
 variants: 2
 hasShadow: false
