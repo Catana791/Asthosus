@@ -8,7 +8,7 @@ outlineColor: 42413e
 liquidConsumed: 0.05
 targetInterval: 5
 targetUnderBlocks: false
-range: 130
+range: 144
 targetAir: false
 shootY: 4
 loopSound: pressure-release
@@ -56,8 +56,8 @@ ammoTypes: {
     hitColor: ffffffCC
     type: ContinuousFlameBulletType
     damage: 1
-    length: 130
-    knockback: 2
+    length: 144
+    knockback: 4
     pierceCap: 3
     colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
     lightColor: ffffffCC
