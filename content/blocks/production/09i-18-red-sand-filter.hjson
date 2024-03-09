@@ -82,10 +82,10 @@ drawer: {
   ]
 }
 outputItems: [
-  01a-01-item-ferrinite/1
-  01a-02-item-demetite/1
-  01a-03-item-lignite/1
-  sand/2
+  01a-01-item-ferrinite/4
+  01a-02-item-demetite/4
+  01a-03-item-lignite/3
+  sand/3
 ]
 outputLiquid: 02b-03-liquid-purified-oasis-water/0.1
 category: crafting
