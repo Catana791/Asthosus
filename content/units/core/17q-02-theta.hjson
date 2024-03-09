@@ -48,6 +48,7 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
+      buildingDamageMultiplier: 0.01
       damage: 18
       sapStrength: 0.2
       length: 60
@@ -66,6 +67,7 @@ weapons: [
     ejectEffect: casing1
     bullet: {
       type: SapBulletType
+      buildingDamageMultiplier: 0.01
       damage: 22
       sapStrength: 0.2
       length: 60
@@ -84,6 +86,7 @@ weapons: [
     shootSound: artillery
     bullet: {
       type: BasicBulletType
+      buildingDamageMultiplier: 0.01
       sprite: shell
       speed: 1.65
       lifetime: 90
