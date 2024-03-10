@@ -1,5 +1,5 @@
 type: MemoryBlock
-name: Memory Cell
+name: Memory Chip
 description: Stores logic instructions and values. 
 memoryCapacity: 64
 category: logic
