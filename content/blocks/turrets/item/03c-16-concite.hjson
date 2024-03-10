@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Concite
-description: Fires alternating, powerful rounds at enemies, piercing them.
+description: Fires alternating, powerful rounds at enemies, piercing them. Specialized at annihilating swarms. Less efficient against single targets.
 size: 4
 squareSprite: false
 reload: 6
@@ -69,9 +69,9 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 50
+    damage: 35
     pierce: true
-    pierceCap: 5
+    pierceCap: 2
     keepVelocity: false
     width: 8
     height: 8
@@ -95,9 +95,9 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 72
+    damage: 50
     pierce: true
-    pierceCap: 6
+    pierceCap: 4
     keepVelocity: false
     width: 8
     height: 8
@@ -121,9 +121,9 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 98
+    damage: 69
     pierce: true
-    pierceCap: 6
+    pierceCap: 4
     keepVelocity: false
     width: 8
     height: 8
