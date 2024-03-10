@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Typhoon
-description: Rapidly blasts bullets at enemies. 
+description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
 size: 3
 squareSprite: false
 reload: 4
@@ -57,10 +57,9 @@ ammoTypes: {
     width: 11
     height: 14
     lifetime: 65
-    pierce: true
-    pierceCap: 1
-    damage: 2
-    splashDamage: 18
+    pierce: false
+    damage: 3
+    splashDamage: 19
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
@@ -72,11 +71,10 @@ ammoTypes: {
     width: 11
     height: 14
     lifetime: 65
-    pierce: true
-    pierceCap: 2
-    damage: 3
+    pierce: false
+    damage: 4
     status: shocked
-    splashDamage: 20
+    splashDamage: 21
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
@@ -89,10 +87,9 @@ ammoTypes: {
     width: 11
     height: 14
     lifetime: 65
-    pierce: true
-    pierceCap: 2
-    damage: 4
-    splashDamage: 28
+    pierce: false
+    damage: 5
+    splashDamage: 29
     splashDamageRadius: 16
     ammoMultiplier: 10
     fragBullets: 4
@@ -104,10 +101,9 @@ ammoTypes: {
       lifetime: 30
       width: 6
       height: 9
-      pierce: true
-      pierceCap: 1
-      damage: 5
-      splashDamage: 5
+      pierce: false
+      damage: 6
+      splashDamage: 6
       splashDamageRadius: 4
     }
   }
@@ -121,9 +117,9 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: true
-    pierceCap: 3
-    damage: 3
-    splashDamage: 22
+    pierceCap: 1
+    damage: 4
+    splashDamage: 24
     splashDamageRadius: 22
     ammoMultiplier: 12
     fragBullets: 6
@@ -137,8 +133,8 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 5
-      splashDamage: 5
+      damage: 6
+      splashDamage: 6
       splashDamageRadius: 4
     }
   }
