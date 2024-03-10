@@ -25,7 +25,7 @@ category: turret
 research: 03c-07-subtile
 squareSprite: false
 researchCostMultiplier: 0.5
-range: 400
+range: 480
 requirements: [
   01a-06-item-lodestone/400
   01a-07-item-lithium/400
@@ -54,15 +54,15 @@ ammoTypes: {
     type: BasicBulletType
     chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     speed: 5
-    lifetime: 80
+    lifetime: 96
     width: 10
     height: 18
     hitEffect: hitBulletColor
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
-    damage: 150
-    splashDamage: 50
-    splashDamageRadius: 48
+    damage: 375
+    splashDamage: 125
+    splashDamageRadius: 64
     despawnSound: shoot-mortar
     trailChance: -1
     trailEffect: shootSmokeTitan
@@ -83,7 +83,7 @@ ammoTypes: {
       sideAngle: 45
       length: 60
       width: 4
-      damage: 30
+      damage: 75
       pierce: true
     }
     fragBullets: 3
@@ -100,13 +100,13 @@ ammoTypes: {
       lifetime: 30
       pierce: true
       pierceBuilding: true  
-      damage: 20
+      damage: 50
       fragBullets: 1
       fragBullet: {
         type: ExplosionBulletType
         despawnSound: explosion
         killShooter: false
-        splashDamage: 40
+        splashDamage: 100
         splashDamageRadius: 32
       }
     }
@@ -115,15 +115,15 @@ ammoTypes: {
     type: BasicBulletType
     chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     speed: 5
-    lifetime: 80
+    lifetime: 96
     width: 10
     height: 18
     hitEffect: hitBulletColor
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
-    damage: 180
-    splashDamage: 60
-    splashDamageRadius: 48
+    damage: 450
+    splashDamage: 150
+    splashDamageRadius: 64
     despawnSound: shoot-mortar
     trailChance: -1
     trailEffect: shootSmokeTitan
@@ -144,7 +144,7 @@ ammoTypes: {
       sideAngle: 45
       length: 60
       width: 4
-      damage: 40
+      damage: 100
       pierce: true
       pierceArmor: true
     }
@@ -162,13 +162,13 @@ ammoTypes: {
       lifetime: 30
       pierce: true
       pierceBuilding: true  
-      damage: 30
+      damage: 75
       fragBullets: 1
       fragBullet: {
         type: ExplosionBulletType
         despawnSound: explosion
         killShooter: false
-        splashDamage: 60
+        splashDamage: 150
         splashDamageRadius: 32
       }
     }
@@ -177,15 +177,15 @@ ammoTypes: {
     type: BasicBulletType
     chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     speed: 5
-    lifetime: 80
+    lifetime: 96
     width: 10
     height: 18
     hitEffect: hitBulletColor
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
-    damage: 240
-    splashDamage: 80
-    splashDamageRadius: 48
+    damage: 600
+    splashDamage: 200
+    splashDamageRadius: 64
     despawnSound: shoot-mortar
     trailChance: -1
     trailEffect: shootSmokeTitan
@@ -206,7 +206,7 @@ ammoTypes: {
       sideAngle: 45
       length: 60
       width: 4
-      damage: 50
+      damage: 125
       pierce: true
       pierceArmor: true
     }
@@ -224,13 +224,13 @@ ammoTypes: {
       lifetime: 30
       pierce: true
       pierceBuilding: true  
-      damage: 40
+      damage: 100
       fragBullets: 1
       fragBullet: {
         type: ExplosionBulletType
         despawnSound: explosion
         killShooter: false
-        splashDamage: 80
+        splashDamage: 200
         splashDamageRadius: 32
       }
     }
