@@ -3,6 +3,8 @@ name: Logic Screen
 description: Outputs logic data graphically.
 size: 3
 displaySize: 80
+category: logic
+research: 12l-02-logic-control
 requirements: [
   01a-01-item-ferrinite/60
   01a-06-item-lodestone/40
