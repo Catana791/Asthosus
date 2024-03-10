@@ -3,7 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 5
 physics: false
-lifetime: 65
+lifetime: 85
 rotateSpeed: 10
 homingDelay: 3
 trailLength: 0
@@ -42,7 +42,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       ammoMultiplier: 12
-      splashDamage: 48
+      splashDamage: 68
       splashDamageRadius: 32
     }
   } 
