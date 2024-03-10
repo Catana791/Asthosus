@@ -53,7 +53,7 @@ drawer: {
 }
 shootEffect: surgeCruciSmoke
 smokeEffect: shootSmokeMissile
-range: 240
+range: 324
 ammoPerShot: 3
 ammoTypes: {
   01a-12-item-crosium: {
@@ -62,10 +62,10 @@ ammoTypes: {
     trailWidth: 2.2
     trailLength: 18
     speed: 2
-    lifetime: 120
+    lifetime: 162
     width: 12
     height: 20
-    splashDamage: 360
+    splashDamage: 504
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -95,7 +95,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 16
         killShooter: false
-        splashDamage: 40
+        splashDamage: 56
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -115,7 +115,7 @@ ammoTypes: {
             type: ExplosionBulletType
             splashDamageRadius: 16
             killShooter: false
-            splashDamage: 35
+            splashDamage: 49
             fragBullet: {
               type: ArtilleryBulletType
               speed: 2
@@ -135,7 +135,7 @@ ammoTypes: {
                 type: ExplosionBulletType
                 splashDamageRadius: 12
                 killShooter: false
-                splashDamage: 30
+                splashDamage: 42
               }
             }
           }
@@ -150,10 +150,10 @@ ammoTypes: {
     trailWidth: 2.2
     trailLength: 18
     speed: 2
-    lifetime: 120
+    lifetime: 162
     width: 12
     height: 20
-    splashDamage: 380
+    splashDamage: 532
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -182,7 +182,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 16
         killShooter: false
-        splashDamage: 60
+        splashDamage: 84
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -202,7 +202,7 @@ ammoTypes: {
             type: ExplosionBulletType
             splashDamageRadius: 16
             killShooter: false
-            splashDamage: 55
+            splashDamage: 77
             fragBullet: {
               type: ArtilleryBulletType
               speed: 2
@@ -221,7 +221,7 @@ ammoTypes: {
               fragBullet: {
                 type: ExplosionBulletType
                 killShooter: false
-                splashDamage: 50
+                splashDamage: 70
                 splashDamageRadius: 12
               }
             }
@@ -237,10 +237,10 @@ ammoTypes: {
     trailWidth: 2.2
     trailLength: 18
     speed: 2
-    lifetime: 120
+    lifetime: 162
     width: 12
     height: 20
-    splashDamage: 420
+    splashDamage: 588
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -269,7 +269,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 16
         killShooter: false
-        splashDamage: 70
+        splashDamage: 98
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -289,7 +289,7 @@ ammoTypes: {
             type: ExplosionBulletType
             splashDamageRadius: 16
             killShooter: false
-            splashDamage: 65
+            splashDamage: 91
             fragBullet: {
               type: ArtilleryBulletType
               speed: 2
@@ -309,7 +309,7 @@ ammoTypes: {
                 type: ExplosionBulletType
                 splashDamageRadius: 12
                 killShooter: false
-                splashDamage: 60
+                splashDamage: 84
               }
             }
           }
