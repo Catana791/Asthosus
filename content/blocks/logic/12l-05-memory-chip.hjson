@@ -10,3 +10,4 @@ requirements: [
 ]
 squareSprite: false
 size: 1
+researchCostMultiplier: 0.5
