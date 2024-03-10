@@ -1,0 +1,10 @@
+type: LogicDisplay
+name: Logic Screen
+description: Outputs logic data graphically.
+size: 3
+displaySize: 80
+requirements: [
+  01a-01-item-ferrinite/60
+  01a-06-item-lodestone/40
+]
+researchCostMultiplier: 0.5
