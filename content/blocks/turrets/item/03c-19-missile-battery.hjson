@@ -14,7 +14,7 @@ predictTarget: false
 shootCone: 360
 reload: 20
 researchCostMultiplier: 0.5
-range: 375
+range: 320
 drawer: {
   type: DrawTurret
   parts: [
