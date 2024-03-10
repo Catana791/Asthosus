@@ -1,0 +1,12 @@
+type: MemoryBlock
+name: Memory Cell
+description: Stores logic instructions and values. 
+memoryCapacity: 64
+category: logic
+research: 12l-01-logic-chip
+requirements: [
+  01a-02-item-demetite/40
+  01a-06-item-lodestone/30
+]
+squareSprite: false
+size: 1
