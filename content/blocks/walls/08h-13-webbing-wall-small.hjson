@@ -2,7 +2,7 @@ type: DirectionalForceProjector
 name: Projector Wall
 description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield.
 size: 1
-health: 400
+health: 500
 cooldownBrokenBase: 1200
 cooldownNormal: 1200
 cooldownLiquid: 1200
