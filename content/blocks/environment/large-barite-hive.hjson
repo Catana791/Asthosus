@@ -8,7 +8,7 @@ drawTeamOverlay: false
 squareSprite: false
 unitCapModifier: 3
 buildVisibility: editorOnly
-health: 6000
+health: 7500
 requirements: []
 plans: [
   {
