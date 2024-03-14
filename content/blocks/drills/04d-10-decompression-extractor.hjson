@@ -2,18 +2,18 @@ type: GenericCrafter
 name: Decompression Extractor
 description: Uses base components of Silicon Tetrafluoride gas as well as Hardened Sand to create small amounts of Ferrinite and Demetite. Also outputs regular Sand as a byproduct.
 size: 3
-craftTime: 300
+craftTime: 120
 hasLiquids: true
 hasItems: true
 consumes: {
   liquid: 02b-06-liquid-silicon-tetrafluoride/0.1
   items: [
-    01a-04-item-hardened-sand/5
+    01a-04-item-hardened-sand/4
   ]
 }
 outputItems: [
-  01a-01-item-ferrinite/3
-  01a-02-item-demetite/3
+  01a-01-item-ferrinite/1
+  01a-02-item-demetite/1
   sand/2
 ]
 category: production
