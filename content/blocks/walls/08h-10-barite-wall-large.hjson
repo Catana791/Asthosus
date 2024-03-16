@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Large Barite Wall
-description: A wall made from Barite. Protects allied structures from damage. Radiates nearby enemies.
+description: A large wall made from Barite. Protects allied structures from damage. Radiates nearby enemies.
 size: 2
 health: 3410
 category: defense
