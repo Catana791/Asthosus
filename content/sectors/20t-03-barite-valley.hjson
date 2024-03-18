@@ -3,6 +3,7 @@ description: A mysterious area no one explored, home to scary creatures...
 difficulty: 6
 planet: asthosus
 sector: 2
+captureWave: 20
 research: {
   parent: 19s-07-detriment-valley
   objectives: [
