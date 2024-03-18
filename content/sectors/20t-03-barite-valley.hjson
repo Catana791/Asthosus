@@ -1,0 +1,14 @@
+localizedName: Barite Valley
+description: A mysterious area no one explored, home to scary creatures...
+difficulty: 6
+planet: asthosus
+sector: 2
+research: {
+  parent: 19s-07-detriment-valley
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}
