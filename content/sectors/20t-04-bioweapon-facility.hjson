@@ -1,0 +1,19 @@
+localizedName: Bioweapon Facility
+description: 
+  ''' 
+    A large research facility that was taken over by barite creatures.
+    It once contained dangerous biological weapons.
+    Now the hives control the entire base.
+  '''
+difficulty: 8
+planet: asthosus
+sector: 3
+research: {
+  parent: 20t-03-barite-valley
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 20t-03-barite-valley
+    }
+  ]
+}
