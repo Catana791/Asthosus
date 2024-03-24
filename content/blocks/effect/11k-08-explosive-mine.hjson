@@ -1,17 +1,17 @@
   type: ShockMine
   name: Explosive Trap
-  description: Explodes when enemies step on it, dealing decently high damage. Gets destroyed after use.
+  description: Explodes when enemies step on it, dealing decently high damage. 
   hasShadow: false
   health: 40
-  damage: 30
-  tileDamage: 9
-  length: 10
-  tendrils: 4
+  damage: 90
+  tileDamage: 12
+  length: 24
+  tendrils: 6
   category: effect
   research: 11k-01-core-essence
   bullet: {
     type: ExplosionBulletType
-    splashDamage: 45
+    splashDamage: 60
     splashDamageRadius: 24
     killShooter: true
   }
