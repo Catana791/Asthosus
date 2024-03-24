@@ -39,10 +39,9 @@ weapons: [
       fragBullet: {
         type: LightningBulletType
         lightningLength: 12
-        lightningDamage: 4
-        pierce: true
+        damage: 4
+        pierce: false
         pierceBuilding: false
-        pierceCap: 1
         lightningColor: e9c574
       }
       type: LaserBulletType
