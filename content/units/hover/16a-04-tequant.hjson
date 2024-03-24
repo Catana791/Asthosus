@@ -176,7 +176,7 @@ weapons: [
             lifetime: 176
             pierce: true
             pierceBuilding: true
-            pierceCap: 5
+            pierceCap: 3
             damage: 180
             trailEffect: missileTrail
             trailInterval: 3
@@ -199,7 +199,7 @@ weapons: [
               hitSound: spark
               despawnSound: spark
               pierce: true
-              pierceCap: 3
+              pierceCap: 2
               buildingDamageMultiplier: 0.65
             }
           }
