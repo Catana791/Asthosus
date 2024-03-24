@@ -144,7 +144,7 @@ weapons: [
       despawnSound: none
       fragBullets: 1
       fragRandomSpread: 0
-      pierceCap: 4
+      pierceCap: 3
       fragVelocityMin: 1
       fragLifeMin: 1
       fragOnHit: false
