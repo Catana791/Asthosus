@@ -40,8 +40,8 @@ weapons: [
             colorFrom: e2c585
             colorTo: c2a870
             particles: 12
-            sizeFrom: 6
-            sizeTo: 2
+            sizeFrom: 2
+            sizeTo: 0
             lifetime: 80
           }
           {
@@ -50,10 +50,10 @@ weapons: [
             baseLength: -24
             cone: 360
             particles: 16
-            sizeFrom: 7
+            sizeFrom: 3
             colorFrom: e2c585
             colorTo: c2a870
-            sizeTo: 1
+            sizeTo: 0
             lifetime: 55
           }
           {
@@ -64,8 +64,8 @@ weapons: [
             colorFrom: e2c585
             colorTo: c2a870
             cone: 360
-            sizeFrom: 8
-            sizeTo: 2
+            sizeFrom: 4
+            sizeTo: 0
             lifetime: 30
           }
         ]
