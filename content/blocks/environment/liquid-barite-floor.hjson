@@ -9,3 +9,4 @@ liquidDrop: 02b-04-liquid-liquid-barite
 cacheLayer: arkycite
 albedo: 0.9
 supportsOverlay: true
+liquidMultiplier: 1.33333332
