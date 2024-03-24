@@ -23,8 +23,50 @@ weapons: [
     rotate: true
     mirror: false
     rotateSpeed: 1.5
-    shootSound: shoot-loud-heavy
+    shootSound: annectodon-shoot
+    shoot: {
+      firstShootDelay: 170
+    }
+    chargeSound: annectodon-charge
     bullet: {
+      chargeEffect: {
+        type: SeqEffect
+        effects: [
+          {
+            type: ParticleEffect
+            length: 16
+            baseLength: 8
+            cone: 360
+            particles: 24
+            sizeFrom: 6
+            sizeTo: 2
+            interp: pow2
+            sizeInterp: pow2Out
+          }
+          {
+            type: ParticleEffect
+            length: 24
+            baseLength: 8
+            cone: 360
+            particles: 32
+            sizeFrom: 7
+            sizeTo: 1
+            interp: pow2
+            sizeInterp: pow2Out
+          }
+          {
+            type: ParticleEffect
+            length: 32
+            baseLength: 8
+            particles: 36
+            cone: 360
+            sizeFrom: 8
+            sizeTo: 2
+            interp: pow2
+            sizeInterp: pow2Out
+          }
+        ]
+      }
       spawnBullets: [
         {
           type: LaserBulletType
