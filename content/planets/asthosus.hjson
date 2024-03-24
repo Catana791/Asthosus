@@ -172,18 +172,20 @@ solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
   "01a-01-item-ferrinite",
-  "01a-02-item-demetite", 
-  "01a-06-item-lodestone", 
-  "01a-03-item-lignite", 
-  "01a-07-item-lithium", 
+  "01a-02-item-demetite",  
+  "01a-03-item-lignite",
   "01a-04-item-hardened-sand", 
   "01a-05-item-red-sand", 
+  "01a-06-item-lodestone",
+  "01a-07-item-lithium", 
+  "01a-08-item-cretite",
+  "01a-08-j-item-crystalline-geode",
   "01a-09-item-obsidian", 
-  "01a-08-item-cretite", 
-  "01a-12-item-crosium", 
   "01a-10-item-irradiated-lump",
   "01a-11-item-barite", 
+  "01a-12-item-crosium", 
   "01a-13-item-barite-webbing",
   "01a-14-item-draysten", 
   "sand"
 ]
++
