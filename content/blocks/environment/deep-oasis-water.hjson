@@ -6,7 +6,7 @@ status: asthosus-13m-01-status-rejuvenated
 statusDuration: 30
 drownTime: 660
 liquidDrop: 02b-02-liquid-oasis-water
-liquidMultiplier: 1.5
+liquidMultiplier: 2
 isLiquid: true
 cacheLayer: water
 albedo: 0.9
