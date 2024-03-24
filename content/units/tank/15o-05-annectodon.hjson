@@ -34,28 +34,6 @@ weapons: [
         effects: [
           {
             type: ParticleEffect
-            length: 18
-            baseLength: -18
-            cone: 360
-            colorFrom: e2c585
-            colorTo: c2a870
-            particles: 14
-            sizeFrom: 3
-            sizeTo: 0
-            lifetime: 50
-          }
-          {
-            type: WaveEffect
-            sizeFrom: 20
-            sizeTo: 0
-            strokeFrom: 1
-            strokeTo: 0
-            colorFrom: e2c585
-            colorTo: c2a870
-            lifetime: 25
-          }
-          {
-            type: ParticleEffect
             length: 24
             baseLength: -24
             cone: 360
@@ -64,17 +42,17 @@ weapons: [
             colorFrom: e2c585
             colorTo: c2a870
             sizeTo: 0
-            lifetime: 40
+            lifetime: 75
           }
           {
             type: WaveEffect
-            sizeFrom: 24
-            sizeTo: 0
-            strokeFrom: 1.5
-            strokeTo: 0
+            sizeFrom: 0
+            sizeTo: 40
+            strokeFrom: 0
+            strokeTo: 2
             colorFrom: e2c585
             colorTo: c2a870
-            lifetime: 20
+            lifetime: 25
           }
           {
             type: ParticleEffect
@@ -86,17 +64,17 @@ weapons: [
             cone: 360
             sizeFrom: 4
             sizeTo: 0
-            lifetime: 25
+            lifetime: 45
           }
           {
             type: WaveEffect
-            sizeFrom: 32
-            sizeTo: 0
-            strokeFrom: 1.75
-            strokeTo: 0
+            sizeFrom: 0
+            sizeTo: 48
+            strokeFrom: 0
+            strokeTo: 3
             colorFrom: e2c585
             colorTo: c2a870
-            lifetime: 10
+            lifetime: 20
           }
         ]
       }
