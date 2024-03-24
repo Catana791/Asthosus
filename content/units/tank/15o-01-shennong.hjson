@@ -30,6 +30,14 @@ weapons: [
     mirror: false
     shootSound: energy-blade-launch
     bullet: {
+      spawnBullets: [
+        type: LightningBulletType
+        lightningLength: 10
+        lightningDamage: 3
+        pierce: true
+        pierceBuilding: false
+        pierceCap: 1
+      ]
       type: LaserBulletType
       pierce: true
       pierceBuilding: false
@@ -39,7 +47,7 @@ weapons: [
       sideWidth: 1.4
       pierce: true
       pierceCap: 1
-      damage: 6
+      damage: 3
     }
   }
 ]
