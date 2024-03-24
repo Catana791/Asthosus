@@ -25,7 +25,6 @@ weapons: [
     x: 0
     y: 1
     name: shennong-weapon
-    continuous: true
     reload: 12
     rotate: true
     mirror: false
