@@ -9,5 +9,5 @@ requirements: [
   01a-02-item-demetite/18
   01a-06-item-lodestone/12
 ]
-pumpAmount: 0.1
+pumpAmount: 0.05
 researchCostMultiplier: 0.5
