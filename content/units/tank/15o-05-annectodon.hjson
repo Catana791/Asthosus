@@ -42,8 +42,7 @@ weapons: [
             particles: 24
             sizeFrom: 6
             sizeTo: 2
-            interp: pow2
-            sizeInterp: pow2Out
+            lifetime: 120
           }
           {
             type: ParticleEffect
@@ -55,8 +54,7 @@ weapons: [
             colorFrom: e2c585
             colorTo: c2a870
             sizeTo: 1
-            interp: pow2
-            sizeInterp: pow2Out
+            lifetime: 90
           }
           {
             type: ParticleEffect
@@ -68,8 +66,7 @@ weapons: [
             cone: 360
             sizeFrom: 8
             sizeTo: 2
-            interp: pow2
-            sizeInterp: pow2Out
+            lifetime: 60
           }
         ]
       }
