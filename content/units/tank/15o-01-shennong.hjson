@@ -54,6 +54,8 @@ weapons: [
       pierce: true
       pierceCap: 1
       damage: 3
+      despawnSound: spark
+      hitSound: spark
     }
   }
 ]
