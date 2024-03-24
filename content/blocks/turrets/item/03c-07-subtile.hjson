@@ -61,7 +61,7 @@ ammoTypes: {
     damage: 67
     pierce: true
     pierceBuilding: true
-    buildingDamageMultiplier: 0.6
+    buildingDamageMultiplier: 0.5
     width: 9
     height: 15
     trailChance: -1
@@ -84,6 +84,7 @@ ammoTypes: {
       killShooter: false
       splashDamage: 69
       splashDamageRadius: 24
+      buildingDamageMultiplier: 0.5
     }
   }
   01a-07-item-lithium: {
@@ -96,7 +97,7 @@ ammoTypes: {
     damage: 90
     pierce: true
     pierceBuilding: true
-    buildingDamageMultiplier: 0.65
+    buildingDamageMultiplier: 0.5
     width: 9
     height: 15
     trailChance: -1
@@ -119,6 +120,7 @@ ammoTypes: {
       killShooter: false
       splashDamage: 78
       splashDamageRadius: 24
+      buildingDamageMultiplier: 0.5
     }
   }
   01a-09-item-obsidian: {
@@ -132,7 +134,7 @@ ammoTypes: {
     damage: 117
     pierce: true
     pierceBuilding: true
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.25
     width: 9
     height: 15
     trailChance: -1
@@ -155,6 +157,7 @@ ammoTypes: {
       killShooter: false
       splashDamage: 117
       splashDamageRadius: 24
+      buildingDamageMultiplier: 0.25
     }
   }
 }
