@@ -47,7 +47,8 @@ weapons: [
           {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 52
+            sizeTo: 64
+            interp: elasticOut
             strokeFrom: 0
             strokeTo: 3
             colorFrom: e2c585
