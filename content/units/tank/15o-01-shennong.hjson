@@ -25,7 +25,7 @@ weapons: [
     x: 0
     y: 1
     name: shennong-weapon
-    reload: 6
+    reload: 12
     rotate: true
     mirror: false
     shootSound: energy-blade-launch
@@ -36,10 +36,10 @@ weapons: [
       length: 80
       width: 1.5
       sideAngle: 90
-      sideWidth: 1
+      sideWidth: 1.4
       pierce: true
       pierceCap: 1
-      damage: 3  
+      damage: 6
     }
   }
 ]
