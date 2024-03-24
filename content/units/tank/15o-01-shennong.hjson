@@ -30,14 +30,15 @@ weapons: [
     mirror: false
     shootSound: energy-blade-launch
     bullet: {
-      spawnBullets: [
+      fragBullets: 1
+      fragBullet: {
         type: LightningBulletType
         lightningLength: 10
         lightningDamage: 3
         pierce: true
         pierceBuilding: false
         pierceCap: 1
-      ]
+      }
       type: LaserBulletType
       pierce: true
       pierceBuilding: false
