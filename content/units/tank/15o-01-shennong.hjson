@@ -39,7 +39,7 @@ weapons: [
       fragBullet: {
         type: LightningBulletType
         lightningLength: 12
-        lightningDamage: 3
+        lightningDamage: 4
         pierce: true
         pierceBuilding: false
         pierceCap: 1
@@ -55,7 +55,7 @@ weapons: [
       sideWidth: 1.4
       pierce: true
       pierceCap: 1
-      damage: 3
+      damage: 4
       despawnSound: spark
       hitSound: spark
     }
