@@ -59,8 +59,8 @@ weapons: [
             length: 24
             baseLength: -24
             cone: 360
-            particles: 16
-            sizeFrom: 3
+            particles: 18
+            sizeFrom: 4
             colorFrom: e2c585
             colorTo: c2a870
             sizeTo: 0
