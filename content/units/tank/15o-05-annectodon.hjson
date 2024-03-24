@@ -42,17 +42,17 @@ weapons: [
             colorFrom: e2c585
             colorTo: c2a870
             sizeTo: 0
-            lifetime: 50
+            lifetime: 60
           }
           {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 40
+            sizeTo: 52
             strokeFrom: 0
-            strokeTo: 2
+            strokeTo: 3
             colorFrom: e2c585
             colorTo: c2a870
-            lifetime: 30
+            lifetime: 20
           }
           {
             type: ParticleEffect
