@@ -34,9 +34,11 @@ weapons: [
         effects: [
           {
             type: ParticleEffect
-            length: 16
-            baseLength: 8
+            length: 4
+            baseLength: 18
             cone: 360
+            colorFrom: e2c585
+            colorTo: c2a870
             particles: 24
             sizeFrom: 6
             sizeTo: 2
@@ -45,20 +47,24 @@ weapons: [
           }
           {
             type: ParticleEffect
-            length: 24
-            baseLength: 8
+            length: 4
+            baseLength: 24
             cone: 360
             particles: 32
             sizeFrom: 7
+            colorFrom: e2c585
+            colorTo: c2a870
             sizeTo: 1
             interp: pow2
             sizeInterp: pow2Out
           }
           {
             type: ParticleEffect
-            length: 32
-            baseLength: 8
+            length: 4
+            baseLength: 32
             particles: 36
+            colorFrom: e2c585
+            colorTo: c2a870
             cone: 360
             sizeFrom: 8
             sizeTo: 2
