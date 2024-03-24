@@ -39,7 +39,7 @@ weapons: [
             cone: 360
             colorFrom: e2c585
             colorTo: c2a870
-            particles: 24
+            particles: 12
             sizeFrom: 6
             sizeTo: 2
             lifetime: 80
@@ -49,7 +49,7 @@ weapons: [
             length: 24
             baseLength: -24
             cone: 360
-            particles: 32
+            particles: 16
             sizeFrom: 7
             colorFrom: e2c585
             colorTo: c2a870
@@ -60,7 +60,7 @@ weapons: [
             type: ParticleEffect
             length: 32
             baseLength: -32
-            particles: 36
+            particles: 20
             colorFrom: e2c585
             colorTo: c2a870
             cone: 360
