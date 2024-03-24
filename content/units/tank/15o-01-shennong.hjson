@@ -41,6 +41,7 @@ weapons: [
         lightningLength: 12
         damage: 4
         pierce: false
+        buildingDamageMultiplier: 0.75
         pierceBuilding: false
         lightningColor: e9c574
       }
