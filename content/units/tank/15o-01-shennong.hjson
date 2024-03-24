@@ -25,23 +25,21 @@ weapons: [
     x: 0
     y: 1
     name: shennong-weapon
-    reload: 12
+    reload: 6
     rotate: true
     mirror: false
-    shoot: {
-      type: ShootSpread
-      shots: 2
-      spread: 1
-    }
+    shootSound: energy-blade-launch
     bullet: {
-      type: BasicBulletType
-      weaveMag: 3
-      weaveScale: 3
-      speed: 2
-      lifetime: 40
+      type: LaserBulletType
+      pierce: true
+      pierceBuilding: false
+      length: 80
+      width: 1.5
+      sideAngle: 90
+      sideWidth: 1
       pierce: true
       pierceCap: 1
-      damage: 3
+      damage: 3  
     }
   }
 ]
