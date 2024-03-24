@@ -25,7 +25,7 @@ weapons: [
     rotateSpeed: 1.5
     shootSound: annectodon-shoot
     shoot: {
-      firstShootDelay: 170
+      firstShotDelay: 170
     }
     chargeSound: annectodon-charge
     bullet: {
