@@ -11,7 +11,7 @@ requirements: [
   01a-06-item-lodestone/25
   01a-07-item-lithium/20
 ]
-pumpAmount: 0.175
+pumpAmount: 0.1
 consumes: {
   items: [
     01a-03-item-lignite/1
