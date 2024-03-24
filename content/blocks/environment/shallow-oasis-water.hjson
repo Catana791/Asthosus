@@ -7,5 +7,6 @@ statusDuration: 10
 liquidDrop: 02b-02-liquid-oasis-water
 isLiquid: true
 cacheLayer: water
+liquidDropMultiplier: 1.5
 albedo: 0.9
 supportsOverlay: true
