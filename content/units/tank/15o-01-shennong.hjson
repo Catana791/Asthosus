@@ -43,9 +43,11 @@ weapons: [
         pierce: true
         pierceBuilding: false
         pierceCap: 1
+        lightningColor: e9c574
       }
       type: LaserBulletType
       pierce: true
+      colors: [b3934c, e9c574, ffffff]
       pierceBuilding: false
       length: 80
       width: 1.5
