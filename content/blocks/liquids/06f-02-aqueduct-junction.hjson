@@ -8,6 +8,4 @@ research: 06f-01-aqueduct
 requirements: [
   01a-06-item-lodestone/8
 ]
-conductivePower: true
-hasPower: true
 researchCostMultiplier: 0.5
