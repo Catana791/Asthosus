@@ -1,6 +1,5 @@
 type: Floor
 name: Quicksand
 variants: 6
-speedMultiplier: 0.5
+speedMultiplier: 0.3
 damageTaken: 0.1
-itemDrop: quicksand
