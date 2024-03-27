@@ -59,7 +59,7 @@ ammoTypes: {
     lifetime: 65
     pierce: false
     damage: 4
-    splashDamage: 19
+    splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
@@ -74,7 +74,7 @@ ammoTypes: {
     pierce: false
     damage: 5
     status: shocked
-    splashDamage: 20
+    splashDamage: 18
     splashDamageRadius: 16
     ammoMultiplier: 9
   }
@@ -88,8 +88,8 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 7
-    splashDamage: 24
+    damage: 5
+    splashDamage: 20
     splashDamageRadius: 16
     ammoMultiplier: 10
     fragBullets: 4
@@ -102,8 +102,8 @@ ammoTypes: {
       width: 6
       height: 9
       pierce: false
-      damage: 5
-      splashDamage: 5
+      damage: 4
+      splashDamage: 4
       splashDamageRadius: 4
     }
   }
@@ -119,7 +119,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 1
     damage: 6
-    splashDamage: 23
+    splashDamage: 21
     splashDamageRadius: 22
     ammoMultiplier: 12
     fragBullets: 6
@@ -133,8 +133,8 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 7
-      splashDamage: 9
+      damage: 5
+      splashDamage: 7
       splashDamageRadius: 4
     }
   }
