@@ -23,3 +23,4 @@ outputItems: [
 ]
 craftEffect: blastExplosion
 researchCostMultiplier: 0.5
+itemCapacity: 20
