@@ -42,3 +42,4 @@ drawer: {
 }
 ambientSound: hum
 ambientSoundVolume: 0.05
+itemCapacity: 20
