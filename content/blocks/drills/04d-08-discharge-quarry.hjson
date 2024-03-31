@@ -6,7 +6,7 @@ hardnessDrillMultiplier: 150
 category: production
 research: 04d-07-abrasion-quarry
 hasLiquids: false
-drillTime: 240
+drillTime: 360
 tier: 4
 shake: 3
 drillMultipliers: {
@@ -28,12 +28,12 @@ drillEffect: {
   lifetime: 40
 }
 consumes: {
-  power: 3
+  power: 5
 }
 requirements: [
-  01a-01-item-ferrinite/90
-  01a-06-item-lodestone/45
-  01a-07-item-lithium/40
+  01a-01-item-ferrinite/120
+  01a-06-item-lodestone/60
+  01a-07-item-lithium/60
   01a-09-item-obsidian/90
-  01a-11-item-barite/35
+  01a-11-item-barite/60
 ]
