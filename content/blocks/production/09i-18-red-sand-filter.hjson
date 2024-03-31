@@ -96,3 +96,4 @@ requirements: [
   01a-07-item-lithium/40
   01a-09-item-obsidian/100
 ]
+itemCapacity: 20
