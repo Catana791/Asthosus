@@ -8,6 +8,7 @@ mineFloor: true
 mineWalls: true
 drawBody: false
 drawCell: false
+rotateToBuilding: false
 segments: 3
 segmentScl: 3
 segmentPhase: 5
