@@ -5,6 +5,7 @@ health: 380
 speed: 3
 armor: 4
 mineFloor: true
+rotateToBuilding: false
 mineWalls: true
 drawBody: false
 drawCell: false
