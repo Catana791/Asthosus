@@ -19,6 +19,7 @@ hitSize: 18
 isEnemy: false
 mineSpeed: 10
 mineTier: 3
+groundLayer: 69.69
 buildSpeed: 1.25
 drag: 0.4
 itemCapacity: 80
