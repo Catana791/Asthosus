@@ -3,7 +3,7 @@ name: Crest
 description: "Fires cluster shock artillery at enemy targets. Equipped with dual cannons."
 speed: 0.21
 flying: false
-health: 25100
+health: 22780
 armor: 14
 outlineColor: 44413c
 hitSize: 30
