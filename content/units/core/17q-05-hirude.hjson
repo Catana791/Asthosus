@@ -17,6 +17,7 @@ rotateSpeed: 6
 omniMovement: false
 hitSize: 15
 isEnemy: false
+groundLayer: 69.69
 mineSpeed: 8.5
 mineTier: 2
 buildSpeed: 0.85
