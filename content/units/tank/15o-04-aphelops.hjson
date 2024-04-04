@@ -85,7 +85,6 @@ weapons: [
       hitSound: spark
       splashDamage: 450
       splashDamageRadius: 32
-      splashDamagePierce: true
       width: 20
       height: 28
       trailChance: -1
