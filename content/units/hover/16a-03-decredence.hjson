@@ -127,9 +127,9 @@ weapons: [
     bullet: {
       type: MissileBulletType
       speed: 3
-      lifetime: 53
-      damage: 13
-      splashDamage: 27
+      lifetime: 66
+      damage: 20
+      splashDamage: 40
       splashDamageRadius: 16
       pierce: true
       pierceCap: 1
