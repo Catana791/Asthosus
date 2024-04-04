@@ -1,6 +1,7 @@
 type: Pump
 name: Exothermic Pump
 description: Pumps liquids from liquid tiles. Requires Lignite to operate.
+details: 0.5 Lignite/sec
 size: 2
 category: liquid
 squareSprite: false
