@@ -3,7 +3,15 @@ name: Solar Heater Panel
 description: Produces small amounts of heat and power passively. 
 size: 3
 category: crafting
-research: 05e-13-heat-distributor
+research: {
+  parent: 05e-13-heat-distributor
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}
 requirements: [
   01a-01-item-ferrinite/50
   01a-02-item-demetite/40
