@@ -121,7 +121,7 @@ weapons: [
     y: 2
     useAttackRange: false
     cooldownTime: 90
-    reload: 312
+    reload: 240
     mirror: false
     rotate: false
     shootSound: shoot-heay-cannon
@@ -213,7 +213,7 @@ weapons: [
     top: false
     x: 13
     y: 9
-    reload: 69
+    reload: 60
     mirror: true
     alternate: true
     shoot: {
