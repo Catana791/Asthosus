@@ -62,6 +62,9 @@ drawer: {
       type: DrawDefault
     }
     {
+      type: DrawHeatInput
+    }
+    {
       type: DrawRegion
       suffix: -cogwheel
       x: 7.2
