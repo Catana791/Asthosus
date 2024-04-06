@@ -22,3 +22,15 @@ powerProduction: 0.25
 generateEffect: none
 heatOutput: 2
 researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      glowMult: 0.6
+    }
+  ]
+}
