@@ -121,6 +121,9 @@ drawer: {
       type: DrawDefault
     }
     {
+      type: DrawHeatInput
+    }
+    {
       type: DrawParticles
       color: 5eb3ac
       alpha: 0.85
