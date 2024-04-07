@@ -34,6 +34,10 @@ weapons: [
     shootSound: laserbeam
     shootY: 1
     bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
       type: ContinuousFlameBulletType
       colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       length: 80
@@ -61,6 +65,10 @@ weapons: [
     shootY: 8
     shake: 0
     bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
       type: ContinuousLaserBulletType
       length: 80
       width: 0.4
