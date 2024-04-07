@@ -36,7 +36,7 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       length: 132
-      width: 2
+      width: 1
       drawFlare: false
       damageInterval: 15
       damage: 8
@@ -59,7 +59,8 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       length: 132
-      width: 2
+      width: 1
+      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       drawFlare: false
       damageInterval: 15
       damage: 7
