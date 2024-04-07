@@ -30,7 +30,7 @@ drawer: {
     }
     {
       type: DrawHeatOutput
-      glowMult: 0.6
+      heatColor: 641616A6
     }
   ]
 }
