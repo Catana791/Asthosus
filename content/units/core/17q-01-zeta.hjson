@@ -123,20 +123,6 @@ weapons: [
         sparkLen: 3
         sparkStroke: 1.2
       }
-      
-      type: LaserBulletType
-      length: 140
-      damage: 42
-      pierce: true
-      pierceCap: 1
-      pierceBuilding: false
-      buildingDamageMultiplier: 0.01
-      width: 6
-      colors: [d46f6b, ffbe7f, ffffff]
-      chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin, lightningCharge]
-      sideWidth: 2
-      sideLength: 20
-      sideAngle: 45
     }
   }
 ]
