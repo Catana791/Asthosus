@@ -52,6 +52,8 @@ weapons: [
       despawnEffect: none
       intervalBullets: 1
       bulletInterval: 30
+      intervalSpread: 0
+      intervalRandomSpread: 0
       intervalBullet: {
         type: LightningBulletType
         lightningLength: 10
@@ -89,6 +91,8 @@ weapons: [
       despawnEffect: none
       intervalBullets: 1
       bulletInterval: 30
+      intervalSpread: 0
+      intervalRandomSpread: 0
       intervalBullet: {
         type: LightningBulletType
         lightningLength: 10
