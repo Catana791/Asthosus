@@ -23,7 +23,16 @@ effect: {
 }
 consumes: {
   power: 1
+  items: {
+    items: [
+      01a-13-item-barite-webbing/1
+    ]
+    optional: true
+    booster: true
+  }
 }
+optionalUseTime: 180
+optionalMultiplier: 2.5
 healPercent: 0.026666667
 requirements: [
   01a-01-item-ferrinite/90
