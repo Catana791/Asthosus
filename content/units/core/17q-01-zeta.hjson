@@ -31,8 +31,7 @@ weapons: [
     continuous: true
     alwaysContinuous: true
     ejectEffect: none
-    shootSound: none
-    shootSound: none
+    shootSound: laserbeam
     shootY: 1
     bullet: {
       type: ContinuousFlameBulletType
@@ -59,11 +58,11 @@ weapons: [
     ejectEffect: none
     shootSound: none
     shootSound: laserbeam
-    shootY: 1
+    shootY: 8
     bullet: {
       type: ContinuousLaserBulletType
       length: 80
-      width: 1
+      width: 0.4
       colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       drawFlare: false
       damageInterval: 15
