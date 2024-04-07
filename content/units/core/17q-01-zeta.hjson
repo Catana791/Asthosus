@@ -78,7 +78,7 @@ weapons: [
   {
     x: -0.5
     y: 4.1
-    reload: 73
+    reload: 36
     mirror: true
     alternate: false
     rotate: false
@@ -92,7 +92,7 @@ weapons: [
       type: MissileBulletType
       speed: 3
       lifetime: 47
-      damage: 2
+      damage: 1
       splashDamage: 2
       splashDamageRadius: 8
       homingPower: 0.2
