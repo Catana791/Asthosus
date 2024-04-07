@@ -76,18 +76,54 @@ weapons: [
     }
   }
   {
-    x: 0
+    x: 0.5
     y: 4.1
     reload: 146
-    mirror: false
+    mirror: true
+    alternate: false
     rotate: false
-    ejectEffect: none
-    shootSound: shoot-laser
-    chargeSound: short-laser-charge
+    ejectEffect: casing2
+    shootSound: shoot-dull
     shoot: {
-      firstShotDelay: 60
+      shots: 3
+      shotDelay: 8
     }
     bullet: {
+      type: MissileBulletType
+      speed: 4
+      lifetime: 35
+      damage: 3
+      splashDamage: 4
+      splashDamageRadius: 8
+      homingPower: 0.2
+      weaveMag: 4
+      weaveScale: 4
+      frontColor: ffbe7f
+      backColor: d46f6b
+      trailColor: d46f6b
+      hitSound: none
+      despawnSound: dullExplosion
+      width: 4
+      height: 8
+      trailWidth: 1.2
+      trailLength: 12
+      trailChance: -1
+      despawnEffect: none
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 20
+        waveStroke: 1
+        waveColor: d46f6b
+        sparkColor: d46f6b
+        waveRad: 8
+        smokeSize: 0
+        smokeSizeBase: 0
+        sparks: 6
+        sparkRad: 25
+        sparkLen: 3
+        sparkStroke: 1.2
+      }
+      
       type: LaserBulletType
       length: 140
       damage: 42
