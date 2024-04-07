@@ -16,11 +16,13 @@ requirements: [
 ]
 consumes: {
   power: 4
-  items: [
-    01a-13-item-barite-webbing/1
-  ]
-  optional: true
-  booster: true
+  items: {
+    items: [
+      01a-13-item-barite-webbing/1
+    ]
+    optional: true
+    booster: true
+  }
 }
 sides: 7
 researchCostMultiplier: 0.5
