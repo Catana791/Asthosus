@@ -24,57 +24,49 @@ alwaysUnlocked: true
 outlineColor: 42413e
 weapons: [
   {
-    name: zeta-weapon-r
-    x: 6.2
-    y: -1
-    mirror: false
-    reload: 21
-    shoot: {
-      shots: 2
-      shotDelay: 0.8
-    }
-    ejectEffect: casing1
-    bullet: {
-      homingPower: 0.0923
-      type: BasicBulletType
-      trailChance: -1
-      trailEffect: dynamicSpikes
-      speed: 2.2
-      damage: 8
-      lifetime: 60
-      width: 7
-      height: 12
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      buildingDamageMultiplier: 0.01
-    }
-  }
-  {
-    name: zeta-weapon-l
     x: -6.2
     y: -1
     mirror: false
-    reload: 32
-    shoot: {
-      shots: 3
-      shotDelay: 0.6
-    }
-    ejectEffect: casing1
+    name: zeta-weapon-l
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: none
+    loopSound: laserbeam
     bullet: {
-      weaveScale: 3
-      weaveMag: 3
-      homingPower: 0.0923
-      type: BasicBulletType
-      trailChance: -1
-      trailEffect: dynamicSpikes
-      speed: 2.2
-      damage: 5
-      lifetime: 60
-      width: 7
-      height: 12
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
+      type: ContinuousFlameBulletType
+      length: 132
+      width: 2
+      drawFlare: false
+      damageInterval: 15
+      damage: 8
+      pierce: false
       buildingDamageMultiplier: 0.01
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    x: 6.2
+    y: -1
+    mirror: false
+    name: zeta-weapon-r
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: none
+    loopSound: laserbeam
+    bullet: {
+      type: ContinuousFlameBulletType
+      length: 132
+      width: 2
+      drawFlare: false
+      damageInterval: 15
+      damage: 7
+      pierce: false
+      buildingDamageMultiplier: 0.01
+      hitEffect: none
+      despawnEffect: none
     }
   }
   {
