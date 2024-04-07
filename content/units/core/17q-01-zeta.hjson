@@ -109,6 +109,7 @@ weapons: [
       trailLength: 16
       trailChance: -1
       despawnEffect: none
+      buildingDamageMultiplier: 0.01
       hitEffect: {
         type: ExplosionEffect
         lifetime: 20
