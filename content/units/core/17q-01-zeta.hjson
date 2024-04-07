@@ -92,8 +92,8 @@ weapons: [
       type: MissileBulletType
       speed: 3
       lifetime: 47
-      damage: 1
-      splashDamage: 2
+      damage: 4
+      splashDamage: 5
       splashDamageRadius: 8
       homingPower: 0.2
       weaveMag: 4
