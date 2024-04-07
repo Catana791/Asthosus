@@ -23,7 +23,16 @@ effect: {
 }
 consumes: {
   power: 0.5
+  items: {
+    items: [
+      01a-07-item-lithium/1
+    ]
+    optional: true
+    booster: true
+  }
 }
+optionalUseTime: 180
+optionalMultiplier: 2
 healPercent: 0.0166667
 requirements: [
   01a-01-item-ferrinite/30
