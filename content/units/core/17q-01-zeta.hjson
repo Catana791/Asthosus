@@ -77,8 +77,8 @@ weapons: [
   }
   {
     x: 0
-    y: 4.5
-    reload: 73
+    y: 4.1
+    reload: 146
     mirror: false
     rotate: false
     ejectEffect: none
@@ -90,15 +90,15 @@ weapons: [
     bullet: {
       type: LaserBulletType
       length: 140
-      damage: 21
+      damage: 42
       pierce: true
       pierceCap: 1
       pierceBuilding: false
       buildingDamageMultiplier: 0.01
-      width: 2
+      width: 4
       colors: [d46f6b, ffbe7f, ffffff]
       chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin, lightningCharge]
-      sideWidth: 1
+      sideWidth: 2
       sideLength: 20
       sideAngle: 45
     }
