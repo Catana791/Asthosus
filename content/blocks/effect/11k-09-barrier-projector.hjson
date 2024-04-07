@@ -16,8 +16,6 @@ requirements: [
 ]
 consumes: {
   power: 4
-}
-itemConsumer: {
   items: {
     items: [
       01a-13-item-barite-webbing/1
