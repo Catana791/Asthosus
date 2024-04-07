@@ -32,9 +32,11 @@ weapons: [
     alwaysContinuous: true
     ejectEffect: none
     shootSound: none
-    loopSound: laserbeam
+    shootSound: laserbeam
+    shootY: 1
     bullet: {
       type: ContinuousFlameBulletType
+      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       length: 132
       width: 1
       drawFlare: false
@@ -44,6 +46,7 @@ weapons: [
       buildingDamageMultiplier: 0.01
       hitEffect: none
       despawnEffect: none
+      pierceArmor: false
     }
   }
   {
@@ -55,7 +58,8 @@ weapons: [
     alwaysContinuous: true
     ejectEffect: none
     shootSound: none
-    loopSound: laserbeam
+    shootSound: laserbeam
+    shootY: 1
     bullet: {
       type: ContinuousFlameBulletType
       length: 132
@@ -68,6 +72,7 @@ weapons: [
       buildingDamageMultiplier: 0.01
       hitEffect: none
       despawnEffect: none
+      pierceArmor: false
     }
   }
   {
