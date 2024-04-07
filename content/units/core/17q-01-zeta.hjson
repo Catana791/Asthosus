@@ -32,16 +32,16 @@ weapons: [
     alwaysContinuous: true
     ejectEffect: none
     shootSound: none
-    shootSound: laserbeam
+    shootSound: none
     shootY: 1
     bullet: {
       type: ContinuousFlameBulletType
       colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
-      length: 132
+      length: 80
       width: 1
       drawFlare: false
       damageInterval: 15
-      damage: 8
+      damage: 11
       pierce: false
       buildingDamageMultiplier: 0.01
       hitEffect: none
@@ -62,12 +62,12 @@ weapons: [
     shootY: 1
     bullet: {
       type: ContinuousFlameBulletType
-      length: 132
+      length: 80
       width: 1
       colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       drawFlare: false
       damageInterval: 15
-      damage: 7
+      damage: 9
       pierce: false
       buildingDamageMultiplier: 0.01
       hitEffect: none
@@ -82,22 +82,25 @@ weapons: [
     mirror: false
     rotate: false
     ejectEffect: none
-    shootSound: artillery
-    velocityRnd: 0.12
+    shootSound: shoot-laser
+    chargeSound: short-laser-charge
+    shoot: {
+      firstShotDelay: 60
+    }
     bullet: {
-      type: ArtilleryBulletType
-      speed: 1.65
-      lifetime: 90
-      damage: 16
-      splashDamage: 5
-      splashDamageRadius: 8
-      width: 9
-      height: 11
-      trailChance: -1
-      trailEffect: dynamicSpikes
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
+      type: LaserBulletType
+      length: 140
+      damage: 21
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: false
       buildingDamageMultiplier: 0.01
+      width: 2
+      colors: [d46f6b, ffbe7f, ffffff]
+      chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin, lightningCharge]
+      sideWidth: 1
+      sideLength: 20
+      sideAngle: 45
     }
   }
 ]
