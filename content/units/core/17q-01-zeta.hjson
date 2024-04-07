@@ -44,9 +44,23 @@ weapons: [
       width: 1
       drawFlare: false
       damageInterval: 15
-      damage: 12
+      damage: 11
       buildingDamageMultiplier: 0.01
       pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+      intervalBullets: 1
+      bulletInterval: 30
+      intervalBullet: {
+        type: LightningBulletType
+        lightningLength: 10
+        lightningLengthRand: 1
+        lightningColor: ffbe7f
+        damage: 4
+        pierce: false
+        buildingDamageMultiplier: 0
+      }
     }
   }
   {
@@ -70,6 +84,20 @@ weapons: [
       damage: 12
       buildingDamageMultiplier: 0.01
       pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+      intervalBullets: 1
+      bulletInterval: 30
+      intervalBullet: {
+        type: LightningBulletType
+        lightningLength: 10
+        lightningColor: ffbe7f
+        lightningLengthRand: 1
+        damage: 4
+        pierce: false
+        buildingDamageMultiplier: 0
+      }
     }
   }
   {
