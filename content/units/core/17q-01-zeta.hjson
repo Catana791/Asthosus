@@ -54,7 +54,7 @@ weapons: [
     mirror: false
     name: zeta-weapon-r
     continuous: true
-    reload: 240
+    reload: 360
     ejectEffect: none
     shootSound: none
     shootSound: laserbeam
@@ -73,7 +73,7 @@ weapons: [
       hitEffect: none
       despawnEffect: none
       pierceArmor: false
-      lifetime: 120
+      lifetime: 240
       shake: 0
       incendAmount: 0
       incendSpread: 0
