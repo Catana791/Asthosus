@@ -23,20 +23,10 @@ consumes: {
     optional: true
     booster: true
   }
-  liquids: {
-    liquids: [
-      02b-03-liquid-purified-oasis-water/0.1
-    ]
-    optional: true
-    booster: true
-  }
 }
-sides: 9
+sides: 3
 researchCostMultiplier: 0.5
 phaseRadiusBoost: 80
 phaseShieldBoost: 400
 phaseUseTime: 180
-consumeCoolant: true
-
-coolantConsumption: 0.1
-cooldownLiquid: 0.7
+consumeCoolant: false
