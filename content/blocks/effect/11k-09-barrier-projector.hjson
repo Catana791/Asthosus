@@ -16,5 +16,27 @@ requirements: [
 ]
 consumes: {
   power: 4
+  items: {
+    items: [
+      01a-13-item-barite-webbing/1
+    ]
+    optional: true
+    booster: true
+  }
+  liquids: {
+    liquids: [
+      02b-03-liquid-purified-oasis-water/0.1
+    ]
+    optional: true
+    booster: true
+  }
 }
+sides: 9
 researchCostMultiplier: 0.5
+phaseRadiusBoost: 80
+phaseShieldBoost: 400
+phaseUseTime: 180
+consumeCoolant: true
+
+coolantConsumption: 0.1
+cooldownLiquid: 0.7
