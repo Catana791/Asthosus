@@ -21,10 +21,8 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawGlowRegion
-      suffix: -heat
-      blending: additive
-      color: d76a6a80
+      type: DrawHeatInput
+      heatColor: 641616B0
     }
     {
       type: DrawRegion
