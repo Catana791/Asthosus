@@ -24,7 +24,8 @@ consumes: {
     booster: true
   }
 }
-sides: 7
+radius: 120
+sides: 4
 researchCostMultiplier: 0.5
 phaseRadiusBoost: 80
 phaseShieldBoost: 400
