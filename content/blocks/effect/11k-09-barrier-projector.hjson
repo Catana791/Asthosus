@@ -25,6 +25,7 @@ consumes: {
   }
 }
 radius: 120
+shieldRotation: 90
 sides: 4
 researchCostMultiplier: 0.5
 phaseRadiusBoost: 80
