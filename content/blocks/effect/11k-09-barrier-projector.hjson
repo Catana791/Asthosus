@@ -16,8 +16,10 @@ requirements: [
 ]
 consumes: {
   power: 4
+  items: [
+    01a-13-item-barite-webbing/1
+  ]
 }
-itemConsumer: 01a-13-item-barite-webbing
 sides: 7
 researchCostMultiplier: 0.5
 phaseRadiusBoost: 80
