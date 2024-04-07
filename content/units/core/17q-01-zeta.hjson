@@ -78,6 +78,7 @@ weapons: [
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
+      fadeTime: 60
     }
   }
   {
