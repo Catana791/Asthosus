@@ -13,6 +13,7 @@ requirements: [
   01a-11-item-barite/6
 ]
 researchCostMultiplier: 0.5
+buildCost: 48
 reload: 60
 rotateSpeed: 0
 smokeEffect: none
