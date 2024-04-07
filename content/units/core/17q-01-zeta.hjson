@@ -103,10 +103,10 @@ weapons: [
       trailColor: d46f6b
       hitSound: none
       despawnSound: dullExplosion
-      width: 4
-      height: 8
-      trailWidth: 1.2
-      trailLength: 12
+      width: 8
+      height: 12
+      trailWidth: 1.8
+      trailLength: 16
       trailChance: -1
       despawnEffect: none
       hitEffect: {
