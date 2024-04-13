@@ -11,6 +11,9 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawPlasma
+    }
+    {
       type: DrawDefault
     }
     {
