@@ -1,4 +1,4 @@
-type: VariableGenerator
+type: VariableReactor
 name: Discharge Generator
 description: Produces power by discharging charged materials.
 size: 3
