@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Discharge Generator
-description: Produces power by discharging charged materials.
+description: Produces power by discharging charged materials. Slowly builds up pressure and explodes when pressure reaches the maximum threshold.
 size: 3
 squareSprite: false
 drawer: {
