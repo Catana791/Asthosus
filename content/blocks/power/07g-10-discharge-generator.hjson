@@ -26,6 +26,7 @@ drawer: {
   ]
 }
 ambientSound: hum
+unstableSpeed: 0
 ambientSoundVolume: 0.24
 powerProduction: 30
 category: power
