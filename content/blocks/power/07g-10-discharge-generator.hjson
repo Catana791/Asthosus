@@ -40,9 +40,9 @@ consumes: {
     minCharge: 0.1
   } 
 }
-warmupSpeed: 0.005
+warmupSpeed: 0.003
 outputLiquid: 02b-01-pressure/0.01
 liquidCapacity: 
 researchCostMultiplier: 0.5
-liquidCapacity: 6
+liquidCapacity: 3
 explodeOnFull: true
