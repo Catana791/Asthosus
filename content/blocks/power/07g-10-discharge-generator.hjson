@@ -1,7 +1,8 @@
-type: ConsumeGenerator
+type: VariableGenerator
 name: Discharge Generator
 description: Produces power by discharging charged materials.
 size: 3
+maxHeat: 3
 squareSprite: false
 drawer: {
   type: DrawMulti
