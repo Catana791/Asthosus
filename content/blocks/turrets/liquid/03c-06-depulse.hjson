@@ -74,4 +74,17 @@ ammoTypes: {
     colors: [b7a76180, e2cf7aB3, ffffffCC, ffffff]
     lightColor: e2cf7aCC
   }
+  02b-06-liquid-silicon-tetrafluoride: {
+    width: 1.7
+    drawFlare: false
+    hitColor: e2cf7aCC
+    type: ContinuousFlameBulletType
+    damage: 4
+    pierceArmor: false
+    length: 144
+    knockback: 5
+    pierceCap: 4
+    colors: [b7a76180, e2cf7aB3, ffffffCC, ffffff]
+    lightColor: e2cf7aCC
+  }
 }
