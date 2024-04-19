@@ -1,0 +1,20 @@
+localizedName: Lithium Headquarters
+description: 
+''' 
+  A large area with a enemy base with the sole purpose
+  to make as much lithium as possible.
+  This sector is optional but supplies good conditions to create lithium.
+''' 
+difficulty: 4
+planet: asthosus
+sector: 4
+research: {
+  parent: 19s-06-igneous-peaks
+  objectives: [
+    03c-11-fulmination,
+    {
+      type: SectorComplete
+      preset: 19s-06-igneous-peaks
+    }
+  ]
+}
