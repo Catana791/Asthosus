@@ -2,7 +2,7 @@ type: Constructor
 name: Progressive Component Assembler
 description: 
 '''
-  Crafts advanced components used for unit assembly. Requires power and pressure. 
+  Crafts advanced components used for unit assembly. Requires power, pressure, and nontragen.
   Conducts power to blocks it touches.
 
   Recipes: 
