@@ -2,7 +2,7 @@ type: Constructor
 name: Cumulative Component Assembler
 description: 
 '''
-  Crafts high-tier components used for unit assembly. Requires power and pressure. 
+  Crafts high-tier components used for unit assembly. Requires power, pressure, and nontragen.
   Conducts power to blocks it touches.
 
   Recipes:
