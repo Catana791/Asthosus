@@ -1,7 +1,7 @@
 research: 11k-10-restoration-projector
 type: RegenProjector
 name: Restoration Dome
-description: Slowly restores the health of nearby allied blocks. Requires power. Has more range than a normal Restoration Projector and regenerates health faster.
+description: Slowly repairs nearby allied blocks. Requires power. Has more range than a normal Restoration Projector and regenerates health faster. May optionally be boosted with Vesmonium.
 size: 2
 range: 9
 baseColor: 85c278
