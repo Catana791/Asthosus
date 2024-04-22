@@ -1,5 +1,6 @@
 name: Draysten
-description: A slightly charged and flammable alloy used in lategame building and unit creation. Made by infusing Vesmonium with Nontragen using Heat and Pressure.
+description: A slightly charged and flammable alloy used in lategame building and unit creation. Made by infusing Vesmonium with Nontragen using heat.
+// vanilla doesn't capitalize heat but you can change that if you want, idk really
 charge: 0.5
 explosiveness: 0.5
 radioactivity: 0.25
