@@ -1,7 +1,7 @@
 research: 07g-01-ferrinite-wire
 type: RegenProjector
 name: Restoration Projector
-description: Slowly restores the health of nearby allied blocks. Requires power.
+description: Slowly repairs nearby allied blocks. Requires power. May be optionally boosted with Lithium.
 size: 1
 range: 6
 baseColor: 85c278
