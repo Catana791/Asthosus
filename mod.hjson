@@ -5,10 +5,10 @@ description:
   
   Asthosus is a deserted planet. A wasteland filled with danger.
 
-  It has a fully playable campaign with 11 campaign and 2 optional maps. 
-  2 more optional maps will be added in the future.
+  It has a fully playable campaign with 11 campaign and 5 optional maps. 
+  1 more optional map will be added in the future.
 
-  Aside from these 13 maps, Asthosus contains 181 pieces of unique content,
+  Aside from these 16 maps, Asthosus contains over 18ß pieces of unique content,
   including blocks, liquids, items, units and status effects.
   This number is not counting any internal units or environment blocks/tiles.
 
@@ -23,6 +23,6 @@ description:
 '''
 author: "Catana791"
 minGameVersion: 146
-version: "1.1"
+version: "1.2"
 displayName: "Asthosus"
-subtitle: "Now with nicer biomes and more stuff!"
+subtitle: "Don't forget to reinstall every so often!"
