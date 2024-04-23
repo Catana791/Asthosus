@@ -57,7 +57,7 @@ ammoTypes: {
     type: ContinuousFlameBulletType
     damage: 1
     length: 144
-    knockback: 4
+    knockback: 3
     pierceCap: 3
     colors: [ffffff80, ffffffB3, ffffffCC, ffffff]
     lightColor: ffffffCC
@@ -67,9 +67,9 @@ ammoTypes: {
     drawFlare: false
     hitColor: e2cf7aCC
     type: ContinuousFlameBulletType
-    damage: 2
+    damage: 3
     length: 144
-    knockback: 4
+    knockback: 2
     pierceCap: 4
     colors: [b7a76180, e2cf7aB3, ffffffCC, ffffff]
     lightColor: e2cf7aCC
@@ -82,7 +82,7 @@ ammoTypes: {
     damage: 4
     pierceArmor: false
     length: 144
-    knockback: 5
+    knockback: 3
     pierceCap: 4
     colors: [b7a76180, e2cf7aB3, ffffffCC, ffffff]
     lightColor: e2cf7aCC
