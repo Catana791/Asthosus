@@ -1,0 +1,15 @@
+localizedName: Abandoned Research Center
+description: The enemy has created a mighty base with multiple cores here. Higher tier units will be required to take it down. Enemy tier 5 production located!
+difficulty: 8
+planet: asthosus
+sector: 5
+research: {
+  parent: 19s-09-synthesis-facility
+  objectives: [
+    01a-12-item-crosium, 01a-13-item-barite-webbing,
+    {
+      type: SectorComplete
+      preset: 19s-09-synthesis-facility
+    }
+  ]
+}
