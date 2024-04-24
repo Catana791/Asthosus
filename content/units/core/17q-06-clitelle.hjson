@@ -10,7 +10,7 @@ drawBody: false
 drawCell: false
 rotateToBuilding: false
 segments: 3
-segmentScl: 3
+segmentScl: 4
 segmentPhase: 5
 segmentMag: 2
 rotateSpeed: 7
