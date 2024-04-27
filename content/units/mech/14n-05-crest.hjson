@@ -126,4 +126,4 @@ weapons: [
   }
 ]
 research: 14n-04-apex
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.2
