@@ -100,4 +100,4 @@ weapons: [
 }
   ]
 research: 16p-01-luminary
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.65
