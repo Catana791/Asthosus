@@ -17,7 +17,7 @@ health: 870
 armor: 4
 hitSize: 14
 research: 16a-02-teraze
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.5
 abilities: [
   {
     type: MoveEffectAbility
