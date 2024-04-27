@@ -54,4 +54,4 @@ weapons: [
   }
 ]
 research: 10j-02-support-mounting-bay
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.75
