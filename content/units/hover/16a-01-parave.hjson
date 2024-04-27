@@ -16,7 +16,6 @@ groundLayer: 60
 health: 210
 armor: 1
 hitSize: 6
-researchCostMultiplier: 0.75
 research: 10j-03-hover-mounting-bay
 abilities: [
   {
