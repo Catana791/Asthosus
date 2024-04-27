@@ -16,7 +16,7 @@ groundLayer: 60
 health: 16790
 armor: 8
 hitSize: 30
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.25
 research: 16a-04-tequant
 parts: [
   {
