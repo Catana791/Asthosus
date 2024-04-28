@@ -8,6 +8,7 @@ description:
 difficulty: 10
 captureWave: 50
 planet: asthosus
+isLastSector: true
 sector: 20
 research: {
   parent: 19s-10-furnace-settlement
