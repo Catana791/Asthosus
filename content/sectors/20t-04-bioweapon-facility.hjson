@@ -3,7 +3,11 @@ description:
   ''' 
     A large research facility that was taken over by barite creatures.
     It once contained dangerous biological weapons.
+
     Now the hives control the entire base.
+
+
+    [accent]Note: This is an optional sector. Capturing it is not required for completing the campaign.
   '''
 difficulty: 8
 planet: asthosus
