@@ -1,9 +1,11 @@
 localizedName: Lithium Headquarters
 description: 
 ''' 
-  A large area with a enemy base with the sole purpose
-  to make as much lithium as possible.
-  This sector is optional but supplies good conditions to create lithium.
+  The enemy has created a small base here.
+  Bring it down. Use the space to produce more resources.
+
+  
+  [accent]Note: This is an optional sector. Capturing it is not required for completing the campaign.
 ''' 
 difficulty: 4
 planet: asthosus
