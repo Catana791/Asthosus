@@ -1,5 +1,11 @@
 localizedName: Synthesis Facility
-description: The enemy is coming from two sides here. Venture into the creation of Crosium and defend this challenging sector. 
+description: 
+'''
+  The enemy is approaching from two sides at the same time. 
+
+  Venture into the creation of Crosium. 
+  Defend this challenging sector and capture it.
+'''
 difficulty: 7
 planet: asthosus
 sector: 12
