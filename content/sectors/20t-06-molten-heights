@@ -1,0 +1,27 @@
+localizedName: Molten Heights
+description: 
+''' 
+  Due to massive amounts of volcanic activity the area is flooded with slag, 
+  but more higher regions of the terrain remain untouched.
+  
+  The enemy values this sector greatly. Prepare for merciless waves of enemies.
+
+
+  Note: This is an optional sector. Capturing it is not required for completing the campaign.
+''' 
+difficulty: 8
+captureWave: 8
+planet: asthosus
+sector: 6
+research: {
+  parent: 19s-10-furnace-settlement
+  objectives: [
+    01a-12-item-crosium,
+    01a-13-item-barite-webbing,
+    01a-14-item-draysten,
+    {
+      type: SectorComplete
+      preset: 19s-10-furnace-settlement
+    }
+  ]
+}
