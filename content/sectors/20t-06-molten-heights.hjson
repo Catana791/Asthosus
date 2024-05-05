@@ -7,7 +7,7 @@ description:
   The enemy values this sector greatly. Prepare for merciless waves of enemies.
 
 
-  Note: This is an optional sector. Capturing it is not required for completing the campaign.
+  [accent]Note: This is an optional sector. Capturing it is not required for completing the campaign.
 ''' 
 difficulty: 8
 captureWave: 8
