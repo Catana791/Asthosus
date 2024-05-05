@@ -1,9 +1,15 @@
 localizedName: Omega
 description: 
 ''' 
-  The enemy has cornered you with the full brunt of their forces. Survive the onslaught. Defend the core. Capture this planet for yourself.
+  The enemy has cornered you with the full brunt of their forces. 
+  All of the remaining enemy forces have been sent to take you down.
 
-  Consider securing areas before building production. The enemy will not give up territory without a fight.
+  Survive the onslaught. Defend the core. 
+  This is your final and most brutal test.
+  Capture this planet for yourself.
+
+  Consider securing areas before building production. 
+  The enemy will not give up territory without a fight.
 ''' 
 difficulty: 10
 captureWave: 50
