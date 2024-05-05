@@ -1,5 +1,11 @@
 localizedName: Igneous Peaks
-description: This sector has high-temperature biomes that contain a new resource for you to use: Obsidian. Mine Obsidian and use it to bring down this sectors guardian. 
+description: 
+'''
+  This sector contains high-temperature biomes.
+  These contain a new resource for you to use: Obsidian. 
+
+  Produce Obsidian and use it to bring down this sectors guardian. 
+'''
 captureWave: 50
 difficulty: 5
 planet: asthosus
