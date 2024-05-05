@@ -1,9 +1,13 @@
 localizedName: Furnace Settlement
 description: 
 ''' 
-  The enemy has developed an extremely powerful base here. 
-  Not only that, they also have two landing zones located in the Mesa biomes. 
-  Venture into the creation of Draysten and bring down this massive outpost.
+  The enemy has created an extremely powerful base here. 
+  
+  Furthermore, the enemy is deploying forces from two drop zones at the same time.
+  Some of their most powerful guardians have been ordered to take you down.
+
+  Venture into the creation of Draysten.
+  Bring down the enemy waves and destroy the massive base.
 ''' 
 difficulty: 8
 captureWave: 20
