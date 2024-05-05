@@ -1,5 +1,11 @@
 localizedName: Fulge
-description: You land on a small sector. This is the perfect opportunity to research and use Lithium. 
+description: 
+'''
+You land on a small sector. 
+This is the perfect opportunity to research and use Lithium. 
+
+Set up Lithium production. Bring down the enemy on this sector.
+'''
 captureWave: 30
 difficulty: 4
 planet: asthosus
