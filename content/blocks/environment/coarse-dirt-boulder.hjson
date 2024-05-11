@@ -1,0 +1,4 @@
+type: Prop
+name: Coarse Dirt Boulder
+variants: 2
+breakSound: rock-crush
