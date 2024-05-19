@@ -74,7 +74,7 @@ ammoTypes: {
     colors: [b7a76180, e2cf7aB3, ffffffCC, ffffff]
     lightColor: e2cf7aCC
   }
-  02b-06-liquid-silicon-tetrafluoride: {
+  02b-05-liquid-nontragen: {
     width: 1.7
     drawFlare: false
     hitColor: e2cf7aCC
