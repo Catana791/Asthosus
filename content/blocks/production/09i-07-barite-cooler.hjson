@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Barite Cooler
-description: Cools down Liquid Barite to create Barite. Requires power.
+description: Cools down Liquid Barite using Oasis Water to create Barite.
 size: 2
 squareSprite: false
 category: crafting
@@ -32,10 +32,10 @@ drawer: {
 consumes: {
   power: 1
   liquids: [
-    02b-04-liquid-liquid-barite/0.26666666667
-    02b-02-liquid-oasis-water/0.15
+    02b-04-liquid-liquid-barite/0.4
+    02b-02-liquid-oasis-water/0.1
   ]
 }
-craftTime: 120
+craftTime: 90
 craftEffect: smeltsmoke
 outputItem: 01a-11-item-barite/1
