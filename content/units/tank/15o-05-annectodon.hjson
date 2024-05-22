@@ -97,8 +97,8 @@ weapons: [
       trailWidth: 6
       pierce: true
       pierceCap: 3
-      damage: 228
-      splashDamage: 912
+      damage: 152
+      splashDamage: 312
       splashDamageRadius: 40
       pierceBuilding: true
       hitEffect: massiveExplosion
@@ -113,7 +113,7 @@ weapons: [
         type: ExplosionBulletType
         killShooter: false
         splashDamageRadius: 40
-        splashDamage: 144
+        splashDamage: 72
         speed: 0
         lifetime: 30
         hitSound: explosion
@@ -197,7 +197,7 @@ weapons: [
           type: ExplosionBulletType
           killShooter: false
           splashDamageRadius: 40
-          splashDamage: 144
+          splashDamage: 96
           speed: 0
           lifetime: 30
           hitSound: explosion
