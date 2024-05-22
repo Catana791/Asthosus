@@ -1,7 +1,7 @@
 name: Pressure
 description: Used to power countless Asthosian machines. 
 heatCapacity: 0
-explosiveness: 3
+explosiveness: 2
 temperature: 0.5
 coolant: false
 gas: true
