@@ -1,0 +1,6 @@
+type: TallBlock
+name: Arcana Spikes
+variants: 2
+clipSize: 96
+shadowAlpha: 0.5
+shadowOffset: -1.5
