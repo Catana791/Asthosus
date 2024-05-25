@@ -1,0 +1,57 @@
+type: PowerTurret
+name: Primal Monolith
+placeablePlayer: false
+consumes: {}
+reload: 1341
+shootSound: monolith-impact
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: monolith-
+  parts: [
+    {
+      type: HaloPart
+      progress: warmup
+      color: e0d2a0
+      colorTo: 9a916e
+      mirror: false
+      hollow: true
+      shapes: 8
+      sides: 10
+      radius: 13
+      stroke: 2
+      haloRotateSpeed: 1
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      color: e0d2a0
+      colorTo: 9a916e
+      mirror: false
+      hollow: true
+      shapes: 8
+      tri: true
+      stroke: 3
+      haloRadius: 22
+      triLength: 15
+      triLengthTo: 15
+      haloRotateSpeed: -1
+    }
+  ]
+}
+recoil: 0
+shoot: {
+  type: ShootBarrel
+  barrels: [
+    12, 12, 0,
+    12, -12, 0,
+    -12, -12, 0,
+    -12, 12, 0
+  ]
+}
+shootType: {
+  damage: 0
+  instantDisappear: true
+  spawnUnit: asthosus-14n-01-shiv
+}  
+outlineColor: 151514
