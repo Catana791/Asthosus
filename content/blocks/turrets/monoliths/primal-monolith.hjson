@@ -3,6 +3,7 @@ name: Primal Monolith
 placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
+customShadow: true
 reload: 1381
 size: 7
 alwaysShooting: true
