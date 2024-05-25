@@ -14,6 +14,7 @@ segmentPhase: 5
 segmentMag: 0.5
 rotateSpeed: 6
 omniMovement: false
+immunities: [burning, melting, asthosus-13m-03-status-infested]
 hitSize: 10
 drag: 0.4
 outlineColor: 232028
