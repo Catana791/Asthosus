@@ -43,8 +43,11 @@ drawer: {
   ]
 }
 recoil: 0
+inaccuracy: 0
 shoot: {
   type: ShootBarrel
+  shots: 4
+  shotDelay: 12
   barrels: [
     12, 12, 0,
     12, -12, 0,
