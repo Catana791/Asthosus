@@ -25,7 +25,7 @@ weapons: [
     mirror: false
     reload: 8
     shootSound: flame
-    shootCone: 360
+    shootCone: 45
     inaccuracy: 17
     bullet: {
       damage: 3
