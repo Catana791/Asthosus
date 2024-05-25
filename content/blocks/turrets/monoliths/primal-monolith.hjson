@@ -11,36 +11,6 @@ rotateSpeed: 0
 drawer: {
   type: DrawTurret
   basePrefix: monolith-
-  parts: [
-    {
-      type: HaloPart
-      progress: recoil
-      color: e0d2a0
-      colorTo: 9a916e
-      mirror: false
-      hollow: true
-      shapes: 8
-      sides: 10
-      radius: 6
-      stroke: 2
-      haloRotateSpeed: 1
-    }
-    {
-      type: HaloPart
-      progress: recoil
-      color: e0d2a0
-      colorTo: 9a916e
-      mirror: false
-      hollow: true
-      shapes: 8
-      tri: true
-      stroke: 3
-      haloRadius: 8
-      triLength: 15
-      triLengthTo: 15
-      haloRotateSpeed: -1
-    }
-  ]
 }
 recoil: 0
 inaccuracy: 0
@@ -49,10 +19,10 @@ shoot: {
   shots: 4
   shotDelay: 12
   barrels: [
-    24, 20, 0,
-    24, -20, 0,
-    -24, -20, 0,
-    -24, 20, 0
+    32, 26, 0,
+    32, -26, 0,
+    -32, -26, 0,
+    -32, 26, 0
   ]
 }
 shootX: 0
