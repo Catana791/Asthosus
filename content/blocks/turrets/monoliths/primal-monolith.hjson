@@ -59,4 +59,4 @@ shootType: {
   hitSound: monolith-impact
   despawnSound: monolith-impact
 }  
-outlineColor: 151514
+outlineColor: 38352a
