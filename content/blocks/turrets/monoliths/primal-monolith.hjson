@@ -20,8 +20,8 @@ shoot: {
   shotDelay: 12
   barrels: [
     32, 26, 0,
-    32, -26, 0,
-    -32, -26, 0,
+    32, -28, 0,
+    -32, -28, 0,
     -32, 26, 0
   ]
 }
@@ -32,7 +32,7 @@ shootEffect: {
   sizeFrom: 0
   sizeTo: 122
   strokeFrom: 0
-  strokTo: 3.5
+  strokTo: 4.2
   colorFrom: e0d2a0
   colorTo: 9a916e
   lifetime: 143
