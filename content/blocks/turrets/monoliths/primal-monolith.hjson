@@ -4,6 +4,7 @@ placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
 reload: 1341
+size: 7
 shootSound: monolith-impact
 rotateSpeed: 0
 drawer: {
