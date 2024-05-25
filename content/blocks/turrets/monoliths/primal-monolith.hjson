@@ -4,6 +4,7 @@ placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
 customShadow: true
+drawTeamOverlay: false
 reload: 1381
 size: 7
 alwaysShooting: true
