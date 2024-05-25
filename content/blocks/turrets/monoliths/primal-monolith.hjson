@@ -3,10 +3,10 @@ name: Primal Monolith
 placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
-reload: 300
+reload: 791
 size: 7
 alwaysShooting: true
-shootSound: monolith-impact
+shootSound: none
 rotateSpeed: 0
 drawer: {
   type: DrawTurret
@@ -27,9 +27,32 @@ shoot: {
 }
 shootX: 0
 shootY: 0
+shootEffect: {
+  type: WaveEffect
+  sizeFrom: 0
+  sizeTo: 42
+  strokeFrom: 0
+  strokTo: 3.5
+  colorFrom: e0d2a0
+  colorTo: 9a916e
+  lifetime: 143
+}  
 shootType: {
   damage: 0
   instantDisappear: true
   spawnUnit: asthosus-14n-01-shiv
+  hitEffect: none
+  despawnEffect: {
+    type: ParticleEffect
+    spin: -2.34
+    colorFrom: e0d2a0
+    colorTo: 9a916e
+    region: asthosus-monolith-star
+    lifetime: 127
+    sizeFrom: 7
+    sizeTo: 1
+  }
+  hitSound: monolith-impact
+  despawnSound: monolith-impact
 }  
 outlineColor: 151514
