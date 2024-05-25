@@ -6,6 +6,7 @@ buildVisibility: editorOnly
 reload: 791
 size: 7
 alwaysShooting: true
+cooldownTime: 326
 shootSound: monolith-impact
 rotateSpeed: 0
 drawer: {
