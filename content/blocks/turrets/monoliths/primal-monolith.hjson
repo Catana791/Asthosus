@@ -43,7 +43,7 @@ shootType: {
   width: 0
   height: 0
   lifetime: 60
-  spawnUnit: asthosus-14n-01-shiv
+  spawnUnit: asthosus-arcana-blob
   despawnHit: true
   hitEffect: {
     type: ParticleEffect
