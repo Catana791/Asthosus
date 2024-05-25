@@ -49,12 +49,14 @@ shoot: {
   shots: 4
   shotDelay: 12
   barrels: [
-    12, 12, 0,
-    12, -12, 0,
-    -12, -12, 0,
-    -12, 12, 0
+    24, 20, 0,
+    24, -20, 0,
+    -24, -20, 0,
+    -24, 20, 0
   ]
 }
+shootX: 0
+shootY: 0
 shootType: {
   damage: 0
   instantDisappear: true
