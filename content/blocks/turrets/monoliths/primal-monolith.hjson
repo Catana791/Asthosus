@@ -39,10 +39,12 @@ shootEffect: {
 }  
 shootType: {
   damage: 0
-  instantDisappear: true
+  width: 0
+  height: 0
+  lifetime: 1
   spawnUnit: asthosus-14n-01-shiv
-  hitEffect: none
-  despawnEffect: {
+  despawnHit: true
+  hitEffect: {
     type: ParticleEffect
     spin: -2.34
     colorFrom: e0d2a0
