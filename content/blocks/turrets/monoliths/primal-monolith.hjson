@@ -30,7 +30,7 @@ shootY: 0
 shootEffect: {
   type: WaveEffect
   sizeFrom: 0
-  sizeTo: 42
+  sizeTo: 122
   strokeFrom: 0
   strokTo: 3.5
   colorFrom: e0d2a0
