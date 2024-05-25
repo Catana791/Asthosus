@@ -1,8 +1,8 @@
 type: crawl
 name: Arcana Blob
 description: Created by a Primal Monolith, this alien creature spews out purple flames to attack.
-health: 400
-speed: 3
+health: 260
+speed: 2.5
 armor: 1
 drawBody: false
 drawCell: false
@@ -28,7 +28,7 @@ weapons: [
     shootCone: 360
     inaccuracy: 17
     bullet: {
-      damage: 4
+      damage: 3
       shootEffect: none
       speed: 6
       pierce: true
