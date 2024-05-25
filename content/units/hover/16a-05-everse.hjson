@@ -121,6 +121,8 @@ weapons: [
       buildingDamageMultiplier: 0.5
       hitEffect: explosion
       endEffect: explosion
+      suppressionDuration: 240
+      suppressionRange: 48
       pointEffect: {
         type: ParticleEffect
         particles: 5
