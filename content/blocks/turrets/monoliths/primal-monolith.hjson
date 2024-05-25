@@ -3,8 +3,9 @@ name: Primal Monolith
 placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
-reload: 1341
+reload: 300
 size: 7
+alwaysShooting: true
 shootSound: monolith-impact
 rotateSpeed: 0
 drawer: {
@@ -13,7 +14,7 @@ drawer: {
   parts: [
     {
       type: HaloPart
-      progress: warmup
+      progress: recoil
       color: e0d2a0
       colorTo: 9a916e
       mirror: false
@@ -26,7 +27,7 @@ drawer: {
     }
     {
       type: HaloPart
-      progress: warmup
+      progress: recoil
       color: e0d2a0
       colorTo: 9a916e
       mirror: false
