@@ -24,7 +24,8 @@ weapons: [
     rotate: false
     mirror: false
     reload: 8
-    shootSound: none
+    shootSound: flame
+    ignoreRotation: true
     inaccuracy: 17
     bullet: {
       damage: 4
