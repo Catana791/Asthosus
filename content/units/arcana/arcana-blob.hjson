@@ -25,11 +25,11 @@ weapons: [
     mirror: false
     reload: 8
     shootSound: flame
-    ignoreRotation: true
+    shootCone: 360
     inaccuracy: 17
-    shootEffect: none
     bullet: {
       damage: 4
+      shootEffect: none
       speed: 6
       pierce: true
       pierceBuilding: true
