@@ -2,6 +2,7 @@ type: PowerTurret
 name: Primal Monolith
 placeablePlayer: false
 consumes: {}
+buildVisibility: editorOnly
 reload: 1341
 shootSound: monolith-impact
 rotateSpeed: 0
