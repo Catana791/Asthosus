@@ -6,7 +6,7 @@ buildVisibility: editorOnly
 reload: 791
 size: 7
 alwaysShooting: true
-shootSound: none
+shootSound: monolith-impact
 rotateSpeed: 0
 drawer: {
   type: DrawTurret
@@ -41,7 +41,7 @@ shootType: {
   damage: 0
   width: 0
   height: 0
-  lifetime: 1
+  lifetime: 60
   spawnUnit: asthosus-14n-01-shiv
   despawnHit: true
   hitEffect: {
