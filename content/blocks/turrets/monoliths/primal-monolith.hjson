@@ -42,10 +42,7 @@ shootType: {
   width: 0
   height: 0
   lifetime: 60
-  despawnUnitRadius: 0
-  despawnUnitChance: 1
-  despawnUnitCount: 1
-  despawnUnit: asthosus-14n-01-shiv
+  spawnUnit: asthosus-14n-01-shiv
   despawnHit: true
   hitEffect: {
     type: ParticleEffect
