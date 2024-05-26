@@ -7,7 +7,7 @@ itemCapacity: 40
 reload: 200
 range: 128
 consumes: {
-  power: 1.5
+  power: 2
 }
 category: distribution
 research: 05e-10-heavy-unloader
