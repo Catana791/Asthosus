@@ -1,0 +1,20 @@
+type: MassDriver
+name: Kinetic Propulsor
+description: Fires batches of items over medium distances to another Kinetic Propulsor in range. Requires power and pressure.
+size: 2
+squareSprite: false
+itemCapacity: 40
+reload: 200
+range: 128
+consumes: {
+  power: 1.5
+  liquid: 02b-01-pressure/0.15
+}
+category: distribution
+research: 05e-10-heavy-unloader
+requirements: [
+  01a-01-item-ferrinite/120
+  01a-07-item-lithium/40
+  01a-09-item-obsidian/60
+  01a-11-item-barite/30
+]
