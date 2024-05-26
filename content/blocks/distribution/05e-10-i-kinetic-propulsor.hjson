@@ -1,10 +1,10 @@
 type: MassDriver
 name: Kinetic Propulsor
-description: Fires batches of items over medium distances to another Kinetic Propulsor in range. Requires power and pressure.
+description: Fires batches of items over medium distances to another Kinetic Propulsor in range. Requires power.
 size: 2
 squareSprite: false
 itemCapacity: 40
-reload: 200
+reload: 150
 range: 128
 consumes: {
   power: 2
