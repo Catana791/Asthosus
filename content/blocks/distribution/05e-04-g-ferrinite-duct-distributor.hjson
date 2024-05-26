@@ -1,0 +1,14 @@
+type: Router
+name: Pipeline Distributor
+description: A larger Pipeline Router. Distributes input items from ducts to seven directions equally. 
+size: 2
+health: 610
+itemCapacity: 12
+requirements: [
+  01a-01-item-ferrinite/6
+  01a-02-item-demetite/6
+]
+squareSprite: false
+category: distribution
+research: 05e-04-ferrinite-duct-router
+researchCostMultiplier: 0.5
