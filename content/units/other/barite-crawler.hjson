@@ -3,6 +3,7 @@ legCount: 7
 legLength: 15
 legPairOffset: 2
 legSpeed: 0.23
+immunities: [burning, melting, asthosus-13m-02-status-radiated]
 hovering: true
 name: Barite Crawler
 description: A strange lifeform that was born in Asthosus' radioactive biomes.
