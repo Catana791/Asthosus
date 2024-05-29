@@ -4,6 +4,7 @@ legLength: 18
 legPairOffset: 1
 legSpeed: 0.23
 hovering: true
+immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
 name: Barite Stalker
 description: A strange lifeform that was born in Asthosus' radioactive biomes.
 health: 780
