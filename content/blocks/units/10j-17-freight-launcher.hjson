@@ -18,4 +18,4 @@ chargeTime: 90
 range: 480
 maxPayloadSize: 3
 size: 3
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.25
