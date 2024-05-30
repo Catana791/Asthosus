@@ -25,7 +25,7 @@ shoot: {
 }  
 reload: 15
 shootSound: shoot-dull
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.3
 velocityRnd: 0.091
 inaccuracy: 2
 drawer: {
