@@ -75,4 +75,5 @@ abilities: [
       }
     }
 ]
+researchCostMultiplier: 0.5
 research: 10j-00-ground-mounting-bay
