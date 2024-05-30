@@ -16,7 +16,7 @@ groundLayer: 60
 health: 660
 armor: 3
 hitSize: 9
-researchCostMultiplier: 0.9
+researchCostMultiplier: 3
 research: 16a-01-parave
 abilities: [
   {
