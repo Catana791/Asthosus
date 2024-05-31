@@ -12,7 +12,7 @@ details:
   Asthosus was comperatively close to it.
 '''
 research: {
-  parent: memorial-recording-1
+  parent: 25y-01-memorial-recording-1
   objectives: [
     {
       type: SectorComplete
