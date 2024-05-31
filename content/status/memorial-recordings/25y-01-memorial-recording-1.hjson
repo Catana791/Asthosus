@@ -2,13 +2,13 @@ name: Memorial Recording - Genesis
 description: Texts from a memorial slab. Recorded in a digital form.
 details: 
 '''
-  Once, in Serpulos solar system, a lush planet filled with large oceans existed. 
-  It's inhabitants called their planet "Asthosus". 
+  Once, in Serpulo's solar system, a lush planet filled with large oceans existed. 
+  Its inhabitants called their planet "Asthosus". 
   It contained abundant life.
   
-  A civilization of great power and knowledge inhabited Asthosus. 
-  These people were native to the planet and did not colonize it. 
-  Their life as they knew it was created on Asthosus itself.  
+  A civilization of great power and knowledge inhabited these lands. 
+  With its people native to the planet, they did not colonize it.
+  Life as they knew it was created on Asthosus itself.  
 '''
 research: {
   parent: 11k-01-core-essence
