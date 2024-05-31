@@ -14,7 +14,7 @@ coolant: {
   amount: 0.5
 }
 coolantMultiplier: 0.8
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.1
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
