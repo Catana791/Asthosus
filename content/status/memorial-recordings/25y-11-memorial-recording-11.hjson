@@ -16,7 +16,7 @@ details:
   Asthosus' fate had taken it's course. 
 '''
 research: {
-  parent: memorial-recording-10
+  parent: 25y-10-memorial-recording-10
   objectives: [
     {
       type: SectorComplete
