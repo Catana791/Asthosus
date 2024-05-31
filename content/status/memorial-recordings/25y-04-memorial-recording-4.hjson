@@ -2,13 +2,13 @@ name: Memorial Recording - Fulge
 description: Texts from a memorial slab. Recorded in a digital form.
 details: 
 '''
-  A few years after the invention of interplanetary travel, the Asthosians began
-  experiments on terraforming. 
-  Their first test ran on Trecara, Asthosus' moon,
-  which had been a lifeless celestial body without an atmosphere. 
+  A few years after the invention of interplanetary travel, the Asthosians
+  began their experiments on terraforming. 
+  Their first test ran on Trecara, the Asthosian moon,
+  a formerly lifeless celestial body without an atmosphere. 
   
-  The terraforming project was successful, and Trecara was transformed into a 
-  lush and life-friendly moon.
+  The terraforming project was successful, and Trecara was transformed 
+  into a lush and life-friendly moon.
 '''
 research: {
   parent: 25y-03-memorial-recording-3
