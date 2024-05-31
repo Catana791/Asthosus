@@ -217,4 +217,4 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 0.75
+researchCostMultiplier: 2.5
