@@ -22,7 +22,7 @@ consumes: {
 outputItems: [
   01a-09-item-obsidian/18
 ]
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.15
 drawer: {
   type: DrawMulti
   drawers: [
