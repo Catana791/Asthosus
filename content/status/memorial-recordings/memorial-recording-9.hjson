@@ -12,11 +12,11 @@ details:
   still running to protect Asthosus.
 '''
 research: {
-  parent: memorial-recording-1
+  parent: memorial-recording-8
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-02-ignition
+      preset: 19s-09-synthesis-facility
     }
   ]
 }
