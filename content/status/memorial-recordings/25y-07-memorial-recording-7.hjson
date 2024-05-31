@@ -15,7 +15,7 @@ details:
   take power over Asthosus.
 '''
 research: {
-  parent: memorial-recording-6
+  parent: 25y-06-memorial-recording-6
   objectives: [
     {
       type: SectorComplete
