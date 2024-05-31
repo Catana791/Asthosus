@@ -18,7 +18,6 @@ aimDst: 160
 health: 8910
 armor: 6
 hitSize: 19
-researchCostMultiplier: 0.6
 research: 16a-03-decredence
 abilities: [
   {
@@ -228,3 +227,4 @@ weapons: [
     }
   }
 ]
+researchCostMultiplier: 2.25
