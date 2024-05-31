@@ -13,7 +13,7 @@ details:
   the emitted viruses from the bioweapons.
 '''
 research: {
-  parent: memorial-recording-9
+  parent: 25y-09-memorial-recording-9
   objectives: [
     {
       type: SectorComplete
