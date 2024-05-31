@@ -1,0 +1,22 @@
+name: Memorial Recording - Igneous Peaks
+description: Texts from a memorial slab. Recorded in a digital form.
+details: 
+'''
+  Because of the great success of terraforming Trecara, one of Asthosus' oceans
+  was attempted to be terraformed into liveable terrain for the thriving expansion of the
+  planet's people.
+  
+  While this experiment was in progress, a solar wind discharge erupted from the
+  sun.
+  Luckily, the force generator installed on Trecara was able to deflect most of
+  it and prevent further damage. Or so the Asthosians thought...
+'''
+research: {
+  parent: memorial-recording-5
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-06-igneous-peaks
+    }
+  ]
+}
