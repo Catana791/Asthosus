@@ -1,0 +1,22 @@
+name: Memorial Recording - Ignition
+description: Texts from a memorial slab. Recorded in a digital form.
+details: 
+'''
+  Despite their great power and knowledge, the people of Asthosus were not as
+  advanced scientifically as other planets in the solar system. 
+  They had only just invented interplanetary travel.
+
+  Asthosus had very few worries.
+  War and diseases were but few. 
+  The only thing that put a strain on the Asthosians was the heat of the sun. 
+  Asthosus was comperatively close to it.
+'''
+research: {
+  parent: memorial-recording-1
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-02-ignition
+    }
+  ]
+}
