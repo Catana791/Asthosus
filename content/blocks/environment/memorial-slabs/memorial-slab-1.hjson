@@ -6,6 +6,6 @@ description: Old texts recorded on a marble slab. Break it to record the text on
 placeablePlayer: false
 itemDrop: memorial-recording-1
 requirements: [
-  memorial-recording-1
+  memorial-recording-1/1
 ]
 buildVisibility: editorOnly
