@@ -11,7 +11,7 @@ details:
   connect and protect both from threats other than the sun's heat.
 '''
 research: {
-  parent: memorial-recording-4
+  parent: 25y-04-memorial-recording-4
   objectives: [
     {
       type: SectorComplete
