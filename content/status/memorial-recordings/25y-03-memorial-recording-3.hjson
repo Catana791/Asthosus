@@ -2,15 +2,15 @@ name: Memorial Recording - Lattice
 description: Texts from a memorial slab. Recorded in a digital form.
 details: 
 '''
-  The only other issue the planet constantly faced was a fight for power between
-  two political parties. 
-  The one party - called the Trumir - thought that the
+  The only other issue the planet constantly faced was a fight
+  for power between two political parties. 
+  One party, known as the Trumir, believed that
   technological advances brought only good things.
-  The Trumir tried to advance the research in all fields further.
+  They tried to advance research in all fields.
 
-  The other party - called the Arumis - thought that life on Asthosus was better
+  The other party, the Arumis, thought that life on Asthosus was better
   before inventing interplanetary travel
-  and that Asthosus should return to that state.
+  and that it should return to that state.
 '''
 research: {
   parent: 25y-02-memorial-recording-2
