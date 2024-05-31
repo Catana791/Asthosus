@@ -7,6 +7,10 @@ details:
   The one party - called the Trumir - thought that the
   technological advances brought only good things.
   The Trumir tried to advance the research in all fields further.
+
+  The other party - called the Arumis - thought that life on Asthosus was better
+  before inventing interplanetary travel
+  and that Asthosus should return to that state.
 '''
 research: {
   parent: memorial-recording-2
