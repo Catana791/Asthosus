@@ -1,0 +1,23 @@
+name: Memorial Recording - Furnace Settlement
+description: Texts from a memorial slab. Recorded in a digital form.
+details: 
+'''
+  Scientists rushed to reinstate the devices on Trecara and Asthosus, starting with
+  the one on Asthosus' surface.
+
+  While working on this device, it ruptured in a desastrous explosion that took
+  down multiple major cities nearby and also hit the storage facility for the most
+  powerful Asthosian mass-destruction weapons. 
+  
+  Millions of civilians died in great agony - be it from the heat of the explosion or 
+  the emitted viruses from the bioweapons.
+'''
+research: {
+  parent: memorial-recording-9
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-10-furnace-settlement
+    }
+  ]
+}
