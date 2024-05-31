@@ -11,7 +11,7 @@ details:
   threats was out of power and no longer functional.
 '''
 research: {
-  parent: memorial-recording-7
+  parent: 25y-07-memorial-recording-7
   objectives: [
     {
       type: SectorComplete
