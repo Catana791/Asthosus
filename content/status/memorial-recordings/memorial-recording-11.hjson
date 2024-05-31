@@ -1,0 +1,26 @@
+name: Memorial Recording - Omega
+description: Texts from a memorial slab. Recorded in a digital form.
+details: 
+'''
+  Because of these two major catastrophes, Asthosus' atmosphere was almost
+  completely destroyed. 
+  As a consequence, temperatures on Asthosus rose slowly
+  but constantly - with nothing the Asthosians could do to stop it.
+  
+  At some point, all attempts at saving Asthosus - or to be precise - 
+  saving its own people, were in vain. 
+  The entire population was wiped out by the extreme heat.
+  
+  People perished slowly and in great agony.
+
+  Asthosus' fate had taken it's course. 
+'''
+research: {
+  parent: memorial-recording-10
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-11-omega
+    }
+  ]
+}
