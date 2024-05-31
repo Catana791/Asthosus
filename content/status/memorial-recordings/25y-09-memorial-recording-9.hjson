@@ -12,7 +12,7 @@ details:
   still running to protect Asthosus.
 '''
 research: {
-  parent: memorial-recording-8
+  parent: 25y-08-memorial-recording-8
   objectives: [
     {
       type: SectorComplete
