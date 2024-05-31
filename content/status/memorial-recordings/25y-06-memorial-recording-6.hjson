@@ -12,7 +12,7 @@ details:
   it and prevent further damage. Or so the Asthosians thought...
 '''
 research: {
-  parent: memorial-recording-5
+  parent: 25y-05-memorial-recording-5
   objectives: [
     {
       type: SectorComplete
