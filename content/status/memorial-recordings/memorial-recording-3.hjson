@@ -1,0 +1,19 @@
+name: Memorial Recording - Lattice
+description: Texts from a memorial slab. Recorded in a digital form.
+details: 
+'''
+  The only other issue the planet constantly faced was a fight for power between
+  two political parties. 
+  The one party - called the Trumir - thought that the
+  technological advances brought only good things.
+  The Trumir tried to advance the research in all fields further.
+'''
+research: {
+  parent: memorial-recording-2
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-03-lattice
+    }
+  ]
+}
