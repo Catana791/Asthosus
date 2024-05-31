@@ -11,7 +11,7 @@ details:
   lush and life-friendly moon.
 '''
 research: {
-  parent: memorial-recording-3
+  parent: 25y-03-memorial-recording-3
   objectives: [
     {
       type: SectorComplete
