@@ -1,0 +1,25 @@
+name: Memorial Recording - Detriment Valley
+description: Texts from a memorial slab. Recorded in a digital form.
+details: 
+'''
+  A large part of the eruption energy managed to bypass the force shield and
+  directly hit the terraforming devices that were running. 
+  
+  The machines went out of control and threatened to destroy a major part of the Asthosian civilization.
+  
+  Luckily, though, the best scientists were able to avoid this catastrophe by
+  launching the terraforming devices into outer space last-minute where they exploded.
+
+  
+  Because of this mishap, the Arumis party managed to finally gain control and
+  take power over Asthosus.
+'''
+research: {
+  parent: memorial-recording-6
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}
