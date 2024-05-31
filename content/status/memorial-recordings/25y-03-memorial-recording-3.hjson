@@ -13,7 +13,7 @@ details:
   and that Asthosus should return to that state.
 '''
 research: {
-  parent: memorial-recording-2
+  parent: 25y-02-memorial-recording-2
   objectives: [
     {
       type: SectorComplete
