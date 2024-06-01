@@ -1,6 +1,6 @@
 type: DirectionalForceProjector
 name: Projector Wall
-description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield.
+description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield. Has a chance to deflect incoming bullets.
 size: 1
 health: 500
 cooldownBrokenBase: 1200
@@ -17,3 +17,4 @@ requirements: [
   01a-07-item-lithium/2
 ]
 researchCostMultiplier: 0.5
+chanceDeflect: 0.15
