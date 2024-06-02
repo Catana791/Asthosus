@@ -16,6 +16,7 @@ requirements: [
   01a-13-item-barite-webbing/18
   01a-07-item-lithium/6
 ]
+armor: 4
 researchCostMultiplier: 0.5
 destroyBullet: {
   type: BulletType
@@ -27,6 +28,6 @@ destroyBullet: {
   splashDamage: 60
   splashDamageRadius: 40
   status: asthosus-13m-04-status-energy-phasing
-  statusDuration: 30
+  statusDuration: 60
 }
 destroyBulletSameTeam: true
