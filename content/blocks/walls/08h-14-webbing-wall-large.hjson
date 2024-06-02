@@ -17,4 +17,16 @@ requirements: [
   01a-07-item-lithium/6
 ]
 researchCostMultiplier: 0.5
-chanceDeflect: 0.15
+destroyBullet: {
+  type: BulletType
+  width: 0
+  height: 0
+  pierce: true
+  pierceBuildings: true
+  damage: 0
+  splashDamage: 60
+  splashDamageRadius: 40
+  status: asthosus-04-status-energy-phasing
+  statusDuration: 30
+}
+destroyBulletSameTeam: true
