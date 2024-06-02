@@ -17,6 +17,7 @@ requirements: [
   01a-07-item-lithium/2
 ]
 researchCostMultiplier: 0.5
+armor: 4
 destroyBullet: {
   type: BulletType
   width: 0
@@ -27,6 +28,6 @@ destroyBullet: {
   splashDamage: 20
   splashDamageRadius: 24
   status: asthosus-13m-04-status-energy-phasing
-  statusDuration: 30
+  statusDuration: 60
 }
 destroyBulletSameTeam: true
