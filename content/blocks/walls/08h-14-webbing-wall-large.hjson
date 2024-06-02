@@ -1,6 +1,6 @@
 type: DirectionalForceProjector
 name: Large Projector Wall
-description: A large wall made from Vesmonium that is capable of emitting a one-time use directional shield. Has a chance to deflect incoming bullets.
+description: A large wall made from Vesmonium that is capable of emitting a one-time use directional shield. Explodes on destruction, briefly stunning enemies hit. Fortified against weaker attacks.
 size: 2
 health: 2500
 cooldownBrokenBase: 1200
