@@ -1,6 +1,6 @@
 type: DirectionalForceProjector
 name: Projector Wall
-description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield. Explodes on destruction, briefly stunning enemies hit.
+description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield. Explodes on destruction, briefly stunning enemies hit. Fortified against weaker attacks.
 size: 1
 health: 500
 cooldownBrokenBase: 1200
