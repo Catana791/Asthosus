@@ -1,0 +1,5 @@
+name: Energy Phasing
+description: The energy state of this unit is phasing. It is unable to move and attack. 
+buildSpeedMultiplier: 0
+speedMultiplier: 0
+disarm: true
