@@ -16,8 +16,8 @@ outlineColor: 44413c
 research: 15o-04-aphelops
 treadRects: [
   {
-    x: 74
-    y: 112
+    x: -74
+    y: -112
     height: 16
     width: 43
   }
