@@ -4,9 +4,9 @@ description: Quick and durable. Equipped with a beam railgun.
 hitSize: 28
 treadRects: [
   {
-    x: -34
-    y: -61
-    widht: 21
+    x: -39
+    y: -59
+    width: 25
     height: 119
   }
 ]
