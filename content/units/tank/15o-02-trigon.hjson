@@ -7,7 +7,7 @@ treadRects: [
     x: -31
     y: -43
     width: 18
-    height: 86
+    height: 84
   }
 ]
 singleTarget: false
