@@ -14,6 +14,14 @@ rotateSpeed: 1.92
 itemCapacity: 0
 outlineColor: 44413c
 research: 15o-04-aphelops
+treadRects: [
+  {
+    x: -163
+    y: -157
+    height: 16
+    width: 43
+  }
+]
 weapons: [
   {
     name: annectodon-weapon
