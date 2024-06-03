@@ -14,6 +14,14 @@ rotateSpeed: 2.89
 itemCapacity: 0
 outlineColor: 44413c
 research: 15o-03-aprotodon
+treadRects: [
+  {
+    x: -50
+    y: -67
+    width: 29
+    height: 134
+  }
+]
 weapons: [
   {
     x: 9
