@@ -24,6 +24,7 @@ treadRects: [
 ]
 weapons: [
   {
+    name: aphelops-launcher
     x: 9
     y: 5
     reload: 14
