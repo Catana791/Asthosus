@@ -2,7 +2,7 @@ type: tank
 name: Trigon
 description: Quick and durable. Equipped with a rocket launcher.
 hitSize: 19
-treadFrames: 120
+treadFrames: 5000
 treadRects: [
   {
     x: -31
