@@ -5,9 +5,9 @@ hitSize: 28
 treadRects: [
   {
     x: -39
-    y: -56
+    y: -58
     width: 25
-    height: 119
+    height: 116
   }
 ]
 crushDamage: 3
@@ -21,7 +21,6 @@ speed: 1
 rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 44413c
-treadPullOffset: 5
 research: 15o-02-trigon
 weapons: [
   {
