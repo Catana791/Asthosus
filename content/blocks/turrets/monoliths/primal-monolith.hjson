@@ -35,7 +35,7 @@ shootEffect: {
   sizeFrom: 0
   sizeTo: 122
   strokeFrom: 0
-  strokTo: 4.2
+  strokeTo: 4.2
   colorFrom: e0d2a0
   colorTo: 9a916e
   lifetime: 143
