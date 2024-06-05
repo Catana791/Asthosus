@@ -20,10 +20,7 @@ armor: 4
 researchCostMultiplier: 0.5
 destroyBullet: {
   type: BulletType
-  width: 0
-  height: 0
   pierce: true
-  pierceBuildings: true
   damage: 0
   splashDamage: 60
   splashDamageRadius: 40
