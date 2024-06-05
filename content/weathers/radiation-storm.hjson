@@ -11,9 +11,6 @@ minAlpha: 0
 maxAlpha: 0.3
 density: 1500
 baseSpeed: 5.4
-attributes: {
-  light: -0.1
-}
 opacityMultiplier: 0.35
 force: 0.1
 sound: wind
