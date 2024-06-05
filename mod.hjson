@@ -23,6 +23,6 @@ description:
 '''
 author: "Catana"
 minGameVersion: 146
-version: "1.3"
+version: "1.4"
 displayName: "Asthosus"
 subtitle: "Don't forget to reinstall every so often!"
