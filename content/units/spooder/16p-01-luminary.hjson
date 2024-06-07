@@ -22,8 +22,7 @@ hitSize: 8
 weapons: [
 {
   x: 0
-    y: -3
-    name: luminary-weapon
+    y: 3
     reload: 94
     mirror: false
     rotate: false
