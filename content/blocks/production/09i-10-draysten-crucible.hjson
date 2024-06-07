@@ -6,7 +6,7 @@ maxEfficiency: 1.5
 name: Draysten Crucible
 description: Creates Draysten using Vesmonium and Nontragen. Requires heat and power.
 size: 4
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.25
 squareSprite: false
 craftTime: 180
 consumes: {
