@@ -39,7 +39,7 @@ weapons: [
       mixColorTo: 9587cc
       hitSound: arcane-moss-hit
       collidesAir: false // not really needed
-      shootCone: 180
+      shootCone: 360
       hitShake: 1
       lifetime: 60
       shrinkX: 0.7
