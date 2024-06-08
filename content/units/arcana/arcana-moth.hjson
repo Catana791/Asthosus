@@ -1,0 +1,255 @@
+type: flying
+lowAltitude: true
+name: Arcana Moth
+description: Created by an Ample Monolith, this alien creature drops arcane moss clusters on your defenses.
+drawCell: false
+immunities: [burning, melting, asthosus-13m-03-status-infested]
+outlineColor: 232028
+drag: 0.08
+accel: 0.09
+health: 840
+armor: 2
+speed: 3
+weapons: [
+  {
+    x: 0
+    y: 0
+    rotate: false
+    mirror: false
+    minShootVelocity: 0.5
+    shake: 1
+    reload: 45
+    recoil: 0
+    bullet: {
+      type: BasicBulletType
+      sprite: large-bomb
+      width: 10
+      height: 10
+      maxRange: 30
+      ignoreRotation: true
+      backColor: 61568a
+      frontColor: 9587cc
+      mixColorTo: 9587cc
+      hitSound: explosion // meh...
+      collidesAir: false // not really needed
+      shootCone: 180
+      hitShake: 1
+      lifetime: 60
+      shrinkX: 0.7
+      shrinkY: 0.7
+      speed: 0
+      collides: false
+      splashDamage: 60
+      splashDamageRadius: 20
+      status: asthosus-13m-03-status-infested
+      statusDuration: 120
+      despawnEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            colorFrom: 61568a
+            colorTo: 9587cc
+            lightColor: 9587cc
+            sizeFrom: 0
+            sizeTo: 60
+            lifetime: 30
+          }
+          {
+            type: ExplosionEffect
+            waveColor: 9587cc
+            smokeColor: 61568a
+            sparks: 0
+            smokes: 8
+          }
+        ]
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true // this doesn't work with MultiEffect unfortunately, nothing can be done about it
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-bottom-left
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 210
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-bottom-left
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 240
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-bottom-right
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: -30
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-bottom-right
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: -60
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 3
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-top-left
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 10
+          sizeTo: 10
+          baseRotation: 180
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-top-left
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 10
+          sizeTo: 10
+          baseRotation: 200
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 3
+    y: 3
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-top-right
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 10
+          sizeTo: 10
+          baseRotation: 0
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 91
+          followParent: true
+          rotWithParent: true
+          region: asthosus-arcana-moth-wing-top-right
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 10
+          sizeTo: 10
+          baseRotation: -20
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+]
