@@ -34,7 +34,6 @@ weapons: [
       width: 20
       height: 20
       maxRange: 30
-      ignoreRotation: true
       backColor: 61568a
       frontColor: 9587cc
       mixColorTo: 9587cc
