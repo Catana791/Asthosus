@@ -6,7 +6,6 @@ squareSprite: false
 reload: 8
 inaccuracy: 5
 shootSound: shoot-small-flame
-targetAir: false
 researchCostMultiplier: 0.5
 range: 80
 shootY: 1
