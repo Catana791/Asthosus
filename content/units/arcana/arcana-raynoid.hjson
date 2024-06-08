@@ -9,7 +9,7 @@ health: 2140
 stepShake: 1
 outlineColor: 232028
 legCount: 8
-legLength: 18
+legLength: 20
 legGroupSize: 4
 lockLegBase: true
 legContinuousMove: true
