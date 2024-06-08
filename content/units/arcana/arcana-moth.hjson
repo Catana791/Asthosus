@@ -12,6 +12,7 @@ armor: 2
 speed: 3
 hitSize: 13
 faceTarget: false
+circleTarget: true
 weapons: [
   {
     x: 0
