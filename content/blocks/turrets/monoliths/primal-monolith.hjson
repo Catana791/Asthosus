@@ -1,5 +1,6 @@
 type: PowerTurret
 name: Primal Monolith
+description: An ancient construct, left by a civilization long gone. Summons Arcana Blobs to defend itself and attack.
 placeablePlayer: false
 consumes: {}
 buildVisibility: editorOnly
