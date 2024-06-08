@@ -28,8 +28,6 @@ researchCostMultiplier: 0.05
 requirements: [
   01a-01-item-ferrinite/50
 ]
-targetGround: true
-targetAir: false
 ammoTypes: {
   01a-02-item-demetite: {
     type: FlakBulletType
