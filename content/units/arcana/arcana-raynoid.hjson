@@ -39,7 +39,7 @@ weapons: [
       type: ContinuousFlameBulletType
       drawFlare: false
       hitColor: d77751
-      colors: [d77751, e78f6c, fca988, ffc3ab, ffffff]
+      colors: [2e293a, 3d354b, 594e6b, 8270c0, ffffff]
       damageInterval: 10
       damage: 10
       length: 120
@@ -67,6 +67,9 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
+      frontColor: 8270c0
+      backColor: 2e293a
+      trailColor: 2e293a
       width: 10
       height: 18
       trailLength: 18
