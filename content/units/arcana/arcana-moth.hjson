@@ -170,8 +170,8 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
-    x: -4
-    y: 5
+    x: -3.5
+    y: 3
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -180,7 +180,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 91
+          layer: 90.5
           followParent: true
           rotWithParent: true
           region: asthosus-arcana-moth-wing-top-left
@@ -195,7 +195,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 91
+          layer: 90.5
           followParent: true
           rotWithParent: true
           region: asthosus-arcana-moth-wing-top-left
@@ -216,8 +216,8 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
-    x: 4
-    y: 5
+    x: 3.5
+    y: 3
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -226,7 +226,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 91
+          layer: 90.5
           followParent: true
           rotWithParent: true
           region: asthosus-arcana-moth-wing-top-right
@@ -241,7 +241,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 91
+          layer: 90.5
           followParent: true
           rotWithParent: true
           region: asthosus-arcana-moth-wing-top-right
