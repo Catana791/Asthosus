@@ -11,6 +11,7 @@ health: 840
 armor: 2
 speed: 3
 hitSize: 13
+flying: true
 faceTarget: false
 circleTarget: true
 weapons: [
