@@ -21,7 +21,7 @@ weapons: [
     reload: 45
     recoil: 0
     ignoreRotation: true
-    shootSound: none // change this to what you want
+    shootSound: arcane-moss-shoot
     bullet: {
       type: BasicBulletType
       sprite: large-bomb
@@ -33,7 +33,7 @@ weapons: [
       backColor: 61568a
       frontColor: 9587cc
       mixColorTo: 9587cc
-      hitSound: explosion // change this to what you want
+      hitSound: arcane-moss-hit
       collidesAir: false // not really needed
       shootCone: 180
       hitShake: 1
