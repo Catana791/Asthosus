@@ -30,8 +30,8 @@ weapons: [
     mirror: false
     top: false
     layerOffset: -0.0001
-    x: -5
-    y: 4 
+    x: -6.2
+    y: 7
     shootSound: none
     rotate: false
     bullet: {
@@ -42,7 +42,7 @@ weapons: [
       damageInterval: 10
       damage: 10
       length: 120
-      width: 4
+      width: 2
       pierce: true
       pierceBuilding: true
       pierceCap: 3
@@ -54,8 +54,8 @@ weapons: [
     rotate: false
     top: false
     layerOffset: -0.0001
-    x: 5
-    y: 4
+    x: 6.2
+    y: 7
     shootSound: shoot-laser
     chargeSound: short-laser-charge
     reload: 134
