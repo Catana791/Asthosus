@@ -26,6 +26,7 @@ weapons: [
       type: BasicBulletType
       sprite: large-bomb
       shootEffect: none
+      smokeEffect: none
       width: 20
       height: 20
       maxRange: 30
