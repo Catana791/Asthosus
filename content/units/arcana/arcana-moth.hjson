@@ -169,8 +169,8 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
-    x: -3
-    y: 3
+    x: -4
+    y: 5
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -215,8 +215,8 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
-    x: 3
-    y: 3
+    x: 4
+    y: 5
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
