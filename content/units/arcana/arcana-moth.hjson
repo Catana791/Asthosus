@@ -67,6 +67,8 @@ weapons: [
             smokeColor: 61568a
             sparkColor: 9587cc
             sparks: 0
+            sparkLen: 0
+            sparkStroke: 0
             smokes: 8
           }
         ]
