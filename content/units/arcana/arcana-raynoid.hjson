@@ -7,6 +7,7 @@ rotateSpeed: 2
 armor: 7
 health: 2140
 stepShake: 1
+outlineColor: 232028
 legCount: 8
 legLength: 18
 legGroupSize: 4
