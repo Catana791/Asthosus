@@ -47,7 +47,7 @@ weapons: [
       speed: 0
       collides: false
       splashDamage: 60
-      splashDamageRadius: 20
+      splashDamageRadius: 36
       status: asthosus-13m-03-status-infested
       statusDuration: 120
       keepVelocity: false
