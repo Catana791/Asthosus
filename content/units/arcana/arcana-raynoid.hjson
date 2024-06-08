@@ -40,6 +40,7 @@ weapons: [
       drawFlare: false
       hitColor: d77751
       colors: [2e293a, 3d354b, 594e6b, 8270c0, ffffff]
+      hitColor: 2e293a
       damageInterval: 10
       damage: 10
       length: 120
