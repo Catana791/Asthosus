@@ -10,6 +10,7 @@ accel: 0.09
 health: 840
 armor: 2
 speed: 3
+hitSize: 13
 weapons: [
   {
     x: 0
