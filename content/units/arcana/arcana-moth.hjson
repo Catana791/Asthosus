@@ -20,11 +20,12 @@ weapons: [
     shake: 1
     reload: 45
     recoil: 0
-    shootEffect: none
-    shootSound: none
+    ignoreRotation: true
+    shootSound: none // change this to what you want
     bullet: {
       type: BasicBulletType
       sprite: large-bomb
+      shootEffect: none
       width: 20
       height: 20
       maxRange: 30
@@ -32,7 +33,7 @@ weapons: [
       backColor: 61568a
       frontColor: 9587cc
       mixColorTo: 9587cc
-      hitSound: explosion // meh...
+      hitSound: explosion // change this to what you want
       collidesAir: false // not really needed
       shootCone: 180
       hitShake: 1
