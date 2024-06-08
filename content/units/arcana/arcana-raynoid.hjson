@@ -31,8 +31,8 @@ weapons: [
     mirror: false
     top: false
     layerOffset: -0.0001
-    x: -16
-    y: 12
+    x: -10
+    y: 7
     shootSound: none
     rotate: false
     bullet: {
@@ -55,15 +55,15 @@ weapons: [
     rotate: false
     top: false
     layerOffset: -0.0001
-    x: 16
-    y: 12
+    x: 10
+    y: 7
     shootSound: shoot-laser
     chargeSound: short-laser-charge
     reload: 134
     shoot: {
       firstShotDelay: 60
       shots: 3
-      shotDelay: 16
+      shotDelay: 10
     }
     bullet: {
       type: MissileBulletType
@@ -78,8 +78,8 @@ weapons: [
       pierceBuilding: true
       pierceDamageFactor: 2
       damage: 30
-      lifetime: 40
-      speed: 3
+      lifetime: 30
+      speed: 4
     }  
   }
 ]
