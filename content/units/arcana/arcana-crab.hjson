@@ -1,0 +1,84 @@
+type: legs
+name: Arcana Crab
+speed: 0.4
+drag: 0.1
+hitSize: 20
+rotateSpeed: 2
+armor: 7
+health: 2140
+stepShake: 1
+legCount: 8
+legLength: 18
+legGroupSize: 4
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 7
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.9
+legMoveSpace: 1
+hovering: true
+shadowElevation: 0.2
+groundLayer: 74
+weapons: [
+  {
+    continuous: true
+    alwaysContinuous: true
+    name: arcana-crab-weapon-left
+    mirror: false
+    top: false
+    layerOffset: -0.0001
+    x: -5
+    y: 4 
+    shootSound: none
+    rotate: false
+    bullet: {
+      type: ContinuousFlameBulletType
+      drawFlare: false
+      hitColor: d77751
+      colors: [d77751, e78f6c, fca988, ffc3ab, ffffff]
+      damageInterval: 10
+      damage: 10
+      length: 120
+      width: 4
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+    }
+  }
+  {
+    name: arcana-crab-weapon-right
+    mirror: false
+    rotate: false
+    top: false
+    layerOffset: -0.0001
+    x: 5
+    y: 4
+    shootSound: shoot-laser
+    chargeSound: short-laser-charge
+    reload: 134
+    shoot: {
+      firstShotDelay: 60
+      shots: 3
+      shotDelay: 16
+    }
+    bullet: {
+      type: MissileBulletType
+      width: 10
+      height: 18
+      trailLength: 18
+      trailWidth: 4
+      trailEffect: shootSmokeSquareSparse
+      trailChance: -1
+      pierce: true
+      pierceCap: 2
+      pierceBuilding: true
+      pierceDamageFactor: 2
+      damage: 30
+      lifetime: 40
+      speed: 3
+    }  
+  }
+]
