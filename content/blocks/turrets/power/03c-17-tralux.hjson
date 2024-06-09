@@ -29,8 +29,8 @@ shootType: {
   colors: [6b6763, 827f7c, a6a29f, cfcbc6, f5f0ec]
   shake: 0.5
   intervalBullets: 1
-  bulletInterval: 45
-  intervalRandomSpread: 0
+  bulletInterval: 20
+  intervalRandomSpread: 12
   intervalBullet: {
     instantDisappear: true
     damage: 0
@@ -43,9 +43,8 @@ shootType: {
     fragRandomSpread: 0
     fragBullet: {
       type: LaserBulletType
-      inaccuracy: 12
       length: 176
-      damage: 60
+      damage: 40
       colors: [6b6763, a6a29f, ffffff]
       width: 4
       sideAngle: 45
@@ -60,7 +59,7 @@ shootType: {
       hitSound: spark
       fragBullet: {
         type: LightningBulletType
-        damage: 10
+        damage: 5
         lightningLength: 22
         lightningLengthRand: 3
         lightningColor: 6b6763
