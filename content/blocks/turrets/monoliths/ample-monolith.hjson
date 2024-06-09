@@ -1,0 +1,63 @@
+type: PowerTurret
+name: Ample Monolith
+description: An ancient construct, left by a civilization long gone. Summons Arcana Moths to defend itself and attack.
+placeablePlayer: false
+consumes: {}
+buildVisibility: editorOnly
+customShadow: true
+drawTeamOverlay: false
+reload: 1986
+size: 7
+alwaysShooting: true
+cooldownTime: 431
+shootSound: monolith-impact
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: monolith-
+}
+recoil: 0
+inaccuracy: 0
+shoot: {
+  type: ShootBarrel
+  shots: 3
+  shotDelay: 18
+  barrels: [
+    0, 32, 0,
+    40, -36, 0,
+    -40, -36, 0,
+  ]
+}
+shootX: 0
+shootY: 0
+shootEffect: {
+  type: WaveEffect
+  sizeFrom: 0
+  sizeTo: 66
+  strokeFrom: 0
+  strokeTo: 2.2
+  colorFrom: 8270c0
+  colorTo: 4e4277
+  lifetime: 143
+}  
+shootType: {
+  damage: 0
+  width: 0
+  height: 0
+  lifetime: 60
+  spawnUnit: asthosus-arcana-moth
+  despawnHit: true
+  hitEffect: {
+    type: ParticleEffect
+    spin: -2.34
+    colorFrom: e0d2a0
+    colorTo: 9a916e
+    region: asthosus-monolith-star
+    lifetime: 127
+    sizeFrom: 7
+    sizeTo: 1
+  }
+  hitSound: monolith-impact
+  despawnSound: monolith-impact
+}  
+outlineColor: 272421
