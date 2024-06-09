@@ -39,11 +39,12 @@ shootType: {
     hitEffect: none
     despawnEffect: none
     fragBullets: 1
+    fragRandomSpread: 0
     fragBullet: {
       type: LaserBulletType
       inaccuracy: 12
       length: 176
-      damage: 80
+      damage: 60
       colors: [6b6763, a6a29f, ffffff]
       width: 4
       sideAngle: 45
@@ -51,6 +52,18 @@ shootType: {
       sideWidth: 2
       pierce: true
       pierceCap: 3
+      fragBullets: 3
+      fragRandomSpread: 0
+      fragSpread: 20
+      despawnSound: spark
+      hitSound: spark
+      fragBullet: {
+        type: LightningBulletType
+        damage: 10
+        lightningLength: 22
+        lightningLengthRand: 3
+        lightningColor: 6b6763
+      }
     }
   }
 }
