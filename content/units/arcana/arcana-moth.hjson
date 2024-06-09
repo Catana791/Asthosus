@@ -14,6 +14,13 @@ hitSize: 13
 flying: true
 faceTarget: false
 circleTarget: true
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: asthosus-02b-07-arcanoma
+    amount: 240
+  }
+]
 weapons: [
   {
     x: 0
