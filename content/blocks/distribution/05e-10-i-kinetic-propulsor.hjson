@@ -5,7 +5,7 @@ size: 2
 squareSprite: false
 itemCapacity: 40
 reload: 150
-range: 128
+range: 160
 consumes: {
   power: 2
 }
