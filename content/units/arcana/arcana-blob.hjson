@@ -18,6 +18,12 @@ immunities: [burning, melting, asthosus-13m-03-status-infested]
 hitSize: 10
 drag: 0.4
 outlineColor: 232028
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: 02b-07-arcanoma
+  }
+]
 weapons: [
   {
     x: 0
