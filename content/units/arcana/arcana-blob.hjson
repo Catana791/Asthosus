@@ -21,7 +21,7 @@ outlineColor: 232028
 abilities: [
   {
     type: LiquidExplodeAbility
-    liquid: 02b-07-arcanoma
+    liquid: asthosus-02b-07-arcanoma
   }
 ]
 weapons: [
