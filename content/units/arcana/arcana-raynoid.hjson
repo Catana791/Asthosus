@@ -29,6 +29,10 @@ abilities: [
     liquid: asthosus-02b-07-arcanoma
     amount: 240
   }
+  {
+    type: LiquidRegenAbility
+    liquid: slag
+  }
 ]
 weapons: [
   {
