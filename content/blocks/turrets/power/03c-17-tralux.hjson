@@ -30,12 +30,12 @@ shootType: {
   shake: 0.5
   intervalBullets: 1
   bulletInterval: 20
-  intervalRandomSpread: 12
+  intervalRandomSpread: 26
   intervalBullet: {
     instantDisappear: true
     damage: 0
-    despawnSound: shoot-laser
-    hitSound: shoot-laser
+    despawnSound: spark
+    hitSound: spark
     shootEffect: none
     hitEffect: none
     despawnEffect: none
@@ -46,10 +46,10 @@ shootType: {
       length: 176
       damage: 40
       colors: [6b6763, a6a29f, ffffff]
-      width: 4
+      width: 7
       sideAngle: 45
       sideLength: 32
-      sideWidth: 2
+      sideWidth: 3
       pierce: true
       pierceCap: 3
       fragBullets: 3
