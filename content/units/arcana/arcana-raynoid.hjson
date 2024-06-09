@@ -23,6 +23,13 @@ legMoveSpace: 1
 hovering: true
 shadowElevation: 0.2
 groundLayer: 74
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: asthosus-02b-07-arcanoma
+    amount: 240
+  }
+]
 weapons: [
   {
     continuous: true
