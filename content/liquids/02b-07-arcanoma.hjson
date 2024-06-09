@@ -1,0 +1,13 @@
+name: Arcanoma
+description: A seemingly organic liquid found in Arcana creatures. It seems to react to high temperatures and consume heat.
+temperature: 0.6
+coolant: false
+color: 8271c9
+colorFrom: 8271c9
+colorTo: 544d6b
+canStayOn: [slag]
+explosiveness: 0
+flammability: 0.1
+incinerable: false
+viscosity: 0.75
+spreadTarget: slag
