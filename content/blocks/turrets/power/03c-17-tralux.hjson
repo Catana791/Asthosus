@@ -19,7 +19,7 @@ outlineColor: 44413c
 shootType: {
   type: ContinuousLaserBulletType
   length: 176
-  damage: 21
+  damage: 17
   width: 2
   incendChance: 0
   incendAmount: 0
@@ -28,6 +28,21 @@ shootType: {
   statusDuration: 120
   colors: [6b6763, 827f7c, a6a29f, cfcbc6, f5f0ec]
   shake: 0.5
+  spawnBullets: [
+    {
+      type: LaserBulletType
+      inaccuracy: 12
+      length: 176
+      damage: 80
+      colors: [6b6763, a6a29f, ffffff]
+      width: 2
+      sideAngle: 45
+      sideLength: 32
+      sideWidth: 1
+      pierce: true
+      pierceCap: 3
+    }
+  ]
 }
 range: 176
 shootSound: none
