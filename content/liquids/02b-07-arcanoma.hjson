@@ -1,3 +1,4 @@
+type: CellLiquid
 name: Arcanoma
 description: A seemingly organic liquid found in Arcana creatures. It seems to react to high temperatures and consume heat.
 temperature: 0.6
