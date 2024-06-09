@@ -30,6 +30,7 @@ shootType: {
   shake: 0.5
   intervalBullets: 1
   bulletInterval: 45
+  intervalRandomSpread: 0
   intervalBullet: {
     instantDisappear: true
     damage: 0
