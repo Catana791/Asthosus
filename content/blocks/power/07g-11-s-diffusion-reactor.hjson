@@ -1,0 +1,56 @@
+type: VariableReactor
+name: Diffusion Reactor
+description: Generates power by diffusing Nontragen using heat. 
+size: 4
+category: power
+research: 07g-11-radiation-power-plant
+requirements: [
+  01a-02-item-demetite/1200
+  01a-06-item-lodestone/400 
+  01a-07-item-lithium/250
+  01a-12-item-crosium/70
+]
+powerProduction: 20
+maxHeat: 90
+consumes: {
+  liquid: 02b-05-liquid-nontragen/0.3
+}
+liquidCapacity: 60
+explosionMinWarmup: 0.5
+exlosionRadius: 80
+explosionDamage: 2000
+ambientSound: flux
+ambientSoundVolume: 0.13
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-05-liquid-nontragen
+    }
+    {
+      type: DrawSpikes
+      length: 28
+    }
+    {
+      type: DrawParticles
+      reverse: true
+      particleRad: 32
+    }
+    {
+      type: DrawParticles
+      reverse: true
+      particleRad: 32
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+    }
+  ]
+}
