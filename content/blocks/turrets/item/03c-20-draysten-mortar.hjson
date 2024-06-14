@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Draysten Mortar
+name: Preject
 description: A powerful turret that launches Artillery shells over long distances which explode violently on hit. Requires pressure. 
 size: 4
 squareSprite: false
