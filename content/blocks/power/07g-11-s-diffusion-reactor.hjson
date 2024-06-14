@@ -33,21 +33,16 @@ drawer: {
       drawLiquid: 02b-05-liquid-nontragen
     }
     {
-      type: DrawSpikes
-      length: 28
-    }
-    {
-      type: DrawParticles
-      reverse: true
-      particleRad: 32
-    }
-    {
-      type: DrawParticles
-      reverse: true
-      particleRad: 32
-    }
-    {
       type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      reverse: true
+      particleRad: 32
+    }
+    {
+      type: DrawParticles
+      particleRad: 32
     }
     {
       type: DrawHeatInput
