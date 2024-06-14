@@ -10,7 +10,7 @@ explosionShake: 10
 itemCapacity: 20
 liquidCapacity: 280
 itemDuration: 420
-powerProduction: 100
+powerProduction: 150
 heating: 0.008
 squareSprite: false
 smokeThreshold: 0.6
