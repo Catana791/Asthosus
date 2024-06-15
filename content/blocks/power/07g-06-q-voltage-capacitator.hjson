@@ -4,7 +4,7 @@ description: A capacitator capable of storing larger amounts of power than a reg
 size: 2
 squareSprite: false
 consumes: {
-  powerBuffered: 12000
+  powerBuffered: 15000
 }
 requirements: [
   01a-01-item-ferrinite/90
