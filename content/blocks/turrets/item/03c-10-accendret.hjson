@@ -51,38 +51,6 @@ drawer: {
     ]
 }
 ammoTypes: {
-  01a-01-item-ferrinite: {
-    despawnHit: true
-    hitEffect: {
-      type: ParticleEffect
-      region: asthosus-star
-      length: 1.1
-      sizeFrom: 4
-      sizeTo: 0.4
-      colorFrom: dea67d
-      colorTo: be7766
-    }
-    hitSound: dull-explosion
-    reloadMultiplier: 0.75
-    homingPower: 0.04
-    homingDelay: 20
-    type: BasicBulletType
-    width: 6
-    height: 10
-    speed: 2.5
-    lifetime: 72
-    damage: 9
-    pierce: true
-    pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
-    trailChance: -1
-    trailWidth: 1.2
-    trailLength: 6
-    trailColor: be7766
-    status: burning
-    statusDuration: 240
-  }
   01a-07-item-lithium: {
     despawnHit: true
     hitEffect: {
