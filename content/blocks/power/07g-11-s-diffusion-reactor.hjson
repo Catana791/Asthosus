@@ -1,6 +1,6 @@
 type: VariableReactor
 name: Diffusion Reactor
-description: Generates power by diffusing Nontragen using heat. 
+description: Generates power by diffusing Nontragen using heat. Explodes violently when not supplied with Nontragen.
 size: 4
 category: power
 research: 07g-11-radiation-power-plant
