@@ -1,8 +1,10 @@
 type: ItemTurret
-name: Missile Battery
+name: Comedite
 description: Uses Vesmonium or Draysten as ammo to fire fast-paced volleys of missiles at enemies. 
 size: 3
 rotateSpeed: 0
+heatRequirement: 10
+maxHeatEfficiency: 1.5
 recoil: 0
 shootX: 0
 shootY: 0
