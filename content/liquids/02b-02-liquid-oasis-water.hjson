@@ -3,6 +3,6 @@ description: A liquid pumped from an Oasis located inside a desert biome. Used a
 effect: asthosus-13m-01-status-rejuvenated
 boilPoint: 0.5
 color: 54798b
-heatCapacity: 0.3
+heatCapacity: 0.35
 gasColor: d9e1e6E6
 research: 01a-06-item-lodestone
