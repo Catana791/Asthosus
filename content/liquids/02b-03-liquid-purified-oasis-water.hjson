@@ -1,7 +1,7 @@
 name: Purified Oasis Water
 description: Oasis Water that has been filtered using a sieve to get contaminations out of it and to be used in technical appliances. 
 boilPoint: 0.5
-heatCapacity: 0.4
+heatCapacity: 0.45
 color: 8ccced
 gasColor: c1e8f5
 effect: asthosus-13m-01-status-rejuvenated
