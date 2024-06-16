@@ -11,6 +11,7 @@ requirements: [
   01a-12-item-crosium/70
 ]
 powerProduction: 33
+researchCostMultiplier: 0.05
 maxHeat: 33
 consumes: {
   liquid: 02b-05-liquid-nontragen/0.3
