@@ -5,7 +5,7 @@ size: 2
 unitType: 18r-01-alveus
 buildTime: 600
 consumes: {
-  power: 2
+  power: 6
   liquid: 02b-01-q-liquid-silicon-tetrafluoride/0.6
 }
 polyColor: c5a381
