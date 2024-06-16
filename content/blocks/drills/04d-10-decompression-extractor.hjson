@@ -6,7 +6,7 @@ craftTime: 120
 hasLiquids: true
 hasItems: true
 consumes: {
-  liquid: 02b-06-liquid-silicon-tetrafluoride/0.1
+  liquid: 02b-01-q-liquid-silicon-tetrafluoride/0.1
   items: [
     01a-04-item-hardened-sand/4
   ]
