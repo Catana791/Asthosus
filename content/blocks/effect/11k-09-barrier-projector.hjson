@@ -4,8 +4,10 @@ description: When supplied with power, creates a hexagonal shield to protect all
 size: 3
 squareSprite: false
 shieldHealth: 700
-cooldownNormal: 0.65
-cooldownBrokenBase: 0.2
+cooldownNormal: 1.75
+cooldownLiquid: 1.5
+cooldownBrokenBase: 0.35
+coolantConsumption: 0.1
 category: effect
 research: 11k-11-restoration-dome
 requirements: [
@@ -29,5 +31,3 @@ researchCostMultiplier: 0.5
 phaseRadiusBoost: 80
 phaseShieldBoost: 400
 phaseUseTime: 180
-consumeCoolant: false
-cooldownLiquid: 0.8
