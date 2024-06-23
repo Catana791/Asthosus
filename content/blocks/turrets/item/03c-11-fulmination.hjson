@@ -63,8 +63,8 @@ ammoTypes: {
       pierceBuilding: false
       damage: 32
       layer: 111
-      hitEffect: none
-      despawnEffect: none
+      hitEffect: shootSmokeSquareSparse
+      despawnEffect: shootSmokeSquareSparse
     }
   }
   01a-07-item-lithium: {
@@ -84,18 +84,13 @@ ammoTypes: {
     pierceCap: 3
     fragOnHit: false
     damage: 92
-    fragBullets: 6
-    fragRandomSpread: 360
-    fragVelocityMin: 1
-    fragVelocityMax: 1
-    fragLifeMin: 1
-    fragLifeMax: 1
+    fragBullets: 12
     despawnSound: spark
     fragBullet: {
       type: LightningBulletType
-      damage: 38
-      lightningLength: 32
-      lightningLengthRand: 8
+      damage: 19
+      lightningLength: 16
+      lightningLengthRand: 4
       lightningColor: e6aca3
     }
   }
