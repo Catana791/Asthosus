@@ -2,12 +2,12 @@ type: ItemTurret
 name: Myriad
 description: Fires homing and fragging missiles at enemies. Applies the shock status to hit enemies.
 size: 3
-reload: 20
+reload: 22
 shootSound: shoot-small-flame
 shoot: {
   type: ShootAlternate
   shotDelay: 6
-  shots: 4
+  shots: 3
   spread: 11
 }
 coolant: {
@@ -46,7 +46,7 @@ ammoTypes: {
     splashDamage: 20
     splashDamageRadius: 24
     status: shocked
-    ammoMultiplier: 3
+    ammoMultiplier: 4
     fragBullets: 3
     fragBullet: {
       type: MissileBulletType
@@ -87,7 +87,7 @@ ammoTypes: {
     splashDamage: 24
     splashDamageRadius: 30
     status: shocked
-    ammoMultiplier: 4
+    ammoMultiplier: 5
     fragBullets: 4
     fragBullet: {
       type: MissileBulletType
@@ -129,7 +129,7 @@ ammoTypes: {
     splashDamageRadius: 36
     status: shocked
     ammoMultiplier: 5
-    fragBullets: 5
+    fragBullets: 6
     fragBullet: {
       type: MissileBulletType
       pierceArmor: true
