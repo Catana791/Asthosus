@@ -30,8 +30,9 @@ requirements: [
 ammoTypes: {
   01a-06-item-lodestone: {
     type: BasicBulletType
-    width: 1
-    height: 12
+    layer: 111
+    width: 3
+    height: 24
     speed: 4
     lifetime: 60
     frontColor: 8270c0
@@ -55,12 +56,13 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       pierce: true
-      width: 1
-      length: 6
+      width: 2
+      length: 12
       frontColor: 8270c0
       backColor: 4e4277
       pierceBuilding: false
       damage: 44
+      layer: 111
     }
   }
   01a-07-item-lithium: {
