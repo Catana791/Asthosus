@@ -42,8 +42,6 @@ drawer: {
       moveX: 0.25
       moveY: -0.5
       moveRot: -8
-      growX: 0.5
-      growY: 0.5
     }
   ]
 }
