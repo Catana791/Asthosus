@@ -7,6 +7,7 @@ shootSound: shoot-small-flame
 shoot: {
   type: ShootAlternate
   shotDelay: 6
+  shots: 4
   spread: 11
 }
 coolant: {
