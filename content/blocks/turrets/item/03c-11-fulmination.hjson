@@ -138,7 +138,7 @@ ammoTypes: {
       trailLength: 12
       trailColor: 2e293a
       speed: 2
-      lifetime: 30
+      lifetime: 8
       fragBullets: 1
       fragRandomSpread: 0
       fragLifeMin: 1
