@@ -5,14 +5,10 @@ size: 3
 reload: 43
 shootSound: shoot-small-flame
 shoot: {
-  type: ShootBarrel
+  type: ShootAlternate
   shots: 3
   shotDelay: 6
-  barrels: [
-    0, 4, 0,
-    -4, 2, 0,
-    4, 2, 0
-  ]
+  spread: 5
 }
 coolant: {
   type: ConsumeCoolant
