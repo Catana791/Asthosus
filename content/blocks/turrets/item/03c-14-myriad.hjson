@@ -159,7 +159,37 @@ ammoTypes: {
     }
   }
 } 
+recoils: 3
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
+  parts: [
+    {  
+      type: RegionPart
+      suffix: -barrel-cap-left
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1
+      recoilIndex: 1
+    }
+    {  
+      type: RegionPart
+      suffix: -barrel-cap-middle
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1
+      recoilIndex: 0
+    }
+    {  
+      type: RegionPart
+      suffix: -barrel-cap-right
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1
+      recoilIndex: 2
+    }
+  ]
 }
