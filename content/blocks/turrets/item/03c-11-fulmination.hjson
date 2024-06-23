@@ -163,13 +163,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: -4
-      moves: [
-        {
-          progress: reload
-          y: 5
-        }
-      ]
+      moveY: -5
     }
   ]
 }
