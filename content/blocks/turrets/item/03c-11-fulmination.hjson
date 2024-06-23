@@ -46,10 +46,10 @@ ammoTypes: {
     fragOnHit: false
     damage: 86
     reloadMultiplier: 0.75
-    fragBullets: 8
-    fragSpread: 45
+    fragBullets: 6
+    fragSpread: 60
     fragRandomSpread: 0
-    fragVelocityMin: 0.8
+    fragVelocityMin: 1
     fragVelocityMax: 1
     fragLifeMin: 1
     fragLifeMax: 1
@@ -63,6 +63,8 @@ ammoTypes: {
       pierceBuilding: false
       damage: 32
       layer: 111
+      hitEffect: none
+      despawnEffect: none
     }
   }
   01a-07-item-lithium: {
