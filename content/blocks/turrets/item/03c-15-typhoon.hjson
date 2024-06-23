@@ -58,7 +58,6 @@ ammoTypes: {
   01a-06-item-lodestone: {
     hitEffect: flakExplosion
     type: BasicBulletType
-    inaccuracy: 8
     speed: 3
     width: 11
     height: 14
@@ -68,13 +67,12 @@ ammoTypes: {
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 18
-    weaveScale: 3
-    weaveMag: 2
+    weaveScale: 4
+    weaveMag: 4
   }
   01a-07-item-lithium: {
     hitEffect: flakExplosion
     type: BasicBulletType
-    inaccuracy: 7
     speed: 3
     width: 11
     height: 14
@@ -85,16 +83,15 @@ ammoTypes: {
     splashDamage: 18
     splashDamageRadius: 16
     ammoMultiplier: 18
-    weaveScale: 3
-    weaveMag: 2
+    weaveScale: 4
+    weaveMag: 4
   }
   01a-09-item-obsidian: {
     reloadMultiplier: 0.66666666666666
-    weaveScale: 3
-    weaveMag: 2
+    weaveScale: 4
+    weaveMag: 4
     hitEffect: flakExplosion
     type: BasicBulletType
-    inaccuracy: 6
     speed: 3
     width: 11
     height: 14
@@ -122,10 +119,9 @@ ammoTypes: {
   01a-12-item-crosium: {
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
-    weaveScale: 3
-    weaveMag: 2
+    weaveScale: 4
+    weaveMag: 4
     type: BasicBulletType
-    inaccuracy: 6
     speed: 3
     width: 11
     height: 14
