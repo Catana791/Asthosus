@@ -14,6 +14,11 @@ coolant: {
   allowLiquid: true
   amount: 0.5
 }
+shoot: {
+  type: ShootAlternate
+  spread: 11
+  shotDelay: 3
+}
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -33,9 +38,12 @@ drawer: {
       suffix: -wing
       mirror: true
       progress: warmup
+      under: false
       moveX: 1.5
       moveY: -0.5
       moveRot: -8
+      growX: 0.2
+      growY: 0.2
     }
   ]
 }
@@ -61,7 +69,7 @@ ammoTypes: {
     damage: 4
     splashDamage: 17
     splashDamageRadius: 16
-    ammoMultiplier: 9
+    ammoMultiplier: 18
   }
   01a-07-item-lithium: {
     hitEffect: flakExplosion
@@ -76,7 +84,7 @@ ammoTypes: {
     status: shocked
     splashDamage: 18
     splashDamageRadius: 16
-    ammoMultiplier: 9
+    ammoMultiplier: 18
   }
   01a-09-item-obsidian: {
     reloadMultiplier: 0.66666666666666
@@ -91,7 +99,7 @@ ammoTypes: {
     damage: 5
     splashDamage: 20
     splashDamageRadius: 16
-    ammoMultiplier: 10
+    ammoMultiplier: 20
     fragBullets: 4
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
@@ -121,7 +129,7 @@ ammoTypes: {
     damage: 6
     splashDamage: 21
     splashDamageRadius: 22
-    ammoMultiplier: 12
+    ammoMultiplier: 24
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
