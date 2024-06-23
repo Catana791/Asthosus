@@ -17,11 +17,6 @@ coolant: {
   allowLiquid: true
   amount: 0.3
 }
-shoot: {
-  firstShotDelay: 20
-  shots: 2
-  shotDelay: 11
-}
 shootSound: shoot-heavy-cannon
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
@@ -37,6 +32,8 @@ ammoTypes: {
     type: BasicBulletType
     width: 1
     height: 12
+    speed: 4
+    lifetime: 60
     frontColor: 8270c0
     backColor: 4e4277
     trailWidth: 1
