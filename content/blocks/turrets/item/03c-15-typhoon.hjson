@@ -16,8 +16,8 @@ coolant: {
 }
 shoot: {
   type: ShootAlternate
-  spread: 11
-  shotDelay: 3
+  spread: 10
+  shotDelay: 4
 }
 drawer: {
   type: DrawTurret
