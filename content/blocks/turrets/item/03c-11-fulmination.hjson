@@ -42,7 +42,7 @@ ammoTypes: {
     trailColor: 4e4277
     pierce: true
     pierceBuilding: false
-    pierceCap: 3
+    pierceCap: 2
     fragOnHit: false
     damage: 86
     reloadMultiplier: 0.75
@@ -68,18 +68,93 @@ ammoTypes: {
     }
   }
   01a-07-item-lithium: {
-    instantDisappear: true
-    damage: 0
-    spawnUnit: asthosus-18r-04-encased-shell
-    ammoMultiplier: 2
+    type: BasicBulletType
+    layer: 111
+    width: 6
+    height: 72
+    speed: 4
+    lifetime: 60
+    frontColor: e6aca3
+    backColor: b98279
+    trailWidth: 1
+    trailLength: 16
+    trailColor: b98279
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 3
+    fragOnHit: false
+    damage: 92
+    fragBullets: 6
+    fragRandomSpread: 360
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    despawnSound: spark
+    fragBullet: {
+      type: LightningBulletType
+      damage: 38
+      lightningLength: 32
+      lightningLengthRand: 8
+      lightningColor: e6aca3
+    }
   }
   01a-09-item-obsidian: {
-    reloadMultiplier: 0.666666666
-    instantDisappear: true
-    damage: 0
-    spawnUnit: asthosus-18r-04-encased-shell
-    rangeChange: 40
-    ammoMultiplier: 1
+    type: BasicBulletType
+    layer: 111
+    width: 6
+    height: 72
+    speed: 4
+    lifetime: 60
+    frontColor: 594e6b
+    backColor: 2e293a
+    trailWidth: 1
+    trailLength: 16
+    trailColor: 2e293a
+    pierce: true
+    pierceBuilding: false
+    reloadMultiplier: 0.6666666666
+    pierceCap: 2
+    fragOnHit: false
+    damage: 78
+    fragBullets: 6
+    fragSpread: 60
+    fragRandomSpread: 0
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    despawnSound: spark
+    fragBullet: {
+      type: MissileBulletType
+      pierce: true
+      damage: 0
+      collides: false
+      width: 4
+      height: 12
+      frontColor: 594e6b
+      backColor: 2e293a
+      trailWidth: 2
+      trailLength: 12
+      trailColor: 2e293a
+      speed: 2
+      lifetime: 30
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 0
+      fragVelocityMax: 0
+      despawnSound: explosion
+      fragBullet: {
+        type: ExplosionBulletType
+        splashDamage: 28
+        splashDamageRadius: 48
+        killShooter: false
+        speed: 0
+        lifetime: 60
+      }
+    }
   }
 }
 drawer: {
