@@ -68,6 +68,8 @@ ammoTypes: {
     splashDamage: 17
     splashDamageRadius: 16
     ammoMultiplier: 18
+    weaveScale: 3
+    weaveMag: 2
   }
   01a-07-item-lithium: {
     hitEffect: flakExplosion
@@ -83,9 +85,13 @@ ammoTypes: {
     splashDamage: 18
     splashDamageRadius: 16
     ammoMultiplier: 18
+    weaveScale: 3
+    weaveMag: 2
   }
   01a-09-item-obsidian: {
     reloadMultiplier: 0.66666666666666
+    weaveScale: 3
+    weaveMag: 2
     hitEffect: flakExplosion
     type: BasicBulletType
     inaccuracy: 6
@@ -116,6 +122,8 @@ ammoTypes: {
   01a-12-item-crosium: {
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
+    weaveScale: 3
+    weaveMag: 2
     type: BasicBulletType
     inaccuracy: 6
     speed: 3
