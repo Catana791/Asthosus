@@ -26,8 +26,8 @@ outlineColor: 44413c
 hitSize: 12
 weapons: [
 {
-  x: -8
-    y: 0
+  x: 9.5  
+    y: 0.5
     name: enlighten-blaster
     reload: 94
     mirror: false
@@ -58,9 +58,9 @@ weapons: [
   }
 }
   {
-  name: enlighten-blaster
-    x: 8
-    y: 0
+  name: enlighten-blaster-mirror
+    x: -9.5
+    y: 0.5
     reload: 39
     shootSound: spark
     shoot: {
