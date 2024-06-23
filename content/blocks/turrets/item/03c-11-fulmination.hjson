@@ -124,7 +124,7 @@ ammoTypes: {
     fragVelocityMax: 1
     fragLifeMin: 1
     fragLifeMax: 1
-    despawnSound: spark
+    despawnSound: explosion
     fragBullet: {
       type: MissileBulletType
       pierce: true
