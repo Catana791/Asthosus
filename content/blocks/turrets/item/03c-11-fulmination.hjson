@@ -161,7 +161,7 @@ drawer: {
       type: RegionPart
       suffix: -barrel
       mirror: false
-      under: true
+      under: false
       progress: recoil
       moveY: -3
       heatProgress: recoil
