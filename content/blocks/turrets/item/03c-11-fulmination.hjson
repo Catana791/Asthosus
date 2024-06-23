@@ -31,14 +31,14 @@ ammoTypes: {
   01a-06-item-lodestone: {
     type: BasicBulletType
     layer: 111
-    width: 3
-    height: 24
+    width: 6
+    height: 72
     speed: 4
     lifetime: 60
     frontColor: 8270c0
     backColor: 4e4277
-    trailWidth: 1
-    trailLength: 12
+    trailWidth: 2
+    trailLength: 24
     trailColor: 4e4277
     pierce: true
     pierceBuilding: false
@@ -46,8 +46,8 @@ ammoTypes: {
     fragOnHit: false
     damage: 86
     reloadMultiplier: 0.75
-    fragBullets: 4
-    fragSpread: 90
+    fragBullets: 8
+    fragSpread: 45
     fragRandomSpread: 0
     fragVelocityMin: 0.8
     fragVelocityMax: 1
@@ -56,12 +56,12 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       pierce: true
-      width: 2
-      length: 12
+      width: 6
+      length: 72
       frontColor: 8270c0
       backColor: 4e4277
       pierceBuilding: false
-      damage: 44
+      damage: 32
       layer: 111
     }
   }
