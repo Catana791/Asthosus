@@ -24,7 +24,7 @@ coolant: {
 }
 coolantMultiplier: 0.4
 researchCostMultiplier: 0.5
-range: 160
+range: 220
 outlineColor: 42413e
 category: turret
 research: 03c-11-fulmination
@@ -42,8 +42,8 @@ ammoTypes: {
     homingPower: 0.08
     homingDelay: 30
     homingRange: 40
-    speed: 3
-    lifetime: 53
+    speed: 4
+    lifetime: 55
     hitEffect: blastExplosion
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
@@ -56,6 +56,7 @@ ammoTypes: {
     fragBullets: 3
     fragBullet: {
       type: MissileBulletType
+      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
@@ -82,8 +83,8 @@ ammoTypes: {
     homingPower: 0.08
     homingDelay: 30
     homingRange: 40
-    speed: 3
-    lifetime: 53
+    speed: 4
+    lifetime: 55
     hitEffect: blastExplosion
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
@@ -96,6 +97,7 @@ ammoTypes: {
     fragBullets: 4
     fragBullet: {
       type: MissileBulletType
+      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
@@ -122,8 +124,8 @@ ammoTypes: {
     homingPower: 0.08
     homingDelay: 30
     homingRange: 40
-    speed: 3
-    lifetime: 53
+    speed: 4
+    lifetime: 55
     hitEffect: blastExplosion
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
@@ -136,6 +138,7 @@ ammoTypes: {
     fragBullets: 5
     fragBullet: {
       type: MissileBulletType
+      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
