@@ -89,7 +89,7 @@ ammoTypes: {
     fragBullet: {
       type: LightningBulletType
       damage: 19
-      lightningLength: 16
+      lightningLength: 8
       lightningLengthRand: 4
       lightningColor: e6aca3
     }
@@ -133,7 +133,7 @@ ammoTypes: {
       trailLength: 12
       trailColor: 2e293a
       speed: 2
-      lifetime: 8
+      lifetime: 10
       fragBullets: 1
       fragRandomSpread: 0
       fragLifeMin: 1
