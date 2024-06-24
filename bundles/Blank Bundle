@@ -16,10 +16,10 @@ item.asthosus-01a-05-item-red-sand.name =
 item.asthosus-01a-05-item-red-sand.description = 
 
 item.asthosus-01a-06-item-lodestone.name = 
-item.asthosus-01a-06-item-lodestone.description = Ein magnetischer Stein genutzt in der Produktion von Einheiten und weiter fortgeschrittenen Konstruktionen.
+item.asthosus-01a-06-item-lodestone.description = 
 
 item.asthosus-01a-07-item-lithium.name = 
-item.asthosus-01a-07-item-lithium.description = Ein Material, welches oft in Elektronik Verwendung findet.
+item.asthosus-01a-07-item-lithium.description = 
 
 item.asthosus-01a-08-item-cretite.name = 
 item.asthosus-01a-08-item-cretite.description = 
@@ -39,6 +39,7 @@ item.asthosus-01a-11-item-barite.description =
 item.asthosus-01a-12-item-crosium.name = 
 item.asthosus-01a-12-item-crosium.description = 
 
+#Warning: Called Vesmonium in English, not Barite Webbing!!!
 item.asthosus-01a-13-item-barite-webbing.name = 
 item.asthosus-01a-13-item-barite-webbing.description = 
 
@@ -69,3 +70,69 @@ liquid.asthosus-02b-05-liquid-nontragen.description =
 
 liquid.asthosus-02b-07-arcanoma.name = 
 liquid.asthosus-02b-07-arcanoma.description = 
+
+
+
+#Turrets
+
+block.asthosus-03c-01-catapult.name = 
+block.asthosus-03c-01-catapult.description = 
+
+block.asthosus-03c-02-spray.name = 
+block.asthosus-03c-02-spray.description = 
+
+block.asthosus-03c-03-singe.name = 
+block.asthosus-03c-03-singe.description = 
+
+block.asthosus-03c-04-skip.name = 
+block.asthosus-03c-04-skip.description = 
+
+block.asthosus-03c-05-billow.name = 
+block.asthosus-03c-05-billow.description = 
+
+block.asthosus-03c-06-depulse.name = 
+block.asthosus-03c-06-depulse.description = 
+
+block.asthosus-03c-07-subtile.name = 
+block.asthosus-03c-07-subtile.description = 
+
+block.asthosus-03c-08-shaft.name = 
+block.asthosus-03c-08-shaft.description = 
+
+block.asthosus-03c-09-cavalier.name = 
+block.asthosus-03c-09-cavalier.description = 
+
+block.asthosus-03c-10-accendret.name =
+block.asthosus-03c-10-accendret.description = 
+
+block.asthosus-03c-11-fulmination.name = 
+block.asthosus-03c-11-fulmination.description = 
+
+block.asthosus-03c-12-syntaxe.name = 
+block.asthosus-03c-12-syntaxe.description =
+
+block.asthosus-03c-13-instauro.name = 
+block.asthosus-03c-13-instauro.description = 
+
+block.asthosus-03c-14-myriad.name = 
+block.asthosus-03c-14-myriad.description = 
+
+block.asthosus-03c-15-typhoon.name = 
+block.asthosus-03c-15-typhoon.description = 
+
+block.asthosus-03c-16-concite.name = 
+block.asthosus-03c-16-concite.description = 
+
+block.asthosus-03c-17-tralux.name = 
+block.asthosus-03c-17-tralux.description = 
+
+block.asthosus-03c-18-verite.name = 
+block.asthosus-03c-18-verite.description = 
+
+#Warning: Called Comedite in English, not Missile Battery!!!
+block.asthosus-03c-19-missile-battery.name = 
+block.asthosus-03c-19-missile-battery.description = 
+
+#Warning: Called Preject in English, not Draysten Mortar!!!
+block.asthosus-03c-20-draysten-mortar.name = 
+block.asthosus-03c-20-draysten-mortar.description = 
