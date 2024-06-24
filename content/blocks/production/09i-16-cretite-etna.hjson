@@ -1,6 +1,6 @@
 type: HeatProducer
 name: Cretite Etna
-description: Burns highly flammable Cretite to produce heat. Is more efficient than a Lignite Burner.
+description: Burns highly flammable Cretite to produce heat. Is more efficient than a Lignite Burner. Outputs created heat to all sides equally.
 size: 3
 heatOutput: 9
 craftTime: 180
