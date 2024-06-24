@@ -30,6 +30,7 @@ requirements: [
 ]
 ammoTypes: {
   01a-07-item-lithium: {
+    pierceArmor: true
     type: MissileBulletType
     width: 7
     height: 9
@@ -71,6 +72,7 @@ ammoTypes: {
     }
   }
   01a-12-item-crosium: {
+    pierceArmor: true
     type: MissileBulletType
     width: 7
     height: 9
@@ -112,6 +114,7 @@ ammoTypes: {
     }
   }
   01a-13-item-barite-webbing: {
+    pierceArmor: true
     type: MissileBulletType
     width: 7
     height: 9
