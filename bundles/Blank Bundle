@@ -1,1 +1,71 @@
+#Items
 
+item.asthosus-01a-01-item-ferrinite.name = 
+item.asthosus-01a-01-item-ferrinite.description = 
+
+item.asthosus-01a-02-item-demetite.name = 
+item.asthosus-01a-02-item-demetite.description = 
+
+item.asthosus-01a-03-item-lignite.name = 
+item.asthosus-01a-03-item-lignite.description = 
+
+item.asthosus-01a-04-item-hardened-sand.name =
+item.asthosus-01a-04-item-hardened-sand.description = 
+
+item.asthosus-01a-05-item-red-sand.name = 
+item.asthosus-01a-05-item-red-sand.description = 
+
+item.asthosus-01a-06-item-lodestone.name = 
+item.asthosus-01a-06-item-lodestone.description = Ein magnetischer Stein genutzt in der Produktion von Einheiten und weiter fortgeschrittenen Konstruktionen.
+
+item.asthosus-01a-07-item-lithium.name = 
+item.asthosus-01a-07-item-lithium.description = Ein Material, welches oft in Elektronik Verwendung findet.
+
+item.asthosus-01a-08-item-cretite.name = 
+item.asthosus-01a-08-item-cretite.description = 
+
+item.asthosus-01a-08-j-item-crystalline-geode.name =  
+item.asthosus-01a-08-j-item-crystalline-geode.description = 
+
+item.asthosus-01a-09-item-obsidian.name = 
+item.asthosus-01a-09-item-obsidian.description = 
+
+item.asthosus-01a-10-item-irradiated-lump.name =  
+item.asthosus-01a-10-item-irradiated-lump.description = 
+
+item.asthosus-01a-11-item-barite.name = 
+item.asthosus-01a-11-item-barite.description = 
+
+item.asthosus-01a-12-item-crosium.name = 
+item.asthosus-01a-12-item-crosium.description = 
+
+item.asthosus-01a-13-item-barite-webbing.name = 
+item.asthosus-01a-13-item-barite-webbing.description = 
+
+item.asthosus-01a-14-item-draysten.name = 
+item.asthosus-01a-14-item-draysten.description = 
+
+
+
+#Liquids
+
+liquid.asthosus-02b-01-pressure.name = 
+liquid.asthosus-02b-01-pressure.description = 
+
+liquid.asthosus-02b-01-q-liquid-silicon-tetrafluoride.name =  
+liquid.asthosus-02b-01-q-liquid-silicon-tetrafluoride.description = 
+
+liquid.asthosus-02b-02-liquid-oasis-water.name = 
+liquid.asthosus-02b-02-liquid-oasis-water.description = 
+
+liquid.asthosus-02b-03-liquid-purified-oasis-water.name = 
+liquid.asthosus-02b-03-liquid-purified-oasis-water.description = 
+
+liquid.asthosus-02b-04-liquid-liquid-barite.name =  
+liquid.asthosus-02b-04-liquid-liquid-barite.description = 
+
+liquid.asthosus-02b-05-liquid-nontragen.name = 
+liquid.asthosus-02b-05-liquid-nontragen.description = 
+
+liquid.asthosus-02b-07-arcanoma.name = 
+liquid.asthosus-02b-07-arcanoma.description = 
