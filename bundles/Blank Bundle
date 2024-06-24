@@ -109,7 +109,7 @@ block.asthosus-03c-11-fulmination.name =
 block.asthosus-03c-11-fulmination.description = 
 
 block.asthosus-03c-12-syntaxe.name = 
-block.asthosus-03c-12-syntaxe.description =
+block.asthosus-03c-12-syntaxe.description = 
 
 block.asthosus-03c-13-instauro.name = 
 block.asthosus-03c-13-instauro.description = 
@@ -157,7 +157,7 @@ block.asthosus-04d-05-friction-quarry.name =
 block.asthosus-04d-05-friction-quarry.description = 
 
 block.asthosus-04d-06-friction-quarry-large.name = 
-block.asthosus-04d-06-friction-quarry-large.description =
+block.asthosus-04d-06-friction-quarry-large.description = 
 
 block.asthosus-04d-07-abrasion-quarry.name = 
 block.asthosus-04d-07-abrasion-quarry.description = 
@@ -175,8 +175,7 @@ block.asthosus-04d-11-geode-cracker.name =
 block.asthosus-04d-11-geode-cracker.description = 
 
 block.asthosus-04d-12-slag-cooling-mold.name = 
-block.asthosus-04d-12-slag-cooling-mold.description =
-
+block.asthosus-04d-12-slag-cooling-mold.description = 
 
 
 #Distribution Blocks
@@ -215,7 +214,7 @@ block.asthosus-05e-07-duct-sorter.description =
 
 #Warning: Called Inverted Pipeline Sorter in English!!!
 block.asthosus-05e-08-duct-sorter-inverted.name = 
-block.asthosus-05e-08-duct-sorter-inverted.description =
+block.asthosus-05e-08-duct-sorter-inverted.description = 
 
 block.asthosus-05e-09-overflow-controller.name = 
 block.asthosus-05e-09-overflow-controller.description = 
