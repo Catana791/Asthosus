@@ -2,7 +2,7 @@ name: Cretite
 description: A highly flammable and slightly explosive composite material made from Lignite, Lithium, and Red Sand.
 explosiveness: 0.5
 flammability: 2
-charge: 0.2
+charge: 0.3
 buildable: false
 color: e78f6c
 research: 01a-07-item-lithium
