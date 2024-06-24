@@ -56,6 +56,7 @@ requirements: [
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
+    pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -71,6 +72,7 @@ ammoTypes: {
     weaveMag: 4
   }
   01a-07-item-lithium: {
+    pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -87,6 +89,7 @@ ammoTypes: {
     weaveMag: 4
   }
   01a-09-item-obsidian: {
+    pierceArmor: true
     reloadMultiplier: 0.66666666666666
     weaveScale: 4
     weaveMag: 4
@@ -105,6 +108,7 @@ ammoTypes: {
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
     fragBullet: {
+      pierceArmor: true
       type: BasicBulletType
       speed: 2
       lifetime: 30
@@ -117,6 +121,7 @@ ammoTypes: {
     }
   }
   01a-12-item-crosium: {
+    pierceArmor: true
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
     weaveScale: 4
@@ -137,6 +142,7 @@ ammoTypes: {
     fragLifeMin: 0.45
     fragBullet: {
       type: BasicBulletType
+      pierceArmor: true
       speed: 2
       lifetime: 30
       width: 6
