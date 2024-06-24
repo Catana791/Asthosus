@@ -1,5 +1,5 @@
 name: Silicon Tetrafluoride
-description: A highly dangerous gas used in production. 
+description: A highly dangerous gas used as coolant in turrets and resource refinement.
 gas: true
 heatCapacity: 0.3
 explosiveness: 0.25
