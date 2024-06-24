@@ -1,5 +1,5 @@
 name: Hardened Sand
-description: Sand condensed through heat. Used to create simple resources.
+description: Sand compressed through heat. Used to create simple resources.
 hardness: 2
 cost: 0.2
 lowPriority: true
