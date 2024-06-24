@@ -136,3 +136,45 @@ block.asthosus-03c-19-missile-battery.description =
 #Warning: Called Preject in English, not Draysten Mortar!!!
 block.asthosus-03c-20-draysten-mortar.name = 
 block.asthosus-03c-20-draysten-mortar.description = 
+
+
+
+#Drills/Production Blocks
+
+block.asthosus-04d-01-ferrinite-mining-unit.name = 
+block.asthosus-04d-01-ferrinite-mining-unit.description = 
+
+block.asthosus-04d-02-demetite-mining-unit.name = 
+block.asthosus-04d-02-demetite-mining-unit.description = 
+
+block.asthosus-04d-03-ferrinite-crusher.name = 
+block.asthosus-04d-03-ferrinite-crusher.description = 
+
+block.asthosus-04d-04-demetite-crusher.name = 
+block.asthosus-04d-04-demetite-crusher.description = 
+
+block.asthosus-04d-05-friction-quarry.name = 
+block.asthosus-04d-05-friction-quarry.description = 
+
+block.asthosus-04d-06-friction-quarry-large.name = 
+block.asthosus-04d-06-friction-quarry-large.description =
+
+block.asthosus-04d-07-abrasion-quarry.name = 
+block.asthosus-04d-07-abrasion-quarry.description = 
+
+block.asthosus-04d-08-discharge-quarry.name = 
+block.asthosus-04d-08-discharge-quarry.description = 
+
+block.asthosus-04d-09-geothermal-accumulator.name = 
+block.asthosus-04d-09-geothermal-accumulator.description = 
+
+block.asthosus-04d-10-decompression-extractor.name = 
+block.asthosus-04d-10-decompression-extractor.description = 
+
+block.asthosus-04d-11-geode-cracker.name = 
+block.asthosus-04d-11-geode-cracker.description = 
+
+block.asthosus-04d-12-slag-cooling-mold.name = 
+block.asthosus-04d-12-slag-cooling-mold.description =
+
+
