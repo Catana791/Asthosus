@@ -241,3 +241,38 @@ block.asthosus-05e-13-heat-distributor.name =
 block.asthosus-05e-13-heat-distributor.description = 
 
 
+
+#Liquid Blocks
+
+block.asthosus-06f-01-aqueduct.name = 
+block.asthosus-06f-01-aqueduct.description = 
+
+block.asthosus-06f-01-b-viaduct.name = 
+block.asthosus-06f-01-b-viaduct.description = 
+
+block.asthosus-06f-02-aqueduct-junction.name = 
+block.asthosus-06f-02-aqueduct-junction.description = 
+
+block.asthosus-06f-03-aqueduct-router.name = 
+block.asthosus-06f-03-aqueduct-router.description = 
+
+block.asthosus-06f-04-aqueduct-bridge.name = 
+block.asthosus-06f-04-aqueduct-bridge.description = 
+
+block.asthosus-06f-05-lodestone-pump.name = 
+block.asthosus-06f-05-lodestone-pump.description = 
+
+block.asthosus-06f-06-exothermic-pump.name = 
+block.asthosus-06f-06-exothermic-pump.description = 
+
+block.asthosus-06f-07-oasis-water-sieve.name = 
+block.asthosus-06f-07-oasis-water-sieve.description = 
+
+block.asthosus-06f-07-p-oasis-water-griddle.name = 
+block.asthosus-06f-07-p-oasis-water-griddle.description = 
+
+block.asthosus-06f-08-liquid-vat.name = 
+block.asthosus-06f-08-liquid-vat.description = 
+
+block.asthosus-06f-09-liquid-silo.name = 
+block.asthosus-06f-09-liquid-silo.description = 
