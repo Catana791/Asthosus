@@ -541,3 +541,23 @@ block.asthosus-11k-10-restoration-projector.description =
 
 block.asthosus-11k-11-restoration-dome.name =
 block.asthosus-11k-11-restoration-dome-description =
+
+
+
+#Logic Blocks
+
+block.asthosus-12l-01-logic-chip.name =
+block.asthosus-12l-01-logic-chip.description =
+
+block.asthosus-12l-02-logic-control.name =
+block.asthosus-12l-02-logic-control.description =
+
+#Warning: Called Message Chip in English!!!
+block.asthosus-12l-03-hardened-message.name =
+block.asthosus-12l-03-hardened-message.description =
+
+block.asthosus-12l-04-logic-screen.name =
+block.asthosus-12l-04-logic-screen.description =
+
+block.asthosus-12l-05-memory-chip.name =
+block.asthosus-12l-05-memory-chip.description =
