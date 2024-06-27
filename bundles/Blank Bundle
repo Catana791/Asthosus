@@ -376,3 +376,68 @@ block.asthosus-08h-15-draysten-wall-small.description =
 
 block.asthosus-08h-16-draysten-wall-large.name = 
 block.asthosus-08h-16-draysten-wall-large.description =
+
+
+
+#Production Blocks/Crafters
+
+block.asthosus-09i-01-lodestone-mixer.name = 
+block.asthosus-09i-01-lodestone-mixer.description =
+
+block.asthosus-09i-02-lodestone-basin.name =
+block.asthosus-09i-02-lodestone-basin.description = 
+
+block.asthosus-09i-03-lithium-grinder.name = 
+block.asthosus-09i-03-lithium-grinder.description =
+
+block.asthosus-09i-04-lithium-compactor.name = 
+block.asthosus-09i-04-lithium-compactor.description =
+
+block.asthosus-09i-05-cretite-mixer.name = 
+block.asthosus-09i-05-cretite-mixer.description =
+
+block.asthosus-09i-06-barite-quern.name =
+block.asthosus-09i-06-barite-quern.description =
+
+block.asthosus-09i-07-barite-cooler.name =
+block.asthosus-09i-07-barite-cooler.description =
+
+block.asthosus-09i-08-crosium-infuser.name = 
+block.asthosus-09i-08-crosium-infuser.description =
+
+#Warning: Called Vesmonium Accultor in English!!!
+block.asthosus-09i-09-barite-loom.name = 
+block.asthosus-09i-09-barite-loom.description =
+
+block.asthosus-09i-10-draysten-crucible.name = 
+block.asthosus-09i-10-draysten-crucible.description =
+
+block.asthosus-09i-11-nontragen-synthesizer.name = 
+block.asthosus-09i-11-nontragen-synthesizer.description =
+
+block.asthosus-09i-12-pressure-rig.name =
+block.asthosus-09i-12-pressure-rig.description = 
+
+block.asthosus-09i-13-expansion-tank.name = 
+block.asthosus-09i-13-expansion-tank.description =
+
+block.asthosus-09i-14-large-expansion-tank.name = 
+block.asthosus-09i-14-large-expansion-tank.description =
+
+block.asthosus-09i-15-lignite-burner.name = 
+block.asthosus-09i-15-lignite-burner.description =
+
+block.asthosus-09i-16-cretite-etna.name = 
+block.asthosus-09i-16-cretite-etna.description =
+
+block.asthosus-09i-17-solar-heater-panel.name = 
+block.asthosus-09i-17-solar-heater-panel.description =
+
+block.asthosus-09i-18-red-sand-filter.name =
+block.asthosus-09i-18-red-sand-filter.description =
+
+block.asthosus-09i-19-sand-compactor.name =
+block.asthosus-09i-19-sand-compactor.description =
+
+block.asthosus-09i-20-pyre.name =
+block.asthosus-09i-20-pyre.description =
