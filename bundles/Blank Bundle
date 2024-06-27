@@ -561,3 +561,16 @@ block.asthosus-12l-04-logic-screen.description =
 
 block.asthosus-12l-05-memory-chip.name =
 block.asthosus-12l-05-memory-chip.description =
+
+
+
+#Unit Components/Parts
+
+block.asthosus-autoforge.name = 
+block.asthosus-autoforge.description =
+
+block.asthosus-large-autoforge.name =
+block.asthosus-large-autoforge.description =
+
+block.asthosus-mechanical-joint.name =
+block.asthosus-mechanical-joint.description =
