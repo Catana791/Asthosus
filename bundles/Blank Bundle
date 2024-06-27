@@ -523,3 +523,21 @@ block.asthosus-11k-05-core-silex.description =
 block.asthosus-11k-06-core-summit.name =
 block.asthosus-11k-06-core-summit.description =
 
+
+
+#Effect Blocks
+
+block.asthosus-11k-07-storage-capsule.name =
+block.asthosus-11k-07-storage-capsule.description =
+
+block.asthosus-11k-08-explosive-trap.name =
+block.asthosus-11k-08-explosive-trap.description =
+
+block.asthosus-11k-09-barrier-projector.name =
+block.asthosus-11k-09-barrier-projector.description =
+
+block.asthosus-11k-10-restoration-projector.name =
+block.asthosus-11k-10-restoration-projector.description =
+
+block.asthosus-11k-11-restoration-dome.name =
+block.asthosus-11k-11-restoration-dome-description =
