@@ -441,3 +441,65 @@ block.asthosus-09i-19-sand-compactor.description =
 
 block.asthosus-09i-20-pyre.name =
 block.asthosus-09i-20-pyre.description =
+
+
+
+#Unit Blocks
+
+block.asthosus-10j-00-ground-mounting-bay.name =
+block.asthosus-10j-00-ground-mounting-bay.description =
+
+block.asthosus-10j-01-tank-mounting-bay.name =
+block.asthosus-10j-01-tank-mounting-bay.description =
+
+block.asthosus-10j-02-support-mounting-bay.name =
+block.asthosus-10j-02-support-mounting-bay.description =
+
+block.asthosus-10j-03-hover-mounting-bay.name =
+block.asthosus-10j-03-hover-mounting-bay.description =
+
+block.asthosus-10j-04-basic-assembler-constituent.name =
+block.asthosus-10j-04-basic-assembler.constituent.description =
+
+block.asthosus-10j-05-advanced-assembler-constituent.name = 
+block.asthosus-10j-05-advanced-assembler-constituent.description =
+
+block.asthosus-10j-06-progressive-assembler-constituent.name = 
+block.asthosus-10j-06-progressive-assembler-constituent.description =
+
+block.asthosus-10j-07-cumulative-assembler-constituent.name =
+block.asthosus-10j-07-cumulative-assembler-constituent.description =
+
+block.asthosus-10j-08-component-disassembler.name =
+block.asthosus-10j-08-component-disassembler.description =
+
+#Warning: Called Elementary Component Assembler in English!!!
+block.asthosus-10j-09-component-assembler.name =
+block.asthosus-10j-09-component-assembler.description =
+
+block.asthosus-10j-10-rudimentary-component-assembler.name =
+block.asthosus-10j-10-rudimentary-component-assembler.description =
+
+block.asthosus-10j-11-median-component-assembler.name = 
+block.asthosus-10j-11-median-component-assembler.description =
+
+block.asthosus-10j-12-progressive-component-assembler.name =
+block.asthosus-10j-12-progressive-component-assembler.description = 
+
+block.asthosus-10j-13-cumulative-component-assembler.name =
+block.asthosus-10j-13-cumulative-component-assembler.description =
+
+block.asthosus-10j-14-freight-conveyor.name =
+block.asthosus-10j-14-freight-conveyor.description =
+
+block.asthosus-10j-15-freight-router.name =
+block.asthosus-10j-15-freight-router.description =
+
+block.asthosus-10j-16-unit-resynthesizer.name =
+block.asthosus-10j-16-unit-resynthesizer.description =
+
+block.asthosus-10j-17-freight-launcher.name =
+block.asthosus-10j-17-freight-launcher.description =
+
+
+
