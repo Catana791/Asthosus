@@ -574,3 +574,16 @@ block.asthosus-large-autoforge.description =
 
 block.asthosus-mechanical-joint.name =
 block.asthosus-mechanical-joint.description =
+
+
+
+#Status Effects
+
+status.asthosus-13m-01-status-rejuvenated.name =
+
+status.asthosus-13m-02-status-radiated.name =
+
+status.asthosus-13m-03-status-infested.name =
+
+status.asthosus-13m-04-status-energy-phasing.name =
+status.asthosus-13m-04-status-energy-phasing.description = 
