@@ -322,3 +322,57 @@ block.asthosus-07g-11-s-diffusion-reactor.description =
 
 block.asthosus-07g-12-draysten-destabilizer.name =
 block.asthosus-07g-12-draysten-destabilizer.description = 
+
+
+
+#Walls
+
+block.asthosus-08h-01-ferrinite-wall-small.name = 
+block.asthosus-08h-01-ferrinite-wall-small.description = 
+
+block.asthosus-08h-02-ferrinite-wall-large.name = 
+block.asthosus-08h-02-ferrinite-wall-large.description = 
+
+block.asthosus-08h-03-lodestone-wall-small.name = 
+block.asthosus-08h-03-lodestone-wall-small.description = 
+
+block.asthosus-08h-04-lodestone-wall-large.name = 
+block.asthosus-08h-04-lodestone-wall-large.description = 
+
+block.asthosus-08h-05-lithium-wall-small.name = 
+block.asthosus-08h-05-lithium-wall-small.description = 
+
+block.asthosus-08h-06-lithium-wall-large.name = 
+block.asthosus-08h-06-lithium-wall-large.description =
+
+block.asthosus-08h-07-obsidian-wall-small.name = 
+block.asthosus-08h-07-obsidian-wall-small.description = 
+
+block.asthosus-08h-08-obsidian-wall-large.name = 
+block.asthosus-08h-08-obsidian-wall-large.description =
+
+block.asthosus-08h-09-barite-wall-small.name = 
+block.asthosus-08h-09-barite-wall-small.description = 
+
+block.asthosus-08h-10-barite-wall-large.name = 
+block.asthosus-08h-10-barite-wall-large.description =
+
+block.asthosus-08h-11-crosium-wall-small.name = 
+block.asthosus-08h-11-crosium-wall-small.description =
+
+block.asthosus-08h-12-crosium-wall-large.name = 
+block.asthosus-08h-12-crosium-wall-large.description =
+
+#Warning: Called Projector Wall in English!!!
+block.asthosus-08h-13-webbing-wall-small.name = 
+block.asthosus-08h-13-webbing-wall-small.description = 
+
+#Warning: Called Large Projector Wall in English!!!
+block.asthosus-08h-14-webbing-wall-large.name = 
+block.asthosus-08h-14-webbing-wall-large.description =
+
+block.asthosus-08h-15-draysten-wall-small.name = 
+block.asthosus-08h-15-draysten-wall-small.description = 
+
+block.asthosus-08h-16-draysten-wall-large.name = 
+block.asthosus-08h-16-draysten-wall-large.description =
