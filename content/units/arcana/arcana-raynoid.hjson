@@ -40,7 +40,7 @@ abilities: [
     faceOutwards: false
     amount: 2
     randAmount: 2
-    unit: asthosus-arcana-blob
+    unit: arcana-blob
   }
 ]
 weapons: [
