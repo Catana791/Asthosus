@@ -80,9 +80,10 @@ Link to the [Asthosus OST Mod Repository]
 Making a mod like this would not be possible without help.
 <br> <br>
 
-- Frankie: Balance Testing and general support.
-- Max: Balance Testing.
 - Apocalypse: Balance Testing and Translations.
+- Frankie: Balance Testing and general support.
+- Max: Balance Testing and general ideas.
+- MrApple: Some Maps and general ideas.
 - ThePythonGuy: Music.
 - Timofeja: Translations.
 
