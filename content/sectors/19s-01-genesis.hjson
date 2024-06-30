@@ -1,3 +1,4 @@
+//Sector name and description can be found in bundle.properties!
 captureWave: 10
 planet: asthosus
 sector: 0
