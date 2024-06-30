@@ -1,18 +1,3 @@
-name: Memorial Recording - Omega
-description: Texts from a memorial slab. Recorded in a digital form.
-details: 
-'''
-  Because of these two major catastrophes, Asthosus' atmosphere
-  was almost completely destroyed. 
-  As a consequence, temperatures on Asthosus rose slowly
-  but constantly, with nothing the Asthosians could do to stop it.
-  
-  At some point, all attempts at saving Asthosus, or, to be precise,
-  its people, were futile.
-  The planet's entire population was wiped out by the extreme heat.
-
-  Asthosus's fate had taken its course. 
-'''
 research: {
   parent: 25y-10-memorial-recording-10
   objectives: [
