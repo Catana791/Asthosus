@@ -1,5 +1,6 @@
 type: legs
 name: Arcana Raynoid
+description: A crab-like creature that is heavily armored and has dangerous offensive capabilities.
 speed: 0.4
 drag: 0.1
 hitSize: 20
