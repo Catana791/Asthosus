@@ -1,14 +1,3 @@
-localizedName: Detriment Valley
-description: 
-'''
-  A sector that has survived many bombings. 
-  The enemy has gathered a formidable force here.
-
-  Venture into producing barite. 
-
-  Create stronger defenses.
-  Push back the enemy in this sector.
-'''
 difficulty: 5
 planet: asthosus
 sector: 22
