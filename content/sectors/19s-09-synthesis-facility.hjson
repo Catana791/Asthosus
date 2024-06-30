@@ -1,11 +1,3 @@
-localizedName: Synthesis Facility
-description: 
-'''
-  The enemy is approaching from two sides at the same time. 
-
-  Venture into the creation of Crosium. 
-  Defend this challenging sector and capture it.
-'''
 difficulty: 7
 planet: asthosus
 sector: 12
