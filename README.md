@@ -10,15 +10,15 @@
 <br>
 <br>
 
-A large campaign mod that adds a new planet, Asthosus. <br>
-Asthosus is a desert planet with harsh conditions <br>
-that will test you in all sorts of ways.
+## A large campaign mod that adds a new planet, Asthosus. <br>
+## Asthosus is a desert planet with harsh conditions <br>
+## that will test you in all sorts of ways.
 <br>
 <br>
-### Logistics is everything on this planet. 
+# Logistics is everything on this planet. 
 <br>
 <br>
-Asthosus reuses nearly no vanilla content. 
+## Asthosus reuses nearly no vanilla content. 
 <br>
 <br>
 
