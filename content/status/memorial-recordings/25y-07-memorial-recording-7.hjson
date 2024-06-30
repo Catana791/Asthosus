@@ -1,18 +1,3 @@
-name: Memorial Recording - Detriment Valley
-description: Texts from a memorial slab. Recorded in a digital form.
-details: 
-'''
-  A large part of the flare's solar energy managed to bypass the force shield,
-  directly striking the terraforming devices on the two celestial bodies.
-  
-  The machines went out of control and threatened to destroy a major part of the Asthosian civilization.
-  
-  Luckily, though, the best scientists were able to avoid this catastrophe by
-  launching the terraforming devices into outer space last-minute, where they exploded.
-
-  This mishap was the final straw the Arumis party needed to finally gain control and
-  take power over Asthosus.
-'''
 research: {
   parent: 25y-06-memorial-recording-6
   objectives: [
