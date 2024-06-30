@@ -1,17 +1,3 @@
-localizedName: Abandoned Research Center
-description: 
-'''
-  The enemy has created a mighty base with multiple cores here.
-  Higher tier units will be required to take it down. 
-
-  An enemy Crest production has been located, secured behind the bases walls.
-
-  Act Fast. Expand quickly. 
-  Take down the enemy base before it takes you down.
-
-
-  [accent]Note: This is an optional sector. Capturing it is not required for completing the campaign.
-'''
 difficulty: 8
 planet: asthosus
 sector: 5
