@@ -1,13 +1,3 @@
-localizedName: Maar
-description: 
-'''
-  You find yourself on a small sector with lots of Oasis Water.
-
-  This sector lends itself perfectly for Lodestone production.
-
-  
-  [accent]Note: This is an optional sector. Capturing it is not required for completing the campaign.
-'''
 captureWave: 30
 difficulty: 2
 planet: asthosus
