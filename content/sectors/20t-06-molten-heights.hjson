@@ -1,14 +1,3 @@
-localizedName: Molten Heights
-description: 
-''' 
-  Due to massive amounts of volcanic activity the area is flooded with slag, 
-  but the higher regions of the terrain remain untouched.
-  
-  The enemy values this sector greatly. Prepare for merciless waves of enemies.
-
-
-  [accent]Note: This is an optional sector. Capturing it is not required for completing the campaign.
-''' 
 difficulty: 8
 captureWave: 8
 planet: asthosus
