@@ -1,14 +1,3 @@
-localizedName: Immist
-description: 
-'''
-  The enemy has entrenched inside a deserted area. 
-
-  Upon landing, they will mount an assault. 
-  Defend the core from enemy fire. 
-
-  Research unit production technologies. 
-  Remove the enemy foothold.
-'''
 difficulty: 4
 planet: asthosus
 sector: 13
