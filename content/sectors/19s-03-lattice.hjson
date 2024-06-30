@@ -1,11 +1,3 @@
-localizedName: Lattice
-description:
-'''
-  Scattered boulders of resources dot the area. 
-  Prevent the enemy from harnessing them. 
-  Expand quickly. 
-  Utilize Lodestone to defend against stronger foes.
-'''
 captureWave: 30
 difficulty: 3
 planet: asthosus
