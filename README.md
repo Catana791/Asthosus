@@ -81,9 +81,9 @@ Making a mod like this would not be possible without help.
 <br> <br>
 
 - Apocalypse: Balance Testing and Translations.
-- Frankie: Balance Testing and general support.
-- Max: Balance Testing and general ideas.
-- MrApple: Some Maps and general ideas.
+- Frankie: General help.
+- Max: Balance Testing.
+- MrApple: Some Maps.
 - ThePythonGuy: Music.
 - Timofeja: Translations.
 
