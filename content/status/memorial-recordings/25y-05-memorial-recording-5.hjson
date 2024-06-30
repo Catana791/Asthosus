@@ -1,15 +1,3 @@
-name: Memorial Recording - Immist
-description: Texts from a memorial slab. Recorded in a digital form.
-details: 
-'''
-  An outpost was created on Trecara to help monitor the solar system and the state
-  of Asthosus and its people. 
-  After a few years of this outpost existing, a powerful force generator
-  was installed to deflect some of the sun's heat and radiation. 
-  
-  Furthermore, two devices were installed on Asthosus and Trecara to
-  connect and protect both from threats other than the sun's heat.
-'''
 research: {
   parent: 25y-04-memorial-recording-4
   objectives: [
