@@ -2,8 +2,8 @@
 
 <br>
 
-[![Badge Discord]][Discord]    
-[![Badge Commit]][Commits]  
+![Badge Discord]   
+![Badge Commit]  
 
 <!----------------------------------[ Badges ]--------------------------------->
 
