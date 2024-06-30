@@ -1,13 +1,3 @@
-localizedName: Chasm
-description: 
-'''
-  This sector may prove useful for additional Lithium production. 
-
-  The crux has built a small base here. Bring it down.
-
-
-  [accent]Note: This is an optional sector. Capturing it is not required for completing the campaign.
-'''
 captureWave: 30
 difficulty: 4
 planet: asthosus
