@@ -3,9 +3,10 @@
 <br>
 
 ![Logo]
-
-![Badge Commit]  
-![Badge Discord]
+<br> <br>
+![Badge Commit] <br>
+![Badge Discord] <br>
+![Badge Issues] <br>
 
 <br>
 <br>
@@ -87,9 +88,9 @@ Making a mod like this would not be possible without help.
 
 <!----------------------------------[ Badges ]--------------------------------->
 
-[Badge Discord]: https://img.shields.io/discord/1119997279651233822?style=plastic&label=Discord%20Server
-[Badge Commit]: https://img.shields.io/github/last-commit/Catana791/asthosus?style=plastic&label=Last%20Commit
-
+[Badge Discord]: https://img.shields.io/discord/1119997279651233822?style=for-the-badge&label=Discord%20Server
+[Badge Commit]: https://img.shields.io/github/last-commit/Catana791/asthosus?style=for-the-badge&label=Last%20Commit
+[Badge Issues]: https://img.shields.io/github/issues/Catana791/asthosus?style=for-the-badge
 <!----------------------------------[ Links ]--------------------------------->
 [Asthosus OST Mod Repository]: https://github.com/Catana791/Asthosus-OST
 [Logo]: github/logo.png
