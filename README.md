@@ -96,4 +96,4 @@ Making a mod like this would not be possible without help.
 [Logo]: github/logo.png
 [Discord]: https://discord.gg/fde2vqaS6p
 [Commits]: https://github.com/Catana701/asthosus/commits/main
-[Issues]: https://github.com/Catan791/asthosus/issues
+[Issues]: https://github.com/Catana791/asthosus/issues
