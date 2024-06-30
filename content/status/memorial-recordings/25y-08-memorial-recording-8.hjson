@@ -1,15 +1,3 @@
-name: Memorial Recording - Defringe
-description: Texts from a memorial slab. Recorded in a digital form.
-details: 
-'''
-  A few hundred years went by. Asthosus and Trecara were still thriving. 
-  Most of the people who witnessed the terraforming incident had already died of old age
-  or other causes.
-  
-  Because of the Arumis gaining power, the outpost on Trecara was abandoned,
-  rendering the force projector that had been protecting Asthosus against the sun's
-  threats was out of power and no longer functional.
-'''
 research: {
   parent: 25y-07-memorial-recording-7
   objectives: [
