@@ -4,9 +4,9 @@
 
 ![Logo]
 <br> <br>
-![Badge Commit] <br>
+[![Badge Commit]][Commits] <br>
 [![Badge Discord]][Discord] <br>
-![Badge Issues] <br>
+[![Badge Issues]][Issues] <br>
 
 <br>
 <br>
@@ -95,3 +95,5 @@ Making a mod like this would not be possible without help.
 [Asthosus OST Mod Repository]: https://github.com/Catana791/Asthosus-OST
 [Logo]: github/logo.png
 [Discord]: https://discord.gg/fde2vqaS6p
+[Commits]: https://github.com/Catana701/asthosus/commits/main
+[Issues]: https://github.com/Catan791/asthosus/issues
