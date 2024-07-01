@@ -35,12 +35,3 @@ requirements: [
   01a-02-item-demetite/20
 ]
 squareSprite: false
-consumes: {
-  liquid: {
-    liquid: 02b-01-q-liquid-silicon-tetrafluoride
-    amount: 0.0083333333333333
-    optional: true
-    booster: true
-  }
-}
-liquidBoostIntensity: 20
