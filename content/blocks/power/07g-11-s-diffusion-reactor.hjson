@@ -12,7 +12,7 @@ requirements: [
 ]
 powerProduction: 35
 researchCostMultiplier: 0.05
-maxHeat: 33
+maxHeat: 30
 consumes: {
   liquids: [
     02b-05-liquid-nontragen/0.133333333
