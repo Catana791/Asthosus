@@ -43,4 +43,4 @@ consumes: {
     booster: true
   }
 }
-liquidBoostIntensity: 1.25
+liquidBoostIntensity: 20
