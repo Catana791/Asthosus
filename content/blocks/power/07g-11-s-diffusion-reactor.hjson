@@ -1,6 +1,6 @@
 type: VariableReactor
 name: Diffusion Reactor
-description: Generates power by diffusing a mixture of Nontragen and Silicon Tetrafluoride using heat. Explodes violently when not supplied with Nontragen.
+description: Generates power by diffusing a mixture of Nontragen and Silicon Tetrafluoride using heat. Explodes violently if insufficient coolant is provided.
 size: 4
 category: power
 research: 07g-11-radiation-power-plant
