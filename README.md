@@ -58,7 +58,7 @@ Asthosus is available in multiple languages!
 
 - English
 - German (WIP)
-- Russian (WIP)
+- Russian
 - Traditional Chinese
 <br>
 <br>
@@ -80,8 +80,9 @@ Link to the [Asthosus OST Mod Repository]
 Making a mod like this would not be possible without help.
 <br> <br>
 
-- Apocalypse: Balance Testing and Translations.
+- Apocalypse: Balance help, translations.
 - Frankie: General help.
+- Infected Operative: Translations.
 - Max: Balance Testing.
 - MrApple: Some Maps.
 - ThePythonGuy: Music.
