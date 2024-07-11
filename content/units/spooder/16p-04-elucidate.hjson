@@ -65,7 +65,7 @@ weapons: [
     x: -10
     name: elucidate-weapon-front
     y: 7
-    reload: 25
+    reload: 20
     shootSound: shoot-heavy-cannon
     mirror: true
     alternate: true
@@ -92,10 +92,10 @@ weapons: [
       trailLength: 16
       trailColor: 69a25e
       pierce: true
-      pierceBuilding: false
+      pierceBuilding: true
       pierceCap: 2
       fragOnHit: false
-      damage: 20
+      damage: 40
       collidesTeam: true
       healPercent: 2
     }
