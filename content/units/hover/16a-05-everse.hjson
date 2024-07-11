@@ -122,7 +122,7 @@ weapons: [
       hitEffect: explosion
       endEffect: explosion
       suppressionDuration: 240
-      suppressionRange: 48
+      suppressionRange: 96
       pointEffect: {
         type: ParticleEffect
         particles: 5
