@@ -66,7 +66,7 @@ weapons: [
     name: elucidate-weapon-front
     y: 7
     reload: 55
-    shootSound: shoot-dull
+    shootSound: shoot-heavy-cannon
     mirror: true
     alternate: true
     parts: [
