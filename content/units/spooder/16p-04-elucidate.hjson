@@ -7,11 +7,16 @@ outlineColor: 44413c
 armor: 9
 abilities: [
   {
-    type: ForceFieldAbility
-    radius: 64
+    type: ShieldArcAbility
     max: 2800
     cooldown: 300
     regen: 0.5
+    angle: 90
+    whenShooting: false
+    width: 4
+    x: 0
+    y: -22
+    radius: 50
   }
 ]
 research: 16p-03-illuminate
@@ -57,10 +62,10 @@ controller: RepairAI
 commands: [move, repair, rebuild, assist]
 weapons: [
   {
-    x: -9
+    x: -10
     name: elucidate-weapon-front
-    y: 6
-    reload: 72
+    y: 7
+    reload: 55
     shootSound: shoot-dull
     mirror: true
     alternate: true
@@ -74,44 +79,30 @@ weapons: [
         mirror: false
       }
     ]
-    rotate: true
-    inaccuracy: 3
-    shoot: {
-      shots: 5
-      shotDelay: 12
-    }
     bullet: {
-      type: MissileBulletType
-      homingPower: 0.09
-      homingDelay: 30
-      weaveScale: 3
-      weaveMag: 3
-      width: 9
-      height: 13
-      speed: 2
-      lifetime: 90
-      damage: 32
+      type: BasicBulletType
+      layer: 111
+      width: 6
+      height: 72
+      speed: 8
+      lifetime: 26
+      frontColor: 9be98b
+      backColor: 69a25e
+      trailWidth: 1
+      trailLength: 16
+      trailColor: 69a25e
       pierce: true
-      pierceBuilding: true
-      pierceCap: 3
+      pierceBuilding: false
+      pierceCap: 2
+      fragOnHit: false
+      damage: 20
       collidesTeam: true
       healPercent: 2
-      trailChance: -1
-      trailLength: 22
-      trailWidth: 2.2
-      trailColor: 69a25e
-      backColor: 69a25e
-      lightColor: 69a25e
-      lightRadius: 40
-      lightOpacity: 0.7
-      hitSound: dullExplosion
-      despawnSound: dullExplosion
-      frontColor: 9be98b
     }
   }
   {
-    x: 6
-    y: -8
+    x: 0
+    y: -9
     reload: 216
     parts: [
       {
@@ -123,9 +114,12 @@ weapons: [
         mirror: false
       }
     ]
+    shoot: {
+      shots: 2
+    }
+    inaccuracy: 9
     name: elucidate-weapon-back
-    mirror: true
-    alternate: true
+    mirror: false
     rotate: false
     shootCone: 90
     shootSound: artillery
@@ -146,6 +140,23 @@ weapons: [
       despawnUnit: asthosus-18r-10-heal-node-2
       despawnUnitCount: 1
       despawnUnitRadius: 1
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    x: 0
+    y: 12
+    mirror: false
+    shootCone: 90
+    repairSpeed: 0.45
+    targetBuildings: false
+    targetUnits: true
+    controllable: false
+    aiControllable: true
+    autoTarget: true
+    rotate: true
+    bullet: {
+      maxRange: 160
     }
   }
 ]
