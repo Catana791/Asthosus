@@ -145,7 +145,7 @@ weapons: [
       mirror: true
       alternate: false
       rotate: false
-      baseRotation: -90
+      baseRotation: -45
       shootCone: 360
       shootSound: missile
       reload: 9
@@ -170,7 +170,7 @@ weapons: [
       mirror: true
       alternate: true
       rotate: false
-      baseRotation: -90
+      baseRotation: -45
       shootSound: missileLaunch
       reload: 7
       shootCone: 360
@@ -190,12 +190,12 @@ weapons: [
     {
       name: everse-launcher
       layerOffset: -1
-      x: 27
-      y: -18
+      x: 29
+      y: -21
       mirror: true
       alternate: true
       rotate: false
-      baseRotation: -90
+      baseRotation: -45
       shootSound: missileLaunch
       reload: 15
       shootCone: 360
