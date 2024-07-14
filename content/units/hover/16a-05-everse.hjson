@@ -48,7 +48,8 @@ abilities: [
     x: 0
     y: -40
     teamColor: true
-    effect: [fallSmoke, missileTrail, artilleryTrail]
+    effect: shootSmokeMissile
+    rotation: 180
     interval: 8
   }
   {
