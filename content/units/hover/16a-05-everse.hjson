@@ -51,6 +51,7 @@ abilities: [
     effect: shootSmokeMissile
     interval: 7
     rotateEffect: true
+    parentizeEffects: true
   }
   {
     type: MoveEffectAbility
