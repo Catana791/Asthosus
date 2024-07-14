@@ -44,7 +44,7 @@ weapons: [
       width: 1
       drawFlare: false
       damageInterval: 15
-      damage: 11
+      damage: 14
       buildingDamageMultiplier: 0.01
       pierceArmor: false
       pierceCap: 1
@@ -70,7 +70,7 @@ weapons: [
       colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       drawFlare: false
       damageInterval: 15
-      damage: 11
+      damage: 14
       buildingDamageMultiplier: 0.01
       pierceArmor: false
       pierceCap: 1
@@ -95,8 +95,8 @@ weapons: [
       type: MissileBulletType
       speed: 3
       lifetime: 47
-      damage: 4
-      splashDamage: 5
+      damage: 5
+      splashDamage: 6
       splashDamageRadius: 8
       homingPower: 0.2
       weaveMag: 4
