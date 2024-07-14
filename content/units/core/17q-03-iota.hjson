@@ -38,7 +38,7 @@ abilities: [
     color: d46f6b
     hitBuildings: false
     hitUnits: true
-    damage: 45
+    damage: 62
     healPercent: 1
     blinkSize: 0
     maxTargets: 4
@@ -61,7 +61,7 @@ weapons: [
     bullet: {
       type: SapBulletType  
       collidesTiles: false
-      damage: 24
+      damage: 28
       sapStrength: 0.3
       length: 80
       status: none
@@ -81,7 +81,7 @@ weapons: [
     bullet: {
       collidesTiles: false
       type: SapBulletType
-      damage: 26
+      damage: 30
       sapStrength: 0.3
       length: 80
       status: none
@@ -103,8 +103,8 @@ weapons: [
       sprite: shell
       speed: 1.65
       lifetime: 90
-      damage: 18
-      splashDamage: 8
+      damage: 21
+      splashDamage: 10
       splashDamageRadius: 12
       width: 18
       height: 20
@@ -133,8 +133,8 @@ weapons: [
         homingPower: 0.12
         speed: 1
         lifetime: 32
-        damage: 8
-        splashDamage: 4
+        damage: 12
+        splashDamage: 6
         splashDamageRadius: 6
         width: 12
         height: 14
@@ -156,8 +156,8 @@ weapons: [
           homingPower: 0.12
           speed: 1
           lifetime: 32
-          damage: 8
-          splashDamage: 4
+          damage: 10
+          splashDamage: 5
           buildingDamageMultiplier: 0.01
           splashDamageRadius: 6
           width: 12
@@ -183,7 +183,7 @@ weapons: [
       shootEffect: shootTitan
       lifetime: 30
       damage: 0
-      splashDamage: 60
+      splashDamage: 72
       splashDamageRadius: 48
       buildingDamageMultiplier: 0.01
       trailSpacing: 25
