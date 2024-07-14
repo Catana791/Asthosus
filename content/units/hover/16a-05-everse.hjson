@@ -48,7 +48,7 @@ abilities: [
     x: 0
     y: -40
     teamColor: true
-    effect: artilleryTrail
+    effect: [missileTrail, artilleryTrail, artilleryTrailSmoke]
     interval: 5
   }
   {
