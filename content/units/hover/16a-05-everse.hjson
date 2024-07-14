@@ -46,10 +46,10 @@ abilities: [
   {
     type: MoveEffectAbility
     x: 0
-    y: -40
+    y: -42
     teamColor: true
     effect: shootSmokeMissile
-    interval: 9
+    interval: 7
     rotateEffect: true
   }
   {
