@@ -48,7 +48,7 @@ abilities: [
     x: 0
     y: -43
     teamColor: true
-    effect: shootSmokeMissile
+    effect: instTrail
     interval: 6
     rotateEffect: true
   }
