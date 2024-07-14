@@ -48,9 +48,8 @@ abilities: [
     x: 0
     y: -40
     teamColor: true
-    effect: [missileTrail, artilleryTrail, artilleryTrailSmoke]
+    effect: artilleryTrail
     interval: 5
-    minVelocity: 0.6
   }
   {
     type: MoveEffectAbility
@@ -59,7 +58,6 @@ abilities: [
     teamColor: true
     effect: missileTrail
     interval: 7
-    minVelocity: 0.6
   }
   {
     type: MoveEffectAbility
@@ -68,7 +66,6 @@ abilities: [
     teamColor: true
     effect: missileTrail
     interval: 7
-    minVelocity: 0.6
   }
 ]
 engines: [
@@ -142,9 +139,9 @@ weapons: [
   }
   {
       name: everse-launcher
-      x: 22
+      x: 24
       layerOffset: -1
-      y: 20
+      y: 21
       mirror: true
       alternate: false
       rotate: false
@@ -168,8 +165,8 @@ weapons: [
     {
       name: everse-launcher
       layerOffset: -1
-      x: 25
-      y: 9
+      x: 27
+      y: 10
       mirror: true
       alternate: true
       rotate: false
@@ -193,8 +190,8 @@ weapons: [
     {
       name: everse-launcher
       layerOffset: -1
-      x: 26
-      y: -17
+      x: 27
+      y: -18
       mirror: true
       alternate: true
       rotate: false
