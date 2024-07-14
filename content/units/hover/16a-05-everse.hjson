@@ -190,7 +190,7 @@ weapons: [
     {
       name: everse-launcher
       layerOffset: -1
-      x: 29
+      x: 26.5
       y: -21
       mirror: true
       alternate: true
