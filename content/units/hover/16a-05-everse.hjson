@@ -141,7 +141,7 @@ weapons: [
     }
   }
   {
-      name: tequant-weapon
+      name: everse-launcher
       x: 22
       layerOffset: -1
       y: 20
@@ -166,7 +166,7 @@ weapons: [
       }
     }
     {
-      name: tequant-weapon
+      name: everse-launcher
       layerOffset: -1
       x: 25
       y: 9
@@ -191,7 +191,7 @@ weapons: [
       }
     }
     {
-      name: tequant-weapon
+      name: everse-launcher
       layerOffset: -1
       x: 26
       y: -17
