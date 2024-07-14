@@ -46,10 +46,10 @@ abilities: [
   {
     type: MoveEffectAbility
     x: 0
-    y: -35
+    y: -40
     teamColor: true
-    effect: [missileTrail, artilleryTrail, missileTrailSmoke, disperseTrail]
-    interval: 5
+    effect: missileTrailSmoke
+    interval: 12
   }
   {
     type: MoveEffectAbility
