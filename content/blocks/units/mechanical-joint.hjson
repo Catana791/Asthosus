@@ -1,4 +1,4 @@
-type: Junction
+type: Wall
 name: Mechanical Joint
 description: A joint used for legged unit production. 
 size: 2
