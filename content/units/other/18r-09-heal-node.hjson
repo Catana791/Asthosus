@@ -13,6 +13,10 @@ homingDelay: 0
 deathExplosionEffect: none
 deathSound: none
 drawCell: false
+drawBody: false
+drawMinimap: false
+internal: true
+isEnemy: false
 shadowElevation: -1
 engineSize: 0
 outlines: false
@@ -21,7 +25,7 @@ abilities: [
   {
     type: EnergyFieldAbility
     hitUnits: false
-    reload: 13
+    reload: 15
     color: 9be98b
     damage: 0
     healPercent: 2
