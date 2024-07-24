@@ -4,7 +4,6 @@ description: Fires batches of items over medium distances to another Kinetic Pro
 size: 2
 squareSprite: false
 itemCapacity: 40
-translation: 2.5
 reload: 150
 range: 160
 consumes: {
@@ -18,25 +17,3 @@ requirements: [
   01a-09-item-obsidian/60
   01a-11-item-barite/30
 ]
-bulletSpeed: 3
-bullet: {
-  trailColor: ffffff
-  trailInterval: 7.5
-  trailRotation: true
-  trailLength: 24
-  trailEffect: {
-    type: ParticleEffect
-    lifetime: 30
-    particles: 1
-    length: 0
-    colorTo: f8efe600
-    sizeFrom: 0
-    sizeTo: 8
-    region: asthosus-sound-wave
-    interp: exp5Out
-  }
-  width: 6
-  height: 12
-  frontColor: f8efe6
-  backColor: bab4ae
-}
