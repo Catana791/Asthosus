@@ -11,6 +11,7 @@ consumes: {
     01a-04-item-hardened-sand/8
   ]
 }
+itemCapacity: 20
 outputItems: [
   01a-01-item-ferrinite/2
   01a-02-item-demetite/2
