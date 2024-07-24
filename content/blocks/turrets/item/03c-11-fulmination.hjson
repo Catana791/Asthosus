@@ -30,7 +30,7 @@ requirements: [
 ammoTypes: {
   01a-06-item-lodestone: {
     trailColor: 4e4277
-    trailInterval: 7.5
+    trailInterval: 3.5
     trailRotation: true
     trailLength: 24
     trailWidth: 1
@@ -40,13 +40,13 @@ ammoTypes: {
       rotWithParent: true
       useRotation: true
       randLength: false
-      lifetime: 30
+      lifetime: 45
       particles: 1
       length: 0
       colorFrom: 4e4277
       colorTo: 4e4277
       sizeFrom: 0
-      sizeTo: 8
+      sizeTo: 16
       region: asthosus-sound-wave
       interp: exp5Out
     }
