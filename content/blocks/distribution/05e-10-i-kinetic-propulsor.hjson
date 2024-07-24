@@ -4,6 +4,7 @@ description: Fires batches of items over medium distances to another Kinetic Pro
 size: 2
 squareSprite: false
 itemCapacity: 40
+translation: 2.5
 reload: 150
 range: 160
 consumes: {
