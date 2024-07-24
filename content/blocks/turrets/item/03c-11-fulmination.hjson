@@ -29,6 +29,21 @@ requirements: [
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
+    trailColor: 4e4277
+    trailInterval: 7.5
+    trailRotation: true
+    trailLength: 24
+    trailEffect: {
+      type: ParticleEffect
+      lifetime: 30
+      particles: 1
+      length: 0
+      colorTo: 4e427700
+      sizeFrom: 0
+      sizeTo: 8
+      region: asthosus-sound-wave
+      interp: exp5Out
+    }
     type: BasicBulletType
     layer: 111
     width: 6
