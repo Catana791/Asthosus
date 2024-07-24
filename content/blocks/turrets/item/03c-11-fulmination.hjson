@@ -29,6 +29,7 @@ requirements: [
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
+    trailChance: 1
     trailColor: 4e4277
     trailInterval: 7.5
     trailRotation: true
