@@ -4,10 +4,11 @@ sector: 8
 research: {
   parent: 19s-05-immist
   objectives: [
-    10j-00-ground-mounting-bay, 10j-01-tank-mounting-bay,
+    10j-00-ground-mounting-bay, 
+    10j-01-tank-mounting-bay,
     {
       type: SectorComplete
-      preset: 19s-05-fulge
+      preset: 19s-05-immist
     }
   ]
 }
