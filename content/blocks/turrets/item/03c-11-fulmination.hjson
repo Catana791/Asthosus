@@ -87,6 +87,27 @@ ammoTypes: {
     }
   }
   01a-07-item-lithium: {
+    trailColor: b98279
+    trailInterval: 3.5
+    trailRotation: true
+    trailLength: 24
+    trailWidth: 1
+    trailEffect: {
+      type: ParticleEffect
+      followParent: true
+      rotWithParent: true
+      useRotation: true
+      randLength: false
+      lifetime: 45
+      particles: 1
+      length: 0
+      colorFrom: b98279
+      colorTo: b98279
+      sizeFrom: 0
+      sizeTo: 16
+      region: asthosus-sound-wave
+      interp: exp5Out
+    }
     type: BasicBulletType
     layer: 111
     width: 6
@@ -95,9 +116,6 @@ ammoTypes: {
     lifetime: 26
     frontColor: e6aca3
     backColor: b98279
-    trailWidth: 1
-    trailLength: 16
-    trailColor: b98279
     pierce: true
     pierceBuilding: false
     pierceCap: 3
@@ -114,6 +132,27 @@ ammoTypes: {
     }
   }
   01a-09-item-obsidian: {
+    trailColor: 2e293a
+    trailInterval: 3.5
+    trailRotation: true
+    trailLength: 24
+    trailWidth: 1
+    trailEffect: {
+      type: ParticleEffect
+      followParent: true
+      rotWithParent: true
+      useRotation: true
+      randLength: false
+      lifetime: 45
+      particles: 1
+      length: 0
+      colorFrom: 2e293a
+      colorTo: 2e293a
+      sizeFrom: 0
+      sizeTo: 16
+      region: asthosus-sound-wave
+      interp: exp5Out
+    }
     type: BasicBulletType
     layer: 111
     width: 6
@@ -122,9 +161,6 @@ ammoTypes: {
     lifetime: 26
     frontColor: 594e6b
     backColor: 2e293a
-    trailWidth: 1
-    trailLength: 16
-    trailColor: 2e293a
     pierce: true
     pierceBuilding: false
     reloadMultiplier: 0.6666666666
