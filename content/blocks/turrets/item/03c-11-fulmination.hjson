@@ -46,9 +46,9 @@ ammoTypes: {
       colorFrom: 4e4277
       colorTo: 4e4277
       sizeFrom: 0
-      sizeTo: 16
+      sizeTo: 14
       region: asthosus-sound-wave
-      interp: exp5Out
+      interp: pow2Out
     }
     type: BasicBulletType
     layer: 111
@@ -104,9 +104,9 @@ ammoTypes: {
       colorFrom: b98279
       colorTo: b98279
       sizeFrom: 0
-      sizeTo: 16
+      sizeTo: 14
       region: asthosus-sound-wave
-      interp: exp5Out
+      interp: pow2Out
     }
     type: BasicBulletType
     layer: 111
@@ -149,9 +149,9 @@ ammoTypes: {
       colorFrom: 2e293a
       colorTo: 2e293a
       sizeFrom: 0
-      sizeTo: 16
+      sizeTo: 14
       region: asthosus-sound-wave
-      interp: exp5Out
+      interp: pow2Out
     }
     type: BasicBulletType
     layer: 111
