@@ -19,6 +19,7 @@ legForwardScl: 0.56
 itemCapacity: 25
 outlineColor: 44413c
 hitSize: 6
+researchCostMultiplier: 1.5
 weapons: [
 {
   x: 0
