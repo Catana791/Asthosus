@@ -2,7 +2,7 @@ type: crawl
 name: Hirude
 description: Defends the Silex core. Has no offensive capabilities but is able to build, mine and support. 
 health: 380
-speed: 3
+speed: 2.55
 armor: 4
 mineFloor: true
 rotateToBuilding: false
@@ -18,9 +18,9 @@ omniMovement: false
 hitSize: 15
 isEnemy: false
 groundLayer: 69.69
-mineSpeed: 8.5
+mineSpeed: 7
 mineTier: 2
-buildSpeed: 0.85
+buildSpeed: 0.65
 drag: 0.4
 itemCapacity: 20
 outlineColor: 42413e
@@ -30,7 +30,7 @@ abilities: [
     type: EnergyFieldAbility
     blinkSize: 0.0001
     damage: 0
-    reload: 40
+    reload: 55
     healPercent: 1
     hitUnits: true
     hitBuildings: true
