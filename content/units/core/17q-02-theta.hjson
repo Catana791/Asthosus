@@ -40,7 +40,7 @@ abilities: [
     reload: 240
     range: 100
     amount: 6
-    max: 30
+    max: 32
   }
 ]
 weapons: [
