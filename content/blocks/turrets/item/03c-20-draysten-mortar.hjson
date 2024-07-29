@@ -15,7 +15,7 @@ requirements: [
 consumes: {
   liquid: 02b-01-pressure/0.3
 }
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.015
 shootWarmupSpeed: 0.05
 reload: 240
 minWarmup: 0.99
