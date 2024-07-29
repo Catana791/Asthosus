@@ -17,10 +17,10 @@ rotateSpeed: 7
 omniMovement: false
 hitSize: 18
 isEnemy: false
-mineSpeed: 10
+mineSpeed: 9.5
 mineTier: 3
 groundLayer: 69.69
-buildSpeed: 1.25
+buildSpeed: 0.85
 drag: 0.4
 itemCapacity: 80
 outlineColor: 42413e
@@ -59,7 +59,7 @@ abilities: [
     type: EnergyFieldAbility
     blinkSize: 0.0001
     damage: 0
-    reload: 40
+    reload: 55
     healPercent: 2
     hitUnits: true
     hitBuildings: true
