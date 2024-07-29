@@ -21,12 +21,12 @@ name: Iota
 description: Defends the Omphalos core. Builds structures and mines ores. 
 health: 310
 armor: 3
-speed: 2
+speed: 2.3
 hitSize: 16
 isEnemy: false
-mineSpeed: 8.5
+mineSpeed: 7.5
 mineTier: 1
-buildSpeed: 0.9
+buildSpeed: 1.1
 drag: 0.4
 itemCapacity: 50
 alwaysUnlocked: true
@@ -46,6 +46,13 @@ abilities: [
     range: 80
     targetAir: true
     targetGround: true
+  }
+  {
+    type: ShieldRegenFieldAbility
+    reload: 240
+    range: 120
+    amount: 8
+    max: 40
   }
 ]
 weapons: [
