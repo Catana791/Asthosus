@@ -15,13 +15,22 @@ mineWalls: true
 speed: 1.2
 hitSize: 6
 isEnemy: false
-mineSpeed: 4.5
+mineSpeed: 3.5
 mineTier: 1
-buildSpeed: 0.4
+buildSpeed: 0.7
 drag: 0.4
 itemCapacity: 20
 alwaysUnlocked: true
 outlineColor: 42413e
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 240
+    range: 80
+    amount: 4
+    max: 20
+  }
+]
 weapons: [
   {
     x: -6.2
