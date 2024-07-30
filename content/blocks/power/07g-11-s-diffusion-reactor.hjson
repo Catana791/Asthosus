@@ -25,8 +25,8 @@ exlosionRadius: 80
 explosionDamage: 2000
 ambientSound: flux
 ambientSoundVolume: 0.13
-// 10 seconds
-unstableSpeed: 0.001666666667
+// 15 seconds
+unstableSpeed: 0.00111111111
 drawer: {
   type: DrawMulti
   drawers: [
