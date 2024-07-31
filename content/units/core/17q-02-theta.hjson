@@ -38,29 +38,32 @@ parts: [
   {
     type: HoverPart
     color: edc66c
-    radius: 7
+    radius: 9
     sides: 6
     layerOffset: -0.0001
     x: 0
     y: -16
+    phase: 150
   }
   {
     type: HoverPart
     color: edc66c
-    radius: 7
+    radius: 9
     sides: 6
     layerOffset: -0.0001
     x: 15
     y: 7
+    phase: 150
   }
   {
     type: HoverPart
     color: edc66c
-    radius: 7
+    radius: 9
     sides: 6
     layerOffset: -0.0001
     x: -15
     y: 7
+    phase: 150
   }
 ]
 abilities: [
