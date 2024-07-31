@@ -45,95 +45,83 @@ abilities: [
 ]
 weapons: [
   {
-    name: zeta-weapon-r
-    x: 7.2
-    y: 3
-    mirror: false
-    reload: 21
-    shootSound: sap
-    rotate: true
-    ejectEffect: casing1
-    bullet: {
-      type: SapBulletType
-      buildingDamageMultiplier: 0.01
-      damage: 23
-      sapStrength: 0.2
-      length: 60
-      status: none
-      statusDuration: 0
-    }
-  }
-  {
-    name: zeta-weapon-l
-    x: -7.2
-    y: 3
-    mirror: false
-    reload: 32
-    shootSound: sap
-    rotate: true
-    ejectEffect: casing1
-    bullet: {
-      type: SapBulletType
-      buildingDamageMultiplier: 0.01
-      damage: 28
-      sapStrength: 0.2
-      length: 60
-      status: none
-      statusDuration: 0
-    }
-  }
-  {
-    name: theta-weapon
+    name: electric-drone
     x: 0
-    y: -6
-    reload: 73
+    y: 16
     mirror: false
     rotate: true
-    ejectEffect: none
-    shootSound: artillery
+    reload: 63
+    shootSound: spark
+    rotateSpeed: 1.8
     bullet: {
-      type: BasicBulletType
+      type: LightningBulletType
+      damage: 17
       buildingDamageMultiplier: 0.01
-      sprite: shell
-      speed: 1.65
-      lifetime: 90
-      damage: 21
-      splashDamage: 10
-      splashDamageRadius: 12
-      width: 18
-      height: 20
-      pierceBuilding: false
-      pierce: true
-      pierceCap: 2
-      trailChance: -1
-      trailEffect: dynamicSpikes
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      buildingDamageMultiplier: 0.01
-      fragBullets: 4
-      fragSpread: 90
-      fragRandomSpread: 0
-      fragLifeMin: 1
-      fragLifeMax: 1
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      homingPower: 0.02
-      fragBullet: {
-        type: BasicBulletType
+      lightningLength: 8
+      hitSound: spark
+      despawnSound: spark
+      spawnBullets: [
+        type: LaserBulletType
+        width: 3
+        length: 64
+        damage: 18
+        buildingDamageMultiplier: 0.01
         pierce: true
         pierceCap: 1
-        pierceBuilding: false
-        sprite: shell
-        homingPower: 0.12
-        speed: 1
-        lifetime: 32
-        damage: 10
-        splashDamage: 5
-        splashDamageRadius: 6
-        width: 12
-        height: 14
-        buildingDamageMultiplier: 0.01
-      }
+      ]
+    }
+  }
+  {
+    name: fire-drone
+    x: 20
+    y: 2
+    mirror: False
+    rotate: true
+    rotateSpeed: 2
+    shootSound: shoot-small-flame
+    reload: 8
+    inaccuracy: 4
+    bullet: {
+      type: ContinuousFlameBulletType
+      lifetime: 20
+      drawFlare: false
+      hitColor: ffc9a2
+      damage: 3
+      knockback: 0
+      pierce: true
+      pierceArmor: true
+      length: 120
+      width: 1.2
+      colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+    }
+  }
+  {
+    name: needle-drone
+    x: -20
+    y: 2
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.1
+    shootSound: shoot-heavy-cannon
+    reload: 121
+    bullet: {
+      trailColor: 4e4277
+      trailRotation: true
+      trailLength: 12
+      trailWidth: 1
+      type: BasicBulletType
+      layer: 111
+      width: 3
+      height: 38
+      speed: 6
+      lifetime: 20
+      frontColor: 8270c0
+      backColor: 4e4277
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 2
+      damage: 34
+      despawnSound: dullExplosion
     }
   }
 ]
