@@ -27,11 +27,11 @@ parts: [
     type: HaloPart
     tri: true
     shapes: 3
-    haloRadius: 6
+    haloRadius: 8
     haloRotateSpeed: 0
     mirror: false
     rotateSpeed: 0
-    haloRotation: 45
+    haloRotation: 50
     color: edc66c
     triLength: 3
   }
@@ -58,7 +58,7 @@ weapons: [
     recoil: 1
     bullet: {
       type: LightningBulletType
-      damage: 11
+      damage: 12
       buildingDamageMultiplier: 0.01
       lightningLength: 18
       hitSound: spark
@@ -68,7 +68,7 @@ weapons: [
           type: LaserBulletType
           width: 5
           length: 144
-          damage: 13
+          damage: 14
           buildingDamageMultiplier: 0.01
           pierce: true
           pierceCap: 1
@@ -92,7 +92,7 @@ weapons: [
       lifetime: 20
       drawFlare: false
       hitColor: ffc9a2
-      damage: 3
+      damage: 4
       knockback: 0
       pierce: true
       pierceArmor: true
@@ -127,7 +127,7 @@ weapons: [
       pierce: true
       pierceBuilding: false
       pierceCap: 2
-      damage: 34
+      damage: 38
       despawnSound: dullExplosion
     }
   }
