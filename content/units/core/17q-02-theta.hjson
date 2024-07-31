@@ -61,13 +61,15 @@ weapons: [
       hitSound: spark
       despawnSound: spark
       spawnBullets: [
-        type: LaserBulletType
-        width: 3
-        length: 64
-        damage: 18
-        buildingDamageMultiplier: 0.01
-        pierce: true
-        pierceCap: 1
+        {
+          type: LaserBulletType
+          width: 3
+          length: 64
+          damage: 18
+          buildingDamageMultiplier: 0.01
+          pierce: true
+          pierceCap: 1
+        }
       ]
     }
   }
