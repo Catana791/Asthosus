@@ -22,6 +22,17 @@ drag: 0.4
 itemCapacity: 30
 alwaysUnlocked: true
 outlineColor: 42413e
+parts: [
+  {
+    type: HaloPart
+    tri: true
+    shapes: 3
+    haloRadius: 6
+    haloRotateSpeed: 0
+    mirror: false
+    rotateSpeed: 0
+  }
+]
 abilities: [
   {
     type: ShieldRegenFieldAbility
@@ -35,12 +46,12 @@ weapons: [
   {
     name: electric-drone
     x: 0
-    y: -18
+    y: -16
     mirror: false
     rotate: true
     reload: 31
     shootSound: spark
-    rotateSpeed: 1.8
+    rotateSpeed: 3.6
     recoil: 1
     bullet: {
       type: LightningBulletType
@@ -68,7 +79,7 @@ weapons: [
     y: 7
     mirror: False
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 4
     shootSound: shoot-small-flame
     reload: 8
     inaccuracy: 4
@@ -93,7 +104,7 @@ weapons: [
     y: 7
     mirror: false
     rotate: true
-    rotateSpeed: 1.1
+    rotateSpeed: 2.2
     shootSound: shoot-heavy-cannon
     reload: 121
     recoil: 2
