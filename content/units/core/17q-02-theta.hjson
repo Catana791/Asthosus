@@ -31,6 +31,9 @@ parts: [
     haloRotateSpeed: 0
     mirror: false
     rotateSpeed: 0
+    haloRotation: 45
+    color: edc66c
+    triLength: 3
   }
 ]
 abilities: [
