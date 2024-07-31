@@ -35,7 +35,7 @@ weapons: [
   {
     name: electric-drone
     x: 0
-    y: -20
+    y: -18
     mirror: false
     rotate: true
     reload: 31
@@ -46,14 +46,14 @@ weapons: [
       type: LightningBulletType
       damage: 11
       buildingDamageMultiplier: 0.01
-      lightningLength: 12
+      lightningLength: 18
       hitSound: spark
       despawnSound: spark
       spawnBullets: [
         {
           type: LaserBulletType
-          width: 3
-          length: 96
+          width: 5
+          length: 144
           damage: 13
           buildingDamageMultiplier: 0.01
           pierce: true
@@ -64,14 +64,15 @@ weapons: [
   }
   {
     name: fire-drone
-    x: 17
-    y: 4
+    x: 15
+    y: 7
     mirror: False
     rotate: true
     rotateSpeed: 2
     shootSound: shoot-small-flame
     reload: 8
     inaccuracy: 4
+    recoil: 0.2
     bullet: {
       type: ContinuousFlameBulletType
       lifetime: 20
@@ -88,8 +89,8 @@ weapons: [
   }
   {
     name: needle-drone
-    x: -17
-    y: 4
+    x: -15
+    y: 7
     mirror: false
     rotate: true
     rotateSpeed: 1.1
