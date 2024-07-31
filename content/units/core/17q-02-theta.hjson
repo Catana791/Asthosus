@@ -31,7 +31,7 @@ parts: [
     haloRotateSpeed: 0
     mirror: false
     rotateSpeed: 0
-    haloRotation: 70
+    haloRotation: 65
     color: edc66c
     triLength: 3
   }
