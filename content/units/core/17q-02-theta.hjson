@@ -24,18 +24,6 @@ alwaysUnlocked: true
 outlineColor: 42413e
 parts: [
   {
-    type: HaloPart
-    tri: true
-    shapes: 3
-    haloRadius: 7.5
-    haloRotateSpeed: 0
-    mirror: false
-    rotateSpeed: 0
-    haloRotation: 65
-    color: edc66c
-    triLength: 3
-  }
-  {
     type: HoverPart
     color: edc66c
     radius: 9
