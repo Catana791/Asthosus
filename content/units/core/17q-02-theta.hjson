@@ -27,11 +27,11 @@ parts: [
     type: HaloPart
     tri: true
     shapes: 3
-    haloRadius: 8
+    haloRadius: 7.5
     haloRotateSpeed: 0
     mirror: false
     rotateSpeed: 0
-    haloRotation: 50
+    haloRotation: 60
     color: edc66c
     triLength: 3
   }
@@ -47,6 +47,15 @@ abilities: [
 ]
 weapons: [
   {
+    parts: [
+      {
+        type: HoverPart
+        color: edc66c
+        radius: 7
+        sides: 6
+        layerOffset: -0.0001
+      }
+    ]
     name: electric-drone
     x: 0
     y: -16
@@ -77,6 +86,15 @@ weapons: [
     }
   }
   {
+    parts: [
+      {
+        type: HoverPart
+        color: edc66c
+        radius: 7
+        sides: 6
+        layerOffset: -0.0001
+      }
+    ]
     name: fire-drone
     x: 15
     y: 7
@@ -102,6 +120,15 @@ weapons: [
     }
   }
   {
+    parts: [
+      {
+        type: HoverPart
+        color: edc66c
+        radius: 7
+        sides: 6
+        layerOffset: -0.0001
+      }
+    ]
     name: needle-drone
     x: -15
     y: 7
