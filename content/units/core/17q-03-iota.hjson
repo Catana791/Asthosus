@@ -69,7 +69,7 @@ parts: [
     sides: 6
     layerOffset: -0.0001
     x: 0
-    y: 18
+    y: 19.5
     phase: 130
   }
 ]
@@ -86,7 +86,7 @@ weapons: [
   {
     name: electric-drone
     x: 0
-    y: 18
+    y: 19.5
     mirror: false
     rotate: true
     reload: 31
