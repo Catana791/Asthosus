@@ -182,13 +182,17 @@ weapons: [
     recoil: 2.8
     shake: 1
     shootSound: shootSmite
+    shoot: {
+      firstShotDelay: 60
+    }
+    chargeSound: lasercharge2
     bullet: {
       type: BasicBulletType
       sprite: large-orb
       width: 17
       height: 21
       hitSize: 8
-      smokeEffect: shootSmokeSquareSparse
+      smokeEffect: shootSmokeSmite
       pierce: true
       pierceCap: 4
       pierceBuilding: true
@@ -199,6 +203,7 @@ weapons: [
       frontColor: ffffff
       trailWidth: 2.8
       trailLength: 9
+      shootEffect: [shootTitan, colorSparkBig]
       hitEffect: hitBulletColor
       trailRotation: true
       trailEffect: disperseTrail
