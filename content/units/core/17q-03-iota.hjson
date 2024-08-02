@@ -39,7 +39,7 @@ parts: [
     sides: 6
     layerOffset: -0.0001
     x: 7
-    y: 8
+    y: 18
     phase: 150
   }
   {
@@ -141,7 +141,7 @@ weapons: [
   }
   {
     name: needle-drone
-    x: -21
+    x: 21
     y: 9
     mirror: false
     rotate: true
