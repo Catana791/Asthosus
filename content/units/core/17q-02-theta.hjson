@@ -107,6 +107,7 @@ weapons: [
     recoil: 0.2
     bullet: {
       type: ContinuousFlameBulletType
+      buildingDamageMultiplier: 0.01
       lifetime: 20
       drawFlare: false
       hitColor: ffc9a2
@@ -130,6 +131,7 @@ weapons: [
     reload: 121
     recoil: 2
     bullet: {
+      buildingDamageMultiplier: 0.01
       trailColor: 4e4277
       trailRotation: true
       trailLength: 12
