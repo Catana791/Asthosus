@@ -39,7 +39,7 @@ parts: [
     sides: 6
     layerOffset: -0.0001
     x: 5
-    y: 11
+    y: 15
     phase: 150
   }
   {
@@ -48,7 +48,7 @@ parts: [
     radius: 9
     sides: 6
     layerOffset: -0.0001
-    x: 26
+    x: 21
     y: 9
     phase: 150
   }
@@ -58,18 +58,18 @@ parts: [
     radius: 9
     sides: 6
     layerOffset: -0.0001
-    x: -26
+    x: -21
     y: 9
     phase: 150
   }
   {
     type: HoverPart
     color: edc66c
-    radius: 13
+    radius: 11
     sides: 6
     layerOffset: -0.0001
-    x: 5
-    y: 11
+    x: -5
+    y: 15
     phase: 130
   }
 ]
@@ -86,7 +86,7 @@ weapons: [
   {
     name: electric-drone
     x: 5
-    y: 11
+    y: 15
     mirror: false
     rotate: true
     reload: 31
@@ -115,7 +115,7 @@ weapons: [
   }
   {
     name: fire-drone
-    x: 26
+    x: 21
     y: 9
     mirror: False
     rotate: true
@@ -141,7 +141,7 @@ weapons: [
   }
   {
     name: needle-drone
-    x: -26
+    x: -21
     y: 9
     mirror: false
     rotate: true
@@ -171,12 +171,12 @@ weapons: [
     }
   }
   {
-    name: electric-drone
-    x: 5
-    y: 11
+    name: laser-shockburst-drone
+    x: -5
+    y: 15
     mirror: false
     rotate: true
-    reload: 31
+    reload: 129
     shootSound: spark
     rotateSpeed: 3.6
     recoil: 2.8
@@ -203,7 +203,7 @@ weapons: [
       trailRotation: true
       trailEffect: disperseTrail
       trailInterval: 3
-      damage: 67
+      damage: 131
       speed: 7
       lifetime: 25
     }
