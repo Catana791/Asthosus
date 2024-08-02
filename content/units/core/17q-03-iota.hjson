@@ -38,8 +38,8 @@ parts: [
     radius: 9
     sides: 6
     layerOffset: -0.0001
-    x: 5
-    y: 15
+    x: 7
+    y: 8
     phase: 150
   }
   {
@@ -55,21 +55,21 @@ parts: [
   {
     type: HoverPart
     color: edc66c
-    radius: 9
+    radius: 11
     sides: 6
     layerOffset: -0.0001
-    x: -21
-    y: 9
+    x: -22
+    y: 9.5
     phase: 150
   }
   {
     type: HoverPart
     color: edc66c
-    radius: 11
+    radius: 9
     sides: 6
     layerOffset: -0.0001
-    x: -5
-    y: 15
+    x: -7
+    y: 18
     phase: 130
   }
 ]
@@ -85,8 +85,8 @@ abilities: [
 weapons: [
   {
     name: electric-drone
-    x: 5
-    y: 15
+    x: 7
+    y: 18
     mirror: false
     rotate: true
     reload: 31
@@ -115,8 +115,8 @@ weapons: [
   }
   {
     name: fire-drone
-    x: 21
-    y: 9
+    x: -7
+    y: 18
     mirror: False
     rotate: true
     rotateSpeed: 4
@@ -172,8 +172,8 @@ weapons: [
   }
   {
     name: laser-shockburst-drone
-    x: -5
-    y: 15
+    x: -22
+    y: 9.5
     mirror: false
     rotate: true
     reload: 129
