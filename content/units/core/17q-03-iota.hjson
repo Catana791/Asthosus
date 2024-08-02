@@ -31,22 +31,49 @@ drag: 0.4
 itemCapacity: 50
 alwaysUnlocked: true
 outlineColor: 42413e
-abilities: [
-  {
-    layer: 1
-    type: EnergyFieldAbility
-    color: d46f6b
-    hitBuildings: false
-    hitUnits: true
-    damage: 62
-    healPercent: 1
-    blinkSize: 0
-    maxTargets: 4
-    reload: 43
-    range: 80
-    targetAir: true
-    targetGround: true
+parts: [
+    {
+    type: HoverPart
+    color: edc66c
+    radius: 9
+    sides: 6
+    layerOffset: -0.0001
+    x: 5
+    y: 11
+    phase: 150
   }
+  {
+    type: HoverPart
+    color: edc66c
+    radius: 9
+    sides: 6
+    layerOffset: -0.0001
+    x: 26
+    y: 9
+    phase: 150
+  }
+  {
+    type: HoverPart
+    color: edc66c
+    radius: 9
+    sides: 6
+    layerOffset: -0.0001
+    x: -26
+    y: 9
+    phase: 150
+  }
+  {
+    type: HoverPart
+    color: edc66c
+    radius: 13
+    sides: 6
+    layerOffset: -0.0001
+    x: 5
+    y: 11
+    phase: 130
+  }
+]
+abilities: [
   {
     type: ShieldRegenFieldAbility
     reload: 240
@@ -56,6 +83,134 @@ abilities: [
   }
 ]
 weapons: [
+  {
+    name: electric-drone
+    x: 5
+    y: 11
+    mirror: false
+    rotate: true
+    reload: 31
+    shootSound: spark
+    rotateSpeed: 3.6
+    recoil: 1
+    bullet: {
+      type: LightningBulletType
+      damage: 15
+      buildingDamageMultiplier: 0.01
+      lightningLength: 18
+      hitSound: spark
+      despawnSound: spark
+      spawnBullets: [
+        {
+          type: LaserBulletType
+          width: 5
+          length: 144
+          damage: 19
+          buildingDamageMultiplier: 0.01
+          pierce: true
+          pierceCap: 1
+        }
+      ]
+    }
+  }
+  {
+    name: fire-drone
+    x: 26
+    y: 9
+    mirror: False
+    rotate: true
+    rotateSpeed: 4
+    shootSound: shoot-small-flame
+    reload: 8
+    inaccuracy: 4
+    recoil: 0.2
+    bullet: {
+      type: ContinuousFlameBulletType
+      buildingDamageMultiplier: 0.01
+      lifetime: 20
+      drawFlare: false
+      hitColor: ffc9a2
+      damage: 5
+      knockback: 0
+      pierce: true
+      pierceArmor: true
+      length: 120
+      width: 1.2
+      colors: [e99558, f3ad7a, ffc9a2, ffdfc7, ffffff]
+    }
+  }
+  {
+    name: needle-drone
+    x: -26
+    y: 9
+    mirror: false
+    rotate: true
+    rotateSpeed: 2.2
+    shootSound: shoot-heavy-cannon
+    reload: 121
+    recoil: 2
+    bullet: {
+      buildingDamageMultiplier: 0.01
+      trailColor: 4e4277
+      trailRotation: true
+      trailLength: 12
+      trailWidth: 1
+      type: BasicBulletType
+      layer: 111
+      width: 4
+      height: 42
+      speed: 6
+      lifetime: 28
+      frontColor: 8270c0
+      backColor: 4e4277
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 2
+      damage: 45
+      despawnSound: dullExplosion
+    }
+  }
+  {
+    name: electric-drone
+    x: 5
+    y: 11
+    mirror: false
+    rotate: true
+    reload: 31
+    shootSound: spark
+    rotateSpeed: 3.6
+    recoil: 2.8
+    shake: 1
+    shootSound: shootSmite
+    bullet: {
+      type: BasicBulletType
+      sprite: large-orb
+      width: 17
+      height: 21
+      hitSize: 8
+      smokeEffect: shootSmokeSquareSparse
+      pierce: true
+      pierceCap: 4
+      pierceBuilding: true
+      buildingDamageMultiplier: 0.01
+      hitColor: baa164
+      backColor: baa164
+      trailColor: baa164
+      frontColor: ffffff
+      trailWidth: 2.8
+      trailLength: 9
+      hitEffect: hitBulletColor
+      trailRotation: true
+      trailEffect: disperseTrail
+      trailInterval: 3
+      damage: 67
+      speed: 7
+      lifetime: 25
+    }
+  }
+
+
+
   {
     name: zeta-weapon-r
     x: 12
