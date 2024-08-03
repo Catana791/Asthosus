@@ -24,6 +24,10 @@ alwaysUnlocked: true
 outlineColor: 42413e
 parts: [
   {
+    type: RegionPart
+    suffix: -small-shield-emitter
+  }
+  {
     type: HoverPart
     color: edc66c
     radius: 9
