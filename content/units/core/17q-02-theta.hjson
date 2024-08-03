@@ -24,10 +24,6 @@ alwaysUnlocked: true
 outlineColor: 42413e
 parts: [
   {
-    type: RegionPart
-    suffix: -small-shield-emitter
-  }
-  {
     type: HoverPart
     color: edc66c
     radius: 9
@@ -68,6 +64,17 @@ abilities: [
   }
 ]
 weapons: [
+  {
+    x: 0
+    y: 0
+    name: theta-small-shield-emitter
+    rotate: false
+    mirror: false
+    noAttack: true
+    display: false
+    recoil: 0
+    useAttackRange: false
+  }
   {
     name: electric-drone
     x: 0
