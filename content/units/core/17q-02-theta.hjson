@@ -76,6 +76,7 @@ weapons: [
     recoil: 0
     useAttackRange: false
     continuous: true
+    alwaysContinuous: true
     shootSound: none
     bullet: {
       type: ContinuousFlameBulletType
@@ -87,6 +88,7 @@ weapons: [
       damage: 0
       splashDamage: 0
       hitEffect: none
+      drawFlare: false
       despawnEffect: none
       shootEffect: none
       colors: [7e4a4a, c67979, e09c9c, ffc8c8, ffffff]
