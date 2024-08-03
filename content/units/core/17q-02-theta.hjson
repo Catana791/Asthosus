@@ -65,38 +65,6 @@ abilities: [
 ]
 weapons: [
   {
-    //marking laser, no damage, now appearance in stats.
-    x: 0
-    y: 0
-    name: theta-small-shield-emitter
-    rotate: false
-    mirror: false
-    noAttack: true
-    display: false
-    recoil: 0
-    useAttackRange: false
-    continuous: true
-    alwaysContinuous: true
-    shootSound: none
-    bullet: {
-      oscMag: 0
-      oscScl: 0
-      type: ContinuousFlameBulletType
-      width: 1
-      length: 150
-      collides: false
-      pierce: true
-      pierceBuilding: true
-      damage: 0
-      splashDamage: 0
-      hitEffect: none
-      drawFlare: false
-      despawnEffect: none
-      shootEffect: none
-      colors: [7e4a4a, c67979, e09c9c, ffc8c8, ffffff]
-    }
-  }
-  {
     name: electric-drone
     x: 0
     y: -16
