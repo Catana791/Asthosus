@@ -79,6 +79,8 @@ weapons: [
     alwaysContinuous: true
     shootSound: none
     bullet: {
+      oscMag: 0
+      oscScl: 0
       type: ContinuousFlameBulletType
       width: 1
       length: 150
