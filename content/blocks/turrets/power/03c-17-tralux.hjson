@@ -63,6 +63,7 @@ shootType: {
         lightningLength: 22
         lightningLengthRand: 3
         lightningColor: 6b6763
+        status: asthosus-13m-05-status-control-corruption
       }
     }
   }
