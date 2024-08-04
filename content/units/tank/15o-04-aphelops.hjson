@@ -45,7 +45,7 @@ weapons: [
       height: 16
       speed: 3
       lifetime: 60
-      damage: 8
+      damage: 6
       pierceArmor: true
       pierce: true
       pierceCap: 2
@@ -104,7 +104,7 @@ weapons: [
       trailInterval: 3
       speed: 2
       lifetime: 90
-      damage: 185
+      damage: 148
       pierce: true
       pierceCap: 2
       fragOnHit: true
@@ -133,7 +133,7 @@ weapons: [
         speed: 2
         lifetime: 20
         pierceCap: 2
-        damage: 120
+        damage: 96
         pierce: true
         fragOnHit: false
         fragBullets: 2
@@ -161,7 +161,7 @@ weapons: [
             speed: 2
             lifetime: 10
             pierceCap: 2
-            damage: 60
+            damage: 48
             pierce: true
             fragOnHit: false
             fragBullets: 1
@@ -179,7 +179,7 @@ weapons: [
               fragBullet: {
                 type: ExplosionBulletType
                 killShooter: false
-                splashDamage: 95
+                splashDamage: 76
                 splashDamageRadius: 48
             }
           }
