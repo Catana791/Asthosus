@@ -143,6 +143,7 @@ weapons: [
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragSpread: 180
+        fragAngle: 90
         fragOnAbsorb: true
         fragBullet: {
             type: BasicBulletType
@@ -163,14 +164,12 @@ weapons: [
             damage: 60
             pierce: true
             fragOnHit: false
-            fragBullets: 2
+            fragBullets: 1
             fragRandomSpread: 0
             fragLifeMin: 1
             fragLifeMax: 1
             fragVelocityMin: 1
             fragVelocityMax: 1
-            fragSpread: 180
-            fragAngle: 90
             fragOnAbsorb: true
             fragBullet: {
               instantDisappear: true
