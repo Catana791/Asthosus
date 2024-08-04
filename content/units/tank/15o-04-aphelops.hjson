@@ -1,8 +1,8 @@
 type: tank
 name: Aphelops
-description: Fires EMP bolts at enemy targets. Equipped with cannons and point defense mounts.
+description: Equipped with a rupturing fractal cannon as well as submachine guns and electric launchers. 
 hitSize: 29
-crushDamage: 4
+crushDamage: 2
 treadPullOffset: 4
 singleTarget: false
 omniMovement: false
