@@ -95,7 +95,10 @@ weapons: [
       trailWidth: 6
       trailLength: 32
       trailRotation: true
-      trailEffect: shootSmokeMissile
+      trailEffect: missileSmoke
+      spin: 0
+      shrinkY: 0
+      shrinkX: 0
       trailInterval: 3
       speed: 2
       lifetime: 90
@@ -110,6 +113,7 @@ weapons: [
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragSpread: 90
+      fragAngle: 45
       fragOnAbsorb: true
       fragBullet: {
         type: BasicBulletType
@@ -144,6 +148,32 @@ weapons: [
           collides: false
           fragBullets: 1
           fragBullet: {
+            spawnBullets: [
+              {
+                type: LightningBulletType
+                inaccuracy: 360
+                damage: 20  
+                pierce: false
+                buildingDamageMultiplier: 0.01
+                lightningLength: 4
+              }
+              {
+                type: LightningBulletType
+                inaccuracy: 360
+                damage: 20  
+                pierce: false
+                buildingDamageMultiplier: 0.01
+                lightningLength: 4
+              }
+              {
+                type: LightningBulletType
+                inaccuracy: 360
+                damage: 20  
+                pierce: false
+                buildingDamageMultiplier: 0.01
+                lightningLength: 4
+              }
+            ]
             type: ExplosionBulletType
             killShooter: false
             splashDamage: 95
