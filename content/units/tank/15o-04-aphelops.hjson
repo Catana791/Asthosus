@@ -84,7 +84,7 @@ weapons: [
     rotate: true
     mirror: false
     reload: 156
-    rotateSpeed: 8
+    rotateSpeed: 2.8
     shootSound: shoot-heavy-cannon
     bullet: {
       type: BasicBulletType
@@ -170,6 +170,7 @@ weapons: [
             fragVelocityMin: 1
             fragVelocityMax: 1
             fragSpread: 180
+            fragAngle: 90
             fragOnAbsorb: true
             fragBullet: {
               instantDisappear: true
