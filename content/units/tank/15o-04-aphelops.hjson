@@ -133,53 +133,56 @@ weapons: [
         speed: 2
         lifetime: 20
         pierceCap: 2
-        damage: 135
+        damage: 120
         pierce: true
         fragOnHit: false
-        fragBullets: 4
+        fragBullets: 2
         fragRandomSpread: 0
         fragLifeMin: 1
         fragLifeMax: 1
         fragVelocityMin: 1
         fragVelocityMax: 1
-        fragSpread: 90
+        fragSpread: 180
         fragOnAbsorb: true
         fragBullet: {
-          instantDisappear: true
-          damage: 0
-          collides: false
-          fragBullets: 1
-          fragBullet: {
-            spawnBullets: [
-              {
-                type: LightningBulletType
-                inaccuracy: 360
-                damage: 20  
-                pierce: false
-                buildingDamageMultiplier: 0.01
-                lightningLength: 4
+            type: BasicBulletType
+            width: 6
+            height: 6
+            sprite: large-orb
+            frontColor: edc66c
+            backColor: baa164
+            trailColor: baa164
+            trailWidth: 2
+            trailLength: 18
+            trailRotation: true
+            trailEffect: shootSmokeSquareSparse
+            trailInterval: 4
+            speed: 2
+            lifetime: 10
+            pierceCap: 2
+            damage: 60
+            pierce: true
+            fragOnHit: false
+            fragBullets: 2
+            fragRandomSpread: 0
+            fragLifeMin: 1
+            fragLifeMax: 1
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragSpread: 180
+            fragOnAbsorb: true
+            fragBullet: {
+              instantDisappear: true
+              damage: 0
+              collides: false
+              fragBullets: 1
+              fragBullet: {
+                type: ExplosionBulletType
+                killShooter: false
+                splashDamage: 95
+                splashDamageRadius: 48
               }
-              {
-                type: LightningBulletType
-                inaccuracy: 360
-                damage: 20  
-                pierce: false
-                buildingDamageMultiplier: 0.01
-                lightningLength: 4
-              }
-              {
-                type: LightningBulletType
-                inaccuracy: 360
-                damage: 20  
-                pierce: false
-                buildingDamageMultiplier: 0.01
-                lightningLength: 4
-              }
-            ]
-            type: ExplosionBulletType
-            killShooter: false
-            splashDamage: 95
-            splashDamageRadius: 48
+            }
           }
         }
       }
