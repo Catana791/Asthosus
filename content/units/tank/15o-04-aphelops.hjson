@@ -92,11 +92,11 @@ weapons: [
       frontColor: edc66c
       backColor: baa164
       trailColor: baa164
-      trailWidth: 4
+      trailWidth: 6
       trailLength: 32
       trailRotation: true
-      trailEffect: shootSmokeSquareSparse
-      trailInterval: 5
+      trailEffect: shootSmokeMissile
+      trailInterval: 3
       speed: 2
       lifetime: 90
       damage: 185
@@ -122,10 +122,10 @@ weapons: [
         trailWidth: 3
         trailLength: 26
         trailRotation: true
-        trailEffect: shootSmokeMissile
-        trailInterval: 7
+        trailEffect: shootSmokeSquareSparse
+        trailInterval: 4
         speed: 2
-        lifetime: 90
+        lifetime: 20
         pierceCap: 2
         damage: 135
         pierce: true
@@ -147,7 +147,7 @@ weapons: [
             type: ExplosionBulletType
             killShooter: false
             splashDamage: 95
-            splashDamageRadius: 32
+            splashDamageRadius: 48
           }
         }
       }
