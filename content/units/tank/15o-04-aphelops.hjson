@@ -95,7 +95,7 @@ weapons: [
       trailWidth: 6
       trailLength: 32
       trailRotation: true
-      trailEffect: artillerySmoke
+      trailEffect: rocketSmoke
       spin: 0
       shrinkY: 0
       shrinkX: 0
