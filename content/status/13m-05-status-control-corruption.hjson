@@ -1,4 +1,3 @@
 name: Control Corruption
-description: The movement controllers of this unit have been affected. Reload and speed increased. Movement stability descreased.
-speedMultiplier: 0.9
+description: The movement controllers of this unit have been affected. Reload and speed increased.
 reloadMultiplier: 0.9
