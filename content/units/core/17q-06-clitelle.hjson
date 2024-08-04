@@ -71,6 +71,7 @@ abilities: [
     x: 0
     y: 0
     effectRadius: 0
+    status: asthosus-13m-05-status-control-corruption
   }
   {
     type: ForceFieldAbility
