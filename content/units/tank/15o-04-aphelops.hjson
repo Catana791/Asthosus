@@ -181,7 +181,6 @@ weapons: [
                 killShooter: false
                 splashDamage: 95
                 splashDamageRadius: 48
-              }
             }
           }
         }
