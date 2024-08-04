@@ -22,6 +22,7 @@ treadRects: [
     height: 134
   }
 ]
+forceMultiTarget: true
 weapons: [
   {
     name: aphelops-launcher
@@ -31,7 +32,7 @@ weapons: [
     mirror: true
     alternate: true
     rotate: true
-    shootSound: shoot-maschinegun
+    shootSound: shoot-dull
     recoil: 1
     bullet: {
       type: BasicBulletType
@@ -83,6 +84,7 @@ weapons: [
     rotate: true
     mirror: false
     reload: 156
+    rotateSpeed: 8
     shootSound: shoot-heavy-cannon
     bullet: {
       type: BasicBulletType
