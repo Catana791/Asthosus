@@ -107,7 +107,7 @@ weapons: [
       damage: 185
       pierce: true
       pierceCap: 2
-      fragOnHit: false
+      fragOnHit: true
       fragBullets: 4
       fragRandomSpread: 0
       fragLifeMin: 1
