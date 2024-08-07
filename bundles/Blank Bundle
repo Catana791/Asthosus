@@ -588,7 +588,8 @@ status.asthosus-13m-03-status-infested.name =
 status.asthosus-13m-04-status-energy-phasing.name =
 status.asthosus-13m-04-status-energy-phasing.description = 
 
-
+status.asthosus-13m-05-status-control-corruption.name =
+status.asthosus-13m-05-status-control-corruption.description = 
 
 #Memorial Recordings
 
