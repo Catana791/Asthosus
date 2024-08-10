@@ -46,7 +46,7 @@ weapons: [
     width: 2
     length: 100
     damage: 17
-    healPercent: 4
+    healPercent: 1
     collidesTeam: true
     pierce: true
     pierceBuilding: false
@@ -82,7 +82,7 @@ weapons: [
       smokeEffect: shootSmallSmoke
       hitColor: 85c278
       lightningColor: 85c278
-      healPercent: 2
+      healPercent: 1
       lightningType: {
         type: BulletType
         speed: 0.0001
