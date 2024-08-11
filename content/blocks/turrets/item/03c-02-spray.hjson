@@ -34,7 +34,7 @@ ammoTypes: {
     width: 7
     height: 9
     speed: 4
-    lifetime: 50
+    lifetime: 30
     collidesGround: true
     collidesAir: false
     ammoMultiplier: 5
@@ -47,7 +47,7 @@ ammoTypes: {
     width: 7
     height: 9
     speed: 4
-    lifetime: 50
+    lifetime: 30
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: false
