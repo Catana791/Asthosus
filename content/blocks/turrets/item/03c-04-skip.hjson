@@ -42,7 +42,7 @@ drawer: {
   ]
 }
 reload: 103
-range: 140
+range: 160
 shootEffect: shootSmall
 smokeEffect: shootSmokeSquareSparse
 shootSound: artillery
@@ -72,7 +72,7 @@ ammoTypes: {
       trailColor: 757575
       type: ArtilleryBulletType
       speed: 2.5
-      lifetime: 25
+      lifetime: 20
       splashDamage: 40
       splashDamageRadius: 32
       width: 7.8
@@ -90,7 +90,7 @@ ammoTypes: {
         trailColor: 757575
         type: ArtilleryBulletType
         speed: 3
-        lifetime: 20
+        lifetime: 15
         splashDamage: 40
         splashDamageRadius: 32
         width: 7.6
@@ -105,7 +105,7 @@ ammoTypes: {
           trailColor: 757575
           type: BasicBulletType
           speed: 2
-          lifetime: 25
+          lifetime: 10
           damage: 25
           splashDamage: 12
           splashDamageRadius: 16
@@ -142,7 +142,7 @@ ammoTypes: {
       trailColor: 9a916e
       type: ArtilleryBulletType
       speed: 2.5
-      lifetime: 25
+      lifetime: 20
       splashDamage: 44
       splashDamageRadius: 32
       width: 7.8
@@ -160,7 +160,7 @@ ammoTypes: {
         trailColor: 9a916e
         type: ArtilleryBulletType
         speed: 3
-        lifetime: 20
+        lifetime: 15
         splashDamage: 44
         splashDamageRadius: 32
         width: 7.6
@@ -175,7 +175,7 @@ ammoTypes: {
           trailColor: 9a916e
           type: BasicBulletType
           speed: 2
-          lifetime: 25
+          lifetime: 10
           damage: 28
           splashDamage: 13
           splashDamageRadius: 16
@@ -212,7 +212,7 @@ ammoTypes: {
       trailColor: 4e4a64
       type: ArtilleryBulletType
       speed: 2.5
-      lifetime: 25
+      lifetime: 20
       splashDamage: 51
       splashDamageRadius: 32
       width: 7.8
@@ -230,7 +230,7 @@ ammoTypes: {
         trailColor: 4e4a64
         type: ArtilleryBulletType
         speed: 3
-        lifetime: 20
+        lifetime: 15
         splashDamage: 51
         splashDamageRadius: 32
         width: 7.6
@@ -245,7 +245,7 @@ ammoTypes: {
           trailColor: 4e4a64
           type: BasicBulletType
           speed: 2
-          lifetime: 25
+          lifetime: 10
           damage: 32
           splashDamage: 16
           splashDamageRadius: 16
@@ -282,7 +282,7 @@ ammoTypes: {
       trailColor: b98279
       type: ArtilleryBulletType
       speed: 2.5
-      lifetime: 25
+      lifetime: 20
       splashDamage: 59
       splashDamageRadius: 32
       width: 7.8
@@ -300,7 +300,7 @@ ammoTypes: {
         trailColor: b98279
         type: ArtilleryBulletType
         speed: 3
-        lifetime: 20
+        lifetime: 15
         splashDamage: 59
         splashDamageRadius: 32
         width: 7.6
@@ -315,7 +315,7 @@ ammoTypes: {
           trailColor: b98279
           type: BasicBulletType
           speed: 2
-          lifetime: 25
+          lifetime: 10
           damage: 36
           splashDamage: 19
           splashDamageRadius: 16
@@ -353,7 +353,7 @@ ammoTypes: {
       trailColor: 757575
       type: ArtilleryBulletType
       speed: 2.5
-      lifetime: 25
+      lifetime: 20
       splashDamage: 82
       splashDamageRadius: 32
       width: 7.8
@@ -371,7 +371,7 @@ ammoTypes: {
         trailColor: 757575
         type: ArtilleryBulletType
         speed: 3
-        lifetime: 20
+        lifetime: 15
         splashDamage: 82
         splashDamageRadius: 32
         width: 7.6
@@ -386,7 +386,7 @@ ammoTypes: {
           trailColor: 757575
           type: BasicBulletType
           speed: 2
-          lifetime: 25
+          lifetime: 10
           damage: 40
           splashDamage: 20
           splashDamageRadius: 16
