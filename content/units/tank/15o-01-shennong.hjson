@@ -1,6 +1,6 @@
 type: tank
 name: Shennong
-description: Fires weaving machine bullets at enemy targets.
+description: Fires shocking energy beams at enemies.
 hitSize: 8
 treadPullOffset: 3
 omniMovement: false
