@@ -1,0 +1,13 @@
+captureWave: 30
+difficulty: 6
+planet: asthosus
+sector: 10
+research: {
+  parent: 19s-06-igneous-peaks
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-06-igneous-peaks
+    }
+  ]
+}
