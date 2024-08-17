@@ -1,6 +1,6 @@
 type: Floor
 name: Arcane Moss
-variants: 6
+variants: 4
 attributes: {
   arcanemoss: 1
 }
