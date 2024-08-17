@@ -3,8 +3,8 @@ name: Crest
 description: "Fires cluster shock artillery at enemy targets. Equipped with dual cannons."
 speed: 0.21
 flying: false
-health: 22780
-armor: 14
+health: 24880
+armor: 16
 outlineColor: 44413c
 hitSize: 30
 mechLegColor: 44413c
@@ -60,7 +60,7 @@ weapons: [
     shootY: 18
     alternate: true
     recoil: 3
-    reload: 51
+    reload: 43
     shootSound: shoot-heavy-cannon
     ejectEffect: casing3
     rotate: false
@@ -75,8 +75,8 @@ weapons: [
       smokeEffect: shootSmokeMissile
       buildingDamageMultiplier: 0.75
       despawnSound: explosionBig
-      damage: 300
-      splashDamage: 160
+      damage: 315
+      splashDamage: 165
       splashDamageRadius: 32
       sprite: large-orb
       trailChance: -1
@@ -92,7 +92,7 @@ weapons: [
   {
     x: 0
     y: -3
-    reload: 269
+    reload: 203
     shootSound: shoot-dull
     inaccuracy: 9
     velocityRnd: 0.21
