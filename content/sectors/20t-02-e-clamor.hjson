@@ -1,7 +1,7 @@
 captureWave: 30
 difficulty: 5
 planet: asthosus
-sector: 10
+sector: 11
 research: {
   parent: 19s-06-igneous-peaks
   objectives: [
