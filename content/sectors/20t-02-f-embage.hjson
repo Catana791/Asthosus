@@ -3,11 +3,11 @@ difficulty: 6
 planet: asthosus
 sector: 10
 research: {
-  parent: 19s-06-igneous-peaks
+  parent: 20t-02-e-clamor
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-06-igneous-peaks
+      preset: 20t-02-e-clamor
     }
   ]
 }
