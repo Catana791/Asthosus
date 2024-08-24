@@ -1,0 +1,19 @@
+difficulty: 10
+planet: asthosus
+sector: 18
+research: {
+  parent: 19s-11-omega
+  objectives: [
+    01a-14-item-draysten,
+    03c-18-verite,
+    03c-19-missile-battery,
+    03c-20-draysten-mortar,
+    14n-05-crest,
+    15o-05-annectodon,
+    16a-05-everse
+    {
+      type: SectorComplete
+      preset: 19s-11-omega
+    }
+  ]
+}
