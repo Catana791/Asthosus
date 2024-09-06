@@ -30,7 +30,7 @@
 
 - Over 180 pieces of unique and fresh content, including blocks, units, items and more!
 - 11 non-optional campaign sectors. Capture this planet for yourself!
-- 7 optional sectors, providing more playtime and new challenges.
+- 13 optional sectors, providing more playtime and new challenges.
 - 4 full-fledged unit trees all complete with unique units.
 <br>
 <br>
