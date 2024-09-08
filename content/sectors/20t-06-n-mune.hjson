@@ -1,0 +1,13 @@
+captureWave: 8
+difficulty: 10
+planet: asthosus
+sector: 30
+research: {
+  parent: 20t-06-molten-heights
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 20t-06-molten-heights
+    }
+  ]
+}
