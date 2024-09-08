@@ -1,10 +1,9 @@
-difficulty: 4
+difficulty: 5
 planet: asthosus
 sector: 4
 research: {
   parent: 19s-06-igneous-peaks
   objectives: [
-    03c-11-fulmination,
     {
       type: SectorComplete
       preset: 19s-06-igneous-peaks
