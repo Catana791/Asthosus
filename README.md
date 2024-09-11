@@ -30,7 +30,7 @@
 
 - Over 180 pieces of unique and fresh content, including blocks, units, items and more!
 - 11 non-optional campaign sectors. Capture this planet for yourself!
-- 13 optional sectors, providing more playtime and new challenges.
+- 14 optional sectors, providing more playtime and new challenges.
 - 4 full-fledged unit trees all complete with unique units.
 <br>
 <br>
@@ -57,7 +57,7 @@
 Asthosus is available in multiple languages!
 
 - English
-- German (WIP)
+- German
 - Russian
 - Traditional Chinese
 <br>
@@ -83,6 +83,7 @@ Making a mod like this would not be possible without help.
 - Apocalypse: Balance help, translations.
 - Frankie: General help.
 - Infected Operative: Translations.
+- Kevily: Translations.
 - Max: Balance Testing.
 - MrApple: Some Maps.
 - ThePythonGuy: Music.
