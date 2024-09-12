@@ -132,6 +132,82 @@ ammoTypes: {
       lightningColor: e6aca3
     }
   }
+  01a-08-item-cretite: {
+    trailColor: d77751
+    trailInterval: 3.5
+    trailRotation: true
+    trailLength: 24
+    trailWidth: 1
+    trailEffect: {
+      type: ParticleEffect
+      followParent: true
+      rotWithParent: true
+      useRotation: true
+      randLength: false
+      lifetime: 45
+      particles: 1
+      length: 0
+      colorFrom: d77751
+      colorTo: d77751
+      sizeFrom: 0
+      sizeTo: 14
+      region: asthosus-sound-wave
+      interp: pow2Out
+    }
+    type: BasicBulletType
+    status: melting
+    statusDuration: 180 //3 seconds
+    layer: 111
+    width: 6
+    height: 72
+    speed: 8
+    lifetime: 26
+    frontColor: fca988
+    backColor: d77751
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 2
+    fragOnHit: false
+    damage: 92
+    fragBullets: 6
+    fragSpread: 60
+    fragRandomSpread: 0
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    despawnSound: explosion
+    fragBullet: {
+      type: MissileBulletType
+      pierce: true
+      damage: 0
+      collides: false
+      width: 4
+      height: 12
+      frontColor: fca988
+      backColor: d77751
+      trailWidth: 2
+      trailLength: 12
+      trailColor: d77751
+      speed: 2
+      lifetime: 10
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 0
+      fragVelocityMax: 0
+      despawnSound: explosion
+      fragBullet: {
+        type: ExplosionBulletType
+        splashDamage: 32
+        splashDamageRadius: 48
+        killShooter: false
+        speed: 0
+        lifetime: 60
+      }
+    }
+  }
   01a-09-item-obsidian: {
     trailColor: 2e293a
     trailInterval: 3.5
