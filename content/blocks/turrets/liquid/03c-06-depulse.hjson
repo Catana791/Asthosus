@@ -84,7 +84,7 @@ ammoTypes: {
     length: 144
     knockback: 2
     pierceCap: 4
-    colors: [b7a76180, e2cf7aB3, ffffffCC, ffffff]
+    colors: [4f9d9780, 45bbb2B3, 84dca0CC, ffffff]
     lightColor: e2cf7aCC
   }
 }
