@@ -49,7 +49,7 @@ requirements: [
   01a-11-item-barite/185
 ]
 ammoTypes: {
-  01a-13-item-barite-webbing: {
+  01a-08-item-cretite: {
     spawnBullets: [
       {
         type: ShrapnelBulletType
