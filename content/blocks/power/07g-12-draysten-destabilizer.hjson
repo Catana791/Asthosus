@@ -6,6 +6,7 @@ researchCostMultiplier: 0.05
 hasPower: true
 hasLiquids: true
 hasItems: true
+explodeSound: reactor-explosion
 explosionShake: 10
 itemCapacity: 20
 liquidCapacity: 280
