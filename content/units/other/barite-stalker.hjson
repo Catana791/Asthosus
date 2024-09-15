@@ -1,6 +1,6 @@
 type: legs
-legCount: 5
-legLength: 18
+legCount: 7
+legLength: 14
 legPairOffset: 1
 legSpeed: 0.23
 hovering: true
@@ -19,189 +19,51 @@ outlineColor: 42413e
 aimDst: 240
 weapons: [
   {
+    name: medium-barite-weapon
     x: 0
     y: 0
     mirror: false
     rotate: false
     reload: 76
+    recoil: 2
     inaccuracy: 0
     shootSound: splash
     bullet: {
       type: LiquidBulletType
       liquid: 02b-04-liquid-liquid-barite
-      orbSize: 5
+      orbSize: 2
       damage: 60
+      sprite: shell
       pierce: true
       pierceCap: 2
       knockback: 1
-      speed: 2
-      lifetime: 80
-      puddleSize: 24
+      speed: 12
+      lifetime: 15
+      puddleSize: 96
       despawnHit: true
       despawnSound: splash
       layer: 99
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: -8
-    y: 2.1
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: -4
-    y: 4
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: 6
-    y: 4
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: 3
-    y: 7
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: medium-eye
-    top: false
-    x: 0
-    y: 5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: medium-eye
-    top: false
-    x: -6
-    y: 2.5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: small-eye
-    top: false
-    x: 7.5
-    y: 3
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: small-eye
-    top: false
-    x: 7.5
-    y: 4
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: small-eye
-    top: false
-    x: 5
-    y: 4
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
+      trailColor: bab4ae
+      trailInterval: 5
+      trailRotation: true
+      trailLength: 24
+      trailWidth: 1
+      trailEffect: {
+        type: ParticleEffect
+        followParent: true
+        rotWithParent: true
+        useRotation: true
+        randLength: false
+        lifetime: 45
+        particles: 1
+        length: 0
+        colorFrom: ffffff
+        colorTo: bab4ae
+        sizeFrom: 0
+        sizeTo: 12
+        region: asthosus-sound-wave
+        interp: pow2Out
+      }
     }
   }
 ]

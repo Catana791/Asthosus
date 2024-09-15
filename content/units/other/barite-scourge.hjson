@@ -1,7 +1,16 @@
 type: legs
-legCount: 11
-legLength: 22
-legPairOffset: 5
+legCount: 9
+legLength: 18
+legGroupSize: 3
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 7
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.9
+legMoveSpace: 1
 legSpeed: 0.23
 hovering: true
 immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
@@ -19,182 +28,112 @@ outlineColor: 42413e
 aimDst: 160
 weapons: [
   {
-    x: 0
-    y: 15
-    mirror: false
-    rotate: false
-    reload: 76
-    inaccuracy: 0
-    shootSound: splash
-    bullet: {
-      type: LiquidBulletType
-      liquid: 02b-04-liquid-liquid-barite
-      orbSize: 5
-      damage: 150
-      pierce: true
-      pierceCap: 2
-      knockback: 1
-      speed: 2
-      lifetime: 60
-      puddleSize: 24
-      despawnHit: true
-      despawnSound: splash
-      layer: 99
-    }
-  }
-  {
-    x: -8
-    y: 15
+    name: medium-barite-weapon
+    rotateSpeed: 1.2
+    x: -9.2
+    y: 0
     mirror: true
+    rotate: true
     alternate: true
-    rotate: false
-    reload: 210
-    shoot: {
-      shots: 4
-      shotDelay: 5
-    }
+    reload: 76
+    recoil: 2
     inaccuracy: 0
     shootSound: splash
     bullet: {
       type: LiquidBulletType
       liquid: 02b-04-liquid-liquid-barite
-      orbSize: 4
+      orbSize: 2
       damage: 60
+      sprite: shell
       pierce: true
       pierceCap: 2
       knockback: 1
+      speed: 12
+      lifetime: 15
+      puddleSize: 96
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+      trailColor: bab4ae
+      trailInterval: 5
+      trailRotation: true
+      trailLength: 24
+      trailWidth: 1
+      trailEffect: {
+        type: ParticleEffect
+        followParent: true
+        rotWithParent: true
+        useRotation: true
+        randLength: false
+        lifetime: 45
+        particles: 1
+        length: 0
+        colorFrom: ffffff
+        colorTo: bab4ae
+        sizeFrom: 0
+        sizeTo: 12
+        region: asthosus-sound-wave
+        interp: pow2Out
+      }
+    }
+  }
+  {
+    x: 0
+    y: 12
+    mirror: false
+    rotate: false
+    reload: 92
+    shootSound: splash
+    inaccuracy: 25
+    shoot: {
+      shots: 6
+    } 
+    bullet: {
+      type: LiquidBulletType
+      orbSize: 3
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 3
+      damage: 15
+      pierce: true
+      pierceCap: 1
+      knockback: 1
       speed: 2
-      lifetime: 30
-      puddleSize: 24
+      lifetime: 10
+      puddleSize: 256
       despawnHit: true
       despawnSound: splash
       layer: 99
     }
   }
   {
-    name: large-eye
-    top: false
-    x: -10
-    y: 5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
+    x: 5
+    y: 10
+    mirror: true
+    rotate: false
+    reload: 32
+    shootSound: splash
+    inaccuracy: 25
+    shoot: {
+      shots: 3
+      shotDelay: 2
+    } 
     bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: -3
-    y: 7.5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: -2
-    y: 14
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: -10
-    y: 9.5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: 4.5
-    y: 8.5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: 7
-    y: 4
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: 13
-    y: 3.6
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
+      type: LiquidBulletType
+      orbSize: 3
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 3
+      damage: 12
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 45
+      puddleSize: 32
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
     }
   }
 ]
