@@ -1,0 +1,12 @@
+difficulty: 6
+planet: asthosus
+sector: 21
+research: {
+  parent: 19s-05-immist
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-05-immist
+    }
+  ]
+}
