@@ -1,5 +1,6 @@
 type: legs
 legCount: 3
+legPairOffset: 1
 legLength: 15
 legSpeed: 0.23
 immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
@@ -19,7 +20,7 @@ aimDst: 160
 weapons: [
   {
     name: small-barite-weapon
-    x: -5
+    x: -8
     y: 0
     mirror: true
     alternate: true
