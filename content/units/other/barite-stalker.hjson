@@ -1,6 +1,6 @@
 type: legs
 legCount: 7
-legLength: 18
+legLength: 14
 legPairOffset: 1
 legSpeed: 0.23
 hovering: true
@@ -37,9 +37,9 @@ weapons: [
       pierce: true
       pierceCap: 2
       knockback: 1
-      speed: 6
-      lifetime: 30
-      puddleSize: 24
+      speed: 12
+      lifetime: 15
+      puddleSize: 96
       despawnHit: true
       despawnSound: splash
       layer: 99
