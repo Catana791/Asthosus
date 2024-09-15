@@ -1,7 +1,6 @@
 type: legs
-legCount: 7
+legCount: 3
 legLength: 15
-legPairOffset: 2
 legSpeed: 0.23
 immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
 hovering: true
