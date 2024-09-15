@@ -20,7 +20,7 @@ aimDst: 160
 weapons: [
   {
     name: medium-barite-weapon
-    x: -10
+    x: -9.2
     y: 0
     mirror: true
     rotate: true
@@ -97,7 +97,7 @@ weapons: [
     }
   }
   {
-    x: 3
+    x: 5
     y: 10
     mirror: true
     rotate: false
@@ -119,7 +119,7 @@ weapons: [
       pierceCap: 1
       knockback: 1
       speed: 2
-      lifetime: 10
+      lifetime: 45
       puddleSize: 32
       despawnHit: true
       despawnSound: splash
