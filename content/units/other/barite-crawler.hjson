@@ -1,5 +1,5 @@
 type: legs
-legCount: 3
+legCount: 5
 legPairOffset: 1
 legLength: 15
 legSpeed: 0.23
