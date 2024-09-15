@@ -20,10 +20,10 @@ aimDst: 160
 weapons: [
   {
     name: medium-barite-weapon
-    x: -12
+    x: -10
     y: 0
     mirror: true
-    rotate: false
+    rotate: true
     alternate: true
     reload: 76
     recoil: 2
@@ -72,7 +72,7 @@ weapons: [
     y: 12
     mirror: false
     rotate: false
-    reload: 32
+    reload: 92
     shootSound: splash
     inaccuracy: 25
     shoot: {
@@ -84,13 +84,43 @@ weapons: [
       type: LiquidBulletType
       liquid: 02b-04-liquid-liquid-barite
       orbSize: 3
-      damage: 5
+      damage: 15
       pierce: true
       pierceCap: 1
       knockback: 1
       speed: 2
       lifetime: 10
-      puddleSize: 128
+      puddleSize: 256
+      despawnHit: true
+      despawnSound: splash
+      layer: 99
+    }
+  }
+  {
+    x: 3
+    y: 10
+    mirror: true
+    rotate: false
+    reload: 32
+    shootSound: splash
+    inaccuracy: 25
+    shoot: {
+      shots: 3
+      shotDelay: 2
+    } 
+    bullet: {
+      type: LiquidBulletType
+      orbSize: 3
+      type: LiquidBulletType
+      liquid: 02b-04-liquid-liquid-barite
+      orbSize: 3
+      damage: 12
+      pierce: true
+      pierceCap: 1
+      knockback: 1
+      speed: 2
+      lifetime: 10
+      puddleSize: 32
       despawnHit: true
       despawnSound: splash
       layer: 99
