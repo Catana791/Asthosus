@@ -1,0 +1,14 @@
+captureWave: 40
+difficulty: 9
+planet: asthosus
+sector: 29
+research: {
+  parent: 20t-05-abandoned-research-center
+  objectives: [
+    01a-14-item-draysten
+    {
+      type: SectorComplete
+      preset: 20t-05-abandoned-research-center
+    }
+  ]
+}
