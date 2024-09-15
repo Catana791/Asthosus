@@ -19,21 +19,24 @@ outlineColor: 42413e
 aimDst: 160
 weapons: [
   {
-    x: 0
+    name: small-barite-weapon
+    x: -5
     y: 0
-    mirror: false
+    mirror: true
+    alternate: true
     rotate: false
     reload: 76
-    inaccuracy: 7
+    inaccuracy: 9
     shoot: {
       shots: 3
+      shotDelay: 2
     }
     shootSound: splash
     bullet: {
       type: LiquidBulletType
       liquid: 02b-04-liquid-liquid-barite
       orbSize: 3
-      damage: 10
+      damage: 5
       pierce: true
       pierceCap: 1
       knockback: 1
@@ -43,78 +46,6 @@ weapons: [
       despawnHit: true
       despawnSound: splash
       layer: 99
-    }
-  }
-  {
-    name: large-eye
-    top: false
-    x: 0
-    y: 4
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: medium-eye
-    top: false
-    x: -2.5
-    y: 5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: small-eye
-    top: false
-    x: 2.5
-    y: 5
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
-    }
-  }
-  {
-    name: small-eye
-    top: false
-    x: 1
-    y: 6
-    reload: 120
-    recoil: 0
-    mirror: false
-    rotate: true
-    shootSound: none
-    bullet: {
-      instantDisappear: true
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      hitEffect: none
     }
   }
 ]
