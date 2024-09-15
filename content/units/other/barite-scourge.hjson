@@ -1,6 +1,6 @@
 type: legs
 legCount: 9
-legLength: 18
+legLength: 26
 legPairOffset: 2
 legSpeed: 0.23
 hovering: true
@@ -20,7 +20,7 @@ aimDst: 160
 weapons: [
   {
     name: medium-barite-weapon
-    rotateSpeed: 0.5
+    rotateSpeed: 1.2
     x: -9.2
     y: 0
     mirror: true
