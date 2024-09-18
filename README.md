@@ -81,6 +81,7 @@ Making a mod like this would not be possible without help.
 <br> <br>
 
 - Apocalypse: Balance help, translations.
+- BSPlayer: Some maps.
 - Frankie: General help.
 - Infected Operative: Translations.
 - Kevily: Translations.
