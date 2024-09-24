@@ -36,9 +36,9 @@ shoot: {
   barrelOffset: 1
   shots: 3
   barrels: [
-    0, 4, 0,
-    6, 3, 0,
-    -6, 3, 0
+    0, 1, 0,
+    6, 0, 0,
+    -6, 0, 0
   ]
 }
 inaccuracy: 5
