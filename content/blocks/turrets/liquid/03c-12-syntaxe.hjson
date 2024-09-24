@@ -24,7 +24,16 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
+      heatProgress: warmup
       moveY: -2
+    }
+    {
+      type: RegionPart
+      suffix: -top
+      mirror: false
+      under: false
+      progress: warmup
+      heatProgress: warmup
     }
   ]
 }
