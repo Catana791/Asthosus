@@ -76,7 +76,7 @@ ammoTypes: {
     layer: 99
     status: asthosus-13m-02-status-radiated
     statusDuration: 120
-    homingPower: 0.095
+    homingPower: 0.04
     homingDelay: 30
   }
   01a-13-item-barite-webbing: {
@@ -103,7 +103,7 @@ ammoTypes: {
     layer: 99
     status: asthosus-13m-02-status-radiated
     statusDuration: 240
-    homingPower: 0.095
+    homingPower: 0.04
     homingDelay: 30
   }
   01a-14-item-draysten: {
@@ -130,7 +130,7 @@ ammoTypes: {
     layer: 99
     status: asthosus-13m-02-status-radiated
     statusDuration: 300
-    homingPower: 0.095
+    homingPower: 0.04
     homingDelay: 30
   }
 }
