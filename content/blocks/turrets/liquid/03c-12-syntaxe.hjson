@@ -52,7 +52,7 @@ ammoTypes: {
     trailWidth: 2
     trailLength: 16
     trailRotation: true
-    trailEffect: missileSmoke
+    trailEffect: trailSmoke
     trailInterval: 6
     liquid: 02b-04-liquid-liquid-barite
     damage: 103
@@ -79,7 +79,7 @@ ammoTypes: {
     trailWidth: 2
     trailLength: 16
     trailRotation: true
-    trailEffect: missileSmoke
+    trailEffect: trailSmoke
     trailInterval: 6
     liquid: 02b-04-liquid-liquid-barite
     damage: 136
@@ -106,7 +106,7 @@ ammoTypes: {
     trailWidth: 2
     trailLength: 16
     trailRotation: true
-    trailEffect: missileSmoke
+    trailEffect: trailSmoke
     trailInterval: 6
     liquid: 02b-04-liquid-liquid-barite
     damage: 177
