@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Issue Report
+about: Create a report to help improve the mod
 title: ''
 labels: ''
 assignees: ''
