@@ -5,10 +5,15 @@ size: 3
 reload: 22
 shootSound: shoot-small-flame
 shoot: {
-  type: ShootAlternate
-  shotDelay: 6
+  type: ShootBarrel
+  barrels: 3
   shots: 3
-  spread: 11
+  shotDelay: 44
+  barrels: [
+    0, 0.5, 0
+    -2, 0, 0,
+    2, 0, 0
+  ]
 }
 coolant: {
   type: ConsumeCoolant
@@ -156,7 +161,7 @@ ammoTypes: {
     }
   }
 } 
-recoils: 2
+recoils: 3
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -174,6 +179,9 @@ drawer: {
       type: RegionPart
       suffix: -barrel-cap-middle
       under: false
+      recoilIndex: 1
+      moveY: -1
+      progress: recoil
     }
     {  
       type: RegionPart
@@ -182,7 +190,7 @@ drawer: {
       under: true
       progress: recoil
       moveY: -1
-      recoilIndex: 1
+      recoilIndex: 2
     }
   ]
 }
