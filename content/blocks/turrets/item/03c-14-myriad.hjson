@@ -180,7 +180,7 @@ drawer: {
       type: RegionPart
       suffix: -barrel-cap-middle
       under: false
-      recoilIndex: 1
+      recoilIndex: 2
       moveY: -1
       progress: recoil
     }
@@ -191,7 +191,7 @@ drawer: {
       under: true
       progress: recoil
       moveY: -1
-      recoilIndex: 2
+      recoilIndex: 1
     }
   ]
 }
