@@ -8,11 +8,12 @@ shoot: {
   type: ShootBarrel
   barrels: 3
   shots: 3
-  shotDelay: 44
+  shotDelay: 4
+  barrelOffset: 1
   barrels: [
     0, 0.5, 0
-    -2, 0, 0,
-    2, 0, 0
+    -6, 0, 0,
+    6, 0, 0
   ]
 }
 coolant: {
