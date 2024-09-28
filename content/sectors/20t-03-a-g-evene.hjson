@@ -6,7 +6,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 20-03-a-factory-unit-0078
+      preset: 20t-03-a-factory-unit-0078
     }
   ]
 }
