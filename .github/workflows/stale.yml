@@ -22,7 +22,7 @@ jobs:
       with:
         days-before-stale: 1
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'This issue does not have any recent activity and is thus considered stale. It will be closed soon, given that there is no activity.'
-        stale-pr-message: 'This pull reques does not have any recent activity and is thus considered stale. It will be closed soon, given that there is no activity.'
+        stale-issue-message: 'This issue does not have any recent activity and is now considered stale. It will be closed in 7 days if no further activity is recorded.'
+        stale-pr-message: 'This pull request does not have any recent activity and is now considered stale. It will be closed in 7 days if no further activity is recorded.'
         stale-issue-label: 'Stale'
         stale-pr-label: 'Stale'
