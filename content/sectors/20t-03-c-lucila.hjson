@@ -1,0 +1,12 @@
+difficulty: 6
+planet: asthosus
+sector: 25
+research: {
+  parent: 19s-07-detriment-valley
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}
