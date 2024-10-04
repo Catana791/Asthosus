@@ -7,7 +7,7 @@ category: defense
 research: 08h-07-obsidian-wall-small
 drawer: {
   type: DrawTurret
-  basePrefix: fqwrcrf141284912qwrefds-
+  basePrefix: barite-wall-
 }
 requirements: [
   01a-11-item-barite/6
