@@ -6,7 +6,7 @@ size: 2
 squareSprite: false
 drawer: {
   type: DrawTurret
-  basePrefix: spiky-
+  basePrefix: draysten-wall-
 }
 hasPower: true
 conductivePower: true
