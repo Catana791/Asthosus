@@ -78,17 +78,9 @@ Link to the [Asthosus OST Mod Repository]
 ## Contributors
 </div>
 Making a mod like this would not be possible without help.
-<br> <br>
 
-- Apocalypse: Balance help, translations.
-- BSPlayer: Some maps.
-- Frankie: General help.
-- Infected Operative: Translations.
-- Kevily: Translations.
-- Max: Balance Testing.
-- MrApple: Some Maps.
-- ThePythonGuy: Music.
-- Timofeja: Translations.
+<br> <br>
+Check the Contributors in the Discord server <br> if you wish to know more.
 
 <!----------------------------------[ Badges ]--------------------------------->
 
