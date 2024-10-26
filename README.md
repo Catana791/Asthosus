@@ -60,6 +60,7 @@ Asthosus is available in multiple languages!
 - German
 - Russian
 - Traditional Chinese
+- Ukrainian
 <br>
 <br>
 
