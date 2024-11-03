@@ -13,6 +13,8 @@ description:
   I aimed to re-use nearly no vanilla content and instead fill the mod 
   with new and (hopefully) exciting things.
 
+  The mod comes with it's own custom music!
+
   If you find any issues or want to tell me anything else,
   feel free to join the Asthosus Discord server. 
   The same thing goes for when you need help with this mod.
@@ -21,6 +23,6 @@ description:
 '''
 author: "Catana"
 minGameVersion: 146
-version: "1.5.1"
+version: "1.5.2"
 displayName: "Asthosus"
-subtitle: "Get epic music. Download Asthosus OST!"
+subtitle: "Now with 40% more sand!"
