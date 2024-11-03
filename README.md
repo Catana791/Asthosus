@@ -68,10 +68,8 @@ Asthosus is available in multiple languages!
 ## Music
 </div>
 
-Check out the Asthosus OST mod for music <br>
+This mod comes with it's own original music, <br>
 custom-made for Asthosus!
-<br> <br>
-Link to the [Asthosus OST Mod Repository]
 <br>
 <br>
 
