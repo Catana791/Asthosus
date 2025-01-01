@@ -1,0 +1,14 @@
+difficulty: 9
+planet: asthosus
+sector: 24
+research: {
+  parent: 20t-06-molten-heights
+  objectives: [
+    16a-05-everse,
+    05e-12-unit-cargo-drop-point,
+    {
+      type: SectorComplete
+      preset: 20t-06-molten-heights
+    }
+  ]
+}
