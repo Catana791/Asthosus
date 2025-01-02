@@ -67,10 +67,11 @@ weapons: [
       fragVelocityMin: 0.7
       fragBullet: {
         type: MissileBulletType
+        homingPower: 0.05
         speed: 1
         lifetime: 90
         weaveScale: 3
-        weaveMag: 2
+        weaveMag: 3
         width: 3
         height: 6
         trailLength: 4
@@ -80,6 +81,8 @@ weapons: [
         trailColor: 61568a
         pierce: false
         damage: 16
+        hitEffect: none
+        despawnEffect: none
 
         fragBullets: 1
         fragBullet: {
@@ -88,6 +91,11 @@ weapons: [
           splashDamage: 20
           splashDamageRadius: 16
           splashDamagePierce: true
+          hitSound: dullExplosion
+          despawnSound: dullExplosion
+          incendChance: 0.8
+          incendAmount: 6
+          incendSpread: 360
         }
       }
 
