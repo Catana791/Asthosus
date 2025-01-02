@@ -39,8 +39,8 @@ weapons: [
       sprite: large-bomb
       shootEffect: none
       smokeEffect: none
-      width: 20
-      height: 20
+      width: 40
+      height: 40
       maxRange: 30
       backColor: 61568a
       frontColor: 9587cc
@@ -67,13 +67,13 @@ weapons: [
       fragVelocityMin: 0.7
       fragBullet: {
         type: MissileBulletType
-        speed: 3
-        lifetime: 20
+        speed: 1
+        lifetime: 90
         weaveScale: 3
         weaveMag: 2
-        width: 1
-        height: 3
-        trailLength: 3
+        width: 3
+        height: 6
+        trailLength: 4
         trailWidth: 1
         frontColor: 9587cc
         backColor: 61568a
