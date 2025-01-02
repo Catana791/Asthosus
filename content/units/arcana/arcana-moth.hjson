@@ -58,6 +58,39 @@ weapons: [
       status: asthosus-13m-03-status-infested
       statusDuration: 120
       keepVelocity: false
+
+      fragBullets: 5
+      fragOnHit: true
+      fragOnAbsorb: true
+      fragRandomSpread: 360
+      fragLifeMin: 0.7
+      fragVelocityMin: 0.7
+      fragBullet: {
+        type: MissileBulletType
+        speed: 3
+        lifetime: 20
+        weaveScale: 3
+        weaveMag: 2
+        width: 1
+        height: 3
+        trailLength: 3
+        trailWidth: 1
+        frontColor: 9587cc
+        backColor: 61568a
+        trailColor: 61568a
+        pierce: false
+        damage: 16
+
+        fragBullets: 1
+        fragBullet: {
+          type: ExplosionBulletType
+          killShooter: false
+          splashDamage: 20
+          splashDamageRadius: 16
+          splashDamagePierce: true
+        }
+      }
+
       despawnEffect: {
         type: MultiEffect
         effects: [
