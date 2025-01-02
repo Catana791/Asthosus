@@ -95,7 +95,7 @@ weapons: [
           despawnSound: dullExplosion
           incendChance: 0.8
           incendAmount: 6
-          incendSpread: 360
+          incendSpread: 8
         }
       }
 
