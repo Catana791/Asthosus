@@ -95,8 +95,8 @@ weapons: [
       lifetime: 90
       weaveScale: 3
       weaveMag: 3
-      width: 9
-      height: 21
+      width: 4
+      height: 16
       trailLength: 9
       trailWidth: 3
       frontColor: 9587cc
@@ -106,6 +106,8 @@ weapons: [
       damage: 21
       hitEffect: none
       despawnEffect: none
+      pierce: true
+      pierceBuilding: true
 
       fragBullets: 1
       fragBullet: {
