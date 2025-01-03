@@ -103,7 +103,7 @@ weapons: [
       backColor: 61568a
       trailColor: 61568a
       pierce: false
-      damage: 21
+      damage: 7
       hitEffect: none
       despawnEffect: none
       pierce: true
@@ -130,7 +130,7 @@ weapons: [
         backColor: 61568a
         trailColor: 61568a
         pierce: false
-        damage: 16
+        damage: 6
         hitEffect: none
         despawnEffect: none
 
@@ -138,7 +138,7 @@ weapons: [
         fragBullet: {
           type: ExplosionBulletType
           killShooter: false
-          splashDamage: 20
+          splashDamage: 5
           splashDamageRadius: 16
           splashDamagePierce: true
           hitSound: dullExplosion
