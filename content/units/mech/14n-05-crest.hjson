@@ -57,8 +57,8 @@ weapons: [
     x: -24
     y: 0
     mirror: true
-    shootY: 26
-    shootCone: 10
+    shootY: 32
+    shootCone: 15
     alternate: true
     recoil: 1
     reload: 2
