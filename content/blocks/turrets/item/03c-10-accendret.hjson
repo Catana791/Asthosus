@@ -20,7 +20,6 @@ coolant: {
 }
 shoot: {
   type: ShootAlternate
-  shots: 2
   spread: 5
   shotDelay: 5
 }  
