@@ -22,33 +22,37 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 5
+  shotDelay: 5
 }  
 reload: 15
 shootSound: shoot-dull
 researchCostMultiplier: 0.3
 velocityRnd: 0.091
 inaccuracy: 2
+recoils: 2
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
   parts: [
-        {  
-          type: RegionPart
-          suffix: -barrel
-          mirror: true
-          under: true
-          progress: recoil
-          moveY: -1.2
-        }
-        {
-          type: RegionPart
-          suffix: -connector
-          mirror: false
-          under: false
-          progress: recoil
-          moveY: -1.6
-        }
-    ]
+      {
+        type: RegionPart
+        suffix: -barrel-left
+        mirror: false
+        under: true
+        progress: recoil
+        moveY: -1
+        recoilIndex: 0
+      }    
+      {
+        type: RegionPart
+        suffix: -barrel-right
+        mirror: false
+        under: true
+        progress: recoil
+        moveY: -1
+        recoilIndex: 1
+      }  
+   ]
 }
 ammoTypes: {
   01a-07-item-lithium: {
