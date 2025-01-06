@@ -244,7 +244,7 @@ lifetime: 1
       width: 11
       height: 17
       lifetime: 90
-      damage: 80
+      damage: 45
       splashDamage: 190
       shootEffect: surgeCruciSmoke
       smokeEffect: surgeCruciSmoke
