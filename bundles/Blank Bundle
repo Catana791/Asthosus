@@ -594,6 +594,11 @@ status.asthosus-13m-04-status-energy-phasing.description =
 status.asthosus-13m-05-status-control-corruption.name =
 status.asthosus-13m-05-status-control-corruption.description = 
 
+status.asthosus-13m-06-small-speed-boost.name = 
+
+status.asthosus-13m-07-medium-speed-boost.name = 
+
+status.asthosus-13m-08-large-speed-boost.name = 
 
 
 #Memorial Recordings
