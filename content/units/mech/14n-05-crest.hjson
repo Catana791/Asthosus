@@ -221,39 +221,55 @@ lifetime: 1
   }
   {
     x: 0
-    y: -3
-    reload: 203
-    shootSound: shoot-dull
-    inaccuracy: 9
-    velocityRnd: 0.21
+    y: 1
+    layerOffset: -0.01
+    reload: 136
+    shootSound: shoot-laser
     shoot: {
-      shots: 7
-      shotDelay: 8
+      shots: 2
+      shotDelay: 10
+      firstShotDelay: 60
     }
+    chargeSound: short-laser-charge
     rotate: false
     mirror: false
     layerOffset: -0.01
     shake: 2
     bullet: {
-      type: BasicBulletType
-      sprite: shell
-      trailChance: -1
-      trailWidth: 2
-      trailLength: 16
-      speed: 3
-      width: 11
-      height: 17
-      lifetime: 45
-      damage: 90
-      splashDamage: 190
-      shootEffect: surgeCruciSmoke
-      smokeEffect: surgeCruciSmoke
-      splashDamageRadius: 16
-      despawnUnitCount: 1
-      despawnSound: dullExplosion
-      despawnUnitRadius: 1
-      despawnUnit: asthosus-18r-11-lightning-emitter
-    }
+	instantDisappear: true
+	damage: 0
+	despawnEffect: none
+	hitEffect: none
+	collides: false
+	fragBullets: 16
+	fragRandomSpread: 32
+	fragVelocityMin: 0.6
+	fragVelocityMax: 1
+	fragLifeMin: 0.9
+	fragLifeMax: 1
+	fragBullet: {
+		type: BasicBulletType
+		height: 48
+		width: 5
+		pierce: true
+		pierceCap: 2
+		pierceBuilding: true
+		frontColor: ffbe7f
+		backColor: ffbe7f
+        	speed: 9
+		inaccuracy: 3
+		lifetime: 15
+		damage: 12
+		splashDamage: 44
+		splashDamageRadius: 16
+		keepVelocity: false
+		lightning: 3
+		lightningLength: 3
+		lightningLengthRand: 2
+		lightningDamage: 4
+		lightningColor: ffbe7f
+	}
+     }
   }
 ]
 research: 14n-04-apex
