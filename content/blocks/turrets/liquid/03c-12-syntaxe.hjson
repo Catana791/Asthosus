@@ -56,7 +56,6 @@ ammoTypes: {
   01a-11-item-barite: {
     type: LiquidBulletType
     orbSize: 2
-    sprite: shell
     trailColor: bab4ae
     trailWidth: 2
     trailLength: 16
@@ -83,7 +82,6 @@ ammoTypes: {
     type: LiquidBulletType
     orbSize: 4
     orbSize: 2
-    sprite: shell
     trailColor: a78b6f
     trailWidth: 2
     trailLength: 16
@@ -110,7 +108,6 @@ ammoTypes: {
     type: LiquidBulletType
     orbSize: 4
     orbSize: 2
-    sprite: shell
     trailColor: 7e4a4a
     trailWidth: 2
     trailLength: 16
