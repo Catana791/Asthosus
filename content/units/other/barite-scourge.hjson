@@ -44,7 +44,6 @@ weapons: [
       liquid: 02b-04-liquid-liquid-barite
       orbSize: 2
       damage: 60
-      sprite: shell
       pierce: true
       pierceCap: 2
       knockback: 1
