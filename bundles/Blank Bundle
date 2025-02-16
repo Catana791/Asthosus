@@ -47,7 +47,6 @@ item.asthosus-01a-14-item-draysten.name =
 item.asthosus-01a-14-item-draysten.description = 
 
 
-
 #Liquids
 
 liquid.asthosus-02b-01-pressure.name = 
@@ -70,7 +69,6 @@ liquid.asthosus-02b-05-liquid-nontragen.description =
 
 liquid.asthosus-02b-07-arcanoma.name = 
 liquid.asthosus-02b-07-arcanoma.description = 
-
 
 
 #Turrets
@@ -136,7 +134,6 @@ block.asthosus-03c-19-missile-battery.description =
 #Warning: Called Preject in English, not Draysten Mortar!!!
 block.asthosus-03c-20-draysten-mortar.name = 
 block.asthosus-03c-20-draysten-mortar.description = 
-
 
 
 #Drills/Production Blocks
@@ -240,7 +237,6 @@ block.asthosus-05e-13-heat-distributor.name =
 block.asthosus-05e-13-heat-distributor.description = 
 
 
-
 #Liquid Blocks
 
 block.asthosus-06f-01-aqueduct.name = 
@@ -275,7 +271,6 @@ block.asthosus-06f-08-liquid-vat.description =
 
 block.asthosus-06f-09-liquid-silo.name = 
 block.asthosus-06f-09-liquid-silo.description = 
-
 
 
 #Power Blocks
@@ -322,7 +317,6 @@ block.asthosus-07g-11-s-diffusion-reactor.description =
 
 block.asthosus-07g-12-draysten-destabilizer.name =
 block.asthosus-07g-12-draysten-destabilizer.description = 
-
 
 
 #Walls
@@ -376,7 +370,6 @@ block.asthosus-08h-15-draysten-wall-small.description =
 
 block.asthosus-08h-16-draysten-wall-large.name = 
 block.asthosus-08h-16-draysten-wall-large.description =
-
 
 
 #Production Blocks/Crafters
@@ -443,7 +436,6 @@ block.asthosus-09i-20-pyre.name =
 block.asthosus-09i-20-pyre.description =
 
 
-
 #Unit Blocks
 
 block.asthosus-10j-00-ground-mounting-bay.name =
@@ -502,7 +494,6 @@ block.asthosus-10j-17-freight-launcher.name =
 block.asthosus-10j-17-freight-launcher.description =
 
 
-
 #Cores
 
 block.asthosus-11k-01-core-essence.name =
@@ -524,7 +515,6 @@ block.asthosus-11k-06-core-summit.name =
 block.asthosus-11k-06-core-summit.description =
 
 
-
 #Effect Blocks
 
 block.asthosus-11k-07-storage-capsule.name =
@@ -541,7 +531,6 @@ block.asthosus-11k-10-restoration-projector.description =
 
 block.asthosus-11k-11-restoration-dome.name =
 block.asthosus-11k-11-restoration-dome-description =
-
 
 
 #Logic Blocks
@@ -563,7 +552,6 @@ block.asthosus-12l-05-memory-chip.name =
 block.asthosus-12l-05-memory-chip.description =
 
 
-
 #Unit Components/Parts
 
 block.asthosus-autoforge.name = 
@@ -574,7 +562,6 @@ block.asthosus-large-autoforge.description =
 
 block.asthosus-mechanical-joint.name =
 block.asthosus-mechanical-joint.description =
-
 
 
 #Status Effects
@@ -600,6 +587,13 @@ status.asthosus-13m-07-medium-speed-boost.name =
 
 status.asthosus-13m-08-large-speed-boost.name = 
 
+#Environment - Ore & Liquid
+block.asthosus-barite-hive.name =
+block.asthosus-large-barite-hive.name =
+block.asthosus-huge-barite-hive.name =
+block.asthosus-barite-floor.name =
+block.asthosus-hardened-sand-floor.name =
+block.asthosus-red-sand-floor.name =
 
 #Memorial Recordings
 
@@ -648,7 +642,6 @@ status.asthosus-25y-11-memorial-recording-11.description =
 status.asthosus-25y-11-memorial-recording-11.details =
 
 
-
 #Units - Mechs
 
 unit.asthosus-14n-01-shiv.name =
@@ -665,7 +658,6 @@ unit.asthosus-14n-04-apex.description =
 
 unit.asthosus-14n-05-crest.name =
 unit.asthosus-14n-05-crest.description =
-
 
 
 #Units - Tanks
@@ -686,7 +678,6 @@ unit.asthosus-15o-05-annectodon.name =
 unit.asthosus-15o-05-annectodon.description =
 
 
-
 #Units - Hover
 
 unit.asthosus-16a-01-parave.name =
@@ -703,7 +694,6 @@ unit.asthosus-16a-04-tequant.description =
 
 unit.asthosus-16a-05-everse.name =
 unit.asthosus-16a-05-everse.description =
-
 
 
 #Units - Support
@@ -724,7 +714,6 @@ unit.asthosus-16p-05-expound.name =
 unit.asthosus-16p-05-expound.description =
 
 
-
 #Units - Core - Spiders
 
 unit.asthosus-17q-01-zeta.name =
@@ -735,7 +724,6 @@ unit.asthosus-17q-02-theta.description =
 
 unit.asthosus-17q-03-iota.name =
 unit.asthosus-17q-03-iota.description =
-
 
 
 #Units - Core - Worms
@@ -749,7 +737,9 @@ unit.asthosus-17q-05-hirude.description =
 unit.asthosus-17q-06-clitelle.name =
 unit.asthosus-17q-06-clitelle.description =
 
+#Unit - Mounting Drone
 
+unit.asthosus-18r-12-mounting-drone.name = 
 
 #Units - Arcana
 
@@ -763,7 +753,6 @@ unit.asthosus-arcana-raynoid.name =
 unit.asthosus-arcana-raynoid.description =
 
 
-
 #Units - Barite
 
 unit.asthosus-barite-crawler.name =
@@ -774,7 +763,6 @@ unit.asthosus-barite-stalker.description =
 
 unit.asthosus-barite-scourge.name =
 unit.asthosus-barite-scourge.description =
-
 
 
 #Sectors - Campaign
@@ -812,7 +800,6 @@ sector.asthosus-19s-10-furnace-settlement.description =
 
 sector.asthosus-19s-11-omega.name =
 sector.asthosus-19s-11-omega.description =
-
 
 
 #Sectors - Optional
