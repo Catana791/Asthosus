@@ -587,7 +587,7 @@ status.asthosus-13m-07-medium-speed-boost.name =
 
 status.asthosus-13m-08-large-speed-boost.name = 
 
-#Environment - Ore & Liquid
+#Environment
 block.asthosus-barite-hive.name =
 block.asthosus-large-barite-hive.name =
 block.asthosus-huge-barite-hive.name =
