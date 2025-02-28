@@ -2,11 +2,11 @@ difficulty: 7
 planet: asthosus
 sector: 23
 research: {
-  parent: 20t-03-a-factory-unit-0078
+  parent: 19s-06-igneous-peaks
   objectives: [
     {
       type: SectorComplete
-      preset: 20t-03-a-factory-unit-0078
+      preset: 19s-06-igneous-peaks
     }
   ]
 }
