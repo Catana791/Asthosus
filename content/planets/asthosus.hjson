@@ -142,7 +142,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-orbitRadius: 40
+orbitRadius: 20
 sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
