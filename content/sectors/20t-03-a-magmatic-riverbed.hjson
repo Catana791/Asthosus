@@ -1,12 +1,12 @@
-difficulty: 5
+difficulty: 6
 planet: asthosus
 sector: 4
 research: {
-  parent: 19s-06-igneous-peaks
+  parent: 19s-09-synthesis-facility
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-06-igneous-peaks
+      preset: 19s-09-synthesis-facility
     }
   ]
 }
