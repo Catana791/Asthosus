@@ -69,7 +69,8 @@ Asthosus is available in multiple languages!
 </div>
 
 This mod comes with it's own original music, <br>
-custom-made for Asthosus!
+custom-made for Asthosus! <br>
+Music by @ThePythonGuy3
 <br>
 <br>
 
