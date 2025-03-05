@@ -2,6 +2,7 @@ type: Wall
 name: Large Crosium Wall
 description: A large wall made from crosium. Defends allied structures from damage. Capable of absorbing lasers and conducting power.
 absorbLasers: true
+insulated: true
 health: 2220
 requirements: [
   01a-12-item-crosium/20
