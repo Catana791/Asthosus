@@ -2,6 +2,7 @@ type: Wall
 name: Crosium Wall
 description: A wall made from crosium. Defends allied structures from damage. Capable of absorbing lasers and conducting power.
 absorbLasers: true
+insulated: true
 health: 590
 requirements: [
   01a-12-item-crosium/5
