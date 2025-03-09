@@ -65,6 +65,8 @@ Asthosus is available in multiple languages!
 <br>
 <br>
 
+<div align = center>
+
 ## Music
 </div>
 
