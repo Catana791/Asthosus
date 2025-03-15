@@ -1,5 +1,5 @@
 type: flying
-name: Rupturing Shockwave
+name: RS
 hidden: false
 hittable: false
 drawBody: false  
@@ -19,6 +19,8 @@ weapons: [
         bullet: {
             killShooter: true
             type: BasicBulletType
+            splashDamageRadius: 5600
+            splashDamage: 30
             width: 0.000001
             height: 0.000001
             damage: 0
