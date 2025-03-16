@@ -4,6 +4,7 @@ sector: 4
 research: {
   parent: 19s-09-synthesis-facility
   objectives: [
+    16a-04-tequant, 10j-06-progressive-assembler-constituent,
     {
       type: SectorComplete
       preset: 19s-09-synthesis-facility
