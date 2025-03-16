@@ -6,6 +6,7 @@ health: 20
 squareSprite: false
 laserRange: 4
 maxNodes: 2
+health: 35
 requirements: [
   01a-01-item-ferrinite/20
   01a-06-item-lodestone/20
