@@ -15,7 +15,7 @@ weapons: [
         ignoreRotation: true
         shootCone: 360
         shootSound: huge-explosion
-        shake: 1200
+        shake: 600
         bullet: {
             killShooter: true
             type: BasicBulletType
