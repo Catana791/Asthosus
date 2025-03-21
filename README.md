@@ -86,6 +86,7 @@ Making a mod like this would not be possible without help.
 Check the Contributors in the Discord server <br> if you wish to know more.
 
 <div align = center>
+  
 ![Banner]
 
 <!----------------------------------[ Badges ]--------------------------------->
