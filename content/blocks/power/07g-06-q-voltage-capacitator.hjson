@@ -1,6 +1,6 @@
 type: Battery
-name: Voltage Capacitator
-description: A capacitator capable of storing larger amounts of power than a regular Power Cell.
+name: Voltage Capacitor
+description: A capacitor capable of storing larger amounts of power than a regular Power Cell.
 size: 2
 squareSprite: false
 consumes: {
