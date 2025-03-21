@@ -94,9 +94,8 @@ Check the Contributors in the Discord server <br> if you wish to know more.
 [Badge Commit]: https://img.shields.io/github/last-commit/Catana791/asthosus?style=for-the-badge&label=Last%20Commit
 [Badge Issues]: https://img.shields.io/github/issues/Catana791/asthosus?style=for-the-badge
 <!----------------------------------[ Links ]--------------------------------->
-[Asthosus OST Mod Repository]: https://github.com/Catana791/Asthosus-OST
 [Logo]: github/logo.png
-[Banner]: .github/banner.jpg
+[Banner]: github/banner.jpg
 [Discord]: https://discord.gg/fde2vqaS6p
 [Commits]: https://github.com/Catana791/asthosus/commits/main
 [Issues]: https://github.com/Catana791/asthosus/issues
