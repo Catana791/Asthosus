@@ -85,6 +85,9 @@ Making a mod like this would not be possible without help.
 <br> <br>
 Check the Contributors in the Discord server <br> if you wish to know more.
 
+<div align = center>
+![Banner]
+
 <!----------------------------------[ Badges ]--------------------------------->
 
 [Badge Discord]: https://img.shields.io/discord/1119997279651233822?style=for-the-badge&label=Discord%20Server
@@ -93,6 +96,7 @@ Check the Contributors in the Discord server <br> if you wish to know more.
 <!----------------------------------[ Links ]--------------------------------->
 [Asthosus OST Mod Repository]: https://github.com/Catana791/Asthosus-OST
 [Logo]: github/logo.png
+[Banner]: .github/banner.jpg
 [Discord]: https://discord.gg/fde2vqaS6p
 [Commits]: https://github.com/Catana791/asthosus/commits/main
 [Issues]: https://github.com/Catana791/asthosus/issues
