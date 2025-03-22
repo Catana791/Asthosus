@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Barite Alternator
+description: Fires bursts of molten barite at enemies from two barrels. 
+size: 2
+squareSprite: false
+range: 80
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+customShadow: true
+shoot: {
+  type: ShootAlternate
+  spread: 5
+}  
+reload: 20
+shootSound: plasmaboom
+velocityRnd: 0.176
+inaccuracy: 4
+drawer: {
+  type: DrawTurret
+  basePrefix: hive-
+}
+consumes: {}
+shootType: {
+  type: LiquidBulletType
+  orbSize: 2
+  trailColor: bab4ae
+  trailWidth: 2
+  trailLength: 12
+  trailRotation: true
+  trailEffect: shootSmallSmoke
+  trailInterval: 6
+  liquid: 02b-04-liquid-liquid-barite
+  damage: 21
+  pierce: true
+  knockback: 1
+  pierceCap: 1
+  speed: 2
+  lifetime: 40
+  puddleSize: 12
+  despawnHit: true
+  despawnSound: splash
+  layer: 99
+  status: asthosus-13m-02-status-radiated
+  statusDuration: 120
+  homingPower: 0.04
+  homingDelay: 30
+  buildingDamageMultiplier: 2
+}
+outlineColor: 625548
