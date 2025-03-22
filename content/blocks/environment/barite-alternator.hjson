@@ -1,4 +1,4 @@
-type: ItemTurret
+type: PowerTurret
 name: Barite Alternator
 description: Fires bursts of molten barite at enemies from two barrels. 
 size: 2
