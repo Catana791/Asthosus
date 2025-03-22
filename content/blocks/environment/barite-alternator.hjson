@@ -2,7 +2,6 @@ type: PowerTurret
 name: Barite Alternator
 description: Fires bursts of molten barite at enemies from two barrels. 
 size: 2
-squareSprite: false
 range: 80
 placeablePlayer: false
 drawTeamOverlay: false
