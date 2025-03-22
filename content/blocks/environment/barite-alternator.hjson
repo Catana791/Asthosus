@@ -46,3 +46,4 @@ shootType: {
   buildingDamageMultiplier: 2
 }
 outlineColor: 625548
+outlineRadius: 3
