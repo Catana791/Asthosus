@@ -7,7 +7,6 @@ range: 80
 placeablePlayer: false
 drawTeamOverlay: false
 buildVisibility: editorOnly
-customShadow: true
 shoot: {
   type: ShootAlternate
   spread: 5
