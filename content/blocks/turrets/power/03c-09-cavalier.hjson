@@ -39,7 +39,7 @@ requirements: [
 ]
 targetAir: false
 consumes: {
-  power: 3
+  power: 4
 }
 drawer: {
   type: DrawTurret
