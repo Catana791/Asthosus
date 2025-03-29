@@ -2,7 +2,7 @@ type: PowerTurret
 name: Barite Wall
 description: A wall made from Barite. Protects allied structures from damage. Radiates nearby enemies.
 size: 1
-health: 890
+health: 755
 category: defense
 research: 08h-07-obsidian-wall-small
 drawer: {
@@ -10,7 +10,7 @@ drawer: {
   basePrefix: barite-wall-
 }
 requirements: [
-  01a-11-item-barite/6
+  01a-11-item-barite/10
 ]
 researchCostMultiplier: 0.5
 reload: 60
