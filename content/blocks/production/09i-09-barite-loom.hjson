@@ -47,12 +47,6 @@ drawer: {
       padding: 2.5
     }
     {
-      type: DrawFrames
-      frames: 11
-      sine: false
-      interval: 6
-    }
-    {
       type: DrawWeave
     }
     {
