@@ -41,7 +41,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-04-liquid-barite
+      drawLiquid: 02b-04-liquid-liquid-barite
       alpha: 0.75
     }
     {
