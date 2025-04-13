@@ -13,7 +13,12 @@ speed: 0.59
 rotateSpeed: 1.92
 itemCapacity: 0
 outlineColor: 44413c
-research: 15o-04-aphelops
+research: {
+  parent: 15o-04-aphelops
+  objectives: [ 
+    10j-07-cumulative-assembler-constituent
+  ]
+}
 treadRects: [
   {
     x: -74
