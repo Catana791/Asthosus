@@ -13,7 +13,12 @@ speed: 0.76
 rotateSpeed: 2.89
 itemCapacity: 0
 outlineColor: 44413c
-research: 15o-03-aprotodon
+research: {
+  parent: 15o-03-aprotodon
+  objectives: [ 
+    10j-06-progressive-assembler-constituent
+  ]
+}
 treadRects: [
   {
     x: -50
