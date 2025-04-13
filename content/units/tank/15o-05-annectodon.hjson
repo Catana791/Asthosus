@@ -140,14 +140,14 @@ weapons: [
               splashDamageRadius: 48
               pierce: true
               pierceBuilding: true
-              pierceCap: 3
+              pierceCap: 2
               width: 16
               height: 48
               trailLength: 24
               trailWidth: 4
               fragBullets: 1
               fragRandomSpread: 0
-              fragOnHit: false
+              fragOnHit: true
               fragOnAbsorb: true
               fragBullet: {
                 type: ExplosionBulletType
@@ -160,7 +160,6 @@ weapons: [
                 despawnSound: largeExplosion
                 hitEffect: flakExplosion
                 despawnEffect: titanExplosion
-                buildingDamageMultiplier: 0.33
               }
             }
           }
