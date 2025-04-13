@@ -158,6 +158,7 @@ weapons: [
                 despawnSound: largeExplosion
                 hitEffect: flakExplosion
                 despawnEffect: titanExplosion
+                buildingDamageMultiplier: 0.5
               }
             }
           }
