@@ -73,5 +73,10 @@ weapons: [
     }
   }
 ]
-research: 14n-02-bayonet
+research: {
+  parent: 14n-02-bayonet
+  objectives: [
+    10j-05-advanced-assembler-constituent
+  ]
+}  
 researchCostMultiplier: 2.5
