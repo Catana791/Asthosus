@@ -114,42 +114,42 @@ weapons: [
           fragBullet: {
             spawnBullets: [
               {
-                type: BasicBulletType
-                speed: 24
-                lifetime: 10
-                width: 0.000001
-                height: 0.00001
-                damage: 0
-                pierce: true 
-                pierceBuilding: true
-                intervalBullets: 2
-                bulletInterval: 3
-                intervalDelay: -1
-                intervalRandomSpread: 360
-                intervalBullet: {
-                  type: LaserBulletType
-                  laserAbsorb: false
-                  length: 60
-                  width: 3
-                  sideAngle: 45
-                  sideLength: 20
-                  sideWidth: 0.5
-                  colors: [baa164, edc66c, ffffff]
-                  damage: 50
-                  lifetime: 300
-                }
+                type: LaserBulletType
+                laserAbsorb: false
+                length: 240
+                width: 16
+                sideAngle: 45
+                sideLength: 50
+                sideWidth: 1.5
+                olors: [baa164, edc66c, ffffff]
+                damage: 100
+                lifetime: 300
               }
             ]
-            type: LaserBulletType
-            laserAbsorb: false
-            length: 240
-            width: 16
-            sideAngle: 45
-            sideLength: 50
-            sideWidth: 1.5
-            colors: [baa164, edc66c, ffffff]
-            damage: 100
-            lifetime: 300
+            type: BasicBulletType
+            speed: 24
+            lifetime: 10
+            width: 0.000001
+            height: 0.00001
+            damage: 0
+            pierce: true 
+            pierceBuilding: true
+            intervalBullets: 2
+            bulletInterval: 3
+            intervalDelay: -1
+            intervalRandomSpread: 360
+            intervalBullet: {
+              type: LaserBulletType
+              laserAbsorb: false
+              length: 60
+              width: 3
+              sideAngle: 45
+              sideLength: 20
+              sideWidth: 0.5
+              colors: [baa164, edc66c, ffffff]
+              damage: 50
+              lifetime: 300
+            }
           }
         }
       ]
