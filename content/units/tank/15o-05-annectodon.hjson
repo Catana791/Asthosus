@@ -115,7 +115,7 @@ weapons: [
           fragBullet: {
             type: ExplosionBulletType
             hitEffect: flakExplosion
-            despawnEffect: scatheExplosionSmall
+            despawnEffect: scatheExplosion
             hitSound: largeCannon
             despawnSound: largeCannon
             splashDamageRadius: 32
