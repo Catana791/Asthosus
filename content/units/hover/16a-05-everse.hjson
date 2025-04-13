@@ -17,7 +17,12 @@ health: 16790
 armor: 8
 hitSize: 30
 researchCostMultiplier: 2.5
-research: 16a-04-tequant
+research: {
+  parent: 16a-04-tequant
+  objectives: [
+    10j-07-cumulative-assembler-constituent
+  ]
+}
 parts: [
   {
     type: FlarePart
