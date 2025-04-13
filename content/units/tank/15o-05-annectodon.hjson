@@ -148,6 +148,7 @@ weapons: [
               fragBullets: 1
               fragRandomSpread: 0
               fragOnHit: false
+              fragOnAbsorb: true
               fragBullet: {
                 type: ExplosionBulletType
                 splashDamage: 128
