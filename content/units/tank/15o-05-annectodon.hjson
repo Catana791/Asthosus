@@ -112,43 +112,46 @@ weapons: [
           fragLifeMax: 1
           fragLifeMin: 1
           fragBullet: {
-            spawnBullets: [
-              {
-                type: LaserBulletType
-                laserAbsorb: false
-                length: 240
-                width: 16
-                sideAngle: 45
-                sideLength: 50
-                sideWidth: 1.5
-                olors: [baa164, edc66c, ffffff]
-                damage: 100
-                lifetime: 300
+            type: ExplosionBulletType
+            shootSound: massiveExplosion
+            splashDamageRadius: 32
+            splashDamage: 120
+            killShooter: false
+            hitShake: 4
+            despawnShake: 4
+            despawnHit: true
+            lifetime: 60
+            fragBullets: 1
+            fragLifeMin: 1
+            fragLifeMax: 1
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragRandomSpread: 0
+            fragBullet: {
+              type: BasicBulletType
+              speed: 6
+              lifetime: 40
+              damage: 60
+              splashDamage: 120
+              splashDamageRadius: 48
+              pierce: true
+              pierceBuilding: true
+              pierceCap: 4
+              width: 12
+              height: 36
+              trailLength: 24
+              trailWidth: 4
+              fragBullets: 1
+              fragRandomSpread: 0
+              fragBullet: {
+                type: ExplosionBulletType
+                splashDamage: 64
+                splashDamageRadius: 96
+                killShooter: false
+                splashPierce: true
+                hitShake: 4
+                despawnShake: 4
               }
-            ]
-            type: BasicBulletType
-            speed: 24
-            lifetime: 10
-            width: 0.000001
-            height: 0.00001
-            damage: 0
-            pierce: true 
-            pierceBuilding: true
-            intervalBullets: 2
-            bulletInterval: 3
-            intervalDelay: -1
-            intervalRandomSpread: 360
-            intervalBullet: {
-              type: LaserBulletType
-              laserAbsorb: false
-              length: 60
-              width: 3
-              sideAngle: 45
-              sideLength: 20
-              sideWidth: 0.5
-              colors: [baa164, edc66c, ffffff]
-              damage: 50
-              lifetime: 300
             }
           }
         }
