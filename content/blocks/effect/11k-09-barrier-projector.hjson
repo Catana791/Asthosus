@@ -32,3 +32,4 @@ phaseRadiusBoost: 80
 phaseShieldBoost: 400
 phaseUseTime: 180
 sides: 4
+shieldRotation: 45
