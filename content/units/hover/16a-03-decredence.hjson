@@ -16,7 +16,12 @@ groundLayer: 60
 health: 870
 armor: 4
 hitSize: 14
-research: 16a-02-teraze
+research: {
+  parent: 16a-02-teraze
+  objectives: [
+    10j-05-advanced-assembler-constituent
+  ]
+}
 researchCostMultiplier: 2.5
 abilities: [
   {
