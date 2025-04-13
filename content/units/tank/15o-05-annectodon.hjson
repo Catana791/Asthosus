@@ -114,7 +114,7 @@ weapons: [
           fragOnHit: false
           fragBullet: {
             type: ExplosionBulletType
-            hitEffect: scatheExplosionSmall
+            hitEffect: flakExplosion
             despawnEffect: scatheExplosionSmall
             hitSound: largeCannon
             despawnSound: largeCannon
@@ -135,12 +135,12 @@ weapons: [
               type: BasicBulletType
               speed: 6
               lifetime: 40
-              damage: 60
-              splashDamage: 120
+              damage: 32
+              splashDamage: 96
               splashDamageRadius: 48
               pierce: true
               pierceBuilding: true
-              pierceCap: 4
+              pierceCap: 3
               width: 16
               height: 48
               trailLength: 24
@@ -149,15 +149,14 @@ weapons: [
               fragRandomSpread: 0
               fragBullet: {
                 type: ExplosionBulletType
-                splashDamage: 64
+                splashDamage: 128
                 splashDamageRadius: 96
                 killShooter: false
-                splashPierce: true
                 hitShake: 24
                 despawnShake: 24
                 hitSound: largeExplosion
                 despawnSound: largeExplosion
-                hitEffect: titanExplosion
+                hitEffect: flakExplosion
                 despawnEffect: titanExplosion
               }
             }
