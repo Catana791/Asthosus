@@ -31,4 +31,4 @@ researchCostMultiplier: 0.5
 phaseRadiusBoost: 80
 phaseShieldBoost: 400
 phaseUseTime: 180
-sides: 360
+sides: 4
