@@ -113,8 +113,8 @@ weapons: [
           fragLifeMin: 1
           fragBullet: {
             type: ExplosionBulletType
-            hitEffect: [scatheExplosion, scatheExplosionSmall]
-            despawnEffect: [scatheExplosion, scatheExplosionSmall]
+            hitEffect: scatheExplosionSmall
+            despawnEffect: scatheExplosionSmall
             hitSound: largeCannon
             despawnSound: largeCannon
             splashDamageRadius: 32
@@ -156,8 +156,8 @@ weapons: [
                 despawnShake: 12
                 hitSound: largeExplosion
                 despawnSound: largeExplosion
-                hitEffect: [titanExplosion, titanExplosionLarge]
-                despawnEffect: [titanExplosion, titanExplosionLarge]
+                hitEffect: titanExplosion
+                despawnEffect: titanExplosion
               }
             }
           }
