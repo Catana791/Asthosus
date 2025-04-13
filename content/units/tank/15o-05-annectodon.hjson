@@ -113,12 +113,15 @@ weapons: [
           fragLifeMin: 1
           fragBullet: {
             type: ExplosionBulletType
-            shootSound: massiveExplosion
+            hitEffect: [scatheExplosion, scatheExplosionSmall]
+            despawnEffect: [scatheExplosion, scatheExplosionSmall]
+            hitSound: largeCannon
+            despawnSound: largeCannon
             splashDamageRadius: 32
             splashDamage: 120
             killShooter: false
-            hitShake: 4
-            despawnShake: 4
+            hitShake: 12
+            despawnShake: 12
             despawnHit: true
             lifetime: 60
             fragBullets: 1
@@ -149,8 +152,12 @@ weapons: [
                 splashDamageRadius: 96
                 killShooter: false
                 splashPierce: true
-                hitShake: 4
-                despawnShake: 4
+                hitShake: 12
+                despawnShake: 12
+                hitSound: largeExplosion
+                despawnSound: largeExplosion
+                hitEffect: [titanExplosion, titanExplosionLarge]
+                despawnEffect: [titanExplosion, titanExplosionLarge]
               }
             }
           }
