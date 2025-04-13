@@ -19,7 +19,6 @@ abilities: [
     radius: 50
   }
 ]
-research: 16p-03-illuminate
 legCount: 6
 legMoveSpace: 1
 legPairOffset: 2
@@ -161,3 +160,9 @@ weapons: [
   }
 ]
 researchCostMultiplier: 2.25
+research: {
+  parent: 16p-03-illuminate
+  objectives: [
+    10j-06-progressive-assembler-constituent
+  ]
+}
