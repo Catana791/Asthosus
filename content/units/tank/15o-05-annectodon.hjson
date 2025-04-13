@@ -147,6 +147,7 @@ weapons: [
               trailWidth: 4
               fragBullets: 1
               fragRandomSpread: 0
+              fragOnHit: false
               fragBullet: {
                 type: ExplosionBulletType
                 splashDamage: 128
@@ -158,7 +159,6 @@ weapons: [
                 despawnSound: largeExplosion
                 hitEffect: flakExplosion
                 despawnEffect: titanExplosion
-                buildingDamageMultiplier: 0.5
               }
             }
           }
