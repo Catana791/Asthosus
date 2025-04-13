@@ -106,6 +106,39 @@ weapons: [
           colors: [baa164, edc66c, ffffff]
           damage: 125
           lifetime: 150
+          fragRandomSpread: 0
+          fragVelocityMax: 1
+          fragVelocityMin: 1
+          fragLifeMax: 1
+          fragLifeMin: 1
+          fragBullet: {
+            type: LaserBulletType
+            laserAbsorb: false
+            length: 240
+            width: 16
+            sideAngle: 45
+            sideLength: 50
+            sideWidth: 1.5
+            colors: [baa164, edc66c, ffffff]
+            damage: 100
+            lifetime: 300
+            intervalBullets: 4
+            bulletInterval: 1
+            intervalRandomSpread: 360
+            intervalDelay: 0
+            intervalBullet: {
+              type: LaserBulletType
+              laserAbsorb: false
+              length: 60
+              width: 3
+              sideAngle: 45
+              sideLength: 20
+              sideWidth: 0.5
+              colors: [baa164, edc66c, ffffff]
+              damage: 50
+              lifetime: 300
+            }
+          }
         }
       ]
       type: BasicBulletType
