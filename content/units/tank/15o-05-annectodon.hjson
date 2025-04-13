@@ -44,7 +44,7 @@ weapons: [
     name: annectodon-weapon
     x: 0
     y: 0
-    reload: 290
+    reload: 410
     rotate: true
     mirror: false
     rotateSpeed: 1.5
@@ -99,7 +99,7 @@ weapons: [
           type: LaserBulletType
           laserAbsorb: false
           length: 240
-          width: 16
+          width: 24
           sideAngle: 45
           sideLength: 50
           sideWidth: 1.5
@@ -111,6 +111,7 @@ weapons: [
           fragVelocityMin: 1
           fragLifeMax: 1
           fragLifeMin: 1
+          fragOnHit: false
           fragBullet: {
             type: ExplosionBulletType
             hitEffect: scatheExplosionSmall
@@ -140,8 +141,8 @@ weapons: [
               pierce: true
               pierceBuilding: true
               pierceCap: 4
-              width: 12
-              height: 36
+              width: 16
+              height: 48
               trailLength: 24
               trailWidth: 4
               fragBullets: 1
@@ -152,8 +153,8 @@ weapons: [
                 splashDamageRadius: 96
                 killShooter: false
                 splashPierce: true
-                hitShake: 12
-                despawnShake: 12
+                hitShake: 24
+                despawnShake: 24
                 hitSound: largeExplosion
                 despawnSound: largeExplosion
                 hitEffect: titanExplosion
