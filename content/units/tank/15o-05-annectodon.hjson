@@ -133,6 +133,9 @@ weapons: [
             fragRandomSpread: 0
             fragBullet: {
               type: BasicBulletType
+              frontColor: ffffff
+              backColor: baa164
+              trailColor: baa164
               speed: 6
               lifetime: 40
               damage: 32
@@ -141,10 +144,10 @@ weapons: [
               pierce: true
               pierceBuilding: true
               pierceCap: 2
-              width: 16
-              height: 48
+              width: 24
+              height: 64
               trailLength: 24
-              trailWidth: 4
+              trailWidth: 8
               fragBullets: 1
               fragRandomSpread: 0
               fragOnHit: true
