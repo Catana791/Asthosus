@@ -18,7 +18,12 @@ aimDst: 160
 health: 8910
 armor: 6
 hitSize: 19
-research: 16a-03-decredence
+research: {
+  parent: 16a-03-decredence
+  objectives: [
+    10j-06-progressive-assembler-constituent
+  ]
+}
 abilities: [
   {
     type: MoveEffectAbility
