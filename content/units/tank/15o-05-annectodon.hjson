@@ -119,13 +119,12 @@ weapons: [
                 lifetime: 10
                 width: 0.000001
                 height: 0.00001
-                collides: false
-                hittable: false
                 damage: 0
                 pierce: true 
                 pierceBuilding: true
-                intervalBullets: 4
-                bulletInterval: 1
+                intervalBullets: 2
+                bulletInterval: 3
+                intervalDelay: -1
                 intervalRandomSpread: 360
                 intervalBullet: {
                   type: LaserBulletType
