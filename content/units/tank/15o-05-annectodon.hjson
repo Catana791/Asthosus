@@ -112,6 +112,35 @@ weapons: [
           fragLifeMax: 1
           fragLifeMin: 1
           fragBullet: {
+            spawnBullets: [
+              {
+                type: BasicBulletType
+                speed: 24
+                lifetime: 10
+                width: 0.000001
+                height: 0.00001
+                collides: false
+                hittable: false
+                damage: 0
+                pierce: true 
+                pierceBuilding: true
+                intervalBullets: 4
+                bulletInterval: 1
+                intervalRandomSpread: 360
+                intervalBullet: {
+                  type: LaserBulletType
+                  laserAbsorb: false
+                  length: 60
+                  width: 3
+                  sideAngle: 45
+                  sideLength: 20
+                  sideWidth: 0.5
+                  colors: [baa164, edc66c, ffffff]
+                  damage: 50
+                  lifetime: 300
+                }
+              }
+            ]
             type: LaserBulletType
             laserAbsorb: false
             length: 240
@@ -122,22 +151,6 @@ weapons: [
             colors: [baa164, edc66c, ffffff]
             damage: 100
             lifetime: 300
-            intervalBullets: 4
-            bulletInterval: 1
-            intervalRandomSpread: 360
-            intervalDelay: 0
-            intervalBullet: {
-              type: LaserBulletType
-              laserAbsorb: false
-              length: 60
-              width: 3
-              sideAngle: 45
-              sideLength: 20
-              sideWidth: 0.5
-              colors: [baa164, edc66c, ffffff]
-              damage: 50
-              lifetime: 300
-            }
           }
         }
       ]
