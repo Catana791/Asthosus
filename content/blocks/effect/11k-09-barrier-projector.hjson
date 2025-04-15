@@ -1,6 +1,6 @@
 type: ForceProjector
 name: Barrier Projector
-description: When supplied with power, creates a hexagonal shield to protect allied structures and units from damage. May optionally be boosted using Vesmonium.
+description: When supplied with power, creates a square shield to protect allied structures and units from damage. May optionally be boosted using Vesmonium.
 size: 3
 squareSprite: false
 shieldHealth: 700
