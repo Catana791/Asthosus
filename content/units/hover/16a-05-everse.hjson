@@ -16,6 +16,7 @@ groundLayer: 60
 health: 16790
 armor: 8
 hitSize: 30
+canDrown: false
 researchCostMultiplier: 2.5
 research: {
   parent: 16a-04-tequant

@@ -16,6 +16,7 @@ groundLayer: 60
 health: 870
 armor: 4
 hitSize: 14
+canDrown: false
 research: {
   parent: 16a-02-teraze
   objectives: [

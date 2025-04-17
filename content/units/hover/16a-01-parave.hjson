@@ -16,6 +16,7 @@ groundLayer: 60
 health: 210
 armor: 1
 hitSize: 6
+canDrown: false
 researchCostMultiplier: 1.5
 research: {
   parent: 10j-03-hover-mounting-bay

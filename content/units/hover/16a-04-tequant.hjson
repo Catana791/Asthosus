@@ -18,6 +18,7 @@ aimDst: 160
 health: 8910
 armor: 6
 hitSize: 19
+canDrown: false
 research: {
   parent: 16a-03-decredence
   objectives: [
