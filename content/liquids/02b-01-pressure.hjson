@@ -16,7 +16,7 @@ research: {
   objectives: [
     {
       type: Produce
-      content: 02b-01-pressure
+      content: asthosus-02b-01-pressure
     }
   ]
 }
