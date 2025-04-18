@@ -15,4 +15,13 @@ heatCapacity: 0
 explosiveness: 1.25
 gasColor: dad2cae6
 viscosity: 0.7
-research: 01a-11-item-barite
+research: {
+  parent: 01a-11-item-barite
+  objectives: [
+    06f-05-lodestone-pump
+    {
+      type: OnSector
+      preset: 19s-07-detriment-valley
+    }
+  ]
+}
