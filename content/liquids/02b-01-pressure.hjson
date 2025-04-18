@@ -15,8 +15,8 @@ research: {
   parent: 01a-06-item-lodestone
   objectives: [
     {
-      type: Produce
-      content: asthosus-02b-01-pressure
+      type: Research
+      content: 02b-01-pressure
     }
   ]
 }
