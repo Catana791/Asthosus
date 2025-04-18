@@ -9,7 +9,7 @@ research: {
   objectives: [
     {
       type: Produce
-      content: 02b-01-q-liquid-silicon-tetrafluoride
+      content: asthosus-02b-01-q-liquid-silicon-tetrafluoride
     }
   ]
 }
