@@ -5,3 +5,9 @@ temperature: 0.25
 heatCapacity: 0.9
 color: 4f9d97
 research: 02b-02-liquid-oasis-water
+research: {
+  parent: 02b-02-liquid-oasis-water
+  objectives: [
+    09i-11-nontragen-synthesizer
+  ]
+}
