@@ -1,5 +1,5 @@
 name: Nontragen
-description: An explosive gas made from pressurizing Oasis Water and Powderized Obsidian. Used as advanced coolant and in advanced production.
+description: A gas made from pressurizing Oasis Water and Powderized Obsidian. Used as advanced coolant and in advanced production.
 gas: true
 temperature: 0.25
 heatCapacity: 0.9
