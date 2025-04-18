@@ -7,9 +7,6 @@ color: e2cf7a
 research: {
   parent: 02b-01-pressure
   objectives: [
-    {
-      type: Produce
-      content: asthosus-02b-01-q-liquid-silicon-tetrafluoride
-    }
+    04d-09-geothermal-accumulator
   ]
 }
