@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-06-item-tablet-lodestone
+  objectives: [
+    02b-04-liquid-liquid-barite
+  ]
+}

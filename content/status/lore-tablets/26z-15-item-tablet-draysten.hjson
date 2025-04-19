@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-14-item-tablet-vesmonium
+  objectives: [
+    01a-15-item-draysten
+  ]
+}

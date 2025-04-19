@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-13-item-tablet-crosium
+  objectives: [
+    01a-14-item-barite-webbing
+  ]
+}
