@@ -1,6 +1,6 @@
 research: {
   parent: 26z-10-item-tablet-obsidian
   objectives: [
-    01a-11-item-irradiated-lump
+    01a-10-item-irradiated-lump
   ]
 }
