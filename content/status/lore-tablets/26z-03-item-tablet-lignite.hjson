@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-02-item-tablet-demetite
+  objectives: [
+    01a-03-item-lignite
+  ]
+}
