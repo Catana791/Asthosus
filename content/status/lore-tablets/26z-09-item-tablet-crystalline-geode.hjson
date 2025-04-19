@@ -1,6 +1,6 @@
 research: {
   parent: 26z-08-item-tablet-cretite
   objectives: [
-    01a-09-item-crystalline-geode
+    01a-08-item-crystalline-geode
   ]
 }
