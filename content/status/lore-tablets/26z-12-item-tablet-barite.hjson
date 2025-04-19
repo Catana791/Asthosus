@@ -1,6 +1,6 @@
 research: {
   parent: 26z-11-item-tablet-irradiated-lump
   objectives: [
-    01a-12-item-barite
+    01a-11-item-barite
   ]
 }
