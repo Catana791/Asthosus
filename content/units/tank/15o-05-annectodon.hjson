@@ -13,7 +13,12 @@ speed: 0.59
 rotateSpeed: 1.92
 itemCapacity: 0
 outlineColor: 44413c
-research: 15o-04-aphelops
+research: {
+  parent: 15o-04-aphelops
+  objectives: [ 
+    10j-07-cumulative-assembler-constituent
+  ]
+}
 treadRects: [
   {
     x: -74
@@ -39,7 +44,7 @@ weapons: [
     name: annectodon-weapon
     x: 0
     y: 0
-    reload: 290
+    reload: 410
     rotate: true
     mirror: false
     rotateSpeed: 1.5
@@ -94,13 +99,74 @@ weapons: [
           type: LaserBulletType
           laserAbsorb: false
           length: 240
-          width: 16
+          width: 24
           sideAngle: 45
           sideLength: 50
           sideWidth: 1.5
           colors: [baa164, edc66c, ffffff]
           damage: 125
-          lifetime: 126
+          lifetime: 150
+          fragRandomSpread: 0
+          fragVelocityMax: 1
+          fragVelocityMin: 1
+          fragLifeMax: 1
+          fragLifeMin: 1
+          fragOnHit: false
+          fragBullet: {
+            type: ExplosionBulletType
+            hitEffect: flakExplosion
+            despawnEffect: scatheExplosion
+            hitSound: largeCannon
+            despawnSound: largeCannon
+            splashDamageRadius: 32
+            splashDamage: 120
+            killShooter: false
+            hitShake: 12
+            despawnShake: 12
+            despawnHit: true
+            lifetime: 60
+            fragBullets: 1
+            fragLifeMin: 1
+            fragLifeMax: 1
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragRandomSpread: 0
+            fragBullet: {
+              type: BasicBulletType
+              frontColor: ffffff
+              backColor: baa164
+              trailColor: baa164
+              speed: 6
+              lifetime: 40
+              damage: 32
+              splashDamage: 96
+              splashDamageRadius: 48
+              pierce: true
+              pierceBuilding: true
+              pierceCap: 2
+              width: 24
+              height: 64
+              trailLength: 24
+              trailWidth: 8
+              fragBullets: 1
+              fragRandomSpread: 0
+              fragOnHit: true
+              fragOnAbsorb: true
+              fragBullet: {
+                type: ExplosionBulletType
+                splashDamage: 128
+                splashDamageRadius: 96
+                killShooter: false
+                hitShake: 24
+                despawnShake: 24
+                hitSound: largeExplosion
+                despawnSound: largeExplosion
+                hitEffect: flakExplosion
+                despawnEffect: titanExplosion
+                buildingDamageMultiplier: 0.25
+              }
+            }
+          }
         }
       ]
       type: BasicBulletType

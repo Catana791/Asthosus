@@ -96,8 +96,13 @@ weapons: [
         healPercent: 1
         collidesTeam: true
       }
+    }
   }
-}
+]
+research: {
+  parent: 16p-01-luminary
+  objectives: [
+    10j-04-basic-assembler-constituent
   ]
-research: 16p-01-luminary
+}
 researchCostMultiplier: 0.9

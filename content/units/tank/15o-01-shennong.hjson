@@ -60,6 +60,10 @@ weapons: [
       hitSound: spark
     }
   }
-]
-research: 10j-01-tank-mounting-bay
+]research: {
+  parent: 10j-01-tank-mounting-bay
+  objectives: [ 
+    10j-01-tank-mounting-bay
+  ]
+}
 researchCostMultiplier: 1.5

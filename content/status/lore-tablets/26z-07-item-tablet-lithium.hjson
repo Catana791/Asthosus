@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-06-item-tablet-lodestone
+  objectives: [
+    01a-07-item-lithium
+  ]
+}

@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-07-item-tablet-lithium
+  objectives: [
+    01a-08-item-cretite
+  ]
+}

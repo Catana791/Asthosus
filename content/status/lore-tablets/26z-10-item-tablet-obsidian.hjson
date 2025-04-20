@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-09-item-tablet-crystalline-geode
+  objectives: [
+    01a-09-item-obsidian
+  ]
+}

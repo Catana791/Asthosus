@@ -22,9 +22,9 @@ shootType: {
   length: 176
   lightning: 3
   lightningLength: 6
-  lightningDamage: 8
+  lightningDamage: 7
   lightningCone: 90
-  damage: 63
+  damage: 55
   buildingDamageMultiplier: 0.5
   chargeEffect: lightningCharge
 }
@@ -39,7 +39,7 @@ requirements: [
 ]
 targetAir: false
 consumes: {
-  power: 3
+  power: 4
 }
 drawer: {
   type: DrawTurret

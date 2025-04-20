@@ -5,4 +5,9 @@ heatCapacity: 0.5
 color: 8ccced
 gasColor: c1e8f5
 effect: asthosus-13m-01-status-rejuvenated
-research: 02b-02-liquid-oasis-water
+research: {
+  parent: 02b-02-liquid-oasis-water
+  objectives: [
+    06f-07-oasis-water-sieve
+  ]
+}

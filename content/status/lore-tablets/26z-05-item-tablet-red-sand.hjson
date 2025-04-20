@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-04-item-tablet-hardened-sand
+  objectives: [
+    01a-05-item-red-sand
+  ]
+}

@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-01-item-tablet-ferrinite
+  objectives: [
+    01a-02-item-demetite
+  ]
+}

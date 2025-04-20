@@ -21,7 +21,6 @@ abilities: [
     spawnY: 0
   }
 ]
-research: 16p-04-elucidate
 legCount: 8
 legMoveSpace: 0.8
 legPairOffset: 3
@@ -213,3 +212,9 @@ weapons: [
   }
 ]
 researchCostMultiplier: 2.5
+research: {
+  parent: 16p-04-elucidate
+  objectives: [
+    10j-07-cumulative-assembler-constituent
+  ]
+}

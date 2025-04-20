@@ -76,4 +76,9 @@ abilities: [
     }
 ]
 researchCostMultiplier: 1.5
-research: 10j-00-ground-mounting-bay
+research: {
+  parent: 10j-00-ground-mounting-bay
+  objectives: [
+    10j-00-ground-mounting-bay
+  ]
+}

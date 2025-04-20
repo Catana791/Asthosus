@@ -193,5 +193,10 @@ weapons: [
     }
   }
 ]
-research: 14n-03-cleaver
+research: {
+  parent: 14n-03-cleaver
+  objectives: [ 
+    10j-06-progressive-assembler-constituent
+  ]
+}
 researchCostMultiplier: 2.25

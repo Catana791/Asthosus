@@ -19,7 +19,12 @@ speed: 1.15
 rotateSpeed: 4.5
 itemCapacity: 0
 outlineColor: 44413c
-research: 15o-01-shennong
+research: {
+  parent: 15o-01-shennong
+  objectives: [ 
+    10j-04-basic-assembler-constituent
+  ]
+}
 weapons: [
   {
     x: 0

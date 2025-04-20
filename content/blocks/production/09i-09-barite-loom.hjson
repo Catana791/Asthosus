@@ -37,20 +37,12 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-01-pressure
-      alpha: 0.1
-      padding: 2.5
+      alpha: 0.6
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-01-pressure
-      alpha: 0.15
-      padding: 2.5
-    }
-    {
-      type: DrawFrames
-      frames: 11
-      sine: false
-      interval: 6
+      drawLiquid: 02b-04-liquid-liquid-barite
+      alpha: 0.75
     }
     {
       type: DrawWeave

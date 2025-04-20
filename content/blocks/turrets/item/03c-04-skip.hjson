@@ -83,6 +83,7 @@ ammoTypes: {
       fragRandomSpread: 0
       fragAngle: 0
       fragBullets: 1
+      buildingDamageMultiplier: 0.75
       fragBullet: {
         //hitSound: dull-impact
         frontColor: b1b1b1
@@ -99,6 +100,7 @@ ammoTypes: {
         fragBullets: 3
         fragVelocityMin: 0.8
         fragLifeMin: 0.8
+        buildingDamageMultiplier: 0.5
         fragBullet: {
           frontColor: b1b1b1
           backColor: 757575
@@ -113,6 +115,7 @@ ammoTypes: {
           pierceCap: 1
           width: 7
           height: 12
+          buildingDamageMultiplier: 0.25
         }
       }
     }
@@ -153,6 +156,7 @@ ammoTypes: {
       fragRandomSpread: 0
       fragAngle: 0
       fragBullets: 1
+      buildingDamageMultiplier: 0.75
       fragBullet: {
         //hitSound: dull-impact
         frontColor: e0d2a0
@@ -169,6 +173,7 @@ ammoTypes: {
         fragBullets: 3
         fragVelocityMin: 0.8
         fragLifeMin: 0.8
+        buildingDamageMultiplier: 0.5
         fragBullet: {
           frontColor: e0d2a0
           backColor: 9a916e
@@ -183,6 +188,7 @@ ammoTypes: {
           pierceCap: 1
           width: 7
           height: 12
+          buildingDamageMultiplier: 0.25
         }
       }
     }
@@ -223,6 +229,7 @@ ammoTypes: {
       fragRandomSpread: 0
       fragAngle: 0
       fragBullets: 1
+      buildingDamageMultiplier: 0.75
       fragBullet: {
         //hitSound: dull-impact
         frontColor: 80799e
@@ -239,6 +246,7 @@ ammoTypes: {
         fragBullets: 3
         fragVelocityMin: 0.8
         fragLifeMin: 0.8
+        buildingDamageMultiplier: 0.5
         fragBullet: {
           frontColor: 80799e
           backColor: 4e4a64
@@ -253,6 +261,7 @@ ammoTypes: {
           pierceCap: 1
           width: 7
           height: 12
+          buildingDamageMultiplier: 0.25
         }
       }
     }
@@ -293,6 +302,7 @@ ammoTypes: {
       fragRandomSpread: 0
       fragAngle: 0
       fragBullets: 1
+      buildingDamageMultiplier: 0.75
       fragBullet: {
         //hitSound: dull-impact
         frontColor: e6aca3
@@ -309,6 +319,7 @@ ammoTypes: {
         fragBullets: 3
         fragVelocityMin: 0.8
         fragLifeMin: 0.8
+        buildingDamageMultiplier: 0.5
         fragBullet: {
           frontColor: e6aca3
           backColor: b98279
@@ -323,6 +334,7 @@ ammoTypes: {
           pierceCap: 1
           width: 7
           height: 12
+          buildingDamageMultiplier: 0.25
         }
       }
     }
@@ -364,6 +376,7 @@ ammoTypes: {
       fragRandomSpread: 0
       fragAngle: 0
       fragBullets: 1
+      buildingDamageMultiplier: 0.75
       fragBullet: {
         //hitSound: dull-impact
         frontColor: b1b1b1
@@ -380,6 +393,7 @@ ammoTypes: {
         fragBullets: 3
         fragVelocityMin: 0.8
         fragLifeMin: 0.8
+        buildingDamageMultiplier: 0.5
         fragBullet: {
           frontColor: b1b1b1
           backColor: 757575
@@ -394,6 +408,7 @@ ammoTypes: {
           pierceCap: 1
           width: 7
           height: 12
+          buildingDamageMultiplier: 0.25
         }
       }
     }

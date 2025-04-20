@@ -4,4 +4,9 @@ gas: true
 heatCapacity: 0.3
 explosiveness: 0.25
 color: e2cf7a
-research: 02b-01-pressure
+research: {
+  parent: 02b-01-pressure
+  objectives: [
+    04d-09-geothermal-accumulator
+  ]
+}

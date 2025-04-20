@@ -54,5 +54,10 @@ mechLegColor: 44413c
         }
     }
 ]
-research: 14n-01-shiv
+research: {
+  parent: 14n-01-shiv
+  objectives: [
+    10j-04-basic-assembler-constituent
+  ]
+}
 researchCostMultiplier: 3

@@ -34,7 +34,7 @@ requirements: [
   01a-06-item-lodestone/90
   01a-07-item-lithium/55
 ]
-itemDuration: 60
+itemDuration: 90
 consumes: {
   itemCharged: {
     minCharge: 0.1

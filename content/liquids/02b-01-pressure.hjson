@@ -11,4 +11,9 @@ gasColor: ffffff00
 barColor: ffffff33
 incinerable: false
 lightColor: ffffff00
-research: 01a-06-item-lodestone
+research: {
+  parent: 01a-06-item-lodestone
+  objectives: [ 
+    07g-08-pressure-turbine
+  ]
+}

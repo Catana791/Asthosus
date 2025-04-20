@@ -96,5 +96,10 @@ weapons: [
     }
   }
 ]
-research: 16p-02-enlighten
+research: {
+  parent: 16p-02-enlighten
+  objectives: [
+    10j-05-advanced-assembler-constituent
+  ]
+}
 researchCostMultiplier: 0.75

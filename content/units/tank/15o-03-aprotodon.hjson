@@ -21,7 +21,12 @@ speed: 1
 rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 44413c
-research: 15o-02-trigon
+research: {
+  parent: 15o-02-trigon
+  objectives: [ 
+    10j-05-advanced-assembler-constituent
+  ]
+}
 weapons: [
   {
     x: 0

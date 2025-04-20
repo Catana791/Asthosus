@@ -272,5 +272,10 @@ lifetime: 1
      }
   }
 ]
-research: 14n-04-apex
+research: {
+  parent: 14n-04-apex
+  objectives: [ 
+    10j-07-cumulative-assembler-constituent
+  ]
+}
 researchCostMultiplier: 2.5

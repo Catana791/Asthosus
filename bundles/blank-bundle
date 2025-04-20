@@ -642,6 +642,94 @@ status.asthosus-25y-11-memorial-recording-11.description =
 status.asthosus-25y-11-memorial-recording-11.details =
 
 
+#Lore Tablets
+
+status.asthosus-26z-01-item-tablet-ferrinite.name = 
+status.asthosus-26z-01-item-tablet-ferrinite.description = 
+status.asthosus-26z-01-item-tablet-ferrinite.details = 
+
+status.asthosus-26z-02-item-tablet-demetite.name = 
+status.asthosus-26z-02-item-tablet-demetite.description = 
+status.asthosus-26z-02-item-tablet-demetite.details = 
+
+status.asthosus-26z-03-item-tablet-lignite.name = 
+status.asthosus-26z-03-item-tablet-lignite.description = 
+status.asthosus-26z-03-item-tablet-lignite.details = 
+
+status.asthosus-26z-04-item-tablet-hardened-sand.name = 
+status.asthosus-26z-04-item-tablet-hardened-sand.description = 
+status.asthosus-26z-04-item-tablet-lignhardened-sandite.details = 
+
+status.asthosus-26z-05-item-tablet-red-sand.name = 
+status.asthosus-26z-05-item-tablet-red-sand.description = 
+status.asthosus-26z-05-item-tablet-red-sand.details = 
+
+status.asthosus-26z-06-item-tablet-lodestone.name = 
+status.asthosus-26z-06-item-tablet-lodestone.description = 
+status.asthosus-26z-06-item-tablet-lodestone.details = 
+
+status.asthosus-26z-07-item-tablet-lithium.name = 
+status.asthosus-26z-07-item-tablet-lithium.description = 
+status.asthosus-26z-07-item-tablet-lithium.details = 
+
+status.asthosus-26z-08-item-tablet-cretite.name = 
+status.asthosus-26z-08-item-tablet-cretite.description = 
+status.asthosus-26z-08-item-tablet-cretite.details = 
+
+status.asthosus-26z-09-item-tablet-crystalline-geode.name = 
+status.asthosus-26z-09-item-tablet-crystalline-geode.description = 
+status.asthosus-26z-09-item-tablet-crystalline-geode.details = 
+
+status.asthosus-26z-10-item-tablet-obsidian.name = 
+status.asthosus-26z-10-item-tablet-obsidian.description = 
+status.asthosus-26z-10-item-tablet-obsidian.details = 
+
+status.asthosus-26z-11-item-tablet-irradiated-lump.name = 
+status.asthosus-26z-11-item-tablet-irradiated-lump.description = 
+status.asthosus-26z-11-item-tablet-irradiated-lump.details = 
+
+status.asthosus-26z-12-item-tablet-barite.name = 
+status.asthosus-26z-12-item-tablet-barite.description = 
+status.asthosus-26z-12-item-tablet-barite.details = 
+
+status.asthosus-26z-13-item-tablet-crosium.name = 
+status.asthosus-26z-13-item-tablet-crosium.description = 
+status.asthosus-26z-13-item-tablet-crosium.details =
+
+status.asthosus-26z-14-item-tablet-vesmonium.name = 
+status.asthosus-26z-14-item-tablet-vesmonium.description = 
+status.asthosus-26z-14-item-tablet-vesmonium.details = 
+
+status.asthosus-26z-15-item-tablet-draysten.name = 
+status.asthosus-26z-15-item-tablet-draysten.description = 
+status.asthosus-26z-15-item-tablet-draysten.details = 
+
+status.asthosus-26z-16-liquid-tablet-pressure.name = 
+status.asthosus-26z-16-liquid-tablet-pressure.description = 
+status.asthosus-26z-16-liquid-tablet-pressure.details = 
+
+status.asthosus-26z-17-liquid-tablet-sif4.name = 
+status.asthosus-26z-17-liquid-tablet-sif4.description = 
+status.asthosus-26z-17-liquid-tablet-sif4.details = 
+
+status.asthosus-26z-18-liquid-tablet-oasis-water.name = 
+status.asthosus-26z-18-liquid-tablet-oasis-water.description = 
+status.asthosus-26z-18-liquid-tablet-oasis-water.details = 
+
+status.asthosus-26z-19-liquid-tablet-purified-water.name = 
+status.asthosus-26z-19-liquid-tablet-purified-water.description = 
+status.asthosus-26z-19-liquid-tablet-purified-water.details = 
+
+status.asthosus-26z-20-liquid-tablet-liquid-barite.name = 
+status.asthosus-26z-20-liquid-tablet-liquid-barite.description = 
+status.asthosus-26z-20-liquid-tablet-liquid-barite.details = 
+
+status.asthosus-26z-21-liquid-tablet-nontragen.name = 
+status.asthosus-26z-21-liquid-tablet-nontragen.description = 
+status.asthosus-26z-21-liquid-tablet-nontragen.details = 
+
+
+
 #Units - Mechs
 
 unit.asthosus-14n-01-shiv.name =
