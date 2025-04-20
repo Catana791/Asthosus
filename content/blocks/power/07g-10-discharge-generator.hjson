@@ -34,7 +34,7 @@ requirements: [
   01a-06-item-lodestone/90
   01a-07-item-lithium/55
 ]
-itemDuration: 60
+itemDuration: 90
 consumes: {
   itemCharged: {
     minCharge: 0.1
@@ -43,6 +43,6 @@ consumes: {
 warmupSpeed: 0.003
 outputLiquid: 02b-01-pressure/0.01
 liquidCapacity: 
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.02
 liquidCapacity: 3
 explodeOnFull: true

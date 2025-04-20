@@ -88,22 +88,66 @@ weapons: [
     }
     bullet: {
       type: MissileBulletType
-      frontColor: b7a9e9
-      backColor: 4e4277
-      trailColor: 4e4277
-      width: 10
-      height: 18
-      trailLength: 18
-      trailWidth: 4
-      trailEffect: shootSmokeSquareSparse
-      trailChance: -1
+      homingPower: 0.95
+      homingDelay: 0
+      homingRange: 270
+      speed: 3
+      lifetime: 90
+      weaveScale: 3
+      weaveMag: 3
+      width: 4
+      height: 16
+      trailLength: 9
+      trailWidth: 1
+      frontColor: 9587cc
+      backColor: 61568a
+      trailColor: 61568a
+      pierce: false
+      damage: 7
+      hitEffect: none
+      despawnEffect: none
       pierce: true
-      pierceCap: 2
       pierceBuilding: true
-      pierceDamageFactor: 2
-      damage: 30
-      lifetime: 30
-      speed: 4
+
+      fragBullets: 5
+      fragOnHit: true
+      fragOnAbsorb: true
+      fragRandomSpread: 360
+      fragLifeMin: 0.7
+      fragVelocityMin: 0.7
+      fragBullet: {
+        type: MissileBulletType
+        homingPower: 0.05
+        speed: 1
+        lifetime: 90
+        weaveScale: 3
+        weaveMag: 3
+        width: 3
+        height: 6
+        trailLength: 4
+        trailWidth: 1
+        frontColor: 9587cc
+        backColor: 61568a
+        trailColor: 61568a
+        pierce: false
+        damage: 6
+        hitEffect: none
+        despawnEffect: none
+
+        fragBullets: 1
+        fragBullet: {
+          type: ExplosionBulletType
+          killShooter: false
+          splashDamage: 5
+          splashDamageRadius: 16
+          splashDamagePierce: true
+          hitSound: dullExplosion
+          despawnSound: dullExplosion
+          incendChance: 0.8
+          incendAmount: 6
+          incendSpread: 8
+        }
+      }
     }  
   }
 ]

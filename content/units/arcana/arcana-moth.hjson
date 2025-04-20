@@ -39,8 +39,8 @@ weapons: [
       sprite: large-bomb
       shootEffect: none
       smokeEffect: none
-      width: 20
-      height: 20
+      width: 40
+      height: 40
       maxRange: 30
       backColor: 61568a
       frontColor: 9587cc
@@ -58,6 +58,47 @@ weapons: [
       status: asthosus-13m-03-status-infested
       statusDuration: 120
       keepVelocity: false
+
+      fragBullets: 5
+      fragOnHit: true
+      fragOnAbsorb: true
+      fragRandomSpread: 360
+      fragLifeMin: 0.7
+      fragVelocityMin: 0.7
+      fragBullet: {
+        type: MissileBulletType
+        homingPower: 0.05
+        speed: 1
+        lifetime: 90
+        weaveScale: 3
+        weaveMag: 3
+        width: 3
+        height: 6
+        trailLength: 4
+        trailWidth: 1
+        frontColor: 9587cc
+        backColor: 61568a
+        trailColor: 61568a
+        pierce: false
+        damage: 16
+        hitEffect: none
+        despawnEffect: none
+
+        fragBullets: 1
+        fragBullet: {
+          type: ExplosionBulletType
+          killShooter: false
+          splashDamage: 20
+          splashDamageRadius: 16
+          splashDamagePierce: true
+          hitSound: dullExplosion
+          despawnSound: dullExplosion
+          incendChance: 0.8
+          incendAmount: 6
+          incendSpread: 8
+        }
+      }
+
       despawnEffect: {
         type: MultiEffect
         effects: [

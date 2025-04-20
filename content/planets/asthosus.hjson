@@ -142,6 +142,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
+orbitRadius: 25
 sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
@@ -150,7 +151,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
 radius: 1.2
-minZoom: 1.5
+minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3

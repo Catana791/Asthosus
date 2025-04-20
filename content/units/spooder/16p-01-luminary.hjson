@@ -53,4 +53,9 @@ weapons: [
     }
   }
 ]
-research: 10j-02-support-mounting-bay
+research: {
+  parent: 10j-02-support-mounting-bay
+  objectives: [
+    10j-02-support-mounting-bay
+  ]
+}

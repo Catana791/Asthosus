@@ -30,7 +30,7 @@
 
 - Over 180 pieces of unique and fresh content, including blocks, units, items and more!
 - 11 non-optional campaign sectors. Capture this planet for yourself!
-- 17 optional sectors, providing more playtime and new challenges.
+- 21 optional sectors, providing more playtime and new challenges.
 - 4 full-fledged unit trees all complete with unique units.
 <br>
 <br>
@@ -65,11 +65,14 @@ Asthosus is available in multiple languages!
 <br>
 <br>
 
+<div align = center>
+
 ## Music
 </div>
 
 This mod comes with it's own original music, <br>
-custom-made for Asthosus!
+custom-made for Asthosus! <br>
+Music by @ThePythonGuy3
 <br>
 <br>
 
@@ -82,14 +85,18 @@ Making a mod like this would not be possible without help.
 <br> <br>
 Check the Contributors in the Discord server <br> if you wish to know more.
 
+<div align = center>
+  
+![Banner]
+
 <!----------------------------------[ Badges ]--------------------------------->
 
 [Badge Discord]: https://img.shields.io/discord/1119997279651233822?style=for-the-badge&label=Discord%20Server
 [Badge Commit]: https://img.shields.io/github/last-commit/Catana791/asthosus?style=for-the-badge&label=Last%20Commit
 [Badge Issues]: https://img.shields.io/github/issues/Catana791/asthosus?style=for-the-badge
 <!----------------------------------[ Links ]--------------------------------->
-[Asthosus OST Mod Repository]: https://github.com/Catana791/Asthosus-OST
 [Logo]: github/logo.png
+[Banner]: github/banner.jpg
 [Discord]: https://discord.gg/fde2vqaS6p
 [Commits]: https://github.com/Catana791/asthosus/commits/main
 [Issues]: https://github.com/Catana791/asthosus/issues

@@ -52,4 +52,4 @@ research: 10j-09-component-assembler
 squareSprite: false
 conductivePower: true
 maxBlockSize: 3
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.25

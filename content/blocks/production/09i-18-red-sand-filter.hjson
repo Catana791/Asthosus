@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Red Sand Filter
-description: Filters Red Sand using Oasis Water to create Sand as well as Ferrinite, Demetite and Lignite in small amounts. Also outputs Purified Oasis Water. Requires power and Pressure.
+description: Filters Red Sand using Oasis Water to create Sand as well as Ferrinite, Demetite and Lignite in small amounts. Also outputs Purified Oasis Water. Requires Pressure.
 size: 4
 craftTime: 120
 consumes: {

@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-08-item-tablet-cretite
+  objectives: [
+    01a-08-j-item-crystalline-geode
+  ]
+}

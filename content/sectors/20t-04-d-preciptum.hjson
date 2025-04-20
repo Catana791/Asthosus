@@ -1,0 +1,12 @@
+difficulty: 8
+planet: asthosus
+sector: 28
+research: {
+  parent: 19s-08-defringed-webbery
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-08-defringed-webbery
+    }
+  ]
+}

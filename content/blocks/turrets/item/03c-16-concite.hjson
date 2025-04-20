@@ -143,3 +143,4 @@ ammoTypes: {
   }
 }
 outlineColor: 42413e
+inaccuracy: 1

@@ -1,0 +1,6 @@
+research: {
+  parent: 26z-10-item-tablet-obsidian
+  objectives: [
+    02b-01-q-liquid-silicon-tetrafluoride
+  ]
+}

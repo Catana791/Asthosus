@@ -1,0 +1,13 @@
+difficulty: 9
+planet: asthosus
+sector: 27
+captureWave: 5
+research: {
+  parent: 19s-10-furnace-settlement
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-10-furnace-settlement
+    }
+  ]
+}

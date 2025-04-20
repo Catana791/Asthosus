@@ -1,28 +1,29 @@
 name: "asthosus"
 description: 
 ''' 
-  A mod that adds a new planet, Asthosus, into the game.
+A mod that adds a new planet, Asthosus, into the game.
   
-  Asthosus is a deserted planet. A wasteland filled with danger.
-  It has a fully playable campaign with 11 campaign and 17 optional maps. 
+Asthosus is a deserted planet. A wasteland filled with danger.
+It has a fully playable campaign with 11 campaign and 21 optional maps. 
 
-  Aside from these 28 maps, Asthosus contains over 180 pieces of unique content,
-  including blocks, liquids, items, units and status effects.
-  This number is not counting any internal units or environment blocks/tiles.
+Aside from these 32 maps, Asthosus contains over 180 pieces of unique content,
+including blocks, liquids, items, units and status effects.
+This number is not counting any internal units or environment blocks/tiles.
 
-  I aimed to re-use nearly no vanilla content and instead fill the mod 
-  with new and (hopefully) exciting things.
+I aimed to re-use nearly no vanilla content and instead fill the mod 
+with new and (hopefully) exciting things.
 
-  The mod comes with it's own custom music!
+The mod comes with it's own custom music, made by ThePythonGuy3!
 
-  If you find any issues or want to tell me anything else,
-  feel free to join the Asthosus Discord server. 
-  The same thing goes for when you need help with this mod.
+If you find any issues or want to tell me anything else,
+feel free to join the Asthosus Discord server. 
+The same thing goes for when you need help with this mod.
 
-  Enjoy!
+Enjoy!
 '''
-author: "Catana"
+author: "Catser"
 minGameVersion: 146
-version: "1.5.2"
+version: "1.6.2"
 displayName: "Asthosus"
-subtitle: "Now with 40% more sand!"
+subtitle: "Now with 68% more sand!"
+repo: "Catana791/Asthosus"

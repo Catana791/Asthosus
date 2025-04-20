@@ -21,7 +21,6 @@ consumes: {
 }
 liquidCapacity: 60
 explosionMinWarmup: 0.5
-exlosionRadius: 80
 explosionDamage: 2000
 ambientSound: flux
 ambientSoundVolume: 0.13

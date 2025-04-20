@@ -1,0 +1,91 @@
+type: flying
+name: RS
+hidden: false
+hittable: false
+drawBody: false  
+drawCell: false
+health: 1000000
+speed: 0
+physics: false
+weapons: [
+    {
+        shootOnDeath: true
+        reload: 1
+        alwaysShooting: true   
+        ignoreRotation: true
+        shootCone: 360
+        shootSound: huge-explosion
+        shake: 600
+        bullet: {
+            killShooter: true
+            type: BasicBulletType
+            splashDamageRadius: 11200
+            splashDamage: 30
+            splashDamagePierce: true
+            width: 0.000001
+            height: 0.000001
+            damage: 0
+            instantDisappear: true
+            collides: false
+            despawnEffect: {
+            type: MultiEffect
+                lifetime: 1920
+                effects: [
+                    {
+                        type: ExplosionEffect
+                        smokeColor: 959595
+                        smokeRad: 90
+                        smokes: 48
+                        smokeSize: 5
+                        smokeSizeBase: 3
+                        sparkColor: edc66c
+                        sparkLen: 12
+                        sparkRad: 64
+                        sparks: 64
+                        sparkStroke: 4
+                        waveColor: c2ba9c
+                        waveLife: 240
+                        waveRad: 110
+                        lifetime: 360
+                    }
+                    {
+                        type: WaveEffect
+                        sizeFrom: 0
+                        sizeTo: 60
+                        strokeFrom: 1
+                        strokeTo: 6
+                        interp: circleOut
+                        lifetime: 120
+                        colorFrom: c2ba9c
+                        colorTo: a69d7d
+                        startDelay: 60
+                    }
+                    {
+                        type: WaveEffect
+                        sizeFrom: 60
+                        sizeTo: 0
+                        strokeFrom: 6
+                        strokeTo: 1
+                        interp: circleOut
+                        startDelay: 118
+                        lifetime: 120
+                        colorFrom: c2ba9c
+                        colorTo: a69d7d
+                    }
+                    {
+                        type: WaveEffect
+                        sizeFrom: 0
+                        sizeTo: 6000
+                        strokeFrom: 6
+                        strokeTo: 64
+                        interp: exp5Out
+                        startDelay: 250
+                        lifetime: 6000
+                        colorFrom: c2ba9c
+                        colorTo: a69d7d
+                    }
+                ]
+            }
+        }
+    }
+]
