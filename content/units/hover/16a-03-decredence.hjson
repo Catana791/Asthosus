@@ -133,7 +133,7 @@ weapons: [
     bullet: {
       type: MissileBulletType
       speed: 3
-      lifetime: 66
+      lifetime: 70.7
       damage: 20
       splashDamage: 40
       splashDamageRadius: 16

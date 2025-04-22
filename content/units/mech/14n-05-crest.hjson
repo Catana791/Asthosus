@@ -1,7 +1,7 @@
 type: mech
 name: Crest
 description: "Fires cluster shock artillery at enemy targets. Equipped with dual cannons."
-speed: 0.21
+speed: 0.2666666666667
 flying: false
 health: 24880
 armor: 16

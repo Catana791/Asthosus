@@ -1,9 +1,10 @@
 type: mech
 name: Shiv
 description: Fires electric energy blades at nearby targets. Able to dash a short distance every so often. Strong in numbers, weak in few.
-speed: 0.5
+speed: 0.5333333333
 flying: false
 health: 210
+armor: 2
 hitSize: 10
 outlineColor: 44413c
 mechLegColor: 44413c

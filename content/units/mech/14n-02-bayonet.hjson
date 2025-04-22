@@ -4,7 +4,7 @@ description: Launches frag artillery at nearby targets. Equipped with a missile 
 speed: 0.5
 flying: false
 health: 710
-armor: 4
+armor: 5
 hitSize: 11
 outlineColor: 44413c
 mechLegColor: 44413c
