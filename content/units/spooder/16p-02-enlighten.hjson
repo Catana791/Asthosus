@@ -44,7 +44,7 @@ weapons: [
       type: LaserBulletType
       colors: [85c278, 9be98b, ffffff]
       width: 2
-      length: 100
+      length: 128
       damage: 17
       healPercent: 1
       collidesTeam: true
