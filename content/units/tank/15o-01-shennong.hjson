@@ -6,10 +6,10 @@ treadPullOffset: 3
 omniMovement: false
 faceTarget: false
 outlineColor: 44413c
-speed: 1.5
+speed: 1.2
 rotateSpeed: 6
 health: 280
-armor: 2
+armor: 1
 itemCapacity: 0
 hitSize: 13
 treadRects: [
