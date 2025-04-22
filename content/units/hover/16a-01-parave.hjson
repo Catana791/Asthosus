@@ -51,7 +51,7 @@ weapons: [
     y: 1
     mirror: true
     alternate: true
-    reload: 30
+    reload: 48
     rotate: false
     shootSound: missile
     shoot: {
