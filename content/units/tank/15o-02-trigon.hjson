@@ -14,8 +14,8 @@ singleTarget: false
 omniMovement: false
 faceTarget: false
 health: 710
-armor: 6
-speed: 1.15
+armor: 4
+speed: 1
 rotateSpeed: 4.5
 itemCapacity: 0
 outlineColor: 44413c
