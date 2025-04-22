@@ -27,6 +27,7 @@ shootType: {
   damage: 55
   buildingDamageMultiplier: 0.5
   chargeEffect: lightningCharge
+  pierceCap: 4
 }
 category: turret
 squareSprite: false
