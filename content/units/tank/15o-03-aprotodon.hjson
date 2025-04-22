@@ -10,14 +10,14 @@ treadRects: [
     height: 116
   }
 ]
-crushDamage: 3
+crushDamage: 1
 range: 160
 singleTarget: false
 omniMovement: false
 faceTarget: false
 health: 1230
-armor: 9
-speed: 1
+armor: 7
+speed: 0.8
 rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 44413c
