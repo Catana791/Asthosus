@@ -4,6 +4,7 @@ description: Fires electric energy blades at nearby targets. Able to dash a shor
 speed: 0.5333333333
 flying: false
 health: 210
+armor: 2
 hitSize: 10
 outlineColor: 44413c
 mechLegColor: 44413c
