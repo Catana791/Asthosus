@@ -76,8 +76,8 @@ ammoTypes: {
     damage: 10
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: b98279
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
@@ -113,8 +113,8 @@ ammoTypes: {
     damage: 14
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: d77751
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
@@ -146,8 +146,8 @@ ammoTypes: {
     damage: 19
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: bab4ae
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
@@ -179,8 +179,8 @@ ammoTypes: {
     damage: 22
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: a78b6f
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
