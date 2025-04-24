@@ -52,6 +52,9 @@ coolant: {
 }
 ammoTypes: {
   01a-06-item-lodestone: {
+    frontColor: ffffff
+    backColor: 4e4277
+    trailColor: 4e4277
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
@@ -88,6 +91,9 @@ ammoTypes: {
     }
   }
   01a-07-item-lithium: {
+    frontColor: ffffff
+    backColor: b98279
+    trailColor: b98279
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
@@ -124,6 +130,9 @@ ammoTypes: {
     }
   }
   01a-09-item-obsidian: {
+    frontColor: ffffff
+    backColor: 2e293a
+    trailColor: 2e293a
     reloadMultiplier: 0.66666666666666
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
