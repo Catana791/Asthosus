@@ -30,6 +30,9 @@ requirements: [
 ]
 ammoTypes: {
   01a-02-item-demetite: {
+    frontColor: ffffff
+    backColor: 9a916e
+    trailColor: 9a916e
     type: FlakBulletType
     width: 7
     height: 9
@@ -43,6 +46,9 @@ ammoTypes: {
     splashDamageRadius: 8
   }
   01a-06-item-lodestone: {
+    frontColor: ffffff
+    backColor: 4e4277
+    trailColor: 4e4277
     type: FlakBulletType
     width: 7
     height: 9

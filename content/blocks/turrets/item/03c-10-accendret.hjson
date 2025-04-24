@@ -62,8 +62,8 @@ ammoTypes: {
       length: 1.1
       sizeFrom: 4
       sizeTo: 0.4
-      colorFrom: dea67d
-      colorTo: be7766
+      colorFrom: e6aca3
+      colorTo: b98279
     }
     hitSound: dull-explosion
     homingPower: 0.04
@@ -76,17 +76,17 @@ ammoTypes: {
     damage: 10
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: b98279
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
-    trailColor: be7766
+    trailColor: b98279
     status: burning
     statusDuration: 240
     lightning: 2
     lightningLength: 5
-    lightningColor: be7766
+    lightningColor: b98279
     lightningDamage: 3
     ammoMultiplier: 2
   }
@@ -98,8 +98,8 @@ ammoTypes: {
       length: 1.1
       sizeFrom: 4
       sizeTo: 0.4
-      colorFrom: dea67d
-      colorTo: be7766
+      colorFrom: fca988
+      colorTo: d77751
     }
     ammoMultiplier: 4
     hitSound: dull-explosion
@@ -113,12 +113,12 @@ ammoTypes: {
     damage: 14
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: d77751
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
-    trailColor: be7766
+    trailColor: d77751
     status: melting
     statusDuration: 180
   }
@@ -130,8 +130,8 @@ ammoTypes: {
       length: 1.1
       sizeFrom: 4
       sizeTo: 0.4
-      colorFrom: dea67d
-      colorTo: be7766
+      colorFrom: f8efe6
+      colorTo: bab4ae
     }
     ammoMultiplier: 4
     hitSound: dull-explosion
@@ -146,12 +146,12 @@ ammoTypes: {
     damage: 19
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: bab4ae
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
-    trailColor: be7766
+    trailColor: bab4ae
     status: asthosus-13m-02-status-radiated
     statusDuration: 300
   }
@@ -163,8 +163,8 @@ ammoTypes: {
       length: 1.1
       sizeFrom: 4
       sizeTo: 0.4
-      colorFrom: dea67d
-      colorTo: be7766
+      colorFrom: dfb891
+      colorTo: a78b6f
     }
     ammoMultiplier: 8
     hitSound: dull-explosion
@@ -179,17 +179,17 @@ ammoTypes: {
     damage: 22
     pierce: true
     pierceCap: 3
-    frontColor: dea67d
-    backColor: be7766
+    frontColor: ffffff
+    backColor: a78b6f
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
-    trailColor: be7766
+    trailColor: a78b6f
     status: melting
     statusDuration: 360
     lightning: 3
     lightningLength: 6
-    lightningColor: be7766
+    lightningColor: a78b6f
     lightningDamage: 7
   }
 }

@@ -33,6 +33,9 @@ shoot: {
 }
 ammoTypes: {
   01a-01-item-ferrinite: {
+    frontColor: ffffff
+    backColor: 757575
+    trailColor: 757575
     type: ArtilleryBulletType
     width: 7
     height: 9
@@ -42,6 +45,9 @@ ammoTypes: {
     splashDamageRadius: 8
   }
   01a-02-item-demetite: {
+    frontColor: ffffff
+    backColor: 9a916e
+    trailColor: 9a916e
     type: ArtilleryBulletType
     width: 7
     height: 9
@@ -51,6 +57,9 @@ ammoTypes: {
     splashDamageRadius: 12
   }
   01a-07-item-lithium: {
+    frontColor: ffffff
+    backColor: b98279
+    trailColor: b98279
     type: ArtilleryBulletType
     width: 7
     height: 9

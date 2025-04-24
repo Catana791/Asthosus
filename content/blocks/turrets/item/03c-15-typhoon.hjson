@@ -56,6 +56,9 @@ requirements: [
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
+    frontColor: ffffff
+    backColor: 4e4277
+    trailColor: 4e4277
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -72,6 +75,9 @@ ammoTypes: {
     weaveMag: 4
   }
   01a-07-item-lithium: {
+    frontColor: ffffff
+    backColor: b98279
+    trailColor: b98279
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -89,6 +95,9 @@ ammoTypes: {
     weaveMag: 4
   }
   01a-09-item-obsidian: {
+    frontColor: ffffff
+    backColor: 2e293a
+    trailColor: 2e293a
     pierceArmor: true
     reloadMultiplier: 0.66666666666666
     weaveScale: 4
@@ -121,6 +130,9 @@ ammoTypes: {
     }
   }
   01a-12-item-crosium: {
+    frontColor: ffffff
+    backColor: 486f64
+    trailColor: 486f64
     pierceArmor: true
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
@@ -141,6 +153,9 @@ ammoTypes: {
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
     fragBullet: {
+      frontColor: ffffff
+      backColor: 486f64
+      trailColor: 486f64
       type: BasicBulletType
       pierceArmor: true
       speed: 2

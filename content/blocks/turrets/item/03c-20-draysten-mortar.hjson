@@ -57,6 +57,9 @@ range: 324
 ammoPerShot: 3
 ammoTypes: {
   01a-12-item-crosium: {
+    frontColor: ffffff
+    backColor: 486f64
+    trailColor: 486f64
     type: ArtilleryBulletType
     trailChance: -1
     trailWidth: 2.2
@@ -83,6 +86,9 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     fragBullet: {
+      frontColor: ffffff
+      backColor: 486f64
+      trailColor: 486f64
       type: ArtilleryBulletType
       speed: 2
       lifetime: 10
@@ -103,6 +109,9 @@ ammoTypes: {
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragBullet: {
+          frontColor: ffffff
+          backColor: 486f64
+          trailColor: 486f64
           type: ArtilleryBulletType
           speed: 2
           lifetime: 10
@@ -117,6 +126,9 @@ ammoTypes: {
             killShooter: false
             splashDamage: 49
             fragBullet: {
+              frontColor: ffffff
+              backColor: 486f64
+              trailColor: 486f64
               type: ArtilleryBulletType
               speed: 2
               lifetime: 10
@@ -144,6 +156,9 @@ ammoTypes: {
     }
   }
   01a-13-item-barite-webbing: {
+    frontColor: ffffff
+    backColor: a78b6f
+    trailColor: a78b6f
     ammoMultiplier: 2
     type: ArtilleryBulletType
     trailChance: -1
@@ -170,6 +185,9 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     fragBullet: {
+      frontColor: ffffff
+      backColor: a78b6f
+      trailColor: a78b6f
       type: ArtilleryBulletType
       speed: 2
       lifetime: 10
@@ -190,6 +208,9 @@ ammoTypes: {
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragBullet: {
+          frontColor: ffffff
+          backColor: a78b6f
+          trailColor: a78b6f
           type: ArtilleryBulletType
           speed: 2
           lifetime: 10
@@ -204,6 +225,9 @@ ammoTypes: {
             killShooter: false
             splashDamage: 77
             fragBullet: {
+              frontColor: ffffff
+              backColor: a78b6f
+              trailColor: a78b6f
               type: ArtilleryBulletType
               speed: 2
               lifetime: 10
@@ -231,6 +255,9 @@ ammoTypes: {
     }
   }
   01a-14-item-draysten: {
+    frontColor: ffffff 
+    backColor: 7e4a4a
+    trailColor: 7e4a4a
     ammoMultiplier: 3
     type: ArtilleryBulletType
     trailChance: -1
@@ -257,6 +284,9 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     fragBullet: {
+      frontColor: ffffff 
+      backColor: 7e4a4a
+      trailColor: 7e4a4a
       type: ArtilleryBulletType
       speed: 2
       lifetime: 10
@@ -277,6 +307,9 @@ ammoTypes: {
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragBullet: {
+          frontColor: ffffff 
+          backColor: 7e4a4a
+          trailColor: 7e4a4a
           type: ArtilleryBulletType
           speed: 2
           lifetime: 10
@@ -291,6 +324,9 @@ ammoTypes: {
             killShooter: false
             splashDamage: 91
             fragBullet: {
+              frontColor: ffffff 
+              backColor: 7e4a4a
+              trailColor: 7e4a4a
               type: ArtilleryBulletType
               speed: 2
               lifetime: 10
