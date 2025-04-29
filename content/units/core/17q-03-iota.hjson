@@ -29,7 +29,6 @@ mineTier: 1
 buildSpeed: 1.1
 drag: 0.4
 itemCapacity: 50
-alwaysUnlocked: true
 outlineColor: 42413e
 parts: [
     {
