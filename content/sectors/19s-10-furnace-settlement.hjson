@@ -11,5 +11,9 @@ research: {
       type: SectorComplete
       preset: 19s-09-synthesis-facility
     }
+    {
+      type: SectorComplete
+      preset: 19s-08-defringed-webbery
+    }
   ]
 }
