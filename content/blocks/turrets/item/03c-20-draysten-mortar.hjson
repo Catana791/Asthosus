@@ -53,7 +53,7 @@ drawer: {
 }
 shootEffect: surgeCruciSmoke
 smokeEffect: shootSmokeMissile
-range: 324
+range: 380
 ammoPerShot: 3
 ammoTypes: {
   01a-12-item-crosium: {
@@ -64,8 +64,8 @@ ammoTypes: {
     trailChance: -1
     trailWidth: 2.2
     trailLength: 18
-    speed: 2
-    lifetime: 162
+    speed: 4
+    lifetime: 95
     width: 12
     height: 20
     splashDamage: 504
@@ -164,11 +164,11 @@ ammoTypes: {
     trailChance: -1
     trailWidth: 2.2
     trailLength: 18
-    speed: 2
-    lifetime: 162
+    speed: 4
+    lifetime: 95
     width: 12
     height: 20
-    splashDamage: 532
+    splashDamage: 756
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -263,11 +263,11 @@ ammoTypes: {
     trailChance: -1
     trailWidth: 2.2
     trailLength: 18
-    speed: 2
-    lifetime: 162
+    speed: 4
+    lifetime: 95
     width: 12
     height: 20
-    splashDamage: 588
+    splashDamage: 945
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -299,7 +299,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 16
         killShooter: false
-        splashDamage: 98
+        splashDamage: 105
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -322,7 +322,7 @@ ammoTypes: {
             type: ExplosionBulletType
             splashDamageRadius: 16
             killShooter: false
-            splashDamage: 91
+            splashDamage: 98
             fragBullet: {
               frontColor: ffffff 
               backColor: 7e4a4a
@@ -345,7 +345,7 @@ ammoTypes: {
                 type: ExplosionBulletType
                 splashDamageRadius: 12
                 killShooter: false
-                splashDamage: 84
+                splashDamage: 91
               }
             }
           }
