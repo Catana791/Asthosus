@@ -29,6 +29,22 @@ requirements: [
   01a-01-item-ferrinite/50
 ]
 ammoTypes: {
+  01a-02-item-ferrinite: {
+    frontColor: ffffff
+    backColor: 757575
+    trailColor: 757575
+    type: FlakBulletType
+    width: 7
+    height: 9
+    speed: 4
+    lifetime: 30
+    collidesGround: true
+    collidesAir: false
+    ammoMultiplier: 5
+    damage: 8
+    splashDamage: 9
+    splashDamageRadius: 8
+  }
   01a-02-item-demetite: {
     frontColor: ffffff
     backColor: 9a916e
@@ -41,8 +57,8 @@ ammoTypes: {
     collidesGround: true
     collidesAir: false
     ammoMultiplier: 5
-    damage: 7
-    splashDamage: 6
+    damage: 9
+    splashDamage: 11
     splashDamageRadius: 8
   }
   01a-06-item-lodestone: {
@@ -57,8 +73,8 @@ ammoTypes: {
     ammoMultiplier: 6
     collidesGround: true
     collidesAir: false
-    damage: 10
-    splashDamage: 12
+    damage: 13
+    splashDamage: 16
     splashDamageRadius: 12
   }
 }
