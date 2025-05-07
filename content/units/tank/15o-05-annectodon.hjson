@@ -54,7 +54,7 @@ weapons: [
     }
     chargeSound: annectodon-charge
     shootStatus: unmoving
-    shootStatusDuration: 420
+    shootStatusDuration: 380
     bullet: {
       chargeEffect: {
         type: SeqEffect
