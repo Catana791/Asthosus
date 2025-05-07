@@ -53,6 +53,8 @@ weapons: [
       firstShotDelay: 170
     }
     chargeSound: annectodon-charge
+    shootStatus: unmoving
+    shootStatusDuration: 420
     bullet: {
       chargeEffect: {
         type: SeqEffect
@@ -143,7 +145,7 @@ weapons: [
               splashDamageRadius: 48
               pierce: true
               pierceBuilding: true
-              pierceCap: 2
+              pierceCap: 1
               width: 24
               height: 64
               trailLength: 24
@@ -154,8 +156,8 @@ weapons: [
               fragOnAbsorb: true
               fragBullet: {
                 type: ExplosionBulletType
-                splashDamage: 103
-                splashDamageRadius: 96
+                splashDamage: 70
+                splashDamageRadius: 64
                 killShooter: false
                 hitShake: 24
                 despawnShake: 24
@@ -163,7 +165,7 @@ weapons: [
                 despawnSound: largeExplosion
                 hitEffect: flakExplosion
                 despawnEffect: titanExplosion
-                buildingDamageMultiplier: 0.25
+                buildingDamageMultiplier: 0.2
               }
             }
           }
