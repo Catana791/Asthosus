@@ -29,7 +29,7 @@ requirements: [
   01a-01-item-ferrinite/50
 ]
 ammoTypes: {
-  01a-02-item-ferrinite: {
+  01a-01-item-ferrinite: {
     frontColor: ffffff
     backColor: 757575
     trailColor: 757575
