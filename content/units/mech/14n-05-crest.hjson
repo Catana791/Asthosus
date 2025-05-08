@@ -258,7 +258,7 @@ lifetime: 1
 		backColor: ffbe7f
         	speed: 9
 		inaccuracy: 3
-		lifetime: 15
+		lifetime: 20
 		damage: 12
 		splashDamage: 44
 		splashDamageRadius: 16
