@@ -8,3 +8,4 @@ consumes: {}
 requirements: []
 squareSprite: false
 radius: 400
+sides: 100
