@@ -57,7 +57,7 @@ plans: [
       asthosus-08h-10-barite-wall-large/10
       asthosus-mechanical-joint/4
     ]
-    time: 8700
+    time: 6300
   }
   {
     type: AssemblerUnitPlan
@@ -67,7 +67,7 @@ plans: [
       asthosus-08h-12-crosium-wall-large/8
       asthosus-mechanical-joint/4
     ]
-    time: 24900
+    time: 18000
   }
 ]
 squareSprite: false
