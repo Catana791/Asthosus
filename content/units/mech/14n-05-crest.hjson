@@ -14,7 +14,7 @@ abilities: [
 		type: ShieldArcAbility
 		max: 3000
     cooldown: 600
-    regen: 5
+    regen: 1
     angle: 90
     whenShooting: true
     width: 4
