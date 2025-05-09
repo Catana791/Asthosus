@@ -49,7 +49,7 @@ plans: [
       asthosus-08h-06-lithium-wall-large/6
       asthosus-08h-12-crosium-wall-large/3
     ]
-    time: 6400
+    time: 9000
   }
   {
     type: AssemblerUnitPlan
