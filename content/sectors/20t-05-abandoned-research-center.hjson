@@ -7,7 +7,7 @@ research: {
     01a-12-item-crosium, 01a-13-item-barite-webbing,
     {
       type: SectorComplete
-      preset: 19s-09-synthesis-facility
+      preset: 19s-08-defringed-webbery
     }
   ]
 }
