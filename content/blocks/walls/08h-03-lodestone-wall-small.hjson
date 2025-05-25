@@ -1,6 +1,6 @@
 type: Wall
 name: Lodestone Wall
-description: A wall made from Lodestone. 
+description: A wall made from Lodestone. Blocks lightning and interrupts power connections. 
 size: 1
 health: 440
 category: defense
@@ -10,3 +10,4 @@ requirements: [
 ]
 squareSprite: false
 researchCostMultiplier: 0.5
+insulated: true
