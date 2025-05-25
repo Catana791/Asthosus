@@ -1,6 +1,6 @@
 type: BaseShield
 name: Voidlock Generator
-description: Emits an impassable and invulnerable shield to protect critical infrastructure.
+description: Emits an impassable and invulnerable shield to protect critical infrastructure. Healing does not stack.
 size: 4
 buildVisibility: editorOnly
 placeablePlayer: false
