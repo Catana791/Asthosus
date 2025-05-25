@@ -2,6 +2,7 @@ type: PowerTurret
 name: Draysten Wall
 description: A sturdy wall made from Draysten that slows down enemies in its vicinity. Requires and conducts power.
 health: 1010
+armor: 6
 size: 1
 squareSprite: false
 drawer: {
