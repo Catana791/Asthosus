@@ -1,6 +1,6 @@
 type: Wall
 name: Large Lodestone Wall
-description: A large wall made from Lodestone. Blocks lightning and disrupts power connections.
+description: A large wall made from Lodestone. Blocks lightning and interrupts power connections.
 size: 2
 health: 1680
 category: defense
