@@ -39,7 +39,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.5
+  amount: 0.8
 }
 cooldownTime: 300
 chargeSound: short-laser-charge
