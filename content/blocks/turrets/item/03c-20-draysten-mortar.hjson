@@ -14,7 +14,14 @@ requirements: [
 ]
 consumes: {
   liquid: 02b-01-pressure/0.3
+  coolant: {
+    type: ConsumeCoolant
+    allowGas: true
+    allowLiquid: true
+    amount: 0.8
+  }
 }
+coolantMultiplier: 0.25
 researchCostMultiplier: 0.05
 shootWarmupSpeed: 0.05
 reload: 240
