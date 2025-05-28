@@ -20,9 +20,9 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.6
+  amount: 0.4
 }
-coolantMultiplier: 0.4
+coolantMultiplier: 0.6
 researchCostMultiplier: 0.5
 range: 220
 outlineColor: 42413e
