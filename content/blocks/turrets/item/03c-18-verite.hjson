@@ -48,7 +48,7 @@ shoot: {
 }
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
-coolantMultiplier: 0.25
+coolantMultiplier: 0.5
 ammoTypes: {
   01a-12-item-crosium: {
     frontColor: ffffff
