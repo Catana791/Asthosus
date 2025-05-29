@@ -7,16 +7,6 @@ research: 11k-01-core-essence
 requirements: [
   01a-01-item-ferrinite/20
 ]
-consumes: {
-  liquid: {
-    liquid: 02b-01-q-liquid-silicon-tetrafluoride
-    amount: 0.05
-    optional: true
-    booster: true
-  }
-}
-hasLiquidBooster: true
-liquidBoostIntensity: 1.25
 drillTime: 240
 output: 01a-01-item-ferrinite
 attribute: ferrinite
