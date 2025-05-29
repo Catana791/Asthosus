@@ -6,13 +6,13 @@ squareSprite: false
 reload: 4
 range: 200
 outlineColor: 42413e
-coolantMultiplier: 1.25
+coolantMultiplier: 2.5
 researchCostMultiplier: 0.5
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.4
+  amount: 0.2
 }
 shoot: {
   type: ShootAlternate
