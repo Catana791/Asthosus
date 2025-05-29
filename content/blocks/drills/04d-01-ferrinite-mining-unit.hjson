@@ -16,7 +16,7 @@ consumes: {
   }
 }
 hasLiquidBooster: true
-liquidBoostIntensity: 0.25
+liquidBoostIntensity: 1.25
 drillTime: 240
 output: 01a-01-item-ferrinite
 attribute: ferrinite
