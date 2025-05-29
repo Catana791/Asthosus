@@ -13,7 +13,7 @@ coolant: {
   allowLiquid: true
   amount: 0.5
 }
-coolantMultiplier: 0.8
+coolantMultiplier: 1.2
 researchCostMultiplier: 0.1
 drawer: {
   type: DrawTurret
