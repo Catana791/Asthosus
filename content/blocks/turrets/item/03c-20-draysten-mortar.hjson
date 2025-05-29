@@ -21,7 +21,7 @@ consumes: {
     amount: 0.8
   }
 }
-coolantMultiplier: 0.25
+coolantMultiplier: 0.5
 researchCostMultiplier: 0.05
 shootWarmupSpeed: 0.05
 reload: 240
