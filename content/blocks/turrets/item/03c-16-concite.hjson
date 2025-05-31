@@ -103,14 +103,14 @@ ammoTypes: {
     height: 8
     sprite: large-orb
     trailChance: -1
-    trailColor: 2e293a
-    backColor: 2e293a
-    frontColor: 594e6b
+    trailColor: e28d62
+    backColor: e28d62
+    frontColor: ffffff
     trailWidth: 2.5
     trailLength: 22
     lightRadius: 40
     lightOpacity: 0.7
-    lightColor: 2e293a
+    lightColor: e28d62
     spin: 4
     layer: 99
     ammoMultiplier: 2

@@ -1,6 +1,7 @@
- type: mech
+type: mech
 name: Decredence
 description: Fires homing shells and missiles at enemies. Cannot cross terrain.
+controller: FlyingAI
 hovering: true
 hoverable: true
 shadowElevation: 0.1
