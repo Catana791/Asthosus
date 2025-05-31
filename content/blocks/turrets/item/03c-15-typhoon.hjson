@@ -129,6 +129,28 @@ ammoTypes: {
       splashDamageRadius: 4
     }
   }
+  01a-08-item-cretite: {
+    frontColor: ffffff
+    backColor: e28d62
+    trailColor: e28d62
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: false
+    damage: 6
+    status: shocked
+    splashDamage: 20
+    splashDamageRadius: 16
+    ammoMultiplier: 20
+    weaveScale: 4
+    weaveMag: 4
+    status: melting
+    statusDuration: 120
+  }
   01a-12-item-crosium: {
     frontColor: ffffff
     backColor: 486f64
