@@ -3,7 +3,7 @@ name: Apex
 description: "Fires harpoons and burst of flak at enemy targets."
 speed: 0.38
 flying: false
-health: 9780
+health: 10210
 armor: 12
 outlineColor: 44413c
 mechLegColor: 44413c
