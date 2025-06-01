@@ -1,7 +1,9 @@
 type: mech
 name: Tequant
 description: Fires a slow moving, high damaging ball of lightning and small missiles at enemies. Cannot cross terrain.
-controller: FlyingAI
+range: 208
+aimDst: 208
+maxRange: 208
 hovering: true
 hoverable: true
 shadowElevation: 0.1
