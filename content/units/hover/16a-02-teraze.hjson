@@ -1,7 +1,9 @@
 type: mech
 name: Teraze
 description: Fires homing shells at enemies. Cannot cross terrain.
-controller: FlyingAI
+range: 144
+aimDst: 144
+maxRange: 144
 hovering: true
 hoverable: true
 shadowElevation: 0.1
