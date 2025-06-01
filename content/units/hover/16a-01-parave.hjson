@@ -1,7 +1,6 @@
 type: mech
 name: Parave
 description: Fires homing missiles at enemies. Cannot cross terrain.
-controller: FlyingAI
 hovering: true
 hoverable: true
 shadowElevation: 0.1
