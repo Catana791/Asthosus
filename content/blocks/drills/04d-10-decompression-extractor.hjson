@@ -13,10 +13,10 @@ consumes: {
 }
 itemCapacity: 20
 outputItems: [
-  01a-01-item-ferrinite/2
-  01a-02-item-demetite/2
+  01a-01-item-ferrinite/4
+  01a-02-item-demetite/4
   01a-05-item-red-sand/1
-  sand/3
+  sand/1
 ]
 category: production
 research: 04d-09-geothermal-accumulator
