@@ -88,6 +88,26 @@ ammoTypes: {
     spin: 4
     layer: 99
     ammoMultiplier: 2
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 16
+      splashDamage: 12
+      despawnSound: bolt
+      despawnHit: true
+      hitEffect: hitBulletColor
+    	collidesGround: true
+      collidesAir: true
+    }
   }
   01a-08-item-cretite: {
     hitEffect: plasticExplosion
@@ -114,6 +134,28 @@ ammoTypes: {
     spin: 4
     layer: 99
     ammoMultiplier: 2
+    status: melting
+    statusDuration: 120
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 24
+      splashDamage: 12
+      despawnSound: bolt
+      despawnHit: true
+      hitEffect: hitBulletColor
+      collidesGround: true
+      collidesAir: true
+    }
   }
   01a-12-item-crosium: {
     hitEffect: plasticExplosion
@@ -121,7 +163,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 35
+    damage: 36
     pierce: true
     pierceCap: 2
     keepVelocity: false
@@ -140,6 +182,26 @@ ammoTypes: {
     lightColor: 425b54
     spin: 4
     ammoMultiplier: 6
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 32
+      splashDamage: 18
+      despawnSound: bolt
+      despawnHit: true
+      hitEffect: hitBulletColor
+      collidesGround: true
+      collidesAir: true
+    }
   }
   01a-13-item-barite-webbing: {
     hitEffect: plasticExplosion
@@ -166,6 +228,26 @@ ammoTypes: {
     lightColor: a78b6f
     spin: 4
     ammoMultiplier: 8
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 32
+      splashDamage: 24
+      despawnSound: bolt
+      despawnHit: true
+      hitEffect: hitBulletColor
+      collidesGround: true
+      collidesAir: true
+    }
   }
 }
 outlineColor: 42413e
