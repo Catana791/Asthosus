@@ -69,7 +69,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 10
+    damage: 8
     pierce: true
     pierceCap: 1
     keepVelocity: false
@@ -101,7 +101,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 16
-      splashDamage: 10
+      splashDamage: 8
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
@@ -115,7 +115,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 10
+    damage: 8
     pierce: true
     pierceCap: 1
     keepVelocity: false
@@ -149,7 +149,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 24
-      splashDamage: 10
+      splashDamage: 9
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
@@ -163,7 +163,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 16
+    damage: 14
     pierce: true
     pierceCap: 2
     keepVelocity: false
@@ -195,7 +195,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 32
-      splashDamage: 16
+      splashDamage: 14
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
@@ -209,7 +209,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 21
+    damage: 19
     pierce: true
     pierceCap: 3
     keepVelocity: false
@@ -241,7 +241,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 32
-      splashDamage: 21
+      splashDamage: 19
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
