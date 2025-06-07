@@ -92,7 +92,7 @@ ammoTypes: {
     fragSpread: 0
     fragOnHit: true
     fragOnAbsorb: false
-    fragBullets: 1
+    fragBullets: 2
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 0
@@ -101,7 +101,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 16
-      splashDamage: 24
+      splashDamage: 12
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
@@ -140,7 +140,7 @@ ammoTypes: {
     fragSpread: 0
     fragOnHit: true
     fragOnAbsorb: false
-    fragBullets: 1
+    fragBullets: 2
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 0
@@ -149,7 +149,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 24
-      splashDamage: 24
+      splashDamage: 12
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
@@ -186,7 +186,7 @@ ammoTypes: {
     fragSpread: 0
     fragOnHit: true
     fragOnAbsorb: false
-    fragBullets: 1
+    fragBullets: 2
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 0
@@ -195,7 +195,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 32
-      splashDamage: 36
+      splashDamage: 18
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
@@ -232,7 +232,7 @@ ammoTypes: {
     fragSpread: 0
     fragOnHit: true
     fragOnAbsorb: false
-    fragBullets: 1
+    fragBullets: 2
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 0
@@ -241,7 +241,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 32
-      splashDamage: 48
+      splashDamage: 24
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
