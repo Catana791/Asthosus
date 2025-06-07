@@ -105,6 +105,8 @@ ammoTypes: {
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
+    	collidesGround: true
+      collidesAir: true
     }
   }
   01a-08-item-cretite: {
@@ -132,6 +134,8 @@ ammoTypes: {
     spin: 4
     layer: 99
     ammoMultiplier: 2
+    status: melting
+    statusDuration: 120
     fragRandomSpread: 0
     fragSpread: 0
     fragOnHit: true
@@ -149,6 +153,8 @@ ammoTypes: {
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
+      collidesGround: true
+      collidesAir: true
     }
   }
   01a-12-item-crosium: {
@@ -193,6 +199,8 @@ ammoTypes: {
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
+      collidesGround: true
+      collidesAir: true
     }
   }
   01a-13-item-barite-webbing: {
@@ -237,6 +245,8 @@ ammoTypes: {
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
+      collidesGround: true
+      collidesAir: true
     }
   }
 }
