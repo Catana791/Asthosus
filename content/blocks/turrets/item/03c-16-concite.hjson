@@ -100,7 +100,7 @@ ammoTypes: {
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false
-      splashDamageRadius: 32
+      splashDamageRadius: 16
       splashDamage: 12
       despawnSound: cannon
       despawnHit: true
@@ -113,7 +113,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 24
+    damage: 12
     pierce: true
     pierceCap: 1
     keepVelocity: false
@@ -132,6 +132,24 @@ ammoTypes: {
     spin: 4
     layer: 99
     ammoMultiplier: 2
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 24
+      splashDamage: 12
+      despawnSound: cannon
+      despawnHit: true
+      hitEffect: hitBulletColor
+    }
   }
   01a-12-item-crosium: {
     hitEffect: plasticExplosion
@@ -139,7 +157,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 35
+    damage: 17
     pierce: true
     pierceCap: 2
     keepVelocity: false
@@ -158,6 +176,24 @@ ammoTypes: {
     lightColor: 425b54
     spin: 4
     ammoMultiplier: 6
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 32
+      splashDamage: 18
+      despawnSound: cannon
+      despawnHit: true
+      hitEffect: hitBulletColor
+    }
   }
   01a-13-item-barite-webbing: {
     hitEffect: plasticExplosion
@@ -165,7 +201,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 48
+    damage: 24
     pierce: true
     pierceCap: 3
     keepVelocity: false
@@ -184,6 +220,24 @@ ammoTypes: {
     lightColor: a78b6f
     spin: 4
     ammoMultiplier: 8
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 32
+      splashDamage: 24
+      despawnSound: cannon
+      despawnHit: true
+      hitEffect: hitBulletColor
+    }
   }
 }
 outlineColor: 42413e
