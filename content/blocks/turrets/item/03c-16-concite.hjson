@@ -69,7 +69,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 24
+    damage: 12
     pierce: true
     pierceCap: 1
     keepVelocity: false
@@ -88,6 +88,24 @@ ammoTypes: {
     spin: 4
     layer: 99
     ammoMultiplier: 2
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragOnHit: true
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamageRadius: 32
+      splashDamage: 12
+      despawnSound: cannon
+      despawnHit: true
+      hitEffect: hitBulletColor
+    }
   }
   01a-08-item-cretite: {
     hitEffect: plasticExplosion
