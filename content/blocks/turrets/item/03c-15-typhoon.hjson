@@ -3,7 +3,7 @@ name: Typhoon
 description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
 size: 3
 squareSprite: false
-reload: 4
+reload: 8
 range: 200
 outlineColor: 42413e
 coolantMultiplier: 2.5
@@ -17,6 +17,7 @@ coolant: {
 shoot: {
   type: ShootAlternate
   spread: 10
+  shots: 4
   shotDelay: 4
 }
 drawer: {
@@ -67,9 +68,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 4
-    splashDamage: 17
-    splashDamageRadius: 16
+    damage: 11
     ammoMultiplier: 18
     weaveScale: 4
     weaveMag: 4
@@ -86,10 +85,8 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 5
+    damage: 12
     status: shocked
-    splashDamage: 18
-    splashDamageRadius: 16
     ammoMultiplier: 18
     weaveScale: 4
     weaveMag: 4
@@ -109,9 +106,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 5
-    splashDamage: 20
-    splashDamageRadius: 16
+    damage: 13
     ammoMultiplier: 20
     fragBullets: 4
     fragVelocityMin: 0.4
@@ -141,10 +136,8 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 6
+    damage: 13
     status: shocked
-    splashDamage: 20
-    splashDamageRadius: 16
     ammoMultiplier: 20
     weaveScale: 4
     weaveMag: 4
@@ -167,9 +160,7 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 1
-    damage: 6
-    splashDamage: 21
-    splashDamageRadius: 22
+    damage: 14
     ammoMultiplier: 24
     fragBullets: 6
     fragVelocityMin: 0.4
@@ -186,9 +177,7 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 5
-      splashDamage: 7
-      splashDamageRadius: 4
+      damage: 6
     }
   }
 }
