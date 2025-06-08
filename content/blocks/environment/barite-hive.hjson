@@ -6,7 +6,7 @@ consumes: {}
 buildVisibility: editorOnly
 customShadow: true
 drawTeamOverlay: false
-reload: 120
+reload: 9000
 size: 2
 alwaysShooting: false
 shootSound: none
