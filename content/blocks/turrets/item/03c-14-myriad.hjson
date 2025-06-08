@@ -53,7 +53,7 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 3
-    splashDamage: 20
+    splashDamage: 16
     splashDamageRadius: 24
     status: shocked
     ammoMultiplier: 4
@@ -101,7 +101,7 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 5
-    splashDamage: 24
+    splashDamage: 20
     splashDamageRadius: 30
     status: shocked
     ammoMultiplier: 5
@@ -124,7 +124,7 @@ ammoTypes: {
       smokeEffect: shootSmallSmoke
       despawnHit: true
       damage: 2
-      splashDamage: 4
+      splashDamage: 3
       splashDamageRadius: 9
       status: shocked
       lightning: 2
@@ -149,7 +149,7 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 5
-    splashDamage: 27
+    splashDamage: 23
     splashDamageRadius: 36
     status: shocked
     ammoMultiplier: 5
@@ -172,7 +172,7 @@ ammoTypes: {
       smokeEffect: shootSmallSmoke
       despawnHit: true
       damage: 2
-      splashDamage: 4
+      splashDamage: 3
       splashDamageRadius: 9
       status: shocked
       lightning: 3
