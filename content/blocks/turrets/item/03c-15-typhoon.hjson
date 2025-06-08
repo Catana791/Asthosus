@@ -15,10 +15,8 @@ coolant: {
   amount: 0.2
 }
 shoot: {
-  type: ShootAlternate
-  spread: 10
   shots: 16
-  shotDelay: 4
+  shotDelay: 1
 }
 drawer: {
   type: DrawTurret
@@ -60,8 +58,6 @@ ammoTypes: {
     pierce: false
     damage: 21
     ammoMultiplier: 18
-    weaveScale: 4
-    weaveMag: 4
   }
   01a-07-item-lithium: {
     frontColor: ffffff
@@ -78,8 +74,6 @@ ammoTypes: {
     damage: 24
     status: shocked
     ammoMultiplier: 18
-    weaveScale: 4
-    weaveMag: 4
   }
   01a-09-item-obsidian: {
     frontColor: ffffff
@@ -87,8 +81,6 @@ ammoTypes: {
     trailColor: 2e293a
     pierceArmor: true
     reloadMultiplier: 0.66666666666666
-    weaveScale: 4
-    weaveMag: 4
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -127,8 +119,6 @@ ammoTypes: {
     damage: 26
     status: shocked
     ammoMultiplier: 20
-    weaveScale: 4
-    weaveMag: 4
     status: melting
     statusDuration: 120
   }
@@ -139,8 +129,6 @@ ammoTypes: {
     pierceArmor: true
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
-    weaveScale: 4
-    weaveMag: 4
     type: BasicBulletType
     speed: 3
     width: 11
