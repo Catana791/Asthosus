@@ -3,7 +3,7 @@ name: Typhoon
 description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
 size: 3
 squareSprite: false
-reload: 8
+reload: 64
 range: 200
 outlineColor: 42413e
 coolantMultiplier: 2.5
@@ -17,23 +17,13 @@ coolant: {
 shoot: {
   type: ShootAlternate
   spread: 10
-  shots: 4
+  shots: 16
   shotDelay: 4
 }
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
   parts: [
-    {
-      type: RegionPart
-      suffix: -barrel
-      progress: recoil
-      heatProgress: recoil
-      under: true
-      moveY: -1
-      growX: 0.1
-      growY: 0.1
-    }
     {
       type: RegionPart
       suffix: -wing
@@ -68,7 +58,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 11
+    damage: 21
     ammoMultiplier: 18
     weaveScale: 4
     weaveMag: 4
@@ -85,7 +75,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 12
+    damage: 24
     status: shocked
     ammoMultiplier: 18
     weaveScale: 4
@@ -106,7 +96,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 13
+    damage: 26
     ammoMultiplier: 20
     fragBullets: 4
     fragVelocityMin: 0.4
@@ -119,9 +109,7 @@ ammoTypes: {
       width: 6
       height: 9
       pierce: false
-      damage: 4
-      splashDamage: 4
-      splashDamageRadius: 4
+      damage: 16
     }
   }
   01a-08-item-cretite: {
@@ -136,7 +124,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 13
+    damage: 26
     status: shocked
     ammoMultiplier: 20
     weaveScale: 4
@@ -160,7 +148,7 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 1
-    damage: 14
+    damage: 28
     ammoMultiplier: 24
     fragBullets: 6
     fragVelocityMin: 0.4
@@ -177,7 +165,7 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 6
+      damage: 12
     }
   }
 }
