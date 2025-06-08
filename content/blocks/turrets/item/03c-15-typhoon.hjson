@@ -63,7 +63,7 @@ ammoTypes: {
     homingPower: 0.02
     homingDelay: 20
     pierce: false
-    damage: 32
+    damage: 22
     ammoMultiplier: 2
   }
   01a-07-item-lithium: {
@@ -78,7 +78,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 38
+    damage: 28
     status: shocked
     ammoMultiplier: 2
     homingPower: 0.02
@@ -97,7 +97,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 42
+    damage: 32
     ammoMultiplier: 2
     fragBullets: 4
     fragVelocityMin: 0.4
@@ -111,7 +111,7 @@ ammoTypes: {
       width: 6
       height: 9
       pierce: false
-      damage: 12
+      damage: 10
     }
   }
   01a-08-item-cretite: {
@@ -126,7 +126,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 42
+    damage: 32
     status: shocked
     ammoMultiplier: 4
     status: melting
@@ -148,7 +148,7 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 1
-    damage: 46
+    damage: 36
     ammoMultiplier: 3
     fragBullets: 6
     fragVelocityMin: 0.4
@@ -166,7 +166,7 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 20
+      damage: 16
       homingPower: 0.02
       homingDelay: 10
     }
