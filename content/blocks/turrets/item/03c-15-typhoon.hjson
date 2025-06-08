@@ -3,7 +3,7 @@ name: Typhoon
 description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
 size: 3
 squareSprite: false
-reload: 64
+reload: 128
 range: 200
 outlineColor: 42413e
 coolantMultiplier: 2.5
@@ -15,8 +15,8 @@ coolant: {
   amount: 0.2
 }
 shoot: {
-  shots: 16
-  shotDelay: 1
+  shots: 32
+  shotDelay: 2
 }
 drawer: {
   type: DrawTurret
