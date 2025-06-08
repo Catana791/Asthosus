@@ -15,6 +15,7 @@ drawer: {
   type: DrawTurret
   basePrefix: empty-
 }
+alwaysShooting: true
 recoil: 0
 inaccuracy: 360
 shoot: {
