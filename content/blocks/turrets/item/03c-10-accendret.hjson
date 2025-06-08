@@ -153,7 +153,7 @@ ammoTypes: {
     trailWidth: 1.2
     trailLength: 6
     trailColor: bab4ae
-    status: asthosus-13m-02-status-radiated
+    status: burning
     statusDuration: 300
   }
   01a-13-item-barite-webbing: {
