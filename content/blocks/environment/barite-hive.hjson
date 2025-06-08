@@ -18,14 +18,8 @@ drawer: {
 alwaysShooting: true
 recoil: 0
 inaccuracy: 360
-shoot: {
-  type: ShootBarrel
-  shots: 4
-  shotDelay: 12
-  barrels: [
-    8, 8, 0
-  ]
-}
+minRange: 24
+range: 32
 shootX: 0
 shootY: 0
 shootType: {
