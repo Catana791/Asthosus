@@ -60,6 +60,8 @@ ammoTypes: {
     width: 11
     height: 14
     lifetime: 65
+    homingPower: 0.02
+    homingDelay: 20
     pierce: false
     damage: 42
     ammoMultiplier: 18
@@ -80,6 +82,8 @@ ammoTypes: {
     damage: 48
     status: shocked
     ammoMultiplier: 18
+    homingPower: 0.02
+    homingDelay: 20
   }
   01a-09-item-obsidian: {
     chargeEffect: lightningCharge
@@ -100,6 +104,8 @@ ammoTypes: {
     fragBullets: 4
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
+    homingPower: 0.02
+    homingDelay: 20
     fragBullet: {
       pierceArmor: true
       type: BasicBulletType
@@ -129,6 +135,8 @@ ammoTypes: {
     ammoMultiplier: 20
     status: melting
     statusDuration: 120
+    homingPower: 0.02
+    homingDelay: 20
   }
   01a-12-item-crosium: {
     chargeEffect: lightningCharge
@@ -150,6 +158,8 @@ ammoTypes: {
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
+    homingPower: 0.02
+    homingDelay: 20
     fragBullet: {
       frontColor: ffffff
       backColor: 486f64
@@ -163,6 +173,8 @@ ammoTypes: {
       pierce: true
       pierceCap: 1
       damage: 24
+      homingPower: 0.02
+      homingDelay: 10
     }
   }
 }
