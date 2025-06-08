@@ -15,9 +15,11 @@ coolant: {
   amount: 0.2
 }
 shoot: {
-  shots: 32
-  shotDelay: 2
+  firstShotDelay: 60
+  shots: 16
+  shotDelay: 4
 }
+chargeSound: short-laser-charge
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -56,7 +58,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 21
+    damage: 42
     ammoMultiplier: 18
   }
   01a-07-item-lithium: {
@@ -71,7 +73,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 24
+    damage: 48
     status: shocked
     ammoMultiplier: 18
   }
@@ -88,7 +90,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 26
+    damage: 52
     ammoMultiplier: 20
     fragBullets: 4
     fragVelocityMin: 0.4
@@ -116,7 +118,7 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 26
+    damage: 52
     status: shocked
     ammoMultiplier: 20
     status: melting
@@ -136,7 +138,7 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 1
-    damage: 28
+    damage: 56
     ammoMultiplier: 24
     fragBullets: 6
     fragVelocityMin: 0.4
@@ -153,7 +155,7 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 12
+      damage: 24
     }
   }
 }
