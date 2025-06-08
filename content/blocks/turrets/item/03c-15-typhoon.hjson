@@ -53,7 +53,6 @@ ammoTypes: {
     frontColor: ffffff
     backColor: 4e4277
     trailColor: 4e4277
-    pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -64,14 +63,13 @@ ammoTypes: {
     homingDelay: 20
     pierce: false
     damage: 42
-    ammoMultiplier: 18
+    ammoMultiplier: 2
   }
   01a-07-item-lithium: {
     chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: b98279
     trailColor: b98279
-    pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -81,7 +79,7 @@ ammoTypes: {
     pierce: false
     damage: 48
     status: shocked
-    ammoMultiplier: 18
+    ammoMultiplier: 2
     homingPower: 0.02
     homingDelay: 20
   }
@@ -90,7 +88,6 @@ ammoTypes: {
     frontColor: ffffff
     backColor: 2e293a
     trailColor: 2e293a
-    pierceArmor: true
     reloadMultiplier: 0.66666666666666
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -100,14 +97,13 @@ ammoTypes: {
     lifetime: 65
     pierce: false
     damage: 52
-    ammoMultiplier: 20
+    ammoMultiplier: 2
     fragBullets: 4
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
     homingPower: 0.02
     homingDelay: 20
     fragBullet: {
-      pierceArmor: true
       type: BasicBulletType
       speed: 2
       lifetime: 30
@@ -122,7 +118,6 @@ ammoTypes: {
     frontColor: ffffff
     backColor: e28d62
     trailColor: e28d62
-    pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -132,7 +127,7 @@ ammoTypes: {
     pierce: false
     damage: 52
     status: shocked
-    ammoMultiplier: 20
+    ammoMultiplier: 4
     status: melting
     statusDuration: 120
     homingPower: 0.02
@@ -143,7 +138,6 @@ ammoTypes: {
     frontColor: ffffff
     backColor: 486f64
     trailColor: 486f64
-    pierceArmor: true
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -154,7 +148,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 1
     damage: 56
-    ammoMultiplier: 24
+    ammoMultiplier: 3
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
@@ -165,7 +159,6 @@ ammoTypes: {
       backColor: 486f64
       trailColor: 486f64
       type: BasicBulletType
-      pierceArmor: true
       speed: 2
       lifetime: 30
       width: 6
