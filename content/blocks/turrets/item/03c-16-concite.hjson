@@ -209,7 +209,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3
     lifetime: 90
-    damage: 19
+    damage: 18
     pierce: true
     pierceCap: 3
     keepVelocity: false
@@ -241,7 +241,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 32
-      splashDamage: 19
+      splashDamage: 198
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
