@@ -8,8 +8,7 @@ customShadow: true
 drawTeamOverlay: false
 reload: 9000
 size: 2
-alwaysShooting: false
-shootSound: none
+shootSound: slime-arise
 rotateSpeed: 0
 drawer: {
   type: DrawTurret
