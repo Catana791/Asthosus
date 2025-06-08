@@ -20,6 +20,8 @@ shoot: {
   shotDelay: 4
 }
 chargeSound: short-laser-charge
+velocityRnd: 0.21
+inaccuracy: 4
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
@@ -47,6 +49,7 @@ requirements: [
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: 4e4277
     trailColor: 4e4277
@@ -62,6 +65,7 @@ ammoTypes: {
     ammoMultiplier: 18
   }
   01a-07-item-lithium: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: b98279
     trailColor: b98279
@@ -78,6 +82,7 @@ ammoTypes: {
     ammoMultiplier: 18
   }
   01a-09-item-obsidian: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: 2e293a
     trailColor: 2e293a
@@ -107,6 +112,7 @@ ammoTypes: {
     }
   }
   01a-08-item-cretite: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: e28d62
     trailColor: e28d62
@@ -125,6 +131,7 @@ ammoTypes: {
     statusDuration: 120
   }
   01a-12-item-crosium: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: 486f64
     trailColor: 486f64
