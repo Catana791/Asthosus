@@ -53,7 +53,7 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 3
-    splashDamage: 16
+    splashDamage: 13
     splashDamageRadius: 24
     status: shocked
     ammoMultiplier: 4
@@ -63,7 +63,6 @@ ammoTypes: {
       backColor: b98279
       trailColor: b98279
       type: MissileBulletType
-      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
@@ -101,7 +100,7 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 5
-    splashDamage: 20
+    splashDamage: 17
     splashDamageRadius: 30
     status: shocked
     ammoMultiplier: 5
@@ -111,7 +110,6 @@ ammoTypes: {
       backColor: 486f64
       trailColor: 486f64
       type: MissileBulletType
-      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
@@ -149,7 +147,7 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 5
-    splashDamage: 23
+    splashDamage: 20
     splashDamageRadius: 36
     status: shocked
     ammoMultiplier: 5
@@ -159,7 +157,6 @@ ammoTypes: {
       backColor: a78b6f
       trailColor: a78b6f
       type: MissileBulletType
-      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
