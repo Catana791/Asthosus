@@ -241,7 +241,7 @@ ammoTypes: {
       type: ExplosionBulletType
       killShooter: false
       splashDamageRadius: 32
-      splashDamage: 198
+      splashDamage: 18
       despawnSound: bolt
       despawnHit: true
       hitEffect: hitBulletColor
