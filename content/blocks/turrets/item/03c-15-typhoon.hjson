@@ -3,7 +3,7 @@ name: Typhoon
 description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
 size: 3
 squareSprite: false
-reload: 4
+reload: 128
 range: 200
 outlineColor: 42413e
 coolantMultiplier: 2.5
@@ -15,24 +15,17 @@ coolant: {
   amount: 0.2
 }
 shoot: {
-  type: ShootAlternate
-  spread: 10
+  firstShotDelay: 60
+  shots: 16
   shotDelay: 4
 }
+chargeSound: short-laser-charge
+velocityRnd: 0.21
+inaccuracy: 4
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
   parts: [
-    {
-      type: RegionPart
-      suffix: -barrel
-      progress: recoil
-      heatProgress: recoil
-      under: true
-      moveY: -1
-      growX: 0.1
-      growY: 0.1
-    }
     {
       type: RegionPart
       suffix: -wing
@@ -56,6 +49,7 @@ requirements: [
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: 4e4277
     trailColor: 4e4277
@@ -66,15 +60,14 @@ ammoTypes: {
     width: 11
     height: 14
     lifetime: 65
+    homingPower: 0.02
+    homingDelay: 20
     pierce: false
-    damage: 4
-    splashDamage: 17
-    splashDamageRadius: 16
+    damage: 42
     ammoMultiplier: 18
-    weaveScale: 4
-    weaveMag: 4
   }
   01a-07-item-lithium: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: b98279
     trailColor: b98279
@@ -86,22 +79,19 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 5
+    damage: 48
     status: shocked
-    splashDamage: 18
-    splashDamageRadius: 16
     ammoMultiplier: 18
-    weaveScale: 4
-    weaveMag: 4
+    homingPower: 0.02
+    homingDelay: 20
   }
   01a-09-item-obsidian: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: 2e293a
     trailColor: 2e293a
     pierceArmor: true
     reloadMultiplier: 0.66666666666666
-    weaveScale: 4
-    weaveMag: 4
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -109,13 +99,13 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 5
-    splashDamage: 20
-    splashDamageRadius: 16
+    damage: 52
     ammoMultiplier: 20
     fragBullets: 4
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
+    homingPower: 0.02
+    homingDelay: 20
     fragBullet: {
       pierceArmor: true
       type: BasicBulletType
@@ -124,12 +114,11 @@ ammoTypes: {
       width: 6
       height: 9
       pierce: false
-      damage: 4
-      splashDamage: 4
-      splashDamageRadius: 4
+      damage: 16
     }
   }
   01a-08-item-cretite: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: e28d62
     trailColor: e28d62
@@ -141,25 +130,22 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 6
+    damage: 52
     status: shocked
-    splashDamage: 20
-    splashDamageRadius: 16
     ammoMultiplier: 20
-    weaveScale: 4
-    weaveMag: 4
     status: melting
     statusDuration: 120
+    homingPower: 0.02
+    homingDelay: 20
   }
   01a-12-item-crosium: {
+    chargeEffect: lightningCharge
     frontColor: ffffff
     backColor: 486f64
     trailColor: 486f64
     pierceArmor: true
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
-    weaveScale: 4
-    weaveMag: 4
     type: BasicBulletType
     speed: 3
     width: 11
@@ -167,13 +153,13 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 1
-    damage: 6
-    splashDamage: 21
-    splashDamageRadius: 22
+    damage: 56
     ammoMultiplier: 24
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
+    homingPower: 0.02
+    homingDelay: 20
     fragBullet: {
       frontColor: ffffff
       backColor: 486f64
@@ -186,9 +172,9 @@ ammoTypes: {
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 5
-      splashDamage: 7
-      splashDamageRadius: 4
+      damage: 24
+      homingPower: 0.02
+      homingDelay: 10
     }
   }
 }
