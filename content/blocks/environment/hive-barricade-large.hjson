@@ -1,0 +1,11 @@
+type: Wall
+name: Hive Barricadee
+description: An alien wall that protects hive infrastructure.
+size: 2
+health: 4000
+squareSprite: false
+reequirements: []
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+squareSprite: false
