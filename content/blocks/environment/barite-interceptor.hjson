@@ -31,9 +31,9 @@ shootType: {
   splashDamage: 30
   splashDamageRadius: 32
   buildingDamageMultiplier: 10
-  puddleRange: 16
+  puddleRange: 4
   puddles: 3
-  puddleAmount: 16
+  puddleAmount: 64
   puddleLiquid: 02b-04-liquid-liquid-barite
 }
 outlineColor: 42413e
