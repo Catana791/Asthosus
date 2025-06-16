@@ -1,0 +1,38 @@
+type: PowerTurret
+name: Barite Interceptor
+description: Charges up to deliver a concentrated blast of liquid barite, dealing damage and radiating hit targets. Deals extra damage to buildings.
+size: 2
+consumes: {}
+requirements: []
+placeablePlayer: false
+buildVisibility: editorOnly
+squareSprite: false
+drawTeamOverlay: false
+reload: 137
+range: 80
+shoot: {
+  firstShotDelay: 60
+}
+chargeSound: laser-charge-short
+shootSound: splash
+shootType: {
+  type: BasicBulletType
+  frontColor: ffffff
+  backColor: dad2ca
+  trailColor: dad2ca
+  height: 12
+  width: 12
+  speed: 6
+  lifetime: 14
+  trailLength: 18
+  trailWidth: 3
+  sprite: circle-bullet
+  damage: 0
+  splashDamage: 30
+  splashDamageRadius: 32
+  buildingDamageMultiplier: 10
+  puddleRange: 16
+  puddles: 3
+  puddleAmount: 16
+  puddleLiquid: 02b-04-liquid-liquid-barite
+}
