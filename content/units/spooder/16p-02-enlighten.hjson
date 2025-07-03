@@ -35,28 +35,28 @@ weapons: [
     shootSound: laser
     inaccuracy: 5
     shoot: {
-  firstShotDelay: 60
-    shotDelay: 12
-    shots: 2
-  }
-  chargeSound: short-laser-charge
+      firstShotDelay: 60
+      shotDelay: 12
+      shots: 2
+    }
+    chargeSound: short-laser-charge
     bullet: {
-  type: LaserBulletType
-  colors: [85c278, 9be98b, ffffff]
-    width: 2
-    length: 100
-    damage: 17
-    healPercent: 1
-    collidesTeam: true
-    pierce: true
-    pierceBuilding: false
-    pierceCap: 1
-    chargeEffect: lightningCharge
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    hitColor: 85c278
+      type: LaserBulletType
+      colors: [85c278, 9be98b, ffffff]
+      width: 2
+      length: 128
+      damage: 17
+      healPercent: 1
+      collidesTeam: true
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 1
+      chargeEffect: lightningCharge
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitColor: 85c278
+    }
   }
-}
   {
   name: enlighten-blaster-mirror
     x: -9.5
@@ -64,15 +64,15 @@ weapons: [
     reload: 61
     shootSound: spark
     shoot: {
-  shots: 3
-    shotDelay: 0.8
-  }
-  rotate: false
+      shots: 3
+      shotDelay: 0.8
+    }
+    rotate: false
     mirror: false
     inaccuracy: 6
-     bullet: {
-    type: LightningBulletType
-      lightningLength: 12.5
+    bullet: {
+      type: LightningBulletType
+      lightningLength: 16
       damage: 12
       collidesTeam: true
       pierceBuilding: true

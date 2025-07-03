@@ -229,7 +229,7 @@ weapons: [
     rotate: false
     bullet: {
       instantDisappear: true
-      spawnUnit: asthosus-18r-02-teeny-tiny-missile-2
+      spawnUnit: asthosus-18r-02-teeny-tiny-missile-3
     }
   }
 ]

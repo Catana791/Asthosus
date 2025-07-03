@@ -2,12 +2,12 @@ difficulty: 8
 planet: asthosus
 sector: 5
 research: {
-  parent: 19s-09-synthesis-facility
+  parent: 19s-08-defringed-webbery
   objectives: [
     01a-12-item-crosium, 01a-13-item-barite-webbing,
     {
       type: SectorComplete
-      preset: 19s-09-synthesis-facility
+      preset: 19s-08-defringed-webbery
     }
   ]
 }

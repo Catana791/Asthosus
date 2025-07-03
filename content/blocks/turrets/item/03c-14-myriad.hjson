@@ -20,9 +20,9 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.6
+  amount: 0.4
 }
-coolantMultiplier: 0.4
+coolantMultiplier: 0.6
 researchCostMultiplier: 0.5
 range: 220
 outlineColor: 42413e
@@ -36,6 +36,9 @@ requirements: [
 ]
 ammoTypes: {
   01a-07-item-lithium: {
+    frontColor: ffffff
+    backColor: b98279
+    trailColor: b98279
     pierceArmor: true
     type: MissileBulletType
     width: 7
@@ -50,14 +53,16 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 3
-    splashDamage: 20
+    splashDamage: 13
     splashDamageRadius: 24
     status: shocked
     ammoMultiplier: 4
     fragBullets: 3
     fragBullet: {
+      frontColor: ffffff
+      backColor: b98279
+      trailColor: b98279
       type: MissileBulletType
-      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
@@ -78,6 +83,9 @@ ammoTypes: {
     }
   }
   01a-12-item-crosium: {
+    frontColor: ffffff
+    backColor: 486f64
+    trailColor: 486f64
     pierceArmor: true
     type: MissileBulletType
     width: 7
@@ -92,14 +100,16 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 5
-    splashDamage: 24
+    splashDamage: 17
     splashDamageRadius: 30
     status: shocked
     ammoMultiplier: 5
     fragBullets: 4
     fragBullet: {
+      frontColor: ffffff
+      backColor: 486f64
+      trailColor: 486f64
       type: MissileBulletType
-      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
@@ -112,7 +122,7 @@ ammoTypes: {
       smokeEffect: shootSmallSmoke
       despawnHit: true
       damage: 2
-      splashDamage: 4
+      splashDamage: 3
       splashDamageRadius: 9
       status: shocked
       lightning: 2
@@ -120,6 +130,9 @@ ammoTypes: {
     }
   }
   01a-13-item-barite-webbing: {
+    frontColor: ffffff
+    backColor: a78b6f
+    trailColor: a78b6f
     pierceArmor: true
     type: MissileBulletType
     width: 7
@@ -134,14 +147,16 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     despawnHit: true
     damage: 5
-    splashDamage: 27
+    splashDamage: 20
     splashDamageRadius: 36
     status: shocked
     ammoMultiplier: 5
     fragBullets: 6
     fragBullet: {
+      frontColor: ffffff
+      backColor: a78b6f
+      trailColor: a78b6f
       type: MissileBulletType
-      pierceArmor: true
       width: 4
       height: 6
       homingPower: 0.08
@@ -154,7 +169,7 @@ ammoTypes: {
       smokeEffect: shootSmallSmoke
       despawnHit: true
       damage: 2
-      splashDamage: 4
+      splashDamage: 3
       splashDamageRadius: 9
       status: shocked
       lightning: 3

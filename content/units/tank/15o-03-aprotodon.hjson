@@ -1,7 +1,7 @@
 type: tank
 name: Aprotodon
 description: Quick and durable. Equipped with a beam railgun.
-hitSize: 28
+hitSize: 24
 treadRects: [
   {
     x: -39
@@ -10,14 +10,14 @@ treadRects: [
     height: 116
   }
 ]
-crushDamage: 3
+crushDamage: 1
 range: 160
 singleTarget: false
 omniMovement: false
 faceTarget: false
 health: 1230
-armor: 9
-speed: 1
+armor: 7
+speed: 0.8
 rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 44413c
@@ -33,7 +33,7 @@ weapons: [
     y: 0.5
     name: aprotodon-weapon
     reload: 180
-    shootStatus: unmoving
+    shootStatus: slow
     shootStatusDuration: 160
     continuous: true
     shoot: {
@@ -138,7 +138,7 @@ weapons: [
       hitEffect: hitMeltdown
       shake: 0.5
       damageInterval: 10
-      damage: 40
+      damage: 60
       lifetime: 160
       fadeTime: 40
       incendSpread: 0

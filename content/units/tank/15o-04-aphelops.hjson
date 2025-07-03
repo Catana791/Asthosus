@@ -7,9 +7,9 @@ treadPullOffset: 4
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 10620
-armor: 10
-speed: 0.76
+health: 9180
+armor: 8
+speed: 0.64
 rotateSpeed: 2.89
 itemCapacity: 0
 outlineColor: 44413c

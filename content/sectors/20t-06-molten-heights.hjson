@@ -3,7 +3,7 @@ captureWave: 8
 planet: asthosus
 sector: 6
 research: {
-  parent: 19s-10-furnace-settlement
+  parent: 20t-03-a-magmatic-riverbed
   objectives: [
     01a-12-item-crosium,
     01a-13-item-barite-webbing,

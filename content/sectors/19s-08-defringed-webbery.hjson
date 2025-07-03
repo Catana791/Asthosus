@@ -8,7 +8,7 @@ research: {
     01a-12-item-crosium,
     {
       type: SectorComplete
-      preset: 19s-07-detriment-valley
+      preset: 19s-09-synthesis-facility
     }
   ]
 }

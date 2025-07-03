@@ -1,0 +1,19 @@
+# Check Maps Properties
+
+en:
+lattice.message = [ ⚠ BEGIN AUTOMATED BROADCAST ⚠ ]\n\nTHIS LOCATION IS PROPERTY OF THE [red]DIVISION BRT-3[].\nTAMPERING WITH, OR DESTRUCTION OF, THIS LOCATION'S OUTPOST WILL BE MET WITH USE OF FORCE.\n\n[ ⚠ END AUTOMATED BROADCAST ⚠ ]
+
+de:
+lattice.message = [ ⚠ BEGINNE AUTOMATISCHE ÜBERTRAGUNG ⚠ ]\n\nDIESER ORT IST EIGENTUM DER [red]DIVISION BRT-3[].\nDAS MANIPULIEREN ODER ZERSTÖREN DES AUSSENPOSTENS WIRD MIT GEWALT BEANTWORTET.\n\n[ ⚠ ENDE AUTOMATISCHE ÜBERTRAGUNG ⚠ ] 
+
+in_ID:
+lattice.message = [ ⚠ MEMULAI SIARAN OTOMATIS ⚠ ]\n\nLOKASI INI ADALAH PROPERTI MILIK [red]FRAKSI BRT-3[].\nPERUSAKAN TERHADAP POS TERDEKAT DI LOKASI INI AKAN MENGHADAPI HUKUM.\n\n[ ⚠ SIARAN OTOMATIS BERAKHIR ⚠ ]
+
+ru:
+lattice.message = [ ⚠ НАЧАЛО АВТОМАТИЧСКОЙ ПЕРЕДАЧИ ⚠ ] \n\nЭТОТ СЕКТОР ПРИНАДЛЕЖИТ [red]ДИВИЗИОНУ BRT-3[]. \nВМЕШАТЕЛЬСТВО В РАБОТУ, ИЛИ УНИЧТОЖЕНИЕ МЕСТНОГО АВАНПОСТА БУДЕТ ВСТРЕЧЕННО СИЛОЙ. \n\n[ ⚠ КОНЕЦ АВТОМАТИЧСКОЙ ПЕРЕДАЧИ ⚠ ]
+
+uk_UA:
+lattice.message = [ ⚠ ПОЧАТИ АВТОМАТИЧНУ ПЕРЕДАЧУ ⚠ ] \n\nЦЕЙ СЕКТОР Є ВЛАСТНІСТЮ [red]ДІВІЗИОНУ БРТ-3[]. \nБУДЬ ЯКЕ ВТРУЧАННЯ У РОБОТУ, АБО ОБО ЗНИЩЩЕНЯ, БЛОКПОСТУ ЦЬОГО РЕГІОНУ БУДЕ КАРАТИСЯ СИЛОЮ. \n\n[ ⚠ ЗАКІНЧИТИ АВТОМАТИЧНУ ПЕРЕДАЧУ ⚠ ]
+
+zh_TW:
+lattice.message = [ ⚠ 啟動自動廣播 ⚠ ] \n\n這個地區是由[red]BRT-3分部[]所管轄。 \n\n摧毀此地區的前哨站將會被處以最嚴厲的武力對待。 \n\n[ ⚠ 關閉自動廣播 ⚠ ]

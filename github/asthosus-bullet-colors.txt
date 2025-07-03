@@ -1,0 +1,54 @@
+Ferrinite
+frontColor: ffffff / b1b1b1
+backColor: 757575
+trailColor: 757575
+
+Demetite
+frontColor: ffffff / e0d2a0
+backColor: 9a916e
+trailColor: 9a916e
+
+Lignite
+frontColor: ffffff / 887f78
+backColor: 564f49
+trailColor: 564f49
+
+Lodestone
+frontColor: ffffff / 8270c0
+backColor: 4e4277
+trailColor: 4e4277
+
+Lithium
+frontColor: ffffff / e6aca3
+backColor: b98279
+trailColor: b98279
+
+Cretite
+frontColor: ffffff / fca988
+backColor: d77751
+trailColor: d77751
+
+Obsidian
+frontColor: ffffff / 594e6b
+backColor: 2e293a
+trailColor: 2e293a
+
+Barite
+frontColor: ffffff / f8efe6
+backColor: bab4ae
+trailColor: bab4ae
+
+Crosium
+frontColor: ffffff / 54b89c
+backColor: 486f64
+trailColor: 486f64
+
+Vesmonium
+frontColor: ffffff / dfb891
+backColor: a78b6f
+trailColor: a78b6f
+
+Draysten
+frontColor: ffffff / c67979
+backColor: 7e4a4a
+trailColor: 7e4a4a

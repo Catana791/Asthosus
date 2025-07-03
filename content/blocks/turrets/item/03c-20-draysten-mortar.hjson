@@ -7,14 +7,21 @@ category: turret
 research: 03c-10-accendret
 outlineColor: 42413e
 requirements: [
-  01a-06-item-lodestone/500
-  01a-07-item-lithium/300
-  01a-09-item-obsidian/120
-  01a-14-item-draysten/70
+  01a-06-item-lodestone/980
+  01a-07-item-lithium/940
+  01a-09-item-obsidian/480
+  01a-14-item-draysten/100
 ]
 consumes: {
   liquid: 02b-01-pressure/0.3
+  coolant: {
+    type: ConsumeCoolant
+    allowGas: true
+    allowLiquid: true
+    amount: 0.8
+  }
 }
+coolantMultiplier: 0.5
 researchCostMultiplier: 0.05
 shootWarmupSpeed: 0.05
 reload: 240
@@ -53,16 +60,19 @@ drawer: {
 }
 shootEffect: surgeCruciSmoke
 smokeEffect: shootSmokeMissile
-range: 324
+range: 380
 ammoPerShot: 3
 ammoTypes: {
   01a-12-item-crosium: {
+    frontColor: ffffff
+    backColor: 486f64
+    trailColor: 486f64
     type: ArtilleryBulletType
     trailChance: -1
     trailWidth: 2.2
     trailLength: 18
-    speed: 2
-    lifetime: 162
+    speed: 4
+    lifetime: 95
     width: 12
     height: 20
     splashDamage: 504
@@ -83,6 +93,9 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     fragBullet: {
+      frontColor: ffffff
+      backColor: 486f64
+      trailColor: 486f64
       type: ArtilleryBulletType
       speed: 2
       lifetime: 10
@@ -103,6 +116,9 @@ ammoTypes: {
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragBullet: {
+          frontColor: ffffff
+          backColor: 486f64
+          trailColor: 486f64
           type: ArtilleryBulletType
           speed: 2
           lifetime: 10
@@ -117,6 +133,9 @@ ammoTypes: {
             killShooter: false
             splashDamage: 49
             fragBullet: {
+              frontColor: ffffff
+              backColor: 486f64
+              trailColor: 486f64
               type: ArtilleryBulletType
               speed: 2
               lifetime: 10
@@ -144,16 +163,19 @@ ammoTypes: {
     }
   }
   01a-13-item-barite-webbing: {
+    frontColor: ffffff
+    backColor: a78b6f
+    trailColor: a78b6f
     ammoMultiplier: 2
     type: ArtilleryBulletType
     trailChance: -1
     trailWidth: 2.2
     trailLength: 18
-    speed: 2
-    lifetime: 162
+    speed: 4
+    lifetime: 95
     width: 12
     height: 20
-    splashDamage: 532
+    splashDamage: 756
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -170,6 +192,9 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     fragBullet: {
+      frontColor: ffffff
+      backColor: a78b6f
+      trailColor: a78b6f
       type: ArtilleryBulletType
       speed: 2
       lifetime: 10
@@ -190,6 +215,9 @@ ammoTypes: {
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragBullet: {
+          frontColor: ffffff
+          backColor: a78b6f
+          trailColor: a78b6f
           type: ArtilleryBulletType
           speed: 2
           lifetime: 10
@@ -204,6 +232,9 @@ ammoTypes: {
             killShooter: false
             splashDamage: 77
             fragBullet: {
+              frontColor: ffffff
+              backColor: a78b6f
+              trailColor: a78b6f
               type: ArtilleryBulletType
               speed: 2
               lifetime: 10
@@ -231,16 +262,19 @@ ammoTypes: {
     }
   }
   01a-14-item-draysten: {
+    frontColor: ffffff 
+    backColor: 7e4a4a
+    trailColor: 7e4a4a
     ammoMultiplier: 3
     type: ArtilleryBulletType
     trailChance: -1
     trailWidth: 2.2
     trailLength: 18
-    speed: 2
-    lifetime: 162
+    speed: 4
+    lifetime: 95
     width: 12
     height: 20
-    splashDamage: 588
+    splashDamage: 945
     splashDamageRadius: 40
     splashDamagePierce: true
     incendChance: 1
@@ -257,6 +291,9 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     fragBullet: {
+      frontColor: ffffff 
+      backColor: 7e4a4a
+      trailColor: 7e4a4a
       type: ArtilleryBulletType
       speed: 2
       lifetime: 10
@@ -269,7 +306,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 16
         killShooter: false
-        splashDamage: 98
+        splashDamage: 105
         fragBullets: 1
         fragRandomSpread: 0
         fragLifeMin: 1
@@ -277,6 +314,9 @@ ammoTypes: {
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragBullet: {
+          frontColor: ffffff 
+          backColor: 7e4a4a
+          trailColor: 7e4a4a
           type: ArtilleryBulletType
           speed: 2
           lifetime: 10
@@ -289,8 +329,11 @@ ammoTypes: {
             type: ExplosionBulletType
             splashDamageRadius: 16
             killShooter: false
-            splashDamage: 91
+            splashDamage: 98
             fragBullet: {
+              frontColor: ffffff 
+              backColor: 7e4a4a
+              trailColor: 7e4a4a
               type: ArtilleryBulletType
               speed: 2
               lifetime: 10
@@ -309,7 +352,7 @@ ammoTypes: {
                 type: ExplosionBulletType
                 splashDamageRadius: 12
                 killShooter: false
-                splashDamage: 84
+                splashDamage: 91
               }
             }
           }

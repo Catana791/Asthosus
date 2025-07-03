@@ -82,7 +82,7 @@ weapons: [
     y: 4
     mirror: true
     alternate: true
-    reload: 12
+    reload: 16
     rotate: false
     shootSound: missile
     bullet: {

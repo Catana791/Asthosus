@@ -3,36 +3,30 @@ name: Typhoon
 description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
 size: 3
 squareSprite: false
-reload: 4
+reload: 128
 range: 200
 outlineColor: 42413e
-coolantMultiplier: 0.5
+coolantMultiplier: 2.5
 researchCostMultiplier: 0.5
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.5
+  amount: 0.2
 }
 shoot: {
-  type: ShootAlternate
-  spread: 10
+  firstShotDelay: 60
+  shots: 16
   shotDelay: 4
 }
+chargeSound: short-laser-charge
+velocityRnd: 0.21
+inaccuracy: 4
+ammoPerShot: 6
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
   parts: [
-    {
-      type: RegionPart
-      suffix: -barrel
-      progress: recoil
-      heatProgress: recoil
-      under: true
-      moveY: -1
-      growX: 0.1
-      growY: 0.1
-    }
     {
       type: RegionPart
       suffix: -wing
@@ -56,23 +50,27 @@ requirements: [
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
-    pierceArmor: true
+    chargeEffect: lightningCharge
+    frontColor: ffffff
+    backColor: 4e4277
+    trailColor: 4e4277
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
     width: 11
     height: 14
     lifetime: 65
+    homingPower: 0.02
+    homingDelay: 20
     pierce: false
-    damage: 4
-    splashDamage: 17
-    splashDamageRadius: 16
-    ammoMultiplier: 18
-    weaveScale: 4
-    weaveMag: 4
+    damage: 22
+    ammoMultiplier: 2
   }
   01a-07-item-lithium: {
-    pierceArmor: true
+    chargeEffect: lightningCharge
+    frontColor: ffffff
+    backColor: b98279
+    trailColor: b98279
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -80,19 +78,18 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 5
+    damage: 28
     status: shocked
-    splashDamage: 18
-    splashDamageRadius: 16
-    ammoMultiplier: 18
-    weaveScale: 4
-    weaveMag: 4
+    ammoMultiplier: 2
+    homingPower: 0.02
+    homingDelay: 20
   }
   01a-09-item-obsidian: {
-    pierceArmor: true
+    chargeEffect: lightningCharge
+    frontColor: ffffff
+    backColor: 2e293a
+    trailColor: 2e293a
     reloadMultiplier: 0.66666666666666
-    weaveScale: 4
-    weaveMag: 4
     hitEffect: flakExplosion
     type: BasicBulletType
     speed: 3
@@ -100,32 +97,50 @@ ammoTypes: {
     height: 14
     lifetime: 65
     pierce: false
-    damage: 5
-    splashDamage: 20
-    splashDamageRadius: 16
-    ammoMultiplier: 20
+    damage: 32
+    ammoMultiplier: 2
     fragBullets: 4
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
+    homingPower: 0.02
+    homingDelay: 20
     fragBullet: {
-      pierceArmor: true
       type: BasicBulletType
       speed: 2
       lifetime: 30
       width: 6
       height: 9
       pierce: false
-      damage: 4
-      splashDamage: 4
-      splashDamageRadius: 4
+      damage: 10
     }
   }
+  01a-08-item-cretite: {
+    chargeEffect: lightningCharge
+    frontColor: ffffff
+    backColor: e28d62
+    trailColor: e28d62
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 3
+    width: 11
+    height: 14
+    lifetime: 65
+    pierce: false
+    damage: 32
+    status: shocked
+    ammoMultiplier: 4
+    status: melting
+    statusDuration: 120
+    homingPower: 0.02
+    homingDelay: 20
+  }
   01a-12-item-crosium: {
-    pierceArmor: true
+    chargeEffect: lightningCharge
+    frontColor: ffffff
+    backColor: 486f64
+    trailColor: 486f64
     reloadMultiplier: 1.1
     hitEffect: flakExplosion
-    weaveScale: 4
-    weaveMag: 4
     type: BasicBulletType
     speed: 3
     width: 11
@@ -133,25 +148,27 @@ ammoTypes: {
     lifetime: 65
     pierce: true
     pierceCap: 1
-    damage: 6
-    splashDamage: 21
-    splashDamageRadius: 22
-    ammoMultiplier: 24
+    damage: 36
+    ammoMultiplier: 3
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
+    homingPower: 0.02
+    homingDelay: 20
     fragBullet: {
+      frontColor: ffffff
+      backColor: 486f64
+      trailColor: 486f64
       type: BasicBulletType
-      pierceArmor: true
       speed: 2
       lifetime: 30
       width: 6
       height: 9
       pierce: true
       pierceCap: 1
-      damage: 5
-      splashDamage: 7
-      splashDamageRadius: 4
+      damage: 16
+      homingPower: 0.02
+      homingDelay: 10
     }
   }
 }

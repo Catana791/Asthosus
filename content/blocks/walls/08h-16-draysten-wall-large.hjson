@@ -2,6 +2,7 @@ type: PowerTurret
 name: Large Draysten Wall
 description: A sturdy wall made from Draysten that slows down enemies in its vicinity. Requires and conducts power. Slows enemies for longer and has more range than a normal Draysten Wall.
 health: 3920
+armor: 6
 size: 2
 squareSprite: false
 drawer: {

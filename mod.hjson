@@ -19,11 +19,20 @@ If you find any issues or want to tell me anything else,
 feel free to join the Asthosus Discord server. 
 The same thing goes for when you need help with this mod.
 
+Asthosus is available in the following languages:
+- English
+- German
+- Indonesian
+- Russian
+- Ukrainian
+- Traditional Chinese
+- Simplified Chinese
+
 Enjoy!
 '''
 author: "Catser"
 minGameVersion: 146
-version: "1.6.2"
+version: "1.6.8"
 displayName: "Asthosus"
-subtitle: "Now with 68% more sand!"
+subtitle: "Now with 68.5 more sand!"
 repo: "Catana791/Asthosus"

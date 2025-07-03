@@ -9,7 +9,7 @@ omniMovement: false
 faceTarget: false
 health: 18760
 armor: 12
-speed: 0.59
+speed: 0.48
 rotateSpeed: 1.92
 itemCapacity: 0
 outlineColor: 44413c
@@ -53,6 +53,8 @@ weapons: [
       firstShotDelay: 170
     }
     chargeSound: annectodon-charge
+    shootStatus: unmoving
+    shootStatusDuration: 240
     bullet: {
       chargeEffect: {
         type: SeqEffect
@@ -104,7 +106,7 @@ weapons: [
           sideLength: 50
           sideWidth: 1.5
           colors: [baa164, edc66c, ffffff]
-          damage: 125
+          damage: 100
           lifetime: 150
           fragRandomSpread: 0
           fragVelocityMax: 1
@@ -119,7 +121,7 @@ weapons: [
             hitSound: largeCannon
             despawnSound: largeCannon
             splashDamageRadius: 32
-            splashDamage: 120
+            splashDamage: 96
             killShooter: false
             hitShake: 12
             despawnShake: 12
@@ -138,12 +140,12 @@ weapons: [
               trailColor: baa164
               speed: 6
               lifetime: 40
-              damage: 32
+              damage: 26
               splashDamage: 96
               splashDamageRadius: 48
               pierce: true
               pierceBuilding: true
-              pierceCap: 2
+              pierceCap: 1
               width: 24
               height: 64
               trailLength: 24
@@ -154,8 +156,8 @@ weapons: [
               fragOnAbsorb: true
               fragBullet: {
                 type: ExplosionBulletType
-                splashDamage: 128
-                splashDamageRadius: 96
+                splashDamage: 70
+                splashDamageRadius: 64
                 killShooter: false
                 hitShake: 24
                 despawnShake: 24
@@ -163,7 +165,7 @@ weapons: [
                 despawnSound: largeExplosion
                 hitEffect: flakExplosion
                 despawnEffect: titanExplosion
-                buildingDamageMultiplier: 0.25
+                buildingDamageMultiplier: 0.2
               }
             }
           }
@@ -183,8 +185,8 @@ weapons: [
       trailWidth: 6
       pierce: true
       pierceCap: 3
-      damage: 127
-      splashDamage: 271
+      damage: 101
+      splashDamage: 217
       splashDamageRadius: 40
       pierceBuilding: true
       hitEffect: massiveExplosion
@@ -199,7 +201,7 @@ weapons: [
         type: ExplosionBulletType
         killShooter: false
         splashDamageRadius: 40
-        splashDamage: 61
+        splashDamage: 49
         speed: 0
         lifetime: 30
         hitSound: explosion
@@ -208,7 +210,7 @@ weapons: [
           type: LightningBulletType
           lightningColor: edc66c
           lightningLength: 7
-          lightningDamage: 58
+          lightningDamage: 46
           hitSound: spark
           despawnSound: spark
           lifetime: 1
@@ -259,7 +261,7 @@ weapons: [
         height: 12
         lifetime: 15
         speed: 2
-        damage: 66
+        damage: 53
         pierce: true
         pierceBuilding: true
         hitSize: 4
@@ -271,7 +273,7 @@ weapons: [
         trailLength: 6
         hitEffect: blastExplosion
         splashDamageRadius: 16
-        splashDamage: 9
+        splashDamage: 7
         fragOnHit: false
         fragRandomSpread: 0
         fragSpread: 0
@@ -283,7 +285,7 @@ weapons: [
           type: ExplosionBulletType
           killShooter: false
           splashDamageRadius: 40
-          splashDamage: 82
+          splashDamage: 66
           speed: 0
           lifetime: 30
           hitSound: explosion
