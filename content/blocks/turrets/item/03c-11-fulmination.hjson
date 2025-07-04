@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Fulmination
-description: Fires high-velocity, piercing needles at enemies that frag into various things depending on the ammunition used.
+description: Fires high-velocity, piercing needles at enemies that have various effects depending on the ammunition used.
 size: 3
 reload: 220
 range: 208
