@@ -32,7 +32,7 @@ shootType: {
   trailWidth: 3
   sprite: circle-bullet
   damage: 0
-  splashDamage: 4
+  splashDamage: 8
   pierceArmor: true
   splashPierce: true
   splashDamageRadius: 32
