@@ -13,7 +13,7 @@ range: 120
 shoot: {
   firstShotDelay: 60
 }
-chargeSound: laser-charge-short
+chargeSound: short-laser-charge
 shootSound: splash
 shootType: {
   type: BasicBulletType
@@ -35,6 +35,8 @@ shootType: {
   puddles: 3
   puddleAmount: 64
   puddleLiquid: 02b-04-liquid-liquid-barite
+  despawnEffect: none
+  hitEffect: none
 }
 outlineColor: 42413e
 drawer: {
