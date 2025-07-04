@@ -28,7 +28,7 @@ shootType: {
   trailWidth: 3
   sprite: circle-bullet
   damage: 0
-  splashDamage: 30
+  splashDamage: 60
   splashDamageRadius: 32
   buildingDamageMultiplier: 10
   puddleRange: 4
