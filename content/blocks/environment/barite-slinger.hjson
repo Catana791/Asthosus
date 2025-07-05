@@ -9,7 +9,7 @@ buildVisibility: editorOnly
 squareSprite: false
 drawTeamOverlay: false
 reload: 437
-range: 120
+range: 200
 shootSound: largeCanon
 shootType: {
   instantDespawn: true
