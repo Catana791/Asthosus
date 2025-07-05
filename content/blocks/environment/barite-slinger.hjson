@@ -15,43 +15,7 @@ shootWarmupSpeed: 0.05
 minWarmup: 0.99
 warmupMaintainTime: 120
 shootSound: hive-shoot
-shoot: {
-  firstShotDelay: 120
-}
 shootType: {
-  shootEffect: {
-    type: MultiEffect
-    effects: [
-      {
-        offsetY: -3
-        type: ParticleEffect
-        length: 16
-        baseLength: -16
-        particles: 12
-        colorFrom: f3af9e
-        colorTo: be7766
-        sizeFrom: 1
-        sizeTo: 0.4
-        lifetime: 120
-        layer: 106
-        cone: 360
-      }
-      {
-        offsetY: -3
-        type: ParticleEffect
-        length: 16
-        baseLength: -16
-        particles: 12
-        colorFrom: be7766
-        colorTo: f3af9e
-        sizeFrom: 1
-        sizeTo: 0.4
-        lifetime: 120
-        layer: 106
-        cone: 360
-      }
-    ]
-  }
   type: BasicBulletType
   instantDisappear: true
   collides: false
