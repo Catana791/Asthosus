@@ -16,6 +16,33 @@ minWarmup: 0.99
 warmupMaintainTime: 120
 shootSound: largeCannon
 shootType: {
+  chargeEffect: {
+    type: MultiEffect
+    effects: [
+      {
+        type: ParticleEffect
+        length: 16
+        baseLength: -16
+        particles: 12
+        colorFrom: f3af9e
+        colorTo: be7766
+        sizeFrom: 1
+        sizeTo: 0.4
+        lifetime: 120
+      }
+      {
+        type: ParticleEffect
+        length: 16
+        baseLength: -16
+        particles: 12
+        colorFrom: be7766
+        colorTo: f3af9e
+        sizeFrom: 1
+        sizeTo: 0.4
+        lifetime: 120
+      }
+    ]
+  }
   type: BasicBulletType
   instantDisappear: true
   collides: false
