@@ -3,11 +3,11 @@ physics: false
 template: MissileUnitType
 flying: true
 speed: 4
-missileAccelTime: 30
+missileAccelTime: 0
 useUnitCap: false
 engineSize: 0.5
 engineOffset: 2.5
-lifetime: 50
+lifetime: 60
 rotateSpeed: 0
 hitSize: 3
 trailLength: 0
