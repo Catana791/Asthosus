@@ -27,6 +27,7 @@ hidden: true
 weapons: [
   {
     reload: 1
+    shootSound: hive-impact
     shake: 0
     shootOnDeath: true
     mirror: true
@@ -41,6 +42,7 @@ weapons: [
       puddles: 8
       puddleAmount: 256
       puddleLiquid: 02b-04-liquid-liquid-barite
+      despawnSound: hive-impact
     }
   } 
 ]
