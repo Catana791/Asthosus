@@ -14,7 +14,7 @@ health: 1000
 shootWarmupSpeed: 0.05
 minWarmup: 0.99
 warmupMaintainTime: 120
-shootSound: largeCannon
+shootSound: hive-shoot
 shoot: {
   firstShotDelay: 120
 }
