@@ -38,11 +38,12 @@ drawer: {
       type: RegionPart
       suffix: -boulder
       mirror: false
-      under: false
+      under: true
       progress: reload
       growProgress: reload
-      growX: 1
-      growY: 1
+      growX: -1
+      growY: -1
+      layerOfsset: 0.1
     }
   ]
 }
