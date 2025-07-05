@@ -10,9 +10,10 @@ squareSprite: false
 drawTeamOverlay: false
 reload: 437
 range: 200
-shootSound: largeCanon
+shootSound: largeCannon
 shootType: {
-  instantDespawn: true
+  type: BasicBulletType
+  instantDisappear: true
   collides: false
   damage: 0
   splashDamage: 300
@@ -38,6 +39,7 @@ drawer: {
       growProgress: reload
       growX: -1
       growY: -1
+      y: 2
     }
     {
       type: RegionPart
