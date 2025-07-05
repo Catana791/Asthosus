@@ -36,6 +36,11 @@ weapons: [
       type: ExplosionBulletType
       splashDamage: 300
       splashDamageRadius: 40
+      buildingDamageMultiplier: 10
+      puddleRange: 12
+      puddles: 6
+      puddleAmount: 128
+      puddleLiquid: 02b-04-liquid-liquid-barite
     }
   } 
 ]
