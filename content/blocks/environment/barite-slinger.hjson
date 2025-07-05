@@ -11,6 +11,9 @@ drawTeamOverlay: false
 reload: 437
 range: 200
 health: 1000
+shootWarmupSpeed: 0.05
+minWarmup: 0.99
+warmupMaintainTime: 120
 shootSound: largeCannon
 shootType: {
   type: BasicBulletType
