@@ -28,22 +28,24 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: -body
-      mirror: true
-      under: false
-      progress: warmup
-      moveX: 4
+      suffix: -barrel
     }
     {
       type: RegionPart
       suffix: -boulder
       mirror: false
-      under: true
       progress: reload
       growProgress: reload
       growX: -1
       growY: -1
-      layerOfsset: 0.1
+    }
+    {
+      type: RegionPart
+      suffix: -body
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 4
     }
   ]
 }
