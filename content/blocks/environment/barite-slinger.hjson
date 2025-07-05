@@ -19,10 +19,11 @@ shoot: {
   firstShotDelay: 120
 }
 shootType: {
-  chargeEffect: {
+  shootEffect: {
     type: MultiEffect
     effects: [
       {
+        offsetY: -3
         type: ParticleEffect
         length: 16
         baseLength: -16
@@ -36,6 +37,7 @@ shootType: {
         cone: 360
       }
       {
+        offsetY: -3
         type: ParticleEffect
         length: 16
         baseLength: -16
