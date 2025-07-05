@@ -38,8 +38,8 @@ weapons: [
       splashDamageRadius: 40
       buildingDamageMultiplier: 10
       puddleRange: 12
-      puddles: 6
-      puddleAmount: 128
+      puddles: 8
+      puddleAmount: 256
       puddleLiquid: 02b-04-liquid-liquid-barite
     }
   } 
