@@ -29,6 +29,8 @@ shootType: {
         sizeFrom: 1
         sizeTo: 0.4
         lifetime: 120
+        layer: 106
+        cone: 360
       }
       {
         type: ParticleEffect
@@ -40,6 +42,8 @@ shootType: {
         sizeFrom: 1
         sizeTo: 0.4
         lifetime: 120
+        layer: 106
+        cone: 360
       }
     ]
   }
