@@ -19,7 +19,7 @@ shoot: {
 inaccuracy: 9
 velocityRnd: 0.34
 chargeSound: short-laser-charge
-shootSound: splash
+shootSound: hive-impact
 shootType: {
   type: BasicBulletType
   frontColor: ffffff
