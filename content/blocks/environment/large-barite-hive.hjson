@@ -12,6 +12,7 @@ reload: 12000
 size: 2
 shootSound: slime-arise
 rotateSpeed: 0
+ambientSound: fast-heartbeat-loop
 drawer: {
   type: DrawTurret
   basePrefix: empty-
