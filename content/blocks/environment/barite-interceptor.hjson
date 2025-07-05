@@ -30,7 +30,7 @@ shootType: {
   damage: 0
   splashDamage: 90
   splashDamageRadius: 32
-  buildingDamageMultiplier: 10
+  buildingDamageMultiplier: 6
   puddleRange: 4
   puddles: 3
   puddleAmount: 64
