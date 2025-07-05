@@ -10,6 +10,7 @@ squareSprite: false
 drawTeamOverlay: false
 reload: 437
 range: 200
+health: 1000
 shootSound: largeCannon
 shootType: {
   type: BasicBulletType
