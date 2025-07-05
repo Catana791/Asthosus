@@ -12,6 +12,7 @@ health: 10000
 size: 3
 shootSound: slime-arise
 ambientSound: fast-heartbeat-loop
+ambientSoundVolume: 0.5
 rotateSpeed: 0
 drawer: {
   type: DrawTurret
