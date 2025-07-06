@@ -1,0 +1,9 @@
+type: Duct
+name: Hive Vein
+description: It seems organic.
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+speed: 0
+health: 500
+requirements: []
