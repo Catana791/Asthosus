@@ -13,7 +13,7 @@ size: 2
 shootSound: slime-arise
 rotateSpeed: 0
 ambientSound: fast-heartbeat-loop
-ambientSoundVolume: 2
+ambientSoundVolume: 6
 drawer: {
   type: DrawTurret
   basePrefix: empty-
