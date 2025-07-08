@@ -43,10 +43,10 @@ category: turret
 research: 03c-14-myriad
 shootSound: shoot-dull
 requirements: [
-  01a-01-item-ferrinite/180
-  01a-06-item-lodestone/90
-  01a-09-item-obsidian/70
-  01a-12-item-crosium/60
+  01a-01-item-ferrinite/225
+  01a-06-item-lodestone/120
+  01a-09-item-obsidian/100
+  01a-12-item-crosium/80
 ]
 ammoTypes: {
   01a-06-item-lodestone: {
