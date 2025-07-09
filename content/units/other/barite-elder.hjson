@@ -29,4 +29,26 @@ hitSize: 28
 drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
-weapons: []
+weapons: [
+  {
+    name: barite-elder-mouth
+    x: 0
+    y: 16
+    reload: 341
+    rotate: false
+    shootCone: 45
+    parts: [
+      {
+        type: RegionPart
+        suffix: -crystal
+        progress: reload
+        growX: -1
+        growY: -1
+        growthProgress: reload
+      }
+    ]
+    bullet: {
+
+    }
+  }
+]
