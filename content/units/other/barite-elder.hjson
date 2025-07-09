@@ -33,17 +33,18 @@ weapons: [
   {
     name: barite-elder-mouth
     x: 0
-    y: 16
+    y: 9
     reload: 341
     rotate: false
     shootCone: 45
+    layerOffset: -0.01
     parts: [
       {
         type: RegionPart
         suffix: -crystal
         progress: reload
-        growX: -1
-        growY: -1
+        growX: 1
+        growY: 1
         growthProgress: reload
       }
     ]
