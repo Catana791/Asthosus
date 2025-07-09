@@ -36,6 +36,7 @@ weapons: [
     y: 0
     reload: 341
     rotate: false
+    mirror: false
     shootCone: 45
     layerOffset: -0.01
     parts: [
@@ -48,6 +49,62 @@ weapons: [
         growthProgress: reload
       }
     ]
+    bullet: {
+
+    }
+  }
+  {
+    name: barite-elder-launcher
+    x: -3
+    y: -3
+    reload: 273
+    rotate: true
+    mirror: false
+    shootCone: 30
+    bullet: {
+
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: -5
+    y: 3
+    reload: 34
+    mirror: false
+    rotate: true
+    bullet: {
+
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: -7
+    y: -4
+    reload: 54
+    mirror: false
+    rotate: true
+    bullet: {
+
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: 3
+    y: 9
+    reload: 54
+    mirror: false
+    rotate: true
+    bullet: {
+
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: 6
+    y: -1
+    reload: 54
+    mirror: false
+    rotate: true
     bullet: {
 
     }
