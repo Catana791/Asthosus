@@ -13,13 +13,13 @@ legMinLength: 0.2
 legLengthScl: 0.95
 legForwardScl: 0.9
 legMoveSpace: 1
-legSpeed: 0.23
+legSpeed: 0.17
 hovering: true
 immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
 health: 7800
 armor: 12
 speed: 0.47
-stepShake: 3
+stepShake: 4
 legSplashDamage: 60
 legSplashRange: 32
 drawCell: false
@@ -55,8 +55,8 @@ weapons: [
   }
   {
     name: barite-elder-laser
-    x: -14
-    y: 9
+    x: -21
+    y: 6
     reload: 34
     mirror: false
     rotate: true
@@ -66,8 +66,8 @@ weapons: [
   }
   {
     name: barite-elder-laser
-    x: -17
-    y: -10
+    x: -19
+    y: -11
     reload: 54
     mirror: false
     rotate: true
@@ -77,8 +77,8 @@ weapons: [
   }
   {
     name: barite-elder-laser
-    x: 6
-    y: 17
+    x: 7
+    y: 15
     reload: 54
     mirror: false
     rotate: true
