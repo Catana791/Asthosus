@@ -3,7 +3,7 @@ size: 2
 name: Large Lithium Wall
 description: A large wall made from charged lithium. Sometimes releases electrical arcs that damage nearby enemies.
 lightningChance: 0.05
-lightningDamage: 10
+lightningDamage: 5
 lightningColor: cf9991
 health: 1740
 requirements: [
