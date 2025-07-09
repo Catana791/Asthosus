@@ -54,21 +54,9 @@ weapons: [
     }
   }
   {
-    name: barite-elder-launcher
-    x: -3
-    y: -3
-    reload: 273
-    rotate: true
-    mirror: false
-    shootCone: 30
-    bullet: {
-
-    }
-  }
-  {
     name: barite-elder-laser
-    x: -5
-    y: 3
+    x: -14
+    y: 9
     reload: 34
     mirror: false
     rotate: true
@@ -78,19 +66,8 @@ weapons: [
   }
   {
     name: barite-elder-laser
-    x: -7
-    y: -4
-    reload: 54
-    mirror: false
-    rotate: true
-    bullet: {
-
-    }
-  }
-  {
-    name: barite-elder-laser
-    x: 3
-    y: 9
+    x: -17
+    y: -10
     reload: 54
     mirror: false
     rotate: true
@@ -101,10 +78,33 @@ weapons: [
   {
     name: barite-elder-laser
     x: 6
-    y: -1
+    y: 17
     reload: 54
     mirror: false
     rotate: true
+    bullet: {
+
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: 11
+    y: -7
+    reload: 54
+    mirror: false
+    rotate: true
+    bullet: {
+
+    }
+  }
+  {
+    name: barite-elder-launcher
+    x: -6
+    y: -6
+    reload: 273
+    rotate: true
+    mirror: false
+    shootCone: 30
     bullet: {
 
     }
