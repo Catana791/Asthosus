@@ -2,7 +2,7 @@ type: legs
 name: Barite Elder
 description: A strange lifeform that was born in Asthosus' radioactive biomes. It appears to be the pinnacle of these creatures evolution.
 legCount: 6
-legLength: 36
+legLength: 108
 legGroupSize: 2
 lockLegBase: true
 legContinuousMove: true
