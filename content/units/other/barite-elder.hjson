@@ -2,7 +2,7 @@ type: legs
 name: Barite Elder
 description: A strange lifeform that was born in Asthosus' radioactive biomes. It appears to be the pinnacle of these creatures evolution.
 legCount: 6
-legLength: 108
+legLength: 88
 legGroupSize: 2
 lockLegBase: true
 legContinuousMove: true
@@ -24,8 +24,8 @@ legSplashDamage: 60
 legSplashRange: 32
 drawCell: false
 drawCell: false
-stepShake: 0
-hitSize: 28
+stepShake: 3
+hitSize: 40
 drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
@@ -33,7 +33,7 @@ weapons: [
   {
     name: barite-elder-mouth
     x: 0
-    y: 1
+    y: 0
     reload: 341
     rotate: false
     shootCone: 45
