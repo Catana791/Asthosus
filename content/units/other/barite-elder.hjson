@@ -38,7 +38,7 @@ weapons: [
     rotate: false
     mirror: false
     shootCone: 45
-    layerOffset: -1
+    layerOffset: -0.1
     shootY: 20
     parts: [
       {
