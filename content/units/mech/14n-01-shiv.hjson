@@ -1,4 +1,4 @@
-type: mech
+Etype: mech
 name: Shiv
 description: Fires electric energy blades at nearby targets. Able to dash a short distance every so often. Strong in numbers, weak in few.
 speed: 0.5333333333
