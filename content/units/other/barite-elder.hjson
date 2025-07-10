@@ -38,13 +38,14 @@ weapons: [
     rotate: false
     mirror: false
     shootCone: 45
-    layerOffset: -0.01
+    layerOffset: -1
+    shootY: 20
     parts: [
       {
         type: RegionPart
         suffix: -crystal
         progress: reload
-        moveY: -4
+        moveY: -7
         growthProgress: reload
       }
     ]
