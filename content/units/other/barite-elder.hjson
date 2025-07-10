@@ -44,13 +44,15 @@ weapons: [
         type: RegionPart
         suffix: -crystal
         progress: reload
-        growX: -1
-        growY: -1
+        moveY: -4
         growthProgress: reload
       }
     ]
     bullet: {
-
+      instantDisappear: true
+      collides: false
+      damage: 0
+      spawnUnit: asthosus-barite-elder-crystal-missile
     }
   }
   {
@@ -106,7 +108,7 @@ weapons: [
     mirror: false
     shootCone: 30
     bullet: {
-
+      
     }
   }
 ]
