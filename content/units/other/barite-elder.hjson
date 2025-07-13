@@ -64,7 +64,11 @@ weapons: [
     mirror: false
     rotate: true
     bullet: {
-
+      type: LaserBulletType
+      length: 180
+      width: 2
+      hitSound: spark
+      colors: [b1b1b1, f8efe6, ffffff]
     }
   }
   {
@@ -75,7 +79,11 @@ weapons: [
     mirror: false
     rotate: true
     bullet: {
-
+      type: LaserBulletType
+      length: 180
+      width: 2
+      hitSound: spark
+      colors: [b1b1b1, f8efe6, ffffff]
     }
   }
   {
@@ -86,7 +94,11 @@ weapons: [
     mirror: false
     rotate: true
     bullet: {
-
+      type: LaserBulletType
+      length: 180
+      width: 2
+      hitSound: spark
+      colors: [b1b1b1, f8efe6, ffffff]
     }
   }
   {
@@ -96,20 +108,39 @@ weapons: [
     reload: 54
     mirror: false
     rotate: true
+    inaccuracy: 3
     bullet: {
-
+      type: LaserBulletType
+      length: 180
+      width: 2
+      hitSound: spark
+      colors: [b1b1b1, f8efe6, ffffff]
     }
   }
   {
     name: barite-elder-launcher
     x: -6
     y: -6
+    shake: 2
     reload: 273
     rotate: true
     mirror: false
     shootCone: 30
+    chargeSound: lasercharge2
+    shoot: {
+      type: ShootSpread
+      shots: 12
+      spread: 3
+      shotDelay: 3
+      firstShotDelay: 60
+    }
     bullet: {
-      
+      type: LaserBulletType
+      length: 240
+      width: 6
+      hitSound: spark
+      hitEffect: instHit
+      colors: [b1b1b1, f8efe6, ffffff]
     }
   }
 ]
