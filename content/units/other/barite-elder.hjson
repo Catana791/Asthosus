@@ -16,8 +16,8 @@ legMoveSpace: 1
 legSpeed: 0.17
 hovering: true
 immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
-health: 7800
-armor: 12
+health: 26790
+armor: 16
 speed: 0.47
 stepShake: 4
 legSplashDamage: 60
@@ -71,7 +71,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 23
+      damage: 31
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -89,7 +89,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 17
+      damage: 23
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -113,7 +113,7 @@ weapons: [
       length: 180
       width: 2
       hitSound: spark
-      damage: 29
+      damage: 34
       colors: [b1b1b1, f8efe6, ffffff]
     }
   }
@@ -126,12 +126,12 @@ weapons: [
     rotate: true
     inaccuracy: 3
     shootY: 7
-    shootSound: spark
+    shootSound: laser
     bullet: {
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 22
+      damage: 27
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -158,7 +158,7 @@ weapons: [
     bullet: {
       type: LaserBulletType
       length: 240
-      damage: 64
+      damage: 102
       width: 6
       hitSound: spark
       hitEffect: instHit
