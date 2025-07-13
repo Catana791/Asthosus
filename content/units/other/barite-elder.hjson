@@ -38,7 +38,7 @@ weapons: [
     rotate: false
     mirror: false
     shootCone: 45
-    layerOffset: -0.1
+    layerOffset: -0.01
     shootY: 20
     parts: [
       {
@@ -46,6 +46,8 @@ weapons: [
         suffix: -crystal
         progress: reload
         moveY: -7
+        x: 0.25
+        y: 0.25
         growthProgress: reload
       }
     ]
@@ -63,12 +65,13 @@ weapons: [
     reload: 34
     mirror: false
     rotate: true
-    shootY: 3
+    shootY: 7
     shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
       width: 2
+      damage: 23
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -80,12 +83,13 @@ weapons: [
     reload: 54
     mirror: false
     rotate: true
-    shootY: 3
+    shootY: 7
     shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
       width: 2
+      damage: 17
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -97,13 +101,19 @@ weapons: [
     reload: 54
     mirror: false
     rotate: true
-    shootY: 3
-    shootSound: spark
+    inaccuracy: 3
+    shootY: 7
+    shootSound: laser
+    shoot: {
+      shots: 2
+      shotDelay: 5
+    }
     bullet: {
       type: LaserBulletType
       length: 180
       width: 2
       hitSound: spark
+      damage: 29
       colors: [b1b1b1, f8efe6, ffffff]
     }
   }
@@ -115,12 +125,13 @@ weapons: [
     mirror: false
     rotate: true
     inaccuracy: 3
-    shootY: 3
+    shootY: 7
     shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
       width: 2
+      damage: 22
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -134,19 +145,20 @@ weapons: [
     rotate: true
     mirror: false
     shootCone: 30
-    shootY: 6
+    shootY: 17
     shootSound: laser
     chargeSound: lasercharge2
     shoot: {
       type: ShootSpread
-      shots: 12
-      spread: 3
+      shots: 18
+      spread: 2
       shotDelay: 3
       firstShotDelay: 60
     }
     bullet: {
       type: LaserBulletType
       length: 240
+      damage: 64
       width: 6
       hitSound: spark
       hitEffect: instHit
