@@ -35,7 +35,7 @@ weapons: [
     shake: 3
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 803
+      splashDamage: 763
       splashDamageRadius: 80
       splashDamagePierce: true
       puddleRange: 12
