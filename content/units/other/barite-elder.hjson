@@ -45,7 +45,7 @@ weapons: [
         type: RegionPart
         suffix: -crystal
         progress: reload
-        moveY: -7
+        moveY: -12
         x: 0.25
         y: 0.25
         growthProgress: reload
@@ -71,7 +71,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 31
+      damage: 36
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -89,7 +89,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 23
+      damage: 27
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -113,7 +113,7 @@ weapons: [
       length: 180
       width: 2
       hitSound: spark
-      damage: 34
+      damage: 39
       colors: [b1b1b1, f8efe6, ffffff]
     }
   }
@@ -131,7 +131,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 27
+      damage: 33
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
     }
@@ -158,7 +158,7 @@ weapons: [
     bullet: {
       type: LaserBulletType
       length: 240
-      damage: 102
+      damage: 126
       width: 6
       hitSound: spark
       hitEffect: instHit
