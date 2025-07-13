@@ -63,6 +63,8 @@ weapons: [
     reload: 34
     mirror: false
     rotate: true
+    shootY: 3
+    shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
@@ -78,6 +80,8 @@ weapons: [
     reload: 54
     mirror: false
     rotate: true
+    shootY: 3
+    shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
@@ -93,6 +97,8 @@ weapons: [
     reload: 54
     mirror: false
     rotate: true
+    shootY: 3
+    shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
@@ -109,6 +115,8 @@ weapons: [
     mirror: false
     rotate: true
     inaccuracy: 3
+    shootY: 3
+    shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
@@ -126,6 +134,8 @@ weapons: [
     rotate: true
     mirror: false
     shootCone: 30
+    shootY: 6
+    shootSound: laser
     chargeSound: lasercharge2
     shoot: {
       type: ShootSpread
