@@ -35,9 +35,8 @@ weapons: [
     shake: 3
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 763
+      splashDamage: 661
       splashDamageRadius: 80
-      splashDamagePierce: true
       puddleRange: 12
       puddles: 8
       puddleAmount: 1028
