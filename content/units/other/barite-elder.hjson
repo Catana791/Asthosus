@@ -40,6 +40,7 @@ weapons: [
     shootCone: 45
     layerOffset: -0.01
     shootY: 20
+    shootSound: elder-spit
     parts: [
       {
         type: RegionPart
