@@ -73,7 +73,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 39
+      damage: 36
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
       status: burning
@@ -94,7 +94,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 35
+      damage: 32
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
       status: asthosus-13m-02-status-radiated
@@ -120,7 +120,7 @@ weapons: [
       length: 180
       width: 2
       hitSound: spark
-      damage: 42
+      damage: 39
       colors: [b1b1b1, f8efe6, ffffff]
       status: asthosus-13m-03-status-infested
       statusDuration: 180
@@ -140,7 +140,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 36
+      damage: 31
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
       status: slow
@@ -169,7 +169,7 @@ weapons: [
     bullet: {
       type: LaserBulletType
       length: 240
-      damage: 134
+      damage: 113
       width: 6
       hitSound: spark
       hitEffect: instHit
