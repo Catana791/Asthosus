@@ -80,7 +80,7 @@ weapons: [
     name: barite-elder-laser
     x: -19
     y: -11
-    reload: 54
+    reload: 39
     mirror: false
     rotate: true
     shootY: 7
@@ -98,7 +98,7 @@ weapons: [
     name: barite-elder-laser
     x: 7
     y: 15
-    reload: 54
+    reload: 107
     mirror: false
     rotate: true
     inaccuracy: 3
