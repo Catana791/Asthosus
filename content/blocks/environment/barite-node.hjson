@@ -1,0 +1,40 @@
+type: PowerTurret
+name: Hive Node
+description: A node that connects hive structures above and below the ground.
+size: 2
+consumes: {}
+requirements: []
+placeablePlayer: false
+buildVisibility: editorOnly
+squareSprite: false
+drawTeamOverlay: false
+reload: 86
+range: 10
+alwaysShooting: true
+health: 1130
+shoot: {
+  shots: 2
+  shotDelay: 15
+}
+shootSound: none
+shootType: {
+  type: BasicBulletType
+  instantDisappear: true
+  despawnHit: true
+  hitEffect: none
+  shootEffect: none
+}
+outlineColor: 42413e
+drawer: {
+  type: DrawTurret
+  basePrefix: barite-node-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -center
+      progress: reload
+      growX: 0.5
+      growY: 0.5
+    }
+  ]
+}
