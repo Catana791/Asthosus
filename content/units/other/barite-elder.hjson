@@ -64,6 +64,7 @@ weapons: [
     y: 6
     reload: 34
     mirror: false
+    inaccuracy: 5
     rotate: true
     shootY: 7
     shootSound: spark
@@ -71,9 +72,11 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 36
+      damage: 39
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
+      status: burning
+      statusDuration: 90
     }
   }
   {
@@ -84,14 +87,17 @@ weapons: [
     mirror: false
     rotate: true
     shootY: 7
+    inaccuracy: 7
     shootSound: spark
     bullet: {
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 27
+      damage: 35
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
+      status: asthosus-13m-02-status-radiated
+      statusDuration: 120
     }
   }
   {
@@ -101,7 +107,7 @@ weapons: [
     reload: 107
     mirror: false
     rotate: true
-    inaccuracy: 3
+    inaccuracy: 4
     shootY: 7
     shootSound: laser
     shoot: {
@@ -113,8 +119,10 @@ weapons: [
       length: 180
       width: 2
       hitSound: spark
-      damage: 39
+      damage: 42
       colors: [b1b1b1, f8efe6, ffffff]
+      status: asthosus-13m-03-status-infested
+      statusDuration: 180
     }
   }
   {
@@ -131,9 +139,11 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      damage: 33
+      damage: 36
       hitSound: spark
       colors: [b1b1b1, f8efe6, ffffff]
+      status: slow
+      statusDuration: 90
     }
   }
   {
@@ -158,11 +168,13 @@ weapons: [
     bullet: {
       type: LaserBulletType
       length: 240
-      damage: 126
+      damage: 134
       width: 6
       hitSound: spark
       hitEffect: instHit
       colors: [b1b1b1, f8efe6, ffffff]
+      status: shocked
+      statusDuration: 160
     }
   }
 ]
