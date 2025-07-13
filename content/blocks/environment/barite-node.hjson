@@ -11,11 +11,13 @@ drawTeamOverlay: false
 reload: 86
 range: 10
 alwaysShooting: true
+rotateSpeed: 0
+shootY: 0
+shootX: 0
+recoil: 0
+shootEffect: none
+smokeEffect: none
 health: 1130
-shoot: {
-  shots: 2
-  shotDelay: 15
-}
 shootSound: none
 shootType: {
   type: BasicBulletType
@@ -33,6 +35,8 @@ drawer: {
       type: RegionPart
       suffix: -center
       progress: reload
+      mirror: false
+      growthProgress: reload
       growX: 0.5
       growY: 0.5
     }
