@@ -157,7 +157,7 @@ weapons: [
     mirror: false
     shootCone: 30
     shootY: 17
-    shootSound: laser
+    shootSound: spark
     chargeSound: lasercharge2
     shoot: {
       type: ShootSpread
