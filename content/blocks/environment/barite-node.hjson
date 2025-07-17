@@ -8,7 +8,7 @@ placeablePlayer: false
 buildVisibility: editorOnly
 squareSprite: false
 drawTeamOverlay: false
-reload: 400
+reload: 80
 range: 10
 alwaysShooting: true
 rotateSpeed: 0
@@ -23,6 +23,7 @@ shootType: {
   type: BasicBulletType
   instantDisappear: true
   despawnHit: true
+  despawnEffect: none
   hitEffect: none
   shootEffect: none
 }
@@ -39,7 +40,6 @@ drawer: {
       growProgress: reload
       growX: -1
       growY: -1
-      y: 2
     }
   ]
 }
