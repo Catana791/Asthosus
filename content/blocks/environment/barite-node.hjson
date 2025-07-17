@@ -8,7 +8,7 @@ placeablePlayer: false
 buildVisibility: editorOnly
 squareSprite: false
 drawTeamOverlay: false
-reload: 86
+reload: 400
 range: 10
 alwaysShooting: true
 rotateSpeed: 0
@@ -34,11 +34,12 @@ drawer: {
     {
       type: RegionPart
       suffix: -center
-      progress: reload
       mirror: false
-      growthProgress: reload
-      growX: 0.5
-      growY: 0.5
+      progress: reload
+      growProgress: reload
+      growX: -1
+      growY: -1
+      y: 2
     }
   ]
 }
