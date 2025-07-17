@@ -41,5 +41,14 @@ drawer: {
       growX: -1
       growY: -1
     }
+    {
+      type: RegionPart
+      suffix: -center
+      mirror: false
+      progress: reload
+      growProgress: reload
+      growX: 1
+      growY: 1
+    }
   ]
 }
