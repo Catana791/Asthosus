@@ -70,14 +70,29 @@ weapons: [
     shootY: 7
     shootSound: spark
     bullet: {
-      type: LaserBulletType
-      length: 180
-      width: 2
-      damage: 31
-      hitSound: spark
-      colors: [b1b1b1, f8efe6, ffffff]
-      status: burning
-      statusDuration: 90
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: dad2ca
+      trailColor: dad2ca
+      height: 4
+      width: 4
+      speed: 6
+      lifetime: 40
+      trailLength: 18
+      trailWidth: 3
+      sprite: circle-bullet
+      damage: 0
+      splashDamage: 31
+      pierceArmor: true
+      splashPierce: true
+      splashDamageRadius: 16
+      buildingDamageMultiplier: 2
+      puddleRange: 4
+      puddles: 1
+      puddleAmount: 16
+      puddleLiquid: 02b-04-liquid-liquid-barite
+      despawnEffect: none
+      hitEffect: none
     }
   }
   {
@@ -137,14 +152,29 @@ weapons: [
     shootY: 7
     shootSound: laser
     bullet: {
-      type: LaserBulletType
-      length: 180
-      width: 2
-      damage: 26
-      hitSound: spark
-      colors: [b1b1b1, f8efe6, ffffff]
-      status: slow
-      statusDuration: 90
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: dad2ca
+      trailColor: dad2ca
+      height: 4
+      width: 4
+      speed: 6
+      lifetime: 40
+      trailLength: 18
+      trailWidth: 3
+      sprite: circle-bullet
+      damage: 0
+      splashDamage: 26
+      pierceArmor: true
+      splashPierce: true
+      splashDamageRadius: 16
+      buildingDamageMultiplier: 2
+      puddleRange: 4
+      puddles: 1
+      puddleAmount: 16
+      puddleLiquid: 02b-04-liquid-liquid-barite
+      despawnEffect: none
+      hitEffect: none
     }
   }
   {
