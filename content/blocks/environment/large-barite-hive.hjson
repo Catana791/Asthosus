@@ -46,4 +46,4 @@ shootType: {
   despawnSound: none
 }  
 outlineColor: 42413e
-
+squareSprite: false
