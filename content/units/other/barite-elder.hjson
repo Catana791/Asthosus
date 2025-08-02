@@ -67,8 +67,19 @@ weapons: [
     mirror: false
     inaccuracy: 5
     rotate: true
-    shootY: 7
     shootSound: spark
+    shoot: {
+      type: ShootBarrel
+      shots: 5
+      shotDelay: 1
+      barrels: [
+        0, 7, 0,
+        0, 7, 15,
+        0, 7, -15,
+        0, 7, 25, 
+        0, 7, -25
+      ]
+    }
     bullet: {
       type: BasicBulletType
       frontColor: ffffff
@@ -89,10 +100,12 @@ weapons: [
       buildingDamageMultiplier: 2
       puddleRange: 4
       puddles: 1
-      puddleAmount: 16
+      puddleAmount: 32
       puddleLiquid: 02b-04-liquid-liquid-barite
       despawnEffect: none
       hitEffect: none
+      homingPower: 0.8
+      homingDelay: 10
     }
   }
   {
@@ -151,6 +164,18 @@ weapons: [
     inaccuracy: 3
     shootY: 7
     shootSound: laser
+    shoot: {
+      type: ShootBarrel
+      shots: 5
+      shotDelay: 1
+      barrels: [
+        0, 7, 0,
+        0, 7, 15,
+        0, 7, -15,
+        0, 7, 25, 
+        0, 7, -25
+      ]
+    }
     bullet: {
       type: BasicBulletType
       frontColor: ffffff
@@ -171,10 +196,12 @@ weapons: [
       buildingDamageMultiplier: 2
       puddleRange: 4
       puddles: 1
-      puddleAmount: 16
+      puddleAmount: 32
       puddleLiquid: 02b-04-liquid-liquid-barite
       despawnEffect: none
       hitEffect: none
+      homingPower: 0.8
+      homingDelay: 10
     }
   }
   {
