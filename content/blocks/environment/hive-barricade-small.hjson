@@ -2,12 +2,11 @@ type: StorageBlock
 name: Hive Barricade
 description: An alien wall that protects hive infrastructure.
 size: 1
-variants: 2
 health: 1000
 squareSprite: false
 requirements: []
 placeablePlayer: false
 drawTeamOverlay: false
 buildVisibility: editorOnly
-squareSprite: false
 itemCapacity: 0
+variants: 2
