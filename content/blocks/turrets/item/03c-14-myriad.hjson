@@ -29,10 +29,10 @@ outlineColor: 42413e
 category: turret
 research: 03c-11-fulmination
 requirements: [
-  01a-01-item-ferrinite/130
-  01a-06-item-lodestone/100
-  01a-07-item-lithium/80
-  01a-12-item-crosium/60
+  01a-01-item-ferrinite/160
+  01a-06-item-lodestone/120
+  01a-07-item-lithium/100
+  01a-12-item-crosium/80
 ]
 ammoTypes: {
   01a-07-item-lithium: {

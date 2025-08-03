@@ -49,6 +49,7 @@ abilities: [
           sprite: asthosus-energy-blade
           trailEffect: disperseTrail
           trailInterval: 3
+          trailRotation: true
         }
     }
     {  
@@ -73,6 +74,7 @@ abilities: [
         pierceBuilding: true
         recoil: -24
         impact: true
+        trailRotation: true
       }
     }
 ]
