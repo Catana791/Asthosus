@@ -1,0 +1,13 @@
+difficulty: 9
+planet: asthosus
+sector: 23
+captureWave: 100
+research: {
+  parent: 20t-04-bioweapon-facility
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 20t-04-bioweapon-facility
+    }
+  ]
+}

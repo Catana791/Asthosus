@@ -1,0 +1,48 @@
+type: missile
+physics: false
+template: MissileUnitType
+flying: true
+speed: 4
+missileAccelTime: 0
+useUnitCap: false
+engineSize: 0.5
+engineOffset: 2.5
+lifetime: 60
+rotateSpeed: 0
+hitSize: 3
+trailLength: 0
+autoFindTarget: false
+homingDelay: 0
+circleTarget: false
+faceTarget: true
+health: 10000
+trailColor: 7a7564
+aimDst: 4
+drawCell: false
+outlines: true
+outlineRadius: 2
+outlineColor: 44413c
+range: 4
+hidden: true  
+weapons: [
+  {
+    reload: 1
+    shootSound: hive-impact
+    shake: 0
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 3
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 300
+      splashDamageRadius: 40
+      buildingDamageMultiplier: 10
+      puddleRange: 12
+      puddles: 8
+      puddleAmount: 256
+      puddleLiquid: 02b-04-liquid-liquid-barite
+      despawnSound: hive-impact
+    }
+  } 
+]

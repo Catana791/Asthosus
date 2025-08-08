@@ -1,0 +1,47 @@
+type: PowerTurret
+name: Hive Interceptor
+description: Charges up to deliver a concentrated blast of liquid barite, dealing damage and radiating hit targets. Deals extra damage to buildings.
+size: 2
+consumes: {}
+requirements: []
+placeablePlayer: false
+buildVisibility: editorOnly
+squareSprite: false
+drawTeamOverlay: false
+reload: 137
+range: 120
+health: 750
+shoot: {
+  firstShotDelay: 60
+}
+chargeSound: short-laser-charge
+shootSound: hive-impact
+shootType: {
+  type: BasicBulletType
+  frontColor: ffffff
+  backColor: dad2ca
+  trailColor: dad2ca
+  height: 12
+  width: 12
+  speed: 6
+  lifetime: 20
+  trailLength: 18
+  trailWidth: 3
+  sprite: circle-bullet
+  damage: 0
+  splashDamage: 90
+  splashDamageRadius: 32
+  buildingDamageMultiplier: 6
+  puddleRange: 4
+  puddles: 3
+  puddleAmount: 64
+  puddleLiquid: 02b-04-liquid-liquid-barite
+  despawnEffect: none
+  hitEffect: none
+  despawnSound: hive-impact
+}
+outlineColor: 42413e
+drawer: {
+  type: DrawTurret
+  basePrefix: hive-
+}

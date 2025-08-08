@@ -1,0 +1,13 @@
+type: Duct
+name: Hive Vein
+description: It seems organic.
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+speed: 0
+health: 500
+requirements: []
+bridgeReplacement: 05e-06-ferrinite-duct-bridge
+junctionReplacement: 05e-05-ferrinite-duct-junction
+squareSprite: false
+category: logic

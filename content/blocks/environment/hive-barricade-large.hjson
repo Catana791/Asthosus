@@ -1,0 +1,12 @@
+type: StorageBlock
+name: Large Hive Barricade
+description: An alien wall that protects hive infrastructure.
+size: 2
+health: 4000
+requirements: []
+placeablePlayer: false
+drawTeamOverlay: false
+buildVisibility: editorOnly
+squareSprite: false
+itemCapacity: 0
+variants: 2

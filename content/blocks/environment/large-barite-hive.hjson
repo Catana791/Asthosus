@@ -1,20 +1,49 @@
-type: UnitFactory
+type: PowerTurret
 name: Large Barite Hive
 description: A hive that seems to be creating spider-like creatures. Best not to get close to them.
-size: 2
-customShadow: true
 placeablePlayer: false
-drawTeamOverlay: false
-squareSprite: false
-unitCapModifier: 3
+consumes: {}
 buildVisibility: editorOnly
 health: 7500
-requirements: []
-plans: [
-  {
-    unit: barite-stalker
-    requirements: []
-    time: 12000
+unitCapModifier: 3
+customShadow: true
+drawTeamOverlay: false
+reload: 12000
+size: 2
+shootSound: slime-arise
+rotateSpeed: 0
+ambientSound: fast-heartbeat-loop
+ambientSoundVolume: 6
+drawer: {
+  type: DrawTurret
+  basePrefix: empty-
+}
+alwaysShooting: true
+recoil: 0
+inaccuracy: 360
+minRange: 24
+range: 32
+shootX: 0
+shootY: 0
+shootType: {
+  damage: 0
+  width: 0
+  height: 0
+  lifetime: 60
+  spawnUnit: asthosus-barite-stalker
+  despawnHit: true
+  hitEffect: {
+    type: ParticleEffect
+    spin: -2.34
+    colorFrom: e0d2a0
+    colorTo: 9a916e
+    region: asthosus-monolith-star
+    lifetime: 127
+    sizeFrom: 7
+    sizeTo: 1
   }
-]
-consumes: {}
+  hitSound: none
+  despawnSound: none
+}  
+outlineColor: 42413e
+squareSprite: false
