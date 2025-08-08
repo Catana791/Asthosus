@@ -1,12 +1,13 @@
 difficulty: 9
 planet: asthosus
 sector: 23
+captureWave: 100
 research: {
-  parent: 19s-10-furnace-settlement
+  parent: 20t-04-bioweapon-facility
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-10-furnace-settlement
+      preset: 20t-04-bioweapon-facility
     }
   ]
 }
