@@ -16,8 +16,8 @@ legMoveSpace: 1
 legSpeed: 0.17
 hovering: true
 immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
-health: 24970
-armor: 14
+health: 32190
+armor: 26
 speed: 0.47
 stepShake: 4
 legSplashDamage: 60
