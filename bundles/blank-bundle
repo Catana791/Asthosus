@@ -588,10 +588,18 @@ status.asthosus-13m-07-medium-speed-boost.name =
 
 status.asthosus-13m-08-large-speed-boost.name = 
 
-#Environment
+#Barite Environment
+block.asthosus-hive-vein.name =
 block.asthosus-barite-hive.name =
 block.asthosus-large-barite-hive.name =
 block.asthosus-huge-barite-hive.name =
+block.asthosus-barite-interceptor.name =
+block.asthosus-barite-slinger.name =
+block.asthosus-barite-tempest.name =
+block.asthosus-hive-barricade-small =
+block.asthosus-hive-barricade-large =
+
+#Resources Overlay Environment
 block.asthosus-barite-floor.name =
 block.asthosus-hardened-sand-floor.name =
 block.asthosus-red-sand-floor.name =
