@@ -596,8 +596,8 @@ block.asthosus-huge-barite-hive.name =
 block.asthosus-barite-interceptor.name =
 block.asthosus-barite-slinger.name =
 block.asthosus-barite-tempest.name =
-block.asthosus-hive-barricade-small =
-block.asthosus-hive-barricade-large =
+block.asthosus-hive-barricade-small.name =
+block.asthosus-hive-barricade-large.name =
 
 #Resources Overlay Environment
 block.asthosus-barite-floor.name =
@@ -859,6 +859,9 @@ unit.asthosus-barite-stalker.description =
 
 unit.asthosus-barite-scourge.name =
 unit.asthosus-barite-scourge.description =
+
+unit.asthosus-barite-elder.name =
+unit.asthosus-barite-elder.description =
 
 
 #Sectors - Campaign
