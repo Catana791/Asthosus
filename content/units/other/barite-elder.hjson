@@ -230,15 +230,38 @@ weapons: [
       firstShotDelay: 60
     }
     bullet: {
-      type: LaserBulletType
-      length: 240
-      damage: 87
+      trailColor: b1b1b1
+      trailInterval: 3.5
+      trailRotation: true
+      trailLength: 24
+      trailWidth: 1
+      trailEffect: {
+        type: ParticleEffect
+        followParent: true
+        rotWithParent: true
+        useRotation: true
+        randLength: false
+        lifetime: 45
+        particles: 1
+        length: 0
+        colorFrom: ffffff
+        colorTo: b1b1b1
+        sizeFrom: 0
+        sizeTo: 14
+        region: asthosus-sound-wave
+        interp: pow2Out
+      }
+      type: BasicBulletType
+      layer: 111
       width: 6
-      hitSound: spark
-      hitEffect: instHit
-      colors: [b1b1b1, f8efe6, ffffff]
-      status: shocked
-      statusDuration: 160
+      height: 72
+      speed: 8
+      lifetime: 26
+      frontColor: ffffff
+      backColor: b1b1b1
+      pierce: true
+      damage: 87
+      despawnSound: dullExplosion
     }
   }
 ]
