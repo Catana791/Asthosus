@@ -62,7 +62,10 @@ category: crafting
 research: {
   parent: 11k-01-core-essence
   objectives: [
-    19s-03-lattice
+    {
+      type: OnSector
+      preset: 19s-03-lattice
+    }
   ]
 }
 requirements: [
