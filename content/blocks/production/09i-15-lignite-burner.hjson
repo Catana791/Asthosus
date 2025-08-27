@@ -63,6 +63,10 @@ research: {
   parent: 11k-01-core-essence
   objectives: [
     {
+      type: SectorComplete
+      preset: 19s-02-ignition
+    }
+    {
       type: OnSector
       preset: 19s-03-lattice
     }
