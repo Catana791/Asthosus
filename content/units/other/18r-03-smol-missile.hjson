@@ -8,7 +8,7 @@ rotateSpeed: 0.1
 hitSize: 5
 trailLength: 0
 useUnitCap: false
-health: 10000
+health: 100
 autoFindTarget: false
 homingDelay: 0
 circleTarget: false
