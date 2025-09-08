@@ -26,4 +26,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update blank bundle with new translation keys"
-          file_pattern: bundles/blank\ bundle
+          file_pattern: bundles/blank-bundle
