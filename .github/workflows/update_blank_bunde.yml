@@ -1,0 +1,29 @@
+name: Update Blank Bundle
+
+on:
+  workflow_dispatch: # run manually
+  schedule:
+    - cron: "0 0 1 * *" # monthly
+
+jobs:
+  update-blank-bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install hjson parser
+        run: pip install hjson
+
+      - name: Update blank bundle
+        run: python .github/update_blank_bundle.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update blank bundle with new translation keys"
+          file_pattern: bundles/blank\ bundle
