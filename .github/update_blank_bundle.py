@@ -2,7 +2,7 @@ import os
 import hjson
 
 CONTENT_DIR = os.path.join(os.path.dirname(__file__), "..", "content")
-BUNDLE_PATH = os.path.join(os.path.dirname(__file__), "..", "bundles", "blank bundle")
+BUNDLE_PATH = os.path.join(os.path.dirname(__file__), "..", "bundles", "blank-bundle")
 
 def scan_hjson_files(root):
     keys = set()
