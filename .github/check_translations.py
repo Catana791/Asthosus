@@ -3,7 +3,7 @@ import sys
 
 # Path to bundles folder (relative to repo root, since we are in .github/)
 BUNDLE_DIR = os.path.join(os.path.dirname(__file__), "..", "bundles")
-DEFAULT_FILE = "bundle.properties"
+DEFAULT_KEYS_FILE = "blank-bundle"  # no extension
 
 def load_properties(path):
     props = {}
@@ -18,17 +18,29 @@ def load_properties(path):
             props[key] = value
     return props
 
-def main():
-    default_path = os.path.join(BUNDLE_DIR, DEFAULT_FILE)
-    default_keys = set(load_properties(default_path).keys())
+def load_keys(path):
+    """Load keys from the blank bundle (key list only, no values)."""
+    keys = set()
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _ = line.split("=", 1)
+            keys.add(key)
+    return keys
 
-    print(f"Checking translations against {DEFAULT_FILE} ({len(default_keys)} keys)...")
+def main():
+    default_path = os.path.join(BUNDLE_DIR, DEFAULT_KEYS_FILE)
+    default_keys = load_keys(default_path)
+
+    print(f"Checking translations against {DEFAULT_KEYS_FILE} ({len(default_keys)} keys)...")
 
     issues_found = False
     summary = []
 
     for file in os.listdir(BUNDLE_DIR):
-        if not file.endswith(".properties") or file == DEFAULT_FILE:
+        if not file.endswith(".properties"):
             continue
 
         path = os.path.join(BUNDLE_DIR, file)
