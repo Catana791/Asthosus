@@ -17,8 +17,8 @@ def scan_hjson_files(root):
                     with open(path, "r", encoding="utf-8") as f:
                         data = hjson.load(f)
 
-                    ctype = data.get("type", None)
-                    cname = data.get("name", None)
+                    ctype = data.get("type")
+                    cname = data.get("name")
 
                     if not ctype or not cname:
                         continue
@@ -31,40 +31,40 @@ def scan_hjson_files(root):
                     print(f"⚠[WARNING] Failed to parse {path}: {e}")
     return keys
 
-
-def load_existing_and_protected(bundle_path):
-    existing = {}
-    protected_lines = []
-    in_protected = False
-    if os.path.exists(bundle_path):
-        with open(bundle_path, "r", encoding="utf-8") as f:
-            for line in f:
-                stripped = line.strip()
-                if stripped == PROTECTED_START:
-                    in_protected = True
-                    protected_lines.append(line.rstrip("\n"))
-                    continue
-                if in_protected:
-                    protected_lines.append(line.rstrip("\n"))
-                    if stripped == PROTECTED_END:
-                        in_protected = False
-                    continue
-                if "=" in line:
-                    k, v = line.split("=", 1)
-                    existing[k.strip()] = v.strip()
-    return existing, protected_lines
-
+def read_protected_block(bundle_path):
+    if not os.path.exists(bundle_path):
+        return []
+    lines = []
+    in_block = False
+    with open(bundle_path, "r", encoding="utf-8") as f:
+        for line in f:
+            stripped = line.strip()
+            if stripped == PROTECTED_START:
+                in_block = True
+            if in_block:
+                lines.append(line.rstrip("\n"))
+                if stripped == PROTECTED_END:
+                    in_block = False
+    return lines
 
 def main():
     print("Scanning HJSON files in content/...")
     keys = scan_hjson_files(CONTENT_DIR)
     print(f"Found {len(keys)} translation keys.")
 
-    existing, protected_lines = load_existing_and_protected(BUNDLE_PATH)
+    existing = {}
+    if os.path.exists(BUNDLE_PATH):
+        with open(BUNDLE_PATH, "r", encoding="utf-8") as f:
+            for line in f:
+                if "=" in line:
+                    k, v = line.split("=", 1)
+                    existing[k.strip()] = v.strip()
 
     for k in keys:
         if k not in existing:
             existing[k] = ""
+
+    protected_lines = read_protected_block(BUNDLE_PATH)
 
     with open(BUNDLE_PATH, "w", encoding="utf-8") as f:
         for k in sorted(existing.keys()):
@@ -75,7 +75,6 @@ def main():
                 f.write(f"{pline}\n")
 
     print(f"[SUCCESS] Updated {BUNDLE_PATH} with {len(keys)} keys.")
-
 
 if __name__ == "__main__":
     main()
