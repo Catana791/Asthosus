@@ -8,8 +8,11 @@ on:
 jobs:
   update-blank-bundle:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,5 +30,3 @@ jobs:
         with:
           commit_message: "Chore: Update blank-bundle with new translation keys."
           file_pattern: bundles/blank-bundle
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }} 
