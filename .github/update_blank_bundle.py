@@ -7,6 +7,7 @@ BUNDLE_PATH = os.path.join(os.path.dirname(__file__), "..", "bundles", "blank-bu
 PROTECTED_START = "### NO-OVERRIDE-START ###"
 PROTECTED_END = "### NO-OVERRIDE-END ###"
 
+
 def scan_hjson_files(root):
     keys = set()
     for subdir, _, files in os.walk(root):
@@ -17,13 +18,12 @@ def scan_hjson_files(root):
                     with open(path, "r", encoding="utf-8") as f:
                         data = hjson.load(f)
 
-                    ctype = data.get("type", None)
-                    cname = data.get("name", None)
+                    ctype = data.get("type")
+                    cname = data.get("name")
 
                     if not ctype or not cname:
                         continue
 
-                    # Only add keys for known content types
                     if ctype in ["block", "item", "unit", "liquid", "planet", "sector", "status"]:
                         keys.add(f"{ctype}.{cname}.name")
                         keys.add(f"{ctype}.{cname}.description")
@@ -31,6 +31,7 @@ def scan_hjson_files(root):
                 except Exception as e:
                     print(f"⚠ [WARNING] Failed to parse {path}: {e}")
     return keys
+
 
 def load_existing_keys(bundle_path):
     existing = {}
@@ -48,45 +49,44 @@ def load_existing_keys(bundle_path):
                     protected_lines.append(line.rstrip("\n"))
                 if stripped == PROTECTED_END:
                     in_protected = False
+                    continue  # don’t parse line as key=value
 
-                # Only parse key=value pairs outside the protected block
                 if not in_protected and "=" in line:
                     k, v = line.split("=", 1)
                     existing[k.strip()] = v.strip()
 
     return existing, protected_lines
 
+
 def write_bundle(keys, protected_lines, bundle_path):
     with open(bundle_path, "w", encoding="utf-8") as f:
-        # write sorted generated keys
         for k in sorted(keys.keys()):
             f.write(f"{k} = {keys[k]}\n")
 
-        f.write("\n")
-
-        # re-add preserved block if it exists
         if protected_lines:
+            f.write("\n")
             f.write("\n".join(protected_lines))
             f.write("\n")
 
+
 def main():
-    print("Scanning HJSON files in content/...")
-    keys = scan_hjson_files(CONTENT_DIR)
-    print(f"Found {len(keys)} translation keys in content/.")
+    print("🔍 Scanning HJSON files in content/...")
+    scanned_keys = scan_hjson_files(CONTENT_DIR)
+    print(f"   Found {len(scanned_keys)} keys from content/.")
 
     existing, protected_lines = load_existing_keys(BUNDLE_PATH)
+    print(f"   Loaded {len(existing)} existing keys and {len(protected_lines)} protected lines.")
 
-    # Merge new keys into existing ones (outside protected block)
-    for k in keys:
+    # Merge scanned keys into existing
+    for k in scanned_keys:
         if k not in existing:
             existing[k] = ""
 
     write_bundle(existing, protected_lines, BUNDLE_PATH)
 
-    print(
-        f"[SUCCESS] Updated {BUNDLE_PATH} with {len(existing)} generated keys "
-        f"(plus preserved block of {len(protected_lines)} lines)."
-    )
+    print(f"[SUCCESS] Updated {BUNDLE_PATH} with {len(existing)} generated keys "
+          f"+ preserved block of {len(protected_lines)} lines.")
+
 
 if __name__ == "__main__":
     main()
