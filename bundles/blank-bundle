@@ -1,14 +1,2 @@
 test3.description = 
 test4.details = 
-
-### NO-OVERRIDE-START ###
-
-test
-test2.name
-test3.description = 
-test4.details = 
-aaaaaaa
-this is gibberish
-please dont kill me uwu
-
-### NO-OVERRIDE-STOP ###
