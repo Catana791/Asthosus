@@ -70,7 +70,7 @@ def write_bundle(keys, protected_lines, bundle_path):
 
 
 def main():
-    print("🔍 Scanning HJSON files in content/...")
+    print("Scanning HJSON files in content/...")
     scanned_keys = scan_hjson_files(CONTENT_DIR)
     print(f"   Found {len(scanned_keys)} keys from content/.")
 
