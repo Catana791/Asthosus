@@ -1,91 +1,86 @@
 import os
+from pathlib import Path
 import hjson
+from collections import OrderedDict
 
-CONTENT_DIR = os.path.join(os.path.dirname(__file__), "..", "content")
-BUNDLE_PATH = os.path.join(os.path.dirname(__file__), "..", "bundles", "blank-bundle")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+CONTENT_DIR = REPO_ROOT / "content"
+BUNDLE_PATH = REPO_ROOT / "bundles" / "blank-bundle"
 
 PROTECTED_START = "### NO-OVERRIDE-START ###"
 PROTECTED_END = "### NO-OVERRIDE-END ###"
 
+ALLOWED_TYPES = {"block", "item", "unit", "liquid", "planet", "sector", "status"}
 
-def scan_hjson_files(root):
+
+def scan_hjson_files(root: Path):
     keys = set()
-    for subdir, _, files in os.walk(root):
-        for file in files:
-            if file.endswith(".hjson"):
-                path = os.path.join(subdir, file)
-                try:
-                    with open(path, "r", encoding="utf-8") as f:
-                        data = hjson.load(f)
+    if not root.exists() or not root.is_dir():
+        return keys
 
-                    ctype = data.get("type")
-                    cname = data.get("name")
-
-                    if not ctype or not cname:
-                        continue
-
-                    if ctype in ["block", "item", "unit", "liquid", "planet", "sector", "status"]:
-                        keys.add(f"{ctype}.{cname}.name")
-                        keys.add(f"{ctype}.{cname}.description")
-
-                except Exception as e:
-                    print(f"⚠ [WARNING] Failed to parse {path}: {e}")
+    files = list(root.rglob("*.hjson"))
+    for path in files:
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                data = hjson.load(f)
+            if not isinstance(data, dict):
+                continue
+            ctype = data.get("type")
+            cname = data.get("name")
+            if not ctype or not cname:
+                continue
+            if ctype in ALLOWED_TYPES:
+                keys.add(f"{ctype}.{cname}.name")
+                keys.add(f"{ctype}.{cname}.description")
+        except Exception:
+            continue
     return keys
 
 
-def load_existing_keys(bundle_path):
-    existing = {}
+def load_existing_keys(bundle_path: Path):
+    existing = OrderedDict()
     protected_lines = []
+    if not bundle_path.exists():
+        return existing, protected_lines
+
     in_protected = False
-
-    if os.path.exists(bundle_path):
-        with open(bundle_path, "r", encoding="utf-8") as f:
-            for line in f:
-                stripped = line.strip()
-
-                if stripped == PROTECTED_START:
-                    in_protected = True
-                if in_protected:
-                    protected_lines.append(line.rstrip("\n"))
+    with bundle_path.open("r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.rstrip("\n")
+            stripped = line.strip()
+            if stripped == PROTECTED_START:
+                in_protected = True
+                protected_lines.append(line)
+                continue
+            if in_protected:
+                protected_lines.append(line)
                 if stripped == PROTECTED_END:
                     in_protected = False
-                    continue  # don’t parse line as key=value
-
-                if not in_protected and "=" in line:
-                    k, v = line.split("=", 1)
-                    existing[k.strip()] = v.strip()
-
+                continue
+            if "=" in line:
+                k, v = line.split("=", 1)
+                existing[k.strip()] = v.strip()
     return existing, protected_lines
 
 
-def write_bundle(keys, protected_lines, bundle_path):
-    with open(bundle_path, "w", encoding="utf-8") as f:
-        for k in sorted(keys.keys()):
-            f.write(f"{k} = {keys[k]}\n")
-
+def write_bundle(existing_dict: dict, protected_lines: list, bundle_path: Path):
+    bundle_path.parent.mkdir(parents=True, exist_ok=True)
+    with bundle_path.open("w", encoding="utf-8") as f:
+        for k in sorted(existing_dict.keys()):
+            f.write(f"{k} = {existing_dict[k]}\n")
         if protected_lines:
             f.write("\n")
-            f.write("\n".join(protected_lines))
-            f.write("\n")
+            for pline in protected_lines:
+                f.write(f"{pline}\n")
 
 
 def main():
-    print("Scanning HJSON files in content/...")
     scanned_keys = scan_hjson_files(CONTENT_DIR)
-    print(f"   Found {len(scanned_keys)} keys from content/.")
-
     existing, protected_lines = load_existing_keys(BUNDLE_PATH)
-    print(f"   Loaded {len(existing)} existing keys and {len(protected_lines)} protected lines.")
-
-    # Merge scanned keys into existing
     for k in scanned_keys:
         if k not in existing:
             existing[k] = ""
-
     write_bundle(existing, protected_lines, BUNDLE_PATH)
-
-    print(f"[SUCCESS] Updated {BUNDLE_PATH} with {len(existing)} generated keys "
-          f"+ preserved block of {len(protected_lines)} lines.")
 
 
 if __name__ == "__main__":
