@@ -3,7 +3,7 @@ name: Verite
 description: Long-range, high-precision turret. Fires piercing rounds at enemies. Requires pressure.
 size: 3
 reload: 600
-shootSound: shoot-heavy-cannon
+shootSound: shoot-railgun
 outlineColor: 42413e
 drawer: {
   type: DrawTurret
@@ -51,28 +51,18 @@ smokeEffect: shootSmokeTitan
 coolantMultiplier: 0.5
 ammoTypes: {
   01a-12-item-crosium: {
-    frontColor: ffffff
-    backColor: 486f64
-    trailColor: 486f64
-    type: BasicBulletType
-    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
-    speed: 5
-    lifetime: 96
-    width: 10
-    height: 18
-    hitEffect: hitBulletColor
-    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
-    pierce: true
+    type: LaserBulletType
     damage: 375
     splashDamage: 125
     splashDamageRadius: 64
+    colors: [486f64, 54b89c, ffffff]
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    length: 480
+    width: 30
+    pierce: true
+    hitEffect: hitBulletColor
     despawnSound: shoot-mortar
-    trailChance: -1
-    trailEffect: shootSmokeTitan
-    trailInterval: 3
-    trailRotation: true
-    trailLength: 18
-    trailWidth: 4
     bulletInterval: 8
     intervalRandomSpread: 0
     intervalBullets: 2
