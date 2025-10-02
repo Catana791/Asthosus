@@ -19,7 +19,7 @@ drawer: {
     }
   ]
 }
-shake: 12
+shake: 16
 recoil: 15
 rotateSpeed: 2
 shootCone: 10
@@ -92,6 +92,7 @@ ammoTypes: {
     intervalRandomSpread: 0
     intervalBullets: 2
     intervalSpread: 90
+    shake: 20
     intervalBullet: {
       type: LaserBulletType
       despawnSound: spark
