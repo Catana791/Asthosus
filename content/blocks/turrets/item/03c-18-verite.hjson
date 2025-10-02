@@ -62,7 +62,7 @@ ammoTypes: {
         colors: [486f64, 54b89c, ffffff]
         chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
         length: 480
-        width: 22
+        width: 12
         pierce: true
         lifetime: 90
         hitEffect: hitBulletColor
@@ -82,7 +82,6 @@ ammoTypes: {
     pierce: true
     damage: 0
     trailChance: -1
-    trailEffect: shootSmokeTitan
     trailInterval: 3
     trailRotation: true
     trailLength: 18
