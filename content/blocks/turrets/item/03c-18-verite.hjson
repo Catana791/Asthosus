@@ -66,6 +66,7 @@ ammoTypes: {
         intervalRandomSpread: 0
         intervalBullets: 2
         intervalSpread: 90
+        despawnSound: shoot-mortar
         intervalBullet: {
           type: LaserBulletType
           despawnSound: spark
@@ -118,7 +119,6 @@ ammoTypes: {
     width: 15
     pierce: true
     hitEffect: hitBulletColor
-    despawnSound: shoot-mortar
   }
   01a-13-item-barite-webbing: {
     frontColor: ffffff
