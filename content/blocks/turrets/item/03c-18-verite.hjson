@@ -62,7 +62,7 @@ ammoTypes: {
         colors: [486f64, 54b89c, ffffff]
         chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
         length: 480
-        width: 12
+        width: 16
         pierce: true
         lifetime: 90
         hitEffect: hitBulletColor
@@ -83,6 +83,7 @@ ammoTypes: {
     damage: 0
     trailChance: -1
     trailInterval: 3
+    trailEffect: none
     trailRotation: true
     trailLength: 18
     trailWidth: 4
