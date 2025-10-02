@@ -52,79 +52,79 @@ shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
 coolantMultiplier: 0.5
 ammoTypes: {
-  01a-12-item-crosium: {
+    01a-12-item-crosium: {
     spawnBullets: [
       {
-        frontColor: ffffff
-        backColor: 486f64
-        trailColor: 486f64
-        type: BasicBulletType
-        speed: 8
-        lifetime: 60
-        width: 10
-        height: 18
-        hitEffect: hitBulletColor
-        despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+        type: LaserBulletType
+        damage: 375
+        splashDamage: 125
+        splashDamageRadius: 64
+        colors: [486f64, 54b89c, ffffff]
+        chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+        length: 480
+        width: 15
         pierce: true
-        damage: 0
-        trailChance: -1
-        trailEffect: shootSmokeTitan
-        trailInterval: 3
-        trailRotation: true
-        trailLength: 18
-        trailWidth: 4
-        despawnSound: shoot-mortar
-        intervalBullet: {
-          type: LaserBulletType
-          despawnSound: spark
-          colors: [486f64, 54b89c, ffffff]
-          sideWidth: 2
-          sideLength: 16
-          sideAngle: 45
-          length: 60
-          width: 4
-          damage: 75
-          pierce: true
-        }
-        fragBullets: 3
-        fragRandomSpread: 0
-        fragSpread: 120
-        fragVelocityMin: 1
-        fragVelocityMax: 1
-        fragLifeMin: 1
-        fragLifeMax: 1
-        fragBullet: {
-          frontColor: ffffff
-          backColor: 486f64
-          trailColor: 486f64
-          type: MissileBulletType
-          despawnSound: dull-explosion
-          speed: 2
-          lifetime: 30
-          pierce: true
-          pierceBuilding: true  
-          damage: 50
-          fragBullets: 1
-          fragBullet: {
-            type: ExplosionBulletType
-            despawnSound: explosion
-            killShooter: false
-            splashDamage: 100
-            splashDamageRadius: 32
-          }
-        }
+        hitEffect: hitBulletColor
       }
     ]
-    type: LaserBulletType
-    damage: 375
-    splashDamage: 125
-    splashDamageRadius: 64
-    colors: [486f64, 54b89c, ffffff]
-    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
-    length: 480
-    width: 15
-    pierce: true
+    frontColor: ffffff
+    backColor: 486f64
+    trailColor: 486f64
+    type: BasicBulletType
+    speed: 8
+    lifetime: 60
+    width: 10
+    height: 18
     hitEffect: hitBulletColor
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    pierce: true
+    damage: 0
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+    despawnSound: shoot-mortar
+    intervalBullet: {
+      type: LaserBulletType
+      despawnSound: spark
+      colors: [486f64, 54b89c, ffffff]
+      sideWidth: 2
+      sideLength: 16
+      sideAngle: 45
+      length: 60
+      width: 4
+      damage: 75
+      pierce: true
+    }
+    fragBullets: 3
+    fragRandomSpread: 0
+    fragSpread: 120
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragBullet: {
+      frontColor: ffffff
+      backColor: 486f64
+      trailColor: 486f64
+      type: MissileBulletType
+      despawnSound: dull-explosion
+      speed: 2
+      lifetime: 30
+      pierce: true
+      pierceBuilding: true  
+      damage: 50
+      fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        despawnSound: explosion
+        killShooter: false
+        splashDamage: 100
+        splashDamageRadius: 32
+      }
+    }
   }
   01a-13-item-barite-webbing: {
     frontColor: ffffff
