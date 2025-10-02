@@ -58,7 +58,6 @@ ammoTypes: {
         type: LaserBulletType
         damage: 0
         colors: [486f64, 54b89c, ffffff]
-        chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
         length: 480
         width: 16
         pierce: true
@@ -76,6 +75,7 @@ ammoTypes: {
     width: 8
     height: 14
     hitEffect: hitBulletColor
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
     damage: 375
@@ -139,7 +139,6 @@ ammoTypes: {
         type: LaserBulletType
         damage: 0
         colors: [a78b6f, dfb891, ffffff]
-        chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
         length: 480
         width: 16
         pierce: true
@@ -157,6 +156,7 @@ ammoTypes: {
     width: 8
     height: 14
     hitEffect: hitBulletColor
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
     damage: 450
@@ -220,7 +220,6 @@ ammoTypes: {
         type: LaserBulletType
         damage: 0
         colors: [7e4a4a, c67979, ffffff]
-        chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
         length: 480
         width: 16
         pierce: true
@@ -239,6 +238,7 @@ ammoTypes: {
     height: 14
     hitEffect: hitBulletColor
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     pierce: true
     damage: 600
     splashDamage: 200
