@@ -96,11 +96,16 @@ ammoTypes: {
     intervalBullet: {
       spawnBullets: [
         {
-          type: LightningBulletType
-          despawnSound: spark
-          lightningColor: 54b89c
-          lightningDamage: 0
-          lightningLength: 2
+          instantDisappear: true
+          fragBullets: 1
+          fragRandomSpread: 360
+          fragBullet: {
+            type: LightningBulletType
+            despawnSound: spark
+            lightningColor: 54b89c
+            lightningDamage: 0
+            lightningLength: 2
+          }
         }
       ]
       type: LaserBulletType
@@ -186,11 +191,16 @@ ammoTypes: {
     intervalBullet: {
       spawnBullets: [
         {
-          type: LightningBulletType
-          despawnSound: spark
-          lightningColor: dfb891
-          lightningDamage: 0
-          lightningLength: 2
+          instantDisappear: true
+          fragBullets: 1
+          fragRandomSpread: 360
+          fragBullet: {
+            type: LightningBulletType
+            despawnSound: spark
+            lightningColor: dfb891
+            lightningDamage: 0
+            lightningLength: 2
+          }
         }
       ]
       type: LaserBulletType
@@ -274,14 +284,18 @@ ammoTypes: {
     intervalSpread: 90
     shake: 20
     intervalBullet: {
-      intervalBullet: {
       spawnBullets: [
         {
-          type: LightningBulletType
-          despawnSound: spark
-          lightningColor: c67979
-          lightningDamage: 0
-          lightningLength: 2
+          instantDisappear: true
+          fragBullets: 1
+          fragRandomSpread: 360
+          fragBullet: {
+            type: LightningBulletType
+            despawnSound: spark
+            lightningColor: c67979
+            lightningDamage: 0
+            lightningLength: 2
+          }
         }
       ]
       type: LaserBulletType
@@ -323,5 +337,4 @@ ammoTypes: {
       }
     }
   }
-}
 }
