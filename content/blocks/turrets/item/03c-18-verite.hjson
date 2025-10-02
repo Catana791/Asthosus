@@ -3,7 +3,7 @@ name: Verite
 description: Long-range, high-precision turret. Fires piercing rounds at enemies. Requires pressure.
 size: 3
 reload: 600
-shootSound: shoot-heavy-cannon
+shootSound: railgun-shoot
 outlineColor: 42413e
 drawer: {
   type: DrawTurret
@@ -19,6 +19,8 @@ drawer: {
     }
   ]
 }
+shake: 16
+recoil: 15
 rotateSpeed: 2
 shootCone: 10
 category: turret
@@ -51,32 +53,46 @@ smokeEffect: shootSmokeTitan
 coolantMultiplier: 0.5
 ammoTypes: {
   01a-12-item-crosium: {
+    spawnBullets: [
+      {
+        type: LaserBulletType
+        damage: 0
+        colors: [486f64, 54b89c, ffffff]
+        length: 480
+        width: 16
+        pierce: true
+        lifetime: 90
+        hitEffect: hitBulletColor
+      }
+    ]
     frontColor: ffffff
+    layer: 99
     backColor: 486f64
     trailColor: 486f64
     type: BasicBulletType
-    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
-    speed: 5
-    lifetime: 96
-    width: 10
-    height: 18
+    speed: 16
+    lifetime: 30
+    width: 8
+    height: 14
     hitEffect: hitBulletColor
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
     damage: 375
     splashDamage: 125
     splashDamageRadius: 64
-    despawnSound: shoot-mortar
     trailChance: -1
-    trailEffect: shootSmokeTitan
     trailInterval: 3
+    trailEffect: none
     trailRotation: true
     trailLength: 18
     trailWidth: 4
-    bulletInterval: 8
+    despawnSound: shoot-mortar
+    bulletInterval: 4
     intervalRandomSpread: 0
     intervalBullets: 2
     intervalSpread: 90
+    shake: 20
     intervalBullet: {
       type: LaserBulletType
       despawnSound: spark
@@ -118,32 +134,46 @@ ammoTypes: {
     }
   }
   01a-13-item-barite-webbing: {
+    spawnBullets: [
+      {
+        type: LaserBulletType
+        damage: 0
+        colors: [a78b6f, dfb891, ffffff]
+        length: 480
+        width: 16
+        pierce: true
+        lifetime: 90
+        hitEffect: hitBulletColor
+      }
+    ]
     frontColor: ffffff
+    layer: 99
     backColor: a78b6f
     trailColor: a78b6f
     type: BasicBulletType
-    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
-    speed: 5
-    lifetime: 96
-    width: 10
-    height: 18
+    speed: 16
+    lifetime: 30
+    width: 8
+    height: 14
     hitEffect: hitBulletColor
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
     damage: 450
     splashDamage: 150
     splashDamageRadius: 64
-    despawnSound: shoot-mortar
     trailChance: -1
-    trailEffect: shootSmokeTitan
     trailInterval: 3
+    trailEffect: none
     trailRotation: true
     trailLength: 18
     trailWidth: 4
-    bulletInterval: 8
+    despawnSound: shoot-mortar
+    bulletInterval: 4
     intervalRandomSpread: 0
     intervalBullets: 2
     intervalSpread: 90
+    shake: 20
     intervalBullet: {
       type: LaserBulletType
       despawnSound: spark
@@ -155,7 +185,6 @@ ammoTypes: {
       width: 4
       damage: 100
       pierce: true
-      pierceArmor: true
     }
     fragBullets: 3
     fragRandomSpread: 0
@@ -186,32 +215,46 @@ ammoTypes: {
     }
   }
   01a-14-item-draysten: {
+    spawnBullets: [
+      {
+        type: LaserBulletType
+        damage: 0
+        colors: [7e4a4a, c67979, ffffff]
+        length: 480
+        width: 16
+        pierce: true
+        lifetime: 90
+        hitEffect: hitBulletColor
+      }
+    ]
     frontColor: ffffff
+    layer: 99
     backColor: 7e4a4a
     trailColor: 7e4a4a
     type: BasicBulletType
-    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
-    speed: 5
-    lifetime: 96
-    width: 10
-    height: 18
+    speed: 16
+    lifetime: 30
+    width: 8
+    height: 14
     hitEffect: hitBulletColor
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     pierce: true
     damage: 600
     splashDamage: 200
     splashDamageRadius: 64
-    despawnSound: shoot-mortar
     trailChance: -1
-    trailEffect: shootSmokeTitan
     trailInterval: 3
+    trailEffect: none
     trailRotation: true
     trailLength: 18
     trailWidth: 4
-    bulletInterval: 8
+    despawnSound: shoot-mortar
+    bulletInterval: 4
     intervalRandomSpread: 0
     intervalBullets: 2
     intervalSpread: 90
+    shake: 20
     intervalBullet: {
       type: LaserBulletType
       despawnSound: spark
@@ -223,7 +266,6 @@ ammoTypes: {
       width: 4
       damage: 125
       pierce: true
-      pierceArmor: true
     }
     fragBullets: 3
     fragRandomSpread: 0
