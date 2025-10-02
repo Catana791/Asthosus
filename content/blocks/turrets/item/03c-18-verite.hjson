@@ -56,7 +56,7 @@ ammoTypes: {
     spawnBullets: [
       {
         type: BasicBulletType
-        collides: false
+        pierce: true
         speed: 5
         lifetime: 96
         width: 0.00001
