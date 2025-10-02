@@ -19,6 +19,8 @@ drawer: {
     }
   ]
 }
+shake: 12
+recoil: 15
 rotateSpeed: 2
 shootCone: 10
 category: turret
