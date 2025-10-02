@@ -103,7 +103,7 @@ ammoTypes: {
             type: LightningBulletType
             despawnSound: spark
             lightningColor: 54b89c
-            lightningDamage: 0
+            lightningDamage: 10
             lightningLength: 2
           }
         }
@@ -198,7 +198,7 @@ ammoTypes: {
             type: LightningBulletType
             despawnSound: spark
             lightningColor: dfb891
-            lightningDamage: 0
+            lightningDamage: 10
             lightningLength: 2
           }
         }
@@ -293,7 +293,7 @@ ammoTypes: {
             type: LightningBulletType
             despawnSound: spark
             lightningColor: c67979
-            lightningDamage: 0
+            lightningDamage: 10
             lightningLength: 2
           }
         }
