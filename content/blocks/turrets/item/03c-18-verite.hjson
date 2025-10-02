@@ -74,7 +74,7 @@ ammoTypes: {
     trailColor: 486f64
     type: BasicBulletType
     speed: 12
-    lifetime: 35
+    lifetime: 40
     width: 8
     height: 14
     hitEffect: hitBulletColor
