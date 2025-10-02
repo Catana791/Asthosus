@@ -64,11 +64,12 @@ ammoTypes: {
         length: 480
         width: 22
         pierce: true
-        lifetime: 65
+        lifetime: 90
         hitEffect: hitBulletColor
       }
     ]
     frontColor: ffffff
+    layer: 99
     backColor: 486f64
     trailColor: 486f64
     type: BasicBulletType
@@ -87,6 +88,10 @@ ammoTypes: {
     trailLength: 18
     trailWidth: 4
     despawnSound: shoot-mortar
+    bulletInterval: 6
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 90
     intervalBullet: {
       type: LaserBulletType
       despawnSound: spark
