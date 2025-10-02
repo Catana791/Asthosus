@@ -73,8 +73,8 @@ ammoTypes: {
     backColor: 486f64
     trailColor: 486f64
     type: BasicBulletType
-    speed: 8
-    lifetime: 60
+    speed: 12
+    lifetime: 35
     width: 8
     height: 14
     hitEffect: hitBulletColor
@@ -88,7 +88,7 @@ ammoTypes: {
     trailLength: 18
     trailWidth: 4
     despawnSound: shoot-mortar
-    bulletInterval: 6
+    bulletInterval: 4
     intervalRandomSpread: 0
     intervalBullets: 2
     intervalSpread: 90
