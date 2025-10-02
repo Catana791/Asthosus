@@ -55,17 +55,24 @@ ammoTypes: {
   01a-12-item-crosium: {
     spawnBullets: [
       {
+        frontColor: ffffff
+        backColor: 486f64
+        trailColor: 486f64
         type: BasicBulletType
+        speed: 8
+        lifetime: 60
+        width: 10
+        height: 18
+        hitEffect: hitBulletColor
+        despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
         pierce: true
-        speed: 5
-        lifetime: 96
-        width: 0.00001
-        height: 0.0001
         damage: 0
-        bulletInterval: 8
-        intervalRandomSpread: 0
-        intervalBullets: 2
-        intervalSpread: 90
+        trailChance: -1
+        trailEffect: shootSmokeTitan
+        trailInterval: 3
+        trailRotation: true
+        trailLength: 18
+        trailWidth: 4
         despawnSound: shoot-mortar
         intervalBullet: {
           type: LaserBulletType
@@ -114,7 +121,6 @@ ammoTypes: {
     splashDamageRadius: 64
     colors: [486f64, 54b89c, ffffff]
     chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
-    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     length: 480
     width: 15
     pierce: true
