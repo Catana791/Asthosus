@@ -3,7 +3,7 @@ name: Verite
 description: Long-range, high-precision turret. Fires piercing rounds at enemies. Requires pressure.
 size: 3
 reload: 600
-shootSound: shoot-railgun
+shootSound: railgun-shoot
 outlineColor: 42413e
 drawer: {
   type: DrawTurret
