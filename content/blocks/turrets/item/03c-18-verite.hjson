@@ -62,8 +62,9 @@ ammoTypes: {
         colors: [486f64, 54b89c, ffffff]
         chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
         length: 480
-        width: 15
+        width: 22
         pierce: true
+        lifetime: 65
         hitEffect: hitBulletColor
       }
     ]
@@ -73,8 +74,8 @@ ammoTypes: {
     type: BasicBulletType
     speed: 8
     lifetime: 60
-    width: 10
-    height: 18
+    width: 8
+    height: 14
     hitEffect: hitBulletColor
     despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
     pierce: true
