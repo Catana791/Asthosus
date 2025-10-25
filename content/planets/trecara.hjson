@@ -1,7 +1,7 @@
 localizedName: Trecara
 description: Asthosus moon, a lush stellar body that contains an abundance of water and fauna. Ores are exceedingly rare here so use what you have to conquer this planet.
 details: Noone knows why the catastrophy that hit Asthosus and turned it into a desert planet hit Asthosus in the first place. Trecara was meant to save as a protection against such disaster...
-alwaysUnlocked: false
+alwaysUnlocked: true
 mesh: [
  {
     //water
@@ -66,7 +66,7 @@ minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-accessible: false
+accessible: true
 updateLighting: true
 sectorSeed: 14513
 bloom: false
@@ -78,7 +78,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: 11k-01-core-essence
+defaultCore: 23w-92-core-hyphos
 parent: asthosus
 solarSystem: sun
 launchCandidates: []
