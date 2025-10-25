@@ -1,0 +1,27 @@
+name: Translation QA
+
+on:
+  schedule:
+    # Run at 00:00 UTC on the 1st of every month
+    - cron: "0 0 1 * *"
+
+  workflow_dispatch: 
+    inputs:
+      reason:
+        description: 'Reason for manual run'
+        required: false
+        default: 'manual trigger'
+
+jobs:
+  translation-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run translation check
+        run: python .github/check_translations.py

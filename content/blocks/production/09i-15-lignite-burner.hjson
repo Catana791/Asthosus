@@ -59,7 +59,19 @@ rotate: false
 ambientSound: smelter
 ambientSoundVolume: 0.08
 category: crafting
-research: 11k-01-core-essence
+research: {
+  parent: 11k-01-core-essence
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-02-ignition
+    }
+    {
+      type: OnSector
+      preset: 19s-03-lattice
+    }
+  ]
+}
 requirements: [
   01a-01-item-ferrinite/30
   01a-02-item-demetite/30

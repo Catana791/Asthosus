@@ -1,0 +1,62 @@
+type: PowerTurret
+name: Hive Slinger
+description: Grows organic barite hive boulders in its body to launch them at enemies, dealing high splash damage in a large area.
+size: 3
+consumes: {}
+requirements: []
+placeablePlayer: false
+buildVisibility: editorOnly
+squareSprite: false
+drawTeamOverlay: false
+reload: 437
+range: 200
+health: 1000
+shootWarmupSpeed: 0.05
+minWarmup: 0.99
+warmupMaintainTime: 120
+shootSound: hive-shoot
+shootType: {
+  type: BasicBulletType
+  instantDisappear: true
+  collides: false
+  damage: 0
+  splashDamage: 300
+  splashDamageRadius: 40
+  hitEffect: none
+  despawnEffect: none
+  spawnUnit: asthosus-barite-slinger-missile
+  buildingDamageMultiplier: 10
+  puddleRange: 12
+  puddles: 6
+  puddleAmount: 128
+  puddleLiquid: 02b-04-liquid-liquid-barite
+}
+outlineColor: 42413e
+drawer: {
+  type: DrawTurret
+  basePrefix: hive-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+    }
+    {
+      type: RegionPart
+      suffix: -boulder
+      mirror: false
+      progress: reload
+      growProgress: reload
+      growX: -1
+      growY: -1
+      y: 2
+    }
+    {
+      type: RegionPart
+      suffix: -body
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 4
+    }
+  ]
+}

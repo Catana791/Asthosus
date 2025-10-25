@@ -1,0 +1,267 @@
+type: legs
+name: Barite Elder
+description: A strange lifeform that was born in Asthosus' radioactive biomes. It appears to be the pinnacle of these creatures evolution.
+legCount: 6
+legLength: 88
+legGroupSize: 1
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 7
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.9
+legMoveSpace: 1
+legSpeed: 0.17
+hovering: true
+immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
+health: 32190
+armor: 26
+speed: 0.47
+stepShake: 4
+legSplashDamage: 60
+legSplashRange: 32
+drawCell: false
+drawCell: false
+stepShake: 3
+hitSize: 40
+drag: 0.4
+itemCapacity: 0
+outlineColor: 42413e
+weapons: [
+  {
+    name: barite-elder-mouth
+    x: 0
+    y: 0
+    reload: 341
+    rotate: false
+    mirror: false
+    shootCone: 45
+    layerOffset: -0.01
+    shootY: 20
+    shootSound: elder-spit
+    parts: [
+      {
+        type: RegionPart
+        suffix: -crystal
+        progress: reload
+        moveY: -12
+        x: 0.25
+        y: 0.25
+        growthProgress: reload
+      }
+    ]
+    bullet: {
+      instantDisappear: true
+      collides: false
+      damage: 0
+      spawnUnit: asthosus-barite-elder-crystal-missile
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: -21
+    y: 6
+    reload: 34
+    mirror: false
+    inaccuracy: 5
+    rotate: true
+    shootSound: spark
+    shoot: {
+      type: ShootBarrel
+      shots: 5
+      shotDelay: 1
+      barrels: [
+        0, 7, 0,
+        0, 7, 15,
+        0, 7, -15,
+        0, 7, 25, 
+        0, 7, -25
+      ]
+    }
+    bullet: {
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: dad2ca
+      trailColor: dad2ca
+      height: 4
+      width: 4
+      speed: 6
+      lifetime: 40
+      trailLength: 18
+      trailWidth: 3
+      sprite: circle-bullet
+      damage: 0
+      splashDamage: 7
+      pierceArmor: true
+      splashPierce: true
+      splashDamageRadius: 16
+      buildingDamageMultiplier: 2
+      puddleRange: 4
+      puddles: 1
+      puddleAmount: 32
+      puddleLiquid: 02b-04-liquid-liquid-barite
+      despawnEffect: none
+      hitEffect: none
+      homingPower: 0.8
+      homingDelay: 10
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: false
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: -19
+    y: -11
+    reload: 39
+    mirror: false
+    rotate: true
+    shootY: 7
+    inaccuracy: 7
+    shootSound: spark
+    bullet: {
+      type: LaserBulletType
+      length: 180
+      width: 2
+      damage: 26
+      hitSound: spark
+      colors: [b1b1b1, f8efe6, ffffff]
+      status: asthosus-13m-02-status-radiated
+      statusDuration: 120
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: 7
+    y: 15
+    reload: 107
+    mirror: false
+    rotate: true
+    inaccuracy: 4
+    shootY: 7
+    shootSound: laser
+    shoot: {
+      shots: 2
+      shotDelay: 5
+    }
+    bullet: {
+      type: LaserBulletType
+      length: 180
+      width: 2
+      hitSound: spark
+      damage: 31
+      colors: [b1b1b1, f8efe6, ffffff]
+      status: asthosus-13m-03-status-infested
+      statusDuration: 180
+    }
+  }
+  {
+    name: barite-elder-laser
+    x: 11
+    y: -7
+    reload: 54
+    mirror: false
+    rotate: true
+    inaccuracy: 3
+    shootY: 7
+    shootSound: laser
+    shoot: {
+      type: ShootBarrel
+      shots: 5
+      shotDelay: 1
+      barrels: [
+        0, 7, 0,
+        0, 7, 15,
+        0, 7, -15,
+        0, 7, 25, 
+        0, 7, -25
+      ]
+    }
+    bullet: {
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: dad2ca
+      trailColor: dad2ca
+      height: 4
+      width: 4
+      speed: 6
+      lifetime: 40
+      trailLength: 18
+      trailWidth: 3
+      sprite: circle-bullet
+      damage: 0
+      splashDamage: 6
+      pierceArmor: true
+      splashPierce: true
+      splashDamageRadius: 16
+      buildingDamageMultiplier: 2
+      puddleRange: 4
+      puddles: 1
+      puddleAmount: 32
+      puddleLiquid: 02b-04-liquid-liquid-barite
+      despawnEffect: none
+      hitEffect: none
+      homingPower: 0.8
+      homingDelay: 10
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: false
+    }
+  }
+  {
+    name: barite-elder-launcher
+    x: -6
+    y: -6
+    shake: 2
+    reload: 273
+    rotate: true
+    mirror: false
+    shootCone: 30
+    shootY: 17
+    shootSound: splash
+    chargeSound: lasercharge2
+    shoot: {
+      type: ShootSpread
+      shots: 18
+      spread: 2
+      shotDelay: 3
+      firstShotDelay: 60
+    }
+    bullet: {
+      trailColor: b1b1b1
+      trailInterval: 8
+      trailRotation: true
+      trailLength: 24
+      trailWidth: 1
+      trailEffect: {
+        type: ParticleEffect
+        followParent: true
+        rotWithParent: true
+        useRotation: true
+        randLength: false
+        lifetime: 45
+        particles: 1
+        length: 0
+        colorFrom: ffffff
+        colorTo: b1b1b1
+        sizeFrom: 0
+        sizeTo: 14
+        region: asthosus-sound-wave
+        interp: pow2Out
+      }
+      type: BasicBulletType
+      layer: 111
+      width: 6
+      height: 72
+      speed: 8
+      lifetime: 30
+      frontColor: ffffff
+      backColor: b1b1b1
+      pierce: true
+      damage: 87
+      despawnSound: dullExplosion
+    }
+  }
+]

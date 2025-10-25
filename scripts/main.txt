@@ -1,3 +1,5 @@
+#Disabled due to causing compatability issues in v8
+
 const asthosus = Vars.mods.locateMod("asthosus").meta;
 
 asthosus.displayName = Core.bundle.get("mod.asthosus.name");
