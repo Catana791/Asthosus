@@ -60,8 +60,8 @@ generator: {
   scale: 22
   mag: 0.721
   thresh: 1.152
-  min: 100
-  max: 100
+  min: 200 
+  max: 200
   radMin: 220
   radMax: 600
   iceChance: 0.51
