@@ -19,3 +19,47 @@ ambientSound: hum
 ambientSoundVolume: 0.05
 outputItem: 22v-02-arcana-spores/3
 craftTime: 180
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      particleRad: 4
+      particleRotation: -90
+      particles: 12
+      particleSize: 1
+      x: 0
+      y: -8
+    }
+    {
+      type: DrawParticles
+      particleRad: 4
+      particleRotation: -90
+      particles: 12
+      particleSize: 1
+      x: 0
+      y: 8
+    }
+    {
+      type: DrawParticles
+      particleRad: 4
+      particleRotation: -90
+      particles: 12
+      particleSize: 1
+      x: 8
+      y: 0
+    }
+    {
+      type: DrawParticles
+      particleRad: 4
+      particleRotation: -90
+      particles: 12
+      particleSize: 1
+      x: -8
+      y: 0
+    }
+  ]
+}
