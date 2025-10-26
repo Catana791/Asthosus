@@ -4,38 +4,38 @@ details: Noone knows why the catastrophy that hit Asthosus and turned it into a 
 alwaysUnlocked: true
 mesh: [
  {
-    //water
+    //fungal water
     type: NoiseMesh
     planet: trecara
     divisions: 5
     seed: 7
     radius: 0.2245
-    color1: 587d89
-    color2: 5e95a8
+    color1: 3f34a5
+    color2: 7b70e1
     octaves: 3.7
     persistence: 1.1
   }
   {
-    //grass
+    //blue mushrooms
     type: NoiseMesh
     planet: trecara
     divisions: 5
     radius: 0.222
     seed: 94
-    color1: 64ab7b
-    color2: 487c59
+    color1: 274187
+    color2: 4380c8
     octaves: 3.7
     persistence: 0.6
   }
   {
-    //sand
+    //mud
     type: NoiseMesh
     planet: trecara
     divisions: 6
     seed: 101
     radius: 0.22441
-    color1: babca8
-    color2: c6c282
+    color1: 81554b
+    color2: bfa388
     octaves: 5.1
     persistence: 0.8
   }
@@ -62,7 +62,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 radius: 0.25
-minZoom: 1
+minZoom: 0.2
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
@@ -72,7 +72,7 @@ sectorSeed: 14513
 bloom: false
 visible: true
 atmosphereColor: 666359
-iconColor: 666359
+iconColor: 3f34a5
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
