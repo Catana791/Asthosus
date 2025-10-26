@@ -77,8 +77,8 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 radius: 0.22
-minZoom: 0.2
-maxZoom: 2
+minZoom: 1
+maxZoom: 1.8
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
