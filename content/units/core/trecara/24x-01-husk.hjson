@@ -21,7 +21,7 @@ weapons: [
     name: husk-weapon
     mirror: true
     alternate: true
-    x: 3.8
+    x: -5
     reload: 37
     shootSound: shoot-dull
     shoot: {
