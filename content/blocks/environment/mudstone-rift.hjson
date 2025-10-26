@@ -1,0 +1,5 @@
+type: Floor
+name: Mudstone Rift
+description: A torn up piece of earth containing mineable Mudstone.
+itemDrop: 22v-01-mudstone
+variants: 3
