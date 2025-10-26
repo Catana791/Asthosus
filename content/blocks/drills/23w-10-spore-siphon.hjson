@@ -15,7 +15,7 @@ research: 23w-92-core-hyphos
 requirements: [
   22v-01-mudstone/80
 ]
-ambientSound: hum
+ambientSound: spellLoop
 ambientSoundVolume: 0.05
 outputItem: 22v-02-arcana-spores/3
 craftTime: 180
