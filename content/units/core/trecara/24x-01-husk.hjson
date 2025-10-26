@@ -6,7 +6,7 @@ flying: false
 health: 210
 armor: 2
 hitSize: 7
-hovering: true
+allowLegStep: true
 outlineColor: 342f2f
 mechLegColor: 342f2f
 mineFloor: true
