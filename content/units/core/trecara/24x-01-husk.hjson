@@ -21,7 +21,7 @@ weapons: [
     name: husk-weapon
     mirror: true
     alternate: true
-    x: -5
+    x: -7
     reload: 37
     shootSound: shoot-dull
     shoot: {
@@ -29,7 +29,7 @@ weapons: [
       shotDelay: 1
     }
     top: false
-    layerOffset: -0.1
+    layerOffset: -0.001
     inaccuracy: 2
     rotate: false
     bullet: {
