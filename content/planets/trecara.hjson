@@ -60,8 +60,8 @@ generator: {
   scale: 22
   mag: 0.721
   thresh: 1.152
-  min: 200 
-  max: 200
+  min: 100 
+  max: 100
   radMin: 220
   radMax: 600
   iceChance: 0.51
@@ -76,7 +76,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-radius: 0.25
+radius: 0.175
 minZoom: 1.5
 maxZoom: 2
 drawOrbit: true
