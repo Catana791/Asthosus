@@ -6,6 +6,8 @@ flying: false
 health: 210
 armor: 2
 hitSize: 7
+canBoost: true
+boostMultiplier: 0.85
 outlineColor: 342f2f
 mechLegColor: 342f2f
 mineFloor: true
