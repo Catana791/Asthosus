@@ -98,6 +98,7 @@ defaultCore: 23w-92-core-hyphos
 parent: asthosus
 solarSystem: sun
 launchCandidates: []
+clipRadius: 2
 itemWhitelist: [
   22v-01-mudstone,
   22v-02-arcana-spores,
