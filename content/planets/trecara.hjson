@@ -45,7 +45,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: trecara
    speed: 0.891
-   radius: 0.091
+   radius: 0.093
    divisions: 6
    color: eafffd7e
    octaves: 3
