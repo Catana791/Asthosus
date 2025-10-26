@@ -8,7 +8,7 @@ requirements: [
 isFirstTier: true
 size: 3
 alwaysUnlocked: true
-unitType: 17q-01-zeta
+unitType: 24x-01-husk
 health: 1450
 itemCapacity: 4500
 unitCapModifier: 8
