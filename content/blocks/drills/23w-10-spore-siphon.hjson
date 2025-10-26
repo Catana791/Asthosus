@@ -27,9 +27,9 @@ drawer: {
     }
     {
       type: DrawParticles
-      particleRad: 6
+      particleRad: 5.2
       particleRotation: -167
-      particles: 12
+      particles: 6
       particleSize: 1
       x: 0
       y: -8
@@ -37,9 +37,19 @@ drawer: {
     }
     {
       type: DrawParticles
-      particleRad: 6
+      particleRad: 5.6
+      particleRotation: 167
+      particles: 13
+      particleSize: 1
+      x: 0
+      y: -8
+      color: 7b70e1
+    }
+    {
+      type: DrawParticles
+      particleRad: 6.1
       particleRotation: -156
-      particles: 12
+      particles: 7
       particleSize: 1
       x: 0
       y: 8
@@ -47,9 +57,19 @@ drawer: {
     }
     {
       type: DrawParticles
-      particleRad: 6
-      particleRotation: -177
+      particleRad: 5.7
+      particleRotation: 156
       particles: 12
+      particleSize: 1
+      x: 0
+      y: 8
+      color: 7b70e1
+    }
+    {
+      type: DrawParticles
+      particleRad: 5.7
+      particleRotation: -177
+      particles: 8
       particleSize: 1
       x: 8
       y: 0
@@ -57,13 +77,33 @@ drawer: {
     }
     {
       type: DrawParticles
-      particleRad: 6
+      particleRad: 5.9
+      particleRotation: 177
+      particles: 9
+      particleSize: 1
+      x: 8
+      y: 0
+      color: 7b70e1
+    }
+    {
+      type: DrawParticles
+      particleRad: 6.5
       particleRotation: -131
-      particles: 12
+      particles: 11
       particleSize: 1
       x: -8
       y: 0
       color: 3c246e
+    }
+    {
+      type: DrawParticles
+      particleRad: 6.1
+      particleRotation: 131
+      particles: 7
+      particleSize: 1
+      x: -8
+      y: 0
+      color: 7b70e1
     }
   ]
 }
