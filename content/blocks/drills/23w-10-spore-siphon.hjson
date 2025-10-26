@@ -28,7 +28,7 @@ drawer: {
     {
       type: DrawParticles
       particleRad: 6
-      particleRotation: -90
+      particleRotation: -167
       particles: 12
       particleSize: 1
       x: 0
@@ -38,7 +38,7 @@ drawer: {
     {
       type: DrawParticles
       particleRad: 6
-      particleRotation: -90
+      particleRotation: -156
       particles: 12
       particleSize: 1
       x: 0
@@ -48,7 +48,7 @@ drawer: {
     {
       type: DrawParticles
       particleRad: 6
-      particleRotation: -90
+      particleRotation: -177
       particles: 12
       particleSize: 1
       x: 8
@@ -58,7 +58,7 @@ drawer: {
     {
       type: DrawParticles
       particleRad: 6
-      particleRotation: -90
+      particleRotation: -131
       particles: 12
       particleSize: 1
       x: -8
