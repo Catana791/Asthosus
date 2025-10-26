@@ -1,0 +1,21 @@
+type: AttributeCrafter
+attribute: arcanespores
+name: Spore Siphon
+description: Collects Arcana Spores from Sporevents. 
+size: 3
+hasLiquids: true
+squareSprite: false
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+researchCostMultiplier: 0.5
+category: production
+research: 23w-92-core-hyphos
+requirements: [
+  22v-01-mudstone/80
+]
+ambientSound: hum
+ambientSoundVolume: 0.05
+outputItem: 22v-02-arcana-spores/3
+craftTime: 180
