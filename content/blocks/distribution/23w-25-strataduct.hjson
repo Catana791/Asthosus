@@ -1,0 +1,13 @@
+type: Duct
+name: Strataduct
+description: Transports items through porous mudstone conduits using controlled osmotic pressure differentials.
+category: distribution
+alwaysUnlocked: true
+research: 23w-92-core-hyphos
+speed: 10
+health: 45
+bridgeReplacement: 23w-29-strataduct-bridge
+requirements: [
+  22v-01-mudstone/1
+]
+junctionReplacement: 23w-27-strataduct-junction
