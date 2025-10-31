@@ -31,7 +31,7 @@ shoot: {
   type: ShootSpread
   shots: 3
   shotDelay: 2
-  spread: 6
+  spread: 9
 }
 ammoTypes: {
   22v-01-mudstone: {
@@ -43,7 +43,7 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 27
+    splashDamage: 41
     splashDamageRadius: 8
     fragRandomSpread: 360
     fragBullets: 3
@@ -55,7 +55,7 @@ ammoTypes: {
       height: 5
       speed: 1
       lifetime: 12
-      splashDamage: 4
+      splashDamage: 10
       splashDamageRadius: 8
     }
   }
@@ -68,7 +68,7 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 30
+    splashDamage: 47
     splashDamageRadius: 8
     fragRandomSpread: 360
     fragBullets: 3
@@ -80,7 +80,7 @@ ammoTypes: {
       height: 5
       speed: 1
       lifetime: 12
-      splashDamage: 5
+      splashDamage: 12
       splashDamageRadius: 8
     }
   }
