@@ -1,0 +1,91 @@
+type: ItemTurret
+name: Fracture
+description: Fires bursts of fragile debris clumps at enemies.
+size: 2
+category: turret
+research: {
+  parent: 23w-92-core-hyphos
+  requirements: [
+    22v-01-mudstone/180
+    22v-03-mycillite/60
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: artillery
+requirements: [
+  22v-01-mudstone/25
+  22v-03-mycillite/15
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 342f2f
+reload: 96
+range: 160
+velocityRnd: 0.27
+inaccuracy: 5
+shoot: {
+  type: ShootSpread
+  shots: 3
+  shotDelay: 2
+  spread: 6
+}
+ammoTypes: {
+  22v-01-mudstone: {
+    frontColor: ffffff
+    backColor: 81554b
+    trailColor: 81554b
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 27
+    splashDamageRadius: 8
+    fragRandomSpread: 360
+    fragBullets: 3
+    fragBullet: {
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: 81554b
+      width: 2
+      height: 5
+      speed: 1
+      lifetime: 12
+      splashDamage: 4
+      splashDamageRadius: 8
+    }
+  }
+  22v-02-arcana-spores: {
+    frontColor: ffffff
+    backColor: 5757ce
+    trailColor: 5757ce
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 30
+    splashDamageRadius: 8
+    fragRandomSpread: 360
+    fragBullets: 3
+    fragBullet: {
+      type: BasicBulletType
+      frontColor: ffffff
+      backColor: 5757ce
+      width: 2
+      height: 5
+      speed: 1
+      lifetime: 12
+      splashDamage: 5
+      splashDamageRadius: 8
+    }
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
