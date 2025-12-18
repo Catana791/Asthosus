@@ -91,7 +91,7 @@ Check the Contributors in the Discord server <br> if you wish to know more.
 
 <!----------------------------------[ Badges ]--------------------------------->
 
-[Badge Discord]: https://img.shields.io/discord/1119997279651233822?style=for-the-badge&label=Discord%20Server
+[Badge Discord]: https://img.shields.io/discord/1119997279651233822?style=for-the-badge&label=Discord%20(Click%20Me!)
 [Badge Commit]: https://img.shields.io/github/last-commit/Catana791/asthosus?style=for-the-badge&label=Last%20Commit
 [Badge Issues]: https://img.shields.io/github/issues/Catana791/asthosus?style=for-the-badge
 <!----------------------------------[ Links ]--------------------------------->
