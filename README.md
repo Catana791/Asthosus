@@ -5,7 +5,7 @@
 ![Logo]
 <br> <br>
 [![Badge Commit]][Commits] <br>
-[![Badge Discord]][Discord] <br>
+[![Badge Discord]][Discord]
 [![Badge Issues]][Issues] <br>
 
 <br>
