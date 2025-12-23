@@ -17,7 +17,8 @@ consumes: {
   ]
 }
 craftTime: 120
-ambientSound: hum
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.08
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.05
 squareSprite: false

@@ -78,6 +78,6 @@ drawer: {
     } 
   ]
 }
-ambientSound: grinding
+ambientSound: loopGrind
 ambientSoundVolume: 0.08
 researchCostMultiplier: 0.5

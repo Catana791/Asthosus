@@ -60,6 +60,6 @@ drawer: {
     }
   ]
 }
-ambientSound: grinding
-ambientSoundVolume: 0.08
+ambientSound: loopGrind
+ambientSoundVolume: 0.1
 squareSprite: false

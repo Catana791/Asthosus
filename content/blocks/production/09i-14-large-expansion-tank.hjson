@@ -49,7 +49,7 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
-ambientSoundVolume: 0.2
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.08
 hasLiquids: true
 liquidCapacity: 180

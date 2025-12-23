@@ -38,7 +38,7 @@ requirements: [
   01a-09-item-obsidian/70
 ]
 squareSprite: false
-ambientSound: extractLoop
+ambientSound: loopExtract
 ambientSoundVolume: 0.08
 drawer: {
   type: DrawMulti

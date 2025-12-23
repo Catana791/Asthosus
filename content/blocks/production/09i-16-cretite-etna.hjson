@@ -55,7 +55,7 @@ craftEffect: {
   }
 }
 rotate: false
-ambientSound: smelter
+ambientSound: loopSmelter
 ambientSoundVolume: 0.1
 category: crafting
 research: 09i-15-lignite-burner

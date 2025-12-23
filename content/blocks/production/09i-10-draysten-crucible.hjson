@@ -1,6 +1,6 @@
 type: HeatCrafter
 heatRequirement: 12
-ambientSound: smelter
+ambientSound: loopSmelter
 ambientSoundVolume: 0.12
 maxEfficiency: 1.5
 name: Draysten Crucible
