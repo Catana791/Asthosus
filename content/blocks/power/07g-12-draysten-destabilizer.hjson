@@ -6,8 +6,10 @@ researchCostMultiplier: 0.05
 hasPower: true
 hasLiquids: true
 hasItems: true
-explodeSound: reactor-explosion
+explodeSound: explosionReactor
 explosionShake: 10
+ambientSound: loopHum
+ambientSoundVolume: 0.26
 itemCapacity: 20
 liquidCapacity: 280
 itemDuration: 420

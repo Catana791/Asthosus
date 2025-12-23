@@ -22,7 +22,7 @@ consumes: {
 liquidCapacity: 60
 explosionMinWarmup: 0.5
 explosionDamage: 2000
-ambientSound: flux
+ambientSound: loopFlux
 ambientSoundVolume: 0.13
 // 15 seconds
 unstableSpeed: 0.00111111111

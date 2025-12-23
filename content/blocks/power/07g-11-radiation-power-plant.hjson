@@ -18,6 +18,6 @@ requirements: [
   01a-07-item-lithium/45
   01a-11-item-barite/20
 ]
-ambientSound: hum
+ambientSound: loopHum
 ambientSoundVolume: 0.08
 researchCostMultiplier: 0.5
