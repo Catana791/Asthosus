@@ -7,13 +7,14 @@ shootWarmupSpeed: 0.08
 minWarmup: 0.9
 warmupMaintainTime: 120
 shootEffect: shootBig
-shootSound: shootLaser
+shootSound: explosionAfflict
+shootSoundVolume: 0.5
 outlineColor: 42413e
 recoil: 0
 squareSprite: false
 researchCostMultiplier: 0.5
-loopSound: laserbeam
-loopSoundVolume: 0.5
+loopSound: beamLustre
+loopSoundVolume: 0.8
 shootCone: 360
 chargeSound: short-laser-charge
 smokeEffect: shootSmokeSquareSparse
