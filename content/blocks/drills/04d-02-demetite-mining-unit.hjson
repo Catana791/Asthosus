@@ -9,7 +9,7 @@ requirements: [
 drillTime: 240
 output: 01a-02-item-demetite
 attribute: demetite
-ambientSound: drill
+ambientSound: loopDrill
 ambientSoundVolume: 0.08
 research: 04d-01-ferrinite-mining-unit
 squareSprite: false

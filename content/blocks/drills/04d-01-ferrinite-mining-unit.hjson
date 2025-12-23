@@ -10,7 +10,7 @@ requirements: [
 drillTime: 240
 output: 01a-01-item-ferrinite
 attribute: ferrinite
-ambientSound: drill
+ambientSound: loopDrill
 ambientSoundVolume: 0.08
 alwaysUnlocked: true
 squareSprite: false

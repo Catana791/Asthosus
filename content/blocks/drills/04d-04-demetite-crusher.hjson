@@ -16,7 +16,7 @@ consumes: {
 }
 output: 01a-02-item-demetite
 attribute: demetite
-ambientSound: drill
+ambientSound: loopDrill
 ambientSoundVolume: 0.1
 squareSprite: false
 researchCostMultiplier: 0.5
