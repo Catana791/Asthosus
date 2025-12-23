@@ -38,7 +38,8 @@ drawer: {
   ]
 }
 reload: 90
-shootSound: plasmaboom
+shootSound: shootAtrax
+shootSoundVolume: 1.8
 shoot: {
   type: ShootBarrel
   barrels: 3
@@ -71,7 +72,7 @@ ammoTypes: {
     lifetime: 120
     puddleSize: 48
     despawnHit: true
-    despawnSound: splash
+    despawnSound: shootRetusa
     layer: 99
     status: asthosus-13m-02-status-radiated
     statusDuration: 120
@@ -97,7 +98,7 @@ ammoTypes: {
     lifetime: 120
     puddleSize: 48
     despawnHit: true
-    despawnSound: splash
+    despawnSound: shootRetusa
     layer: 99
     status: asthosus-13m-02-status-radiated
     statusDuration: 240
@@ -123,7 +124,7 @@ ammoTypes: {
     lifetime: 120
     puddleSize: 48
     despawnHit: true
-    despawnSound: splash
+    despawnSound: shootRetusa
     layer: 99
     status: asthosus-13m-02-status-radiated
     statusDuration: 300
