@@ -66,7 +66,7 @@ ammoTypes: {
       colorFrom: e6aca3
       colorTo: b98279
     }
-    hitSound: dull-explosion
+    hitSound: explosion
     homingPower: 0.04
     homingDelay: 20
     type: BasicBulletType
@@ -103,7 +103,7 @@ ammoTypes: {
       colorTo: d77751
     }
     ammoMultiplier: 4
-    hitSound: dull-explosion
+    hitSound: explosion
     homingPower: 0.04
     homingDelay: 20
     type: BasicBulletType
@@ -135,7 +135,7 @@ ammoTypes: {
       colorTo: bab4ae
     }
     ammoMultiplier: 4
-    hitSound: dull-explosion
+    hitSound: explosion
     reloadMultiplier: 1.25
     homingPower: 0.04
     homingDelay: 20
@@ -168,7 +168,7 @@ ammoTypes: {
       colorTo: a78b6f
     }
     ammoMultiplier: 8
-    hitSound: dull-explosion
+    hitSound: explosion
     reloadMultiplier: 1.5
     homingPower: 0.04
     homingDelay: 20

@@ -46,7 +46,7 @@ drawer: {
     }
   ]
 }
-shootSound: missileLaunch
+shootSound: shootScathe
 shoot: {
   type: ShootBarrel
   shots: 4

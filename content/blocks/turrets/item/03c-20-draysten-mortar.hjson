@@ -84,7 +84,7 @@ ammoTypes: {
     status: burning
     statusDuration: 240
     ammoMultiplier: 1
-    despawnSound: explosionbig
+    despawnSound: explosionCrawler
     fragRandomSpread: 0
     fragSpread: 45
     fragLifeMin: 1
@@ -183,7 +183,7 @@ ammoTypes: {
     incendSpread: 2
     status: melting
     statusDuration: 300
-    despawnSound: explosionbig
+    despawnSound: explosionCrawler
     fragRandomSpread: 0
     fragSpread: 45
     fragLifeMin: 1
@@ -282,7 +282,7 @@ ammoTypes: {
     incendSpread: 2
     status: melting
     statusDuration: 360
-    despawnSound: explosionbig
+    despawnSound: explosionCrawler
     fragRandomSpread: 0
     fragSpread: 45
     fragLifeMin: 1

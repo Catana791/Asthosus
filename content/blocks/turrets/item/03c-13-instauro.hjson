@@ -39,7 +39,7 @@ drawer: {
 }
 ammoPerShot: 6
 reload: 274
-shootSound: shotgun
+shootSound: shootFuse
 shootEffect: shootTitan
 smokeEffect: shootSmokeTitan
 category: turret
@@ -56,7 +56,7 @@ ammoTypes: {
       {
         type: ShrapnelBulletType
         length: 180
-        hitSound: shotgun
+        hitSound: shootFuse
         width: 4
         damage: 190
         pierce: true
@@ -102,11 +102,11 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
-          despawnSound: shotgun
+          despawnSound: shootFuse
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
-            hitSound: shotgun
+            hitSound: shootFuse
             width: 4
             damage: 95
             pierce: true
@@ -154,13 +154,13 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
-          despawnSound: shotgun
+          despawnSound: shootFuse
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
             width: 4
             damage: 95
-            hitSound: shotgun
+            hitSound: shootFuse
             pierce: true
             lifetime: 60
             fromColor: fca988
@@ -189,14 +189,14 @@ ammoTypes: {
         fragLifeMin: 1
         fragLifeMax: 1
         fragRandomSpread: 0
-        despawnSound: shotgun
+        despawnSound: shootFuse
         fragBullet: {
           type: ShrapnelBulletType
           length: 60
           width: 4
           damage: 95
           pierce: true
-          hitSound: shotgun
+          hitSound: shootFuse
           lifetime: 60
           fromColor: fca988
           toColor: d77751
@@ -207,7 +207,7 @@ ammoTypes: {
     ]
     type: ShrapnelBulletType
     length: 60
-    hitSound: shotgun
+    hitSound: shootFuse
     width: 4
     damage: 95
     pierce: true
@@ -223,7 +223,7 @@ ammoTypes: {
       {
         type: ShrapnelBulletType
         length: 180
-        hitSound: shotgun
+        hitSound: shootFuse
         width: 4
         damage: 324
         pierce: true
@@ -268,12 +268,12 @@ ammoTypes: {
           fragAngle: -45
           fragLifeMin: 1
           fragLifeMax: 1
-          despawnSound: shotgun
+          despawnSound: shootFuse
           fragRandomSpread: 0
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
-            hitSound: shotgun
+            hitSound: shootFuse
             width: 4
             damage: 162
             pierce: true
@@ -321,13 +321,13 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
-          despawnSound: shotgun
+          despawnSound: shootFuse
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
             width: 4
             damage: 162
-            hitSound: shotgun
+            hitSound: shootFuse
             pierce: true
             lifetime: 60
             fromColor: f8efe6
@@ -355,7 +355,7 @@ ammoTypes: {
         fragAngle: 22.5
         fragLifeMin: 1
         fragLifeMax: 1
-        despawnSound: shotgun
+        despawnSound: shootFuse
         fragRandomSpread: 0
         fragBullet: {
           type: ShrapnelBulletType
@@ -363,7 +363,7 @@ ammoTypes: {
           width: 4
           damage: 162
           pierce: true
-          hitSound: shotgun
+          hitSound: shootFuse
           lifetime: 60
           fromColor: f8efe6
           toColor: bab4ae
@@ -374,7 +374,7 @@ ammoTypes: {
     ]
     type: ShrapnelBulletType
     length: 60
-    hitSound: shotgun
+    hitSound: shootFuse
     width: 4
     damage: 162
     pierce: true
@@ -391,7 +391,7 @@ ammoTypes: {
       {
         type: ShrapnelBulletType
         length: 180
-        hitSound: shotgun
+        hitSound: shootFuse
         width: 4
         damage: 270
         pierce: true
@@ -435,11 +435,11 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
-          despawnSound: shotgun
+          despawnSound: shootFuse
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
-            hitSound: shotgun
+            hitSound: shootFuse
             width: 4
             damage: 135
             pierce: true
@@ -485,13 +485,13 @@ ammoTypes: {
           fragLifeMin: 1
           fragLifeMax: 1
           fragRandomSpread: 0
-          despawnSound: shotgun
+          despawnSound: shootFuse
           fragBullet: {
             type: ShrapnelBulletType
             length: 60
             width: 4
             damage: 135
-            hitSound: shotgun
+            hitSound: shootFuse
             pierce: true
             lifetime: 60
             fromColor: deb790
@@ -518,14 +518,14 @@ ammoTypes: {
         fragLifeMin: 1
         fragLifeMax: 1
         fragRandomSpread: 0
-        despawnSound: shotgun
+        despawnSound: shootFuse
         fragBullet: {
           type: ShrapnelBulletType
           length: 60
           width: 4
           damage: 135
           pierce: true
-          hitSound: shotgun
+          hitSound: shootFuse
           lifetime: 60
           fromColor: deb790
           toColor: a68b6d
@@ -534,7 +534,7 @@ ammoTypes: {
     ]
     type: ShrapnelBulletType
     length: 60
-    hitSound: shotgun
+    hitSound: shootFuse
     width: 4
     damage: 135
     pierce: true
