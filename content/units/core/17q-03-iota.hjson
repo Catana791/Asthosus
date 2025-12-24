@@ -14,6 +14,8 @@ mineWalls: true
 legLengthScl: 0.96
 rippleScale: 2
 legSplashDamage: 0
+stepSound: walkerStepSmall
+stepSoundVolume: 0.7
 drownTimeMultiplier: 2
 rotateSpeed: 2.7
 hovering: true
@@ -89,7 +91,8 @@ weapons: [
     mirror: false
     rotate: true
     reload: 31
-    shootSound: spark
+    shootSound: shootArc
+    shootSoundVolume: 0.7
     rotateSpeed: 3.6
     recoil: 1
     bullet: {
@@ -97,8 +100,8 @@ weapons: [
       damage: 15
       buildingDamageMultiplier: 0.01
       lightningLength: 18
-      hitSound: spark
-      despawnSound: spark
+      hitSound: shockBullet
+      despawnSound: shockBullet
       spawnBullets: [
         {
           type: LaserBulletType
@@ -120,6 +123,7 @@ weapons: [
     rotate: true
     rotateSpeed: 4
     shootSound: shoot-small-flame
+    shootSoundVolume: 0.5
     reload: 8
     inaccuracy: 4
     recoil: 0.2
@@ -146,6 +150,7 @@ weapons: [
     rotate: true
     rotateSpeed: 2.2
     shootSound: shoot-heavy-cannon
+    shootSoundVolume: 0.7
     reload: 121
     recoil: 2
     bullet: {
@@ -166,7 +171,7 @@ weapons: [
       pierceBuilding: false
       pierceCap: 2
       damage: 45
-      despawnSound: dullExplosion
+      despawnSound: explosion
     }
   }
   {
@@ -176,11 +181,11 @@ weapons: [
     mirror: false
     rotate: true
     reload: 129
-    shootSound: spark
     rotateSpeed: 3.6
     recoil: 2.8
     shake: 1
     shootSound: shootSmite
+    shootSoundVolume: 0.8
     shoot: {
       firstShotDelay: 60
     }

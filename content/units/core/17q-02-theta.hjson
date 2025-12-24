@@ -4,6 +4,7 @@ legLength: 12
 legSpeed: 0.2
 legForwardScl: 0.56
 legMoveSpace: 0.9
+stepSound: walkerStepSmall
 hovering: true
 groundLayer: 60
 name: Theta
@@ -70,7 +71,8 @@ weapons: [
     mirror: false
     rotate: true
     reload: 31
-    shootSound: spark
+    shootSound: shootArc
+    shootSoundVolume: 0.7
     rotateSpeed: 3.6
     recoil: 1
     bullet: {
@@ -78,8 +80,8 @@ weapons: [
       damage: 12
       buildingDamageMultiplier: 0.01
       lightningLength: 18
-      hitSound: spark
-      despawnSound: spark
+      hitSound: shockBullet
+      despawnSound: shockBullet
       spawnBullets: [
         {
           type: LaserBulletType
@@ -101,6 +103,7 @@ weapons: [
     rotate: true
     rotateSpeed: 4
     shootSound: shoot-small-flame
+    shootSoundVolume: 0.5
     reload: 8
     inaccuracy: 4
     recoil: 0.2
@@ -127,6 +130,7 @@ weapons: [
     rotate: true
     rotateSpeed: 2.2
     shootSound: shoot-heavy-cannon
+    shootSoundVolume: 0.7
     reload: 121
     recoil: 2
     bullet: {
@@ -147,7 +151,7 @@ weapons: [
       pierceBuilding: false
       pierceCap: 2
       damage: 38
-      despawnSound: dullExplosion
+      despawnSound: explosion
     }
   }
 ]

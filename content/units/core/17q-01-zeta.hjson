@@ -4,6 +4,7 @@ legLength: 8
 legSpeed: 0.23
 legForwardScl: 0.56
 legMoveSpace: 0.9
+stepSound: walkerStepTiny
 hovering: true
 groundLayer: 60
 name: Zeta
@@ -40,7 +41,8 @@ weapons: [
     continuous: true
     alwaysContinuous: true
     ejectEffect: none
-    shootSound: laserbeam
+    shootSound: beamLustre
+    shootSoundVolume: 0.6
     shootY: 1
     bullet: {
       collides: true
@@ -114,7 +116,7 @@ weapons: [
       backColor: d46f6b
       trailColor: d46f6b
       hitSound: none
-      despawnSound: dullExplosion
+      despawnSound: explosion
       width: 8
       height: 12
       trailWidth: 1.8
