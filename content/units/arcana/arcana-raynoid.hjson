@@ -21,6 +21,8 @@ legMinLength: 0.2
 legLengthScl: 0.95
 legForwardScl: 0.9
 legMoveSpace: 1
+stepSound: walkerStepSmall
+stepSoundPitch: 0.78
 hovering: true
 shadowElevation: 0.2
 groundLayer: 74
@@ -53,7 +55,7 @@ weapons: [
     layerOffset: -0.0001
     x: -11
     y: 8.5
-    shootSound: none
+    shootSound: beamLustre
     rotate: false
     bullet: {
       type: ContinuousFlameBulletType
@@ -141,8 +143,8 @@ weapons: [
           splashDamage: 5
           splashDamageRadius: 16
           splashDamagePierce: true
-          hitSound: dullExplosion
-          despawnSound: dullExplosion
+          hitSound: explosion
+          despawnSound: explosion
           incendChance: 0.8
           incendAmount: 6
           incendSpread: 8

@@ -91,8 +91,8 @@ weapons: [
           splashDamage: 20
           splashDamageRadius: 16
           splashDamagePierce: true
-          hitSound: dullExplosion
-          despawnSound: dullExplosion
+          hitSound: explosion
+          despawnSound: explosion
           incendChance: 0.8
           incendAmount: 6
           incendSpread: 8
