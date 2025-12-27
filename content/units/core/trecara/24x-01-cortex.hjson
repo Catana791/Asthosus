@@ -72,8 +72,8 @@ weapons: [
       buildingDamageMultiplier: 0.01
       damage: 0
       circleShooter: true
-      circleShooterRadius: 32
-      circleShooterRadiusSmooth: 36
+      circleShooterRadius: 16
+      circleShooterRadiusSmooth: 18
       speed: 9
       lifetime: 300
       trailLength: 8
