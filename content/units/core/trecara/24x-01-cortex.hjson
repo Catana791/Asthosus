@@ -77,7 +77,7 @@ weapons: [
         followParent: true
         rotWithParent: true
         particles: 1
-        lifetime: 15
+        lifetime: 16
         length: 0
         region: asthosus-24x-01-cortex-rotor
         sizeFrom: 10
