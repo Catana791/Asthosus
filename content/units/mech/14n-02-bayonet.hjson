@@ -8,6 +8,7 @@ armor: 5
 hitSize: 11
 outlineColor: 44413c
 mechLegColor: 44413c
+stepSound: mechStepSmall
   weapons: [
     {
       x: 9
@@ -21,7 +22,8 @@ mechLegColor: 44413c
         shoot: {
           shots: 4
         }
-        shootSound: artillery
+        shootSound: shootArtillerySmall
+        shootSoundVolume: 1.35
         bullet: {
           type: ArtilleryBulletType
             speed: 2
@@ -33,6 +35,7 @@ mechLegColor: 44413c
             height: 8
             trailChance: -1
             trailEffect: missileTrail
+            despawnSound: explosionArtillery
         }
     }
     {    
@@ -47,6 +50,7 @@ mechLegColor: 44413c
         mirror: false
         rotate: false
         shootSound: shoot-small-flame
+        shootSoundVolume: 0.55
         bullet: {
           instantDisappear: true
             damage: 0

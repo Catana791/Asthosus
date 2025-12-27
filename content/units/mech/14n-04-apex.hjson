@@ -9,6 +9,10 @@ outlineColor: 44413c
 mechLegColor: 44413c
 hitSize: 22
 rotateSpeed: 2
+stepShake: 0.15
+stepSound: mechStep
+stepSoundPitch: 0.8
+stepSoundVolume: 0.35
 parts: [
   {
     type: FlarePart
@@ -145,6 +149,7 @@ weapons: [
       shotDelay: 2
     }
     shootSound: shoot-dull
+    shootSoundVolume: 0.9
     bullet: {
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
