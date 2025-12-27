@@ -74,7 +74,7 @@ weapons: [
       circleShooter: true
       circleShooterRadius: 16
       circleShooterRadiusSmooth: 16
-      speed: 9
+      speed: 9.6
       lifetime: 300
       trailLength: 8
       trailWidth: 1
