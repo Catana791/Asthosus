@@ -1,0 +1,52 @@
+type: flying
+flying: true
+engineSize: 0
+lowAltitude: true
+name: Cortex
+description: Protects the Hyphos core. Equipped with a single missile launcher. Capable of building and mining. 
+health: 210 
+hitSize: 9
+speed: 1.25
+armor: 2
+outlineColor: 342f2f
+mineFloor: true
+mineWalls: true
+mineSpeed: 3.5
+mineTier: 1
+buildSPeed: 0.7
+itemCapacity: 20
+research: 23w-92-core-hyphos
+weapons: [
+  {
+    x: 0
+    y: 4
+    reload: 111
+    shoot: {
+      shots: 3
+      shotDelay: 3
+    }
+    shootSound: shoot-dull
+    mirror: false
+    top: false
+    layerOffset: -1
+    inaccuracy: 3
+    bullet: {
+      type: MissileBulletType
+      speed: 3
+      lifetime: 48
+      damage: 16
+      splashDamage: 22
+      splashDamageRadius: 16
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: false
+      buildingDamageMultiplier: 0.01
+      width: 5
+      height: 13
+      weaveMag: 3
+      weaveScale: 3
+      trailWidth: 2
+      trailLength: 12
+    }
+  }
+]
