@@ -85,5 +85,6 @@ weapons: [
         spin: 10
         layer: 95.1
       }
-   }
+    }
+  }
 ]
