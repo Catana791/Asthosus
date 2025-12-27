@@ -17,6 +17,10 @@ health: 870
 armor: 4
 hitSize: 14
 canDrown: false
+moveSound: loopExtract
+moveSoundVolume: 0.45
+moveSoundPitchMin: 0.7
+moveSoundPitchMax: 1.4
 research: {
   parent: 16a-02-teraze
   objectives: [
@@ -111,7 +115,8 @@ weapons: [
     alternate: true
     reload: 47
     rotate: false
-    shootSound: shoot-big-artillery
+    shootSound: shootMissileShort
+    shootSoundVolume: 1.45
     bullet: {
       instantDisappear: true
       damage: 0
@@ -125,7 +130,8 @@ weapons: [
     alternate: true
     reload: 21
     rotate: false
-    shootSound: missile
+    shootSound: shootMissilePlasmaShort
+    shootSoundVolume: 0.85
     shoot: {
       shots: 2
       shotDelay: 6
