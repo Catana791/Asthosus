@@ -13,13 +13,13 @@ mineFloor: true
 mineWalls: true
 mineSpeed: 3.5
 mineTier: 1
-buildSPeed: 0.7
+buildSpeed: 0.7
 itemCapacity: 20
 research: 23w-92-core-hyphos
 weapons: [
   {
     x: 0
-    y: 4
+    y: 5.69
     reload: 111
     shoot: {
       shots: 3
@@ -49,4 +49,41 @@ weapons: [
       trailLength: 12
     }
   }
+  {
+    x: 0
+    y: 0
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      pierceBuilding: true
+      knockback: 0.1
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+      splashDamage: 10
+      splashDamageRadius: 16
+      speed: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: asthosus-24x-01-cortex-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 10
+        layer: 95.1
+      }
+   }
 ]
