@@ -48,6 +48,7 @@ weapons: [
       weaveScale: 3
       trailWidth: 2
       trailLength: 12
+      layer: 89.9
     }
   }
   {
