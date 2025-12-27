@@ -13,6 +13,8 @@ speed: 0.64
 rotateSpeed: 2.89
 itemCapacity: 0
 outlineColor: 44413c
+tankMoveVolume: 1.25
+tankMoveSound: tankMoveHeavy
 research: {
   parent: 15o-03-aprotodon
   objectives: [ 
@@ -70,7 +72,7 @@ weapons: [
       shotDelay: 6
     }
     rotate: true
-    shootSound: spark
+    shootSound: shootPulsar
     bullet: {
       type: LaserBulletType
       width: 1
@@ -122,6 +124,7 @@ weapons: [
       fragSpread: 90
       fragAngle: 45
       fragOnAbsorb: true
+      despawnSound: explosionArtillery
       fragBullet: {
         type: BasicBulletType
         width: 10
@@ -150,6 +153,7 @@ weapons: [
         fragSpread: 180
         fragAngle: 90
         fragOnAbsorb: true
+        despawnSound: explosionArtillery
         fragBullet: {
             type: BasicBulletType
             width: 6
@@ -176,6 +180,7 @@ weapons: [
             fragVelocityMin: 1
             fragVelocityMax: 1
             fragOnAbsorb: true
+            despawnSound: explosionArtillery
             fragBullet: {
               instantDisappear: true
               damage: 0
@@ -186,6 +191,7 @@ weapons: [
                 killShooter: false
                 splashDamage: 76
                 splashDamageRadius: 48
+                despawnSound: explosion
             }
           }
         }

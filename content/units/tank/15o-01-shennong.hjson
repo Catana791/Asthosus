@@ -12,6 +12,8 @@ health: 280
 armor: 1
 itemCapacity: 0
 hitSize: 13
+tankMoveVolume: 0.4
+tankMoveSound: tankMoveSmall
 treadRects: [
   {
     x: 9
@@ -56,8 +58,8 @@ weapons: [
       pierce: true
       pierceCap: 1
       damage: 4
-      despawnSound: spark
-      hitSound: spark
+      despawnSound: shockBullet
+      hitSound: shockBullet
     }
   }
 ]research: {
