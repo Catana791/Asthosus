@@ -13,10 +13,9 @@ mineFloor: true
 mineWalls: true
 mineSpeed: 3.5
 mineTier: 1
-buildSpeed: 0.7
+buildSpeed: 1
 itemCapacity: 20
 research: 23w-92-core-hyphos
-strafePenalty: -20
 rotateSpeed: 10
 weapons: [
   {
@@ -80,6 +79,9 @@ weapons: [
       trailWidth: 1
       hitEffect: none
       despawnEffect: none
+      homingPower: 0.15
+      homingRange: 32
+      layer: 89.9
     }
   }
 ]
