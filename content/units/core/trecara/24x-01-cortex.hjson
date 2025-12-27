@@ -65,7 +65,7 @@ abilities: [
       region: asthosus-24x-01-cortex-rotor
       sizeFrom: 10
       sizeTo: 10
-      spin: 24
+      spin: 16
       layer: 95.1
     }
   }
