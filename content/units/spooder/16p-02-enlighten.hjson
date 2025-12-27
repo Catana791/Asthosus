@@ -24,6 +24,7 @@ legForwardScl: 0.56
 itemCapacity: 40
 outlineColor: 44413c
 hitSize: 12
+stepSound: walkerStepSmall
 weapons: [
 {
   x: 9.5  
@@ -32,7 +33,7 @@ weapons: [
     reload: 94
     mirror: false
     rotate: false
-    shootSound: laser
+    shootSound: shootLancer
     inaccuracy: 5
     shoot: {
       firstShotDelay: 60
@@ -62,7 +63,7 @@ weapons: [
     x: -9.5
     y: 0.5
     reload: 61
-    shootSound: spark
+    shootSound: shootPulsar
     shoot: {
       shots: 3
       shotDelay: 0.8

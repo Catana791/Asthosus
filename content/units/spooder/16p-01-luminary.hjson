@@ -20,6 +20,7 @@ itemCapacity: 25
 outlineColor: 44413c
 hitSize: 6
 researchCostMultiplier: 1.5
+stepSound: walkerStepTiny
 weapons: [
 {
   x: 0
@@ -27,7 +28,7 @@ weapons: [
     reload: 94
     mirror: false
     rotate: false
-    shootSound: laser
+    shootSound: shootLancer
     inaccuracy: 5
     shoot: {
       firstShotDelay: 60
