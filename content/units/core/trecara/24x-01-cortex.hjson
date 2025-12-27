@@ -73,15 +73,15 @@ weapons: [
       damage: 0
       circleShooter: true
       circleShooterRadius: 16
-      circleShooterRadiusSmooth: 0
+      circleShooterRadiusSmooth: 16
       speed: 9
       lifetime: 300
       trailLength: 8
       trailWidth: 1
       hitEffect: none
       despawnEffect: none
-      homingPower: 0.15
-      homingRange: 32
+      homingPower: 0.25
+      homingRange: 48
       layer: 89.9
     }
   }
