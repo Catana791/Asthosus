@@ -16,6 +16,7 @@ mineTier: 1
 buildSpeed: 0.7
 itemCapacity: 20
 research: 23w-92-core-hyphos
+strafePenalty: -0.5
 weapons: [
   {
     x: 0
@@ -47,6 +48,33 @@ weapons: [
       weaveScale: 3
       trailWidth: 2
       trailLength: 12
+    }
+  }
+  {
+    x: 0
+    y: 0
+    under: true
+    layerOffset: -1
+    reload: 300
+    mirror: false
+    rotate: false
+    alwaysShooting: true
+    shootCone: 360
+    controllable: false
+    inaccuracy: 0
+    bullet: {
+      sprite: shell
+      width: 10
+      height: 10
+      splashDamage: 32
+      splashDamageRadius: 16
+      buildingDamageMultiplier: 0.01
+      damage: 0
+      circleShooter: true
+      circleShooterRadius: 32
+      circleShooterRadiusSmooth: 36
+      speed: 3
+      lifetime: 300
     }
   }
 ]
