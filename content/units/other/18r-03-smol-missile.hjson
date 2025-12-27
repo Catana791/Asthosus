@@ -36,7 +36,7 @@ abilities: [
 ]
 outlines: false
 range: 4
-hidden: true  
+hidden: true
 weapons: [
   {
     reload: 1

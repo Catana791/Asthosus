@@ -34,7 +34,7 @@ weapons: [
     shootCone: 360
     mirror: false
     rotate: false
-    shootSound: spark
+    shootSound: shockBullet
     bullet: {
       type: LightningBulletType
       damage: 12

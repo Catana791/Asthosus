@@ -22,7 +22,8 @@ outlines: true
 outlineRadius: 2
 outlineColor: 44413c
 range: 4
-hidden: true  
+hidden: true
+deathSoundVolume: 0.5
 weapons: [
   {
     reload: 1
@@ -30,6 +31,7 @@ weapons: [
     shootOnDeath: true
     mirror: true
     shootCone: 360
+    shootSound: none
     shake: 1
     bullet: {
       type: ExplosionBulletType

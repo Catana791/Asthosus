@@ -17,6 +17,8 @@ drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
 aimDst: 160
+stepSound: walkerStepSmall
+stepSoundVolume: 0.4
 weapons: [
   {
     name: small-barite-weapon
@@ -31,7 +33,8 @@ weapons: [
       shots: 3
       shotDelay: 2
     }
-    shootSound: splash
+    shootSound: shootAtrax
+    shootSoundVolume: 1.5
     bullet: {
       type: LiquidBulletType
       liquid: 02b-04-liquid-liquid-barite
@@ -44,7 +47,7 @@ weapons: [
       lifetime: 32
       puddleSize: 16
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       layer: 99
     }
   }

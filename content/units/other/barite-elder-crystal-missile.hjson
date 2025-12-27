@@ -41,7 +41,7 @@ weapons: [
       puddles: 8
       puddleAmount: 1028
       puddleLiquid: 02b-04-liquid-liquid-barite
-      despawnSound: largeExplosion
+      despawnSound: explosionDull
     }
   } 
 ]

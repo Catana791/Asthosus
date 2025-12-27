@@ -15,6 +15,9 @@ legForwardScl: 0.9
 legMoveSpace: 1
 legSpeed: 0.17
 hovering: true
+stepSound: walkerStep
+stepSoundVolume: 1.1
+stepSoundPitch: 1.1
 immunities: [burning, asthosus-13m-02-status-radiated, asthosus-13m-03-status-infested]
 health: 32190
 armor: 26
@@ -41,6 +44,7 @@ weapons: [
     layerOffset: -0.01
     shootY: 20
     shootSound: elder-spit
+    shootSoundVolume: 1.25
     parts: [
       {
         type: RegionPart
@@ -67,7 +71,8 @@ weapons: [
     mirror: false
     inaccuracy: 5
     rotate: true
-    shootSound: spark
+    shootSound: shootToxopidShotgun
+    shootSoundVolume: 0.85
     shoot: {
       type: ShootBarrel
       shots: 5
@@ -120,7 +125,8 @@ weapons: [
     rotate: true
     shootY: 7
     inaccuracy: 7
-    shootSound: spark
+    shootSound: shootToxopidShotgun
+    shootSoundVolume: 0.85
     bullet: {
       type: LaserBulletType
       length: 180
@@ -141,7 +147,8 @@ weapons: [
     rotate: true
     inaccuracy: 4
     shootY: 7
-    shootSound: laser
+    shootSound: shootToxopidShotgun
+    shootSoundVolume: 0.85
     shoot: {
       shots: 2
       shotDelay: 5
@@ -150,7 +157,7 @@ weapons: [
       type: LaserBulletType
       length: 180
       width: 2
-      hitSound: spark
+      hitSound: shockBullet
       damage: 31
       colors: [b1b1b1, f8efe6, ffffff]
       status: asthosus-13m-03-status-infested
@@ -166,7 +173,8 @@ weapons: [
     rotate: true
     inaccuracy: 3
     shootY: 7
-    shootSound: laser
+    shootSound: shootToxopidShotgun
+    shootSoundVolume: 0.85
     shoot: {
       type: ShootBarrel
       shots: 5
@@ -220,8 +228,9 @@ weapons: [
     mirror: false
     shootCone: 30
     shootY: 17
-    shootSound: splash
-    chargeSound: lasercharge2
+    shootSound: shootDisperse
+    shootSoundVolume: 3.85
+    chargeSound: none
     shoot: {
       type: ShootSpread
       shots: 18
@@ -261,7 +270,7 @@ weapons: [
       backColor: b1b1b1
       pierce: true
       damage: 87
-      despawnSound: dullExplosion
+      despawnSound: explosion
     }
   }
 ]
