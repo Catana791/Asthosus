@@ -8,7 +8,7 @@ requirements: [
 isFirstTier: true
 size: 3
 alwaysUnlocked: true
-unitType: 24x-01-husk
+unitType: 24x-01-cortex
 health: 1450
 itemCapacity: 4500
 unitCapModifier: 8
