@@ -6,7 +6,7 @@ name: Cortex
 description: Protects the Hyphos core. Equipped with a single missile launcher. Capable of building and mining. 
 health: 210 
 hitSize: 9
-speed: 1.25
+speed: 2.5
 armor: 2
 outlineColor: 342f2f
 mineFloor: true
