@@ -73,7 +73,7 @@ weapons: [
       damage: 0
       circleShooter: true
       circleShooterRadius: 16
-      circleShooterRadiusSmooth: 18
+      circleShooterRadiusSmooth: 0
       speed: 9
       lifetime: 300
       trailLength: 8
