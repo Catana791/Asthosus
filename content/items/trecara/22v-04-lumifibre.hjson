@@ -1,0 +1,8 @@
+name: Lumifibre
+description: An organic webbing made from Arcana Spores and Mycillite. Used in basic construction.
+hardness: 3
+cost: 0.8
+flammability: 0.35
+research: 22v-03-mycillite
+color: 9ca6ae
+hiddenOnPlanets: [serpulo, erekir, asthosus]
