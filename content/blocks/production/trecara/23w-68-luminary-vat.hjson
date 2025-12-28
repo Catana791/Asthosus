@@ -38,8 +38,8 @@ drawer: {
       particles: 15
       particleRad: 13
       particleLife: 57
-      x: 8
-      y: 8
+      x: 7
+      y: 7
     }
     {
       type: DrawParticles
@@ -49,8 +49,8 @@ drawer: {
       particles: 15
       particleRad: 9
       particleLife: 64
-      x: 8
-      y: 8
+      x: 7
+      y: 7
     }
     {
       type: DrawParticles
@@ -60,8 +60,8 @@ drawer: {
       particles: 15
       particleRad: 11
       particleLife: 61
-      x: -8
-      y: 8
+      x: -7
+      y: 7
     }
     {
       type: DrawParticles
@@ -71,8 +71,8 @@ drawer: {
       particles: 15
       particleRad: 13
       particleLife: 67
-      x: -8
-      y: 8
+      x: -7
+      y: 7
     }
     {
       type: DrawParticles
@@ -82,8 +82,8 @@ drawer: {
       particles: 15
       particleRad: 12
       particleLife: 62
-      x: -8
-      y: -8
+      x: -7
+      y: -7
     }
     {
       type: DrawParticles
@@ -93,8 +93,8 @@ drawer: {
       particles: 15
       particleRad: 14
       particleLife: 69
-      x: -8
-      y: -8
+      x: -7
+      y: -7
     }
     {
       type: DrawParticles
@@ -104,8 +104,8 @@ drawer: {
       particles: 15
       particleRad: 13
       particleLife: 59
-      x: 8
-      y: -8
+      x: 7
+      y: -7
     }
     {
       type: DrawParticles
@@ -115,8 +115,8 @@ drawer: {
       particles: 15
       particleRad: 15
       particleLife: 61
-      x: 8
-      y: -8
+      x: 7
+      y: -7
     }
   ]
 }
