@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: Luminary Vat
+description: Infuses Mycillite with Arcana Spores using ambient pressure to create Lumifibre. 
+size: 3
+craftTime: 270
+researchCostMultiplier: 0.125
+consumes: {
+  items: [
+    22v-02-arcana-spores/4
+    22v-03-mycillite/2
+  ]
+}
+outputItem: 22v-04-lumifibre/5
+category: crafting
+research: {
+  parent: 23w-92-core-hyphos
+  objectives: [
+  ]
+}
+requirements: [
+  22v-01-mudstone/75
+  22v-02-arcana-spores/60
+  22v-03-mycillite/40
+]
+ambientSound: extractLoop
+ambientSoundVolume: 0.08
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: 3f34a5
+      alpha: 0.85
+      particleSize: 1.6
+      particles: 30
+      particleRad: 12
+      particleLife: 60
+      x: 16
+      y: 16
+    }
+  ]
+}
