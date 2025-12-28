@@ -33,13 +33,90 @@ drawer: {
     {
       type: DrawParticles
       color: 3f34a5
-      alpha: 0.85
+      alpha: 0.79
       particleSize: 1.6
-      particles: 30
-      particleRad: 12
-      particleLife: 60
+      particles: 15
+      particleRad: 13
+      particleLife: 57
       x: 8
       y: 8
+    }
+    {
+      type: DrawParticles
+      color: 7b70e1
+      alpha: 0.87
+      particleSize: 1.6
+      particles: 15
+      particleRad: 9
+      particleLife: 64
+      x: 8
+      y: 8
+    }
+    {
+      type: DrawParticles
+      color: 3f34a5
+      alpha: 0.95
+      particleSize: 1.6
+      particles: 15
+      particleRad: 11
+      particleLife: 61
+      x: -8
+      y: 8
+    }
+    {
+      type: DrawParticles
+      color: 7b70e1
+      alpha: 0.81
+      particleSize: 1.6
+      particles: 15
+      particleRad: 13
+      particleLife: 67
+      x: -8
+      y: 8
+    }
+    {
+      type: DrawParticles
+      color: 3f34a5
+      alpha: 0.91
+      particleSize: 1.6
+      particles: 15
+      particleRad: 12
+      particleLife: 62
+      x: -8
+      y: -8
+    }
+    {
+      type: DrawParticles
+      color: 7b70e1
+      alpha: 0.79
+      particleSize: 1.6
+      particles: 15
+      particleRad: 14
+      particleLife: 69
+      x: -8
+      y: -8
+    }
+    {
+      type: DrawParticles
+      color: 3f34a5
+      alpha: 0.78
+      particleSize: 1.6
+      particles: 15
+      particleRad: 13
+      particleLife: 59
+      x: 8
+      y: -8
+    }
+    {
+      type: DrawParticles
+      color: 7b70e1
+      alpha: 0.63
+      particleSize: 1.6
+      particles: 15
+      particleRad: 15
+      particleLife: 61
+      x: 8
+      y: -8
     }
   ]
 }
