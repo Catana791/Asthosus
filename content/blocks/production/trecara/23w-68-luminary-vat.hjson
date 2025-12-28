@@ -38,8 +38,8 @@ drawer: {
       particles: 30
       particleRad: 12
       particleLife: 60
-      x: 16
-      y: 16
+      x: 8
+      y: 8
     }
   ]
 }
