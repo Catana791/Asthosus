@@ -20,7 +20,7 @@ research: {
       }
    ]
 }
-range: 160160/
+range: 160
 requirements: [
   01a-01-item-ferrinite/40
   01a-02-item-demetite/60
