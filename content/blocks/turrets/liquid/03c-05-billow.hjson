@@ -2,7 +2,7 @@ type: LiquidTurret
 name: Billow
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 size: 2
-reload: 127
+reload: 209
 inaccuracy: 6
 hasLiquids: true
 liquidCapacity: 20
@@ -30,7 +30,7 @@ requirements: [
   01a-06-item-lodestone/35
 ]
 shoot: {
-  shots: 16
+  shots: 24
   spread: 1
   shotDelay: 0.8
   firstShotDelay: 60
@@ -68,7 +68,7 @@ ammoTypes: {
     layer: 98
     puddleSize: 8
   }
-  02b-03-liquid-purified-oasis-water: {
+  slag: {
     despawnEffect: hitLiquid
     hitEffect: hitLiquid
     type: LiquidBulletType
