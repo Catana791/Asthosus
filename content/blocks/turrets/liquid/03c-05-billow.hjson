@@ -12,7 +12,7 @@ recoil: 0
 category: turret
 loopSound: none
 chargeSound: pressure-buildup
-shootSound: splash
+shootSound: shootRetusa
 research: {
    parent: 03c-06-depulse
    objectives: [
