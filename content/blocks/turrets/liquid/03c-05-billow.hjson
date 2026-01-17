@@ -2,7 +2,7 @@ type: LiquidTurret
 name: Billow
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 size: 2
-reload: 4
+reload: 127
 inaccuracy: 6
 hasLiquids: true
 liquidCapacity: 20
@@ -10,6 +10,9 @@ researchCostMultiplier: 0.5
 outlineColor: 42413e
 recoil: 0
 category: turret
+loopSound: none
+chargeSound: pressure-buildup
+shootSound: splash
 research: {
    parent: 03c-06-depulse
    objectives: [
@@ -27,8 +30,9 @@ requirements: [
   01a-06-item-lodestone/35
 ]
 shoot: {
-  shots: 12
-  shotDelay: 0.5
+  shots: 16
+  spread: 1
+  shotDelay: 0.8
   firstShotDelay: 60
 }
 velocityRnd: 0.14
@@ -39,9 +43,10 @@ ammoTypes: {
     hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: 02b-02-liquid-oasis-water
-    speed: 1.5
-    lifetime: 107
+    speed: 3
+    lifetime: 54
     knockback: 0.7
+    orbSize: 2
     status: wet
     statusDuration: 120
     damage: 0
@@ -53,11 +58,27 @@ ammoTypes: {
     hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: 02b-03-liquid-purified-oasis-water
-    speed: 1.5
-    lifetime: 107
+    speed: 3
+    lifetime: 54
     knockback: 0.7
     status: wet
+    orbSize: 2
     statusDuration: 180
+    damage: 2
+    layer: 98
+    puddleSize: 8
+  }
+  02b-03-liquid-purified-oasis-water: {
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: slag
+    speed: 3
+    lifetime: 54
+    knockback: 0.7
+    status: melting
+    orbSize: 2
+    statusDuration: 60
     damage: 2
     layer: 98
     puddleSize: 8
@@ -70,8 +91,9 @@ ammoTypes: {
     mixColorFrom: bab4ae
     width: 9
     height: 12
-    speed: 1.5
-    lifetime: 107
+    speed: 3
+    orbSize: 2
+    lifetime: 54
     knockback: 0.7
     status: asthosus-13m-02-status-radiated
     statusDuration: 180
