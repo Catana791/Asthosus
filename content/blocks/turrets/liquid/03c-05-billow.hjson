@@ -92,7 +92,6 @@ ammoTypes: {
     width: 9
     height: 12
     speed: 3
-    orbSize: 2
     lifetime: 54
     knockback: 0.7
     status: asthosus-13m-02-status-radiated
@@ -100,7 +99,6 @@ ammoTypes: {
     damage: 4
     layer: 98
     sprite: asthosus-drop-bullet
-    puddleSize: 8
   }
 }
 drawer: {
