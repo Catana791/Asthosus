@@ -2,7 +2,7 @@ type: LiquidTurret
 name: Billow
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 size: 2
-reload: 4
+reload: 209
 inaccuracy: 6
 hasLiquids: true
 liquidCapacity: 20
@@ -10,6 +10,9 @@ researchCostMultiplier: 0.5
 outlineColor: 42413e
 recoil: 0
 category: turret
+loopSound: none
+chargeSound: pressure-buildup
+shootSound: splash
 research: {
    parent: 03c-06-depulse
    objectives: [
@@ -20,55 +23,84 @@ research: {
       }
    ]
 }
-range: 120
+range: 160
 requirements: [
   01a-01-item-ferrinite/40
   01a-02-item-demetite/60
   01a-06-item-lodestone/35
 ]
+shoot: {
+  shots: 24
+  spread: 1
+  shotDelay: 0.8
+  firstShotDelay: 60
+}
+velocityRnd: 0.14
+inaccuracy: 12
 ammoTypes: {
   02b-02-liquid-oasis-water: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: 02b-02-liquid-oasis-water
-    speed: 1.5
-    lifetime: 80
+    speed: 3
+    lifetime: 54
     knockback: 0.7
+    orbSize: 2
     status: wet
     statusDuration: 120
     damage: 0
     layer: 98
+    puddleSize: 8
   }
   02b-03-liquid-purified-oasis-water: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: 02b-03-liquid-purified-oasis-water
-    speed: 1.5
-    lifetime: 80
+    speed: 3
+    lifetime: 54
     knockback: 0.7
     status: wet
+    orbSize: 2
     statusDuration: 180
     damage: 2
     layer: 98
+    puddleSize: 8
+  }
+  slag: {
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: slag
+    speed: 3
+    lifetime: 54
+    knockback: 0.7
+    status: melting
+    orbSize: 2
+    statusDuration: 60
+    damage: 2
+    layer: 98
+    puddleSize: 8
   }
   02b-04-liquid-liquid-barite: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
     type: BasicBulletType
     mixColorTo: f8efe6 
     mixColorFrom: bab4ae
     width: 9
     height: 12
-    speed: 1.5
-    lifetime: 80
+    speed: 3
+    orbSize: 2
+    lifetime: 54
     knockback: 0.7
     status: asthosus-13m-02-status-radiated
     statusDuration: 180
     damage: 4
     layer: 98
     sprite: asthosus-drop-bullet
+    puddleSize: 8
   }
 }
 drawer: {
