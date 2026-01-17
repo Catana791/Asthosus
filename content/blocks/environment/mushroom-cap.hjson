@@ -2,3 +2,4 @@ type: TreeBlock
 name: Mushroom
 variants: 3
 shadowOffset: -1
+attribute: mycillite
