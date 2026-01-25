@@ -67,79 +67,95 @@ chargeEffect: {
   followParent: true
   effects: [
     {
-    type: ParticleEffect
-    particles: 9
-    length: 20
-	  baseLength: 9
-	  sizeFrom: 3
-    sizeTo: 0.1 
-    interp: pow2In
-    sizeInterp: pow2   
-    lifetime: 40
+    	type: ParticleEffect
+    	particles: 9
+    	length: 20
+		baseLength: 9
+		sizeFrom: 3
+    	sizeTo: 0.1 
+    	interp: pow2In
+    	sizeInterp: pow2   
+    	lifetime: 40
     }
     {
-    type: WaveEffect
-    sizeFrom: 25
-    sizeTo: 0.1
-    strokeFrom: 1.8
-    strokeTo: 0.9
-    interp: pow2In
-    lifetime: 50
+    	type: WaveEffect
+    	sizeFrom: 25
+    	sizeTo: 0.1
+    	strokeFrom: 1.8
+    	strokeTo: 0.9
+    	interp: pow2In
+    	lifetime: 50
     }
     {
-    type: ParticleEffect
-    particles: 9
-    length: 15
-    baseLength: 5
-    sizeFrom: 3
-    sizeTo: 0.1 
-    interp: pow2In
-    sizeInterp: pow2   
-    lifetime: 50
+    	type: ParticleEffect
+    	particles: 9
+    	length: 15
+    	baseLength: 5
+    	sizeFrom: 3
+    	sizeTo: 0.1 
+    	interp: pow2In
+    	sizeInterp: pow2   
+    	lifetime: 50
     }
     {
-    type: WaveEffect
-    sizeFrom: 19
-    sizeTo: 0.1
-    strokeFrom: 1.6
-    strokeTo: 0.8
-    interp: pow2In
-    lifetime: 60
+    	type: WaveEffect
+    	sizeFrom: 19
+    	sizeTo: 0.1
+    	strokeFrom: 1.6
+    	strokeTo: 0.8
+    	interp: pow2In
+    	lifetime: 60
     }
   ]
 } 
 ammoTypes: {
   02b-02-liquid-oasis-water: {
-  type: ContinuousLaserBulletType 
-  shake: 0.2
-  damageInterval: 10
-  damage: 58
-  length: 120
-  incendChance: 0
-  incendSpread: 0
-  incendAmount: 0
-  width: 4
-  splashDamagePierce: true
-  makeFire: false
-  status: melting
-  statusDuration: 120
-  hitEffect: hitBulletColor
+  	type: ContinuousLaserBulletType 
+  	shake: 0.2
+  	damageInterval: 10
+  	damage: 58
+  	length: 120
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 4
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+  } 
+  02b-03-liquid-purified-oasis-water: {
+  	type: ContinuousLaserBulletType 
+  	shake: 0.2
+  	damageInterval: 10
+  	damage: 68
+  	length: 120
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 4
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
   } 
   02b-05-liquid-nontragen: {
-  type: ContinuousLaserBulletType 
-  shake: 0.2
-  damageInterval: 10
-  damage: 125
-  length: 160
-  incendChance: 0
-  incendSpread: 0
-  incendAmount: 0
-  width: 6
-  splashDamagePierce: true
-  makeFire: false
-  status: melting
-  statusDuration: 240
-  hitEffect: hitBulletColor
+  	type: ContinuousLaserBulletType 
+  	shake: 0.2
+  	damageInterval: 10
+  	damage: 125
+  	length: 160
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 6
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 240
+  	hitEffect: hitBulletColor
   } 
 }
 category: turret
