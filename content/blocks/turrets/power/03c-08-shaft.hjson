@@ -124,6 +124,7 @@ ammoTypes: {
   	status: melting
   	statusDuration: 120
   	hitEffect: hitBulletColor
+	colors: [b85a2e55, b85a2eaa, e07b39, ffffff]
   } 
   02b-03-liquid-purified-oasis-water: {
   	type: ContinuousLaserBulletType 
@@ -140,6 +141,24 @@ ammoTypes: {
   	status: melting
   	statusDuration: 120
   	hitEffect: hitBulletColor
+	colors: [d46b3455, d46b34aa, ff9c5a, ffffff]
+  } 
+  02b-01-q-liquid-silicon-tetrafluoride: {
+  	type: ContinuousLaserBulletType 
+  	shake: 0.2
+  	damageInterval: 10
+  	damage: 78
+  	length: 120
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 4
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	colors: [d6b93f55, d6b93faa, ffe066, ffffff]
   } 
   02b-05-liquid-nontragen: {
   	type: ContinuousLaserBulletType 
@@ -153,9 +172,10 @@ ammoTypes: {
   	width: 6
   	splashDamagePierce: true
   	makeFire: false
-  	status: melting
+  	status: blasted
   	statusDuration: 240
   	hitEffect: hitBulletColor
+	colors: [3fd6c855, 3fd6c8aa, 6bfff2, ffffff]
   } 
 }
 category: turret
