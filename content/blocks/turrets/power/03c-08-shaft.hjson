@@ -166,6 +166,7 @@ ammoTypes: {
   	damageInterval: 10
   	damage: 125
   	length: 160
+    rangeChange: 40
   	incendChance: 0
   	incendSpread: 0
   	incendAmount: 0
