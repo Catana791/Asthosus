@@ -62,6 +62,8 @@ drawer: {
 shootX: 0
 shootY: 0
 rotateSpeed: 0
+ammoMultiplier: 1
+liquidConsumed: 2
 chargeEffect: {
   type: MultiEffect
   followParent: true
