@@ -62,8 +62,7 @@ drawer: {
 shootX: 0
 shootY: 0
 rotateSpeed: 0
-ammoMultiplier: 1
-liquidConsumed: 2
+liquidConsumed: 0.1
 chargeEffect: {
   type: MultiEffect
   followParent: true
@@ -113,6 +112,7 @@ chargeEffect: {
 ammoTypes: {
   02b-02-liquid-oasis-water: {
   	type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
   	shake: 0.2
   	damageInterval: 5
   	damage: 25
@@ -130,6 +130,7 @@ ammoTypes: {
   } 
   02b-03-liquid-purified-oasis-water: {
   	type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
   	shake: 0.2
   	damageInterval: 5
   	damage: 27
@@ -147,6 +148,7 @@ ammoTypes: {
   } 
   02b-01-q-liquid-silicon-tetrafluoride: {
   	type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
   	shake: 0.2
   	damageInterval: 5
   	damage: 30
@@ -164,6 +166,7 @@ ammoTypes: {
   } 
   02b-05-liquid-nontragen: {
   	type: ContinuousLaserBulletType 
+	ammoMultiplier: 2
   	shake: 0.2
   	damageInterval: 5
   	damage: 40
