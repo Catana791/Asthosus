@@ -112,8 +112,8 @@ ammoTypes: {
   02b-02-liquid-oasis-water: {
   	type: ContinuousLaserBulletType 
   	shake: 0.2
-  	damageInterval: 10
-  	damage: 58
+  	damageInterval: 5
+  	damage: 25
   	length: 120
   	incendChance: 0
   	incendSpread: 0
@@ -129,8 +129,8 @@ ammoTypes: {
   02b-03-liquid-purified-oasis-water: {
   	type: ContinuousLaserBulletType 
   	shake: 0.2
-  	damageInterval: 10
-  	damage: 68
+  	damageInterval: 5
+  	damage: 27
   	length: 120
   	incendChance: 0
   	incendSpread: 0
@@ -146,8 +146,8 @@ ammoTypes: {
   02b-01-q-liquid-silicon-tetrafluoride: {
   	type: ContinuousLaserBulletType 
   	shake: 0.2
-  	damageInterval: 10
-  	damage: 78
+  	damageInterval: 5
+  	damage: 30
   	length: 120
   	incendChance: 0
   	incendSpread: 0
@@ -163,8 +163,8 @@ ammoTypes: {
   02b-05-liquid-nontragen: {
   	type: ContinuousLaserBulletType 
   	shake: 0.2
-  	damageInterval: 10
-  	damage: 125
+  	damageInterval: 5
+  	damage: 40
   	length: 160
     rangeChange: 40
   	incendChance: 0
