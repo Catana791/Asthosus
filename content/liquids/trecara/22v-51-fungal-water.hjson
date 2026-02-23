@@ -1,0 +1,6 @@
+name: Fungal Water
+description: A liquid pumped from a puddle of spore-infected water in a Trecarian Arcana biome. Used as coolant or for production.
+boilPoint: 0.4
+color: 5757ce
+heatCapacity: 0.2
+research: 23w-92-core-hyphos

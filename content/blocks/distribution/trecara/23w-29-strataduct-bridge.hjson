@@ -1,0 +1,15 @@
+type: DuctBridge
+name: Strataduct Bridge
+description: Acts as a bridge for crossing strataducts or terrain.
+health: 135
+size: 1
+requirements: [
+  22v-01-mudstone/4
+  22v-03-mycillite/2
+] 
+category: distribution
+research: 23w-27-strataduct-junction
+squareSprite: false
+range: 4
+speed: 4.285714
+researchCostMultiplier: 0.5

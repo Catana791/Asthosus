@@ -1,0 +1,14 @@
+type: Router
+name: Strataduct Router
+description: Distributes input items from strataducts to three directions equally. 
+size: 1
+speed: 6
+health: 110
+itemCapacity: 3
+requirements: [
+  22v-01-mudstone/3
+]
+squareSprite: false
+category: distribution
+research: 23w-27-strataduct-junction
+researchCostMultiplier: 0.5

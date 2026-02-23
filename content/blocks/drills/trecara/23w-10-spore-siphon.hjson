@@ -1,0 +1,109 @@
+type: AttributeCrafter
+attribute: arcanespores
+name: Spore Siphon
+description: Collects Arcana Spores from Sporevents. 
+size: 3
+hasLiquids: true
+squareSprite: false
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+researchCostMultiplier: 0.5
+category: production
+research: 23w-92-core-hyphos
+requirements: [
+  22v-01-mudstone/80
+]
+ambientSound: spellLoop
+ambientSoundVolume: 0.2
+outputItem: 22v-02-arcana-spores/3
+craftTime: 180
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      particleRad: 5.2
+      particleRotation: -167
+      particles: 6
+      particleSize: 1
+      x: 0
+      y: -8
+      color: 3c246e
+    }
+    {
+      type: DrawParticles
+      particleRad: 5.6
+      particleRotation: 167
+      particles: 13
+      particleSize: 1
+      x: 0
+      y: -8
+      color: 7b70e1
+    }
+    {
+      type: DrawParticles
+      particleRad: 6.1
+      particleRotation: -156
+      particles: 7
+      particleSize: 1
+      x: 0
+      y: 8
+      color: 3c246e
+    }
+    {
+      type: DrawParticles
+      particleRad: 5.7
+      particleRotation: 156
+      particles: 12
+      particleSize: 1
+      x: 0
+      y: 8
+      color: 7b70e1
+    }
+    {
+      type: DrawParticles
+      particleRad: 5.7
+      particleRotation: -177
+      particles: 8
+      particleSize: 1
+      x: 8
+      y: 0
+      color: 3c246e
+    }
+    {
+      type: DrawParticles
+      particleRad: 5.9
+      particleRotation: 177
+      particles: 9
+      particleSize: 1
+      x: 8
+      y: 0
+      color: 7b70e1
+    }
+    {
+      type: DrawParticles
+      particleRad: 6.5
+      particleRotation: -131
+      particles: 11
+      particleSize: 1
+      x: -8
+      y: 0
+      color: 3c246e
+    }
+    {
+      type: DrawParticles
+      particleRad: 6.1
+      particleRotation: 131
+      particles: 7
+      particleSize: 1
+      x: -8
+      y: 0
+      color: 7b70e1
+    }
+  ]
+}

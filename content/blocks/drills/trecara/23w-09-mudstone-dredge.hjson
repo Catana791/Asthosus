@@ -1,0 +1,27 @@
+type: BurstDrill
+name: Mudstone Dredge
+description: Mines Mudstone from Mudstone Rifts.
+size: 2
+category: production
+hardnessDrillMultiplier: 50
+research: 23w-92-core-hyphos
+drillTime: 270
+hasPower: false
+tier: 1
+shake: 1
+itemCapacity: 30
+hasLiquids: false
+alwaysUnlocked: true
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 14
+  strokeFrom: 1.1
+  strokeTo: 0.2
+  colorFrom: bfa388
+  colorTo: 81554b
+  lifetime: 20
+}
+requirements: [
+  22v-01-mudstone/20
+]
