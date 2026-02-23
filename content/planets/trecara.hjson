@@ -1,41 +1,41 @@
 localizedName: Trecara
 description: Asthosus moon, a lush stellar body that contains an abundance of water and fauna. Ores are exceedingly rare here so use what you have to conquer this planet.
 details: Noone knows why the catastrophy that hit Asthosus and turned it into a desert planet hit Asthosus in the first place. Trecara was meant to save as a protection against such disaster...
-alwaysUnlocked: false
+alwaysUnlocked: true
 mesh: [
  {
-    //water
+    //fungal water
     type: NoiseMesh
     planet: trecara
     divisions: 5
     seed: 7
     radius: 0.2245
-    color1: 587d89
-    color2: 5e95a8
+    color1: 3f34a5
+    color2: 7b70e1
     octaves: 3.7
     persistence: 1.1
   }
   {
-    //grass
+    //blue mushrooms
     type: NoiseMesh
     planet: trecara
     divisions: 5
     radius: 0.222
     seed: 94
-    color1: 64ab7b
-    color2: 487c59
+    color1: 274187
+    color2: 4380c8
     octaves: 3.7
     persistence: 0.6
   }
   {
-    //sand
+    //mud
     type: NoiseMesh
     planet: trecara
     divisions: 6
     seed: 101
     radius: 0.22441
-    color1: babca8
-    color2: c6c282
+    color1: 81554b
+    color2: bfa388
     octaves: 5.1
     persistence: 0.8
   }
@@ -45,7 +45,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: trecara
    speed: 0.891
-   radius: 0.091
+   radius: 0.093
    divisions: 6
    color: eafffd7e
    octaves: 3
@@ -54,6 +54,21 @@ cloudMesh: [
    thresh: 0.3
   }
 ]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100 
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
 orbitRadius: 7
 sectorSize: 1
 allowLaunchSchematics: false
@@ -61,41 +76,32 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-radius: 0.25
-minZoom: 1
+radius: 0.222
+minZoom: 1.86
+maxZoom: 3
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-accessible: false
+accessible: true
 updateLighting: true
 sectorSeed: 14513
 bloom: false
 visible: true
 atmosphereColor: 666359
-iconColor: 666359
+iconColor: 3f34a5
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: 11k-01-core-essence
+defaultCore: 23w-92-core-hyphos
 parent: asthosus
 solarSystem: sun
 launchCandidates: []
+clipRadius: 2
 itemWhitelist: [
-  "01a-01-item-ferrinite",
-  "01a-02-item-demetite", 
-  "01a-06-item-lodestone", 
-  "01a-03-item-lignite", 
-  "01a-07-item-lithium", 
-  "01a-04-item-hardened-sand", 
-  "01a-05-item-red-sand", 
-  "01a-09-item-obsidian", 
-  "01a-08-item-cretite", 
-  "01a-12-item-crosium", 
-  "01a-10-item-irradiated-lump",
-  "01a-11-item-barite", 
-  "01a-13-item-barite-webbing",
-  "01a-14-item-draysten", 
-  "sand"
+  22v-01-mudstone,
+  22v-02-arcana-spores,
+  22v-03-mycillite,
+  22v-51-fungal-water
 ]

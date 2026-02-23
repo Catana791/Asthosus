@@ -1,0 +1,7 @@
+name: Mycillite
+description: A semi-organic, weaving-like material mined in a Trecarian Blue Mushroom biome.
+hardness: 1
+cost: 0.5
+color: 9ca6ae
+research: 22v-01-mudstone
+hiddenOnPlanets: [serpulo, erekir]

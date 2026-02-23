@@ -1,0 +1,110 @@
+type: flying
+flying: true
+engineSize: 0
+lowAltitude: true
+name: Cortex
+description: Protects the Hyphos core. Equipped with a single missile launcher. Capable of building and mining. 
+health: 210 
+hitSize: 9
+speed: 2.5
+armor: 2
+outlineColor: 342f2f
+mineFloor: true
+mineWalls: true
+mineSpeed: 3.5
+mineTier: 1
+buildSpeed: 1
+itemCapacity: 20
+research: 23w-92-core-hyphos
+rotateSpeed: 10
+weapons: [
+  {
+    x: 0
+    y: 5.69
+    reload: 111
+    shoot: {
+      shots: 3
+      shotDelay: 3
+    }
+    shootSound: shoot-dull
+    mirror: false
+    top: false
+    layerOffset: -1
+    inaccuracy: 3
+    bullet: {
+      type: MissileBulletType
+      speed: 3
+      lifetime: 48
+      damage: 16
+      splashDamage: 22
+      splashDamageRadius: 16
+      pierce: true
+      pierceCap: 1
+      pierceBuilding: false
+      buildingDamageMultiplier: 0.01
+      width: 5
+      height: 13
+      weaveMag: 3
+      weaveScale: 3
+      trailWidth: 2
+      trailLength: 12
+      layer: 89.9
+    }
+  }
+  {
+    x: 0
+    y: 0
+    under: true
+    layerOffset: -1
+    reload: 300
+    mirror: false
+    rotate: false
+    alwaysShooting: true
+    shootCone: 360
+    controllable: false
+    inaccuracy: 0
+    bullet: {
+      sprite: shell
+      width: 6
+      height: 6
+      splashDamage: 32
+      splashDamageRadius: 16
+      buildingDamageMultiplier: 0.01
+      damage: 0
+      circleShooter: true
+      circleShooterRadius: 16
+      circleShooterRadiusSmooth: 16
+      speed: 9.6
+      lifetime: 300
+      trailLength: 8
+      trailWidth: 1
+      hitEffect: none
+      despawnEffect: none
+      homingPower: 0.25
+      homingRange: 48
+      layer: 89.9
+      status: burning
+      statusDuration: 300
+    }
+  }
+]
+abilities: [
+  {
+    type: StatusFieldAbility
+    effect: none
+    reload: 15
+    parentizeEffects: true
+    activeEffect: {
+      followParent: true
+      rotWithParent: true
+      particles: 1
+      lifetime: 20
+      length: 0
+      region: asthosus-24x-01-cortex-rotor
+      sizeFrom: 10
+      sizeTo: 10
+      spin: 24
+      layer: 95.1
+    }
+  }
+]
