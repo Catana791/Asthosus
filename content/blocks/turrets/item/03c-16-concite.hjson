@@ -191,6 +191,8 @@ ammoTypes: {
     fragLifeMax: 1
     fragVelocityMin: 0
     fragVelocityMax: 0
+    status: blasted
+    statusDuration: 90
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false
@@ -237,6 +239,8 @@ ammoTypes: {
     fragLifeMax: 1
     fragVelocityMin: 0
     fragVelocityMax: 0
+    status: blasted
+    statusDuration: 90
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false

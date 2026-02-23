@@ -1,4 +1,4 @@
-type: ContinuousTurret
+type: ContinuousLiquidTurret
 name: Shaft
 description: A small laser turret that fires a very powerful, continuous laser at enemies. Requires power and Oasis Water to operate, only firing in each cardinal direction.
 size: 2
@@ -19,7 +19,6 @@ chargeSound: short-laser-charge
 smokeEffect: shootSmokeSquareSparse
 consumes: {
   power: 2
-  liquid: 02b-02-liquid-oasis-water/0.2
 }
 shoot: {
   type: ShootBarrel
@@ -63,67 +62,127 @@ drawer: {
 shootX: 0
 shootY: 0
 rotateSpeed: 0
-shootType: {
-  chargeEffect: {
-    type: MultiEffect
-    followParent: true
-    effects: [
-      {
-        type: ParticleEffect
-        particles: 9
-        length: 20
-        baseLength: 9
-        sizeFrom: 3
-        sizeTo: 0.1 
-        interp: pow2In
-        sizeInterp: pow2   
-        lifetime: 40
-      }
-      {
-        type: WaveEffect
-        sizeFrom: 25
-        sizeTo: 0.1
-        strokeFrom: 1.8
-        strokeTo: 0.9
-        interp: pow2In
-        lifetime: 50
-      }
-      {
-        type: ParticleEffect
-        particles: 9
-        length: 15
-        baseLength: 5
-        sizeFrom: 3
-        sizeTo: 0.1 
-        interp: pow2In
-        sizeInterp: pow2   
-        lifetime: 50
-      }
-      {
-        type: WaveEffect
-        sizeFrom: 19
-        sizeTo: 0.1
-        strokeFrom: 1.6
-        strokeTo: 0.8
-        interp: pow2In
-        lifetime: 60
-      }
-    ]
-  }
-  type: ContinuousLaserBulletType 
-  shake: 0.2
-  damageInterval: 10
-  damage: 58
-  length: 120
-  incendChance: 0
-  incendSpread: 0
-  incendAmount: 0
-  width: 4
-  splashDamagePierce: true
-  makeFire: false
-  status: melting
-  statusDuration: 120
-  hitEffect: hitBulletColor
+liquidConsumed: 0.1
+chargeEffect: {
+  type: MultiEffect
+  followParent: true
+  effects: [
+    {
+    	type: ParticleEffect
+    	particles: 9
+    	length: 20
+		baseLength: 9
+		sizeFrom: 3
+    	sizeTo: 0.1 
+    	interp: pow2In
+    	sizeInterp: pow2   
+    	lifetime: 40
+    }
+    {
+    	type: WaveEffect
+    	sizeFrom: 25
+    	sizeTo: 0.1
+    	strokeFrom: 1.8
+    	strokeTo: 0.9
+    	interp: pow2In
+    	lifetime: 50
+    }
+    {
+    	type: ParticleEffect
+    	particles: 9
+    	length: 15
+    	baseLength: 5
+    	sizeFrom: 3
+    	sizeTo: 0.1 
+    	interp: pow2In
+    	sizeInterp: pow2   
+    	lifetime: 50
+    }
+    {
+    	type: WaveEffect
+    	sizeFrom: 19
+    	sizeTo: 0.1
+    	strokeFrom: 1.6
+    	strokeTo: 0.8
+    	interp: pow2In
+    	lifetime: 60
+    }
+  ]
+} 
+ammoTypes: {
+  02b-02-liquid-oasis-water: {
+  	type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
+  	shake: 0.2
+  	damageInterval: 5
+  	damage: 25
+  	length: 120
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 4
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	colors: [b85a2e55, b85a2eaa, e07b39, ffffff]
+  } 
+  02b-03-liquid-purified-oasis-water: {
+  	type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
+  	shake: 0.2
+  	damageInterval: 5
+  	damage: 27
+  	length: 120
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 4
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	colors: [d46b3455, d46b34aa, ff9c5a, ffffff]
+  } 
+  02b-01-q-liquid-silicon-tetrafluoride: {
+  	type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
+  	shake: 0.2
+  	damageInterval: 5
+  	damage: 30
+  	length: 120
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 4
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	colors: [d6b93f55, d6b93faa, ffe066, ffffff]
+  } 
+  02b-05-liquid-nontragen: {
+  	type: ContinuousLaserBulletType 
+	ammoMultiplier: 2
+  	shake: 0.2
+  	damageInterval: 5
+  	damage: 40
+  	length: 160
+    rangeChange: 40
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 6
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: blasted
+  	statusDuration: 240
+  	hitEffect: hitBulletColor
+	colors: [3fd6c855, 3fd6c8aa, 6bfff2, ffffff]
+  } 
 }
 category: turret
 research: 03c-09-cavalier

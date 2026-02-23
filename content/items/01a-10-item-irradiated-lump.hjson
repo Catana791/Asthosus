@@ -1,5 +1,5 @@
 name: Irradiated Lump
-description: A radioactive mineral that has no use on it's own but can be processed into Barite.
+description: A radioactive mineral that has no use on its own but can be processed into Barite.
 hardness: 4
 buildable: false
 explosiveness: 0
