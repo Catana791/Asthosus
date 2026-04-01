@@ -3,7 +3,7 @@ type: SteamVent
 blendGroup: radian-barite-floor
 parent: radian-barite-floor
 effect: ventSteam
-effectColor: 258e71
+effectColor: "258e71"
 attributes: {
    steam: 1
 }
