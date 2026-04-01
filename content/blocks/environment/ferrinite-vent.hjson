@@ -3,7 +3,7 @@ type: SteamVent
 blendGroup: ferrinite-stone
 parent: ferrinite-stone
 effect: ventSteam
-effectColor: 55544f
+effectColor: "55544f"
 attributes: {
    heat: 0.11111111
 }
