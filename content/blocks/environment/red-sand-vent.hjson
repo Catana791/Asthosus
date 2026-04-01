@@ -3,7 +3,7 @@ type: SteamVent
 blendGroup: red-sand-floor
 parent: red-sand-floor
 effect: ventSteam
-effectColor: bd905b
+effectColor: "bd905b"
 attributes: {
    heat: 0.11111111
 }
