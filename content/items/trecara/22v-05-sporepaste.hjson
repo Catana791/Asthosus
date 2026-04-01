@@ -1,0 +1,10 @@
+name: Sporepaste
+description: A fine paste made from blending Mudstone and Mudstone. Used for construction and as a lubricant. 
+cost: 1
+flammability: 0.6
+research: {
+  parent: 22v-03-mycillite
+  objectives: [ 22v-01-mudstone ]
+}
+color: 7a845c
+hiddenOnPlanets: [serpulo, erekir]
