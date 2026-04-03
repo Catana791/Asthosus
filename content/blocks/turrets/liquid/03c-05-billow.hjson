@@ -106,3 +106,4 @@ drawer: {
   basePrefix: spiky-
 }
 squareSprite: false
+rotate: false

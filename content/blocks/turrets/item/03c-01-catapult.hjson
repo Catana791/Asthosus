@@ -74,3 +74,4 @@ drawer: {
   type: DrawTurret
   basePrefix: spiky-
 }
+rotate: false

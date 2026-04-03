@@ -15,6 +15,7 @@ outlineColor: 42413e
 shootSound: shoot-laser
 chargeSound: short-laser-charge
 researchCostMultiplier: 0.5
+rotate: false
 shootType: {
   type: LaserBulletType
   colors: [b98279, e6aca3, ffffff]

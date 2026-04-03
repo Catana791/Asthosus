@@ -543,3 +543,4 @@ ammoTypes: {
     toColor: a68b6d
   }
 }
+rotate: false

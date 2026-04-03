@@ -79,3 +79,4 @@ shootY: 3.5
 consumes: {
   power: 6
 }
+rotate: false

@@ -17,6 +17,7 @@ loopSoundVolume: 0.5
 shootCone: 360
 chargeSound: short-laser-charge
 smokeEffect: shootSmokeSquareSparse
+rotate: false
 consumes: {
   power: 2
 }

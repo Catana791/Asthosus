@@ -40,3 +40,4 @@ shootType: {
   }
 }
 consumes: { }
+rotate: false

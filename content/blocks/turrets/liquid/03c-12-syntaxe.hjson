@@ -131,3 +131,4 @@ ammoTypes: {
     homingDelay: 30
   }
 }
+rotate: false
