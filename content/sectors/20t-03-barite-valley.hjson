@@ -1,7 +1,7 @@
 difficulty: 6
 planet: asthosus
 sector: 2
-captureWave: 20
+captureWave: 60
 research: {
   parent: 19s-07-detriment-valley
   objectives: [
