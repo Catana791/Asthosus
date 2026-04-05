@@ -1,6 +1,7 @@
 type: BurstDrill
 name: Large Friction Quarry
 description: Uses friction explosions to mine basic materials from the ground. Reinforced using Lodestone.
+details: Boost Effect: +20% mining speed.
 size: 2
 category: production
 hardnessDrillMultiplier: 50
@@ -27,3 +28,14 @@ requirements: [
   01a-06-item-lodestone/12
 ]
 squareSprite: false
+consumes: {
+  liquids: {
+    liquids: [
+      02b-01-q-liquid-silicon-tetrafluoride/0.05
+    ]
+    optional: true
+    booster: true
+  }
+}
+liquidBoostIntensity: 1.2
+liquidCapacity: 15

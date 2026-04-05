@@ -1,6 +1,7 @@
 type: BurstDrill
 name: Friction Quarry
 description: Uses small scale friction explosions to mine basic materials from the ground.
+details: Boost Effect: +20% mining speed.
 size: 1
 category: production
 hasLiquids: false
@@ -35,3 +36,14 @@ requirements: [
   01a-02-item-demetite/20
 ]
 squareSprite: false
+consumes: {
+  liquids: {
+    liquids: [
+      02b-01-q-liquid-silicon-tetrafluoride/0.01
+    ]
+    optional: true
+    booster: true
+  }
+}
+liquidBoostIntensity: 1.2
+liquidCapacity: 3
