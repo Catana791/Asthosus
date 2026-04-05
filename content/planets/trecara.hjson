@@ -86,7 +86,7 @@ accessible: false
 updateLighting: true
 sectorSeed: 14513
 bloom: false
-visible: true
+visible: false
 atmosphereColor: 666359
 iconColor: 3f34a5
 hasAtmosphere: true
