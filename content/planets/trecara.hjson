@@ -1,7 +1,7 @@
 localizedName: "[red]Trecara - Work in Progress!"
 description: Asthosus moon, a lush stellar body that contains an abundance of water and fauna. Ores are exceedingly rare here so use what you have to conquer this planet.
 details: Noone knows why the catastrophy that hit Asthosus and turned it into a desert planet hit Asthosus in the first place. Trecara was meant to save as a protection against such disaster...
-alwaysUnlocked: true
+alwaysUnlocked: false
 mesh: [
  {
     //fungal water
@@ -86,7 +86,7 @@ accessible: false
 updateLighting: true
 sectorSeed: 14513
 bloom: false
-visible: false
+visible: true
 atmosphereColor: 666359
 iconColor: 3f34a5
 hasAtmosphere: true
