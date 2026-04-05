@@ -82,7 +82,7 @@ maxZoom: 3
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-accessible: true
+accessible: false #Temporarily make Trecara inaccessible on main/master because it's a WIP!!!
 updateLighting: true
 sectorSeed: 14513
 bloom: false
