@@ -1,0 +1,16 @@
+type: WallCrafter
+name: Mycillite Harvester
+description: Mines Mycillite from Blue Fungi. 
+size: 2
+category: production
+research: 23w-92-core-hyphos
+requirements: [
+  22v-01-mudstone/20
+  22v-02-arcana-spores/12
+]
+drillTime: 90
+output: 22v-03-mycillite
+attribute: mycillite
+ambientSound: drill
+ambientSoundVolume: 0.1
+researchCostMultiplier: 0.25

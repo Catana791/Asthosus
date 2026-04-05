@@ -1,0 +1,9 @@
+name: Arcane Sporevent
+type: SteamVent
+blendGroup: arcane-moss
+parent: arcane-moss
+effect: ventSteam
+effectColor: 3c246e
+attributes: {
+   arcanespores: 1
+}
