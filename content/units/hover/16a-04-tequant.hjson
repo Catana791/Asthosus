@@ -19,6 +19,10 @@ health: 8910
 armor: 6
 hitSize: 19
 canDrown: false
+moveSound: loopExtract
+moveSoundVolume: 0.7
+moveSoundPitchMin: 0.8
+moveSoundPitchMax: 1.5
 research: {
   parent: 16a-03-decredence
   objectives: [
@@ -129,7 +133,8 @@ weapons: [
     reload: 240
     mirror: false
     rotate: false
-    shootSound: shoot-heay-cannon
+    shootSound: explosionAfflict
+    shootSoundVolume: 1.05
     shoot: {
       firstShotDelay: 70
     }
@@ -188,8 +193,8 @@ weapons: [
             trailParam: 4
             trailWidth: 2
             trailLength: 22
-            despawnSound: spark
-            hitSound: spark
+            despawnSound: shockBullet
+            hitSound: shockBullet
             bulletInterval: 4
             intervalRandomSpread: 360
             intervalBullets: 4
@@ -201,8 +206,8 @@ weapons: [
               damage: 12
               lightningColor: f3e979
               lightningLength: 8
-              hitSound: spark
-              despawnSound: spark
+              hitSound: shockBullet
+              despawnSound: shockBullet
               pierce: true
               pierceCap: 2
               buildingDamageMultiplier: 0.65
@@ -225,7 +230,8 @@ weapons: [
       shots: 3
       shotDelay: 12
     }
-    shootSound: missileLaunch
+    shootSound: shootMissile
+    shootSoundVolume: 1.25
     rotate: false
     bullet: {
       instantDisappear: true

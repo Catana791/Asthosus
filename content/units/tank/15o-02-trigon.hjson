@@ -25,6 +25,8 @@ research: {
     10j-04-basic-assembler-constituent
   ]
 }
+tankMoveVolume: 0.55
+tankMoveSound: tankMove
 weapons: [
   {
     x: 0

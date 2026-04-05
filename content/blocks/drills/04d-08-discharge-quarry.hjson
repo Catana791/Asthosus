@@ -1,6 +1,7 @@
 type: BurstDrill
 name: Discharge Quarry
 description: Uses massive friction explosions to mine materials from the ground in high amounts. Fortified using Barite. Can mine advanced materials. Requires power.
+details: Boost Effect: +30% mining speed.
 size: 4
 hardnessDrillMultiplier: 150
 category: production
@@ -29,6 +30,13 @@ drillEffect: {
 }
 consumes: {
   power: 5
+  liquids: {
+    liquids: [
+      02b-01-q-liquid-silicon-tetrafluoride/0.2
+    ]
+    optional: true
+    booster: true
+  }
 }
 requirements: [
   01a-01-item-ferrinite/120
@@ -37,3 +45,5 @@ requirements: [
   01a-09-item-obsidian/90
   01a-11-item-barite/60
 ]
+liquidBoostIntensity: 1.3
+liquidCapacity: 60

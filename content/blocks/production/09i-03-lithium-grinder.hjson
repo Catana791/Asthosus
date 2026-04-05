@@ -13,6 +13,8 @@ research: {
       }
    ]
 }
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.06
 squareSprite: false
 researchCostMultiplier: 0.5
 requirements: [

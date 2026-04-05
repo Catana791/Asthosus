@@ -3,7 +3,7 @@ type: SteamVent
 blendGroup: demetite-stone
 parent: demetite-stone
 effect: ventSteam
-effectColor: 867e60
+effectColor: "867e60"
 attributes: {
    heat: 0.11111111
 }

@@ -26,6 +26,8 @@ drag: 0.4
 itemCapacity: 0
 outlineColor: 42413e
 aimDst: 160
+stepSound: walkerStepSmall
+stepSoundVolume: 0.65
 weapons: [
   {
     name: medium-barite-weapon
@@ -38,7 +40,8 @@ weapons: [
     reload: 76
     recoil: 2
     inaccuracy: 0
-    shootSound: splash
+    shootSound: shootDisperse
+    shootSoundVolume: 1.2
     bullet: {
       type: LiquidBulletType
       liquid: 02b-04-liquid-liquid-barite
@@ -51,7 +54,7 @@ weapons: [
       lifetime: 15
       puddleSize: 96
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       layer: 99
       trailColor: bab4ae
       trailInterval: 5
@@ -82,7 +85,8 @@ weapons: [
     mirror: false
     rotate: false
     reload: 92
-    shootSound: splash
+    shootSound: shootAtrax
+    shootSoundVolume: 1.8
     inaccuracy: 25
     shoot: {
       shots: 6
@@ -101,7 +105,7 @@ weapons: [
       lifetime: 10
       puddleSize: 256
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       layer: 99
     }
   }
@@ -111,7 +115,8 @@ weapons: [
     mirror: true
     rotate: false
     reload: 32
-    shootSound: splash
+    shootSound: shootAtrax
+    shootSoundVolume: 1.8
     inaccuracy: 25
     shoot: {
       shots: 3
@@ -131,7 +136,7 @@ weapons: [
       lifetime: 45
       puddleSize: 32
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       layer: 99
     }
   }

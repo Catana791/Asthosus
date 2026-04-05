@@ -57,6 +57,9 @@ rotateSpeed: 2.4
 hovering: false
 drownTimeMultiplier: 2
 itemCapacity: 100
+stepSound: walkerStep
+stepSoundVolume: 0.9
+stepSoundPitch: 1
 controller: RepairAI
 commands: [move, repair, rebuild, assist]
 weapons: [
@@ -66,6 +69,7 @@ weapons: [
     y: 7
     reload: 20
     shootSound: shoot-heavy-cannon
+    shootSoundVolume: 0.3
     mirror: true
     alternate: true
     parts: [
@@ -121,7 +125,8 @@ weapons: [
     mirror: false
     rotate: false
     shootCone: 90
-    shootSound: artillery
+    shootSound: shootArtillerySmall
+    shootSoundVolume: 2.45
     bullet: {
       type: ArtilleryBulletType
       speed: 1.5
@@ -139,6 +144,7 @@ weapons: [
       despawnUnit: asthosus-18r-10-heal-node-2
       despawnUnitCount: 1
       despawnUnitRadius: 1
+      despawnSound: explosionPlasmaSmall
     }
   }
   {

@@ -17,6 +17,10 @@ health: 16790
 armor: 8
 hitSize: 30
 canDrown: false
+moveSound: loopExtract
+moveSoundVolume: 0.8
+moveSoundPitchMin: 0.8
+moveSoundPitchMax: 1.5
 researchCostMultiplier: 2.5
 research: {
   parent: 16a-04-tequant
@@ -137,7 +141,8 @@ weapons: [
       rotate: false
       baseRotation: -45
       shootCone: 360
-      shootSound: missile
+      shootSound: shootMissileLong
+      shootSoundVolume: 1.05
       reload: 9
       bullet: {
         type: MissileBulletType
@@ -161,7 +166,8 @@ weapons: [
       alternate: true
       rotate: false
       baseRotation: -45
-      shootSound: missileLaunch
+      shootSound: shootMissileLong
+      shootSoundVolume: 1.1
       reload: 7
       shootCone: 360
       bullet: {
@@ -186,7 +192,8 @@ weapons: [
       alternate: true
       rotate: false
       baseRotation: -45
-      shootSound: missileLaunch
+      shootSound: shootMissileLong
+      shootSoundVolume: 1.05
       reload: 15
       shootCone: 360
       bullet: {
@@ -555,7 +562,7 @@ weapons: [
       intervalBullet: {
         type: LaserBulletType
         damage: 30
-        despawnSound: spark
+        despawnSound: shockBullet
         width: 6
         length: 36
         colors: [8f7eb8, 473b64, ffffff]

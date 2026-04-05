@@ -40,7 +40,7 @@ generateEffect: {
     sizeInterp: pow3In
   }
 }
-ambientSound: extractLoop
+ambientSound: loopExtract
 ambientSoundVolume: 0.01
 squareSprite: false
 drawer: {

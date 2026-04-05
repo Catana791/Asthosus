@@ -43,3 +43,5 @@ drawer: {
   ]
 }
 researchCostMultiplier: 0.5
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.1

@@ -3,7 +3,7 @@ type: SteamVent
 blendGroup: terracotta-floor
 parent: terracotta-floor
 effect: ventSteam
-effectColor: daac7e
+effectColor: "daac7e"
 attributes: {
    heat: 0.11111111
 }

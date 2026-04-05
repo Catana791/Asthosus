@@ -1,6 +1,7 @@
 type: BurstDrill
 name: Abrasion Quarry
 description: Uses large-scale friction explosions to mine materials from the ground in high amounts. Enhanced through Obsidian. Can mine advanced materials. Requires power.
+details: Boost Effect: +30% mining speed.
 size: 3
 hardnessDrillMultiplier: 150
 category: production
@@ -30,6 +31,13 @@ drillEffect: {
 }
 consumes: {
   power: 2
+  liquids: {
+    liquids: [
+      02b-01-q-liquid-silicon-tetrafluoride/0.1
+    ]
+    optional: true
+    booster: true
+  }
 }
 requirements: [
   01a-01-item-ferrinite/46 
@@ -38,3 +46,5 @@ requirements: [
   01a-09-item-obsidian/40
 ]
 squareSprite: false
+liquidBoostIntensity: 1.3
+liquidCapacity: 30

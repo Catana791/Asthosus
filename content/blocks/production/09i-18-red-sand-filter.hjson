@@ -13,7 +13,8 @@ consumes: {
   ]
 }
 ignoreLiquidFullness: true
-ambientSound: extractLoop
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.1
 researchCostMultiplier: 0.5
 ambientSoundVolume: 0.09
 craftEffect: {

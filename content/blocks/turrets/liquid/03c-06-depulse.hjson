@@ -90,3 +90,4 @@ ammoTypes: {
     statusDuration: 60
   }
 }
+rotate: false

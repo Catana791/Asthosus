@@ -3,7 +3,7 @@ type: SteamVent
 blendGroup: hardened-sand-floor
 parent: hardened-sand-floor
 effect: ventSteam
-effectColor: d1c092
+effectColor: "d1c092"
 attributes: {
    heat: 0.11111111
 }

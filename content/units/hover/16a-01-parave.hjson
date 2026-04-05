@@ -18,6 +18,10 @@ armor: 1
 hitSize: 6
 canDrown: false
 researchCostMultiplier: 1.5
+moveSound: loopExtract
+moveSoundVolume: 0.25
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1
 research: {
   parent: 10j-03-hover-mounting-bay
   objectives: [
@@ -53,7 +57,8 @@ weapons: [
     alternate: true
     reload: 48
     rotate: false
-    shootSound: missile
+    shootSound: shootMissileShort
+    shootSoundVolume: 1.45
     shoot: {
       shots: 3
       shotDelay: 5

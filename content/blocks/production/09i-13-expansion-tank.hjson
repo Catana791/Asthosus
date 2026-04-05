@@ -32,7 +32,7 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
-ambientSoundVolume: 0.1
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.06
 hasLiquids: true
 liquidCapacity: 60

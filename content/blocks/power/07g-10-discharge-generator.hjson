@@ -24,8 +24,8 @@ drawer: {
     }
   ]
 }
-ambientSound: hum
-ambientSoundVolume: 0.24
+ambientSound: loopPulse
+ambientSoundVolume: 0.04
 powerProduction: 22.5
 category: power
 research: 07g-08-pressure-turbine
