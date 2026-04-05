@@ -24,7 +24,7 @@ shootEffect: {
     lifetime: 15
 }
 smokeEffect: none
-shootSound: spark
+shootSound: shockBullet
 shootY: 0
 shootX: 0
 recoil: 0

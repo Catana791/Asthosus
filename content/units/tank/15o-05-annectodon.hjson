@@ -13,6 +13,8 @@ speed: 0.48
 rotateSpeed: 1.92
 itemCapacity: 0
 outlineColor: 44413c
+tankMoveVolume: 1.65
+tankMoveSound: tankMoveHeavy
 research: {
   parent: 15o-04-aphelops
   objectives: [ 
@@ -118,8 +120,8 @@ weapons: [
             type: ExplosionBulletType
             hitEffect: flakExplosion
             despawnEffect: scatheExplosion
-            hitSound: largeCannon
-            despawnSound: largeCannon
+            hitSound: shootTank
+            despawnSound: shootTank
             splashDamageRadius: 32
             splashDamage: 96
             killShooter: false
@@ -161,8 +163,8 @@ weapons: [
                 killShooter: false
                 hitShake: 24
                 despawnShake: 24
-                hitSound: largeExplosion
-                despawnSound: largeExplosion
+                hitSound: explosionMissile
+                despawnSound: explosionMissile
                 hitEffect: flakExplosion
                 despawnEffect: titanExplosion
                 buildingDamageMultiplier: 0.2
@@ -211,8 +213,8 @@ weapons: [
           lightningColor: edc66c
           lightningLength: 7
           lightningDamage: 46
-          hitSound: spark
-          despawnSound: spark
+          hitSound: shockBullet
+          despawnSound: shockBullet
           lifetime: 1
         }
         hitEffect: {
@@ -280,7 +282,7 @@ weapons: [
         fragBullets: 1
         fragVelocityMin: 0
         fragVelocityMax: 0
-        despawnSound: dullExplosion
+        despawnSound: explosionDull
         fragBullet: {
           type: ExplosionBulletType
           killShooter: false

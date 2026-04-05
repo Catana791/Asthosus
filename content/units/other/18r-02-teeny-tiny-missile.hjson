@@ -23,7 +23,7 @@ outlines: true
 outlineRadius: 2
 outlineColor: 44413c
 range: 4
-hidden: true  
+hidden: true
 weapons: [
   {
     reload: 1

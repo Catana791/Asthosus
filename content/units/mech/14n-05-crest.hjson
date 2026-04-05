@@ -9,6 +9,10 @@ outlineColor: 44413c
 hitSize: 30
 mechLegColor: 44413c
 rotateSpeed: 1.2
+stepShake: 0.55
+stepSound: mechStepHeavy
+stepSoundPitch: 0.8
+stepSoundVolume: 0.45
 abilities: [
 	{
 		type: ShieldArcAbility

@@ -17,6 +17,10 @@ health: 660
 armor: 3
 hitSize: 9
 canDrown: false
+moveSound: loopExtract
+moveSoundVolume: 0.35
+moveSoundPitchMin: 0.6
+moveSoundPitchMax: 1.25
 researchCostMultiplier: 3
 research: {
   parent: 16a-01-parave
@@ -84,7 +88,8 @@ weapons: [
     alternate: true
     reload: 16
     rotate: false
-    shootSound: missile
+    shootSound: shootMissile
+    shootSoundVolume: 1.05
     bullet: {
       instantDisappear: true
       damage: 0

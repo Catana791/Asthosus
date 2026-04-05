@@ -45,7 +45,7 @@ reload: 103
 range: 160
 shootEffect: shootSmall
 smokeEffect: shootSmokeSquareSparse
-shootSound: artillery
+shootSound: shootArtillerySmall
 ammoTypes: {
   01a-01-item-ferrinite: {
     //hitSound: dull-impact

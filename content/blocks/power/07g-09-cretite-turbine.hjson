@@ -18,6 +18,8 @@ consumes: {
   ]
   liquid: 02b-03-liquid-purified-oasis-water/0.2
 }
+ambientSound: loopSmelter
+ambientSoundVolume: 0.1
 itemDuration: 180
 generateEffectRange: 0
 generateEffect: {

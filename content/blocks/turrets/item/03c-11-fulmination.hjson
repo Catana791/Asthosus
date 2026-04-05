@@ -73,7 +73,7 @@ ammoTypes: {
     fragVelocityMax: 1
     fragLifeMin: 1
     fragLifeMax: 1
-    despawnSound: dullExplosion
+    despawnSound: explosion
     fragBullet: {
       type: BasicBulletType
       pierce: true
@@ -124,7 +124,7 @@ ammoTypes: {
     fragOnHit: false
     damage: 83
     fragBullets: 12
-    despawnSound: spark
+    despawnSound: shockBullet
     fragBullet: {
       type: LightningBulletType
       damage: 19

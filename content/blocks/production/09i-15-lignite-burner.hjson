@@ -56,7 +56,7 @@ craftEffect: {
   }
 }
 rotate: false
-ambientSound: smelter
+ambientSound: loopSmelter
 ambientSoundVolume: 0.08
 category: crafting
 research: {

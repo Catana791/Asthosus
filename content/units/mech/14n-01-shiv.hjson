@@ -8,6 +8,8 @@ armor: 2
 hitSize: 10
 outlineColor: 44413c
 mechLegColor: 44413c
+stepSound: mechStepSmall
+stepSoundVolume: 0.35
 abilities: [
   {
     type: MoveEffectAbility
@@ -36,6 +38,7 @@ abilities: [
           shotDelay: 12
         }
         shootSound: energy-blade-launch
+        shootSoundVolume: 0.7
         bullet: {
           type: BasicBulletType
           speed: 4
@@ -61,6 +64,7 @@ abilities: [
       reload: 210
       shootCone: 5
       shootSound: energy-blade-hit
+      shootSoundVolume: 0.8
       bullet: {
         width: 0
         speed: 8

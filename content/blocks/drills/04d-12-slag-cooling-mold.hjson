@@ -58,3 +58,5 @@ drawer: {
 }
 itemCapacity: 50
 craftEffect: [smeltsmoke, turbinegenerate]
+ambientSound: loopMachine2
+ambientSoundVolume: 0.1

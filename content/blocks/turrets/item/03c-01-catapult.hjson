@@ -10,7 +10,8 @@ research: {
   ]
 }
 researchCostMultiplier: 0.05
-shootSound: artillery
+shootSound: shootArtillerySmall
+shootSoundVolume: 0.7
 requirements: [
   01a-01-item-ferrinite/40
 ]

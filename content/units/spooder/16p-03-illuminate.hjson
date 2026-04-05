@@ -24,13 +24,16 @@ legForwardScl: 0.56
 itemCapacity: 80
 outlineColor: 44413c
 hitSize: 15
+stepSound: walkerStepSmall
+stepSoundVolume: 0.65
 weapons: [
   {
     x: -9
     name: enlighten-blaster
     y: 3
     reload: 72
-    shootSound: shoot-dull
+    shootSound: shootMissilePlasmaShort
+    shootSoundVolume: 1.65
     mirror: true
     alternate: true
     rotate: false
@@ -63,8 +66,8 @@ weapons: [
       lightColor: 69a25e
       lightRadius: 40
       lightOpacity: 0.7
-      hitSound: dullExplosion
-      despawnSound: dullExplosion
+      hitSound: explosion
+      despawnSound: explosion
       frontColor: 9be98b
     }
   }
@@ -75,7 +78,8 @@ weapons: [
     name: illuminate-weapon
     mirror: false
     rotate: false
-    shootSound: artillery
+    shootSound: shootArtillerySmall
+    shootSoundVolume: 2.25
     bullet: {
       type: ArtilleryBulletType
       speed: 1.5
@@ -93,6 +97,7 @@ weapons: [
       despawnUnit: asthosus-18r-09-heal-node
       despawnUnitCount: 1
       despawnUnitRadius: 1
+      despawnSound: explosionPlasmaSmall
     }
   }
 ]

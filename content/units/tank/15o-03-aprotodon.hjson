@@ -27,6 +27,8 @@ research: {
     10j-05-advanced-assembler-constituent
   ]
 }
+tankMoveVolume: 0.75
+tankMoveSound: tankMove
 weapons: [
   {
     x: 0
@@ -44,7 +46,7 @@ weapons: [
     mirror: false
     rotate: true
     shootY: 6
-    shootSound: laserbig
+    shootSound: shootMeltdown
     bullet: {
       chargeEffect: {
         type: MultiEffect
@@ -145,7 +147,6 @@ weapons: [
       incendAmount: 0
       incendChance: 0
       colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
-      despawnSound: none
       fragBullets: 1
       fragRandomSpread: 0
       pierceCap: 3
