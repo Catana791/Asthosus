@@ -1,4 +1,5 @@
-# Check Maps Properties
+# Check Maps Properties - These are just an example
+# if u want Asthosus Lores being translated, hop in Discord and contact Kevin as Translation Manager
 
 en:
 lattice.message = [ ⚠ BEGIN AUTOMATED BROADCAST ⚠ ]\n\nTHIS LOCATION IS PROPERTY OF THE [red]DIVISION BRT-3[].\nTAMPERING WITH, OR DESTRUCTION OF, THIS LOCATION'S OUTPOST WILL BE MET WITH USE OF FORCE.\n\n[ ⚠ END AUTOMATED BROADCAST ⚠ ]
@@ -17,3 +18,6 @@ lattice.message = [ ⚠ ПОЧАТИ АВТОМАТИЧНУ ПЕРЕДАЧУ ⚠
 
 zh_TW:
 lattice.message = [ ⚠ 啟動自動廣播 ⚠ ] \n\n這個地區是由[red]BRT-3分部[]所管轄。 \n\n摧毀此地區的前哨站將會被處以最嚴厲的武力對待。 \n\n[ ⚠ 關閉自動廣播 ⚠ ]
+
+zh_CN:
+lattice.message = [开始自动广播]\n\n立即离开此位置。该区域已被 [red]BRT-3[部门]占领。\n\n[自动广播结束]
