@@ -1,7 +1,6 @@
 type: BurstDrill
 name: Discharge Quarry
 description: Uses massive friction explosions to mine materials from the ground in high amounts. Fortified using Barite. Can mine advanced materials. Requires power.
-details: Boost Effect: +30% mining speed.
 size: 4
 hardnessDrillMultiplier: 150
 category: production
