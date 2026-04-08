@@ -1,6 +1,6 @@
 type: ContinuousLiquidTurret
 name: Shaft
-description: A small laser turret that fires a very powerful, continuous laser at enemies. Requires power and Oasis Water to operate, only firing in each cardinal direction.
+description: A small laser turret that fires a very powerful, continuous laser at enemies. Requires power and coolant to operate, only firing in each cardinal direction. Damage output depends on the coolant used.
 size: 2
 range: 120
 shootWarmupSpeed: 0.08
