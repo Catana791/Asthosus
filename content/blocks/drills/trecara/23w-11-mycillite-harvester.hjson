@@ -11,6 +11,6 @@ requirements: [
 drillTime: 90
 output: 22v-03-mycillite
 attribute: mycillite
-ambientSound: drill
+ambientSound: loopDrill
 ambientSoundVolume: 0.1
 researchCostMultiplier: 0.25

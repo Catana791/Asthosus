@@ -132,7 +132,7 @@ weapons: [
       length: 180
       width: 2
       damage: 26
-      hitSound: spark
+      hitSound: shockBullet
       colors: [b1b1b1, f8efe6, ffffff]
       status: asthosus-13m-02-status-radiated
       statusDuration: 120

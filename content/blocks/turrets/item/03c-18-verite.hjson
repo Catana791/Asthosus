@@ -95,7 +95,7 @@ ammoTypes: {
     shake: 20
     intervalBullet: {
       type: LaserBulletType
-      despawnSound: spark
+      despawnSound: shootArc
       colors: [486f64, 54b89c, ffffff]
       sideWidth: 2
       sideLength: 16
@@ -176,7 +176,7 @@ ammoTypes: {
     shake: 20
     intervalBullet: {
       type: LaserBulletType
-      despawnSound: spark
+      despawnSound: shootArc
       colors: [a78b6f, dfb891, ffffff]
       sideWidth: 2
       sideLength: 16
@@ -198,7 +198,7 @@ ammoTypes: {
       backColor: a78b6f
       trailColor: a78b6f
       type: MissileBulletType
-      despawnSound: dull-explosion
+      despawnSound: explosion
       speed: 2
       lifetime: 30
       pierce: true
@@ -257,7 +257,7 @@ ammoTypes: {
     shake: 20
     intervalBullet: {
       type: LaserBulletType
-      despawnSound: spark
+      despawnSound: shockBullet
       colors: [7e4a4a, c67979, ffffff]
       sideWidth: 2
       sideLength: 16
@@ -279,7 +279,7 @@ ammoTypes: {
       backColor: 7e4a4a
       trailColor: 7e4a4a
       type: MissileBulletType
-      despawnSound: dull-explosion
+      despawnSound: explosion
       speed: 2
       lifetime: 30
       pierce: true

@@ -9,7 +9,7 @@ targetGround: true
 moveWhileCharging: true
 accurateDelay: false
 outlineColor: 42413e
-chargeSound: lasercharge2
+chargeSound: chargeVela
 researchCostMultiplier: 0.5
 coolantMultiplier: 7.5
 coolant: {

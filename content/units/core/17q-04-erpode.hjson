@@ -37,7 +37,6 @@ abilities: [
     layer: 1
     maxTargets: 8
     range: 80
-    shootSound: spark
     useAmmo: false
     x: 0
     y: 0

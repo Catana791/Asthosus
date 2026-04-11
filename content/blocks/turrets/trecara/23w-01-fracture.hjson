@@ -11,7 +11,7 @@ research: {
   ]
 }
 researchCostMultiplier: 0.05
-shootSound: artillery
+shootSound: shootArtillerySmall
 requirements: [
   22v-01-mudstone/25
   22v-03-mycillite/15

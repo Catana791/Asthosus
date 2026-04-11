@@ -189,7 +189,7 @@ weapons: [
     shoot: {
       firstShotDelay: 60
     }
-    chargeSound: lasercharge2
+    chargeSound: chargeVela
     bullet: {
       type: BasicBulletType
       sprite: large-orb

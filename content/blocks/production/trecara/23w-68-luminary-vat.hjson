@@ -22,7 +22,7 @@ requirements: [
   22v-02-arcana-spores/60
   22v-03-mycillite/40
 ]
-ambientSound: extractLoop
+ambientSound: loopExtract
 ambientSoundVolume: 0.08
 drawer: {
   type: DrawMulti

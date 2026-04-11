@@ -14,7 +14,7 @@ weapons: [
         alwaysShooting: true   
         ignoreRotation: true
         shootCone: 360
-        shootSound: huge-explosion
+        shootSound: explosionReactor
         shake: 600
         bullet: {
             killShooter: true

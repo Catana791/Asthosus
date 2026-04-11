@@ -221,7 +221,8 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
-    shootSound: none
+    shootSound: beamLustre
+    shootSoundVolume: 0.1
     shoot: {
       firstShotDelay: 60
     }
@@ -255,7 +256,8 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
-    shootSound: none
+    shootSound: beamLustre
+    shootSoundVolume: 0.1
     shoot: {
       firstShotDelay: 60
     }
@@ -283,12 +285,13 @@ weapons: [
     predictTarget: false
     ignoreRotation: true
     alwaysShooting: true
-    shootSound: none
     x: -5.5
     y: 8
     rotate: false
     mirror: false
     alwaysContinuous: true
+    shootSound: beamLustre
+    shootSoundVolume: 0.1
     shoot: {
       firstShotDelay: 90
     }
@@ -322,7 +325,8 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
-    shootSound: none
+    shootSound: beamLustre
+    shootSoundVolume: 0.1
     shoot: {
       firstShotDelay: 90
     }
@@ -356,7 +360,8 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
-    shootSound: none
+    shootSound: beamLustre
+    shootSoundVolume: 0.1
     shoot: {
       firstShotDelay: 120
     }
@@ -364,7 +369,6 @@ weapons: [
     baseRotation: -45
     layerOffset: -0.125
     shootCone: 360
-    shootSound: none
     bullet: {
       shootEffect: none
       type: ContinuousFlameBulletType
@@ -391,7 +395,8 @@ weapons: [
     rotate: false
     mirror: false
     alwaysContinuous: true
-    shootSound: none
+    shootSound: beamLustre
+    shootSoundVolume: 0.1
     shoot: {
       firstShotDelay: 120
     }
@@ -428,7 +433,8 @@ weapons: [
     shoot: {
       firstShotDelay: 210
     }
-    shootSound: laserbeam
+    shootSound: beamLustre
+    shootSoundVolume: 0.2
     shootCone: 360
     layerOffset: -0.1
     bullet: {

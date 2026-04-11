@@ -20,6 +20,7 @@ consumes: {
   ]
 }
 liquidCapacity: 60
+explodeSound: explosionReactor2
 explosionMinWarmup: 0.5
 explosionDamage: 2000
 ambientSound: loopFlux
