@@ -117,7 +117,7 @@ ammoTypes: {
       backColor: 486f64
       trailColor: 486f64
       type: MissileBulletType
-      despawnSound: dull-explosion
+      despawnSound: explosion
       speed: 2
       lifetime: 30
       pierce: true
