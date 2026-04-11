@@ -4,4 +4,4 @@ cost: 0.7
 hardness: 1
 color: beb48f
 research: 01a-01-item-ferrinite
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [asthosus]

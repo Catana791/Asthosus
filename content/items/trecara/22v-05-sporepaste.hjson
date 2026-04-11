@@ -7,4 +7,4 @@ research: {
   objectives: [ 22v-01-mudstone ]
 }
 color: 7a845c
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [trecara]

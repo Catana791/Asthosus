@@ -7,4 +7,4 @@ research: 01a-03-item-lignite
 cost: 0.8
 charge: 0.2
 color: cf9991
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [asthosus]

@@ -5,4 +5,4 @@ cost: 0.2
 lowPriority: true
 research: 01a-04-item-hardened-sand
 color: e28d62
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [asthosus]

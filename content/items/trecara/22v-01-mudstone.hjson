@@ -5,4 +5,4 @@ cost: 0.5
 alwaysUnlocked: true
 color: 9d7867
 research: 23w-92-core-hyphos
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [trecara]

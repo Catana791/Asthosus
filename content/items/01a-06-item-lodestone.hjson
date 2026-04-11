@@ -5,4 +5,4 @@ cost: 0.8
 charge: 0.1
 research: 01a-02-item-demetite
 color: 676593
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [asthosus]

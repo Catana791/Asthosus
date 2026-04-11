@@ -7,4 +7,4 @@ explosiveness: 0.1
 radioactivity: 1
 color: dad2ca
 research: 01a-10-item-irradiated-lump
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [asthosus]
