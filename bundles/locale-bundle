@@ -13,6 +13,7 @@ zh_TW:
 lattice.message = [ ⚠ 啟動自動廣播 ⚠ ]\n\n這個地區是由[red]BRT-3分部[]所管轄。\n\n摧毀此地區的前哨站將會被處以最嚴厲的武力對待。\n\n[ ⚠ 關閉自動廣播 ⚠ ]
 id_ID:
 lattice.message = [ ⚠ MEMULAI SIARAN OTOMATIS ⚠ ]\n\nLOKASI INI ADALAH PROPERTI MILIK [red]FRAKSI BRT-3[].\nPERUSAKAN TERHADAP POS TERDEKAT DI LOKASI INI AKAN MENGHADAPI HUKUM.\n\n[ ⚠ SIARAN OTOMATIS BERAKHIR ⚠ ]
+in_ID:
+lattice.message = [ ⚠ MEMULAI SIARAN OTOMATIS ⚠ ]\n\nLOKASI INI ADALAH PROPERTI MILIK [red]FRAKSI BRT-3[].\nPERUSAKAN TERHADAP POS TERDEKAT DI LOKASI INI AKAN MENGHADAPI HUKUM.\n\n[ ⚠ SIARAN OTOMATIS BERAKHIR ⚠ ]
 zh_CN:
 lattice.message = 
-
