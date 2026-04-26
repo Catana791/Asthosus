@@ -8,5 +8,6 @@ requirements: [
   01a-09-item-obsidian/18
   01a-11-item-barite/18
 ]
+databaseTag: unitpart
 research: autoforge
 researchCostMultiplier: 0.25
