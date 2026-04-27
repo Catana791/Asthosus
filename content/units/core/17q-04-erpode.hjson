@@ -20,7 +20,7 @@ hitSize: 10
 isEnemy: false
 mineSpeed: 4.5
 mineTier: 1
-buildSpeed: 0.45
+buildSpeed: 0.55
 drag: 0.4
 itemCapacity: 20
 outlineColor: 42413e
