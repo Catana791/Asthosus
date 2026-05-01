@@ -115,11 +115,11 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     frontColor: ffffff
-    backColor: d77751
+    backColor: e28d62
     trailChance: -1
     trailWidth: 1.2
     trailLength: 6
-    trailColor: d77751
+    trailColor: e28d62
     status: melting
     statusDuration: 180
   }

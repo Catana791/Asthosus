@@ -52,9 +52,9 @@ coolant: {
 }
 ammoTypes: {
   01a-06-item-lodestone: {
-    frontColor: ffffff
-    backColor: 4e4277
-    trailColor: 4e4277
+    frontColor: 80799e
+    backColor: 4e4a64
+    trailColor: 4e4a64
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     despawnSound: shoot-dull
