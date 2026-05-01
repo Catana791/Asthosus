@@ -1,6 +1,7 @@
-# Check Maps Properties - These are just an example
-# if u want Asthosus Lores being translated, hop in Discord and contact Kevin :3
+# Check Maps Properties - These are (actually) working
+# These act as fallback if respective language has not being translated - used by wproc `print` instruction
 
+#Lattice
 de:
 lattice.message = [ ⚠ BEGINNE AUTOMATISCHE ÜBERTRAGUNG ⚠ ]\n\nDIESER ORT IST EIGENTUM DER [red]DIVISION BRT-3[].\nDAS MANIPULIEREN ODER ZERSTÖREN DES AUSSENPOSTENS WIRD MIT GEWALT BEANTWORTET.\n\n[ ⚠ ENDE AUTOMATISCHE ÜBERTRAGUNG ⚠ ]
 ru:
@@ -18,6 +19,7 @@ lattice.message = [ ⚠ MEMULAI SIARAN OTOMATIS ⚠ ]\n\nLOKASI INI ADALAH PROPE
 in_ID:
 lattice.message = [ ⚠ MEMULAI SIARAN OTOMATIS ⚠ ]\n\nLOKASI INI ADALAH PROPERTI MILIK [red]FRAKSI BRT-3[].\nPERUSAKAN TERHADAP POS TERDEKAT DI LOKASI INI AKAN MENGHADAPI HUKUM.\n\n[ ⚠ SIARAN OTOMATIS BERAKHIR ⚠ ]
 
+#Factory Unit 0047
 de:
 facunit.message1 = The [red]Arumis[] closed operation of [accent]Factory Unit No.0047[]\nThe base hasn't been maintained in decades leaving it to wither away.
 facunit.message2 = The factory was left to fend for itself.\nWhatever unit production it has, is their only way to fight back.
@@ -98,3 +100,181 @@ facunit.message6 = Dahulu kala, ketika pabrik-pabrik masih beroperasi,\n[red]Aru
 facunit.message7 = Karena [red]Arumis[] mengabaikan sektor ini,\ntidak ada yang melarang kamu untuk menggunakan [accent]menara[] untuk menyerang struktur markas musuh.
 facunit.message8 = [red]Tempat Pembuangan Sampah Milik Arumis [gray]#9344
 facunit.message9 = [lightgray]Muatan yang akan didaur ulang: --73--\nMuatan akan dihancurkan: --107--\n\nJumlah sumber daya: 277%
+
+#Bioweapon Facility
+de:
+mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
+mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
+bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
+bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
+bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
+bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+ru:
+mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
+mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
+bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
+bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
+bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
+bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+uk_UA:
+mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
+mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
+bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
+bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
+bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
+bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+zh_CN:
+mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
+mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
+bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
+bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
+bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
+bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+en:
+mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
+mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
+bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
+bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
+bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
+bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+zh_TW:
+mainlore.message1 = 阿魯米斯研究文檔 #1097\n隨著新世代[red][以編輯][]技術開發的突破，\n透過將轟鳴砲重製為[red][以編輯][]，\n我們終於能夠開始 /// 游擊戰。\n\n - _____ 阿凱恩 博士
+mainlore.message2 = 阿魯米斯研究文檔 #0789\n由於新技術[red][以編輯][]存在問題，\n[red][以編輯][]似乎對這種外星紫色液體，\n產生意想不到的反應。\n\n 報告結束 - _____ 阿凱恩 博士
+bioweapon.message1 = DNA 檢驗報告\n[green]重晶尾隨者\n\n舊稱 > 塞爾格 = 也被稱為「阿斯托薩斯人最好的朋友」\n結構特徵 - 單尾或多尾，長而蓬鬆的耳朵，琥珀色眼睛，灰色瞳孔。
+bioweapon.message2 = DNA 檢驗報告\n[pink]重晶爬行者\n\n舊稱 > 賽爾恩 = 塞爾格的後代\n結構特徵 - 與嗶嘰近乎相同，毛髮較厚，爪子較小，獠牙較鈍。
+bioweapon.message3 = 阿魯米斯研究文檔 #2033\n在最初的攻擊之後，這些變異體展現出高度智力，並且能夠以飛快的速度挖掘。
+bioweapon.message4 = 阿魯米斯研究文檔 #2033\n第2頁\n重晶生物的 DNA 檢驗結果顯示，\n在阿斯托薩斯發生某件事之前，它們具有多種類似哺乳動物的特徵。
+id_ID:
+mainlore.message1 = Dokumen Penelitian [red]Arumis[] #1097\nDengan teknologi [red][SENSOR][] generasi baru\nAkhirnya kami mampu melakukan /// peperangan, dengan memprogram ulang menara verite menjadi [red][SENSOR][]\nPenelitian - Dr. _____ Arcane
+mainlore.message2 = Dokumen Penelitian [red]Arumis[] #0789\nKarena terdapat masalah dengan teknologi [red][SENSOR][] yang baru\nTampaknya [red][SENSOR][] bereaksi secara tak terduga terhadap cairan ungu alien.\nAkhir Penelitian - Dr. _____ Arcane
+bioweapon.message1 = Hasil Tes DNA - [accent]Barit Penusuk[]\n\nNama sebelumnya = [accent]Serg[]\nNama lokalnya = [accent]"Sahabat Terbaik Warga Asthosian"[]\n\nCiri khas\n- memiliki satu atau beberapa ekor\n- telinga panjang dan berbulu lebat\n- mata berwarna kuning keemasan dengan pupil abu-abu.
+bioweapon.message2 = Hasil Tes DNA - [accent]Barit Perayap[]\n\nNama sebelumnya = [accent]Sern[] - Keturunan [accent]Serg[]\n\nCiri khas\n- memiliki bulu yang lebih tebal\n- cakar yang lebih kecil\n- taring yang jauh lebih tumpul.
+bioweapon.message3 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 1\nSetelah serangan berakhir, para mutan menunjukkan kecerdasan tinggi dan mampu menggali dengan sangat sangat cepat.
+bioweapon.message4 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 2\nHasil analisis DNA mahluk barit menunjukkan bahwa sebelum peristiwa penyerangan yang terjadi di Asthosus, mereka memiliki ciri-ciri yang mirip dengan mamalia.
+in_ID:
+mainlore.message1 = Dokumen Penelitian [red]Arumis[] #1097\nDengan teknologi [red][SENSOR][] generasi baru\nAkhirnya kami mampu melakukan /// peperangan, dengan memprogram ulang menara verite menjadi [red][SENSOR][]\nPenelitian - Dr. _____ Arcane
+mainlore.message2 = Dokumen Penelitian [red]Arumis[] #0789\nKarena terdapat masalah dengan teknologi [red][SENSOR][] yang baru\nTampaknya [red][SENSOR][] bereaksi secara tak terduga terhadap cairan ungu alien.\nAkhir Penelitian - Dr. _____ Arcane
+bioweapon.message1 = Hasil Tes DNA - [accent]Barit Penusuk[]\n\nNama sebelumnya = [accent]Serg[]\nNama lokalnya = [accent]"Sahabat Terbaik Warga Asthosian"[]\n\nCiri khas\n- memiliki satu atau beberapa ekor\n- telinga panjang dan berbulu lebat\n- mata berwarna kuning keemasan dengan pupil abu-abu.
+bioweapon.message2 = Hasil Tes DNA - [accent]Barit Perayap[]\n\nNama sebelumnya = [accent]Sern[] - Keturunan [accent]Serg[]\n\nCiri khas\n- memiliki bulu yang lebih tebal\n- cakar yang lebih kecil\n- taring yang jauh lebih tumpul.
+bioweapon.message3 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 1\nSetelah serangan berakhir, para mutan menunjukkan kecerdasan tinggi dan mampu menggali dengan sangat sangat cepat.
+bioweapon.message4 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 2\nHasil analisis DNA mahluk barit menunjukkan bahwa sebelum peristiwa penyerangan yang terjadi di Asthosus, mereka memiliki ciri-ciri yang mirip dengan mamalia.
+
+#Acropolis
+de:
+acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
+ru:
+acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
+uk_UA:
+acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
+zh_CN:
+acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
+en:
+acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
+zh_TW:
+acropolis.message = 衛城文檔 #0980\n由於地理位置極為偏遠，任何老舊或無法使用的設備都會被送到廢棄物處理場。
+id_ID:
+acropolis.message = Dokumen Sektor Akropolis #0980\nKarena lokasinya yang sangat sempit dan terisolasi, semua peralatan lama yang tidak dapat digunakan lagi telah dikirim ke tempat barang rongsokan.
+in_ID:
+acropolis.message = Dokumen Sektor Akropolis #0980\nKarena lokasinya yang sangat sempit dan terisolasi, semua peralatan lama yang tidak dapat digunakan lagi telah dikirim ke tempat barang rongsokan.
+
+#Molten Heights
+de:
+molten.message1 = Research Document #7988\nBarite Creatures are fascinating beings, just like any creature they are also prone to infighting despite living as a hive and sometimes to prove dominance will ally with anything or anyone.
+molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
+molten.message3 = Research Document #9987\nDespite being very cooperative creatures, the very moment their needs and goals are satisfied they ditch the relationship entirely and return to their hives.
+ru:
+molten.message1 = Research Document #7988\nBarite Creatures are fascinating beings, just like any creature they are also prone to infighting despite living as a hive and sometimes to prove dominance will ally with anything or anyone.
+molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
+molten.message3 = Research Document #9987\nDespite being very cooperative creatures, the very moment their needs and goals are satisfied they ditch the relationship entirely and return to their hives.
+uk_UA:
+molten.message1 = Research Document #7988\nBarite Creatures are fascinating beings, just like any creature they are also prone to infighting despite living as a hive and sometimes to prove dominance will ally with anything or anyone.
+molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
+molten.message3 = Research Document #9987\nDespite being very cooperative creatures, the very moment their needs and goals are satisfied they ditch the relationship entirely and return to their hives.
+zh_CN:
+molten.message1 = Research Document #7988\nBarite Creatures are fascinating beings, just like any creature they are also prone to infighting despite living as a hive and sometimes to prove dominance will ally with anything or anyone.
+molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
+molten.message3 = Research Document #9987\nDespite being very cooperative creatures, the very moment their needs and goals are satisfied they ditch the relationship entirely and return to their hives.
+en:
+molten.message1 = Research Document #7988\nBarite Creatures are fascinating beings, just like any creature they are also prone to infighting despite living as a hive and sometimes to prove dominance will ally with anything or anyone.
+molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
+molten.message3 = Research Document #9987\nDespite being very cooperative creatures, the very moment their needs and goals are satisfied they ditch the relationship entirely and return to their hives.
+zh_TW:
+molten.message1 = 研究文檔 #7988\n重晶生物是令人著迷的存在。就像任何生物一樣、儘管它們群居生活，但也容易發生內訌。有時為了證明自己的統治地位，它們會與任何人事物結盟。
+molten.message2 = 研究文檔 #8825\n在阿斯托薩斯，有許多方式能馴服野生動物，從提供資源、到提供對抗競爭對手的手段，不一而足。
+molten.message3 = 研究文檔 #9987\n儘管它們樂於利益結盟，不過一旦自身的需求和目標達成，它們就會徹底拋棄合作協議，回到自己的巢穴。
+id_ID:
+molten.message1 = Dokumen Penelitian #7988\nMakhluk barit adalah makhluk yang menarik. Seperti makhluk lainnya, mereka juga rentan terhadap perselisihan internal meskipun hidup berkelompok dan terkadang untuk membuktikan dominasi mereka akan bersekutu dengan apa pun atau siapa pun untuk tetap hidup.
+molten.message2 = Dokumen Penelitian #8825\nAda banyak cara untuk menjinakkan mahluk buas di Asthosus, mulai dari menawarkan sumber daya hingga menawarkan metode untuk menunjukkan dominasi terhadap saingan mereka.
+molten.message3 = Dokumen Penelitian #9987\nMeskipun merupakan makhluk yang sangat kooperatif, begitu kebutuhan dan tujuan mereka terpenuhi, mereka langsung memutuskan hubungan dan kembali ke sarang mereka masing-masing.
+in_ID:
+molten.message1 = Dokumen Penelitian #7988\nMakhluk barit adalah makhluk yang menarik. Seperti makhluk lainnya, mereka juga rentan terhadap perselisihan internal meskipun hidup berkelompok dan terkadang untuk membuktikan dominasi mereka akan bersekutu dengan apa pun atau siapa pun untuk tetap hidup.
+molten.message2 = Dokumen Penelitian #8825\nAda banyak cara untuk menjinakkan mahluk buas di Asthosus, mulai dari menawarkan sumber daya hingga menawarkan metode untuk menunjukkan dominasi terhadap saingan mereka.
+molten.message3 = Dokumen Penelitian #9987\nMeskipun merupakan makhluk yang sangat kooperatif, begitu kebutuhan dan tujuan mereka terpenuhi, mereka langsung memutuskan hubungan dan kembali ke sarang mereka masing-masing.
+
+#Inferno Bastion
+de:
+infernobastion.message1 = Document 01: - Inferno Bastion was given its name due to heavy flooding of [orange]slag[] coming from [red]Molten Heights[] and due to the terrain allowing for heavy fortification and endless defense potential.
+infernobastion.message2 = Document 02: - most of the terrain is coated in a layer of sturdy obsidian allowing the slag to keep its heat without cooling too fast.
+infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
+infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
+ru:
+infernobastion.message1 = Document 01: - Inferno Bastion was given its name due to heavy flooding of [orange]slag[] coming from [red]Molten Heights[] and due to the terrain allowing for heavy fortification and endless defense potential.
+infernobastion.message2 = Document 02: - most of the terrain is coated in a layer of sturdy obsidian allowing the slag to keep its heat without cooling too fast.
+infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
+infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
+uk_UA:
+infernobastion.message1 = Document 01: - Inferno Bastion was given its name due to heavy flooding of [orange]slag[] coming from [red]Molten Heights[] and due to the terrain allowing for heavy fortification and endless defense potential.
+infernobastion.message2 = Document 02: - most of the terrain is coated in a layer of sturdy obsidian allowing the slag to keep its heat without cooling too fast.
+infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
+infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
+zh_CN:
+infernobastion.message1 = Document 01: - Inferno Bastion was given its name due to heavy flooding of [orange]slag[] coming from [red]Molten Heights[] and due to the terrain allowing for heavy fortification and endless defense potential.
+infernobastion.message2 = Document 02: - most of the terrain is coated in a layer of sturdy obsidian allowing the slag to keep its heat without cooling too fast.
+infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
+infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
+en:
+infernobastion.message1 = Document 01: - Inferno Bastion was given its name due to heavy flooding of [orange]slag[] coming from [red]Molten Heights[] and due to the terrain allowing for heavy fortification and endless defense potential.
+infernobastion.message2 = Document 02: - most of the terrain is coated in a layer of sturdy obsidian allowing the slag to keep its heat without cooling too fast.
+infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
+infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
+zh_TW:
+infernobastion.message1 = 文檔 01：地獄堡壘之名，源自於流淌著從[red]熔融高地[]過來的大量[orange]熔渣[]，以及其有利於建造堅固防禦工事的地形、和其守備能力的潛能。
+infernobastion.message2 = 文檔 02：大部分的地表上，都覆蓋著一層堅固的黑曜石，使得熔渣能夠保持高溫不立刻冷卻。
+infernobastion.message3 = 文檔 03：地獄堡壘過去被稱之為「煉獄列島」，是一片植被茂盛的綠洲，居住著####、或稱之為[red]重晶生物[]。
+infernobastion.message4 = 文檔 04：在這個地區被熔渣淹沒之前，綠洲的溫度保持在1089°ATU(攝氏53度)，這對於當地居民和植被來說，是一個相當舒適的溫度。
+id_ID:
+infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01: Dinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
+infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02: Sebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
+infernobastion.message3 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 03: [accent]Benteng Pertahanan Neraka[] atau yang sebelumnya dikenal sebagai [accent]Kepulauan Agung[] adalah sebuah oasis yang dipenuhi vegetasi dan dihuni oleh makhluk barit.
+infernobastion.message4 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 04: Sebelum dibanjiri oleh lava, suhu di sektor ini adalah 13°C yang merupakan suhu yang sesuai untuk penduduk dan vegetasi setempat.
+in_ID:
+infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01: Dinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
+infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02: Sebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
+infernobastion.message3 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 03: [accent]Benteng Pertahanan Neraka[] atau yang sebelumnya dikenal sebagai [accent]Kepulauan Agung[] adalah sebuah oasis yang dipenuhi vegetasi dan dihuni oleh makhluk barit.
+infernobastion.message4 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 04: Sebelum dibanjiri oleh lava, suhu di sektor ini adalah 13°C yang merupakan suhu yang sesuai untuk penduduk dan vegetasi setempat.
+
+#Nidus
+de:
+nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
+nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
+ru:
+nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
+nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
+uk_UA:
+nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
+nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
+zh_CN:
+nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
+nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
+en:
+nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
+nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
+zh_TW:
+nidus.message1 = 由於該地區的危險性，[red]阿魯米斯[]無法對該地區進行詳細的偵查。\n不過[red]阿魯米斯[]可能找到一種辦法，在不驚動 [gray]───[] 的情況下進入該地區。
+nidus.message2 = 該地區的數據庫仍是最高機密，至今依然沒有人知道其中的內容，只能看見資料庫顯示「[red][數據不可用][]」
+id_ID:
+nidus.message1 = Karena tingkat bahaya yang sangat tinggi di sektor ini, [red]Arumis[] gagal menjelajahi sektor ini dengan aman. Walaupun gagal, [red]Arumis[] telah berhasil menemukan cara untuk membangun markas di sektor ini tanpa membuat makhluk barit merasa terancam.
+nidus.message2 = Basis data sektor ini merupakan informasi yang sangat rahasia, hingga hari ini tidak ada seorang pun yang tahu apa isinya, sehingga basis data yang ditemukan hanya menampilkan [red]["Data Tidak Tersedia"]
+in_ID:
+nidus.message1 = Karena tingkat bahaya yang sangat tinggi di sektor ini, [red]Arumis[] gagal menjelajahi sektor ini dengan aman. Walaupun gagal, [red]Arumis[] telah berhasil menemukan cara untuk membangun markas di sektor ini tanpa membuat makhluk barit merasa terancam.
+nidus.message2 = Basis data sektor ini merupakan informasi yang sangat rahasia, hingga hari ini tidak ada seorang pun yang tahu apa isinya, sehingga basis data yang ditemukan hanya menampilkan [red]["Data Tidak Tersedia"]
