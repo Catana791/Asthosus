@@ -13,10 +13,12 @@ stepShake: 0.55
 stepSound: mechStepHeavy
 stepSoundPitch: 0.8
 stepSoundVolume: 0.45
+range: 320
+
 abilities: [
-	{
-		type: ShieldArcAbility
-		max: 3000
+  {
+    type: ShieldArcAbility
+    max: 3000
     cooldown: 600
     regen: 1
     angle: 90
@@ -25,8 +27,9 @@ abilities: [
     x: 0
     y: -22
     radius: 64
-	}
+  }
 ]
+
 parts: [
   {
     type: FlarePart
@@ -58,6 +61,7 @@ parts: [
     mirror: false
   }
 ]
+
 weapons: [
   {
     parts: [
@@ -81,120 +85,115 @@ weapons: [
     recoil: 1
     reload: 2
     shootSound: crest-laser
-soundPitchMin: 0.6
-soundPitchMax: 0.6
+    soundPitchMin: 0.6
+    soundPitchMax: 0.6
     ejectEffect: none
     rotate: false
     shake: 3
     bullet: {
-keepVelocity: false
-hitEffect: {
-      type: MultiEffect
-      lifetime: 8
-      effects: [
-	{
-      "type": "WaveEffect",
-      "colorFrom": "ffbe7f",
-      "colorTo": "ffbe7f",
-      "sizeFrom": 12,
-      "sizeTo": 8,
-      "lifetime": 8
-strokeTo: 3
-	}
+      keepVelocity: false
+      hitEffect: {
+        type: MultiEffect
+        lifetime: 8
+        effects: [
+          {
+            type: WaveEffect
+            colorFrom: ffbe7f
+            colorTo: ffbe7f
+            sizeFrom: 12
+            sizeTo: 8
+            lifetime: 8
+            strokeTo: 3
+          }
+        ]
+      }
+      spawnBullets: [
+        {
+          lightColor: ffffff00
+          lightRadius: 0
+          hitEffect: none
+          smokeEffect: none
+          despawnEffect: none
+          width: 0
+          height: 0
+          hitSize: 40
+          damage: 0
+          speed: 5
+          knockback: 30
+          lifetime: 10
+          impact: true
+        }
       ]
-    }
-spawnBullets: [
-{
-lightColor:ffffff00
-lightRadius: 0
-      hitEffect: none
+      trailInterval: 0.4
+      trailChance: 0.5
+      lightning: 3
+      lightningDamage: 12
+      lightningCone: 360
+      lightningLengthRand: 2
+      lightningLength: 4
+      lightningColor: ffbe7fff
+      hitSize: 12
+      trailEffect: {
+        type: MultiEffect
+        lifetime: 8
+        effects: [
+          {
+            type: WaveEffect
+            colorFrom: ffbe7f
+            colorTo: ffbe7f
+            sizeFrom: 7
+            sizeTo: 3
+            lifetime: 8
+            strokeTo: 4
+          }
+        ]
+      }
+      status: asthosus-13m-02-status-radiated
+      lightColor: ffffff00
+      impact: true
+      collidesAir: true
+      damage: 0
+      speed: 24
+      lifetime: 7.9
+      width: 0
+      height: 0
       smokeEffect: none
       despawnEffect: none
-    width: 0
-    height: 0
-hitSize: 40
-"damage": 0,
-speed: 5
-knockback: 30
-lifetime: 10
-"impact": true
-}
-
-
-
-]
-trailInterval: 0.4
-trailChance: 0.5
-      "lightning": 3,
-      "lightningDamage": 12,
-      "lightningCone": 360,
-      "lightningLengthRand": 2,
-      "lightningLength": 4,
-      "lightningColor": "ffbe7fff"
-hitSize: 12
-trailEffect: {
-      type: MultiEffect
-      lifetime: 8
-      effects: [
-	{
-      "type": "WaveEffect",
-      "colorFrom": "ffbe7f",
-      "colorTo": "ffbe7f",
-      "sizeFrom": 7,
-      "sizeTo": 3,
-      "lifetime": 8
-strokeTo: 4
-	}
-      ]
-    }
-   status: asthosus-13m-02-status-radiated
-lightColor:ffffff00
-			"impact": true
-			"collidesAir": true,
-			"damage": 0,
-			"speed": 24,
-			"lifetime": 7.9,
-    width: 0
-    height: 0
-      smokeEffect: none
-      despawnEffect: none
-			"shrinkX": 0,
-			"shrinkY": 0
-			"knockback": -20,
-"shootEffect": {
-      type: MultiEffect
-      effects: [
-
-{
-offsetX: 15
-  baseRotation: 180
-          lightOpacity: 0
-          length: 20
-          lifetime: 25
-          cone: 40
-          particles: 5
-          colorFrom: ffbe7f
-          colorTo: ffbe7f
-          sizeFrom: 3
-          sizeTo: 0
-          interp: pow3Out
-          sizeInterp: pow2In
-}
-]
-}
-fragBullets: 1
-fragRandomSpread: 360
-fragLifeMax: 1
-lightRadius: 0
-bulletInterval: 0.4
-intervalRandomSpread: 0
-intervalBullet: {
-
-collides: false
-"despawnEffect": {
-followParent:false
-offsetX: -8
-  baseRotation: 180
+      shrinkX: 0
+      shrinkY: 0
+      knockback: -20
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            offsetX: 15
+            baseRotation: 180
+            lightOpacity: 0
+            length: 20
+            lifetime: 25
+            cone: 40
+            particles: 5
+            colorFrom: ffbe7f
+            colorTo: ffbe7f
+            sizeFrom: 3
+            sizeTo: 0
+            interp: pow3Out
+            sizeInterp: pow2In
+          }
+        ]
+      }
+      fragBullets: 1
+      fragRandomSpread: 360
+      fragLifeMax: 1
+      lightRadius: 0
+      bulletInterval: 0.4
+      intervalRandomSpread: 0
+      intervalBullet: {
+        collides: false
+        despawnEffect: {
+          followParent: false
+          offsetX: -8
+          baseRotation: 180
           length: 18
           cone: 1
           line: true
@@ -207,92 +206,109 @@ offsetX: -8
           lenTo: 18
           strokeFrom: 5
           strokeTo: 3
-          sizeInterp: pow2In
-  randLength: false
-}
-lightColor:ffffff00
-lightRadius: 0
-      hitEffect: none
-keepVelocity:false
-    width: 0
-    height: 0
-hitSize: 0
-"damage": 0,
-speed: 0
-lifetime: 0
-}
-"fragBullet": {
-    width: 0
-    height: 0
-"impact": true
-"knockback": 25,
-speed: 1
-lightRadius: 0
-lightColor:ffffff00
-          "damage": 0,
-lifetime: 1
-      hitEffect: none
-      smokeEffect: none
-      despawnEffect: none
-        },
+          randLength: false
+        }
+        lightColor: ffffff00
+        lightRadius: 0
+        hitEffect: none
+        keepVelocity: false
+        width: 0
+        height: 0
+        hitSize: 0
+        damage: 0
+        speed: 0
+        lifetime: 0
+      }
+      fragBullet: {
+        width: 0
+        height: 0
+        impact: true
+        knockback: 25
+        speed: 1
+        lightRadius: 0
+        lightColor: ffffff00
+        damage: 0
+        lifetime: 1
+        hitEffect: none
+        smokeEffect: none
+        despawnEffect: none
+      }
     }
   }
   {
     x: 0
     y: 1
     layerOffset: -0.01
-    reload: 136
+    reload: 816
     shootSound: shoot-laser
     shoot: {
-      shots: 2
-      shotDelay: 10
+      shots: 3
+      shotDelay: 20
       firstShotDelay: 60
     }
+    inaccuracy: 7
     chargeSound: short-laser-charge
     rotate: false
     mirror: false
-    layerOffset: -0.01
-    shake: 2
     bullet: {
-	instantDisappear: true
-	damage: 0
-	despawnEffect: none
-	hitEffect: none
-	collides: false
-	fragBullets: 16
-	fragRandomSpread: 32
-	fragVelocityMin: 0.6
-	fragVelocityMax: 1
-	fragLifeMin: 0.9
-	fragLifeMax: 1
-	fragBullet: {
-		type: BasicBulletType
-		height: 48
-		width: 5
-		pierce: true
-		pierceCap: 2
-		pierceBuilding: true
-		frontColor: ffbe7f
-		backColor: ffbe7f
-        	speed: 9
-		inaccuracy: 3
-		lifetime: 20
-		damage: 12
-		splashDamage: 44
-		splashDamageRadius: 16
-		keepVelocity: false
-		lightning: 3
-		lightningLength: 3
-		lightningLengthRand: 2
-		lightningDamage: 4
-		lightningColor: ffbe7f
-	}
-     }
+      type: BasicBulletType
+      sprite: asthosus-star-bullet
+      height: 24
+      width: 24
+      pierce: true
+      collides: false
+      lifetime: 360
+      fragBullets: 1
+      circleShooter: true
+      circleShooterRadius: 48
+      circleShooterRadiusSmooth: 48
+      pierceBuilding: true
+      frontColor: ffffff
+      backColor: ffbe7f
+      trailColor: ffbe7f
+      trailLength: 12
+      trailWidth: 3
+      speed: 6
+      fragRandomSpread: 0
+      fragSpread: 0
+      fragLifeMax: 1
+      fragLifeMin: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragOffsetMax: 0
+      fragOffsetMin: 0
+      fragOnAbsorb: true
+      fragAngle: 0
+      fragBullet: {
+        type: BasicBulletType
+        sprite: asthosus-star-bullet
+        height: 24
+        width: 24
+        pierce: true
+        pierceCap: 2
+        pierceBuilding: true
+        frontColor: ffffff
+        backColor: ffbe7f
+        trailColor: ffbe7f
+        trailLength: 12
+        trailWidth: 3
+        speed: 9
+        homingPower: 0.6
+        homingRange: 200
+        lifetime: 60
+        absorbable: true
+        lifesteal: 0.2
+        damage: 146
+        splashDamage: 387
+        splashDamageRadius: 16
+        showStats: false
+      }
+    }
   }
 ]
 research: {
   parent: 14n-04-apex
-  objectives: [ 
+  objectives: [
     10j-07-cumulative-assembler-constituent
   ]
 }

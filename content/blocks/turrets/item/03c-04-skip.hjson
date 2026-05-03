@@ -13,6 +13,7 @@ research: {
       }
    ]
 }
+targetAir: false
 category: turret
 outlineColor: 42413e
 researchCostMultiplier: 0.5

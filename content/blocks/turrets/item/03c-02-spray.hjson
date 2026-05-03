@@ -39,7 +39,7 @@ ammoTypes: {
     speed: 4
     lifetime: 30
     collidesGround: true
-    collidesAir: false
+    collidesAir: true
     ammoMultiplier: 5
     damage: 8
     splashDamage: 9
@@ -55,7 +55,7 @@ ammoTypes: {
     speed: 4
     lifetime: 30
     collidesGround: true
-    collidesAir: false
+    collidesAir: true
     ammoMultiplier: 5
     damage: 9
     splashDamage: 11
@@ -72,7 +72,7 @@ ammoTypes: {
     lifetime: 30
     ammoMultiplier: 6
     collidesGround: true
-    collidesAir: false
+    collidesAir: true
     damage: 13
     splashDamage: 16
     splashDamageRadius: 12
