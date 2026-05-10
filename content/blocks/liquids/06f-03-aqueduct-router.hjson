@@ -5,7 +5,7 @@ size: 1
 solid: false
 underBullets: true
 health: 45
-liquidCapacity: 20
+liquidCapacity: 75
 category: liquid
 squareSprite: false
 research: 06f-02-aqueduct-junction
