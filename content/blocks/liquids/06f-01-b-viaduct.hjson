@@ -14,4 +14,4 @@ bridgeReplacement: 06f-04-aqueduct-bridge
 underBullets: true
 researchCostMultiplier: 0.5
 liquidPressure: 1.025
-liquidCapacity: 20
+liquidCapacity: 40

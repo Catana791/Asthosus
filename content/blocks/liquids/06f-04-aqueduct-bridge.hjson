@@ -12,3 +12,4 @@ requirements: [
   01a-06-item-lodestone/12
 ]
 researchCostMultiplier: 0.5
+liquidCapacity: 60
