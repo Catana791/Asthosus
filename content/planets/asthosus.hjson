@@ -1,4 +1,6 @@
 alwaysUnlocked: true
+accessible: true
+visible: true
 mesh: [
  {
     //water
@@ -140,34 +142,49 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-orbitRadius: 25
-sectorSize: 1
+allowCampaignRules: true
+allowLaunchLoadout: false
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLegacyLaunchPads: false
 allowSectorInvasion: false
+allowSelfSectorLaunch: false
+allowWaves: true
+
+iconColor: 666359
+hasAtmosphere: true
+atmosphereColor: 666359
+bloom: false
+
+rules: {
+ coreDestroyClear: true
+}
+
+campaignRuleDefaults: {
+ showSpawns: true
+}
+
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
 startSector: 0
+sectorSize: 1
+sectorSeed: 14513
+parent: sun
+solarSystem: sun
+tidalLock: true
+drawOrbit: true
+orbitRadius: 25
 orbitSpacing: 1
 radius: 1.2
 minZoom: 1
-drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-accessible: true
-updateLighting: false
-sectorSeed: 14513
-bloom: false
-visible: true
-atmosphereColor: 666359
-iconColor: 666359
-hasAtmosphere: true
-allowWaveSimulation: true
-clearSectorOnLose: true
-allowWaves: true
+
+showRtsAIRule: true
 prebuildBase: false
+clearSectorOnLose: true
 defaultCore: 11k-01-core-essence
-parent: sun
-solarSystem: sun
+enemyCoreSpawnReplace: false
+updateLighting: false
+
 launchCandidates: []
 itemWhitelist: [
   "01a-01-item-ferrinite",
