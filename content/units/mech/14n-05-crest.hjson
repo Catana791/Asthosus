@@ -295,7 +295,7 @@ weapons: [
         speed: 9
         homingPower: 0.6
         homingRange: 200
-        lifetime: 37,33333
+        lifetime: 37.33333
         absorbable: true
         lifesteal: 0.2
         damage: 146
