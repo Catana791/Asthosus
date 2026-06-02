@@ -4,6 +4,8 @@ description: Mines Mycillite from Blue Fungi.
 size: 2
 category: production
 research: 23w-92-core-hyphos
+displayEfficiencyScale: 1
+baseEfficiency: 0
 requirements: [
   22v-01-mudstone/20
   22v-02-arcana-spores/12
