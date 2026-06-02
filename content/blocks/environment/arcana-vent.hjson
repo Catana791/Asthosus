@@ -5,5 +5,5 @@ parent: arcane-moss
 effect: ventSteam
 effectColor: 3c246e
 attributes: {
-   arcanespores: 1
+   arcanespores: 0.11111112
 }
