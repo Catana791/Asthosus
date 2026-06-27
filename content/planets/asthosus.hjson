@@ -162,6 +162,7 @@ rules: {
 
 campaignRuleDefaults: {
  showSpawns: true
+  rtsAI: true
 }
 
 atmosphereRadIn: 0
@@ -178,7 +179,7 @@ orbitSpacing: 1
 radius: 1.2
 minZoom: 1
 
-showRtsAIRule: true
+showRtsAIRule: false
 prebuildBase: false
 clearSectorOnLose: true
 defaultCore: 11k-01-core-essence
