@@ -179,7 +179,7 @@ orbitSpacing: 1
 radius: 1.2
 minZoom: 1
 
-showRtsAIRule: false
+showRtsAIRule: true
 prebuildBase: false
 clearSectorOnLose: true
 defaultCore: 11k-01-core-essence
