@@ -162,7 +162,6 @@ rules: {
 
 campaignRuleDefaults: {
  hideSpawns: false
- rtsAI: true
 }
 
 atmosphereRadIn: 0
