@@ -103,61 +103,45 @@ facunit.message9 = [lightgray]Muatan yang akan didaur ulang: --73--\nMuatan akan
 
 #Bioweapon Facility
 de:
-mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
-mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
-bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
-bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
-bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
-bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 ru:
-mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
-mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
-bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
-bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
-bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
-bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 uk_UA:
-mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
-mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
-bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
-bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
-bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
-bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 zh_CN:
-mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
-mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
-bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
-bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
-bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
-bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 en:
-mainlore.message1 = Arumis Research Document #1097\nWith the success of the new generation of [red][REDACTED][] technology,\nwe are finally capable of /// warfare, by reprogramming Verite to [red][REDACTED][]\n- Dr. _____ Arcane
-mainlore.message2 = Arumis Research Document #0789\nDue to issues with the new [red][REDACTED][] technology,\nit seems the [red][REDACTED][] reacts unexpectedly to the alien purple liquid.\nEnd of report - Dr. _____ Arcane
-bioweapon.message1 = DNA test results\n[green]Barite Stalker\n\nPrevious name >  Serg = also locally called > "Asthosians best friend"\nProminent features - One or multiple tails, Long and fluffy ears, Amber colored eyes with grey pupils.
-bioweapon.message2 = DNA test results\n[pink]Barite Crawler\n\nPrevious name > Sern = Sergs offspring\n\nProminent Features - Same as Sergs, had thicker fur, Smaller paws, Have much more dull fangs.
-bioweapon.message3 = Arumis Research Document #2033\nAfter the initial attack, the mutants show high intelligence and are able to dig with great speeds.
-bioweapon.message4 = Arumis Research Document #2033\nPage 2\nBarite creatures' DNA results show before the events that occurred on Asthosus,\nthey had a variety of features similar to a mammal.
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 zh_TW:
-mainlore.message1 = 阿魯米斯研究文檔 #1097\n隨著新世代[red][以編輯][]技術開發的突破，\n透過將轟鳴砲重製為[red][以編輯][]，\n我們終於能夠開始 /// 游擊戰。\n\n - _____ 阿凱恩 博士
-mainlore.message2 = 阿魯米斯研究文檔 #0789\n由於新技術[red][以編輯][]存在問題，\n[red][以編輯][]似乎對這種外星紫色液體，\n產生意想不到的反應。\n\n 報告結束 - _____ 阿凱恩 博士
-bioweapon.message1 = DNA 檢驗報告\n[green]重晶尾隨者\n\n舊稱 > 塞爾格 = 也被稱為「阿斯托薩斯人最好的朋友」\n結構特徵 - 單尾或多尾，長而蓬鬆的耳朵，琥珀色眼睛，灰色瞳孔。
-bioweapon.message2 = DNA 檢驗報告\n[pink]重晶爬行者\n\n舊稱 > 賽爾恩 = 塞爾格的後代\n結構特徵 - 與嗶嘰近乎相同，毛髮較厚，爪子較小，獠牙較鈍。
-bioweapon.message3 = 阿魯米斯研究文檔 #2033\n在最初的攻擊之後，這些變異體展現出高度智力，並且能夠以飛快的速度挖掘。
-bioweapon.message4 = 阿魯米斯研究文檔 #2033\n第2頁\n重晶生物的 DNA 檢驗結果顯示，\n在阿斯托薩斯發生某件事之前，它們具有多種類似哺乳動物的特徵。
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 id_ID:
-mainlore.message1 = Dokumen Penelitian [red]Arumis[] #1097\nDengan teknologi [red][SENSOR][] generasi baru\nAkhirnya kami mampu melakukan /// peperangan, dengan memprogram ulang menara verite menjadi [red][SENSOR][]\nPenelitian - Dr. _____ Arcane
-mainlore.message2 = Dokumen Penelitian [red]Arumis[] #0789\nKarena terdapat masalah dengan teknologi [red][SENSOR][] yang baru\nTampaknya [red][SENSOR][] bereaksi secara tak terduga terhadap cairan ungu alien.\nAkhir Penelitian - Dr. _____ Arcane
-bioweapon.message1 = Hasil Tes DNA - [accent]Barit Penusuk[]\n\nNama sebelumnya = [accent]Serg[]\nNama lokalnya = [accent]"Sahabat Terbaik Warga Asthosian"[]\n\nCiri khas\n- memiliki satu atau beberapa ekor\n- telinga panjang dan berbulu lebat\n- mata berwarna kuning keemasan dengan pupil abu-abu.
-bioweapon.message2 = Hasil Tes DNA - [accent]Barit Perayap[]\n\nNama sebelumnya = [accent]Sern[] - Keturunan [accent]Serg[]\n\nCiri khas\n- memiliki bulu yang lebih tebal\n- cakar yang lebih kecil\n- taring yang jauh lebih tumpul.
-bioweapon.message3 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 1\nSetelah serangan berakhir, para mutan menunjukkan kecerdasan tinggi dan mampu menggali dengan sangat sangat cepat.
-bioweapon.message4 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 2\nHasil analisis DNA mahluk barit menunjukkan bahwa sebelum peristiwa penyerangan yang terjadi di Asthosus, mereka memiliki ciri-ciri yang mirip dengan mamalia.
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 in_ID:
-mainlore.message1 = Dokumen Penelitian [red]Arumis[] #1097\nDengan teknologi [red][SENSOR][] generasi baru\nAkhirnya kami mampu melakukan /// peperangan, dengan memprogram ulang menara verite menjadi [red][SENSOR][]\nPenelitian - Dr. _____ Arcane
-mainlore.message2 = Dokumen Penelitian [red]Arumis[] #0789\nKarena terdapat masalah dengan teknologi [red][SENSOR][] yang baru\nTampaknya [red][SENSOR][] bereaksi secara tak terduga terhadap cairan ungu alien.\nAkhir Penelitian - Dr. _____ Arcane
-bioweapon.message1 = Hasil Tes DNA - [accent]Barit Penusuk[]\n\nNama sebelumnya = [accent]Serg[]\nNama lokalnya = [accent]"Sahabat Terbaik Warga Asthosian"[]\n\nCiri khas\n- memiliki satu atau beberapa ekor\n- telinga panjang dan berbulu lebat\n- mata berwarna kuning keemasan dengan pupil abu-abu.
-bioweapon.message2 = Hasil Tes DNA - [accent]Barit Perayap[]\n\nNama sebelumnya = [accent]Sern[] - Keturunan [accent]Serg[]\n\nCiri khas\n- memiliki bulu yang lebih tebal\n- cakar yang lebih kecil\n- taring yang jauh lebih tumpul.
-bioweapon.message3 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 1\nSetelah serangan berakhir, para mutan menunjukkan kecerdasan tinggi dan mampu menggali dengan sangat sangat cepat.
-bioweapon.message4 = Dokumen Penelitian [red]Arumis[] #2033 - Halaman 2\nHasil analisis DNA mahluk barit menunjukkan bahwa sebelum peristiwa penyerangan yang terjadi di Asthosus, mereka memiliki ciri-ciri yang mirip dengan mamalia.
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [scarlet]Data Unavailable
 
 #Acropolis
 de:
