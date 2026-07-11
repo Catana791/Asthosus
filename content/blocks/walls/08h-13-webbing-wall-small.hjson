@@ -1,15 +1,15 @@
-type: DirectionalForceProjector
-name: Projector Wall
-description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield. Explodes on destruction, briefly stunning enemies hit. Fortified against weaker attacks.
+type: Wall
+name: Vesmonium Wall
+#description: A wall made from Vesmonium that is capable of emitting a one-time use directional shield. Explodes on destruction, briefly stunning enemies hit. Fortified against weaker attacks.
 size: 1
 health: 500
-cooldownBrokenBase: 1200
-cooldownNormal: 1200
-cooldownLiquid: 1200
-length: 4
-width: 4
-padSize: 1
-shieldHealth: 300
+#cooldownBrokenBase: 1200
+#cooldownNormal: 1200
+#cooldownLiquid: 1200
+#length: 4
+#width: 4
+#padSize: 1
+#shieldHealth: 300
 category: defense
 research: 08h-09-barite-wall-small
 requirements: [
