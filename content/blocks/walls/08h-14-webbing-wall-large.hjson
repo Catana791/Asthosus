@@ -1,15 +1,12 @@
-type: Wall
-name: Vesmonium Wall
-#description: A large wall made from Vesmonium that is capable of emitting a one-time use directional shield. Explodes on destruction, briefly stunning enemies hit. Fortified against weaker attacks.
+type: ShieldWall
+name: Large Projector Wall
+description: A large wall made from Vesmonium that is capable of emitting shield. Explodes on destruction, briefly stunning enemies hit. Fortified against weaker attacks.
 size: 2
 health: 2500
-#cooldownBrokenBase: 1200
-#cooldownNormal: 1200
-#cooldownLiquid: 1200
-#length: 8
-#width: 8
-#padSize: 1
-#shieldHealth: 600
+breakCooldown: 1200
+regenSpeed: 4
+glowColor: c5a3817f
+shieldHealth: 600
 category: defense
 research: 08h-13-webbing-wall-small
 requirements: [
