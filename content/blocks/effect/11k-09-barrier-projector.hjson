@@ -39,7 +39,7 @@ shieldBreakEffect: [
     lifetime: 40
     sides: 4
     rotation: -15
-    sizeFrom: 150
-    sizeTo: 150
+    sizeFrom: 120
+    sizeTo: 120
    }
 ]
