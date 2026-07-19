@@ -33,3 +33,13 @@ phaseShieldBoost: 400
 phaseUseTime: 180
 sides: 4
 shieldRotation: 45
+shieldBreakEffect: [
+  {
+    type: WaveEffect
+    lifetime: 40
+    sides: 4
+    rotation: -15
+    sizeFrom: 150
+    sizeTo: 150
+   }
+]
