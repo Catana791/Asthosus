@@ -18,3 +18,4 @@ unitCapModifier: 24
 category: effect
 research: 11k-02-core-substratum
 researchCostMultiplier: 0.0125
+thrusterLength: 9

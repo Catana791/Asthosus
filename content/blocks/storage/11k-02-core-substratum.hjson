@@ -16,3 +16,4 @@ unitCapModifier: 16
 category: effect
 research: 11k-01-core-essence
 researchCostMultiplier: 0.05
+thrusterLength: 8

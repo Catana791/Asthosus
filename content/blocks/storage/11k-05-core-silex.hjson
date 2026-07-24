@@ -16,3 +16,4 @@ unitCapModifier: 20
 category: effect
 research: 11k-04-core-petra
 researchCostMultiplier: 0.05
+thrusterLength: 8

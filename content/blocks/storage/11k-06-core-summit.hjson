@@ -18,3 +18,4 @@ unitCapModifier: 28
 category: effect
 research: 11k-05-core-silex
 researchCostMultiplier: 0.0125
+thrusterLength: 9

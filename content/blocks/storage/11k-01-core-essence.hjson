@@ -20,3 +20,4 @@ research: {
   name: Asthosus
   requiresUnlock: false
 }
+thrusterLength: 7
