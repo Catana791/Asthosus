@@ -1,6 +1,6 @@
 type: mech
 name: Crest
-description: "Fires cluster shock artillery at enemy targets. Equipped with dual cannons."
+description: "Fires continuous streams of charged material. Periodically summons orbiting chunks which home in on nearby enemy units and buildings. Can erect an arc shield to protect itself from incoming fire."
 speed: 0.2666666666667
 flying: false
 health: 24880
