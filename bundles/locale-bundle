@@ -9,7 +9,7 @@ lattice.message = [ ⚠ НАЧАЛО АВТОМАТИЧСКОЙ ПЕРЕДАЧИ
 uk_UA:
 lattice.message = [ ⚠ ПОЧАТИ АВТОМАТИЧНУ ПЕРЕДАЧУ ⚠ ]\n\nЦЕЙ СЕКТОР Є ВЛАСТНІСТЮ [red]ДІВІЗИОНУ БРТ-3[].\nБУДЬ ЯКЕ ВТРУЧАННЯ У РОБОТУ, АБО ОБО ЗНИЩЩЕНЯ, БЛОКПОСТУ ЦЬОГО РЕГІОНУ БУДЕ КАРАТИСЯ СИЛОЮ.\n\n[ ⚠ ЗАКІНЧИТИ АВТОМАТИЧНУ ПЕРЕДАЧУ ⚠ ]
 zh_CN:
-lattice.message = [ ⚠ 自动广播启动 ⚠ ]\n\n本区域归[red]BRT-3分部[]管辖。\n凡擅自改造或摧毁本区前哨者，将遭到武力制裁。\n\n[ ⚠ 自动广播结束 ⚠ ]
+lattice.message = [ ⚠ BRT-3分部公告 ⚠ ]\n\n本区域为BRT-3分部管辖之地。\n任何擅自改造或摧毁本区前哨者，将遭到武力制裁。\n\n[ ⚠ 公告完毕 ⚠ ]
 en:
 lattice.message = [ ⚠ BEGIN AUTOMATED BROADCAST ⚠ ]\n\nTHIS LOCATION IS PROPERTY OF THE [red]DIVISION BRT-3[].\nTAMPERING WITH, OR DESTRUCTION OF, THIS LOCATION'S OUTPOST WILL BE MET WITH USE OF FORCE.\n\n[ ⚠ END AUTOMATED BROADCAST ⚠ ]
 zh_TW:
