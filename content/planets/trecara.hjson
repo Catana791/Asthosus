@@ -87,7 +87,6 @@ visible: true
 atmosphereColor: 666359
 iconColor: 3f34a5
 hasAtmosphere: true
-allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
