@@ -65,7 +65,6 @@ craftEffect: {
 }
 outputItem: 01a-14-item-draysten/1
 category: crafting
-research: 09i-09-barite-loom
 research: {
   parent: 09i-09-barite-loom  
   objectives: [  
