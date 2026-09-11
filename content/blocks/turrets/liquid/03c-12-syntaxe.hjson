@@ -42,7 +42,6 @@ shootSound: shootAtrax
 shootSoundVolume: 1.8
 shoot: {
   type: ShootBarrel
-  barrels: 3
   barrelOffset: 1
   shots: 3
   barrels: [

@@ -6,7 +6,6 @@ reload: 22
 shootSound: shoot-small-flame
 shoot: {
   type: ShootBarrel
-  barrels: 3
   shots: 3
   shotDelay: 4
   barrelOffset: 1
