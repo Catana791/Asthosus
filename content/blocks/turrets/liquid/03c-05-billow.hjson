@@ -31,7 +31,6 @@ requirements: [
 ]
 shoot: {
   shots: 24
-  spread: 1
   shotDelay: 0.8
   firstShotDelay: 60
 }

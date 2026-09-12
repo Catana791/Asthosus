@@ -65,52 +65,6 @@ shootX: 0
 shootY: 0
 rotateSpeed: 0
 liquidConsumed: 0.1
-chargeEffect: {
-  type: MultiEffect
-  followParent: true
-  effects: [
-    {
-    	type: ParticleEffect
-    	particles: 9
-    	length: 20
-		baseLength: 9
-		sizeFrom: 3
-    	sizeTo: 0.1 
-    	interp: pow2In
-    	sizeInterp: pow2   
-    	lifetime: 40
-    }
-    {
-    	type: WaveEffect
-    	sizeFrom: 25
-    	sizeTo: 0.1
-    	strokeFrom: 1.8
-    	strokeTo: 0.9
-    	interp: pow2In
-    	lifetime: 50
-    }
-    {
-    	type: ParticleEffect
-    	particles: 9
-    	length: 15
-    	baseLength: 5
-    	sizeFrom: 3
-    	sizeTo: 0.1 
-    	interp: pow2In
-    	sizeInterp: pow2   
-    	lifetime: 50
-    }
-    {
-    	type: WaveEffect
-    	sizeFrom: 19
-    	sizeTo: 0.1
-    	strokeFrom: 1.6
-    	strokeTo: 0.8
-    	interp: pow2In
-    	lifetime: 60
-    }
-  ]
-} 
 ammoTypes: {
   02b-02-liquid-oasis-water: {
   	type: ContinuousLaserBulletType 
@@ -128,6 +82,52 @@ ammoTypes: {
   	status: melting
   	statusDuration: 120
   	hitEffect: hitBulletColor
+	chargeEffect: {
+  		type: MultiEffect
+  		followParent: true
+  		effects: [
+    		{
+   		 	type: ParticleEffect
+    			particles: 9
+    			length: 20
+				baseLength: 9
+				sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 40
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 25
+    			sizeTo: 0.1
+    			strokeFrom: 1.8
+    			strokeTo: 0.9
+    			interp: pow2In
+    			lifetime: 50
+    		}
+    		{
+    			type: ParticleEffect
+    			particles: 9
+    			length: 15
+    			baseLength: 5
+    			sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 50
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 19
+    			sizeTo: 0.1
+    			strokeFrom: 1.6
+    			strokeTo: 0.8
+    			interp: pow2In
+    			lifetime: 60
+    		}
+  		]
+	}
 	colors: [b85a2e55, b85a2eaa, e07b39, ffffff]
   } 
   02b-03-liquid-purified-oasis-water: {
@@ -146,6 +146,52 @@ ammoTypes: {
   	status: melting
   	statusDuration: 120
   	hitEffect: hitBulletColor
+	chargeEffect: {
+  		type: MultiEffect
+  		followParent: true
+  		effects: [
+    		{
+   		 	type: ParticleEffect
+    			particles: 9
+    			length: 20
+				baseLength: 9
+				sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 40
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 25
+    			sizeTo: 0.1
+    			strokeFrom: 1.8
+    			strokeTo: 0.9
+    			interp: pow2In
+    			lifetime: 50
+    		}
+    		{
+    			type: ParticleEffect
+    			particles: 9
+    			length: 15
+    			baseLength: 5
+    			sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 50
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 19
+    			sizeTo: 0.1
+    			strokeFrom: 1.6
+    			strokeTo: 0.8
+    			interp: pow2In
+    			lifetime: 60
+    		}
+  		]
+	}
 	colors: [d46b3455, d46b34aa, ff9c5a, ffffff]
   } 
   02b-01-q-liquid-silicon-tetrafluoride: {
@@ -164,6 +210,52 @@ ammoTypes: {
   	status: melting
   	statusDuration: 120
   	hitEffect: hitBulletColor
+	chargeEffect: {
+  		type: MultiEffect
+  		followParent: true
+  		effects: [
+    		{
+   		 	type: ParticleEffect
+    			particles: 9
+    			length: 20
+				baseLength: 9
+				sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 40
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 25
+    			sizeTo: 0.1
+    			strokeFrom: 1.8
+    			strokeTo: 0.9
+    			interp: pow2In
+    			lifetime: 50
+    		}
+    		{
+    			type: ParticleEffect
+    			particles: 9
+    			length: 15
+    			baseLength: 5
+    			sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 50
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 19
+    			sizeTo: 0.1
+    			strokeFrom: 1.6
+    			strokeTo: 0.8
+    			interp: pow2In
+    			lifetime: 60
+    		}
+  		]
+	}
 	colors: [d6b93f55, d6b93faa, ffe066, ffffff]
   } 
   02b-05-liquid-nontragen: {
@@ -183,6 +275,52 @@ ammoTypes: {
   	status: blasted
   	statusDuration: 240
   	hitEffect: hitBulletColor
+	chargeEffect: {
+  		type: MultiEffect
+  		followParent: true
+  		effects: [
+    		{
+   		 	type: ParticleEffect
+    			particles: 9
+    			length: 20
+				baseLength: 9
+				sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 40
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 25
+    			sizeTo: 0.1
+    			strokeFrom: 1.8
+    			strokeTo: 0.9
+    			interp: pow2In
+    			lifetime: 50
+    		}
+    		{
+    			type: ParticleEffect
+    			particles: 9
+    			length: 15
+    			baseLength: 5
+    			sizeFrom: 3
+    			sizeTo: 0.1 
+    			interp: pow2In
+    			sizeInterp: pow2   
+    			lifetime: 50
+    		}
+    		{
+    			type: WaveEffect
+    			sizeFrom: 19
+    			sizeTo: 0.1
+    			strokeFrom: 1.6
+    			strokeTo: 0.8
+    			interp: pow2In
+    			lifetime: 60
+    		}
+  		]
+	}
 	colors: [3fd6c855, 3fd6c8aa, 6bfff2, ffffff]
   } 
 }
