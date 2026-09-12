@@ -1,4 +1,6 @@
 alwaysUnlocked: false
+accessible: false
+visible: true
 mesh: [
  {
     //fungal water
@@ -66,38 +68,45 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-orbitRadius: 7
-sectorSize: 1
+allowCampaignRules: true
+allowLaunchLoadout: false
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLegacyLaunchPads: false
 allowSectorInvasion: false
-startSector: 0
-radius: 0.222
-minZoom: 1.86
-maxZoom: 3
-drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-accessible: false 
-updateLighting: true
-sectorSeed: 14513
-bloom: false
-visible: true
-atmosphereColor: 666359
+allowSelfSectorLaunch: false
+allowWaves: true
+
 iconColor: 3f34a5
 hasAtmosphere: true
-clearSectorOnLose: true
-allowWaves: true
-prebuildBase: false
-defaultCore: 23w-92-core-hyphos
+atmosphereColor: 666359
+updateLighting: true
+bloom: false
+
+rules: {
+ coreDestroyClear: true
+}
+
+campaignRuleDefaults: {
+ hideSpawns: false
+}
+
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+startSector: 0
+sectorSize: 1
+sectorSeed: 14513
 parent: asthosus
 solarSystem: sun
-launchCandidates: []
+drawOrbit: true
+orbitRadius: 7
+radius: 0.222
 clipRadius: 2
-itemWhitelist: [
-  22v-01-mudstone,
-  22v-02-arcana-spores,
-  22v-03-mycillite,
-  22v-51-fungal-water
-]
+minZoom: 1.86
+maxZoom: 3
+
+prebuildBase: false
+clearSectorOnLose: true
+defaultCore: 23w-92-core-hyphos
+enemyCoreSpawnReplace: false
+launchCandidates: []
