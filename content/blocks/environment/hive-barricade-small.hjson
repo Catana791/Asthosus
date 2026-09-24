@@ -6,6 +6,7 @@ health: 1000
 squareSprite: false
 requirements: []
 placeablePlayer: false
+allowDerelictRepair: false
 drawTeamOverlay: false
 buildVisibility: editorOnly
 itemCapacity: 0

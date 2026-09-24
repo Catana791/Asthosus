@@ -5,6 +5,7 @@ size: 2
 health: 4000
 requirements: []
 placeablePlayer: false
+allowDerelictRepair: false
 drawTeamOverlay: false
 buildVisibility: editorOnly
 squareSprite: false
