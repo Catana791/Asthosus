@@ -2,6 +2,7 @@ type: Duct
 name: Hive Vein
 description: It seems organic.
 placeablePlayer: false
+allowDerelictRepair: false
 drawTeamOverlay: false
 buildVisibility: editorOnly
 speed: 0

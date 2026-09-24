@@ -5,6 +5,7 @@ size: 2
 consumes: {}
 requirements: []
 placeablePlayer: false
+allowDerelictRepair: false
 buildVisibility: editorOnly
 squareSprite: false
 drawTeamOverlay: false
