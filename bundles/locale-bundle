@@ -1,4 +1,4 @@
-# Check Maps Properties - These are (actually) working
+# Check Maps Properties - These are important
 # These act as fallback if respective language has not being translated - used by wproc `print` instruction
 
 #Lattice
@@ -214,7 +214,7 @@ infernobastion.message4 = Document 04: - Before it was flooded by slag, the temp
 zh_CN:
 infernobastion.message1 = 档案 01：地狱堡垒之名，源自从[red]熔融高地[]倾泻而来的大量[orange]熔渣[]，也源于这里便于构筑重型工事、具备无穷防守潜力的地形。
 infernobastion.message2 = 档案 02：大部分地表覆盖着一层坚固的黑曜石，使熔渣能够长时间保温而不过快冷却。
-infernobastion.message3 = 档案 03：地狱堡垒——旧称「炼狱群岛」——曾是一座植被繁茂的绿洲，居住着####，也就是所谓的[red]重晶石生物[]。
+infernobastion.message3 = 档案 03：地狱堡垒——旧称「烈焰群岛」——曾是一座植被繁茂的绿洲，居住着####，也就是所谓的[red]重晶石生物[]。
 infernobastion.message4 = 档案 04：在被熔渣淹没之前，这片区域在绿洲时代的温度为1089°ATU（35°C），对当地居民和植被而言都十分适宜。
 en:
 infernobastion.message1 = Document 01: - Inferno Bastion was given its name due to heavy flooding of [orange]slag[] coming from [red]Molten Heights[] and due to the terrain allowing for heavy fortification and endless defense potential.
