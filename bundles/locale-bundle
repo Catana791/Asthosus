@@ -133,15 +133,15 @@ bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioac
 bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
 bioweapon.unavailable = [salmon]Data Unavailable
 id_ID:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [salmon]Data Unavailable
+bioweapon.document1 = Dokumen B-F-022: Makhluk Barit memiliki kecerdasan tinggi,\nmampu merakit komponen mulai dari yang sederhana hingga yang agak rumit, bentuk komunikasi mereka tampaknya mencakup: geraman, bunyi kertak, pekikan, dan lain-lain.
+bioweapon.document2 = Dokumen B-F-197: Sebelum tubuh mereka terdiri dari materi radioaktif,\nmereka memiliki fisik seperti kebanyakan mamalia pada umumnya: berbulu lebat dan berwarna-warni, memiliki anggota tubuh yang kuat, kemampuan melihat dalam kegelapan, serta ekor yang panjang dan ramping.
+bioweapon.document3 = Dokumen B-F-767: Proyek [red]Senjata Biologis[] akan dimulai dalam waktu 10 hari,\npertahanan sejauh ini mampu menahan gempuran makhluk-makhluk barit dengan baik. Begitu senjata biologis tersebut selesai dibuat, gerombolan mahluk barit itu akan dimusnahkan sekali lagi.
+bioweapon.unavailable = [salmon]Data tidak tersedia
 in_ID:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [salmon]Data Unavailable
+bioweapon.document1 = Dokumen B-F-022: Makhluk Barit memiliki kecerdasan tinggi,\nmampu merakit komponen mulai dari yang sederhana hingga yang agak rumit, bentuk komunikasi mereka tampaknya mencakup: geraman, bunyi kertak, pekikan, dan lain-lain.
+bioweapon.document2 = Dokumen B-F-197: Sebelum tubuh mereka terdiri dari materi radioaktif,\nmereka memiliki fisik seperti kebanyakan mamalia pada umumnya: berbulu lebat dan berwarna-warni, memiliki anggota tubuh yang kuat, kemampuan melihat dalam kegelapan, serta ekor yang panjang dan ramping.
+bioweapon.document3 = Dokumen B-F-767: Proyek [red]Senjata Biologis[] akan dimulai dalam waktu 10 hari,\npertahanan sejauh ini mampu menahan gempuran makhluk-makhluk barit dengan baik. Begitu senjata biologis tersebut selesai dibuat, gerombolan mahluk barit itu akan dimusnahkan sekali lagi.
+bioweapon.unavailable = [salmon]Data tidak tersedia
 
 #Acropolis
 de:
