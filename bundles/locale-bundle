@@ -135,12 +135,12 @@ bioweapon.unavailable = [salmon]Data Unavailable
 id_ID:
 bioweapon.document1 = Dokumen B-F-022: Makhluk Barit memiliki kecerdasan tinggi,\nmampu merakit komponen mulai dari yang sederhana hingga yang agak rumit, bentuk komunikasi mereka tampaknya mencakup: geraman, bunyi kertak, pekikan, dan lain-lain.
 bioweapon.document2 = Dokumen B-F-197: Sebelum tubuh mereka terdiri dari materi radioaktif,\nmereka memiliki fisik seperti kebanyakan mamalia pada umumnya: berbulu lebat dan berwarna-warni, memiliki anggota tubuh yang kuat, kemampuan melihat dalam kegelapan, serta ekor yang panjang dan ramping.
-bioweapon.document3 = Dokumen B-F-767: Proyek [red]Senjata Biologis[] akan dimulai dalam waktu 10 hari,\npertahanan sejauh ini mampu menahan gempuran makhluk-makhluk barit dengan baik. Begitu senjata biologis tersebut selesai dibuat, gerombolan mahluk barit itu akan dimusnahkan sekali lagi.
+bioweapon.document3 = Dokumen B-F-767: Proyek [red]Senjata Biologis[] akan dimulai dalam waktu 10 hari.\nSaat ini, pertahanan di fasilitas ini mampu menahan gempuran makhluk-makhluk barit dengan baik. Begitu senjata biologis tersebut selesai dibuat, gerombolan mahluk barit itu akan dimusnahkan sekali lagi.
 bioweapon.unavailable = [salmon]Data tidak tersedia
 in_ID:
 bioweapon.document1 = Dokumen B-F-022: Makhluk Barit memiliki kecerdasan tinggi,\nmampu merakit komponen mulai dari yang sederhana hingga yang agak rumit, bentuk komunikasi mereka tampaknya mencakup: geraman, bunyi kertak, pekikan, dan lain-lain.
 bioweapon.document2 = Dokumen B-F-197: Sebelum tubuh mereka terdiri dari materi radioaktif,\nmereka memiliki fisik seperti kebanyakan mamalia pada umumnya: berbulu lebat dan berwarna-warni, memiliki anggota tubuh yang kuat, kemampuan melihat dalam kegelapan, serta ekor yang panjang dan ramping.
-bioweapon.document3 = Dokumen B-F-767: Proyek [red]Senjata Biologis[] akan dimulai dalam waktu 10 hari,\npertahanan sejauh ini mampu menahan gempuran makhluk-makhluk barit dengan baik. Begitu senjata biologis tersebut selesai dibuat, gerombolan mahluk barit itu akan dimusnahkan sekali lagi.
+bioweapon.document3 = Dokumen B-F-767: Proyek [red]Senjata Biologis[] akan dimulai dalam waktu 10 hari.\nSaat ini, pertahanan di fasilitas ini mampu menahan gempuran makhluk-makhluk barit dengan baik. Begitu senjata biologis tersebut selesai dibuat, gerombolan mahluk barit itu akan dimusnahkan sekali lagi.
 bioweapon.unavailable = [salmon]Data tidak tersedia
 
 #Acropolis
@@ -227,15 +227,15 @@ infernobastion.message2 = 文檔 02：大部分的地表上，都覆蓋著一層
 infernobastion.message3 = 文檔 03：地獄堡壘過去被稱之為「煉獄列島」，是一片植被茂盛的綠洲，居住著####、或稱之為[red]重晶生物[]。
 infernobastion.message4 = 文檔 04：在這個地區被熔渣淹沒之前，綠洲的溫度保持在1089°ATU(攝氏53度)，這對於當地居民和植被來說，是一個相當舒適的溫度。
 id_ID:
-infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01: Dinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
-infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02: Sebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
-infernobastion.message3 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 03: [accent]Benteng Pertahanan Neraka[] atau yang sebelumnya dikenal sebagai [accent]Kepulauan Agung[] adalah sebuah oasis yang dipenuhi vegetasi dan dihuni oleh makhluk barit.
-infernobastion.message4 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 04: Sebelum dibanjiri oleh lava, suhu di sektor ini adalah 13°C yang merupakan suhu yang sesuai untuk penduduk dan vegetasi setempat.
+infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01:\nDinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
+infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02:\nSebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
+infernobastion.message3 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 03:\n[accent]Benteng Pertahanan Neraka[] atau yang sebelumnya dikenal sebagai [accent]Kepulauan Agung[] adalah sebuah oasis yang dipenuhi vegetasi dan dihuni oleh makhluk barit.
+infernobastion.message4 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 04:\nSebelum dibanjiri oleh lava, suhu di sektor ini adalah 13°C yang merupakan suhu yang sesuai untuk penduduk dan vegetasi setempat.
 in_ID:
-infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01: Dinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
-infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02: Sebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
-infernobastion.message3 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 03: [accent]Benteng Pertahanan Neraka[] atau yang sebelumnya dikenal sebagai [accent]Kepulauan Agung[] adalah sebuah oasis yang dipenuhi vegetasi dan dihuni oleh makhluk barit.
-infernobastion.message4 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 04: Sebelum dibanjiri oleh lava, suhu di sektor ini adalah 13°C yang merupakan suhu yang sesuai untuk penduduk dan vegetasi setempat.
+infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01:\nDinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
+infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02:\nSebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
+infernobastion.message3 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 03:\n[accent]Benteng Pertahanan Neraka[] atau yang sebelumnya dikenal sebagai [accent]Kepulauan Agung[] adalah sebuah oasis yang dipenuhi vegetasi dan dihuni oleh makhluk barit.
+infernobastion.message4 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 04:\nSebelum dibanjiri oleh lava, suhu di sektor ini adalah 13°C yang merupakan suhu yang sesuai untuk penduduk dan vegetasi setempat.
 
 #Nidus
 de:
