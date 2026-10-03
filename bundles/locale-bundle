@@ -103,45 +103,45 @@ facunit.message9 = [lightgray]Muatan yang akan didaur ulang: --73--\nMuatan akan
 
 #Bioweapon Facility
 de:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [scarlet]Data Unavailable
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [salmon]Data Unavailable
 ru:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [scarlet]Data Unavailable
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [salmon]Data Unavailable
 uk_UA:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [scarlet]Data Unavailable
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [salmon]Data Unavailable
 zh_CN:
-bioweapon.document1 = 档案 B-F-022：重晶石生物拥有高度智慧，能够组装从简单到略微复杂的构件。它们的交流方式似乎包括：低吼、咔哒声、尖叫声等。
-bioweapon.document2 = 档案 B-F-197：在它们的身体变为放射性物质构成之前，它们和大多数普通哺乳动物并无二致——浓密鲜艳的皮毛、强健的四肢、夜视能力，以及更长更细的尾巴。
-bioweapon.document3 = 档案 B-F-767：[red]生化武器[]计划将于十天内启动。目前防线尚能有效抵挡重晶石生物；一旦生化武器完成，这支变异的兽群将再一次被彻底清除。
-bioweapon.unavailable = [scarlet]数据不可用
+bioweapon.document1 = 档案 B-F-022：重晶石生物拥有高度智慧，\n能够组装从简单到略微复杂的构件。它们的交流方式似乎包括：低吼、咔哒声、尖叫声等。
+bioweapon.document2 = 档案 B-F-197：在它们的身体变为放射性物质构成之前，\n它们和大多数普通哺乳动物并无二致——浓密鲜艳的皮毛、强健的四肢、夜视能力，以及更长更细的尾巴。
+bioweapon.document3 = 档案 B-F-767：[red]生化武器[]计划将于十天内启动。\n目前防线尚能有效抵挡重晶石生物；一旦生化武器完成，这支变异的兽群将再一次被彻底清除。
+bioweapon.unavailable = [salmon]数据不可用
 en:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [scarlet]Data Unavailable
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [salmon]Data Unavailable
 zh_TW:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [scarlet]Data Unavailable
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [salmon]Data Unavailable
 id_ID:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [scarlet]Data Unavailable
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [salmon]Data Unavailable
 in_ID:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence, being able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material, they were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days, defenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [scarlet]Data Unavailable
+bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
+bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
+bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
+bioweapon.unavailable = [salmon]Data Unavailable
 
 #Acropolis
 de:
