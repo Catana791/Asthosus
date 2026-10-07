@@ -13,7 +13,7 @@ lattice.message = [ ⚠ BRT-3分部公告 ⚠ ]\n\n本区域为BRT-3分部管辖
 en:
 lattice.message = [ ⚠ BEGIN AUTOMATED BROADCAST ⚠ ]\n\nTHIS LOCATION IS PROPERTY OF THE [red]DIVISION BRT-3[].\nTAMPERING WITH, OR DESTRUCTION OF, THIS LOCATION'S OUTPOST WILL BE MET WITH USE OF FORCE.\n\n[ ⚠ END AUTOMATED BROADCAST ⚠ ]
 zh_TW:
-lattice.message = [ ⚠ 啟動自動廣播 ⚠ ]\n\n這個地區是由[red]BRT-3分部[]所管轄。\n\n摧毀此地區的前哨站將會被處以最嚴厲的武力對待。\n\n[ ⚠ 關閉自動廣播 ⚠ ]
+lattice.message = [ ⚠ 啟動自動廣播 ⚠ ] \n\n這個地區是由 [red]BRT-3分部[] 所管轄。 \n\n擅自入侵者將會受到武力鎮壓。 \n\n[ ⚠ 關閉自動廣播 ⚠ ]
 id_ID:
 lattice.message = [ ⚠ MEMULAI SIARAN OTOMATIS ⚠ ]\n\nLOKASI INI ADALAH PROPERTI MILIK [red]FRAKSI BRT-3[].\nPERUSAKAN TERHADAP POS TERDEKAT DI LOKASI INI AKAN MENGHADAPI HUKUM.\n\n[ ⚠ SIARAN OTOMATIS BERAKHIR ⚠ ]
 in_ID:
@@ -71,15 +71,15 @@ facunit.message7 = Due to the [red]Arumis[] neglecting this sector,\nthere is no
 facunit.message8 = [red]Arumis Junkyard [gray]#9344
 facunit.message9 = [lightgray]Payload to be recycled: --73--\nPayload to be incinerated: --107--\n\nResource count: 277%
 zh_TW:
-facunit.message1 = [red]阿魯米斯[]關閉了[accent]編號0047軍備工廠[]。\n工廠數十年來無人維護，到處都是灰塵。
+facunit.message1 = [red]阿魯米斯[] 關閉了 [accent]編號0047軍備工廠[]。\n工廠數十年來無人維護，到處都是灰塵。
 facunit.message2 = 工廠被迫自生自滅。\n僅存的生產線是他們唯一的防衛手段。
-facunit.message3 = [red]阿魯米斯[]在阿斯托薩斯上， 建造無數的重工業生產設備。\n隨著時間過去，維護這些工廠變得異常困難，有些甚至遭到某種噴射白色血液的生物襲擊。
+facunit.message3 = [red]阿魯米斯[] 曾經在阿斯托薩斯上，建造無數的重工業生產設備。\n隨著時間過去，維護這些工廠變得異常困難，有些甚至遭到某種噴射白色血液的生物襲擊。
 facunit.message4 = 工廠開始大量發生失事，\n有的被沙塵暴吞噬、有的坍塌成廢墟、有的逐漸腐朽、有的甚至遭到害蟲侵擾。
-facunit.message5 = 目前尚可正常運作的生產工廠：\n#[accent]0047 - 狀態 = [][lightgray]關閉[]\n[accent]#0072 - 狀態 = [][lightgray]不可用[]\n#[accent]銃火之地 - 狀態 = []啟用
-facunit.message6 = 過去在工廠還在運作時，\n[red]阿魯米斯[]會向那些無法自行製造先進設備的人，提供這些設備。
-facunit.message7 = 由於[red]阿魯米斯[]捨棄了這個地區，\n您可以使用[accent]砲塔[]來攻擊基地。
+facunit.message5 = 目前尚可正常運作的生產工廠：\n[accent]#0047 - 狀態 = [][lightgray]關閉[]\n[accent]#0072 - 狀態 = [][lightgray]不可用[]
+facunit.message6 = 過去在工廠還在運作時，\n[red]阿魯米斯[] 會向那些無法自行製造先進設備的人，提供這些設備。
+facunit.message7 = 由於 [red]阿魯米斯[] 捨棄了這個地區，\n您可以使用 [accent]砲塔[] 來攻擊基地。
 facunit.message8 = [red]阿魯米斯[] 廢棄物處理場 [gray]#9344
-facunit.message9 = [lightgray]待回收貨物： --73--\n待焚燒貨物： --107--\n\n資產計數: 277
+facunit.message9 = [lightgray]待回收貨物：--73--\n待焚燒貨物：--107--\n\n資產計數: 277%
 in_ID:
 facunit.message1 = [red]Arumis[] menutup operasi [accent]Pabrik Unit No.0047[]\nMarkas ini tidak terurus selama beberapa dekade sehingga dibiarkan terbengkalai.
 facunit.message2 = Pabrik ini dibiarkan bertahan dengan sendirinya, tanpa penjaga.\nApapun pabrik unit yang dimiliki markas ini adalah satu-satunya cara untuk bertahan dan melawan.
@@ -128,10 +128,10 @@ bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioac
 bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
 bioweapon.unavailable = [salmon]Data Unavailable
 zh_TW:
-bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
-bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
-bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
-bioweapon.unavailable = [salmon]Data Unavailable
+bioweapon.document1 = 文件 B-F-022：重晶生物具有高度的智慧，\n能夠組裝簡單至略為複雜的零件。他們的交流方式可能包含：咆哮、咔噠、尖叫等聲音。
+bioweapon.document2 = 文件 B-F-197：在牠們的軀體演化成由放射性物質構成以前，\n牠們的體型與大多數普通的哺乳類動物相似，具有色彩斑斕且濃密的毛皮、強健的四肢、在黑暗中視物的能力，以及長而較細的尾巴。
+bioweapon.document3 = 文件 B-F-767：[red]生物兵器計畫[]將於十天內啟動，\n目前的防禦措施能夠有效的抵禦重晶生物。一旦生物兵器完成，這些變異的生物將再次被徹底剿滅。
+bioweapon.unavailable = [salmon]數據不可用
 id_ID:
 bioweapon.document1 = Dokumen B-F-022: Makhluk Barit memiliki kecerdasan tinggi,\nmampu merakit komponen mulai dari yang sederhana hingga yang agak rumit, bentuk komunikasi mereka tampaknya mencakup: geraman, bunyi kertak, pekikan, dan lain-lain.
 bioweapon.document2 = Dokumen B-F-197: Sebelum tubuh mereka terdiri dari materi radioaktif,\nmereka memiliki fisik seperti kebanyakan mamalia pada umumnya: berbulu lebat dan berwarna-warni, memiliki anggota tubuh yang kuat, kemampuan melihat dalam kegelapan, serta ekor yang panjang dan ramping.
@@ -222,10 +222,10 @@ infernobastion.message2 = Document 02: - most of the terrain is coated in a laye
 infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
 infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
 zh_TW:
-infernobastion.message1 = 文檔 01：地獄堡壘之名，源自於流淌著從[red]熔融高地[]過來的大量[orange]熔渣[]，以及其有利於建造堅固防禦工事的地形、和其守備能力的潛能。
-infernobastion.message2 = 文檔 02：大部分的地表上，都覆蓋著一層堅固的黑曜石，使得熔渣能夠保持高溫不立刻冷卻。
-infernobastion.message3 = 文檔 03：地獄堡壘過去被稱之為「煉獄列島」，是一片植被茂盛的綠洲，居住著####、或稱之為[red]重晶生物[]。
-infernobastion.message4 = 文檔 04：在這個地區被熔渣淹沒之前，綠洲的溫度保持在1089°ATU(攝氏53度)，這對於當地居民和植被來說，是一個相當舒適的溫度。
+infernobastion.message1 = 文檔 01：「地獄堡壘」之名，源自於流淌著從 [red]熔融高地[] 過來的大量 [orange]熔渣[]，以及其有利於建造堅固防禦工事的地形、和其守備能力的潛能。
+infernobastion.message2 = 文檔 02：大部分的地表上，都覆蓋著一層堅固的黑曜石，使得熔渣能夠保持高溫而不會快速冷卻。
+infernobastion.message3 = 文檔 03：地獄堡壘過去被稱之為「煉獄列島」，是一片植被茂盛的綠洲，居住著####、或稱之為 [red]重晶生物[] 的存在。
+infernobastion.message4 = 文檔 04：在這個地區被熔渣淹沒之前，綠洲的溫度保持在1089°ATU(攝氏35度)，這對於當地居民和植被來說，是一個相當舒適的溫度。
 id_ID:
 infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01:\nDinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
 infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02:\nSebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
@@ -254,7 +254,7 @@ en:
 nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
 nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
 zh_TW:
-nidus.message1 = 由於該地區的危險性，[red]阿魯米斯[]無法對該地區進行詳細的偵查。\n不過[red]阿魯米斯[]可能找到一種辦法，在不驚動 [gray]───[] 的情況下進入該地區。
+nidus.message1 = 由於該地區的危險性，[red]阿魯米斯[]無法對該地區進行詳細的偵查。\n不過[red]阿魯米斯[]可能找到一種辦法，在不驚動 [gray]-----[] 的情況下進入該地區。
 nidus.message2 = 該地區的數據庫仍是最高機密，至今依然沒有人知道其中的內容，只能看見資料庫顯示「[red][數據不可用][]」
 id_ID:
 nidus.message1 = Karena tingkat bahaya yang sangat tinggi di sektor ini, [red]Arumis[] gagal menjelajahi sektor ini dengan aman. Walaupun gagal, [red]Arumis[] telah berhasil menemukan cara untuk membangun markas di sektor ini tanpa membuat makhluk barit merasa terancam.
