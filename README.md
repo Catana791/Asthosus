@@ -58,6 +58,7 @@ Asthosus is available in multiple languages!
 
 - English
 - German
+- Spanish
 - Russian
 - Traditional Chinese
 - Simplified Chinese
