@@ -4,6 +4,8 @@
 #Lattice
 de:
 lattice.message = [ ⚠ BEGINNE AUTOMATISCHE ÜBERTRAGUNG ⚠ ]\n\nDIESER ORT IST EIGENTUM DER [red]DIVISION BRT-3[].\nDAS MANIPULIEREN ODER ZERSTÖREN DES AUSSENPOSTENS WIRD MIT GEWALT BEANTWORTET.\n\n[ ⚠ ENDE AUTOMATISCHE ÜBERTRAGUNG ⚠ ]
+es:
+lattice.message = [ ⚠ INICIANDO TRANSMISIÓN AUTOMATIZADA ⚠ ]\n\nESTA UBICACIÓN ES PROPIEDAD DE LA [red]DIVISIÓN BRT-3[].\nLA MANIPULACIÓN O DESTRUCCIÓN DEL PUESTO AVANZADO DE ESTA UBICACIÓN SERÁ ENFRENTADA CON EL USO DE LA FUERZA.\n\n[ ⚠ FIN DE LA TRANSMISIÓN AUTOMATIZADA ⚠ ]
 ru:
 lattice.message = [ ⚠ НАЧАЛО АВТОМАТИЧСКОЙ ПЕРЕДАЧИ ⚠ ]\n\nЭТОТ СЕКТОР ПРИНАДЛЕЖИТ [red]ДИВИЗИОНУ BRT-3[].\nВМЕШАТЕЛЬСТВО В РАБОТУ, ИЛИ УНИЧТОЖЕНИЕ МЕСТНОГО АВАНПОСТА БУДЕТ ВСТРЕЧЕННО СИЛОЙ.\n\n[ ⚠ КОНЕЦ АВТОМАТИЧСКОЙ ПЕРЕДАЧИ ⚠ ]
 uk_UA:
@@ -13,7 +15,9 @@ lattice.message = [ ⚠ BRT-3分部公告 ⚠ ]\n\n本区域为BRT-3分部管辖
 en:
 lattice.message = [ ⚠ BEGIN AUTOMATED BROADCAST ⚠ ]\n\nTHIS LOCATION IS PROPERTY OF THE [red]DIVISION BRT-3[].\nTAMPERING WITH, OR DESTRUCTION OF, THIS LOCATION'S OUTPOST WILL BE MET WITH USE OF FORCE.\n\n[ ⚠ END AUTOMATED BROADCAST ⚠ ]
 zh_TW:
-lattice.message = [ ⚠ 啟動自動廣播 ⚠ ] \n\n這個地區是由 [red]BRT-3分部[] 所管轄。 \n\n擅自入侵者將會受到武力鎮壓。 \n\n[ ⚠ 關閉自動廣播 ⚠ ]
+lattice.message = [ ⚠ 啟動自動廣播 ⚠ ]\n\n這個地區是由[red]BRT-3分部[]所管轄。\n擅自入侵者將會受到武力鎮壓。\n\n[ ⚠ 關閉自動廣播 ⚠ ]
+ja:
+lattice.message = [ ⚠ 自動放送開始 ⚠ ]\n\n本区域は [red]BRT-3部門[] の管轄下にあり、その資産である。\n当区域の前哨基地に対する改ざんおよび破壊行為には、武力をもって対処する。\n\n[ ⚠ 自動放送終了 ⚠ ]
 id_ID:
 lattice.message = [ ⚠ MEMULAI SIARAN OTOMATIS ⚠ ]\n\nLOKASI INI ADALAH PROPERTI MILIK [red]FRAKSI BRT-3[].\nPERUSAKAN TERHADAP POS TERDEKAT DI LOKASI INI AKAN MENGHADAPI HUKUM.\n\n[ ⚠ SIARAN OTOMATIS BERAKHIR ⚠ ]
 in_ID:
@@ -30,6 +34,16 @@ facunit.message6 = Years ago when factories were active,\n[red]Arumis[] would de
 facunit.message7 = Due to the [red]Arumis[] neglecting this sector,\nthere is nothing stopping you from utilizing [accent]turrets[] to attack the base.
 facunit.message8 = [red]Arumis Junkyard [gray]#9344
 facunit.message9 = [lightgray]Payload to be recycled: --73--\nPayload to be incinerated: --107--\n\nResource count: 277%
+es:
+facunit.message1 = Los [red]Arumis[] cerraron la operación de la [accent]Factory Unit No.0047[]\nLa base no ha sido mantenida en décadas dejándola marchitarse.
+facunit.message2 = La fábrica fue dejada a su suerte.\nCualquier producción de unidades que tenga, es su única forma de luchar.
+facunit.message3 = Asthosus tenía miles de fábricas construidas y operadas por [red]Arumis[].\nCon el tiempo se demostró que era muy difícil de mantener, algunas se perdieron por bestias que disparan sangre blanca.
+facunit.message4 = El cierre masivo comenzó fábrica por fábrica, dejándolas ser engullidas por tormentas de arena,\ndesmoronarse y convertirse en montones de chatarra, deteriorarse lentamente o incluso ser infestadas.
+facunit.message5 = Las únicas unidades de fábrica funcionales restantes son:\n[accent]#0047 - estado = [lightgray]cerrada\n[accent]#0072 - estado = [lightgray]no disponible
+facunit.message6 = Hace años cuando las fábricas estaban activas,\n[red]Arumis[] entregaba equipo avanzado a aquellos que no podían construirlo ellos mismos.
+facunit.message7 = Debido a que los [red]Arumis[] descuidaron este sector,\nno hay nada que te impida utilizar [accent]torretas[] para atacar la base.
+facunit.message8 = [red]Arumis Junkyard [gray]#9344
+facunit.message9 = [lightgray]Carga a reciclar: --73--\nCarga a incinerar: --107--\n\nConteo de recursos: 277%
 ru:
 facunit.message1 = The [red]Arumis[] closed operation of [accent]Factory Unit No.0047[]\nThe base hasn't been maintained in decades leaving it to wither away.
 facunit.message2 = The factory was left to fend for itself.\nWhatever unit production it has, is their only way to fight back.
@@ -71,15 +85,25 @@ facunit.message7 = Due to the [red]Arumis[] neglecting this sector,\nthere is no
 facunit.message8 = [red]Arumis Junkyard [gray]#9344
 facunit.message9 = [lightgray]Payload to be recycled: --73--\nPayload to be incinerated: --107--\n\nResource count: 277%
 zh_TW:
-facunit.message1 = [red]阿魯米斯[] 關閉了 [accent]編號0047軍備工廠[]。\n工廠數十年來無人維護，到處都是灰塵。
+facunit.message1 = [red]阿魯米斯[]關閉了[accent]編號0047軍備工廠[]。\n工廠數十年來無人維護，到處都是灰塵。
 facunit.message2 = 工廠被迫自生自滅。\n僅存的生產線是他們唯一的防衛手段。
-facunit.message3 = [red]阿魯米斯[] 曾經在阿斯托薩斯上，建造無數的重工業生產設備。\n隨著時間過去，維護這些工廠變得異常困難，有些甚至遭到某種噴射白色血液的生物襲擊。
+facunit.message3 = [red]阿魯米斯[]曾經在阿斯托薩斯上，建造無數的重工業生產設備。\n隨著時間過去，維護這些工廠變得異常困難，有些甚至遭到某種噴射白色血液的生物襲擊。
 facunit.message4 = 工廠開始大量發生失事，\n有的被沙塵暴吞噬、有的坍塌成廢墟、有的逐漸腐朽、有的甚至遭到害蟲侵擾。
 facunit.message5 = 目前尚可正常運作的生產工廠：\n[accent]#0047 - 狀態 = [][lightgray]關閉[]\n[accent]#0072 - 狀態 = [][lightgray]不可用[]
-facunit.message6 = 過去在工廠還在運作時，\n[red]阿魯米斯[] 會向那些無法自行製造先進設備的人，提供這些設備。
-facunit.message7 = 由於 [red]阿魯米斯[] 捨棄了這個地區，\n您可以使用 [accent]砲塔[] 來攻擊基地。
-facunit.message8 = [red]阿魯米斯[] 廢棄物處理場 [gray]#9344
-facunit.message9 = [lightgray]待回收貨物：--73--\n待焚燒貨物：--107--\n\n資產計數: 277%
+facunit.message6 = 過去在工廠還在運作時，\n[red]阿魯米斯[]會向那些無法自行製造先進設備的人，提供這些設備。
+facunit.message7 = 由於[red]阿魯米斯[]捨棄了這個地區，\n您可以使用[accent]砲塔[]來攻擊基地。
+facunit.message8 = [red]阿魯米斯[]廢棄物處理場[gray]#9344
+facunit.message9 = [lightgray]待回收貨物：--73--\n待焚燒貨物：--107--\n\n資產計數：277%
+ja:
+facunit.message1 = [red]アルミス[] は [accent]ファクトリーユニットNo.0047[] の稼働を停止した。\nこの基地は数十年間保守されておらず、荒廃するに任されている。
+facunit.message2 = その工場は自力での防衛を余儀なくされ放置された。\n残されたユニット生産能力こそが、唯一の反撃手段である。
+facunit.message3 = アストスには [red]アルミス[] が建設・稼働させていた数千もの工場が存在した。\nやがて維持管理は極めて困難であることが判明し、白い血液を放つ獣によって失われた工場もあった。
+facunit.message4 = 工場は次々と一斉閉鎖され、砂嵐に飲み込まれるもの、\n崩壊してスクラップの山と化すもの、徐々に朽ちていくもの、さらには害獣の巣窟となるものまで現れた。
+facunit.message5 = 現在稼働可能なファクトリーユニットは以下のみ：\n[accent]#0047 - ステータス = [lightgray]閉鎖\n[accent]#0072 - ステータス = [lightgray]利用不可
+facunit.message6 = 数年前、工場が稼働していた頃、\n[red]アルミス[] は自力で製造できない工場へ先進装備を配送していた。
+facunit.message7 = [red]アルミス[] がこのセクターを放置しているため、\n[accent]砲塔[] を使って基地を攻撃するのを妨げるものは何もない。
+facunit.message8 = [red]アルミス・スクラップ処理場 [gray]#9344
+facunit.message9 = [lightgray]リサイクル対象ペイロード：--73--\n焼却対象ペイロード：--107--\n\n資源カウント：277%
 in_ID:
 facunit.message1 = [red]Arumis[] menutup operasi [accent]Pabrik Unit No.0047[]\nMarkas ini tidak terurus selama beberapa dekade sehingga dibiarkan terbengkalai.
 facunit.message2 = Pabrik ini dibiarkan bertahan dengan sendirinya, tanpa penjaga.\nApapun pabrik unit yang dimiliki markas ini adalah satu-satunya cara untuk bertahan dan melawan.
@@ -107,6 +131,11 @@ bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligen
 bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
 bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
 bioweapon.unavailable = [salmon]Data Unavailable
+es:
+bioweapon.document1 = Documento B-F-022: Las criaturas Barite poseen alta inteligencia, siendo capaces de ensamblar esquemas simples a algo complicados, su forma de comunicación parece incluir: gruñidos, ruidos de clic, aullidos y otros.
+bioweapon.document2 = Documento B-F-197: Antes de que sus cuerpos consistieran en material radiactivo, estaban construidos como la mayoría de los mamíferos genéricos, con pelaje colorido, pelaje denso, extremidades fuertes, capacidad de ver en la oscuridad, colas largas y más delgadas
+bioweapon.document3 = Documento B-F-767: El Proyecto [red]Bioweapon[] comienza en 10 días, las defensas están conteniendo bien a las criaturas barite, una vez que el arma biológica esté completa la horda mutada será erradicada una vez más
+bioweapon.unavailable = [scarlet]Datos No Disponibles
 ru:
 bioweapon.document1 = Document B-F-022: Barite creatures possess high intelligence,\nbeing able to assemble simple to somewhat complicated schematics, their form of communication seems to include: growls, clicking noises, yelps and other.
 bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioactive material,\nthey were built like most generic mammals, with colorful fur, dense fur, strong limbs, ability to see in the dark, long and more thinner tails
@@ -128,10 +157,15 @@ bioweapon.document2 = Document B-F-197: Before their bodies consisted of radioac
 bioweapon.document3 = Document B-F-767: Project [red]Bioweapon[] begins within 10 days,\ndefenses are holding off barite creatures well, once the bioweapon is complete the mutated horde will be eradicated once more
 bioweapon.unavailable = [salmon]Data Unavailable
 zh_TW:
-bioweapon.document1 = 文件 B-F-022：重晶生物具有高度的智慧，\n能夠組裝簡單至略為複雜的零件。他們的交流方式可能包含：咆哮、咔噠、尖叫等聲音。
-bioweapon.document2 = 文件 B-F-197：在牠們的軀體演化成由放射性物質構成以前，\n牠們的體型與大多數普通的哺乳類動物相似，具有色彩斑斕且濃密的毛皮、強健的四肢、在黑暗中視物的能力，以及長而較細的尾巴。
-bioweapon.document3 = 文件 B-F-767：[red]生物兵器計畫[]將於十天內啟動，\n目前的防禦措施能夠有效的抵禦重晶生物。一旦生物兵器完成，這些變異的生物將再次被徹底剿滅。
+bioweapon.document1 = 文檔B-F-022：重晶生物具有高度的智慧，能夠組裝簡單至略為複雜的零件。\n他們的交流方式可能包含：咆哮、咔噠、尖叫等聲音。
+bioweapon.document2 = 文檔B-F-197：在牠們的軀體演化成由放射性物質構成以前，牠們的體型與多數一般哺乳動物相似，\n具有色彩斑斕且濃密的毛皮、強健的四肢、在黑暗中視物的能力，以及長而較細的尾巴。
+bioweapon.document3 = 文檔B-F-767：[red]生物兵器計畫[]將於十天內啟動，目前的防禦措施能夠有效的抵禦重晶生物。\n一旦生物兵器完成，這些變異的生物將再次被徹底剿滅。
 bioweapon.unavailable = [salmon]數據不可用
+ja:
+bioweapon.document1 = 文書B-F-022：バライト生物は高い知能を有しており、\n単純なものからやや複雑な設計図まで組み立てることが可能である。意思疎通の手段には、唸り声、カチカチという音、甲高い鳴き声などが含まれるようだ。
+bioweapon.document2 = 文書B-F-197：その身体が放射性物質で構成されるようになる以前は、\n色鮮やかで密な毛皮、強靭な四肢、暗視能力、そして長く細い尾を備えるなど、一般的な哺乳類に近い構造をしていた。
+bioweapon.document3 = 文書B-F-767：[red]生物兵器[] 計画は10日以内に開始される。\n防衛線はバライト生物を十分に食い止めている。生物兵器が完成すれば、変異した群れは再び根絶されるだろう。
+bioweapon.unavailable = [salmon]データ利用不可
 id_ID:
 bioweapon.document1 = Dokumen B-F-022: Makhluk Barit memiliki kecerdasan tinggi,\nmampu merakit komponen mulai dari yang sederhana hingga yang agak rumit, bentuk komunikasi mereka tampaknya mencakup: geraman, bunyi kertak, pekikan, dan lain-lain.
 bioweapon.document2 = Dokumen B-F-197: Sebelum tubuh mereka terdiri dari materi radioaktif,\nmereka memiliki fisik seperti kebanyakan mamalia pada umumnya: berbulu lebat dan berwarna-warni, memiliki anggota tubuh yang kuat, kemampuan melihat dalam kegelapan, serta ekor yang panjang dan ramping.
@@ -146,6 +180,8 @@ bioweapon.unavailable = [salmon]Data tidak tersedia
 #Acropolis
 de:
 acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
+es:
+acropolis.message = Documento de Acropolis #0980\nDebido a la ubicación extremadamente aislada, cualquier equipo viejo e inutilizable se envía a un vertedero
 ru:
 acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
 uk_UA:
@@ -155,7 +191,9 @@ acropolis.message = 卫城档案 #0980\n由于地理位置极为偏远，任何�
 en:
 acropolis.message = Acropolis Document #0980\nDue to the extremely isolated location, any old and unusable equipment is sent off to a junkyard
 zh_TW:
-acropolis.message = 衛城文檔 #0980\n由於地理位置極為偏遠，任何老舊或無法使用的設備都會被送到廢棄物處理場。
+acropolis.message = 衛城文檔#0980：\n由於地理位置極為偏遠，任何老舊或無法使用的設備，都會被送到廢棄物處理場。
+ja:
+acropolis.message = アクロポリス文書 #0980\n極めて孤立した立地のため、老朽化して使用不能となった機材はすべてスクラップ処理場へ送られる。
 id_ID:
 acropolis.message = Dokumen Sektor Akropolis #0980\nKarena lokasinya yang sangat sempit dan terisolasi, semua peralatan lama yang tidak dapat digunakan lagi telah dikirim ke tempat barang rongsokan.
 in_ID:
@@ -166,6 +204,10 @@ de:
 molten.message1 = Research Document #7988\nBarite Creatures are fascinating beings, just like any creature they are also prone to infighting despite living as a hive and sometimes to prove dominance will ally with anything or anyone.
 molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
 molten.message3 = Research Document #9987\nDespite being very cooperative creatures, the very moment their needs and goals are satisfied they ditch the relationship entirely and return to their hives.
+es:
+molten.message1 = Documento de Investigación #7988\nLas Criaturas Barite son seres fascinantes, al igual que cualquier criatura también son propensas a las peleas internas a pesar de vivir como una colmena y a veces para demostrar dominancia se aliarán con cualquier cosa o cualquiera.
+molten.message2 = Documento de Investigación #8825\nHay muchas formas de domesticar una bestia salvaje en Asthosus, desde ofrecer recursos hasta ofrecer métodos para mostrar dominancia contra sus rivales.
+molten.message3 = Documento de Investigación #9987\nA pesar de ser criaturas muy cooperativas, en el momento en que sus necesidades y objetivos se satisfacen abandonan completamente la relación y regresan a sus colmenas.
 ru:
 molten.message1 = Research Document #7988\nBarite Creatures are fascinating beings, just like any creature they are also prone to infighting despite living as a hive and sometimes to prove dominance will ally with anything or anyone.
 molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
@@ -183,9 +225,13 @@ molten.message1 = Research Document #7988\nBarite Creatures are fascinating bein
 molten.message2 = Research Document #8825\nThere are many ways to tame a wild beast on Asthosus, from offering resources to offering methods to show dominance against their rivals.
 molten.message3 = Research Document #9987\nDespite being very cooperative creatures, the very moment their needs and goals are satisfied they ditch the relationship entirely and return to their hives.
 zh_TW:
-molten.message1 = 研究文檔 #7988\n重晶生物是令人著迷的存在。就像任何生物一樣、儘管它們群居生活，但也容易發生內訌。有時為了證明自己的統治地位，它們會與任何人事物結盟。
-molten.message2 = 研究文檔 #8825\n在阿斯托薩斯，有許多方式能馴服野生動物，從提供資源、到提供對抗競爭對手的手段，不一而足。
-molten.message3 = 研究文檔 #9987\n儘管它們樂於利益結盟，不過一旦自身的需求和目標達成，它們就會徹底拋棄合作協議，回到自己的巢穴。
+molten.message1 = 研究文檔#7988：重晶生物是令人著迷的存在。就像任何生物一樣、儘管它們群居生活，\n但也容易發生內訌。有時為了證明自己的統治地位，它們會與任何人事物結盟。
+molten.message2 = 研究文檔#8825：在阿斯托薩斯，有許多方式能馴服野生動物。\n從提供資源、到提供對抗競爭對手的手段，不一而足。
+molten.message3 = 研究文檔#9987：儘管它們樂於利益結盟，不過一旦自身的需求和目標達成，\n它們就會徹底拋棄合作協議，回到自己的巢穴。
+ja:
+molten.message1 = 研究文書 #7988\nバライト生物は実に興味深い存在である。\n他の生物と同じく群れで生活しながらも内紛を起こしやすく、時には優位性を誇示するために誰とでも、何とでも手を組むことがある。
+molten.message2 = 研究文書 #8825\nアストスで野生の獣を手懐ける方法はいくつもある。\n資源を与えることから、ライバルに対して優位性を示す手段を提供することまで様々だ。
+molten.message3 = 研究文書 #9987\n非常に協力的な性質を見せる一方で、\n自らの欲求と目的が満たされた瞬間、関係性を完全に打ち切って巣穴へと帰っていく。
 id_ID:
 molten.message1 = Dokumen Penelitian #7988\nMakhluk barit adalah makhluk yang menarik. Seperti makhluk lainnya, mereka juga rentan terhadap perselisihan internal meskipun hidup berkelompok dan terkadang untuk membuktikan dominasi mereka akan bersekutu dengan apa pun atau siapa pun untuk tetap hidup.
 molten.message2 = Dokumen Penelitian #8825\nAda banyak cara untuk menjinakkan mahluk buas di Asthosus, mulai dari menawarkan sumber daya hingga menawarkan metode untuk menunjukkan dominasi terhadap saingan mereka.
@@ -201,6 +247,11 @@ infernobastion.message1 = Document 01: - Inferno Bastion was given its name due 
 infernobastion.message2 = Document 02: - most of the terrain is coated in a layer of sturdy obsidian allowing the slag to keep its heat without cooling too fast.
 infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
 infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
+es:
+infernobastion.message1 = Documento 01: - Inferno Bastion recibió su nombre debido a la fuerte inundación de [orange]slag[] proveniente de [red]Molten Heights[] y debido al terreno que permite una fuerte fortificación y potencial de defensa sin fin.
+infernobastion.message2 = Documento 02: - la mayor parte del terreno está recubierto con una capa de obsidiana resistente que permite que el slag mantenga su calor sin enfriarse demasiado rápido.
+infernobastion.message3 = Documento 03: - Inferno Bastion o anteriormente conocido como "Inferno Archipelago" era un oasis floreciente con vegetación y habitado por #### o también conocidos como [red]Criaturas Barite[].
+infernobastion.message4 = Documento 04: - Antes de ser inundado por slag, la temperatura en el área durante su era de oasis era de 1089°ATU (35°C) que era una temperatura adecuada para los habitantes locales y la vegetación.
 ru:
 infernobastion.message1 = Document 01: - Inferno Bastion was given its name due to heavy flooding of [orange]slag[] coming from [red]Molten Heights[] and due to the terrain allowing for heavy fortification and endless defense potential.
 infernobastion.message2 = Document 02: - most of the terrain is coated in a layer of sturdy obsidian allowing the slag to keep its heat without cooling too fast.
@@ -222,10 +273,15 @@ infernobastion.message2 = Document 02: - most of the terrain is coated in a laye
 infernobastion.message3 = Document 03: - Inferno Bastion or previously known as "Inferno Archipelago" was a oasis blooming with vegetation and inhabited by #### or also known as [red]Barite Creatures[].
 infernobastion.message4 = Document 04: - Before it was flooded by slag, the temperature in the area during its oasis age was 1089°ATU (35°C) which was a suitable temperature for the local inhabitants and vegetation.
 zh_TW:
-infernobastion.message1 = 文檔 01：「地獄堡壘」之名，源自於流淌著從 [red]熔融高地[] 過來的大量 [orange]熔渣[]，以及其有利於建造堅固防禦工事的地形、和其守備能力的潛能。
-infernobastion.message2 = 文檔 02：大部分的地表上，都覆蓋著一層堅固的黑曜石，使得熔渣能夠保持高溫而不會快速冷卻。
-infernobastion.message3 = 文檔 03：地獄堡壘過去被稱之為「煉獄列島」，是一片植被茂盛的綠洲，居住著####、或稱之為 [red]重晶生物[] 的存在。
-infernobastion.message4 = 文檔 04：在這個地區被熔渣淹沒之前，綠洲的溫度保持在1089°ATU(攝氏35度)，這對於當地居民和植被來說，是一個相當舒適的溫度。
+infernobastion.message1 = 文檔01：「地獄堡壘」之名，源自於流淌著從[red]熔融高地[]過來的大量[orange]熔渣[]，\n以及其有利於建造堅固防禦工事的地形、和其守備能力的潛能。
+infernobastion.message2 = 文檔02：大部分的地表上，都覆蓋著一層堅固的黑曜石，\n使得熔渣能夠保持高溫而不會快速冷卻。
+infernobastion.message3 = 文檔03：地獄堡壘過去被稱之為「煉獄列島」，\n是一片植被茂盛的綠洲，居住著####、或稱之為[red]重晶生物[]的存在。
+infernobastion.message4 = 文檔04：在這個地區被熔渣淹沒之前，綠洲的溫度保持在1089°ATU（攝氏35度），\n這對於當地居民和植被來說，是一個相當舒適的溫度。
+ja:
+infernobastion.message1 = 文書01： - 業火の要塞という名は、[red]溶融の高地[] から大量の [orange]スラグ[] が流れ込んでいること、そして強固な要塞化と無限の防衛ポテンシャルを可能にする地形に由来する。
+infernobastion.message2 = 文書02： - 地形の大半は頑丈な黒曜石の層で覆われており、スラグが急速に冷えることなく高温を保てるようになっている。
+infernobastion.message3 = 文書03： - 業火の要塞、かつて「インフェルノ諸島」と呼ばれていた地は、植生が咲き誇るオアシスであり、####、すなわち [red]バライト生物[] として知られる存在が生息していた。
+infernobastion.message4 = 文書04： - スラグに飲み込まれる以前、オアシス時代のこの地域の気温は1089°ATU（35°C）であり、現地の住民と植生にとって適した気候だった。
 id_ID:
 infernobastion.message1 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 01:\nDinamakan [accent]Benteng Pertahanan Neraka[] karena banjir lava yang cukup besar berasal dari sektor [accent]Bukit Magma[] turun ke sektor ini dan membanjiri seluruh wilayah.
 infernobastion.message2 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No. 02:\nSebagian besar wilayah sektor ini dilapisi oleh lapisan obsidian yang kokoh sehingga memungkinkan lava untuk mempertahankan suhu panasnya tanpa mendingin terlalu cepat.
@@ -241,6 +297,9 @@ infernobastion.message4 = Dokumen Penelitian Sektor Benteng Pertahanan Neraka No
 de:
 nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
 nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
+es:
+nidus.message1 = Debido a los peligros de este sector, los [red]Arumis[] no lograron explorarlo adecuadamente.\nLos [red]Arumis[] han encontrado formas de poner pie sin alertar a los [gray]------
+nidus.message2 = La base de datos del sector permanece como información altamente clasificada, hasta el día de hoy nada y nadie sabe qué hay en ella, dejando que la base de datos muestre "[red][Datos no disponibles][]"
 ru:
 nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
 nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
@@ -254,8 +313,11 @@ en:
 nidus.message1 = Due to the dangers of this sector, the [red]Arumis[] failed to explore it properly.\nThe [red]Arumis[] have found ways to set foot by not alerting the [gray]------
 nidus.message2 = The sectors database remains highly classified information, to this day nothing and no one knows what's in it, leaving the database showing "[red][Data unavailable][]"
 zh_TW:
-nidus.message1 = 由於該地區的危險性，[red]阿魯米斯[]無法對該地區進行詳細的偵查。\n不過[red]阿魯米斯[]可能找到一種辦法，在不驚動 [gray]-----[] 的情況下進入該地區。
-nidus.message2 = 該地區的數據庫仍是最高機密，至今依然沒有人知道其中的內容，只能看見資料庫顯示「[red][數據不可用][]」
+nidus.message1 = 由於該地區的危險性，[red]阿魯米斯[]無法對該地區進行詳細的偵查。\n不過[red]阿魯米斯[]可能找到一種辦法，在不驚動[gray]-----[]的情況下進入該地區。
+nidus.message2 = 該地區的數據庫仍是最高機密，至今依然沒有人知道其中的內容，\n只能看見資料庫顯示「[red][數據不可用][]」
+ja:
+nidus.message1 = このセクターの危険性ゆえに、[red]アルミス[] は十分な調査を行えなかった。\nしかし [red]アルミス[] は、[gray]------[] を刺激せずに足を踏み入れる方法を見つけ出したようだ。
+nidus.message2 = このセクターのデータベースは今なお最高機密扱いであり、現在に至るまでそこに何があるのか誰も知らない。データベースにはただ「[red][データ利用不可][]」と表示されている。
 id_ID:
 nidus.message1 = Karena tingkat bahaya yang sangat tinggi di sektor ini, [red]Arumis[] gagal menjelajahi sektor ini dengan aman. Walaupun gagal, [red]Arumis[] telah berhasil menemukan cara untuk membangun markas di sektor ini tanpa membuat makhluk barit merasa terancam.
 nidus.message2 = Basis data sektor ini merupakan informasi yang sangat rahasia, hingga hari ini tidak ada seorang pun yang tahu apa isinya, sehingga basis data yang ditemukan hanya menampilkan [red]["Data Tidak Tersedia"]
