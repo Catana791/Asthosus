@@ -63,6 +63,7 @@ Asthosus is available in multiple languages!
 - Traditional Chinese
 - Simplified Chinese
 - Ukrainian
+- Japanese
 - Indonesian
 <br>
 <br>
