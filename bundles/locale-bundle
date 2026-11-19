@@ -320,7 +320,7 @@ nidus.message1 = このセクターの危険性ゆえに、[red]アルミス[] �
 nidus.message2 = このセクターのデータベースは今なお最高機密扱いであり、現在に至るまでそこに何があるのか誰も知らない。データベースにはただ「[red][データ利用不可][]」と表示されている。
 id_ID:
 nidus.message1 = Karena tingkat bahaya yang sangat tinggi di sektor ini, [red]Arumis[] gagal menjelajahi sektor ini dengan aman. Walaupun gagal, [red]Arumis[] telah berhasil menemukan cara untuk membangun markas di sektor ini tanpa membuat makhluk barit merasa terancam.
-nidus.message2 = Basis data sektor ini merupakan informasi yang sangat rahasia, hingga hari ini tidak ada seorang pun yang tahu apa isinya, sehingga basis data yang ditemukan hanya menampilkan [red]["Data Tidak Tersedia"]
+nidus.message2 = Basis data sektor ini merupakan informasi yang sangat rahasia,\nhingga hari ini tidak ada seorang pun yang tahu apa isinya, sehingga basis data yang ditemukan hanya menampilkan [red]["Data Tidak Tersedia"]
 in_ID:
 nidus.message1 = Karena tingkat bahaya yang sangat tinggi di sektor ini, [red]Arumis[] gagal menjelajahi sektor ini dengan aman. Walaupun gagal, [red]Arumis[] telah berhasil menemukan cara untuk membangun markas di sektor ini tanpa membuat makhluk barit merasa terancam.
-nidus.message2 = Basis data sektor ini merupakan informasi yang sangat rahasia, hingga hari ini tidak ada seorang pun yang tahu apa isinya, sehingga basis data yang ditemukan hanya menampilkan [red]["Data Tidak Tersedia"]
+nidus.message2 = Basis data sektor ini merupakan informasi yang sangat rahasia,\nhingga hari ini tidak ada seorang pun yang tahu apa isinya, sehingga basis data yang ditemukan hanya menampilkan [red]["Data Tidak Tersedia"]
