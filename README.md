@@ -58,13 +58,13 @@ Asthosus is available in multiple languages!
 
 - English
 - German
-- Spanish
-- Russian
-- Traditional Chinese
-- Simplified Chinese
-- Ukrainian
-- Japanese
 - Indonesian
+- Japanese
+- Russian
+- Simplified Chinese
+- Spanish
+- Traditional Chinese
+- Ukrainian
 <br>
 <br>
 
